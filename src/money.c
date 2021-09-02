@@ -107,6 +107,26 @@ void AddMoney(u32* moneyPtr, u32 toAdd)
     SetMoney(moneyPtr, toSet);
 }
 
+void MultiplyMoney(u32* moneyPtr, u32 toMultiply)
+{
+    u32 toSet = GetMoney(moneyPtr);
+
+    // can't have more money than MAX
+    if (toSet * toMultiply > MAX_MONEY)
+    {
+        toSet = MAX_MONEY;
+    }
+    else
+    {
+        toSet *= toMultiply;
+        // check overflow, can't have less money after you receive more
+        if (toSet < GetMoney(moneyPtr))
+            toSet = MAX_MONEY;
+    }
+
+    SetMoney(moneyPtr, toSet);
+}
+
 void RemoveMoney(u32* moneyPtr, u32 toSub)
 {
     u32 toSet = GetMoney(moneyPtr);
