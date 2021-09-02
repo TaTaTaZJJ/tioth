@@ -1766,6 +1766,46 @@ bool8 ScrCmd_checkmoney(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_addmoneywithvar(struct ScriptContext *ctx)
+{
+    u16 amount = VarGet(ScriptReadHalfword(ctx));
+    u8 ignore = ScriptReadByte(ctx);
+
+    if (!ignore)
+        AddMoney(&gSaveBlock1Ptr->money, amount);
+    return FALSE;
+}
+
+bool8 ScrCmd_removemoneywithvar(struct ScriptContext *ctx)
+{
+    u16 amount = VarGet(ScriptReadHalfword(ctx));
+    u8 ignore = ScriptReadByte(ctx);
+
+    if (!ignore)
+        RemoveMoney(&gSaveBlock1Ptr->money, amount);
+    return FALSE;
+}
+
+bool8 ScrCmd_checkwithvar(struct ScriptContext *ctx)
+{
+    u16 amount = VarGet(ScriptReadHalfword(ctx));
+    u8 ignore = ScriptReadByte(ctx);
+
+    if (!ignore)
+        gSpecialVar_Result = IsEnoughMoney(&gSaveBlock1Ptr->money, amount);
+    return FALSE;
+}
+
+bool8 ScrCmd_multiplymoneywithvar(struct ScriptContext *ctx)
+{
+    u16 amount = VarGet(ScriptReadHalfword(ctx));
+    u8 ignore = ScriptReadByte(ctx);
+
+    if (!ignore)
+        MultiplyMoney(&gSaveBlock1Ptr->money, amount);
+    return FALSE;
+}
+
 bool8 ScrCmd_showmoneybox(struct ScriptContext *ctx)
 {
     u8 x = ScriptReadByte(ctx);
