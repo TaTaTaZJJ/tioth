@@ -1826,7 +1826,7 @@ bool8 ScrCmd_removemoneywithvar(struct ScriptContext *ctx)
     return FALSE;
 }
 
-bool8 ScrCmd_checkwithvar(struct ScriptContext *ctx)
+bool8 ScrCmd_checkmoneywithvar(struct ScriptContext *ctx)
 {
     u16 amount = VarGet(ScriptReadHalfword(ctx));
     u8 ignore = ScriptReadByte(ctx);
