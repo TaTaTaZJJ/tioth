@@ -1664,6 +1664,33 @@
 	.byte \check
 	.endm
 
+	@ Changes the value of destination by multiplying value to it. Overflow is not prevented (0xFFFF + 1 = 0x0000).
+	.macro multiplyvar destination:req, value:req
+	.byte 0xe7
+	.2byte \destination
+	.2byte \value
+	.endm
+
+	@ Changes the value of destination by dividing value to it. Overflow is not prevented (0x0000 - 1 = 0xFFFF).
+	.macro dividevar destination:req, value:req
+	.byte 0xe8
+	.2byte \destination
+	.2byte \value
+	.endm
+
+	MATH_ADD = 0
+	MATH_SUB = 1
+	MATH_MULTIPLY = 2
+	MATH_DIVIDE = 3
+	
+	@ Changes the value of destination by value of source with mathematic operation. Overflow is not prevented (0xFFFF + 1 = 0x0000).
+	.macro mathvar destination:req, source:req, operation:req
+	.byte 0xe9
+	.2byte \destination
+	.2byte \source
+	.byte \operation
+	.endm
+
 @ Supplementary
 
 	.macro goto_if_unset flag:req, dest:req
