@@ -125,8 +125,6 @@ extern const u16 gFont2JapaneseGlyphs[];
 extern const u8 gFont2JapaneseGlyphWidths[];
 extern const u16 gFont0ChineseGlyphs[];     //汉字小字模
 extern const u16 gFont1ChineseGlyphs[];     //汉字大字模
-extern const u8 gFont0ChineseGlyphWidths[]; //英文符号小字符宽度
-extern const u8 gFont1ChineseGlyphWidths[]; //英文符号大字符宽度
 
 void SetFontsPointer(const struct FontInfo *fonts)
 {
@@ -1017,7 +1015,7 @@ u16 RenderText(struct TextPrinter *textPrinter)
             gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY);
             textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
             return 0;
-            //编码汉字判定
+        //汉字判定
         case 0x01:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1000;
             textPrinter->printerTemplate.currentChar++;
@@ -1038,99 +1036,99 @@ u16 RenderText(struct TextPrinter *textPrinter)
             currChar = *textPrinter->printerTemplate.currentChar | 0x1400;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x06:
+        case 0x07:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1500;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x07:
+        case 0x08:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1600;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x08:
+        case 0x09:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1700;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x09:
+        case 0x0A:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1800;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x0a:
+        case 0x0B:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1900;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x0b:
+        case 0x0C:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1A00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x0c:
+        case 0x0D:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1B00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x0d:
+        case 0x0E:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1C00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x0e:
+        case 0x0F:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1D00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0xf:
+        case 0x10:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1E00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x10:
+        case 0x11:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1F00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x11:
+        case 0x12:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2000;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x12:
+        case 0x13:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2100;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x13:
+        case 0x14:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2200;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x14:
+        case 0x15:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2300;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x15:
+        case 0x16:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2400;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x16:
+        case 0x17:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2500;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x17:
+        case 0x18:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2600;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x18:
+        case 0x19:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2700;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x19:
+        case 0x1A:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2800;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x1a:
+        case 0x1C:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2900;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x1b:
+        case 0x1D:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2A00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        case 0x1c:
+        case 0x1E:
             currChar = *textPrinter->printerTemplate.currentChar | 0x2B00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        //编码汉字判定结束
+        //汉字判定结束
         case EOS:
             return 1;
         }
@@ -1696,48 +1694,6 @@ u8 GetMenuCursorDimensionByFont(u8 fontId, u8 whichDimension)
     return gMenuCursorDimensions[fontId][whichDimension];
 }
 
-u8 getChineseSmallFontWidth(u16 glyphId) //获取小字符宽度
-{
-    if (glyphId >= 0x2b5e)
-    {
-        return gFont0ChineseGlyphWidths[glyphId - 0x2b5e]; //英文及符号宽度
-    }
-    return 10; //汉字宽度
-}
-
-u16 *getChineseSmallFontGlyph(u16 glyphId) //获取小字模位置
-{
-    u16 offset;
-    if (glyphId > 0x2a6a && glyphId < 0x2a85)
-    {
-        offset = ((glyphId - 0x2a6b) + 0x10) << 8;
-        offset = offset + 0xff - 0x1000;
-        return (u16 *)gFont0ChineseGlyphs + (0x20 * offset);
-    }
-    return (u16 *)gFont0ChineseGlyphs + (0x20 * (glyphId - 0x1000));
-}
-
-u8 getChineseLargeFontWidth(u16 glyphId) //获取大字符宽度
-{
-    if (glyphId >= 0x2b5e)
-    {
-        return gFont1ChineseGlyphWidths[glyphId - 0x2b5e]; //英文及符号宽度
-    }
-    return 12; //汉字宽度
-}
-
-u16 *getChineseLargeFontGlyph(u16 glyphId) //获取大字模位置
-{
-    u16 offset;
-    if (glyphId > 0x2a6a && glyphId < 0x2a85)
-    {
-        offset = ((glyphId - 0x2a6b) + 0x10) << 8;
-        offset = offset + 0xff - 0x1000;
-        return (u16 *)gFont1ChineseGlyphs + (0x20 * offset);
-    }
-    return (u16 *)gFont1ChineseGlyphs + (0x20 * (glyphId - 0x1000));
-}
-
 void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
@@ -1753,8 +1709,8 @@ void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
     {
         if (glyphId >= 0x1000) //两字节字符判定
         {
-            glyphs = getChineseSmallFontGlyph(glyphId);
-            gCurGlyph.width = getChineseSmallFontWidth(glyphId);
+            glyphs = gFont0ChineseGlyphs + (32 * (glyphId - 0x1000));
+            gCurGlyph.width = 10;
         }
         else
         {
@@ -1803,8 +1759,8 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
     {
         if (glyphId >= 0x1000) //两字节字符判定
         {
-            glyphs = getChineseLargeFontGlyph(glyphId);
-            gCurGlyph.width = getChineseLargeFontWidth(glyphId);
+            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
+            gCurGlyph.width = 12;
         }
         else
         {
@@ -1853,8 +1809,8 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
     {
         if (glyphId >= 0x1000) //两字节字符判定
         {
-            glyphs = getChineseSmallFontGlyph(glyphId);
-            gCurGlyph.width = getChineseSmallFontWidth(glyphId);
+            glyphs = gFont0ChineseGlyphs + (32 * (glyphId - 0x1000));
+            gCurGlyph.width = 10;
         }
         else
         {
@@ -1905,8 +1861,8 @@ void DecompressGlyphFont2(u16 glyphId, bool32 isJapanese)
     {
         if (glyphId >= 0x1000) //两字节字符判定
         {
-            glyphs = getChineseLargeFontGlyph(glyphId);
-            gCurGlyph.width = getChineseLargeFontWidth(glyphId);
+            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
+            gCurGlyph.width = 12;
         }
         else
         {
@@ -1955,8 +1911,8 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
     {
         if (glyphId >= 0x1000) //两字节字符判定
         {
-            glyphs = getChineseLargeFontGlyph(glyphId);
-            gCurGlyph.width = getChineseLargeFontWidth(glyphId);
+            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
+            gCurGlyph.width = 12;
         }
         else
         {

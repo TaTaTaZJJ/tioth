@@ -82,11 +82,3 @@ gFont0ChineseGlyphs::
 	.align 2
 gFont1ChineseGlyphs::
 	.incbin "graphics/fonts/font1_chinese.latfont"
-
-	.align 2
-gFont0ChineseGlyphWidths::
-	.include "graphics/fonts/font0_chinese_widths.inc"
-
-	.align 2
-gFont1ChineseGlyphWidths::
-	.include "graphics/fonts/font1_chinese_widths.inc"
