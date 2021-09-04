@@ -43,10 +43,11 @@
     "SpawnPlace"
   ],
   "TiothMapGroup_Indoor": [
-
+    "TiothMap_Indoor0",
+    "TiothMap_Indoor1"
   ],
   "TiothMapGroup_IndoorDream": [
-    
+
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

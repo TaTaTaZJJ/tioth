@@ -1063,3 +1063,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/SpawnPlace/scripts.inc"
+
+	.include "data/maps/TiothMap_Indoor0/scripts.inc"
+
+	.include "data/maps/TiothMap_Indoor1/scripts.inc"
