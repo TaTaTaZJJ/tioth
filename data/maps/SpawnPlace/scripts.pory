@@ -4,7 +4,7 @@ script TestAddMoneywithVar {
     lock
     setvar(VAR_0x8000, 999)
     addmoneywithvar(VAR_0x8000,0)
-    msgbox("设置变数8000值为999\n测试钱包值增加变数8000值.")
+    msgbox("设置变数8000值为999\n测试钱包值增加变数8000值。")
     release
 }
 
@@ -12,7 +12,7 @@ script TestSubMoneywithVar {
     lock
     setvar(VAR_0x8000, 999)
     removemoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为999\n测试钱包值减少变数8000值.")
+    msgbox("设置变数8000值为999\n测试钱包值减少变数8000值。")
     release
 }
 
@@ -20,7 +20,7 @@ script TestMultMoneywithVar {
     lock
     setvar(VAR_0x8000, 3)
     multiplymoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为3\n测试钱包值乘以变数8000值.")
+    msgbox("设置变数8000值为3\n测试钱包值乘以变数8000值。")
     release
 }
 
@@ -28,11 +28,20 @@ script TestCheckMoneywithVar {
     lock
     setvar(VAR_0x8000, 2999)
     checkmoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为2999\n测试钱包高于变数8000值.")
+    msgbox("设置变数8000值为2999\n测试钱包高于变数8000值。")
     if (var(VAR_RESULT) == TRUE) {
         msgbox("钱包值高于变数8000值")
     } else {
         msgbox("钱包值低于变数8000值")
     }
     release
+}
+
+script Test2v2TrainerBattle {
+    msgbox("测试双打。")
+    closemessage
+    givemon(SPECIES_CYNDAQUIL,100,0)
+    givemon(SPECIES_CYNDAQUIL,100,0)
+    givemon(SPECIES_CYNDAQUIL,100,0)
+    multi_fixed_2_vs_2(TRAINER_WALLACE, "冠军", TRAINER_SIDNEY, "天王", TRAINER_RICK, TRAINER_BACK_PIC_RED)
 }
