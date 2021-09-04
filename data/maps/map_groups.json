@@ -2,6 +2,8 @@
   "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_Test",
+    "TiothMapGroup_Indoor",
+    "TiothMapGroup_IndoorDream",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -39,6 +41,12 @@
   ],
   "gMapGroup_Test": [
     "SpawnPlace"
+  ],
+  "TiothMapGroup_Indoor": [
+
+  ],
+  "TiothMapGroup_IndoorDream": [
+    
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
