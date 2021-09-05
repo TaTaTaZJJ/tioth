@@ -307,7 +307,11 @@ $(FONTGFXDIR)/unused_frlg_down_arrow.4bpp: %.4bpp: %.png
 $(FONTGFXDIR)/keypad_icons.4bpp: %.4bpp: %.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/font0_chinese.latfont: $(FONTGFXDIR)/font0_chinese.png
+	$(GFX) $< $@
 
+$(FONTGFXDIR)/font1_chinese.latfont: $(FONTGFXDIR)/font1_chinese.png
+	$(GFX) $< $@
 
 ### Miscellaneous ###
 graphics/title_screen/pokemon_logo.gbapal: %.gbapal: %.pal

@@ -1532,7 +1532,7 @@ void CB2_NewGame(void)
     PlayTimeCounter_Start();
     ScriptContext1_Init();
     ScriptContext2_Disable();
-    gFieldCallback = ExecuteTruckSequence;
+    // gFieldCallback = ExecuteTruckSequence;
     gFieldCallback2 = NULL;
     DoMapLoadLoop(&gMain.state);
     SetFieldVBlankCallback();
@@ -2130,11 +2130,7 @@ static void ResumeMap(bool32 a1)
     ResetAllPicSprites();
     ResetCameraUpdateInfo();
     InstallCameraPanAheadCallback();
-    if (!a1)
-        InitObjectEventPalettes(0);
-    else
-        InitObjectEventPalettes(1);
-
+    FreeAllSpritePalettes();
     FieldEffectActiveListClear();
     StartWeather();
     ResumePausedWeather();
