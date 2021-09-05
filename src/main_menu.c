@@ -1235,12 +1235,13 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
 #define tBrendanSpriteId data[10]
 #define tMaySpriteId data[11]
 
+#include "data/text/tioth.h"
+
 static void Task_NewGameTioth_Init(u8 taskId)
 {
-    gSaveBlock2Ptr->playerName[0] = 0x0F;
-    gSaveBlock2Ptr->playerName[1] = 0x9E;
-    gSaveBlock2Ptr->playerName[2] = 0x02;
-    gSaveBlock2Ptr->playerName[3] = 0x40;
+    u8 i;
+    for (i = 0; i < PLAYER_NAME_LENGTH; i++)
+        gSaveBlock2Ptr->playerName[i] = mainCharacterName[i];
     gSaveBlock2Ptr->playerGender = MALE;
     gTasks[taskId].func = Task_NewGameBirchSpeech_Cleanup;
 }
