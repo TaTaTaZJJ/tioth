@@ -10,7 +10,7 @@ static u8 sProbeResult;
 static u16 sSavedIme;
 
 // iwram common
-struct Time gLocalTime;
+struct LocalTime gLocalTime;
 
 // const rom
 
@@ -260,13 +260,14 @@ void FormatHexDate(u8 *dest, s32 year, s32 month, s32 day)
     *dest = EOS;
 }
 
-void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct Time *result, struct Time *t)
+void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct LocalTime *result, struct Time *t)
 {
     u16 days = RtcGetDayCount(rtc);
-    result->seconds = ConvertBcdToBinary(rtc->second) - t->seconds;
-    result->minutes = ConvertBcdToBinary(rtc->minute) - t->minutes;
-    result->hours = ConvertBcdToBinary(rtc->hour) - t->hours;
-    result->days = days - t->days;
+    result->seconds = 0;
+    result->minutes = ConvertBcdToBinary(rtc->second) - t->minutes;
+    result->hours = (ConvertBcdToBinary(rtc->minute) - t->hours)  % 24;
+    result->days = ((days - t->days) * 60 + result->hours / 24) % DAYS_PER_CYCLE;
+    result->cycles = ((days - t->days) * 60 + result->hours / 24) / DAYS_PER_CYCLE;
 
     if (result->seconds < 0)
     {
@@ -284,6 +285,32 @@ void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct Time *result, struct T
     {
         result->hours += 24;
         --result->days;
+    }
+}
+
+void RtcCalcTimeOffsetDifference(struct SiiRtcInfo *rtc, struct Time *timeOffset, struct LocalTime *t)
+{   
+    timeOffset->seconds = t->seconds;
+    timeOffset->minutes = ConvertBcdToBinary(rtc->second) - t->minutes;
+    timeOffset->hours = ConvertBcdToBinary(rtc->minute) % 24 - t->hours;
+    timeOffset->days = t->days;
+
+    if (timeOffset->seconds < 0)
+    {
+        timeOffset->seconds += 60;
+        --timeOffset->minutes;
+    }
+
+    if (timeOffset->minutes < 0)
+    {
+        timeOffset->minutes += 60;
+        --timeOffset->hours;
+    }
+
+    if (timeOffset->hours < 0)
+    {
+        timeOffset->hours += 24;
+        --timeOffset->days;
     }
 }
 
@@ -305,15 +332,16 @@ void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds)
     gLocalTime.minutes = minutes;
     gLocalTime.seconds = seconds;
     RtcGetInfo(&sRtc);
-    RtcCalcTimeDifference(&sRtc, &gSaveBlock2Ptr->localTimeOffset, &gLocalTime);
+    RtcCalcTimeOffsetDifference(&sRtc, &gSaveBlock2Ptr->localTimeOffset, &gLocalTime);
 }
 
-void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2)
+void CalcTimeDifference(struct LocalTime *result, struct LocalTime *t1, struct LocalTime *t2)
 {
-    result->seconds = t2->seconds - t1->seconds;
+    result->seconds =  t2->seconds - t1->seconds;
     result->minutes = t2->minutes - t1->minutes;
     result->hours = t2->hours - t1->hours;
     result->days = t2->days - t1->days;
+    result->cycles = t2->cycles - t1->cycles;
 
     if (result->seconds < 0)
     {

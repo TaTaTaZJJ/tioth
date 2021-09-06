@@ -12,8 +12,8 @@
 #include "overworld.h"
 #include "wallclock.h"
 
-static void UpdatePerDay(struct Time *localTime);
-static void UpdatePerMinute(struct Time *localTime);
+static void UpdatePerDay(struct LocalTime *localTime);
+static void UpdatePerMinute(struct LocalTime *localTime);
 
 static void InitTimeBasedEvents(void)
 {
@@ -21,6 +21,7 @@ static void InitTimeBasedEvents(void)
     RtcCalcLocalTime();
     gSaveBlock2Ptr->lastBerryTreeUpdate = gLocalTime;
     VarSet(VAR_DAYS, gLocalTime.days);
+    VarSet(VAR_CYCLES, gLocalTime.cycles);
 }
 
 void DoTimeBasedEvents(void)
@@ -33,14 +34,19 @@ void DoTimeBasedEvents(void)
     }
 }
 
-static void UpdatePerDay(struct Time *localTime)
+static void UpdatePerDay(struct LocalTime *localTime)
 {
     u16 *days = GetVarPointer(VAR_DAYS);
+    u16 *cycles = GetVarPointer(VAR_CYCLES);
     u16 daysSince;
 
-    if (*days != localTime->days && *days <= localTime->days)
+    //计算周期天数
+    int actualPreviousDays = *days + *cycles * DAYS_PER_CYCLE;
+    int actualLocalDays = localTime->days + localTime->cycles * DAYS_PER_CYCLE;
+
+    if (actualPreviousDays != actualLocalDays && actualPreviousDays <= actualLocalDays)
     {
-        daysSince = localTime->days - *days;
+        daysSince = actualLocalDays - actualPreviousDays;
         ClearDailyFlags();
         UpdateDewfordTrendPerDay(daysSince);
         UpdateTVShowsPerDay(daysSince);
@@ -56,13 +62,13 @@ static void UpdatePerDay(struct Time *localTime)
     }
 }
 
-static void UpdatePerMinute(struct Time *localTime)
+static void UpdatePerMinute(struct LocalTime *localTime)
 {
-    struct Time difference;
+    struct LocalTime difference;
     int minutes;
 
     CalcTimeDifference(&difference, &gSaveBlock2Ptr->lastBerryTreeUpdate, localTime);
-    minutes = 24 * 60 * difference.days + 60 * difference.hours + difference.minutes;
+    minutes = DAYS_PER_CYCLE * difference.cycles * 24 * 60 * difference.days + 60 * difference.hours + difference.minutes;
     if (minutes != 0)
     {
         if (minutes >= 0)
