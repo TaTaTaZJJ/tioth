@@ -45,3 +45,16 @@ script Test2v2TrainerBattle {
     givemon(SPECIES_CYNDAQUIL,100,0)
     multi_fixed_2_vs_2(TRAINER_WALLACE, "冠军", TRAINER_SIDNEY, "天王", TRAINER_RICK, TRAINER_BACK_PIC_RED)
 }
+
+script TestFollowMeTalk {
+    msgbox("测试跟随对话。")
+    closemessage
+}
+
+script TestFollowMe {
+    lock
+    faceplayer
+    loadword(0, TestFollowMeTalk)
+    setfollower(1, 0x100)
+    release
+}
