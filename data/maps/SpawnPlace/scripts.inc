@@ -56,6 +56,20 @@ Test2v2TrainerBattle::
 	return
 
 
+TestFollowMeTalk::
+	msgbox TestFollowMeTalk_Text_0
+	return
+
+
+TestFollowMe::
+	lock
+	faceplayer
+	loadword 0, TestFollowMeTalk
+	setfollower 1, 0x100
+	release
+	return
+
+
 TestAddMoneywithVar_Text_0:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
@@ -82,3 +96,6 @@ Test2v2TrainerBattle_Text_1:
 
 Test2v2TrainerBattle_Text_2:
 	.string "天王$"
+
+TestFollowMeTalk_Text_0:
+	.string "测试跟随对话。$"

@@ -1633,18 +1633,40 @@
 	.2byte \item
 	.2byte \quantity
 	.endm
+    
+    @ sets an NPC up to follow the player
+    .macro setfollower localId:req, flags:req
+    .byte 0xe3
+    .byte \localId
+    .2byte \flags
+    .endm
+    
+    @ remove the following NPC (assumes there will only ever be one)
+    .macro destroyfollower
+    .byte 0xe4
+    .endm
+    
+    @ makes the player and follower face one another
+    .macro facefollower
+    .byte 0xe5
+    .endm
+    
+    @ checks if you have a follower. returns the result to VAR_RESULT
+    .macro checkfollower
+    .byte 0xe6
+    .endm
 
 
 	@ If check is 0x00, this command adds variable amount to the player's money.
 	.macro addmoneywithvar variable:req, check:req
-	.byte 0xe3
+	.byte 0xe7
 	.2byte \variable
 	.byte \check
 	.endm
 
 	@ If check is 0x00, this command subtracts variable amount from the player's money.
 	.macro removemoneywithvar variable:req, check:req
-	.byte 0xe4
+	.byte 0xe8
 	.2byte \variable
 	.byte \check
 	.endm
@@ -1652,28 +1674,28 @@
 	@ If check is 0x00, this command will check if the player has money >= variable amount; VAR_RESULT is set to TRUE if the player 
 	@ has enough money, or FALSE if they do not.
 	.macro checkmoneywithvar variable:req, check:req
-	.byte 0xe5
+	.byte 0xe9
 	.2byte \variable
 	.byte \check
 	.endm
 
 	@ If check is 0x00, this command multiples the player's money  with variable amount.
 	.macro multiplymoneywithvar variable:req, check:req
-	.byte 0xe6
+	.byte 0xea
 	.2byte \variable
 	.byte \check
 	.endm
 
 	@ Changes the value of destination by multiplying value to it. Overflow is not prevented (0xFFFF + 1 = 0x0000).
 	.macro multiplyvar destination:req, value:req
-	.byte 0xe7
+	.byte 0xeb
 	.2byte \destination
 	.2byte \value
 	.endm
 
 	@ Changes the value of destination by dividing value to it. Overflow is not prevented (0x0000 - 1 = 0xFFFF).
 	.macro dividevar destination:req, value:req
-	.byte 0xe8
+	.byte 0xec
 	.2byte \destination
 	.2byte \value
 	.endm
@@ -1685,7 +1707,7 @@
 	
 	@ Changes the value of destination by value of source with mathematic operation. Overflow is not prevented (0xFFFF + 1 = 0x0000).
 	.macro mathvar destination:req, source:req, operation:req
-	.byte 0xe9
+	.byte 0xed
 	.2byte \destination
 	.2byte \source
 	.byte \operation
