@@ -58,6 +58,7 @@ Test2v2TrainerBattle::
 
 TestFollowMeTalk::
 	msgbox TestFollowMeTalk_Text_0
+	closemessage
 	return
 
 
