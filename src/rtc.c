@@ -372,3 +372,9 @@ u32 RtcGetLocalDayCount(void)
 {
     return RtcGetDayCount(&sRtc);
 }
+
+u8 GetLocalCurrentMonth(void) // 0-11 -> 一月-十二月
+{
+    RtcCalcLocalTime();
+    return (gLocalTime.cycles * DAYS_PER_CYCLE + gLocalTime.days) % DAYS_PER_MONTH;
+}

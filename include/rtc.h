@@ -18,6 +18,7 @@
 #define RTC_ERR_FLAG_MASK      0x0FF0
 
 #define DAYS_PER_CYCLE         336
+#define DAYS_PER_MONTH         28
 
 extern struct LocalTime gLocalTime;
 
@@ -48,5 +49,6 @@ void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds);
 void CalcTimeDifference(struct LocalTime *result, struct LocalTime *t1, struct LocalTime *t2);
 u32 RtcGetMinuteCount(void);
 u32 RtcGetLocalDayCount(void);
+u8 GetLocalCurrentMonth(void);
 
 #endif // GUARD_RTC_UTIL_H

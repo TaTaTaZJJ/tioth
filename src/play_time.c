@@ -1,5 +1,6 @@
 #include "global.h"
 #include "play_time.h"
+#include "rtc.h"
 
 enum
 {
@@ -39,6 +40,8 @@ void PlayTimeCounter_Update(void)
         return;
 
     gSaveBlock2Ptr->playTimeVBlanks++;
+
+    RtcCalcLocalTime(); //Forces gLocalTime refresh once per minute (useful for DNS)
 
     if (gSaveBlock2Ptr->playTimeVBlanks < 60)
         return;
