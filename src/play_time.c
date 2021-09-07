@@ -40,18 +40,23 @@ void PlayTimeCounter_Update(void)
         return;
 
     gSaveBlock2Ptr->playTimeVBlanks++;
-
-    RtcCalcLocalTime(); //Forces gLocalTime refresh once per minute (useful for DNS)
-
     if (gSaveBlock2Ptr->playTimeVBlanks < 60)
         return;
 
     gSaveBlock2Ptr->playTimeVBlanks = 0;
-    gSaveBlock2Ptr->playTimeSeconds++;
+    if (!(RtcGetErrorStatus() & RTC_ERR_FLAG_MASK)) //使用真实时间计算游玩时间
+    {
+        gSaveBlock2Ptr->playTimeSeconds += RtcSecondChange();
+    }
+    else //电池异常时用原先方式
+    {
+        gSaveBlock2Ptr->playTimeSeconds++;
+    }
 
     if (gSaveBlock2Ptr->playTimeSeconds < 60)
         return;
 
+    RtcCalcLocalTime();
     gSaveBlock2Ptr->playTimeSeconds = 0;
     gSaveBlock2Ptr->playTimeMinutes++;
 

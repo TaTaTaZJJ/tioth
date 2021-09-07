@@ -8,6 +8,7 @@ static u16 sErrorStatus;
 static struct SiiRtcInfo sRtc;
 static u8 sProbeResult;
 static u16 sSavedIme;
+static u8 gLastRtcSecond;
 
 // iwram common
 struct LocalTime gLocalTime;
@@ -311,6 +312,21 @@ void RtcCalcTimeOffsetDifference(struct SiiRtcInfo *rtc, struct Time *timeOffset
     {
         timeOffset->hours += 24;
         --timeOffset->days;
+    }
+}
+
+u8 RtcSecondChange(void)
+{   
+    u8 currentRtcSecond;
+    RtcGetInfo(&sRtc);
+    currentRtcSecond = ConvertBcdToBinary(sRtc.second);
+    if (gLastRtcSecond != currentRtcSecond) {
+        gLastRtcSecond = currentRtcSecond;
+        return 1;
+    }
+    else
+    {
+        return 0;
     }
 }
 

@@ -50,5 +50,6 @@ void CalcTimeDifference(struct LocalTime *result, struct LocalTime *t1, struct L
 u32 RtcGetMinuteCount(void);
 u32 RtcGetLocalDayCount(void);
 u8 GetLocalCurrentMonth(void);
+u8 RtcSecondChange(void);
 
 #endif // GUARD_RTC_UTIL_H
