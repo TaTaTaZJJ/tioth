@@ -11,7 +11,7 @@ static u16 sSavedIme;
 static u8 gLastRtcSecond;
 
 // iwram common
-struct LocalTime gLocalTime;
+struct Time gLocalTime;
 
 // const rom
 
@@ -261,14 +261,13 @@ void FormatHexDate(u8 *dest, s32 year, s32 month, s32 day)
     *dest = EOS;
 }
 
-void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct LocalTime *result, struct Time *t)
+void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct Time *result, struct Time *t)
 {
     u16 days = RtcGetDayCount(rtc);
-    result->seconds = 0;
-    result->minutes = ConvertBcdToBinary(rtc->second) - t->minutes;
-    result->hours = (ConvertBcdToBinary(rtc->minute) - t->hours)  % 24;
-    result->days = ((days - t->days) * 60 + result->hours / 24) % DAYS_PER_CYCLE;
-    result->cycles = ((days - t->days) * 60 + result->hours / 24) / DAYS_PER_CYCLE;
+    result->seconds = ConvertBcdToBinary(rtc->second) - t->seconds;
+    result->minutes = ConvertBcdToBinary(rtc->minute) - t->minutes;
+    result->hours = ConvertBcdToBinary(rtc->hour) - t->hours;
+    result->days = days - t->days;
 
     if (result->seconds < 0)
     {
@@ -289,32 +288,97 @@ void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct LocalTime *result, str
     }
 }
 
-void RtcCalcTimeOffsetDifference(struct SiiRtcInfo *rtc, struct Time *timeOffset, struct LocalTime *t)
-{   
-    timeOffset->seconds = t->seconds;
-    timeOffset->minutes = ConvertBcdToBinary(rtc->second) - t->minutes;
-    timeOffset->hours = ConvertBcdToBinary(rtc->minute) % 24 - t->hours;
-    timeOffset->days = t->days;
+void RtcCalcLocalTime(void)
+{
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    struct Time gameTime;
+    GameTimeGetInfo(&gameTime);
+    CalcTimeDifference(&gLocalTime, &gSaveBlock2Ptr->localTimeOffset,  &gameTime);
+    #else
+    RtcGetInfo(&sRtc);
+    RtcCalcTimeDifference(&sRtc, &gLocalTime, &gSaveBlock2Ptr->localTimeOffset);
+    #endif
+}
 
-    if (timeOffset->seconds < 0)
+void RtcInitLocalTimeOffset(s32 hour, s32 minute)
+{
+    RtcCalcLocalTimeOffset(0, hour, minute, 0);
+}
+
+void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds)
+{
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    struct Time gameTime;
+    #endif
+
+    gLocalTime.cycles = 0; //处理周期
+    gLocalTime.days = days;
+    gLocalTime.hours = hours;
+    gLocalTime.minutes = minutes;
+    gLocalTime.seconds = seconds;
+
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    GameTimeGetInfo(&gameTime);
+    CalcTimeDifference(&gSaveBlock2Ptr->localTimeOffset, &gLocalTime, &gameTime);
+    #else
+    RtcGetInfo(&sRtc);
+    RtcCalcTimeDifference(&sRtc, &gSaveBlock2Ptr->localTimeOffset, &gLocalTime);
+    #endif
+}
+
+void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2)
+{
+    result->seconds = t2->seconds - t1->seconds;
+    result->minutes = t2->minutes - t1->minutes;
+    result->hours = t2->hours - t1->hours;
+    result->days = t2->days - t1->days;
+    result->cycles = t2->cycles - t1->cycles; //处理周期
+
+    if (result->seconds < 0)
     {
-        timeOffset->seconds += 60;
-        --timeOffset->minutes;
+        result->seconds += 60;
+        --result->minutes;
     }
 
-    if (timeOffset->minutes < 0)
+    if (result->minutes < 0)
     {
-        timeOffset->minutes += 60;
-        --timeOffset->hours;
+        result->minutes += 60;
+        --result->hours;
     }
 
-    if (timeOffset->hours < 0)
+    if (result->hours < 0)
     {
-        timeOffset->hours += 24;
-        --timeOffset->days;
+        result->hours += 24;
+        --result->days;
+    }
+
+    if (result->days < 0) //处理周期
+    {
+        result->days += DAYS_PER_CYCLE;
+        --result->cycles;
     }
 }
 
+u32 RtcGetMinuteCount(void)
+{
+    RtcGetInfo(&sRtc);
+    return (24 * 60) * RtcGetDayCount(&sRtc) + 60 * sRtc.hour + sRtc.minute;
+}
+
+u32 RtcGetLocalDayCount(void)
+{
+    return RtcGetDayCount(&sRtc);
+}
+
+// 从本地时间计算当前月份
+// 0-11 = 正月-十二月
+u8 GetLocalCurrentMonth(void)
+{
+    RtcCalcLocalTime();
+    return (gLocalTime.cycles * DAYS_PER_CYCLE + gLocalTime.days) % DAYS_PER_MONTH;
+}
+
+// 真实时间每秒的变化
 u8 RtcSecondChange(void)
 {   
     u8 currentRtcSecond;
@@ -330,67 +394,41 @@ u8 RtcSecondChange(void)
     }
 }
 
-void RtcCalcLocalTime(void)
+// 从游戏时间计算一个本地时间
+void GameTimeGetInfo(struct Time *gameTime)
 {
-    RtcGetInfo(&sRtc);
-    RtcCalcTimeDifference(&sRtc, &gLocalTime, &gSaveBlock2Ptr->localTimeOffset);
-}
+    // 按照苍穹的时间设定处理的
+    // 每个月固定天数
+    // 每个周期固定天数，不存在闰年
+    int cycles = 0;
+    int days = 0;
+    int hours = gSaveBlock2Ptr->playTimeHours * TIME_MODIFIER;
+    int minutes = gSaveBlock2Ptr->playTimeMinutes * TIME_MODIFIER;
+    int seconds = gSaveBlock2Ptr->playTimeSeconds * TIME_MODIFIER;
 
-void RtcInitLocalTimeOffset(s32 hour, s32 minute)
-{
-    RtcCalcLocalTimeOffset(0, hour, minute, 0);
-}
-
-void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds)
-{
-    gLocalTime.days = days;
-    gLocalTime.hours = hours;
-    gLocalTime.minutes = minutes;
-    gLocalTime.seconds = seconds;
-    RtcGetInfo(&sRtc);
-    RtcCalcTimeOffsetDifference(&sRtc, &gSaveBlock2Ptr->localTimeOffset, &gLocalTime);
-}
-
-void CalcTimeDifference(struct LocalTime *result, struct LocalTime *t1, struct LocalTime *t2)
-{
-    result->seconds =  t2->seconds - t1->seconds;
-    result->minutes = t2->minutes - t1->minutes;
-    result->hours = t2->hours - t1->hours;
-    result->days = t2->days - t1->days;
-    result->cycles = t2->cycles - t1->cycles;
-
-    if (result->seconds < 0)
+    if (seconds >= 60)
     {
-        result->seconds += 60;
-        --result->minutes;
+        minutes += seconds / 60;
+        seconds %= 60;
     }
-
-    if (result->minutes < 0)
+    if (minutes >= 60)
     {
-        result->minutes += 60;
-        --result->hours;
+        hours += minutes / 60;
+        minutes %= 60;
     }
-
-    if (result->hours < 0)
+    if (hours >= 24)
     {
-        result->hours += 24;
-        --result->days;
+        days += hours / 24;
+        hours %= 24;
     }
-}
-
-u32 RtcGetMinuteCount(void)
-{
-    RtcGetInfo(&sRtc);
-    return (24 * 60) * RtcGetDayCount(&sRtc) + 60 * sRtc.hour + sRtc.minute;
-}
-
-u32 RtcGetLocalDayCount(void)
-{
-    return RtcGetDayCount(&sRtc);
-}
-
-u8 GetLocalCurrentMonth(void) // 0-11 -> 一月-十二月
-{
-    RtcCalcLocalTime();
-    return (gLocalTime.cycles * DAYS_PER_CYCLE + gLocalTime.days) % DAYS_PER_MONTH;
+    if (days >= DAYS_PER_CYCLE)
+    {
+        cycles += days / DAYS_PER_CYCLE;
+        days %= DAYS_PER_CYCLE;
+    }
+    gameTime->cycles = cycles;
+    gameTime->days = days;
+    gameTime->hours = hours;
+    gameTime->minutes = minutes;
+    gameTime->seconds = seconds;
 }

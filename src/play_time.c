@@ -44,7 +44,7 @@ void PlayTimeCounter_Update(void)
         return;
 
     gSaveBlock2Ptr->playTimeVBlanks = 0;
-    if (!(RtcGetErrorStatus() & RTC_ERR_FLAG_MASK)) //使用真实时间计算游玩时间
+    if (!(RtcGetErrorStatus() & RTC_ERR_FLAG_MASK)) //使用真实时间累计
     {
         gSaveBlock2Ptr->playTimeSeconds += RtcSecondChange();
     }

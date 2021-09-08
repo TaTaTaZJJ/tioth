@@ -17,10 +17,7 @@
 
 #define RTC_ERR_FLAG_MASK      0x0FF0
 
-#define DAYS_PER_CYCLE         336
-#define DAYS_PER_MONTH         28
-
-extern struct LocalTime gLocalTime;
+extern struct Time gLocalTime;
 
 void RtcDisableInterrupts(void);
 void RtcRestoreInterrupts(void);
@@ -41,15 +38,15 @@ void FormatHexTime(u8 *dest, s32 hour, s32 minute, s32 second);
 void FormatHexRtcTime(u8 *dest);
 void FormatDecimalDate(u8 *dest, s32 year, s32 month, s32 day);
 void FormatHexDate(u8 *dest, s32 year, s32 month, s32 day);
-void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct LocalTime *result, struct Time *t);
-void RtcCalcTimeOffsetDifference(struct SiiRtcInfo *rtc, struct Time *timeOffset, struct LocalTime *t);
+void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct Time *result, struct Time *t);
 void RtcCalcLocalTime(void);
 void RtcInitLocalTimeOffset(s32 hour, s32 minute);
 void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds);
-void CalcTimeDifference(struct LocalTime *result, struct LocalTime *t1, struct LocalTime *t2);
+void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2);
 u32 RtcGetMinuteCount(void);
 u32 RtcGetLocalDayCount(void);
 u8 GetLocalCurrentMonth(void);
 u8 RtcSecondChange(void);
+void GameTimeGetInfo(struct Time *gameTime);
 
 #endif // GUARD_RTC_UTIL_H

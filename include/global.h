@@ -171,19 +171,20 @@ struct UCoords32
 
 struct Time
 {
-    /*0x00*/ s16 days;
-    /*0x02*/ s8 hours;
-    /*0x03*/ s8 minutes;
-    /*0x04*/ s8 seconds;
-};
-
-struct LocalTime // 是实际时间的60倍，每336天为1个周期，1个月28天
-{
-    /*0x00*/ u16 cycles;
+    /*0x00*/ s16 cycles; //周期
     /*0x02*/ s16 days;
     /*0x04*/ s8 hours;
     /*0x05*/ s8 minutes;
     /*0x06*/ s8 seconds;
+};
+
+struct LimitedTimeEvent // 时间事件，当游戏时间达到结束时间，触发脚本
+{
+    u16 playTimeHours;
+    u8 playTimeMinutes;
+    u8 playTimeSeconds;
+    u8 playTimeVBlanks;
+    const u8* script; //事件脚本
 };
 
 struct Pokedex
@@ -520,19 +521,19 @@ struct SaveBlock2
     /*0x18*/ struct Pokedex pokedex;
     /*0x90*/ u8 filler_90[0x8];
     /*0x98*/ struct Time localTimeOffset;
-    /*0xA0*/ struct LocalTime lastBerryTreeUpdate;
-    /*0xA8+2*/ u32 gcnLinkFlags; // Read by Pokemon Colosseum/XD
-    /*0xAC+2*/ u32 encryptionKey;
-    /*0xB0+2*/ struct PlayersApprentice playerApprentice;
-    /*0xDC+2*/ struct Apprentice apprentices[APPRENTICE_COUNT];
-    /*0x1EC+2*/ struct BerryCrush berryCrush;
-    /*0x1FC+2*/ struct PokemonJumpRecords pokeJump;
-    /*0x20C+2*/ struct BerryPickingResults berryPick;
-    /*0x21C+2*/ struct RankingHall1P hallRecords1P[HALL_FACILITIES_COUNT][2][3]; // From record mixing.
-    /*0x57C+2*/ struct RankingHall2P hallRecords2P[2][3]; // From record mixing.
-    /*0x624+2*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
-    /*0x64C+2*/ struct BattleFrontier frontier;
-    /*0xF2C+2*/ struct Follower follower;
+    /*0xA0*/ struct Time lastBerryTreeUpdate;
+    /*0xAA*/ u32 gcnLinkFlags; // Read by Pokemon Colosseum/XD
+    /*0xAE*/ u32 encryptionKey;
+    /*0xB2*/ struct PlayersApprentice playerApprentice;
+    /*0xDE*/ struct Apprentice apprentices[APPRENTICE_COUNT];
+    /*0x1EE*/ struct BerryCrush berryCrush;
+    /*0x1FE*/ struct PokemonJumpRecords pokeJump;
+    /*0x20E*/ struct BerryPickingResults berryPick;
+    /*0x21E*/ struct RankingHall1P hallRecords1P[HALL_FACILITIES_COUNT][2][3]; // From record mixing.
+    /*0x57E*/ struct RankingHall2P hallRecords2P[2][3]; // From record mixing.
+    /*0x626*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
+    /*0x64E*/ struct BattleFrontier frontier;
+    /*0xF2E*/ struct Follower follower;
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
@@ -1083,6 +1084,7 @@ struct SaveBlock1
     /*0x3???*/ u8 registeredTexts[UNION_ROOM_KB_ROW_COUNT][21];
     /*0x3???*/ struct SaveTrainerHill trainerHill;
     /*0x3???*/ struct WaldaPhrase waldaPhrase;
+    /*0x3???*/ struct LimitedTimeEvent limitedTimeEvent[LIMITED_TIME_EVENT_COUNT];
     // sizeof: 0x3???
 };
 

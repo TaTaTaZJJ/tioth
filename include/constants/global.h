@@ -119,9 +119,17 @@
 #define DIR_NORTHWEST   7
 #define DIR_NORTHEAST   8
 
-#define SIDEWAYS_STAIRS_IMPLEMENTED         TRUE
-#define POST_BATTLE_FOLLOWER_FIX            FALSE   //if you experience the follower de-syncing with the player after battle, set to TRUE
+#define SIDEWAYS_STAIRS_IMPLEMENTED     TRUE
+#define POST_BATTLE_FOLLOWER_FIX        FALSE   //if you experience the follower de-syncing with the player after battle, set to TRUE
 #define SLOW_MOVEMENT_ON_STAIRS         TRUE
 #define FOLLOW_ME_IMPLEMENTED           TRUE    //for stairs movement. see ObjectMovingOnRockStairs in src/field_player_avatar.c
+
+/*=================================== 苍穹设定 ===================================*/
+// 时间相关
+#define USE_PLAYTIME_AS_LOCAL       TRUE    // 使用游戏时间计算本地时间
+#define TIME_MODIFIER               60      // 本地时间倍数
+#define DAYS_PER_CYCLE              336     // 本地周期天数
+#define DAYS_PER_MONTH              28      // 本地月份天数
+#define LIMITED_TIME_EVENT_COUNT    5       // 最大限时事件数量
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

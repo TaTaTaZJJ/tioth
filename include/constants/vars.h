@@ -302,6 +302,11 @@
 #define VAR_UNUSED_0x8014             0x8014
 #define VAR_TRAINER_BATTLE_OPPONENT_A 0x8015 // Alias of gTrainerBattleOpponent_A
 
+#define VAR_T_SLOT                      0x8000
+#define VAR_T_DAYS                      0x8001
+#define VAR_T_HOURS                     0x8002
+#define VAR_T_MINUTES                   0x8003
+
 #define SPECIAL_VARS_END              0x8015
 
 #endif // GUARD_CONSTANTS_VARS_H
