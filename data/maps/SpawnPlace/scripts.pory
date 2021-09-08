@@ -58,3 +58,40 @@ script TestFollowMe {
     setfollower(1, 0x100)
     release
 }
+
+script TestSetScript {
+    lock
+    setvar(VAR_T_SLOT, 0)
+    special(ClearTimeEvent)
+    msgbox("这是10分钟前设置的事件。\n(现实10秒)")
+    closemessage
+    release
+    end
+}
+
+script TestSetScript2 {
+    lock
+    setvar(VAR_T_SLOT, 1)
+    special(ClearTimeEvent)
+    msgbox("这是20分钟前设置的事件。\n(现实20秒)")
+    closemessage
+    release
+    end
+}
+
+script TestTimeEvent {
+    lock
+    setvar(VAR_T_SLOT, 0)
+    setvar(VAR_T_DAYS, 0)
+    setvar(VAR_T_HOURS, 0)
+    setvar(VAR_T_MINUTES, 10)
+    loadword(0, TestSetScript)
+    special(SetTimeEvent)
+    setvar(VAR_T_SLOT, 1)
+    setvar(VAR_T_DAYS, 0)
+    setvar(VAR_T_HOURS, 0)
+    setvar(VAR_T_MINUTES, 20)
+    loadword(0, TestSetScript2)
+    special(SetTimeEvent)
+    end
+}

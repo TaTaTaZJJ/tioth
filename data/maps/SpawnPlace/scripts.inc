@@ -71,6 +71,43 @@ TestFollowMe::
 	return
 
 
+TestSetScript::
+	lock
+	setvar VAR_T_SLOT, 0
+	special ClearTimeEvent
+	msgbox TestSetScript_Text_0
+	closemessage
+	release
+	end
+
+
+TestSetScript2::
+	lock
+	setvar VAR_T_SLOT, 1
+	special ClearTimeEvent
+	msgbox TestSetScript2_Text_0
+	closemessage
+	release
+	end
+
+
+TestTimeEvent::
+	lock
+	setvar VAR_T_SLOT, 0
+	setvar VAR_T_DAYS, 0
+	setvar VAR_T_HOURS, 0
+	setvar VAR_T_MINUTES, 10
+	loadword 0, TestSetScript
+	special SetTimeEvent
+	setvar VAR_T_SLOT, 1
+	setvar VAR_T_DAYS, 0
+	setvar VAR_T_HOURS, 0
+	setvar VAR_T_MINUTES, 20
+	loadword 0, TestSetScript2
+	special SetTimeEvent
+	end
+
+
 TestAddMoneywithVar_Text_0:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
@@ -100,3 +137,9 @@ Test2v2TrainerBattle_Text_2:
 
 TestFollowMeTalk_Text_0:
 	.string "测试跟随对话。$"
+
+TestSetScript_Text_0:
+	.string "这是10分钟前设置的事件。\n(现实10秒)$"
+
+TestSetScript2_Text_0:
+	.string "这是20分钟前设置的事件。\n(现实20秒)$"
