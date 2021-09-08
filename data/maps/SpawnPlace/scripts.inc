@@ -6,7 +6,7 @@ TestAddMoneywithVar::
 	lock
 	setvar VAR_0x8000, 999
 	addmoneywithvar VAR_0x8000, 0
-	msgbox TestAddMoneywithVar_Text_0
+	msgbox TestAddMoneywithVar_Text_0, 0x2
 	release
 	return
 
@@ -108,6 +108,230 @@ TestTimeEvent::
 	end
 
 
+TestEmotion::
+	lock
+	msgbox TestEmotion_Text_0
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement1
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement2
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement3
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement4
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement5
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement6
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement7
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement8
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement9
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement10
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement11
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement12
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement13
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement14
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement15
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement16
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement17
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement18
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement19
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement20
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement21
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement22
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement23
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement24
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement25
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement26
+	waitmovement 0
+	delay 60
+	playse SE_PIN
+	applymovement 2, TestEmotionMovement27
+	waitmovement 0
+	delay 60
+	closemessage
+	release
+	end
+
+
+TestEmotionMovement1:
+	emote_exclamation_mark
+	step_end
+
+TestEmotionMovement2:
+	emote_question_mark
+	step_end
+
+TestEmotionMovement3:
+	emote_heart
+	step_end
+
+TestEmotionMovement4:
+	emote_dot_dot_dot
+	step_end
+
+TestEmotionMovement5:
+	emote_angry
+	step_end
+
+TestEmotionMovement6:
+	emote_sweat
+	step_end
+
+TestEmotionMovement7:
+	emote_exclamation_mark_2
+	step_end
+
+TestEmotionMovement8:
+	emote_bulb
+	step_end
+
+TestEmotionMovement9:
+	emote_speechless
+	step_end
+
+TestEmotionMovement10:
+	emote_music
+	step_end
+
+TestEmotionMovement11:
+	emote_circle
+	step_end
+
+TestEmotionMovement12:
+	emote_sleepy
+	step_end
+
+TestEmotionMovement13:
+	emote_cross
+	step_end
+
+TestEmotionMovement14:
+	emote_star
+	step_end
+
+TestEmotionMovement15:
+	emote_funny
+	step_end
+
+TestEmotionMovement16:
+	emote_vommit
+	step_end
+
+TestEmotionMovement17:
+	emote_smile
+	step_end
+
+TestEmotionMovement18:
+	emote_face_palm
+	step_end
+
+TestEmotionMovement19:
+	emote_bombed
+	step_end
+
+TestEmotionMovement20:
+	emote_doge
+	step_end
+
+TestEmotionMovement21:
+	emote_evil
+	step_end
+
+TestEmotionMovement22:
+	emote_sweat_2
+	step_end
+
+TestEmotionMovement23:
+	emote_skull
+	step_end
+
+TestEmotionMovement24:
+	emote_sword
+	step_end
+
+TestEmotionMovement25:
+	emote_creeper
+	step_end
+
+TestEmotionMovement26:
+	emote_spit_blood
+	step_end
+
+TestEmotionMovement27:
+	emote_interesting
+	step_end
+
 TestAddMoneywithVar_Text_0:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
@@ -143,3 +367,6 @@ TestSetScript_Text_0:
 
 TestSetScript2_Text_0:
 	.string "这是20分钟前设置的事件。\n(现实20秒)$"
+
+TestEmotion_Text_0:
+	.string "测试表情。$"
