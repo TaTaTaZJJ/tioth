@@ -1,35 +1,42 @@
+	@ 没有作用;
 	@ Does nothing.
 	.macro nop
 	.byte 0x00
 	.endm
 
+	@ 没有作用;
 	@ Does nothing.
 	.macro nop1
 	.byte 0x01
 	.endm
 
+	@ 执行结束脚本;
 	@ Terminates script execution.
 	.macro end
 	.byte 0x02
 	.endm
 
+	@ 返回上一个调用入口;
 	@ Jumps back to after the last-executed call statement, and continues script execution from there.
 	.macro return
 	.byte 0x03
 	.endm
 
+	@ 调用脚本[destination]，过后可以返回这个入口;
 	@ Jumps to destination and continues script execution from there. The location of the calling script is remembered and can be returned to later.
 	.macro call destination:req
 	.byte 0x04
 	.4byte \destination
 	.endm
 
+	@ 跳转至脚本[destination];
 	@ Jumps to destination and continues script execution from there.
 	.macro goto destination:req
 	.byte 0x05
 	.4byte \destination
 	.endm
 
+	@ 符合条件[condition]时跳转至脚本[destination];
 	@ If the result of the last comparison matches condition (see Comparison operators), jumps to destination and continues script execution from there.
 	.macro goto_if condition:req, destination:req
 	.byte 0x06
@@ -37,6 +44,7 @@
 	.4byte \destination
 	.endm
 
+	@ 符合条件[condition]时调用脚本[destination];
 	@ If the result of the last comparison matches condition (see Comparison operators), calls destination.
 	.macro call_if condition:req, destination:req
 	.byte 0x07
@@ -44,24 +52,28 @@
 	.4byte \destination
 	.endm
 
+	@ 跳转至目标函数索引[function];
 	@ Jumps to the standard function at index function.
 	.macro gotostd function:req
 	.byte 0x08
 	.byte \function
 	.endm
 
+	@ 调用函数类型;
 	@ callstd function names
 	STD_OBTAIN_ITEM = 0
 	STD_FIND_ITEM = 1
 	STD_OBTAIN_DECORATION = 7
 	STD_REGISTER_MATCH_CALL = 8
 
+	@ 调用目标函数索引[function];
 	@ Calls the standard function at index function.
 	.macro callstd function:req
 	.byte 0x09
 	.byte \function
 	.endm
 
+	@ 符合条件[condition]时跳转至目标函数索引[function];
 	@ If the result of the last comparison matches condition (see Comparison operators), jumps to the standard function at index function.
 	.macro gotostd_if condition:req, function:req
 	.byte 0x0a
@@ -69,6 +81,7 @@
 	.byte \function
 	.endm
 
+	@ 符合条件[condition]时调用目标函数索引[function];
 	@ If the result of the last comparison matches condition (see Comparison operators), calls the standard function at index function.
 	.macro callstd_if condition:req, function:req
 	.byte 0x0b
@@ -76,22 +89,26 @@
 	.byte \function
 	.endm
 
+	@ 调用脚本内存脚本RAW;
 	@ Executes a script stored in a default RAM location.
 	.macro returnram
 	.byte 0x0c
 	.endm
 
+	@ 结束脚本，然后释放内存脚本RAW;
 	@ Terminates script execution and "resets the script RAM".
 	.macro killscript
 	.byte 0x0d
 	.endm
 
+	@ 设置神秘礼物的状态值[value];
 	@ Sets some status related to Mystery Event.
 	.macro setmysteryeventstatus value:req
 	.byte 0x0e
 	.byte \value
 	.endm
 
+	@ 把字[value]写进脚本库[destination];
 	@ Sets the specified script bank to value.
 	.macro loadword destination:req, value:req
 	.byte 0x0f
@@ -99,6 +116,7 @@
 	.4byte \value
 	.endm
 
+	@ 把字节[value]写进脚本库[destination];
 	@ Sets the specified script bank to value.
 	.macro loadbyte destination:req, value:req
 	.byte 0x10
@@ -106,6 +124,7 @@
 	.byte \value
 	.endm
 
+	@ 把字节[value]写进内存[offset];
 	@ Sets the byte at offset to value.
 	.macro writebytetoaddr value:req, offset:req
 	.byte 0x11
@@ -113,6 +132,7 @@
 	.4byte \offset
 	.endm
 
+	@ 读取内存[source]的字节，写在脚本库[destination];
 	@ Copies the byte value at source into the specified script bank.
 	.macro loadbytefromaddr destination:req, source:req
 	.byte 0x12
@@ -120,6 +140,7 @@
 	.4byte \source
 	.endm
 
+	@ 把脚本库[source]的值写入内存[destination];
 	@ Not sure. Judging from XSE's description I think it takes the least-significant byte in bank source and writes it to destination.
 	.macro setptrbyte source:req, destination:req
 	.byte 0x13
@@ -127,6 +148,7 @@
 	.4byte \destination
 	.endm
 
+	@ 把脚本库[source]的值写入脚本库[destination];
 	@ Copies the contents of bank source into bank destination.
 	.macro copylocal destination:req, source:req
 	.byte 0x14
@@ -134,6 +156,7 @@
 	.byte \source
 	.endm
 
+	@ 把内存[source]的字节写入内存[destination];
 	@ Copies the byte at source to destination, replacing whatever byte was previously there.
 	.macro copybyte destination:req, source:req
 	.byte 0x15
@@ -141,6 +164,7 @@
 	.4byte \source
 	.endm
 
+	@ 设定变量[destination]的值[value];
 	@ Changes the value of destination to value.
 	.macro setvar destination:req, value:req
 	.byte 0x16
@@ -148,6 +172,7 @@
 	.2byte \value
 	.endm
 
+	@ 对变量[destination]加上一定的值[value];
 	@ Changes the value of destination by adding value to it. Overflow is not prevented (0xFFFF + 1 = 0x0000).
 	.macro addvar destination:req, value:req
 	.byte 0x17
@@ -155,6 +180,7 @@
 	.2byte \value
 	.endm
 
+	@ 对变量[destination]减去一定的值[value];
 	@ Changes the value of destination by subtracting value to it. Overflow is not prevented (0x0000 - 1 = 0xFFFF).
 	.macro subvar destination:req, value:req
 	.byte 0x18
@@ -162,6 +188,7 @@
 	.2byte \value
 	.endm
 
+	@ 复制变量[source]的值到变量[destination];
 	@ Copies the value of source into destination.
 	.macro copyvar destination:req, source:req
 	.byte 0x19
@@ -169,6 +196,7 @@
 	.2byte \source
 	.endm
 
+	@ 假如变量[source]是个变量,复制变量[source]的值到变量[destination]，否者和setvar作用一样;
 	@ If source is not a variable, then this function acts like setvar. Otherwise, it acts like copyvar.
 	.macro setorcopyvar destination:req, source:req
 	.byte 0x1a
@@ -218,6 +246,7 @@
 	.4byte \b
 	.endm
 
+	@ 比较变量[var]和一个值[value];
 	@ Compares the value of `var` to a fixed word value (b).
 	.macro compare_var_to_value var:req, value:req
 	.byte 0x21
@@ -225,6 +254,7 @@
 	.2byte \value
 	.endm
 
+	@ 比较变量[var]和变量[var]的值;
 	@ Compares the value of `var1` to the value of `var2`.
 	.macro compare_var_to_var var1:req, var2:req
 	.byte 0x22
@@ -232,6 +262,7 @@
 	.2byte \var2
 	.endm
 
+	@ 假如[arg]是变量,比较变量[var]和变量[arg]的值，否则和compare_var_to_value作用一样;
 	@ Generic compare macro which attempts to deduce argument types based on their values
 	@ Any values between 0x4000 to 0x40FF and 0x8000 to 0x8015 are considered event variable identifiers
 	.macro compare var:req, arg:req
@@ -242,24 +273,28 @@
 		.endif
 	.endm
 
+	@ 调用原生函数[func];
 	@ Calls the native C function stored at `func`.
 	.macro callnative func:req
 	.byte 0x23
 	.4byte \func
 	.endm
 
+	@ 跳转至原生函数[func];
 	@ Replaces the script with the function stored at `func`. Execution returns to the bytecode script when func returns TRUE.
 	.macro gotonative func:req
 	.byte 0x24
 	.4byte \func
 	.endm
 
+	@ 调用特殊指令[function];
 	@ Calls a special function; that is, a function designed for use by scripts and listed in a table of pointers.
 	.macro special function:req
 	.byte 0x25
 	.2byte SPECIAL_\function
 	.endm
 
+	@ 调用特殊指令[function]，能储存一个返回值在变量[output];
 	@ Calls a special function. That function's output (if any) will be written to the variable you specify.
 	.macro specialvar output:req, function:req
 	.byte 0x26
@@ -274,6 +309,7 @@
 	.2byte \functionId
 	.endm
 
+	@ 阻塞脚本执行，直到一些特殊的指令解开;
 	@ Blocks script execution until a command or ASM code manually unblocks it. Generally used with specific 
 	@ commands and specials. If this command runs, and a subsequent command or piece of ASM does not unblock 
 	@ state, the script will remain blocked indefinitely (essentially a hang).
@@ -281,30 +317,35 @@
 	.byte 0x27
 	.endm
 
+	@ 暂停执行脚本一段帧数[frames](绿宝石帧率为60fps);
 	@ Blocks script execution for frames. (Pokemon Emerald runs at just shy of 60 frames per second.)
 	.macro delay frames:req
 	.byte 0x28
 	.2byte \frames
 	.endm
 
+	@ 设定标识[a];
 	@ Sets a to 1.
 	.macro setflag a:req
 	.byte 0x29
 	.2byte \a
 	.endm
 
+	@ 清除标识[a];
 	@ Sets a to 0.
 	.macro clearflag a:req
 	.byte 0x2a
 	.2byte \a
 	.endm
 
+	@ 检查标识[a]是否被设定;
 	@ Compares a to 1.
 	.macro checkflag a:req
 	.byte 0x2b
 	.2byte \a
 	.endm
 
+	@ 设定时钟小时[hour]和分钟[minute];
 	@ Initializes the RTC`s local time offset to the given hour and minute. In FireRed, this command is a nop.
 	.macro initclock hour:req, minute:req
 	.byte 0x2c
@@ -312,39 +353,46 @@
 	.2byte \minute
 	.endm
 
+	@ 尝试触发限时事件;
 	@ Runs time based events. In FireRed, this command is a nop.
 	.macro dotimebasedevents
 	.byte 0x2d
 	.endm
 
+	@ 获取时间,小时[0x8000]分钟[0x8001]秒[0x8002];
 	@ Sets the values of variables 0x8000, 0x8001, and 0x8002 to the current hour, minute, and second. In FRLG, 
 	@ this command sets those variables to zero.
 	.macro gettime
 	.byte 0x2e
 	.endm
 
+	@ 播放声音[sound_number];
 	@ Plays the specified (sound_number) sound. Only one sound may play at a time, with newer ones interrupting older ones.
 	.macro playse sound_number:req
 	.byte 0x2f
 	.2byte \sound_number
 	.endm
 
+	@ 阻塞脚本执行,等待声音;
 	@ Blocks script execution until the currently-playing sound (triggered by playse) finishes playing.
 	.macro waitse
 	.byte 0x30
 	.endm
 
+	@ 播放音效[fanfare_number];
 	@ Plays the specified (fanfare_number) fanfare.
 	.macro playfanfare fanfare_number:req
 	.byte 0x31
 	.2byte \fanfare_number
 	.endm
 
+	@ 阻塞脚本执行,等待播放音效;
 	@ Blocks script execution until all currently-playing fanfares finish.
 	.macro waitfanfare
 	.byte 0x32
 	.endm
 
+	@ 播放背景音乐[song_number],假如[save_song]为TRUE,和savebgm配合保存这音乐;
 	@ Plays the specified (song_number) song. If save_song is TRUE, the
 	@ specified (song_number) will be saved as if savebgm was called with it.
 	.macro playbgm song_number:req, save_song:req
@@ -353,12 +401,14 @@
 	.byte \save_song
 	.endm
 
+	@ 保存音乐[song_number];
 	@ Saves the specified (song_number) song to be played later.
 	.macro savebgm song_number:req
 	.byte 0x34
 	.2byte \song_number
 	.endm
 
+	@ 使当前音乐淡入到地图的默认音乐;
 	@ Crossfades the currently-playing song into the map's default song.
 	.macro fadedefaultbgm
 	.byte 0x35
