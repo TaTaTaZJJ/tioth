@@ -310,8 +310,8 @@
 	.endm
 
 	@ 阻塞脚本执行，直到一些特殊的指令解开;
-	@ Blocks script execution until a command or ASM code manually unblocks it. Generally used with specific 
-	@ commands and specials. If this command runs, and a subsequent command or piece of ASM does not unblock 
+	@ Blocks script execution until a command or ASM code manually unblocks it. Generally used with specific
+	@ commands and specials. If this command runs, and a subsequent command or piece of ASM does not unblock
 	@ state, the script will remain blocked indefinitely (essentially a hang).
 	.macro waitstate
 	.byte 0x27
@@ -360,7 +360,7 @@
 	.endm
 
 	@ 获取时间,小时[0x8000]分钟[0x8001]秒[0x8002];
-	@ Sets the values of variables 0x8000, 0x8001, and 0x8002 to the current hour, minute, and second. In FRLG, 
+	@ Sets the values of variables 0x8000, 0x8001, and 0x8002 to the current hour, minute, and second. In FRLG,
 	@ this command sets those variables to zero.
 	.macro gettime
 	.byte 0x2e
@@ -414,25 +414,29 @@
 	.byte 0x35
 	.endm
 
+	@ 将当前播放的歌曲淡入淡出到指定的 (song_number) 歌曲中。
 	@ Crossfades the currently-playng song into the specified (song_number) song.
 	.macro fadenewbgm song_number:req
 	.byte 0x36
 	.2byte \song_number
 	.endm
 
+	@ 淡出当前播放的歌曲。
 	@ Fades out the currently-playing song.
 	.macro fadeoutbgm speed:req
 	.byte 0x37
 	.byte \speed
 	.endm
 
+	@ 将之前播放的歌曲淡入（重新播放）。
 	@ Fades the previously-playing song back in.
 	.macro fadeinbgm speed:req
 	.byte 0x38
 	.byte \speed
 	.endm
 
-	@ Sends the player to Warp warp on Map bank.map. If the specified warp is 0xFF, 
+ 	@ 将玩家发送到 Map bank.map 上的 Warp warp。如果指定的扭曲为 0xFF，则玩家将被发送到地图上的 (X, Y)。【需要检查重新翻译】
+	@ Sends the player to Warp warp on Map bank.map. If the specified warp is 0xFF,
 	@ then the player will instead be sent to (X, Y) on the map.
 	.macro warp map:req, warp:req, X:req, Y:req
 	.byte 0x39
@@ -475,6 +479,7 @@
 	.2byte \Y
 	.endm
 
+	@ 设置稍后要使用的传送地点。
 	@ Sets the warp destination to be used later.
 	.macro setwarp map:req, warp:req, X:req, Y:req
 	.byte 0x3e
@@ -484,7 +489,9 @@
 	.2byte \Y
 	.endm
 
-	@ Sets the warp destination that a warp to Warp 127 on Map 127.127 will connect to. 
+	@ 在地图 127.127 上将经线目标设置为经线 127 将连接到。【需要检查重新翻译】
+	@ 当地图具有需要脚本控制位置（即电梯）的传送时很有用。
+	@ Sets the warp destination that a warp to Warp 127 on Map 127.127 will connect to.
 	@ Useful when a map has warps that need to go to script-controlled locations (i.e. elevators).
 	.macro setdynamicwarp map:req, warp:req, X:req, Y:req
 	.byte 0x3f
@@ -494,6 +501,7 @@
 	.2byte \Y
 	.endm
 
+	@ 设置潜水或从潜水中出现将带玩家到达的目的地。
 	@ Sets the destination that diving or emerging from a dive will take the player to.
 	.macro setdivewarp map:req, warp:req, X:req, Y:req
 	.byte 0x40
@@ -503,6 +511,7 @@
 	.2byte \Y
 	.endm
 
+	@ 设置落入洞中玩家将到达的目的地。
 	@ Sets the destination that falling into a hole will take the player to.
 	.macro setholewarp map:req, warp:req, X:req, Y:req
 	.byte 0x41
@@ -512,6 +521,7 @@
 	.2byte \Y
 	.endm
 
+	@ 检索地图中玩家的零索引 X 和 Y 坐标，并将它们存储在指定的变量中。【需要检查重新翻译】
 	@ Retrieves the player's zero-indexed X- and Y-coordinates in the map, and stores them in the specified variables.
 	.macro getplayerxy X:req, Y:req
 	.byte 0x42
@@ -519,12 +529,14 @@
 	.2byte \Y
 	.endm
 
+	@ 检索玩家队伍中精灵的数量，并将该数量存储在 VAR_RESULT 中。
 	@ Retrieves the number of Pokemon in the player's party, and stores that number in VAR_RESULT.
 	.macro getpartysize
 	.byte 0x43
 	.endm
 
-	@ Attempts to add quantity of item index to the player's Bag. If the player has enough room, the item will be added and 
+	@ 尝试将指定数量的物品添加到玩家的包中。如果玩家有足够的空间，则将添加该项目并将VAR_RESULT设置为TRUE；否则为FALSE。
+	@ Attempts to add quantity of item index to the player's Bag. If the player has enough room, the item will be added and
 	@ VAR_RESULT will be set to TRUE; otherwise, VAR_RESULT is set to FALSE.
 	.macro additem index:req, quantity=1
 	.byte 0x44
@@ -532,6 +544,7 @@
 	.2byte \quantity
 	.endm
 
+	@ 从玩家背包中删掉指定数量的道具
 	@ Removes quantity of item index from the player's Bag.
 	.macro removeitem index:req, quantity=1
 	.byte 0x45
@@ -539,7 +552,8 @@
 	.2byte \quantity
 	.endm
 
-	@ Checks if the player has enough space in their Bag to hold quantity more of item index. Sets VAR_RESULT to 
+	@ 检查玩家的包中是否有足够的空间来容纳更多的道具类别。如果有，则将VAR_RESULT设置为TRUE，否则为FALSE。
+	@ Checks if the player has enough space in their Bag to hold quantity more of item index. Sets VAR_RESULT to
 	@ TRUE if there is room, or FALSE is there is no room.
 	.macro checkitemspace index:req, quantity:req
 	.byte 0x46
@@ -547,6 +561,7 @@
 	.2byte \quantity
 	.endm
 
+	@ 检查玩家的包中是否有指定数量或更多的某道具。如果有，则将VAR_RESULT设置为TRUE，否则（少于目标数量）为FALSE。
 	@ Checks if the player has quantity or more of item index in their Bag. Sets VAR_RESULT to TRUE if the player has
 	@ enough of the item, or FALSE if they have fewer than quantity of the item.
 	.macro checkitem index:req, quantity:req
@@ -555,13 +570,16 @@
 	.2byte \quantity
 	.endm
 
-	@ Checks which Bag pocket the specified item belongs in, and writes the pocket value (POCKET_*) to VAR_RESULT. 
+	@ 检查指定物品属于哪个口袋，并将口袋值 (POCKET_*) 写入 VAR_RESULT。
+	@ 该脚本用于在玩家通过 callstd（在 XSE 中简化为 giveitem）收到物品时显示正确的 Bag 口袋的名称。
+	@ Checks which Bag pocket the specified item belongs in, and writes the pocket value (POCKET_*) to VAR_RESULT.
 	@ This script is used to show the name of the proper Bag pocket when the player receives an item via callstd (simplified to giveitem in XSE).
 	.macro checkitemtype index:req
 	.byte 0x48
 	.2byte \index
 	.endm
 
+	@ 将一定数量的物品索引添加到玩家的 PC。 两个参数都可以是变量。
 	@ Adds a quantity amount of item index to the player's PC. Both arguments can be variables.
 	.macro addpcitem index:req, quantity:req
 	.byte 0x49
@@ -569,6 +587,7 @@
 	.2byte \quantity
 	.endm
 
+	@ 检查玩家 PC 中项目索引的数量。 两个参数都可以是变量。
 	@ Checks for quantity amount of item index in the player's PC. Both arguments can be variables.
 	.macro checkpcitem index:req, quantity:req
 	.byte 0x4a
@@ -576,25 +595,29 @@
 	.2byte \quantity
 	.endm
 
+	@ 在玩家的 PC 上添加装饰。 在 FireRed 中，这个命令是一个 nop。 （参数被读取，但不用于任何事情。）
 	@ Adds decoration to the player's PC. In FireRed, this command is a nop. (The argument is read, but not used for anything.)
 	.macro adddecoration decoration:req
 	.byte 0x4b
 	.2byte \decoration
 	.endm
 
+	@ 从玩家的 PC 上移除装饰。 在 FireRed 中，这个命令是一个 nop。 （参数被读取，但不用于任何事情。）
 	@ Removes a decoration from the player's PC. In FireRed, this command is a nop. (The argument is read, but not used for anything.)
 	.macro removedecoration decoration:req
 	.byte 0x4c
 	.2byte \decoration
 	.endm
 
+	@ 检查玩家电脑上的装饰。 在 FireRed 中，这个命令是一个 nop。 （参数被读取，但不用于任何事情。）
 	@ Checks for decoration in the player's PC. In FireRed, this command is a nop. (The argument is read, but not used for anything.)
 	.macro checkdecor decoration:req
 	.byte 0x4d
 	.2byte \decoration
 	.endm
 
-	@ Checks if the player has enough space in their PC to hold decoration. Sets VAR_RESULT to TRUE if there is room, or 
+	@ 检查玩家的 PC 中是否有足够的空间来放置装饰品。如果有空间，则将 VAR_RESULT 设置为 TRUE，如果没有空间，则设置为 FALSE。
+	@ Checks if the player has enough space in their PC to hold decoration. Sets VAR_RESULT to TRUE if there is room, or
 	@ FALSE is there is no room. In FireRed, this command is a nop. (The argument is read, but not used for anything.)
 	.macro checkdecorspace decoration:req
 	.byte 0x4e
@@ -617,9 +640,9 @@
 		.endif
 	.endm
 
-	@ Blocks script execution until the movements being applied to the specified (index) Object finish. 
-	@ If the specified Object is 0x0000, then the command will block script execution until all Objects 
-	@ affected by applymovement finish their movements. If the specified Object is not currently being 
+	@ Blocks script execution until the movements being applied to the specified (index) Object finish.
+	@ If the specified Object is 0x0000, then the command will block script execution until all Objects
+	@ affected by applymovement finish their movements. If the specified Object is not currently being
 	@ manipulated with applymovement, then this command does nothing.
 	@ If no map is specified, then the current map is used.
 	.macro waitmovement index:req, map
@@ -633,8 +656,8 @@
 		.endif
 	.endm
 
-	@ Attempts to hide the specified (index) Object on the specified (map_group, map_num) map, 
-	@ by setting its visibility flag if it has a valid one. If the Object does not have a valid 
+	@ Attempts to hide the specified (index) Object on the specified (map_group, map_num) map,
+	@ by setting its visibility flag if it has a valid one. If the Object does not have a valid
 	@ visibility flag, this command does nothing.
 	@ If no map is specified, then the current map is used.
 	.macro removeobject index:req, map
@@ -648,7 +671,7 @@
 		.endif
 	.endm
 
-	@ Unsets the specified (index) Object's visibility flag on the specified (map_group, map_num) map if it has a valid one. 
+	@ Unsets the specified (index) Object's visibility flag on the specified (map_group, map_num) map if it has a valid one.
 	@ If the Object does not have a valid visibility flag, this command does nothing.
 	@ If no map is specified, then the current map is used.
 	.macro addobject index:req, map
@@ -662,6 +685,7 @@
 		.endif
 	.endm
 
+	@ 设置指定（索引）对象在当前地图上的xy位置。
 	@ Sets the specified (index) Object's position on the current map.
 	.macro setobjectxy index:req, x:req, y:req
 	.byte 0x57
@@ -682,6 +706,7 @@
 	map \map
 	.endm
 
+	@ 如果脚本由对象调用，则该对象将转向面向玩家所站方向。
 	@ If the script was called by an Object, then that Object will turn to face toward the metatile that the player is standing on.
 	.macro faceplayer
 	.byte 0x5a
@@ -693,6 +718,7 @@
 	.byte \direction
 	.endm
 
+	@ 如果未设置 Trainer 索引的 Trainer 标志，则此命令绝对不执行任何操作。
 	@ If the Trainer flag for Trainer index is not set, this command does absolutely nothing.
 	.macro trainerbattle type:req, trainer:req, local_id:req, pointer1:req, pointer2, pointer3, pointer4
 	.byte 0x5c
@@ -790,7 +816,7 @@
 	.endm
 
 
-	@ Starts a trainer battle using the battle information stored in RAM (usually by trainerbattle, which actually calls this 
+	@ Starts a trainer battle using the battle information stored in RAM (usually by trainerbattle, which actually calls this
 	@ command behind-the-scenes), and blocks script execution until the battle finishes.
 	.macro trainerbattlebegin
 	.byte 0x5d
@@ -831,7 +857,7 @@
 	.2byte \y
 	.endm
 
-	@ Copies a live object event's xy position to its template, so that if the sprite goes off screen, 
+	@ Copies a live object event's xy position to its template, so that if the sprite goes off screen,
 	@ it'll still be there when it comes back on screen.
 	.macro copyobjectxytoperm index:req
 	.byte 0x64
@@ -844,50 +870,57 @@
 	.byte \byte
 	.endm
 
-	@ If a standard message box (or its text) is being drawn on-screen, this command blocks script execution until the 
+	@ If a standard message box (or its text) is being drawn on-screen, this command blocks script execution until the
 	@ box and its text have been fully drawn.
 	.macro waitmessage
 	.byte 0x66
 	.endm
 
-	@ Starts displaying a standard message box containing the specified text. If text is a pointer, then the string at 
-	@ that offset will be loaded and used. If text is script bank 0, then the value of script bank 0 will be treated as 
+	@ Starts displaying a standard message box containing the specified text. If text is a pointer, then the string at
+	@ that offset will be loaded and used. If text is script bank 0, then the value of script bank 0 will be treated as
 	@ a pointer to the text. (You can use loadpointer to place a string pointer in a script bank.)
 	.macro message text:req
 	.byte 0x67
 	.4byte \text
 	.endm
 
+	@ 关闭当前对话框
 	@ Closes the current message box.
 	.macro closemessage
 	.byte 0x68
 	.endm
 
+	@ 立即冻结除玩家之外的所有对象。 一旦他们的移动完成，玩家就会被冻结。
 	@ Freezes all objects immediately except the player. The player is frozen once their movement is finished.
 	.macro lockall
 	.byte 0x69
 	.endm
 
+	@ 立即冻结除玩家和选定对象之外的所有对象。 一旦他们的移动完成，玩家和选定的对象就会被冻结。
 	@ Freezes all objects immediately except the player and the selected object. The player and selected object are frozen once their movement is finished.
 	.macro lock
 	.byte 0x6a
 	.endm
 
+	@ 恢复屏幕上所有对象的正常移动，并关闭所有仍然打开的标准消息框。
 	@ Resumes normal movement for all Objects on-screen, and closes any standard message boxes that are still open.
 	.macro releaseall
 	.byte 0x6b
 	.endm
 
+	@ 如果脚本由对象调用，则该对象的移动将恢复。 此命令还会关闭所有仍处于打开状态的标准消息框。
 	@ If the script was called by an Object, then that Object's movement will resume. This command also closes any standard message boxes that are still open.
 	.macro release
 	.byte 0x6c
 	.endm
 
+	@ 阻止脚本执行，直到玩家按下任意键。
 	@ Blocks script execution until the player presses any key.
 	.macro waitbuttonpress
 	.byte 0x6d
 	.endm
 
+	@ 在指定坐标处显示 YES/NO 多选框，并阻止脚本执行，直到用户做出选择。他们的选择作为 NO (0) 或 YES (1) 存储在 VAR_RESULT 中。 按 B 相当于回答 NO
 	@ Displays a YES/NO multichoice box at the specified coordinates, and blocks script execution until the user makes a selection.
 	@ Their selection is stored in VAR_RESULT as NO (0) or YES (1). Pressing B is equivalent to answering NO
 	.macro yesnobox x:req, y:req
@@ -896,7 +929,7 @@
 	.byte \y
 	.endm
 
-	@ Displays a multichoice box from which the user can choose a selection, and blocks script execution until a selection is made. 
+	@ Displays a multichoice box from which the user can choose a selection, and blocks script execution until a selection is made.
 	@ Lists of options are predefined (sMultichoiceLists) and the one to be used is specified with multichoiceId.
 	@ If ignoreBPress is set to a non-zero value, then the user will not be allowed to back out of the multichoice with the B button.
 	.macro multichoice x:req, y:req, multichoiceId:req, ignoreBPress:req
@@ -909,7 +942,7 @@
 
 	@ Displays a multichoice box from which the user can choose a selection, and blocks script execution until a selection is made.
 	@ Lists of options are predefined (sMultichoiceLists) and the one to be used is specified with multichoiceId.
-	@ The default argument determines the initial position of the cursor when the box is first opened; it is zero-indexed, and if it is too large, it is treated as 0x00. 
+	@ The default argument determines the initial position of the cursor when the box is first opened; it is zero-indexed, and if it is too large, it is treated as 0x00.
 	@ If ignoreBPress is set to a non-zero value, then the user will not be allowed to back out of the multichoice with the B button.
 	.macro multichoicedefault x:req, y:req, multichoiceId:req, default:req, ignoreBPress:req
 	.byte 0x70
@@ -933,11 +966,13 @@
 	.byte \ignoreBPress
 	.endm
 
+	@ 绿宝石中没用
 	@ Nopped in Emerald.
 	.macro drawbox
 	.byte 0x72
 	.endm
 
+	@ 绿宝石中没用，但仍然消耗参数。
 	@ Nopped in Emerald, but still consumes parameters.
 	.macro erasebox left:req, top:req, right:req, bottom:req
 	.byte 0x73
@@ -947,6 +982,7 @@
 	.byte \bottom
 	.endm
 
+	@ 绿宝石中没用，但仍然消耗参数。
 	@ Nopped in Emerald, but still consumes parameters.
 	.macro drawboxtext left:req, top:req, multichoiceId:req, ignoreBPress:req
 	.byte 0x74
@@ -975,8 +1011,8 @@
 	.byte \winnerId
 	.endm
 
-	@ Displays the string at pointer as braille text in a standard message box. The string must be formatted to use braille 
-	@ characters and needs to provide six extra starting characters that are skipped (in RS, these characters determined the 
+	@ Displays the string at pointer as braille text in a standard message box. The string must be formatted to use braille
+	@ characters and needs to provide six extra starting characters that are skipped (in RS, these characters determined the
 	@ box's size and position, but in Emerald these are calculated automatically).
 	.macro braillemessage text:req
 	.byte 0x78
@@ -994,6 +1030,7 @@
 	.byte \textTop
 	.endm
 
+	@ 给予玩家一个指定的口袋妖怪，等级和持有物品。末位的 0 是未使用的参数
 	@ Gives the player one of the specified (species) Pokemon at level level holding item. The trailing 0s are unused parameters
 	.macro givemon species:req, level:req, item:req
 	.byte 0x79
@@ -1005,11 +1042,13 @@
 	.byte 0
 	.endm
 
+	@ 给蛋（指定种类）
 	.macro giveegg species:req
 	.byte 0x7a
 	.2byte \species
 	.endm
 
+	@ 设定/替换精灵技能
 	.macro setmonmove index:req, slot:req, move:req
 	.byte 0x7b
 	.byte \index
@@ -1046,7 +1085,7 @@
 	.2byte \slot
 	.endm
 
-	@ Writes the name of the item at index item to the specified buffer. If the specified index is larger than 
+	@ Writes the name of the item at index item to the specified buffer. If the specified index is larger than
 	@ the number of items in the game (0x176), the name of item 0 ("????????") is buffered instead.
 	.macro bufferitemname out:req, item:req
 	.byte 0x80
@@ -1108,6 +1147,7 @@
 	.4byte \products
 	.endm
 
+	@ 启动老虎机小游戏。
 	@ Starts up the slot machine minigame.
 	.macro playslotmachine word:req
 	.byte 0x89
@@ -1162,7 +1202,7 @@
 	.byte \check
 	.endm
 
-	@ If check is 0x00, this command will check if the player has money >= value; VAR_RESULT is set to TRUE if the player 
+	@ If check is 0x00, this command will check if the player has money >= value; VAR_RESULT is set to TRUE if the player
 	@ has enough money, or FALSE if they do not.
 	.macro checkmoney value:req, check:req
 	.byte 0x92
@@ -1393,7 +1433,7 @@
 
 	@ Prepares to start a wild battle against a species at Level level holding item.
 	@ If species2 is something other than SPECIES_NONE, then the battle is a double battle with another pokemon
-	@ with species species2 at Level level2 holding item2. 
+	@ with species species2 at Level level2 holding item2.
 	@ Running this command will not affect normal wild battles. You start the prepared battle with dowildbattle.
 	@ If the player only has one pokemon, a scripted double battle will be buggy.
 	.macro setwildbattle species:req, level:req, item:req, species2=SPECIES_NONE, level2=0, item2=ITEM_NONE
@@ -1502,7 +1542,7 @@
 	.2byte \box
 	.endm
 
-	@ Sets the color of the text in standard message boxes. 0x00 produces blue (male) text, 0x01 produces red (female) text, 
+	@ Sets the color of the text in standard message boxes. 0x00 produces blue (male) text, 0x01 produces red (female) text,
 	@ 0xFF resets the color to the default for the current OW's gender, and all other values produce black text.
 	@ Used only in FireRed/LeafGreen, does nothing in Emerald.
 	.macro textcolor color:req
@@ -1510,7 +1550,7 @@
 	.byte \color
 	.endm
 
-	@ The exact purpose of this command is unknown, but it is related to the blue help-text box that appears on the bottom 
+	@ The exact purpose of this command is unknown, but it is related to the blue help-text box that appears on the bottom
 	@ of the screen when the Main Menu is opened.
 	@ Used only in FireRed/LeafGreen, does nothing in Emerald.
 	.macro loadhelp pointer:req
@@ -1683,24 +1723,24 @@
 	.2byte \item
 	.2byte \quantity
 	.endm
-    
+
     @ sets an NPC up to follow the player
     .macro setfollower localId:req, flags:req
     .byte 0xe3
     .byte \localId
     .2byte \flags
     .endm
-    
+
     @ remove the following NPC (assumes there will only ever be one)
     .macro destroyfollower
     .byte 0xe4
     .endm
-    
+
     @ makes the player and follower face one another
     .macro facefollower
     .byte 0xe5
     .endm
-    
+
     @ checks if you have a follower. returns the result to VAR_RESULT
     .macro checkfollower
     .byte 0xe6
@@ -1721,7 +1761,7 @@
 	.byte \check
 	.endm
 
-	@ If check is 0x00, this command will check if the player has money >= variable amount; VAR_RESULT is set to TRUE if the player 
+	@ If check is 0x00, this command will check if the player has money >= variable amount; VAR_RESULT is set to TRUE if the player
 	@ has enough money, or FALSE if they do not.
 	.macro checkmoneywithvar variable:req, check:req
 	.byte 0xe9
@@ -1754,7 +1794,7 @@
 	MATH_SUB = 1
 	MATH_MULTIPLY = 2
 	MATH_DIVIDE = 3
-	
+
 	@ Changes the value of destination by value of source with mathematic operation. Overflow is not prevented (0xFFFF + 1 = 0x0000).
 	.macro mathvar destination:req, source:req, operation:req
 	.byte 0xed
@@ -1777,7 +1817,7 @@
 
 	.macro goto_if_lt dest:req @ LESS THAN
 	goto_if 0, \dest
-	.endm	
+	.endm
 
 	.macro goto_if_eq dest:req @ EQUAL
 	goto_if 1, \dest
@@ -1811,7 +1851,7 @@
 
 	.macro call_if_lt dest:req @ LESS THAN
 	call_if 0, \dest
-	.endm	
+	.endm
 
 	.macro call_if_eq dest:req @ EQUAL
 	call_if 1, \dest
@@ -1880,6 +1920,7 @@
 	goto_if_eq \dest
 	.endm
 
+	@ 消息框类型
 	@ Message box types
 	MSGBOX_NPC = 2
 	MSGBOX_SIGN = 3
@@ -1987,4 +2028,3 @@
 	.macro totemboost_evas2 battler:req
 	settotemboost \battler, 0, 0, 0, 0, 0, 0, 2
 	.endm
-
