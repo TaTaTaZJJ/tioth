@@ -332,6 +332,13 @@ TestEmotionMovement27:
 	emote_interesting
 	step_end
 
+TestMugshot::
+	drawmughot MUGSHOT_TEST
+	msgbox TestMugshot_Text_0, MSGBOX_NPC
+	clearmughot
+	end
+
+
 TestAddMoneywithVar_Text_0:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
@@ -370,3 +377,6 @@ TestSetScript2_Text_0:
 
 TestEmotion_Text_0:
 	.string "测试表情。$"
+
+TestMugshot_Text_0:
+	.string "测试头像对话$"

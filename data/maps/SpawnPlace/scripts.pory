@@ -320,3 +320,10 @@ movement TestEmotionMovement26 {
 movement TestEmotionMovement27 {    
     emote_interesting
 }
+
+script TestMugshot {
+    drawmughot(MUGSHOT_TEST)
+    msgbox("测试头像对话",MSGBOX_NPC)
+    clearmughot
+    end
+}
