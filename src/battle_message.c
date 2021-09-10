@@ -123,35 +123,35 @@ _("Delete a move to make\nroom for {B_BUFF2}?");
 
 static const u8 sText_PkmnForgotMove[] = 
 #ifdef CHINESE
-_("{B_BUFF1} forgot\n{B_BUFF2}.\p");    //TODO 汉化
+_("{B_BUFF1} 忘记了\n{B_BUFF2}。\p");    //TODO 汉化
 #else
 _("{B_BUFF1} forgot\n{B_BUFF2}.\p");
 #endif
 
 static const u8 sText_StopLearningMove[] = 
 #ifdef CHINESE
-_("{PAUSE 32}Stop learning\n{B_BUFF2}?");   //TODO 汉化
+_("{PAUSE 32}停止学习\n{B_BUFF2}？");   //TODO 汉化
 #else
 _("{PAUSE 32}Stop learning\n{B_BUFF2}?");
 #endif
 
 static const u8 sText_DidNotLearnMove[] = 
 #ifdef CHINESE
-_("{B_BUFF1} did not learn\n{B_BUFF2}.\p"); //TODO 汉化
+_("{B_BUFF1} 没有学会\n{B_BUFF2}。\p"); //TODO 汉化
 #else
 _("{B_BUFF1} did not learn\n{B_BUFF2}.\p");
 #endif
 
 static const u8 sText_UseNextPkmn[] = 
 #ifdef CHINESE
-_("Use next POKéMON?"); //TODO 汉化
+_("使用下一只宝可梦？"); //TODO 汉化
 #else
 _("Use next POKéMON?");
 #endif
 
 static const u8 sText_AttackMissed[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX}'s\nattack missed!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX}的\n攻击落空了！");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX}'s\nattack missed!");
 #endif
@@ -179,7 +179,7 @@ _("{B_DEF_NAME_WITH_PREFIX} makes GROUND\nmoves miss with {B_DEF_ABILITY}!");
 
 static const u8 sText_PkmnAvoidedAttack[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} avoided\nthe attack!"); //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 躲过了\n攻击！"); //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} avoided\nthe attack!");
 #endif
@@ -235,28 +235,28 @@ _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents\nescape with {B_SCR_ACTIVE_ABILITY}!
 
 static const u8 sText_CantEscape2[] = 
 #ifdef CHINESE
-_("Can't escape!\p");   //TODO 汉化
+_("无法逃走！\p");   //TODO 汉化
 #else
 _("Can't escape!\p");
 #endif
 
 static const u8 sText_AttackerCantEscape[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} can't escape!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 无法逃走！");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} can't escape!");
 #endif
 
 static const u8 sText_HitXTimes[] = 
 #ifdef CHINESE
-_("Hit {B_BUFF1} time(s)!");    //TODO 汉化
+_("击中 {B_BUFF1} 次！");    //TODO 汉化
 #else
 _("Hit {B_BUFF1} time(s)!");
 #endif
 
 static const u8 sText_PkmnFellAsleep[] = 
 #ifdef CHINESE
-_("{B_EFF_NAME_WITH_PREFIX}\nfell asleep!");    //TODO 汉化
+_("{B_EFF_NAME_WITH_PREFIX}\n陷入沉睡！");    //TODO 汉化
 #else
 _("{B_EFF_NAME_WITH_PREFIX}\nfell asleep!");
 #endif
@@ -3801,7 +3801,7 @@ _("{B_DEF_NAME_WITH_PREFIX} fell for\nthe feint!");
 
 static const u8 sText_PokemonCannotUseMove[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} cannot\nuse {B_CURRENT_MOVE}!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 无法\n使用 {B_CURRENT_MOVE}!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} cannot\nuse {B_CURRENT_MOVE}!");
 #endif
