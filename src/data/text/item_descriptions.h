@@ -206,7 +206,8 @@ static const u8 sRevivalHerbDesc[] = _(
     "宝可梦回复所有HP。");
 
 static const u8 sEtherDesc[] = _(
-    "能让宝可梦学会的其中1个招式回复10PP。");
+    "能让宝可梦学会的其中1个招式\n"
+    "回复10PP。");
 
 static const u8 sMaxEtherDesc[] = _(
     "能让宝可梦学会的其中1个\n"
@@ -998,25 +999,32 @@ static const u8 sOvalStoneDesc[] = _(
     "shaped like an egg.");
 
 static const u8 sProtectorDesc[] = _(
-    "某种护具。非常坚硬而且沉重。某种宝可梦很喜欢它。");
+    "某种护具。非常坚硬而且沉重。\n"
+    "某种宝可梦很喜欢它。");
 
 static const u8 sElectirizerDesc[] = _(
-    "积蓄着庞大电气力量的箱子。某种宝可梦很喜欢它。");
+    "积蓄着庞大电气力量的箱子。\n"
+    "某种宝可梦很喜欢它。");
 
 static const u8 sMagmarizerDesc[] = _(
-    "积蓄着庞大熔岩能量的箱子。某种宝可梦很喜欢它。");
+    "积蓄着庞大熔岩能量的箱子。\n"
+    "某种宝可梦很喜欢它。");
 
 static const u8 sDubiousDiscDesc[] = _(
-    "内部储存了奇怪信息的透明机器。制造者不明。");
+    "内部储存了奇怪信息的透明机器。\n"
+    "制造者不明。");
 
 static const u8 sReaperClothDesc[] = _(
-    "蕴含着惊人强大灵力的布。某种宝可梦很喜欢它。");
+    "蕴含着惊人强大灵力的布。\n"
+    "某种宝可梦很喜欢它。");
 
 static const u8 sRazorClawDesc[] = _(
-    "尖锐的爪子。携带后，招式会变得容易击中要害。");
+    "尖锐的爪子。携带后，招式\n"
+    "会变得容易击中要害。");
 
 static const u8 sRazorFangDesc[] = _(
-    "携带后，在给予伤害时，有时会让对手畏缩。");
+    "携带后，在给予伤害时，\n"
+    "有时会让对手畏缩。");
 
 static const u8 sPrismScaleDesc[] = _(
     "能让某些特定宝可梦进化的\n"
@@ -1096,177 +1104,233 @@ static const u8 sDragonFangDesc[] = _(
     "龙属性的招式威力就会提高。");
 
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "Normal-type moves.");
+    "一个携带后可以提高普通属性\n"
+    "攻击技能的道具。");
 
 static const u8 sUpGradeDesc[] = _(
     "内部储存了各种信息的透明\n"
     "机器。西尔佛公司制造。");
 
 static const u8 sShellBellDesc[] = _(
-    "当携带它的宝可梦攻击对手并造成伤害时，能回复少量HP。");
+    "当携带它的宝可梦攻击对手\n"
+    "并造成伤害时，能回复少量HP。");
 
 static const u8 sPowerBracerDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的攻击会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的攻击会比平时\n"
+    "成长得更高。");
 
 static const u8 sPowerBeltDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的防御会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的防御会比平时\n"
+    "成长得更高。");
 
 static const u8 sPowerLensDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的特攻会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的特攻会比平时\n"
+    "成长得更高。");
 
 static const u8 sPowerBandDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的特防会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的特防会比平时\n"
+    "成长得更高。");
 
 static const u8 sPowerAnkletDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的速度会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的速度会比平时\n"
+    "成长得更高。");
 
 static const u8 sPowerWeightDesc[] = _(
-    "虽然携带后速度会降低，但宝可梦的HP会比平时成长得更高。");
+    "虽然携带后速度会降低，\n"
+    "但宝可梦的HP会比平时\n"
+    "成长得更高。");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，水属性的招式威力就会提高。");
+    "有着神奇香气的薰香。携带后，\n"
+    "水属性的招式威力就会提高。");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "携带后，薰香的神奇香气会迷惑对手，其招式会变得不容易命中。");
+    "携带后，薰香的神奇香气会迷惑\n"
+    "对手，其招式会变得不容易命中。");
 
 static const u8 sOddIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，超能力属性的招式威力就会提高。");
+    "有着神奇香气的薰香。携带后，\n"
+    "超能力属性的招式威力就会提高。");
 
 static const u8 sRockIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，岩石属性的招式威力就会提高。");
+    "有着神奇香气的薰香。携带后，\n"
+    "岩石属性的招式威力就会提高。");
 
 static const u8 sFullIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，宝可梦的行动会比平时更加迟缓。");
+    "有着神奇香气的薰香。携带后，\n"
+    "宝可梦的行动会比平时更加迟缓。");
 
 static const u8 sWaveIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，水属性的招式威力就会提高。");
+    "有着神奇香气的薰香。携带后，\n"
+    "水属性的招式威力就会提高。");
 
 static const u8 sRoseIncenseDesc[] = _(
-    "有着神奇香气的薰香。携带后，草属性的招式威力就会提高。");
+    "有着神奇香气的薰香。携带后，\n"
+    "草属性的招式威力就会提高。");
 
 static const u8 sLuckIncenseDesc[] = _(
-    "只要携带它的宝可梦在战斗时出场一次，就能获得2倍金钱。");
+    "只要携带它的宝可梦在战斗时\n"
+    "出场一次，就能获得2倍金钱。");
 
 static const u8 sPureIncenseDesc[] = _(
-    "让排在最前面的宝可梦携带后，野生宝可梦就会不容易出现。");
+    "让排在最前面的宝可梦携带后，\n"
+    "野生宝可梦就会不容易出现。");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "能带来幸运的拳套。让吉利蛋携带后，招式会变得容易击中要害。");
+    "能带来幸运的拳套。让吉利蛋\n"
+    "携带后，招式会变得容易击中要害。");
 
 static const u8 sMetalPowderDesc[] = _(
-    "让百变怪携带后，防御就会提高的神奇粉末。非常细腻坚硬。");
+    "让百变怪携带后，防御就会提高\n"
+    "的神奇粉末。非常细腻坚硬。");
 
 static const u8 sThickClubDesc[] = _(
-    "某种坚硬的骨头。让卡拉卡拉或嘎啦嘎啦携带后，攻击就会提高。");
+    "某种坚硬的骨头。让卡拉卡拉\n"
+    "或嘎啦嘎啦携带后，攻击就会提高。");
 
 static const u8 sStickDesc[] = _(
-    "非常长且坚硬的茎。让大葱鸭携带后，招式会变得容易击中要害。");
+    "非常长且坚硬的茎。让大葱鸭\n"
+    "携带后，招式会变得容易击中要害。");
 
 static const u8 sRedScarfDesc[] = _(
-    "携带它去参加华丽大赛的宝可梦会比平时看上去更加帅气。");
+    "携带它去参加华丽大赛的\n"
+    "宝可梦会比平时看上去更加帅气。");
 
 static const u8 sBlueScarfDesc[] = _(
-    "携带它去参加华丽大赛的宝可梦会比平时看上去更加美丽。");
+    "携带它去参加华丽大赛的\n"
+    "宝可梦会比平时看上去更加美丽。");
 
 static const u8 sPinkScarfDesc[] = _(
-    "携带它去参加华丽大赛的宝可梦会比平时看上去更加可爱。");
+    "携带它去参加华丽大赛的\n"
+    "宝可梦会比平时看上去更加可爱。");
 
 static const u8 sGreenScarfDesc[] = _(
-    "携带它去参加华丽大赛的宝可梦会比平时看上去更加聪明。");
+    "携带它去参加华丽大赛的\n"
+    "宝可梦会比平时看上去更加聪明。");
 
 static const u8 sYellowScarfDesc[] = _(
-    "携带它去参加华丽大赛的宝可梦会比平时看上去更加强壮。");
+    "携带它去参加华丽大赛的\n"
+    "宝可梦会比平时看上去更加强壮。");
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "能以2倍以上的速度移动的折叠式自行车。");
+    "能以2倍以上的速度移动的折叠式\n"
+    "自行车。");
 
 static const u8 sCoinCaseDesc[] = _(
-    "可以存放代币的盒子。最多能放入9999枚在游戏城获得的代币。");
+    "可以存放代币的盒子。最多能放入\n"
+    "9999枚在游戏城获得的代币。");
 
 static const u8 sItemfinderDesc[] = _(
-    "会对看不见的道具起反应，并发出声音告诉你。");
+    "会对看不见的道具起反应，\n"
+    "并发出声音告诉你。");
 
 static const u8 sOldRodDesc[] = _(
-    "又破又旧的钓竿。在有水的地方使用的话，可以钓到宝可梦。");
+    "又破又旧的钓竿。在有水的地方\n"
+    "使用的话，可以钓到宝可梦。");
 
 static const u8 sGoodRodDesc[] = _(
-    "不错的新钓竿。在有水的地方使用的话，可以钓到宝可梦。");
+    "不错的新钓竿。在有水的地方\n"
+    "使用的话，可以钓到宝可梦。");
 
 static const u8 sSuperRodDesc[] = _(
-    "最新的厉害钓竿。在有水的地方使用的话，可以钓到宝可梦。");
+    "最新的厉害钓竿。在有水的地方\n"
+    "使用的话，可以钓到宝可梦。");
 
 static const u8 sSSTicketDesc[] = _(
-    "乘坐高速船时所需的船票。上面绘有船的图案。");
+    "乘坐高速船时所需的船票。\n"
+    "上面绘有船的图案。");
 
 static const u8 sContestPassDesc[] = _(
-    "拿着它就可以参加宝可梦华丽大赛。上面印有纪念奖章。");
+    "拿着它就可以参加宝可梦华丽大赛。\n"
+    "上面印有纪念奖章。");
 
 static const u8 sWailmerPailDesc[] = _(
-    "浇水的道具。能让埋在土壤里的树果快快长大。");
+    "浇水的道具。能让埋在土壤里的\n"
+    "树果快快长大。");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "此物品里面放着的是得文制造的某种零件。");
+    "此物品里面放着的是得文\n"
+    "制造的某种零件。");
 
 static const u8 sSootSackDesc[] = _(
-    "将堆积起来的火山灰收集起来的袋子。");
+    "将堆积起来的火山灰\n"
+    "收集起来的袋子。");
 
 static const u8 sBasementKeyDesc[] = _(
     "用来打开地道大门的钥匙。");
 
 static const u8 sAcroBikeDesc[] = _(
-    "能做出跳跃或抬前轮动作的折叠式自行车。");
+    "能做出跳跃或抬前轮动作的\n"
+    "折叠式自行车。");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "可以用来放置用树果混合器制造的宝可方块的盒子。");
+    "可以用来放置用树果混合器\n"
+    "制造的宝可方块的盒子。");
 
 static const u8 sLetterDesc[] = _(
     "从阿克罗玛博士那里得到的信，\n"
     "需要交给4号道路的阿戴克。");
 
 static const u8 sEonTicketDesc[] = _(
-    "前往南方孤岛时需要的船票。上面印着岛屿的图片。");
+    "前往南方孤岛时需要的船票。\n"
+    "上面印着岛屿的图片。");
 
 static const u8 sRedOrbDesc[] = _(
-    "散发着红色光辉的宝珠。据说蕴含着超古代的力量。");
+    "散发着红色光辉的宝珠。\n"
+    "据说蕴含着超古代的力量。");
 
 static const u8 sBlueOrbDesc[] = _(
-    "散发着蓝色光辉的宝珠。据说蕴含着超古代的力量。");
+    "散发着蓝色光辉的宝珠。\n"
+    "据说蕴含着超古代的力量。");
 
 static const u8 sScannerDesc[] = _(
     "在弃船中找到的道具。");
 
 static const u8 sGoGogglesDesc[] = _(
-    "能在沙漠的沙暴中保护眼睛的出色护目镜。");
+    "能在沙漠的沙暴中\n"
+    "保护眼睛的出色护目镜。");
 
 static const u8 sMeteoriteDesc[] = _(
-    "原本是落入流星瀑布里的陨石。是在烟囱山获得的。");
+    "原本是落入流星瀑布里的陨石。\n"
+    "是在烟囱山获得的。");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "进入弃船的房间时所需的钥匙。");
+    "进入弃船的房间时所需的\n"
+    "钥匙。");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "进入弃船的房间时所需的钥匙。");
+    "进入弃船的房间时所需的\n"
+    "钥匙。");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "进入弃船的房间时所需的钥匙。");
+    "进入弃船的房间时所需的\n"
+    "钥匙。");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "进入弃船的房间时所需的钥匙。");
+    "进入弃船的房间时所需的\n"
+    "钥匙。");
 
 static const u8 sStorageKeyDesc[] = _(
     "进入弃船的仓库时所需的钥匙。");
 
 static const u8 sRootFossilDesc[] = _(
-    "很久以前栖息在海里的古代宝可梦的化石。好像是根的一部分。");
+    "很久以前栖息在海里的古代\n"
+    "宝可梦的化石。好像是根的一部分。");
 
 static const u8 sClawFossilDesc[] = _(
-    "很久以前栖息在海里的古代宝可梦的化石。好像是爪子的一部分。");
+    "很久以前栖息在海里的\n"
+    "古代宝可梦的化石。\n"
+    "好像是爪子的一部分。");
 
 static const u8 sDevonScopeDesc[] = _(
-    "会对看不见的宝可梦起反应，并发出声音的得文特制产品。");
+    "会对看不见的宝可梦起反应，\n"
+    "并发出声音的得文特制产品。");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(

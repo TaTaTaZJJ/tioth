@@ -1,6 +1,6 @@
 #include "config.h"
 
-#ifdef CHINESE //TODO 汉化
+#ifdef CHINESE //TODO 汉化(低优先)
 const u8 gGiftRibbonDescriptionPart1_2003RegionalTourney[] = _("2003 REGIONAL TOURNEY");
 const u8 gGiftRibbonDescriptionPart2_Champion[] = _("CHAMPION RIBBON");
 const u8 gGiftRibbonDescriptionPart1_2003NationalTourney[] = _("2003 NATIONAL TOURNEY");
