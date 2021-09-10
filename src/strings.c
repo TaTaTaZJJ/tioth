@@ -284,7 +284,7 @@ _("SELECT"); // Unused
 
 const u8 gText_ControlPad[] = 
 #ifdef CHINESE
-_("+     Control Pad"); // Unused //TODO 汉化
+_("+ Control Pad"); // Unused //TODO 汉化
 #else
 _("+ Control Pad"); // Unused
 #endif
@@ -648,7 +648,7 @@ _("This is what we call a “POKéMON.”{PAUSE 96}\p");
 
 const u8 gText_5MarksPokemon[] = 
 #ifdef CHINESE
-_("?????     POKéMON"); //TODO 汉化
+_("????? POKéMON"); //TODO 汉化
 #else
 _("????? POKéMON");
 #endif
@@ -662,14 +662,14 @@ _("{CLEAR_TO 0x0C}??'??”");
 
 const u8 gText_UnkWeight[] = 
 #ifdef CHINESE
-_("????.?    lbs."); //TODO 汉化
+_("????.? lbs."); //TODO 汉化
 #else
 _("????.? lbs.");
 #endif
 
 const u8 gText_EmptyPkmnCategory[] = 
 #ifdef CHINESE
-_("                       POKéMON"); // Unused //TODO 汉化
+_("                      POKéMON"); // Unused //TODO 汉化
 #else
 _("                      POKéMON"); // Unused
 #endif
@@ -683,7 +683,7 @@ _("{CLEAR_TO 0x0C}    '    ”"); // Unused
 
 const u8 gText_EmptyWeight[] = 
 #ifdef CHINESE
-_("        .   lbs."); // Unused //TODO 汉化
+_("        .  lbs."); // Unused //TODO 汉化
 #else
 _("       .   lbs."); // Unused
 #endif
@@ -11710,12 +11710,7 @@ _("The two prefer to play with other\nPOKéMON than each other."); //TODO 汉化
 _("The two prefer to play with other\nPOKéMON than each other.");
 #endif
 
-const u8 gText_NewLine2[] = 
-#ifdef CHINESE
-_("\    n"); //TODO 汉化
-#else
-_("\n");
-#endif
+const u8 gText_NewLine2[] = _("\n");
 
 const u8 gText_Exit4[] = 
 #ifdef CHINESE
@@ -11724,12 +11719,7 @@ _("EXIT"); //TODO 汉化
 _("EXIT");
 #endif
 
-const u8 gText_Lv[] = 
-#ifdef CHINESE
-_("{LV}"); //TODO 汉化
-#else
-_("{LV}");
-#endif
+const u8 gText_Lv[] = _("{LV}");
 
 const u8 gText_TimeBoard[] = 
 #ifdef CHINESE
@@ -12318,4 +12308,3 @@ _("BERRIES"); //TODO 汉化
 #else
 _("BERRIES");
 #endif
-
