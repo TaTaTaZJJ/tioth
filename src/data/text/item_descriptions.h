@@ -1579,9 +1579,7 @@ static const u8 sCardKeyDesc[] = _(
     "用来打开位于金黄市的西尔佛公司总部大厦门锁的卡片式钥匙。");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in Team\n"
-    "Rocket's Hideout.");
+    "一把用来打开火箭队藏身处的电梯钥匙。");
 
 static const u8 sArmorFossilDesc[] = _(
     "带有火箭队标志的钥匙。能启动位于火箭队基地的电梯。");
