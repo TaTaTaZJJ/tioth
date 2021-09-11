@@ -19,7 +19,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Master Ball"), //TODO 汉化
+                    _("大师球"), //TODO 汉化
 #else
                     _("Master Ball"),
 #endif
@@ -37,7 +37,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ultra Ball"), //TODO 汉化
+                    _("高级球"), //TODO 汉化
 #else
                     _("Ultra Ball"),
 #endif
@@ -55,7 +55,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Great Ball"), //TODO 汉化
+                    _("超级球"), //TODO 汉化
 #else
                     _("Great Ball"),
 #endif
@@ -73,7 +73,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poké Ball"), //TODO 汉化
+                    _("精灵球"), //TODO 汉化
 #else
                     _("Poké Ball"),
 #endif
@@ -91,7 +91,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Safari Ball"), //TODO 汉化
+                    _("狩猎球"), //TODO 汉化
 #else
                     _("Safari Ball"),
 #endif
@@ -109,7 +109,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Net Ball"), //TODO 汉化
+                    _("捕网球"), //TODO 汉化
 #else
                     _("Net Ball"),
 #endif
@@ -127,7 +127,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dive Ball"), //TODO 汉化
+                    _("潜水球"), //TODO 汉化
 #else
                     _("Dive Ball"),
 #endif
@@ -145,7 +145,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Nest Ball"), //TODO 汉化
+                    _("巢穴球"), //TODO 汉化
 #else
                     _("Nest Ball"),
 #endif
@@ -163,7 +163,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Repeat Ball"), //TODO 汉化
+                    _("重复球"), //TODO 汉化
 #else
                     _("Repeat Ball"),
 #endif
@@ -181,7 +181,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Timer Ball"), //TODO 汉化
+                    _("计时球"), //TODO 汉化
 #else
                     _("Timer Ball"),
 #endif
@@ -199,7 +199,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Luxury Ball"), //TODO 汉化
+                    _("豪华球"), //TODO 汉化
 #else
                     _("Luxury Ball"),
 #endif
@@ -217,7 +217,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Premier Ball"), //TODO 汉化
+                    _("纪念球"), //TODO 汉化
 #else
                     _("Premier Ball"),
 #endif
@@ -235,7 +235,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Level Ball"), //TODO 汉化
+                    _("等级球"), //TODO 汉化
 #else
                     _("Level Ball"),
 #endif
@@ -253,7 +253,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lure Ball"), //TODO 汉化
+                    _("诱饵球"), //TODO 汉化
 #else
                     _("Lure Ball"),
 #endif
@@ -271,7 +271,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Moon Ball"), //TODO 汉化
+                    _("月亮球"), //TODO 汉化
 #else
                     _("Moon Ball"),
 #endif
@@ -289,7 +289,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Friend Ball"), //TODO 汉化
+                    _("友友球"), //TODO 汉化
 #else
                     _("Friend Ball"),
 #endif
@@ -307,7 +307,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Love Ball"), //TODO 汉化
+                    _("甜甜蜜球"), //TODO 汉化
 #else
                     _("Love Ball"),
 #endif
@@ -325,7 +325,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heavy Ball"), //TODO 汉化
+                    _("沉重球"), //TODO 汉化
 #else
                     _("Heavy Ball"),
 #endif
@@ -343,7 +343,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fast Ball"), //TODO 汉化
+                    _("速度球"), //TODO 汉化
 #else
                     _("Fast Ball"),
 #endif
@@ -361,7 +361,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heal Ball"), //TODO 汉化
+                    _("治愈球"), //TODO 汉化
 #else
                     _("Heal Ball"),
 #endif
@@ -379,7 +379,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Quick Ball"), //TODO 汉化
+                    _("先机球"), //TODO 汉化
 #else
                     _("Quick Ball"),
 #endif
@@ -397,7 +397,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dusk Ball"), //TODO 汉化
+                    _("黑暗球"), //TODO 汉化
 #else
                     _("Dusk Ball"),
 #endif
@@ -415,7 +415,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cherish Ball"), //TODO 汉化
+                    _("贵重球"), //TODO 汉化
 #else
                     _("Cherish Ball"),
 #endif
@@ -433,7 +433,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sport Ball"), //TODO 汉化
+                    _("竞赛球"), //TODO 汉化
 #else
                     _("Sport Ball"),
 #endif
@@ -451,7 +451,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Park Ball"), //TODO 汉化
+                    _("公园球"), //TODO 汉化
 #else
                     _("Park Ball"),
 #endif
@@ -469,7 +469,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dream Ball"), //TODO 汉化
+                    _("梦境球"), //TODO 汉化
 #else
                     _("Dream Ball"),
 #endif
@@ -487,7 +487,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Beast Ball"), //TODO 汉化
+                    _("究极球"), //TODO 汉化
 #else
                     _("Beast Ball"),
 #endif
@@ -507,7 +507,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Potion"), //TODO 汉化
+                    _("伤药"), //TODO 汉化
 #else
                     _("Potion"),
 #endif
@@ -526,7 +526,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Antidote"), //TODO 汉化
+                    _("解毒药"), //TODO 汉化
 #else
                     _("Antidote"),
 #endif
@@ -544,7 +544,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Burn Heal"), //TODO 汉化
+                    _("灼伤药"), //TODO 汉化
 #else
                     _("Burn Heal"),
 #endif
@@ -562,7 +562,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ice Heal"), //TODO 汉化
+                    _("解冻药"), //TODO 汉化
 #else
                     _("Ice Heal"),
 #endif
@@ -580,7 +580,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Awakening"), //TODO 汉化
+                    _("解眠药"), //TODO 汉化
 #else
                     _("Awakening"),
 #endif
@@ -598,7 +598,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Paralyze Heal"), //TODO 汉化
+                    _("解麻药"), //TODO 汉化
 #else
                     _("Paralyze Heal"),
 #endif
@@ -616,7 +616,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Full Restore"), //TODO 汉化
+                    _("全复药"), //TODO 汉化
 #else
                     _("Full Restore"),
 #endif
@@ -635,7 +635,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Max Potion"), //TODO 汉化
+                    _("全满药"), //TODO 汉化
 #else
                     _("Max Potion"),
 #endif
@@ -654,7 +654,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Hyper Potion"), //TODO 汉化
+                    _("厉害伤药"), //TODO 汉化
 #else
                     _("Hyper Potion"),
 #endif
@@ -673,7 +673,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Super Potion"), //TODO 汉化
+                    _("好伤药"), //TODO 汉化
 #else
                     _("Super Potion"),
 #endif
@@ -692,7 +692,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Full Heal"), //TODO 汉化
+                    _("万灵药"), //TODO 汉化
 #else
                     _("Full Heal"),
 #endif
@@ -710,7 +710,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Revive"), //TODO 汉化
+                    _("活力碎片"), //TODO 汉化
 #else
                     _("Revive"),
 #endif
@@ -728,7 +728,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Max Revive"), //TODO 汉化
+                    _("活力块"), //TODO 汉化
 #else
                     _("Max Revive"),
 #endif
@@ -746,7 +746,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fresh Water"), //TODO 汉化
+                    _("美味之水"), //TODO 汉化
 #else
                     _("Fresh Water"),
 #endif
@@ -765,7 +765,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Soda Pop"), //TODO 汉化
+                    _("劲爽汽水"), //TODO 汉化
 #else
                     _("Soda Pop"),
 #endif
@@ -784,7 +784,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lemonade"), //TODO 汉化
+                    _("果汁牛奶"), //TODO 汉化
 #else
                     _("Lemonade"),
 #endif
@@ -803,7 +803,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Moomoo Milk"), //TODO 汉化
+                    _("哞哞鲜奶"), //TODO 汉化
 #else
                     _("Moomoo Milk"),
 #endif
@@ -822,7 +822,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Energy Powder"), //TODO 汉化
+                    _("元气粉"), //TODO 汉化
 #else
                     _("Energy Powder"),
 #endif
@@ -840,7 +840,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Energy Root"), //TODO 汉化
+                    _("元气根"), //TODO 汉化
 #else
                     _("Energy Root"),
 #endif
@@ -858,7 +858,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heal Powder"), //TODO 汉化
+                    _("万能粉"), //TODO 汉化
 #else
                     _("Heal Powder"),
 #endif
@@ -876,7 +876,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Revival Herb"), //TODO 汉化
+                    _("复活草"), //TODO 汉化
 #else
                     _("Revival Herb"),
 #endif
@@ -894,7 +894,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ether"), //TODO 汉化
+                    _("PP单项小补剂"), //TODO 汉化
 #else
                     _("Ether"),
 #endif
@@ -913,7 +913,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Max Ether"), //TODO 汉化
+                    _("PP单项全补剂"), //TODO 汉化
 #else
                     _("Max Ether"),
 #endif
@@ -932,7 +932,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Elixir"), //TODO 汉化
+                    _("PP多项小补剂"), //TODO 汉化
 #else
                     _("Elixir"),
 #endif
@@ -951,7 +951,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Max Elixir"), //TODO 汉化
+                    _("PP多项全补剂"), //TODO 汉化
 #else
                     _("Max Elixir"),
 #endif
@@ -970,7 +970,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lava Cookie"), //TODO 汉化
+                    _("釜炎仙贝"), //TODO 汉化
 #else
                     _("Lava Cookie"),
 #endif
@@ -988,7 +988,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blue Flute"), //TODO 汉化
+                    _("蓝色玻璃哨"), //TODO 汉化
 #else
                     _("Blue Flute"),
 #endif
@@ -1006,7 +1006,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Yellow Flute"), //TODO 汉化
+                    _("黄色玻璃哨"), //TODO 汉化
 #else
                     _("Yellow Flute"),
 #endif
@@ -1024,7 +1024,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Flute"), //TODO 汉化
+                    _("红色玻璃哨"), //TODO 汉化
 #else
                     _("Red Flute"),
 #endif
@@ -1042,7 +1042,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Black Flute"), //TODO 汉化
+                    _("黑色玻璃哨"), //TODO 汉化
 #else
                     _("Black Flute"),
 #endif
@@ -1059,7 +1059,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("White Flute"), //TODO 汉化
+                    _("白色玻璃哨"), //TODO 汉化
 #else
                     _("White Flute"),
 #endif
@@ -1076,7 +1076,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Berry Juice"), //TODO 汉化
+                    _("树果汁"), //TODO 汉化
 #else
                     _("Berry Juice"),
 #endif
@@ -1096,7 +1096,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sweet Heart"), //TODO 汉化
+                    _("心形甜点"), //TODO 汉化
 #else
                     _("Sweet Heart"),
 #endif
@@ -1115,7 +1115,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Big Malasada"), //TODO 汉化
+                    _("大马拉萨达"), //TODO 汉化
 #else
                     _("Big Malasada"),
 #endif
@@ -1133,7 +1133,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Old Gateau"), //TODO 汉化
+                    _("森之羊羹"), //TODO 汉化
 #else
                     _("Old Gateau"),
 #endif
@@ -1151,7 +1151,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sacred Ash"), //TODO 汉化
+                    _("圣灰"), //TODO 汉化
 #else
                     _("Sacred Ash"),
 #endif
@@ -1169,7 +1169,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shoal Salt"), //TODO 汉化
+                    _("浅滩海盐"), //TODO 汉化
 #else
                     _("Shoal Salt"),
 #endif
@@ -1185,7 +1185,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shoal Shell"), //TODO 汉化
+                    _("浅滩贝壳"), //TODO 汉化
 #else
                     _("Shoal Shell"),
 #endif
@@ -1201,7 +1201,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Shard"), //TODO 汉化
+                    _("红色碎片"), //TODO 汉化
 #else
                     _("Red Shard"),
 #endif
@@ -1217,7 +1217,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blue Shard"), //TODO 汉化
+                    _("蓝色碎片"), //TODO 汉化
 #else
                     _("Blue Shard"),
 #endif
@@ -1233,7 +1233,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Yellow Shard"), //TODO 汉化
+                    _("黄色碎片"), //TODO 汉化
 #else
                     _("Yellow Shard"),
 #endif
@@ -1249,7 +1249,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Green Shard"), //TODO 汉化
+                    _("绿色碎片"), //TODO 汉化
 #else
                     _("Green Shard"),
 #endif
@@ -1267,7 +1267,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("HP Up"), //TODO 汉化
+                    _("HP增强剂"), //TODO 汉化
 #else
                     _("HP Up"),
 #endif
@@ -1283,7 +1283,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Protein"), //TODO 汉化
+                    _("攻击增强剂"), //TODO 汉化
 #else
                     _("Protein"),
 #endif
@@ -1299,7 +1299,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Iron"), //TODO 汉化
+                    _("防御增强剂"), //TODO 汉化
 #else
                     _("Iron"),
 #endif
@@ -1315,7 +1315,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Carbos"), //TODO 汉化
+                    _("速度增强剂"), //TODO 汉化
 #else
                     _("Carbos"),
 #endif
@@ -1331,7 +1331,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Calcium"), //TODO 汉化
+                    _("特攻增强剂"), //TODO 汉化
 #else
                     _("Calcium"),
 #endif
@@ -1347,7 +1347,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rare Candy"), //TODO 汉化
+                    _("神奇糖果"), //TODO 汉化
 #else
                     _("Rare Candy"),
 #endif
@@ -1363,7 +1363,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("PP Up"), //TODO 汉化
+                    _("PP提升剂"), //TODO 汉化
 #else
                     _("PP Up"),
 #endif
@@ -1379,7 +1379,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Zinc"), //TODO 汉化
+                    _("特防增强剂"), //TODO 汉化
 #else
                     _("Zinc"),
 #endif
@@ -1395,7 +1395,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("PP Max"), //TODO 汉化
+                    _("PP极限提升剂"), //TODO 汉化
 #else
                     _("PP Max"),
 #endif
@@ -1413,7 +1413,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Guard Spec."), //TODO 汉化
+                    _("能力防守"), //TODO 汉化
 #else
                     _("Guard Spec."),
 #endif
@@ -1431,7 +1431,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dire Hit"), //TODO 汉化
+                    _("要害攻击"), //TODO 汉化
 #else
                     _("Dire Hit"),
 #endif
@@ -1449,7 +1449,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Attack"), //TODO 汉化
+                    _("力量强化"), //TODO 汉化
 #else
                     _("X Attack"),
 #endif
@@ -1467,7 +1467,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Defense"), //TODO 汉化
+                    _("防御强化"), //TODO 汉化
 #else
                     _("X Defense"),
 #endif
@@ -1485,7 +1485,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Speed"), //TODO 汉化
+                    _("速度强化"), //TODO 汉化
 #else
                     _("X Speed"),
 #endif
@@ -1503,7 +1503,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Accuracy"), //TODO 汉化
+                    _("命中强化"), //TODO 汉化
 #else
                     _("X Accuracy"),
 #endif
@@ -1521,7 +1521,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Sp. Atk"), //TODO 汉化
+                    _("特攻强化"), //TODO 汉化
 #else
                     _("X Sp. Atk"),
 #endif
@@ -1539,7 +1539,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("X Sp. Def"), //TODO 汉化
+                    _("特防强化"), //TODO 汉化
 #else
                     _("X Sp. Def"),
 #endif
@@ -1557,7 +1557,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poké Doll"), //TODO 汉化
+                    _("皮皮玩偶"), //TODO 汉化
 #else
                     _("Poké Doll"),
 #endif
@@ -1575,7 +1575,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fluffy Tail"), //TODO 汉化
+                    _("向尾喵的尾巴"), //TODO 汉化
 #else
                     _("Fluffy Tail"),
 #endif
@@ -1595,7 +1595,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Super Repel"), //TODO 汉化
+                    _("白银喷雾"), //TODO 汉化
 #else
                     _("Super Repel"),
 #endif
@@ -1612,7 +1612,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Max Repel"), //TODO 汉化
+                    _("黄金喷雾"), //TODO 汉化
 #else
                     _("Max Repel"),
 #endif
@@ -1629,7 +1629,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("AbilityCapsle"), //TODO 汉化
+                    _("特性胶囊"), //TODO 汉化
 #else
                     _("AbilityCapsle"),
 #endif
@@ -1646,7 +1646,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Escape Rope"), //TODO 汉化
+                    _("离洞绳"), //TODO 汉化
 #else
                     _("Escape Rope"),
 #endif
@@ -1668,7 +1668,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Repel"), //TODO 汉化
+                    _("除虫喷雾"), //TODO 汉化
 #else
                     _("Repel"),
 #endif
@@ -1687,7 +1687,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sun Stone"), //TODO 汉化
+                    _("日之石"), //TODO 汉化
 #else
                     _("Sun Stone"),
 #endif
@@ -1703,7 +1703,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Moon Stone"), //TODO 汉化
+                    _("月之石"), //TODO 汉化
 #else
                     _("Moon Stone"),
 #endif
@@ -1719,7 +1719,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fire Stone"), //TODO 汉化
+                    _("火之石"), //TODO 汉化
 #else
                     _("Fire Stone"),
 #endif
@@ -1735,7 +1735,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Thunder Stone"), //TODO 汉化
+                    _("雷之石"), //TODO 汉化
 #else
                     _("Thunder Stone"),
 #endif
@@ -1751,7 +1751,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Water Stone"), //TODO 汉化
+                    _("水之石"), //TODO 汉化
 #else
                     _("Water Stone"),
 #endif
@@ -1767,7 +1767,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Leaf Stone"), //TODO 汉化
+                    _("叶之石"), //TODO 汉化
 #else
                     _("Leaf Stone"),
 #endif
@@ -1783,7 +1783,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dawn Stone"), //TODO 汉化
+                    _("觉醒之石"), //TODO 汉化
 #else
                     _("Dawn Stone"),
 #endif
@@ -1799,7 +1799,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dusk Stone"), //TODO 汉化
+                    _("暗之石"), //TODO 汉化
 #else
                     _("Dusk Stone"),
 #endif
@@ -1815,7 +1815,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shiny Stone"), //TODO 汉化
+                    _("光之石"), //TODO 汉化
 #else
                     _("Shiny Stone"),
 #endif
@@ -1831,7 +1831,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ice Stone"), //TODO 汉化
+                    _("冰之石"), //TODO 汉化
 #else
                     _("Ice Stone"),
 #endif
@@ -1849,7 +1849,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Apricorn"), //TODO 汉化
+                    _("红球果"), //TODO 汉化
 #else
                     _("Red Apricorn"),
 #endif
@@ -1865,7 +1865,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blue Apricorn"), //TODO 汉化
+                    _("蓝球果"), //TODO 汉化
 #else
                     _("Blue Apricorn"),
 #endif
@@ -1881,7 +1881,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("YellwApricorn"), //TODO 汉化
+                    _("黄球果"), //TODO 汉化
 #else
                     _("YellwApricorn"),
 #endif
@@ -1897,7 +1897,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("GreenApricorn"), //TODO 汉化
+                    _("绿球果"), //TODO 汉化
 #else
                     _("GreenApricorn"),
 #endif
@@ -1913,7 +1913,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pink Apricorn"), //TODO 汉化
+                    _("粉球果"), //TODO 汉化
 #else
                     _("Pink Apricorn"),
 #endif
@@ -1929,7 +1929,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("WhiteApricorn"), //TODO 汉化
+                    _("白球果"), //TODO 汉化
 #else
                     _("WhiteApricorn"),
 #endif
@@ -1945,7 +1945,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("BlackApricorn"), //TODO 汉化
+                    _("黑球果"), //TODO 汉化
 #else
                     _("BlackApricorn"),
 #endif
@@ -1961,7 +1961,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tiny Mushroom"), //TODO 汉化
+                    _("小蘑菇"), //TODO 汉化
 #else
                     _("Tiny Mushroom"),
 #endif
@@ -1977,7 +1977,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Big Mushroom"), //TODO 汉化
+                    _("大蘑菇"), //TODO 汉化
 #else
                     _("Big Mushroom"),
 #endif
@@ -1993,7 +1993,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pearl"), //TODO 汉化
+                    _("珍珠"), //TODO 汉化
 #else
                     _("Pearl"),
 #endif
@@ -2009,7 +2009,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Big Pearl"), //TODO 汉化
+                    _("大珍珠"), //TODO 汉化
 #else
                     _("Big Pearl"),
 #endif
@@ -2025,7 +2025,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Stardust"), //TODO 汉化
+                    _("星星沙子"), //TODO 汉化
 #else
                     _("Stardust"),
 #endif
@@ -2041,7 +2041,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Star Piece"), //TODO 汉化
+                    _("星星碎片"), //TODO 汉化
 #else
                     _("Star Piece"),
 #endif
@@ -2057,7 +2057,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Nugget"), //TODO 汉化
+                    _("金珠"), //TODO 汉化
 #else
                     _("Nugget"),
 #endif
@@ -2073,7 +2073,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heart Scale"), //TODO 汉化
+                    _("心之鳞片"), //TODO 汉化
 #else
                     _("Heart Scale"),
 #endif
@@ -2089,7 +2089,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Nectar"), //TODO 汉化
+                    _("朱红色花蜜"), //TODO 汉化
 #else
                     _("Red Nectar"),
 #endif
@@ -2106,7 +2106,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Yellow Nectar"), //TODO 汉化
+                    _("金黄色花蜜"), //TODO 汉化
 #else
                     _("Yellow Nectar"),
 #endif
@@ -2123,7 +2123,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pink Nectar"), //TODO 汉化
+                    _("桃粉色花蜜"), //TODO 汉化
 #else
                     _("Pink Nectar"),
 #endif
@@ -2140,7 +2140,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Purple Nectar"), //TODO 汉化
+                    _("兰紫色花蜜"), //TODO 汉化
 #else
                     _("Purple Nectar"),
 #endif
@@ -2157,7 +2157,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rare Bone"), //TODO 汉化
+                    _("贵重骨头"), //TODO 汉化
 #else
                     _("Rare Bone"),
 #endif
@@ -2174,7 +2174,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Orange Mail"), //TODO 汉化
+                    _("橙色邮件"), //TODO 汉化
 #else
                     _("Orange Mail"),
 #endif
@@ -2191,7 +2191,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Harbor Mail"), //TODO 汉化
+                    _("港口邮件"), //TODO 汉化
 #else
                     _("Harbor Mail"),
 #endif
@@ -2208,7 +2208,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Glitter Mail"), //TODO 汉化
+                    _("闪亮邮件"), //TODO 汉化
 #else
                     _("Glitter Mail"),
 #endif
@@ -2225,7 +2225,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mech Mail"), //TODO 汉化
+                    _("机械邮件"), //TODO 汉化
 #else
                     _("Mech Mail"),
 #endif
@@ -2242,7 +2242,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wood Mail"), //TODO 汉化
+                    _("木纹邮件"), //TODO 汉化
 #else
                     _("Wood Mail"),
 #endif
@@ -2259,7 +2259,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wave Mail"), //TODO 汉化
+                    _("波涛邮件"), //TODO 汉化
 #else
                     _("Wave Mail"),
 #endif
@@ -2276,7 +2276,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bead Mail"), //TODO 汉化
+                    _("珠宝邮件"), //TODO 汉化
 #else
                     _("Bead Mail"),
 #endif
@@ -2293,7 +2293,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shadow Mail"), //TODO 汉化
+                    _("影子邮件"), //TODO 汉化
 #else
                     _("Shadow Mail"),
 #endif
@@ -2310,7 +2310,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tropic Mail"), //TODO 汉化
+                    _("热带邮件"), //TODO 汉化
 #else
                     _("Tropic Mail"),
 #endif
@@ -2327,7 +2327,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dream Mail"), //TODO 汉化
+                    _("梦境邮件"), //TODO 汉化
 #else
                     _("Dream Mail"),
 #endif
@@ -2344,7 +2344,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fab Mail"), //TODO 汉化
+                    _("奇迹邮件"), //TODO 汉化
 #else
                     _("Fab Mail"),
 #endif
@@ -2361,7 +2361,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Retro Mail"), //TODO 汉化
+                    _("复古邮件"), //TODO 汉化
 #else
                     _("Retro Mail"),
 #endif
@@ -2380,7 +2380,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cheri Berry"), //TODO 汉化
+                    _("樱子果"), //TODO 汉化
 #else
                     _("Cheri Berry"),
 #endif
@@ -2399,7 +2399,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Chesto Berry"), //TODO 汉化
+                    _("零余果"), //TODO 汉化
 #else
                     _("Chesto Berry"),
 #endif
@@ -2418,7 +2418,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pecha Berry"), //TODO 汉化
+                    _("桃桃果"), //TODO 汉化
 #else
                     _("Pecha Berry"),
 #endif
@@ -2437,7 +2437,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rawst Berry"), //TODO 汉化
+                    _("莓莓果"), //TODO 汉化
 #else
                     _("Rawst Berry"),
 #endif
@@ -2456,7 +2456,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aspear Berry"), //TODO 汉化
+                    _("利木果"), //TODO 汉化
 #else
                     _("Aspear Berry"),
 #endif
@@ -2475,7 +2475,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Leppa Berry"), //TODO 汉化
+                    _("苹野果"), //TODO 汉化
 #else
                     _("Leppa Berry"),
 #endif
@@ -2495,7 +2495,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Oran Berry"), //TODO 汉化
+                    _("橙橙果"), //TODO 汉化
 #else
                     _("Oran Berry"),
 #endif
@@ -2515,7 +2515,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Persim Berry"), //TODO 汉化
+                    _("柿仔果"), //TODO 汉化
 #else
                     _("Persim Berry"),
 #endif
@@ -2534,7 +2534,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lum Berry"), //TODO 汉化
+                    _("木子果"), //TODO 汉化
 #else
                     _("Lum Berry"),
 #endif
@@ -2553,7 +2553,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sitrus Berry"), //TODO 汉化
+                    _("文柚果"), //TODO 汉化
 #else
                     _("Sitrus Berry"),
 #endif
@@ -2573,7 +2573,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Figy Berry"), //TODO 汉化
+                    _("勿花果"), //TODO 汉化
 #else
                     _("Figy Berry"),
 #endif
@@ -2591,7 +2591,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wiki Berry"), //TODO 汉化
+                    _("异奇果"), //TODO 汉化
 #else
                     _("Wiki Berry"),
 #endif
@@ -2609,7 +2609,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mago Berry"), //TODO 汉化
+                    _("芒芒果"), //TODO 汉化
 #else
                     _("Mago Berry"),
 #endif
@@ -2627,7 +2627,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aguav Berry"), //TODO 汉化
+                    _("乐芭果"), //TODO 汉化
 #else
                     _("Aguav Berry"),
 #endif
@@ -2645,7 +2645,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Iapapa Berry"), //TODO 汉化
+                    _("芭亚果"), //TODO 汉化
 #else
                     _("Iapapa Berry"),
 #endif
@@ -2663,7 +2663,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Razz Berry"), //TODO 汉化
+                    _("蔓莓果"), //TODO 汉化
 #else
                     _("Razz Berry"),
 #endif
@@ -2679,7 +2679,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bluk Berry"), //TODO 汉化
+                    _("墨莓果"), //TODO 汉化
 #else
                     _("Bluk Berry"),
 #endif
@@ -2695,7 +2695,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Nanab Berry"), //TODO 汉化
+                    _("蕉香果"), //TODO 汉化
 #else
                     _("Nanab Berry"),
 #endif
@@ -2711,7 +2711,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wepear Berry"), //TODO 汉化
+                    _("西梨果"), //TODO 汉化
 #else
                     _("Wepear Berry"),
 #endif
@@ -2727,7 +2727,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pinap Berry"), //TODO 汉化
+                    _("凰梨果"), //TODO 汉化
 #else
                     _("Pinap Berry"),
 #endif
@@ -2743,7 +2743,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pomeg Berry"), //TODO 汉化
+                    _("榴石果"), //TODO 汉化
 #else
                     _("Pomeg Berry"),
 #endif
@@ -2759,7 +2759,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kelpsy Berry"), //TODO 汉化
+                    _("藻根果"), //TODO 汉化
 #else
                     _("Kelpsy Berry"),
 #endif
@@ -2775,7 +2775,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Qualot Berry"), //TODO 汉化
+                    _("比巴果"), //TODO 汉化
 #else
                     _("Qualot Berry"),
 #endif
@@ -2791,7 +2791,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Hondew Berry"), //TODO 汉化
+                    _("哈密果"), //TODO 汉化
 #else
                     _("Hondew Berry"),
 #endif
@@ -2807,7 +2807,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grepa Berry"), //TODO 汉化
+                    _("萄葡果"), //TODO 汉化
 #else
                     _("Grepa Berry"),
 #endif
@@ -2823,7 +2823,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tamato Berry"), //TODO 汉化
+                    _("茄番果"), //TODO 汉化
 #else
                     _("Tamato Berry"),
 #endif
@@ -2839,7 +2839,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cornn Berry"), //TODO 汉化
+                    _("玉黍果"), //TODO 汉化
 #else
                     _("Cornn Berry"),
 #endif
@@ -2855,7 +2855,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Magost Berry"), //TODO 汉化
+                    _("岳竹果"), //TODO 汉化
 #else
                     _("Magost Berry"),
 #endif
@@ -2871,7 +2871,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rabuta Berry"), //TODO 汉化
+                    _("茸丹果"), //TODO 汉化
 #else
                     _("Rabuta Berry"),
 #endif
@@ -2887,7 +2887,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Nomel Berry"), //TODO 汉化
+                    _("檬柠果"), //TODO 汉化
 #else
                     _("Nomel Berry"),
 #endif
@@ -2903,7 +2903,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Spelon Berry"), //TODO 汉化
+                    _("刺角果"), //TODO 汉化
 #else
                     _("Spelon Berry"),
 #endif
@@ -2919,7 +2919,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pamtre Berry"), //TODO 汉化
+                    _("椰木果"), //TODO 汉化
 #else
                     _("Pamtre Berry"),
 #endif
@@ -2935,7 +2935,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Watmel Berry"), //TODO 汉化
+                    _("瓜西果"), //TODO 汉化
 #else
                     _("Watmel Berry"),
 #endif
@@ -2951,7 +2951,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Durin Berry"), //TODO 汉化
+                    _("金枕果"), //TODO 汉化
 #else
                     _("Durin Berry"),
 #endif
@@ -2967,7 +2967,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Belue Berry"), //TODO 汉化
+                    _("靛莓果"), //TODO 汉化
 #else
                     _("Belue Berry"),
 #endif
@@ -2983,7 +2983,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Liechi Berry"), //TODO 汉化
+                    _("枝荔果"), //TODO 汉化
 #else
                     _("Liechi Berry"),
 #endif
@@ -3001,7 +3001,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ganlon Berry"), //TODO 汉化
+                    _("龙睛果"), //TODO 汉化
 #else
                     _("Ganlon Berry"),
 #endif
@@ -3019,7 +3019,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Salac Berry"), //TODO 汉化
+                    _("沙鳞果"), //TODO 汉化
 #else
                     _("Salac Berry"),
 #endif
@@ -3037,7 +3037,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Petaya Berry"), //TODO 汉化
+                    _("龙火果"), //TODO 汉化
 #else
                     _("Petaya Berry"),
 #endif
@@ -3055,7 +3055,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Apicot Berry"), //TODO 汉化
+                    _("杏仔果"), //TODO 汉化
 #else
                     _("Apicot Berry"),
 #endif
@@ -3073,7 +3073,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lansat Berry"), //TODO 汉化
+                    _("兰萨果"), //TODO 汉化
 #else
                     _("Lansat Berry"),
 #endif
@@ -3091,7 +3091,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Starf Berry"), //TODO 汉化
+                    _("星桃果"), //TODO 汉化
 #else
                     _("Starf Berry"),
 #endif
@@ -3109,7 +3109,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Micle Berry"), //TODO 汉化
+                    _("奇秘果"), //TODO 汉化
 #else
                     _("Micle Berry"),
 #endif
@@ -3127,7 +3127,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Enigma Berry"), //TODO 汉化
+                    _("谜芝果"), //TODO 汉化
 #else
                     _("Enigma Berry"),
 #endif
@@ -3145,7 +3145,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Occa Berry"), //TODO 汉化
+                    _("巧可果"), //TODO 汉化
 #else
                     _("Occa Berry"),
 #endif
@@ -3163,7 +3163,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Passho Berry"), //TODO 汉化
+                    _("千香果"), //TODO 汉化
 #else
                     _("Passho Berry"),
 #endif
@@ -3181,7 +3181,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wacan Berry"), //TODO 汉化
+                    _("烛木果"), //TODO 汉化
 #else
                     _("Wacan Berry"),
 #endif
@@ -3199,7 +3199,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rindo Berry"), //TODO 汉化
+                    _("罗子果"), //TODO 汉化
 #else
                     _("Rindo Berry"),
 #endif
@@ -3217,7 +3217,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Yache Berry"), //TODO 汉化
+                    _("番荔果"), //TODO 汉化
 #else
                     _("Yache Berry"),
 #endif
@@ -3235,7 +3235,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Chople Berry"), //TODO 汉化
+                    _("莲蒲果"), //TODO 汉化
 #else
                     _("Chople Berry"),
 #endif
@@ -3253,7 +3253,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kebia Berry"), //TODO 汉化
+                    _("通通果"), //TODO 汉化
 #else
                     _("Kebia Berry"),
 #endif
@@ -3271,7 +3271,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shuca Berry"), //TODO 汉化
+                    _("腰木果"), //TODO 汉化
 #else
                     _("Shuca Berry"),
 #endif
@@ -3289,7 +3289,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Coba Berry"), //TODO 汉化
+                    _("棱瓜果"), //TODO 汉化
 #else
                     _("Coba Berry"),
 #endif
@@ -3307,7 +3307,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Payapa Berry"), //TODO 汉化
+                    _("福禄果"), //TODO 汉化
 #else
                     _("Payapa Berry"),
 #endif
@@ -3325,7 +3325,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tanga Berry"), //TODO 汉化
+                    _("扁樱果"), //TODO 汉化
 #else
                     _("Tanga Berry"),
 #endif
@@ -3343,7 +3343,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Charti Berry"), //TODO 汉化
+                    _("草蚕果"), //TODO 汉化
 #else
                     _("Charti Berry"),
 #endif
@@ -3361,7 +3361,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kasib Berry"), //TODO 汉化
+                    _("佛柑果"), //TODO 汉化
 #else
                     _("Kasib Berry"),
 #endif
@@ -3379,7 +3379,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Haban Berry"), //TODO 汉化
+                    _("莓榴果"), //TODO 汉化
 #else
                     _("Haban Berry"),
 #endif
@@ -3397,7 +3397,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Colbur Berry"), //TODO 汉化
+                    _("刺耳果"), //TODO 汉化
 #else
                     _("Colbur Berry"),
 #endif
@@ -3415,7 +3415,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Babiri Berry"), //TODO 汉化
+                    _("霹霹果"), //TODO 汉化
 #else
                     _("Babiri Berry"),
 #endif
@@ -3433,7 +3433,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Chilan Berry"), //TODO 汉化
+                    _("灯浆果"), //TODO 汉化
 #else
                     _("Chilan Berry"),
 #endif
@@ -3451,7 +3451,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Roseli Berry"), //TODO 汉化
+                    _("洛玫果"), //TODO 汉化
 #else
                     _("Roseli Berry"),
 #endif
@@ -3469,7 +3469,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Custap Berry"), //TODO 汉化
+                    _("释陀果"), //TODO 汉化
 #else
                     _("Custap Berry"),
 #endif
@@ -3487,7 +3487,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Jaboca Berry"), //TODO 汉化
+                    _("嘉珍果"), //TODO 汉化
 #else
                     _("Jaboca Berry"),
 #endif
@@ -3504,7 +3504,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rowap Berry"), //TODO 汉化
+                    _("雾莲果"), //TODO 汉化
 #else
                     _("Rowap Berry"),
 #endif
@@ -3521,7 +3521,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kee Berry"), //TODO 汉化
+                    _("亚开果"), //TODO 汉化
 #else
                     _("Kee Berry"),
 #endif
@@ -3538,7 +3538,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Maranga Berry"), //TODO 汉化
+                    _("香罗果"), //TODO 汉化
 #else
                     _("Maranga Berry"),
 #endif
@@ -3557,7 +3557,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bright Powder"), //TODO 汉化
+                    _("光粉"), //TODO 汉化
 #else
                     _("Bright Powder"),
 #endif
@@ -3575,7 +3575,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("White Herb"), //TODO 汉化
+                    _("白色香草"), //TODO 汉化
 #else
                     _("White Herb"),
 #endif
@@ -3592,7 +3592,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Macho Brace"), //TODO 汉化
+                    _("强制锻炼器"), //TODO 汉化
 #else
                     _("Macho Brace"),
 #endif
@@ -3609,7 +3609,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Exp. Share"), //TODO 汉化
+                    _("学习装置"), //TODO 汉化
 #else
                     _("Exp. Share"),
 #endif
@@ -3626,7 +3626,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Quick Claw"), //TODO 汉化
+                    _("先制之爪"), //TODO 汉化
 #else
                     _("Quick Claw"),
 #endif
@@ -3644,7 +3644,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Soothe Bell"), //TODO 汉化
+                    _("安抚之铃"), //TODO 汉化
 #else
                     _("Soothe Bell"),
 #endif
@@ -3661,7 +3661,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mental Herb"), //TODO 汉化
+                    _("心灵香草"), //TODO 汉化
 #else
                     _("Mental Herb"),
 #endif
@@ -3678,7 +3678,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Choice Band"), //TODO 汉化
+                    _("讲究头带"), //TODO 汉化
 #else
                     _("Choice Band"),
 #endif
@@ -3695,7 +3695,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("King's Rock"), //TODO 汉化
+                    _("王者之证"), //TODO 汉化
 #else
                     _("King's Rock"),
 #endif
@@ -3713,7 +3713,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Silver Powder"), //TODO 汉化
+                    _("银粉"), //TODO 汉化
 #else
                     _("Silver Powder"),
 #endif
@@ -3731,7 +3731,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Amulet Coin"), //TODO 汉化
+                    _("护符金币"), //TODO 汉化
 #else
                     _("Amulet Coin"),
 #endif
@@ -3749,7 +3749,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cleanse Tag"), //TODO 汉化
+                    _("洁净之符"), //TODO 汉化
 #else
                     _("Cleanse Tag"),
 #endif
@@ -3766,7 +3766,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Soul Dew"), //TODO 汉化
+                    _("心之水滴"), //TODO 汉化
 #else
                     _("Soul Dew"),
 #endif
@@ -3783,7 +3783,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("DeepSeaTooth"), //TODO 汉化
+                    _("深海之牙"), //TODO 汉化
 #else
                     _("DeepSeaTooth"),
 #endif
@@ -3800,7 +3800,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("DeepSeaScale"), //TODO 汉化
+                    _("深海鳞片"), //TODO 汉化
 #else
                     _("DeepSeaScale"),
 #endif
@@ -3817,7 +3817,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Smoke Ball"), //TODO 汉化
+                    _("烟雾球"), //TODO 汉化
 #else
                     _("Smoke Ball"),
 #endif
@@ -3834,7 +3834,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Everstone"), //TODO 汉化
+                    _("不变之石"), //TODO 汉化
 #else
                     _("Everstone"),
 #endif
@@ -3851,7 +3851,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Focus Band"), //TODO 汉化
+                    _("气势头带"), //TODO 汉化
 #else
                     _("Focus Band"),
 #endif
@@ -3869,7 +3869,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lucky Egg"), //TODO 汉化
+                    _("幸运蛋"), //TODO 汉化
 #else
                     _("Lucky Egg"),
 #endif
@@ -3886,7 +3886,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Scope Lens"), //TODO 汉化
+                    _("焦点镜"), //TODO 汉化
 #else
                     _("Scope Lens"),
 #endif
@@ -3903,7 +3903,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Metal Coat"), //TODO 汉化
+                    _("金属膜"), //TODO 汉化
 #else
                     _("Metal Coat"),
 #endif
@@ -3921,7 +3921,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Leftovers"), //TODO 汉化
+                    _("吃剩的东西"), //TODO 汉化
 #else
                     _("Leftovers"),
 #endif
@@ -3939,7 +3939,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dragon Scale"), //TODO 汉化
+                    _("龙之鳞片"), //TODO 汉化
 #else
                     _("Dragon Scale"),
 #endif
@@ -3957,7 +3957,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Oval Stone"), //TODO 汉化
+                    _("浑圆之石"), //TODO 汉化
 #else
                     _("Oval Stone"),
 #endif
@@ -3973,7 +3973,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Protector"), //TODO 汉化
+                    _("护具"), //TODO 汉化
 #else
                     _("Protector"),
 #endif
@@ -3989,7 +3989,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Electirizer"), //TODO 汉化
+                    _("电力增幅器"), //TODO 汉化
 #else
                     _("Electirizer"),
 #endif
@@ -4005,7 +4005,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Magmarizer"), //TODO 汉化
+                    _("熔岩增幅器"), //TODO 汉化
 #else
                     _("Magmarizer"),
 #endif
@@ -4021,7 +4021,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dubious Disc"), //TODO 汉化
+                    _("可疑补丁"), //TODO 汉化
 #else
                     _("Dubious Disc"),
 #endif
@@ -4037,7 +4037,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Reaper Cloth"), //TODO 汉化
+                    _("灵界之布"), //TODO 汉化
 #else
                     _("Reaper Cloth"),
 #endif
@@ -4053,7 +4053,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Razor Claw"), //TODO 汉化
+                    _("锐利之爪"), //TODO 汉化
 #else
                     _("Razor Claw"),
 #endif
@@ -4070,7 +4070,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Razor Fang"), //TODO 汉化
+                    _("锐利之牙"), //TODO 汉化
 #else
                     _("Razor Fang"),
 #endif
@@ -4088,7 +4088,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Prism Scale"), //TODO 汉化
+                    _("美丽鳞片"), //TODO 汉化
 #else
                     _("Prism Scale"),
 #endif
@@ -4104,7 +4104,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Whipped Dream"), //TODO 汉化
+                    _("泡沫奶油"), //TODO 汉化
 #else
                     _("Whipped Dream"),
 #endif
@@ -4120,7 +4120,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sachet"), //TODO 汉化
+                    _("香袋"), //TODO 汉化
 #else
                     _("Sachet"),
 #endif
@@ -4136,7 +4136,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Light Ball"), //TODO 汉化
+                    _("电气球"), //TODO 汉化
 #else
                     _("Light Ball"),
 #endif
@@ -4153,7 +4153,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Soft Sand"), //TODO 汉化
+                    _("柔软沙子"), //TODO 汉化
 #else
                     _("Soft Sand"),
 #endif
@@ -4171,7 +4171,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Hard Stone"), //TODO 汉化
+                    _("硬石头"), //TODO 汉化
 #else
                     _("Hard Stone"),
 #endif
@@ -4189,7 +4189,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Miracle Seed"), //TODO 汉化
+                    _("奇迹种子"), //TODO 汉化
 #else
                     _("Miracle Seed"),
 #endif
@@ -4207,7 +4207,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Black Glasses"), //TODO 汉化
+                    _("黑色眼镜"), //TODO 汉化
 #else
                     _("Black Glasses"),
 #endif
@@ -4225,7 +4225,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Black Belt"), //TODO 汉化
+                    _("黑带"), //TODO 汉化
 #else
                     _("Black Belt"),
 #endif
@@ -4243,7 +4243,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Magnet"), //TODO 汉化
+                    _("磁铁"), //TODO 汉化
 #else
                     _("Magnet"),
 #endif
@@ -4261,7 +4261,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mystic Water"), //TODO 汉化
+                    _("神秘水滴"), //TODO 汉化
 #else
                     _("Mystic Water"),
 #endif
@@ -4279,7 +4279,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sharp Beak"), //TODO 汉化
+                    _("锐利鸟嘴"), //TODO 汉化
 #else
                     _("Sharp Beak"),
 #endif
@@ -4297,7 +4297,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poison Barb"), //TODO 汉化
+                    _("毒针"), //TODO 汉化
 #else
                     _("Poison Barb"),
 #endif
@@ -4315,7 +4315,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Never-MeltIce"), //TODO 汉化
+                    _("不融冰"), //TODO 汉化
 #else
                     _("Never-MeltIce"),
 #endif
@@ -4333,7 +4333,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Spell Tag"), //TODO 汉化
+                    _("诅咒之符"), //TODO 汉化
 #else
                     _("Spell Tag"),
 #endif
@@ -4351,7 +4351,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Twisted Spoon"), //TODO 汉化
+                    _("弯曲的汤匙"), //TODO 汉化
 #else
                     _("Twisted Spoon"),
 #endif
@@ -4369,7 +4369,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Charcoal"), //TODO 汉化
+                    _("木炭"), //TODO 汉化
 #else
                     _("Charcoal"),
 #endif
@@ -4387,7 +4387,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dragon Fang"), //TODO 汉化
+                    _("龙之牙"), //TODO 汉化
 #else
                     _("Dragon Fang"),
 #endif
@@ -4405,7 +4405,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Silk Scarf"), //TODO 汉化
+                    _("丝绸围巾"), //TODO 汉化
 #else
                     _("Silk Scarf"),
 #endif
@@ -4423,7 +4423,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Upgrade"), //TODO 汉化
+                    _("升级数据"), //TODO 汉化
 #else
                     _("Upgrade"),
 #endif
@@ -4440,7 +4440,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shell Bell"), //TODO 汉化
+                    _("贝壳之铃"), //TODO 汉化
 #else
                     _("Shell Bell"),
 #endif
@@ -4458,7 +4458,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Bracer"), //TODO 汉化
+                    _("力量护腕"), //TODO 汉化
 #else
                     _("Power Bracer"),
 #endif
@@ -4477,7 +4477,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Belt"), //TODO 汉化
+                    _("力量腰带"), //TODO 汉化
 #else
                     _("Power Belt"),
 #endif
@@ -4496,7 +4496,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Lens"), //TODO 汉化
+                    _("力量镜"), //TODO 汉化
 #else
                     _("Power Lens"),
 #endif
@@ -4515,7 +4515,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Band"), //TODO 汉化
+                    _("力量束带"), //TODO 汉化
 #else
                     _("Power Band"),
 #endif
@@ -4534,7 +4534,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Anklet"), //TODO 汉化
+                    _("力量护踝"), //TODO 汉化
 #else
                     _("Power Anklet"),
 #endif
@@ -4553,7 +4553,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Weight"), //TODO 汉化
+                    _("力量负重"), //TODO 汉化
 #else
                     _("Power Weight"),
 #endif
@@ -4572,7 +4572,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sea Incense"), //TODO 汉化
+                    _("海潮薰香"), //TODO 汉化
 #else
                     _("Sea Incense"),
 #endif
@@ -4590,7 +4590,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lax Incense"), //TODO 汉化
+                    _("悠闲薰香"), //TODO 汉化
 #else
                     _("Lax Incense"),
 #endif
@@ -4608,7 +4608,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Odd Incense"), //TODO 汉化
+                    _("奇异薰香"), //TODO 汉化
 #else
                     _("Odd Incense"),
 #endif
@@ -4626,7 +4626,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rock Incense"), //TODO 汉化
+                    _("岩石薰香"), //TODO 汉化
 #else
                     _("Rock Incense"),
 #endif
@@ -4644,7 +4644,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Full Incense"), //TODO 汉化
+                    _("饱腹薰香"), //TODO 汉化
 #else
                     _("Full Incense"),
 #endif
@@ -4662,7 +4662,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wave Incense"), //TODO 汉化
+                    _("涟漪薰香"), //TODO 汉化
 #else
                     _("Wave Incense"),
 #endif
@@ -4680,7 +4680,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rose Incense"), //TODO 汉化
+                    _("花朵薰香"), //TODO 汉化
 #else
                     _("Rose Incense"),
 #endif
@@ -4698,7 +4698,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Luck Incense"), //TODO 汉化
+                    _("幸运薰香"), //TODO 汉化
 #else
                     _("Luck Incense"),
 #endif
@@ -4716,7 +4716,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pure Incense"), //TODO 汉化
+                    _("洁净薰香"), //TODO 汉化
 #else
                     _("Pure Incense"),
 #endif
@@ -4733,7 +4733,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lucky Punch"), //TODO 汉化
+                    _("吉利拳"), //TODO 汉化
 #else
                     _("Lucky Punch"),
 #endif
@@ -4750,7 +4750,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Metal Powder"), //TODO 汉化
+                    _("金属粉"), //TODO 汉化
 #else
                     _("Metal Powder"),
 #endif
@@ -4767,7 +4767,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Thick Club"), //TODO 汉化
+                    _("粗骨头"), //TODO 汉化
 #else
                     _("Thick Club"),
 #endif
@@ -4784,7 +4784,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Leek"), //TODO 汉化
+                    _("大葱"), //TODO 汉化
 #else
                     _("Leek"),
 #endif
@@ -4801,7 +4801,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Scarf"), //TODO 汉化
+                    _("红色头巾"), //TODO 汉化
 #else
                     _("Red Scarf"),
 #endif
@@ -4817,7 +4817,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blue Scarf"), //TODO 汉化
+                    _("蓝色头巾"), //TODO 汉化
 #else
                     _("Blue Scarf"),
 #endif
@@ -4833,7 +4833,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pink Scarf"), //TODO 汉化
+                    _("粉色头巾"), //TODO 汉化
 #else
                     _("Pink Scarf"),
 #endif
@@ -4849,7 +4849,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Green Scarf"), //TODO 汉化
+                    _("绿色头巾"), //TODO 汉化
 #else
                     _("Green Scarf"),
 #endif
@@ -4865,7 +4865,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Yellow Scarf"), //TODO 汉化
+                    _("黄色头巾"), //TODO 汉化
 #else
                     _("Yellow Scarf"),
 #endif
@@ -4883,7 +4883,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mach Bike"), //TODO 汉化
+                    _("音速自行车"), //TODO 汉化
 #else
                     _("Mach Bike"),
 #endif
@@ -4902,7 +4902,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Coin Case"), //TODO 汉化
+                    _("代币盒"), //TODO 汉化
 #else
                     _("Coin Case"),
 #endif
@@ -4919,7 +4919,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dowsing MCHN"), //TODO 汉化
+                    _("探宝器"), //TODO 汉化
 #else
                     _("Dowsing MCHN"),
 #endif
@@ -4937,7 +4937,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Old Rod"), //TODO 汉化
+                    _("破旧钓竿"), //TODO 汉化
 #else
                     _("Old Rod"),
 #endif
@@ -4956,7 +4956,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Good Rod"), //TODO 汉化
+                    _("好钓竿"), //TODO 汉化
 #else
                     _("Good Rod"),
 #endif
@@ -4975,7 +4975,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Super Rod"), //TODO 汉化
+                    _("厉害钓竿"), //TODO 汉化
 #else
                     _("Super Rod"),
 #endif
@@ -4994,7 +4994,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("S.S. Ticket"), //TODO 汉化
+                    _("船票"), //TODO 汉化
 #else
                     _("S.S. Ticket"),
 #endif
@@ -5011,7 +5011,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Contest Pass"), //TODO 汉化
+                    _("华丽大赛参加证"), //TODO 汉化
 #else
                     _("Contest Pass"),
 #endif
@@ -5028,7 +5028,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wailmer Pail"), //TODO 汉化
+                    _("吼吼鲸喷壶"), //TODO 汉化
 #else
                     _("Wailmer Pail"),
 #endif
@@ -5045,7 +5045,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Devon Parts"), //TODO 汉化
+                    _("得文的物品"), //TODO 汉化
 #else
                     _("Devon Parts"),
 #endif
@@ -5062,7 +5062,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Soot Sack"), //TODO 汉化
+                    _("集灰袋"), //TODO 汉化
 #else
                     _("Soot Sack"),
 #endif
@@ -5079,7 +5079,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Basement Key"), //TODO 汉化
+                    _("地下钥匙"), //TODO 汉化
 #else
                     _("Basement Key"),
 #endif
@@ -5096,7 +5096,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Acro Bike"), //TODO 汉化
+                    _("越野自行车"), //TODO 汉化
 #else
                     _("Acro Bike"),
 #endif
@@ -5115,7 +5115,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("{POKEBLOCK} CASE"), //TODO 汉化
+                    _("宝可方块盒"), //TODO 汉化
 #else
                     _("{POKEBLOCK} CASE"),
 #endif
@@ -5133,7 +5133,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Letter"), //TODO 汉化
+                    _("给大吾的信"), //TODO 汉化
 #else
                     _("Letter"),
 #endif
@@ -5150,7 +5150,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Eon Ticket"), //TODO 汉化
+                    _("无限船票"), //TODO 汉化
 #else
                     _("Eon Ticket"),
 #endif
@@ -5168,7 +5168,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Orb"), //TODO 汉化
+                    _("朱红色宝珠"), //TODO 汉化
 #else
                     _("Red Orb"),
 #endif
@@ -5185,7 +5185,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blue Orb"), //TODO 汉化
+                    _("靛蓝色宝珠"), //TODO 汉化
 #else
                     _("Blue Orb"),
 #endif
@@ -5202,7 +5202,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Scanner"), //TODO 汉化
+                    _("探测器"), //TODO 汉化
 #else
                     _("Scanner"),
 #endif
@@ -5219,7 +5219,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Go-Goggles"), //TODO 汉化
+                    _("GoGo护目镜"), //TODO 汉化
 #else
                     _("Go-Goggles"),
 #endif
@@ -5236,7 +5236,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Meteorite"), //TODO 汉化
+                    _("陨石"), //TODO 汉化
 #else
                     _("Meteorite"),
 #endif
@@ -5253,7 +5253,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Key to Room 1"), //TODO 汉化
+                    _("1号客房的钥匙"), //TODO 汉化
 #else
                     _("Key to Room 1"),
 #endif
@@ -5270,7 +5270,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Key to Room 2"), //TODO 汉化
+                    _("2号客房的钥匙"), //TODO 汉化
 #else
                     _("Key to Room 2"),
 #endif
@@ -5287,7 +5287,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Key to Room 4"), //TODO 汉化
+                    _("4号客房的钥匙"), //TODO 汉化
 #else
                     _("Key to Room 4"),
 #endif
@@ -5304,7 +5304,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Key to Room 6"), //TODO 汉化
+                    _("6号客房的钥匙"), //TODO 汉化
 #else
                     _("Key to Room 6"),
 #endif
@@ -5321,7 +5321,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Storage Key"), //TODO 汉化
+                    _("仓库钥匙"), //TODO 汉化
 #else
                     _("Storage Key"),
 #endif
@@ -5338,7 +5338,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Devon Scope"), //TODO 汉化
+                    _("得文侦测镜"), //TODO 汉化
 #else
                     _("Devon Scope"),
 #endif
@@ -6295,7 +6295,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Parcel"), //TODO 汉化
+                    _("包裹"), //TODO 汉化
 #else
                     _("Parcel"),
 #endif
@@ -6312,7 +6312,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poké Flute"), //TODO 汉化
+                    _("宝可梦之笛"), //TODO 汉化
 #else
                     _("Poké Flute"),
 #endif
@@ -6329,7 +6329,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Secret Key"), //TODO 汉化
+                    _("秘密钥匙"), //TODO 汉化
 #else
                     _("Secret Key"),
 #endif
@@ -6346,7 +6346,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bike Voucher"), //TODO 汉化
+                    _("兑换券"), //TODO 汉化
 #else
                     _("Bike Voucher"),
 #endif
@@ -6363,7 +6363,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Gold Teeth"), //TODO 汉化
+                    _("金假牙"), //TODO 汉化
 #else
                     _("Gold Teeth"),
 #endif
@@ -6380,7 +6380,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Old Amber"), //TODO 汉化
+                    _("秘密琥珀"), //TODO 汉化
 #else
                     _("Old Amber"),
 #endif
@@ -6402,7 +6402,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Card Key"), //TODO 汉化
+                    _("钥匙卡"), //TODO 汉化
 #else
                     _("Card Key"),
 #endif
@@ -6419,7 +6419,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lift Key"), //TODO 汉化
+                    _("电梯钥匙"), //TODO 汉化
 #else
                     _("Lift Key"),
 #endif
@@ -6436,7 +6436,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Armor Fossil"), //TODO 汉化
+                    _("盾甲化石"), //TODO 汉化
 #else
                     _("Armor Fossil"),
 #endif
@@ -6452,7 +6452,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Skull Fossil"), //TODO 汉化
+                    _("头盖化石"), //TODO 汉化
 #else
                     _("Skull Fossil"),
 #endif
@@ -6468,7 +6468,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Helix Fossil"), //TODO 汉化
+                    _("贝壳化石"), //TODO 汉化
 #else
                     _("Helix Fossil"),
 #endif
@@ -6490,7 +6490,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dome Fossil"), //TODO 汉化
+                    _("甲壳化石"), //TODO 汉化
 #else
                     _("Dome Fossil"),
 #endif
@@ -6512,7 +6512,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Root Fossil"), //TODO 汉化
+                    _("根状化石"), //TODO 汉化
 #else
                     _("Root Fossil"),
 #endif
@@ -6534,7 +6534,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Claw Fossil"), //TODO 汉化
+                    _("爪子化石"), //TODO 汉化
 #else
                     _("Claw Fossil"),
 #endif
@@ -6556,7 +6556,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cover Fossil"), //TODO 汉化
+                    _("背盖化石"), //TODO 汉化
 #else
                     _("Cover Fossil"),
 #endif
@@ -6572,7 +6572,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Plume Fossil"), //TODO 汉化
+                    _("羽毛化石"), //TODO 汉化
 #else
                     _("Plume Fossil"),
 #endif
@@ -6588,7 +6588,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Jaw Fossil"), //TODO 汉化
+                    _("颚之化石"), //TODO 汉化
 #else
                     _("Jaw Fossil"),
 #endif
@@ -6604,7 +6604,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sail Fossil"), //TODO 汉化
+                    _("鳍之化石"), //TODO 汉化
 #else
                     _("Sail Fossil"),
 #endif
@@ -6620,7 +6620,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Silph Scope"), //TODO 汉化
+                    _("西尔佛检视镜"), //TODO 汉化
 #else
                     _("Silph Scope"),
 #endif
@@ -6637,7 +6637,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bicycle"), //TODO 汉化
+                    _("自行车"), //TODO 汉化
 #else
                     _("Bicycle"),
 #endif
@@ -6655,7 +6655,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Town Map"), //TODO 汉化
+                    _("城镇地图"), //TODO 汉化
 #else
                     _("Town Map"),
 #endif
@@ -6673,7 +6673,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Vs. Seeker"), //TODO 汉化
+                    _("对战搜寻器"), //TODO 汉化
 #else
                     _("Vs. Seeker"),
 #endif
@@ -6691,7 +6691,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fame Checker"), //TODO 汉化
+                    _("声音记录器"), //TODO 汉化
 #else
                     _("Fame Checker"),
 #endif
@@ -6709,7 +6709,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("TM Case"), //TODO 汉化
+                    _("招式学习器盒"), //TODO 汉化
 #else
                     _("TM Case"),
 #endif
@@ -6727,7 +6727,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Berry Pouch"), //TODO 汉化
+                    _("树果袋"), //TODO 汉化
 #else
                     _("Berry Pouch"),
 #endif
@@ -6745,7 +6745,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Teachy TV"), //TODO 汉化
+                    _("教学电视"), //TODO 汉化
 #else
                     _("Teachy TV"),
 #endif
@@ -6763,7 +6763,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tri-Pass"), //TODO 汉化
+                    _("三岛通行证"), //TODO 汉化
 #else
                     _("Tri-Pass"),
 #endif
@@ -6781,7 +6781,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rainbow Pass"), //TODO 汉化
+                    _("七岛通行证"), //TODO 汉化
 #else
                     _("Rainbow Pass"),
 #endif
@@ -6799,7 +6799,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tea"), //TODO 汉化
+                    _("茶"), //TODO 汉化
 #else
                     _("Tea"),
 #endif
@@ -6817,7 +6817,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mystic Ticket"), //TODO 汉化
+                    _("神秘船票"), //TODO 汉化
 #else
                     _("Mystic Ticket"),
 #endif
@@ -6835,7 +6835,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aurora Ticket"), //TODO 汉化
+                    _("极光船票"), //TODO 汉化
 #else
                     _("Aurora Ticket"),
 #endif
@@ -6853,7 +6853,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Powder Jar"), //TODO 汉化
+                    _("粉末收集瓶"), //TODO 汉化
 #else
                     _("Powder Jar"),
 #endif
@@ -6871,7 +6871,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ruby"), //TODO 汉化
+                    _("红宝石"), //TODO 汉化
 #else
                     _("Ruby"),
 #endif
@@ -6889,7 +6889,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sapphire"), //TODO 汉化
+                    _("蓝宝石"), //TODO 汉化
 #else
                     _("Sapphire"),
 #endif
@@ -6909,7 +6909,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Magma Emblem"), //TODO 汉化
+                    _("熔岩标志"), //TODO 汉化
 #else
                     _("Magma Emblem"),
 #endif
@@ -6927,7 +6927,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Old Sea Map"), //TODO 汉化
+                    _("古航海图"), //TODO 汉化
 #else
                     _("Old Sea Map"),
 #endif
@@ -6947,7 +6947,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wide Lens"), //TODO 汉化
+                    _("广角镜"), //TODO 汉化
 #else
                     _("Wide Lens"),
 #endif
@@ -6965,7 +6965,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Muscle Band"), //TODO 汉化
+                    _("力量头带"), //TODO 汉化
 #else
                     _("Muscle Band"),
 #endif
@@ -6983,7 +6983,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Wise Glasses"), //TODO 汉化
+                    _("博识眼镜"), //TODO 汉化
 #else
                     _("Wise Glasses"),
 #endif
@@ -7001,7 +7001,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Expert Belt"), //TODO 汉化
+                    _("达人带"), //TODO 汉化
 #else
                     _("Expert Belt"),
 #endif
@@ -7019,7 +7019,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Light Clay"), //TODO 汉化
+                    _("光之黏土"), //TODO 汉化
 #else
                     _("Light Clay"),
 #endif
@@ -7036,7 +7036,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Life Orb"), //TODO 汉化
+                    _("生命宝珠"), //TODO 汉化
 #else
                     _("Life Orb"),
 #endif
@@ -7053,7 +7053,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Power Herb"), //TODO 汉化
+                    _("强力香草"), //TODO 汉化
 #else
                     _("Power Herb"),
 #endif
@@ -7070,7 +7070,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Toxic Orb"), //TODO 汉化
+                    _("剧毒宝珠"), //TODO 汉化
 #else
                     _("Toxic Orb"),
 #endif
@@ -7087,7 +7087,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Flame Orb"), //TODO 汉化
+                    _("火焰宝珠"), //TODO 汉化
 #else
                     _("Flame Orb"),
 #endif
@@ -7104,7 +7104,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Quick Powder"), //TODO 汉化
+                    _("速度粉"), //TODO 汉化
 #else
                     _("Quick Powder"),
 #endif
@@ -7121,7 +7121,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Focus Sash"), //TODO 汉化
+                    _("气势披带"), //TODO 汉化
 #else
                     _("Focus Sash"),
 #endif
@@ -7138,7 +7138,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Zoom Lens"), //TODO 汉化
+                    _("对焦镜"), //TODO 汉化
 #else
                     _("Zoom Lens"),
 #endif
@@ -7156,7 +7156,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Metronome"), //TODO 汉化
+                    _("节拍器"), //TODO 汉化
 #else
                     _("Metronome"),
 #endif
@@ -7174,7 +7174,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Iron Ball"), //TODO 汉化
+                    _("黑色铁球"), //TODO 汉化
 #else
                     _("Iron Ball"),
 #endif
@@ -7191,7 +7191,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lagging Tail"), //TODO 汉化
+                    _("后攻之尾"), //TODO 汉化
 #else
                     _("Lagging Tail"),
 #endif
@@ -7208,7 +7208,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Destiny Knot"), //TODO 汉化
+                    _("红线"), //TODO 汉化
 #else
                     _("Destiny Knot"),
 #endif
@@ -7225,7 +7225,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Black Sludge"), //TODO 汉化
+                    _("黑色污泥"), //TODO 汉化
 #else
                     _("Black Sludge"),
 #endif
@@ -7242,7 +7242,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Icy Rock"), //TODO 汉化
+                    _("冰冷岩石"), //TODO 汉化
 #else
                     _("Icy Rock"),
 #endif
@@ -7259,7 +7259,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Smooth Rock"), //TODO 汉化
+                    _("沙沙岩石"), //TODO 汉化
 #else
                     _("Smooth Rock"),
 #endif
@@ -7276,7 +7276,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heat Rock"), //TODO 汉化
+                    _("炽热岩石"), //TODO 汉化
 #else
                     _("Heat Rock"),
 #endif
@@ -7293,7 +7293,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Damp Rock"), //TODO 汉化
+                    _("潮湿岩石"), //TODO 汉化
 #else
                     _("Damp Rock"),
 #endif
@@ -7310,7 +7310,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grip Claw"), //TODO 汉化
+                    _("紧缠钩爪"), //TODO 汉化
 #else
                     _("Grip Claw"),
 #endif
@@ -7327,7 +7327,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Choice Scarf"), //TODO 汉化
+                    _("讲究围巾"), //TODO 汉化
 #else
                     _("Choice Scarf"),
 #endif
@@ -7344,7 +7344,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sticky Barb"), //TODO 汉化
+                    _("附着针"), //TODO 汉化
 #else
                     _("Sticky Barb"),
 #endif
@@ -7361,7 +7361,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shed Shell"), //TODO 汉化
+                    _("美丽空壳"), //TODO 汉化
 #else
                     _("Shed Shell"),
 #endif
@@ -7378,7 +7378,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Big Root"), //TODO 汉化
+                    _("大根茎"), //TODO 汉化
 #else
                     _("Big Root"),
 #endif
@@ -7396,7 +7396,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Choice Specs"), //TODO 汉化
+                    _("讲究眼镜"), //TODO 汉化
 #else
                     _("Choice Specs"),
 #endif
@@ -7413,7 +7413,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Odd Keystone"), //TODO 汉化
+                    _("楔石"), //TODO 汉化
 #else
                     _("Odd Keystone"),
 #endif
@@ -7429,7 +7429,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Adamant Orb"), //TODO 汉化
+                    _("金刚宝珠"), //TODO 汉化
 #else
                     _("Adamant Orb"),
 #endif
@@ -7446,7 +7446,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lustrous Orb"), //TODO 汉化
+                    _("白玉宝珠"), //TODO 汉化
 #else
                     _("Lustrous Orb"),
 #endif
@@ -7463,7 +7463,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Griseous Orb"), //TODO 汉化
+                    _("白金宝珠"), //TODO 汉化
 #else
                     _("Griseous Orb"),
 #endif
@@ -7480,7 +7480,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Gracidea"), //TODO 汉化
+                    _("葛拉西蒂亚花"), //TODO 汉化
 #else
                     _("Gracidea"),
 #endif
@@ -7497,7 +7497,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bug Memory"), //TODO 汉化
+                    _("虫子存储碟"), //TODO 汉化
 #else
                     _("Bug Memory"),
 #endif
@@ -7516,7 +7516,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dark Memory"), //TODO 汉化
+                    _("黑暗存储碟"), //TODO 汉化
 #else
                     _("Dark Memory"),
 #endif
@@ -7535,7 +7535,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dragon Memory"), //TODO 汉化
+                    _("龙存储碟"), //TODO 汉化
 #else
                     _("Dragon Memory"),
 #endif
@@ -7554,7 +7554,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("ElectrcMemory"), //TODO 汉化
+                    _("电子存储碟"), //TODO 汉化
 #else
                     _("ElectrcMemory"),
 #endif
@@ -7573,7 +7573,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fairy Memory"), //TODO 汉化
+                    _("妖精存储碟"), //TODO 汉化
 #else
                     _("Fairy Memory"),
 #endif
@@ -7592,7 +7592,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("FightngMemory"), //TODO 汉化
+                    _("战斗存储碟"), //TODO 汉化
 #else
                     _("FightngMemory"),
 #endif
@@ -7611,7 +7611,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fire Memory"), //TODO 汉化
+                    _("火焰存储碟"), //TODO 汉化
 #else
                     _("Fire Memory"),
 #endif
@@ -7630,7 +7630,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Flying Memory"), //TODO 汉化
+                    _("飞翔存储碟"), //TODO 汉化
 #else
                     _("Flying Memory"),
 #endif
@@ -7649,7 +7649,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ghost Memory"), //TODO 汉化
+                    _("幽灵存储碟"), //TODO 汉化
 #else
                     _("Ghost Memory"),
 #endif
@@ -7668,7 +7668,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grass Memory"), //TODO 汉化
+                    _("青草存储碟"), //TODO 汉化
 #else
                     _("Grass Memory"),
 #endif
@@ -7687,7 +7687,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ground Memory"), //TODO 汉化
+                    _("大地存储碟"), //TODO 汉化
 #else
                     _("Ground Memory"),
 #endif
@@ -7706,7 +7706,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ice Memory"), //TODO 汉化
+                    _("冰雪存储碟"), //TODO 汉化
 #else
                     _("Ice Memory"),
 #endif
@@ -7725,7 +7725,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poison Memory"), //TODO 汉化
+                    _("毒存储碟"), //TODO 汉化
 #else
                     _("Poison Memory"),
 #endif
@@ -7744,7 +7744,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("PsychicMemory"), //TODO 汉化
+                    _("精神存储碟"), //TODO 汉化
 #else
                     _("PsychicMemory"),
 #endif
@@ -7763,7 +7763,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rock Memory"), //TODO 汉化
+                    _("岩石存储碟"), //TODO 汉化
 #else
                     _("Rock Memory"),
 #endif
@@ -7782,7 +7782,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Steel Memory"), //TODO 汉化
+                    _("钢铁存储碟"), //TODO 汉化
 #else
                     _("Steel Memory"),
 #endif
@@ -7801,7 +7801,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Water Memory"), //TODO 汉化
+                    _("清水存储碟"), //TODO 汉化
 #else
                     _("Water Memory"),
 #endif
@@ -7820,7 +7820,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Flame Plate"), //TODO 汉化
+                    _("火球石板"), //TODO 汉化
 #else
                     _("Flame Plate"),
 #endif
@@ -7839,7 +7839,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Splash Plate"), //TODO 汉化
+                    _("水滴石板"), //TODO 汉化
 #else
                     _("Splash Plate"),
 #endif
@@ -7858,7 +7858,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Zap Plate"), //TODO 汉化
+                    _("雷电石板"), //TODO 汉化
 #else
                     _("Zap Plate"),
 #endif
@@ -7877,7 +7877,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Meadow Plate"), //TODO 汉化
+                    _("碧绿石板"), //TODO 汉化
 #else
                     _("Meadow Plate"),
 #endif
@@ -7896,7 +7896,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Icicle Plate"), //TODO 汉化
+                    _("冰柱石板"), //TODO 汉化
 #else
                     _("Icicle Plate"),
 #endif
@@ -7915,7 +7915,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fist Plate"), //TODO 汉化
+                    _("拳头石板"), //TODO 汉化
 #else
                     _("Fist Plate"),
 #endif
@@ -7934,7 +7934,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Toxic Plate"), //TODO 汉化
+                    _("剧毒石板"), //TODO 汉化
 #else
                     _("Toxic Plate"),
 #endif
@@ -7953,7 +7953,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Earth Plate"), //TODO 汉化
+                    _("大地石板"), //TODO 汉化
 #else
                     _("Earth Plate"),
 #endif
@@ -7972,7 +7972,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sky Plate"), //TODO 汉化
+                    _("蓝天石板"), //TODO 汉化
 #else
                     _("Sky Plate"),
 #endif
@@ -7991,7 +7991,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mind Plate"), //TODO 汉化
+                    _("神奇石板"), //TODO 汉化
 #else
                     _("Mind Plate"),
 #endif
@@ -8010,7 +8010,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Insect Plate"), //TODO 汉化
+                    _("玉虫石板"), //TODO 汉化
 #else
                     _("Insect Plate"),
 #endif
@@ -8029,7 +8029,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Stone Plate"), //TODO 汉化
+                    _("岩石石板"), //TODO 汉化
 #else
                     _("Stone Plate"),
 #endif
@@ -8048,7 +8048,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Spooky Plate"), //TODO 汉化
+                    _("妖怪石板"), //TODO 汉化
 #else
                     _("Spooky Plate"),
 #endif
@@ -8067,7 +8067,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Draco Plate"), //TODO 汉化
+                    _("龙之石板"), //TODO 汉化
 #else
                     _("Draco Plate"),
 #endif
@@ -8086,7 +8086,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dread Plate"), //TODO 汉化
+                    _("恶颜石板"), //TODO 汉化
 #else
                     _("Dread Plate"),
 #endif
@@ -8105,7 +8105,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Iron Plate"), //TODO 汉化
+                    _("钢铁石板"), //TODO 汉化
 #else
                     _("Iron Plate"),
 #endif
@@ -8124,7 +8124,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Eviolite"), //TODO 汉化
+                    _("进化奇石"), //TODO 汉化
 #else
                     _("Eviolite"),
 #endif
@@ -8142,7 +8142,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Float Stone"), //TODO 汉化
+                    _("轻石"), //TODO 汉化
 #else
                     _("Float Stone"),
 #endif
@@ -8159,7 +8159,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rocky Helmet"), //TODO 汉化
+                    _("凸凸头盔"), //TODO 汉化
 #else
                     _("Rocky Helmet"),
 #endif
@@ -8177,7 +8177,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Air Balloon"), //TODO 汉化
+                    _("气球"), //TODO 汉化
 #else
                     _("Air Balloon"),
 #endif
@@ -8195,7 +8195,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Red Card"), //TODO 汉化
+                    _("红牌"), //TODO 汉化
 #else
                     _("Red Card"),
 #endif
@@ -8213,7 +8213,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ring Target"), //TODO 汉化
+                    _("标靶"), //TODO 汉化
 #else
                     _("Ring Target"),
 #endif
@@ -8231,7 +8231,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Binding Band"), //TODO 汉化
+                    _("紧绑束带"), //TODO 汉化
 #else
                     _("Binding Band"),
 #endif
@@ -8248,7 +8248,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Eject Button"), //TODO 汉化
+                    _("逃脱按键"), //TODO 汉化
 #else
                     _("Eject Button"),
 #endif
@@ -8266,7 +8266,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Absorb Bulb"), //TODO 汉化
+                    _("球根"), //TODO 汉化
 #else
                     _("Absorb Bulb"),
 #endif
@@ -8284,7 +8284,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cell Battery"), //TODO 汉化
+                    _("充电电池"), //TODO 汉化
 #else
                     _("Cell Battery"),
 #endif
@@ -8302,7 +8302,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Luminous Moss"), //TODO 汉化
+                    _("光苔"), //TODO 汉化
 #else
                     _("Luminous Moss"),
 #endif
@@ -8320,7 +8320,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Snowball"), //TODO 汉化
+                    _("雪球"), //TODO 汉化
 #else
                     _("Snowball"),
 #endif
@@ -8338,7 +8338,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("WeaknssPolicy"), //TODO 汉化
+                    _("弱点保险"), //TODO 汉化
 #else
                     _("WeaknssPolicy"),
 #endif
@@ -8356,7 +8356,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Douse Drive"), //TODO 汉化
+                    _("水流卡带"), //TODO 汉化
 #else
                     _("Douse Drive"),
 #endif
@@ -8374,7 +8374,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shock Drive"), //TODO 汉化
+                    _("闪电卡带"), //TODO 汉化
 #else
                     _("Shock Drive"),
 #endif
@@ -8392,7 +8392,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Burn Drive"), //TODO 汉化
+                    _("火焰卡带"), //TODO 汉化
 #else
                     _("Burn Drive"),
 #endif
@@ -8410,7 +8410,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Chill Drive"), //TODO 汉化
+                    _("冰冻卡带"), //TODO 汉化
 #else
                     _("Chill Drive"),
 #endif
@@ -8428,7 +8428,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fire Gem"), //TODO 汉化
+                    _("火之宝石"), //TODO 汉化
 #else
                     _("Fire Gem"),
 #endif
@@ -8447,7 +8447,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Water Gem"), //TODO 汉化
+                    _("水之宝石"), //TODO 汉化
 #else
                     _("Water Gem"),
 #endif
@@ -8466,7 +8466,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Electric Gem"), //TODO 汉化
+                    _("电之宝石"), //TODO 汉化
 #else
                     _("Electric Gem"),
 #endif
@@ -8485,7 +8485,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grass Gem"), //TODO 汉化
+                    _("草之宝石"), //TODO 汉化
 #else
                     _("Grass Gem"),
 #endif
@@ -8504,7 +8504,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ice Gem"), //TODO 汉化
+                    _("冰之宝石"), //TODO 汉化
 #else
                     _("Ice Gem"),
 #endif
@@ -8523,7 +8523,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fighting Gem"), //TODO 汉化
+                    _("格斗宝石"), //TODO 汉化
 #else
                     _("Fighting Gem"),
 #endif
@@ -8542,7 +8542,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poison Gem"), //TODO 汉化
+                    _("毒之宝石"), //TODO 汉化
 #else
                     _("Poison Gem"),
 #endif
@@ -8561,7 +8561,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ground Gem"), //TODO 汉化
+                    _("地面宝石"), //TODO 汉化
 #else
                     _("Ground Gem"),
 #endif
@@ -8580,7 +8580,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Flying Gem"), //TODO 汉化
+                    _("飞行宝石"), //TODO 汉化
 #else
                     _("Flying Gem"),
 #endif
@@ -8599,7 +8599,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Psychic Gem"), //TODO 汉化
+                    _("超能力宝石"), //TODO 汉化
 #else
                     _("Psychic Gem"),
 #endif
@@ -8618,7 +8618,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Bug Gem"), //TODO 汉化
+                    _("虫之宝石"), //TODO 汉化
 #else
                     _("Bug Gem"),
 #endif
@@ -8637,7 +8637,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rock Gem"), //TODO 汉化
+                    _("岩石宝石"), //TODO 汉化
 #else
                     _("Rock Gem"),
 #endif
@@ -8656,7 +8656,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ghost Gem"), //TODO 汉化
+                    _("幽灵宝石"), //TODO 汉化
 #else
                     _("Ghost Gem"),
 #endif
@@ -8675,7 +8675,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dragon Gem"), //TODO 汉化
+                    _("龙之宝石"), //TODO 汉化
 #else
                     _("Dragon Gem"),
 #endif
@@ -8694,7 +8694,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dark Gem"), //TODO 汉化
+                    _("恶之宝石"), //TODO 汉化
 #else
                     _("Dark Gem"),
 #endif
@@ -8713,7 +8713,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Steel Gem"), //TODO 汉化
+                    _("钢之宝石"), //TODO 汉化
 #else
                     _("Steel Gem"),
 #endif
@@ -8732,7 +8732,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Normal Gem"), //TODO 汉化
+                    _("一般宝石"), //TODO 汉化
 #else
                     _("Normal Gem"),
 #endif
@@ -8751,7 +8751,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fairy Gem"), //TODO 汉化
+                    _("妖精宝石"), //TODO 汉化
 #else
                     _("Fairy Gem"),
 #endif
@@ -8770,7 +8770,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Assault Vest"), //TODO 汉化
+                    _("突击背心"), //TODO 汉化
 #else
                     _("Assault Vest"),
 #endif
@@ -8788,7 +8788,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pixie Plate"), //TODO 汉化
+                    _("妖精石板"), //TODO 汉化
 #else
                     _("Pixie Plate"),
 #endif
@@ -8807,7 +8807,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("SafetyGoggles"), //TODO 汉化
+                    _("防尘护目镜"), //TODO 汉化
 #else
                     _("SafetyGoggles"),
 #endif
@@ -8824,7 +8824,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Gengarite"), //TODO 汉化
+                    _("耿鬼进化石"), //TODO 汉化
 #else
                     _("Gengarite"),
 #endif
@@ -8841,7 +8841,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Gardevoirite"), //TODO 汉化
+                    _("沙奈朵进化石"), //TODO 汉化
 #else
                     _("Gardevoirite"),
 #endif
@@ -8858,7 +8858,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ampharosite"), //TODO 汉化
+                    _("电龙进化石"), //TODO 汉化
 #else
                     _("Ampharosite"),
 #endif
@@ -8875,7 +8875,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Venusaurite"), //TODO 汉化
+                    _("妙蛙花进化石"), //TODO 汉化
 #else
                     _("Venusaurite"),
 #endif
@@ -8892,7 +8892,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("CharizarditeX"), //TODO 汉化
+                    _("喷火龙进化石X"), //TODO 汉化
 #else
                     _("CharizarditeX"),
 #endif
@@ -8909,7 +8909,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blastoisinite"), //TODO 汉化
+                    _("水箭龟进化石"), //TODO 汉化
 #else
                     _("Blastoisinite"),
 #endif
@@ -8926,7 +8926,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mewtwonite X"), //TODO 汉化
+                    _("超梦进化石X"), //TODO 汉化
 #else
                     _("Mewtwonite X"),
 #endif
@@ -8943,7 +8943,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mewtwonite Y"), //TODO 汉化
+                    _("超梦进化石Y"), //TODO 汉化
 #else
                     _("Mewtwonite Y"),
 #endif
@@ -8960,7 +8960,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Blazikenite"), //TODO 汉化
+                    _("火焰鸡进化石"), //TODO 汉化
 #else
                     _("Blazikenite"),
 #endif
@@ -8977,7 +8977,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Medichamite"), //TODO 汉化
+                    _("恰雷姆进化石"), //TODO 汉化
 #else
                     _("Medichamite"),
 #endif
@@ -8994,7 +8994,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Houndoominite"), //TODO 汉化
+                    _("黑鲁加进化石"), //TODO 汉化
 #else
                     _("Houndoominite"),
 #endif
@@ -9011,7 +9011,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aggronite"), //TODO 汉化
+                    _("波士可多拉进化石"), //TODO 汉化
 #else
                     _("Aggronite"),
 #endif
@@ -9028,7 +9028,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Banettite"), //TODO 汉化
+                    _("诅咒娃娃进化石"), //TODO 汉化
 #else
                     _("Banettite"),
 #endif
@@ -9045,7 +9045,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tyranitarite"), //TODO 汉化
+                    _("班基拉斯进化石"), //TODO 汉化
 #else
                     _("Tyranitarite"),
 #endif
@@ -9062,7 +9062,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Scizorite"), //TODO 汉化
+                    _("巨钳螳螂进化石"), //TODO 汉化
 #else
                     _("Scizorite"),
 #endif
@@ -9079,7 +9079,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pinsirite"), //TODO 汉化
+                    _("凯罗斯进化石"), //TODO 汉化
 #else
                     _("Pinsirite"),
 #endif
@@ -9096,7 +9096,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aerodactylite"), //TODO 汉化
+                    _("化石翼龙进化石"), //TODO 汉化
 #else
                     _("Aerodactylite"),
 #endif
@@ -9113,7 +9113,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lucarionite"), //TODO 汉化
+                    _("路卡利欧进化石"), //TODO 汉化
 #else
                     _("Lucarionite"),
 #endif
@@ -9130,7 +9130,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Abomasite"), //TODO 汉化
+                    _("暴雪王进化石"), //TODO 汉化
 #else
                     _("Abomasite"),
 #endif
@@ -9147,7 +9147,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kangaskhanite"), //TODO 汉化
+                    _("袋兽进化石"), //TODO 汉化
 #else
                     _("Kangaskhanite"),
 #endif
@@ -9164,7 +9164,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Gyaradosite"), //TODO 汉化
+                    _("暴鲤龙进化石"), //TODO 汉化
 #else
                     _("Gyaradosite"),
 #endif
@@ -9181,7 +9181,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Absolite"), //TODO 汉化
+                    _("阿勃梭鲁进化石"), //TODO 汉化
 #else
                     _("Absolite"),
 #endif
@@ -9198,7 +9198,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("CharizarditeY"), //TODO 汉化
+                    _("喷火龙进化石Y"), //TODO 汉化
 #else
                     _("CharizarditeY"),
 #endif
@@ -9215,7 +9215,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Alakazite"), //TODO 汉化
+                    _("胡地进化石"), //TODO 汉化
 #else
                     _("Alakazite"),
 #endif
@@ -9232,7 +9232,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Heracronite"), //TODO 汉化
+                    _("赫拉克罗斯进化石"), //TODO 汉化
 #else
                     _("Heracronite"),
 #endif
@@ -9249,7 +9249,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mawilite"), //TODO 汉化
+                    _("大嘴娃进化石"), //TODO 汉化
 #else
                     _("Mawilite"),
 #endif
@@ -9266,7 +9266,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Manectite"), //TODO 汉化
+                    _("雷电兽进化石"), //TODO 汉化
 #else
                     _("Manectite"),
 #endif
@@ -9283,7 +9283,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Garchompite"), //TODO 汉化
+                    _("烈咬陆鲨进化石"), //TODO 汉化
 #else
                     _("Garchompite"),
 #endif
@@ -9300,7 +9300,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Latiasite"), //TODO 汉化
+                    _("拉帝亚斯进化石"), //TODO 汉化
 #else
                     _("Latiasite"),
 #endif
@@ -9317,7 +9317,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Latiosite"), //TODO 汉化
+                    _("拉帝欧斯进化石"), //TODO 汉化
 #else
                     _("Latiosite"),
 #endif
@@ -9334,7 +9334,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Swampertite"), //TODO 汉化
+                    _("巨沼怪进化石"), //TODO 汉化
 #else
                     _("Swampertite"),
 #endif
@@ -9351,7 +9351,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sceptilite"), //TODO 汉化
+                    _("蜥蜴王进化石"), //TODO 汉化
 #else
                     _("Sceptilite"),
 #endif
@@ -9368,7 +9368,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sablenite"), //TODO 汉化
+                    _("勾魂眼进化石"), //TODO 汉化
 #else
                     _("Sablenite"),
 #endif
@@ -9385,7 +9385,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Altarianite"), //TODO 汉化
+                    _("七夕青鸟进化石"), //TODO 汉化
 #else
                     _("Altarianite"),
 #endif
@@ -9402,7 +9402,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Galladite"), //TODO 汉化
+                    _("艾路雷朵进化石"), //TODO 汉化
 #else
                     _("Galladite"),
 #endif
@@ -9419,7 +9419,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Audinite"), //TODO 汉化
+                    _("差不多娃娃进化石"), //TODO 汉化
 #else
                     _("Audinite"),
 #endif
@@ -9436,7 +9436,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Metagrossite"), //TODO 汉化
+                    _("巨金怪进化石"), //TODO 汉化
 #else
                     _("Metagrossite"),
 #endif
@@ -9453,7 +9453,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Sharpedonite"), //TODO 汉化
+                    _("巨牙鲨进化石"), //TODO 汉化
 #else
                     _("Sharpedonite"),
 #endif
@@ -9470,7 +9470,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Slowbronite"), //TODO 汉化
+                    _("呆壳兽进化石"), //TODO 汉化
 #else
                     _("Slowbronite"),
 #endif
@@ -9487,7 +9487,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Steelixite"), //TODO 汉化
+                    _("大钢蛇进化石"), //TODO 汉化
 #else
                     _("Steelixite"),
 #endif
@@ -9504,7 +9504,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pidgeotite"), //TODO 汉化
+                    _("大比鸟进化石"), //TODO 汉化
 #else
                     _("Pidgeotite"),
 #endif
@@ -9521,7 +9521,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Glalitite"), //TODO 汉化
+                    _("冰鬼护进化石"), //TODO 汉化
 #else
                     _("Glalitite"),
 #endif
@@ -9538,7 +9538,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Diancite"), //TODO 汉化
+                    _("蒂安希进化石"), //TODO 汉化
 #else
                     _("Diancite"),
 #endif
@@ -9555,7 +9555,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Cameruptite"), //TODO 汉化
+                    _("喷火驼进化石"), //TODO 汉化
 #else
                     _("Cameruptite"),
 #endif
@@ -9572,7 +9572,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lopunnite"), //TODO 汉化
+                    _("长耳兔进化石"), //TODO 汉化
 #else
                     _("Lopunnite"),
 #endif
@@ -9589,7 +9589,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Salamencite"), //TODO 汉化
+                    _("暴飞龙进化石"), //TODO 汉化
 #else
                     _("Salamencite"),
 #endif
@@ -9606,7 +9606,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Beedrillite"), //TODO 汉化
+                    _("大针蜂进化石"), //TODO 汉化
 #else
                     _("Beedrillite"),
 #endif
@@ -9623,7 +9623,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mega Bracelet"), //TODO 汉化
+                    _("超级手镯"), //TODO 汉化
 #else
                     _("Mega Bracelet"),
 #endif
@@ -9640,7 +9640,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("ProtectvePads"), //TODO 汉化
+                    _("部位护具"), //TODO 汉化
 #else
                     _("ProtectvePads"),
 #endif
@@ -9657,7 +9657,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("TerainExtendr"), //TODO 汉化
+                    _("大地膜"), //TODO 汉化
 #else
                     _("TerainExtendr"),
 #endif
@@ -9674,7 +9674,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Electric Seed"), //TODO 汉化
+                    _("电气种子"), //TODO 汉化
 #else
                     _("Electric Seed"),
 #endif
@@ -9691,7 +9691,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grassy Seed"), //TODO 汉化
+                    _("青草种子"), //TODO 汉化
 #else
                     _("Grassy Seed"),
 #endif
@@ -9708,7 +9708,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Misty Seed"), //TODO 汉化
+                    _("薄雾种子"), //TODO 汉化
 #else
                     _("Misty Seed"),
 #endif
@@ -9725,7 +9725,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Psychic Seed"), //TODO 汉化
+                    _("精神种子"), //TODO 汉化
 #else
                     _("Psychic Seed"),
 #endif
@@ -9742,7 +9742,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("AdrenalineOrb"), //TODO 汉化
+                    _("胆怯球"), //TODO 汉化
 #else
                     _("AdrenalineOrb"),
 #endif
@@ -9759,7 +9759,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Honey"), //TODO 汉化
+                    _("甜甜蜜"), //TODO 汉化
 #else
                     _("Honey"),
 #endif
@@ -9775,7 +9775,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("HealthFeather"), //TODO 汉化
+                    _("体力之羽"), //TODO 汉化
 #else
                     _("HealthFeather"),
 #endif
@@ -9791,7 +9791,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("MuscleFeather"), //TODO 汉化
+                    _("肌力之羽"), //TODO 汉化
 #else
                     _("MuscleFeather"),
 #endif
@@ -9807,7 +9807,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("ResistFeather"), //TODO 汉化
+                    _("抵抗之羽"), //TODO 汉化
 #else
                     _("ResistFeather"),
 #endif
@@ -9823,7 +9823,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("GeniusFeather"), //TODO 汉化
+                    _("智力之羽"), //TODO 汉化
 #else
                     _("GeniusFeather"),
 #endif
@@ -9839,7 +9839,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("CleverFeather"), //TODO 汉化
+                    _("精神之羽"), //TODO 汉化
 #else
                     _("CleverFeather"),
 #endif
@@ -9855,7 +9855,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("SwiftFeather"), //TODO 汉化
+                    _("瞬发之羽"), //TODO 汉化
 #else
                     _("SwiftFeather"),
 #endif
@@ -9871,7 +9871,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("PrettyFeather"), //TODO 汉化
+                    _("美丽之羽"), //TODO 汉化
 #else
                     _("PrettyFeather"),
 #endif
@@ -9887,7 +9887,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Shiny Charm"), //TODO 汉化
+                    _("闪耀护符"), //TODO 汉化
 #else
                     _("Shiny Charm"),
 #endif
@@ -9904,7 +9904,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Oval Charm"), //TODO 汉化
+                    _("圆形护符"), //TODO 汉化
 #else
                     _("Oval Charm"),
 #endif
@@ -9921,7 +9921,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Z-Ring"), //TODO 汉化
+                    _("Z手环"), //TODO 汉化
 #else
                     _("Z-Ring"),
 #endif
@@ -9939,7 +9939,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Normalium Z"), //TODO 汉化
+                    _("一般Z"), //TODO 汉化
 #else
                     _("Normalium Z"),
 #endif
@@ -9956,7 +9956,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fightinium Z"), //TODO 汉化
+                    _("格斗Z"), //TODO 汉化
 #else
                     _("Fightinium Z"),
 #endif
@@ -9973,7 +9973,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Flyinium Z"), //TODO 汉化
+                    _("飞行Z"), //TODO 汉化
 #else
                     _("Flyinium Z"),
 #endif
@@ -9990,7 +9990,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Poisinium Z"), //TODO 汉化
+                    _("毒Z"), //TODO 汉化
 #else
                     _("Poisinium Z"),
 #endif
@@ -10007,7 +10007,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Groundium Z"), //TODO 汉化
+                    _("地面Z"), //TODO 汉化
 #else
                     _("Groundium Z"),
 #endif
@@ -10024,7 +10024,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Rockium Z"), //TODO 汉化
+                    _("岩石Z"), //TODO 汉化
 #else
                     _("Rockium Z"),
 #endif
@@ -10041,7 +10041,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Buginium Z"), //TODO 汉化
+                    _("虫Z"), //TODO 汉化
 #else
                     _("Buginium Z"),
 #endif
@@ -10058,7 +10058,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Ghostium Z"), //TODO 汉化
+                    _("幽灵Z"), //TODO 汉化
 #else
                     _("Ghostium Z"),
 #endif
@@ -10075,7 +10075,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Steelium Z"), //TODO 汉化
+                    _("钢Z"), //TODO 汉化
 #else
                     _("Steelium Z"),
 #endif
@@ -10092,7 +10092,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Firium Z"), //TODO 汉化
+                    _("火Z"), //TODO 汉化
 #else
                     _("Firium Z"),
 #endif
@@ -10109,7 +10109,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Waterium Z"), //TODO 汉化
+                    _("水Z"), //TODO 汉化
 #else
                     _("Waterium Z"),
 #endif
@@ -10126,7 +10126,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Grassium Z"), //TODO 汉化
+                    _("草Z"), //TODO 汉化
 #else
                     _("Grassium Z"),
 #endif
@@ -10143,7 +10143,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Electrium Z"), //TODO 汉化
+                    _("电Z"), //TODO 汉化
 #else
                     _("Electrium Z"),
 #endif
@@ -10160,7 +10160,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Psychium Z"), //TODO 汉化
+                    _("超能力Z"), //TODO 汉化
 #else
                     _("Psychium Z"),
 #endif
@@ -10177,7 +10177,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Icium Z"), //TODO 汉化
+                    _("冰Z"), //TODO 汉化
 #else
                     _("Icium Z"),
 #endif
@@ -10194,7 +10194,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Dragonium Z"), //TODO 汉化
+                    _("龙Z"), //TODO 汉化
 #else
                     _("Dragonium Z"),
 #endif
@@ -10211,7 +10211,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Darkinium Z"), //TODO 汉化
+                    _("恶Z"), //TODO 汉化
 #else
                     _("Darkinium Z"),
 #endif
@@ -10228,7 +10228,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Fairium Z"), //TODO 汉化
+                    _("妖精Z"), //TODO 汉化
 #else
                     _("Fairium Z"),
 #endif
@@ -10245,7 +10245,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Aloraichium Z"), //TODO 汉化
+                    _("阿罗雷Z"), //TODO 汉化
 #else
                     _("Aloraichium Z"),
 #endif
@@ -10263,7 +10263,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Decidium Z"), //TODO 汉化
+                    _("狙射树枭Z"), //TODO 汉化
 #else
                     _("Decidium Z"),
 #endif
@@ -10281,7 +10281,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Eevium Z"), //TODO 汉化
+                    _("伊布Z"), //TODO 汉化
 #else
                     _("Eevium Z"),
 #endif
@@ -10299,7 +10299,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Incinium Z"), //TODO 汉化
+                    _("炽焰咆哮虎Z"), //TODO 汉化
 #else
                     _("Incinium Z"),
 #endif
@@ -10317,7 +10317,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Kommonium Z"), //TODO 汉化
+                    _("杖尾鳞甲龙Z"), //TODO 汉化
 #else
                     _("Kommonium Z"),
 #endif
@@ -10335,7 +10335,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lunalium Z"), //TODO 汉化
+                    _("露奈雅拉Z"), //TODO 汉化
 #else
                     _("Lunalium Z"),
 #endif
@@ -10353,7 +10353,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Lycanium Z"), //TODO 汉化
+                    _("鬃岩狼人Z"), //TODO 汉化
 #else
                     _("Lycanium Z"),
 #endif
@@ -10371,7 +10371,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Marshadium Z"), //TODO 汉化
+                    _("玛夏多Z"), //TODO 汉化
 #else
                     _("Marshadium Z"),
 #endif
@@ -10389,7 +10389,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mewnium Z"), //TODO 汉化
+                    _("梦幻Z"), //TODO 汉化
 #else
                     _("Mewnium Z"),
 #endif
@@ -10407,7 +10407,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Mimikium Z"), //TODO 汉化
+                    _("谜拟ＱZ"), //TODO 汉化
 #else
                     _("Mimikium Z"),
 #endif
@@ -10425,7 +10425,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pikanium Z"), //TODO 汉化
+                    _("皮卡丘Z"), //TODO 汉化
 #else
                     _("Pikanium Z"),
 #endif
@@ -10443,7 +10443,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Pikashunium Z"), //TODO 汉化
+                    _("智皮卡Z"), //TODO 汉化
 #else
                     _("Pikashunium Z"),
 #endif
@@ -10461,7 +10461,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Primarium Z"), //TODO 汉化
+                    _("西狮海壬Z"), //TODO 汉化
 #else
                     _("Primarium Z"),
 #endif
@@ -10479,7 +10479,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Snorlium Z"), //TODO 汉化
+                    _("卡比兽Z"), //TODO 汉化
 #else
                     _("Snorlium Z"),
 #endif
@@ -10497,7 +10497,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Solganium Z"), //TODO 汉化
+                    _("索尔迦雷欧Z"), //TODO 汉化
 #else
                     _("Solganium Z"),
 #endif
@@ -10515,7 +10515,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("Tapunium Z"), //TODO 汉化
+                    _("卡璞Z"), //TODO 汉化
 #else
                     _("Tapunium Z"),
 #endif
@@ -10533,7 +10533,7 @@ const struct Item gItems[] =
             {
                 .name =
 #ifdef CHINESE
-                    _("U-Necrozium Z"), //TODO 汉化
+                    _("究极奈克洛Z"), //TODO 汉化
 #else
                     _("U-Necrozium Z"),
 #endif
