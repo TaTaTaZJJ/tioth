@@ -2177,7 +2177,7 @@ static const u8 sMewniumZDesc[] = _(
     "Z力量的结晶。会将梦幻的精神强念升级成Z招式。");
 
 static const u8 sMimikiumZDesc[] = _(
-    "Z力量的结晶。会将谜拟Ｑ的嬉闹升级成Z招式。");
+    "Z力量的结晶。会将谜拟Q的嬉闹升级成Z招式。");
 
 static const u8 sPikaniumZDesc[] = _(
     "Z力量的结晶。会将皮卡丘的伏特攻击升级成Z招式。");
