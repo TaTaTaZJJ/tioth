@@ -1,6 +1,6 @@
 #include "config.h"
 
-const u8 gTrainerClassNames[][13] = {
+const u8 gTrainerClassNames[][19] = {
     [TRAINER_CLASS_PKMN_TRAINER_1] =
 #ifdef CHINESE
         _("{PKMN}训练家"),
@@ -283,7 +283,7 @@ const u8 gTrainerClassNames[][13] = {
 
     [TRAINER_CLASS_TRIATHLETE] =
 #ifdef CHINESE
-        _("铁人三项"),
+        _("铁人三项运动员"),
 #else
         _("TRIATHLETE"),
 #endif
