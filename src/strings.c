@@ -9986,28 +9986,28 @@ _("BATTLE STYLE");
 
 const u8 gText_Sound[] = 
 #ifdef CHINESE
-_("SOUND"); //TODO 汉化
+_("声音"); //TODO 汉化
 #else
 _("SOUND");
 #endif
 
 const u8 gText_Frame[] = 
 #ifdef CHINESE
-_("FRAME"); //TODO 汉化
+_("框架"); //TODO 汉化
 #else
 _("FRAME");
 #endif
 
 const u8 gText_OptionMenuCancel[] = 
 #ifdef CHINESE
-_("CANCEL"); //TODO 汉化
+_("取消"); //TODO 汉化
 #else
 _("CANCEL");
 #endif
 
 const u8 gText_ButtonMode[] = 
 #ifdef CHINESE
-_("BUTTON MODE"); //TODO 汉化
+_("按键模式"); //TODO 汉化
 #else
 _("BUTTON MODE");
 #endif
@@ -10147,42 +10147,42 @@ _("GOLD");
 
 const u8 gText_Day[] = 
 #ifdef CHINESE
-_("DAY"); //TODO 汉化
+_("天"); //TODO 汉化
 #else
 _("DAY");
 #endif
 
 const u8 gText_Colon3[] = 
 #ifdef CHINESE
-_(":");  //TODO 汉化
+_("：");  //TODO 汉化
 #else
 _(":");
 #endif
 
 const u8 gText_Confirm2[] = 
 #ifdef CHINESE
-_("CONFIRM"); //TODO 汉化
+_("确认"); //TODO 汉化
 #else
 _("CONFIRM");
 #endif
 
 const u8 gText_Days[] = 
 #ifdef CHINESE
-_("Days"); // Unused //TODO 汉化
+_("天"); // Unused //TODO 汉化
 #else
 _("Days"); // Unused
 #endif
 
 const u8 gText_TimeColon2[] = 
 #ifdef CHINESE
-_("Time:"); // Unused //TODO 汉化
+_("时间："); // Unused //TODO 汉化
 #else
 _("Time:"); // Unused
 #endif
 
 const u8 gText_GameTime[] = 
 #ifdef CHINESE
-_("Game time"); // Unused //TODO 汉化
+_("游戏时间"); // Unused //TODO 汉化
 #else
 _("Game time"); // Unused
 #endif
@@ -10203,21 +10203,21 @@ _("Updated time"); // Unused
 
 const u8 gText_MenuPokedex[] = 
 #ifdef CHINESE
-_("POKéDEX"); //TODO 汉化
+_("图鉴"); //TODO 汉化
 #else
 _("POKéDEX");
 #endif
 
 const u8 gText_MenuPokemon[] = 
 #ifdef CHINESE
-_("POKéMON"); //TODO 汉化
+_("宝可梦"); //TODO 汉化
 #else
 _("POKéMON");
 #endif
 
 const u8 gText_MenuBag[] = 
 #ifdef CHINESE
-_("BAG"); //TODO 汉化
+_("背包"); //TODO 汉化
 #else
 _("BAG");
 #endif
@@ -10238,21 +10238,21 @@ _("{PLAYER}");
 
 const u8 gText_MenuSave[] = 
 #ifdef CHINESE
-_("SAVE"); //TODO 汉化
+_("记录"); //TODO 汉化
 #else
 _("SAVE");
 #endif
 
 const u8 gText_MenuOption[] = 
 #ifdef CHINESE
-_("OPTION"); //TODO 汉化
+_("选项"); //TODO 汉化
 #else
 _("OPTION");
 #endif
 
 const u8 gText_MenuExit[] = 
 #ifdef CHINESE
-_("EXIT"); //TODO 汉化
+_("退出"); //TODO 汉化
 #else
 _("EXIT");
 #endif
@@ -10266,14 +10266,14 @@ _("RETIRE");
 
 const u8 gText_MenuRest[] = 
 #ifdef CHINESE
-_("REST"); //TODO 汉化
+_("重置"); //TODO 汉化
 #else
 _("REST");
 #endif
 
 const u8 gText_SafariBallStock[] = 
 #ifdef CHINESE
-_("SAFARI BALLS\nStock: {STR_VAR_1}"); //TODO 汉化
+_("原野球\n库存： {STR_VAR_1}"); //TODO 汉化
 #else
 _("SAFARI BALLS\nStock: {STR_VAR_1}");
 #endif
@@ -10287,56 +10287,56 @@ _("Battle Pyramid\n{STR_VAR_1}");
 
 const u8 gText_Floor1[] = 
 #ifdef CHINESE
-_("Floor 1"); //TODO 汉化
+_("1层"); //TODO 汉化
 #else
 _("Floor 1");
 #endif
 
 const u8 gText_Floor2[] = 
 #ifdef CHINESE
-_("Floor 2"); //TODO 汉化
+_("2层"); //TODO 汉化
 #else
 _("Floor 2");
 #endif
 
 const u8 gText_Floor3[] = 
 #ifdef CHINESE
-_("Floor 3"); //TODO 汉化
+_("3层"); //TODO 汉化
 #else
 _("Floor 3");
 #endif
 
 const u8 gText_Floor4[] = 
 #ifdef CHINESE
-_("Floor 4"); //TODO 汉化
+_("4层"); //TODO 汉化
 #else
 _("Floor 4");
 #endif
 
 const u8 gText_Floor5[] = 
 #ifdef CHINESE
-_("Floor 5"); //TODO 汉化
+_("5层"); //TODO 汉化
 #else
 _("Floor 5");
 #endif
 
 const u8 gText_Floor6[] = 
 #ifdef CHINESE
-_("Floor 6"); //TODO 汉化
+_("6层"); //TODO 汉化
 #else
 _("Floor 6");
 #endif
 
 const u8 gText_Floor7[] = 
 #ifdef CHINESE
-_("Floor 7"); //TODO 汉化
+_("7层"); //TODO 汉化
 #else
 _("Floor 7");
 #endif
 
 const u8 gText_Peak[] = 
 #ifdef CHINESE
-_("Peak"); //TODO 汉化
+_("顶层"); //TODO 汉化
 #else
 _("Peak");
 #endif
@@ -11572,14 +11572,14 @@ _("You haven't received the\nGIFT. Is it okay to discard?");
 
 ALIGNED(4) const u8 gText_DataWillBeSaved[] = 
 #ifdef CHINESE
-_("Data will be saved.\nPlease wait."); //TODO 汉化
+_("数据将会被记录。\n请等待。"); //TODO 汉化
 #else
 _("Data will be saved.\nPlease wait.");
 #endif
 
 ALIGNED(4) const u8 gText_SaveCompletedPressA[] = 
 #ifdef CHINESE
-_("Save completed.\nPlease press the A Button."); //TODO 汉化
+_("记录完成。\n请按下A键。"); //TODO 汉化
 #else
 _("Save completed.\nPlease press the A Button.");
 #endif
@@ -11600,7 +11600,7 @@ _("The WONDER NEWS was thrown away.");
 
 ALIGNED(4) const u8 gText_MysteryGift[] = 
 #ifdef CHINESE
-_("MYSTERY GIFT"); //TODO 汉化
+_("神秘礼物"); //TODO 汉化
 #else
 _("MYSTERY GIFT");
 #endif
@@ -11621,7 +11621,7 @@ _("{DPAD_UPDOWN}PICK {A_BUTTON}OK {B_BUTTON}CANCEL");
 
 const u8 gText_PlayersBattleResults[] = 
 #ifdef CHINESE
-_("{PLAYER}'s BATTLE RESULTS"); //TODO 汉化
+_("{PLAYER}的战斗结果"); //TODO 汉化
 #else
 _("{PLAYER}'s BATTLE RESULTS");
 #endif
@@ -11635,7 +11635,7 @@ _("TOTAL RECORD W:{STR_VAR_1} L:{STR_VAR_2} D:{STR_VAR_3}");
 
 const u8 gText_WinLoseDraw[] = 
 #ifdef CHINESE
-_("{CLEAR_TO 0x53}WIN{CLEAR_TO 0x80}LOSE{CLEAR_TO 0xB0}DRAW"); //TODO 汉化
+_("{CLEAR_TO 0x53}获胜{CLEAR_TO 0x80}失败{CLEAR_TO 0xB0}平手"); //TODO 汉化
 #else
 _("{CLEAR_TO 0x53}WIN{CLEAR_TO 0x80}LOSE{CLEAR_TO 0xB0}DRAW");
 #endif
@@ -11649,28 +11649,28 @@ _("Communication standby…");
 
 const u8 gText_QuitTheGame[] = 
 #ifdef CHINESE
-_("Quit the game?"); //TODO 汉化
+_("退出游戏？"); //TODO 汉化
 #else
 _("Quit the game?");
 #endif
 
 const u8 gText_YouveGot9999Coins[] = 
 #ifdef CHINESE
-_("You've got 9,999 COINS."); //TODO 汉化
+_("你获得了9,999个硬币。"); //TODO 汉化
 #else
 _("You've got 9,999 COINS.");
 #endif
 
 const u8 gText_YouveRunOutOfCoins[] = 
 #ifdef CHINESE
-_("You've run out of COINS.\nGame over!"); //TODO 汉化
+_("你用光了所有硬币。\n游戏结束！"); //TODO 汉化
 #else
 _("You've run out of COINS.\nGame over!");
 #endif
 
 const u8 gText_YouDontHaveThreeCoins[] = 
 #ifdef CHINESE
-_("You don't have three COINS."); //TODO 汉化
+_("你没有三个硬币。"); //TODO 汉化
 #else
 _("You don't have three COINS.");
 #endif
@@ -11714,7 +11714,7 @@ const u8 gText_NewLine2[] = _("\n");
 
 const u8 gText_Exit4[] = 
 #ifdef CHINESE
-_("EXIT"); //TODO 汉化
+_("退出"); //TODO 汉化
 #else
 _("EXIT");
 #endif
@@ -11779,7 +11779,7 @@ _("Teach which move to {STR_VAR_1}?");
 
 const u8 gText_MoveRelearnerTeachMoveConfirm[] = 
 #ifdef CHINESE
-_("Teach {STR_VAR_2}?"); //TODO 汉化
+_("教授 {STR_VAR_2}?"); //TODO 汉化
 #else
 _("Teach {STR_VAR_2}?");
 #endif
@@ -11856,7 +11856,7 @@ _("CONTEST MOVES");
 
 const u8 gText_MoveRelearnerType[] = 
 #ifdef CHINESE
-_("TYPE/"); // Unused //TODO 汉化
+_("属性/"); // Unused //TODO 汉化
 #else
 _("TYPE/"); // Unused
 #endif
@@ -11947,28 +11947,28 @@ _("Clear all save data areas?");
 
 const u8 gText_ClearingData[] = 
 #ifdef CHINESE
-_("Clearing data…\nPlease wait."); //TODO 汉化
+_("清除数据中...\n请等待。"); //TODO 汉化
 #else
 _("Clearing data…\nPlease wait.");
 #endif
 
 const u8 gText_IsThisTheCorrectTime[] = 
 #ifdef CHINESE
-_("Is this the correct time?"); //TODO 汉化
+_("这是正确的时间吗？"); //TODO 汉化
 #else
 _("Is this the correct time?");
 #endif
 
 const u8 gText_Confirm3[] = 
 #ifdef CHINESE
-_("CONFIRM"); //TODO 汉化
+_("确认"); //TODO 汉化
 #else
 _("CONFIRM");
 #endif
 
 const u8 gText_Cancel4[] = 
 #ifdef CHINESE
-_("CANCEL"); //TODO 汉化
+_("取消"); //TODO 汉化
 #else
 _("CANCEL");
 #endif
@@ -11996,7 +11996,7 @@ _("HARD AS ROCK");
 
 const u8 gText_StevenMatchCallName[] = 
 #ifdef CHINESE
-_("STEVEN"); //TODO 汉化
+_("大吾"); //TODO 汉化
 #else
 _("STEVEN");
 #endif
@@ -12031,14 +12031,14 @@ _("{PKMN} LOVER");
 
 const u8 gText_NormanMatchCallName[] = 
 #ifdef CHINESE
-_("DAD"); //TODO 汉化
+_("爸爸"); //TODO 汉化
 #else
 _("DAD");
 #endif
 
 const u8 gText_MomMatchCallName[] = 
 #ifdef CHINESE
-_("MOM"); //TODO 汉化
+_("妈妈"); //TODO 汉化
 #else
 _("MOM");
 #endif
@@ -12110,12 +12110,12 @@ const u8 gText_EliteFourMatchCallDesc[] =
 #ifdef CHINESE
 _("ELITE FOUR"); //TODO 汉化
 #else
-_("ELITE FOUR");
+_("四天王");
 #endif
 
 const u8 gText_ChampionMatchCallDesc[] = 
 #ifdef CHINESE
-_("CHAMPION"); //TODO 汉化
+_("冠军"); //TODO 汉化
 #else
 _("CHAMPION");
 #endif
@@ -12150,14 +12150,14 @@ _("Refused the battle.{PAUSE 60}");
 
 const u8 gText_NoWeather[] = 
 #ifdef CHINESE
-_("NO WEATHER"); // Below are unused debug names for weather types //TODO 汉化
+_("无天气"); // Below are unused debug names for weather types //TODO 汉化
 #else
 _("NO WEATHER"); // Below are unused debug names for weather types
 #endif
 
 const u8 gText_Sunny[] = 
 #ifdef CHINESE
-_("SUNNY"); // Unused //TODO 汉化
+_("晴"); // Unused //TODO 汉化
 #else
 _("SUNNY"); // Unused
 #endif
@@ -12171,42 +12171,42 @@ _("SUNNY2"); // Unused
 
 const u8 gText_Rain[] = 
 #ifdef CHINESE
-_("RAIN"); // Unused //TODO 汉化
+_("雨"); // Unused //TODO 汉化
 #else
 _("RAIN"); // Unused
 #endif
 
 const u8 gText_Snow[] = 
 #ifdef CHINESE
-_("SNOW"); // Unused //TODO 汉化
+_("雪"); // Unused //TODO 汉化
 #else
 _("SNOW"); // Unused
 #endif
 
 const u8 gText_Lightning[] = 
 #ifdef CHINESE
-_("LIGHTNING"); // Unused //TODO 汉化
+_("闪电"); // Unused //TODO 汉化
 #else
 _("LIGHTNING"); // Unused
 #endif
 
 const u8 gText_Fog[] = 
 #ifdef CHINESE
-_("FOG"); // Unused //TODO 汉化
+_("雾"); // Unused //TODO 汉化
 #else
 _("FOG"); // Unused
 #endif
 
 const u8 gText_VolcanoAsh[] = 
 #ifdef CHINESE
-_("VOLCANO ASH"); // Unused //TODO 汉化
+_("火山灰"); // Unused //TODO 汉化
 #else
 _("VOLCANO ASH"); // Unused
 #endif
 
 const u8 gText_Sandstorm[] = 
 #ifdef CHINESE
-_("SANDSTORM"); // Unused //TODO 汉化
+_("沙尘暴"); // Unused //TODO 汉化
 #else
 _("SANDSTORM"); // Unused
 #endif
@@ -12241,7 +12241,7 @@ _("SUNNY3"); // Unused
 
 const u8 gText_HeavyRain[] = 
 #ifdef CHINESE
-_("HEAVY RAIN"); // Unused //TODO 汉化
+_("暴雨"); // Unused //TODO 汉化
 #else
 _("HEAVY RAIN"); // Unused
 #endif
@@ -12262,7 +12262,7 @@ _("DEL. ALL");
 
 const u8 gText_Cancel5[] = 
 #ifdef CHINESE
-_("CANCEL"); //TODO 汉化
+_("取消"); //TODO 汉化
 #else
 _("CANCEL");
 #endif
@@ -12276,35 +12276,35 @@ _("OK");
 
 const u8 gText_Quiz[] = 
 #ifdef CHINESE
-_("QUIZ"); //TODO 汉化
+_("测试"); //TODO 汉化
 #else
 _("QUIZ");
 #endif
 
 const u8 gText_Answer[] = 
 #ifdef CHINESE
-_("ANSWER"); //TODO 汉化
+_("答案"); //TODO 汉化
 #else
 _("ANSWER");
 #endif
 
 const u8 gText_PokeBalls[] = 
 #ifdef CHINESE
-_("POKé BALLS"); //TODO 汉化
+_("精灵球"); //TODO 汉化
 #else
 _("POKé BALLS");
 #endif
 
 const u8 gText_Berry[] = 
 #ifdef CHINESE
-_("BERRY"); //TODO 汉化
+_("树果"); //TODO 汉化
 #else
 _("BERRY");
 #endif
 
 const u8 gText_Berries[] = 
 #ifdef CHINESE
-_("BERRIES"); //TODO 汉化
+_("树果"); //TODO 汉化
 #else
 _("BERRIES");
 #endif
