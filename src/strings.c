@@ -11,21 +11,21 @@ const u8 gText_ExpandedPlaceholder_Chan[] = _("");
 
 const u8 gText_ExpandedPlaceholder_Sapphire[] = 
 #ifdef CHINESE
-_("SAPPHIRE"); //TODO 汉化
+_("蓝宝石"); //TODO 汉化
 #else
 _("SAPPHIRE");
 #endif
 
 const u8 gText_ExpandedPlaceholder_Ruby[] = 
 #ifdef CHINESE
-_("RUBY"); //TODO 汉化
+_("红宝石"); //TODO 汉化
 #else
 _("RUBY");
 #endif
 
 const u8 gText_ExpandedPlaceholder_Emerald[] = 
 #ifdef CHINESE
-_("EMERALD"); //TODO 汉化
+_("绿宝石"); //TODO 汉化
 #else
 _("EMERALD");
 #endif
@@ -74,28 +74,28 @@ _("GROUDON");
 
 const u8 gText_ExpandedPlaceholder_Brendan[] = 
 #ifdef CHINESE
-_("BRENDAN"); //TODO 汉化
+_("佑树"); //TODO 汉化
 #else
 _("BRENDAN");
 #endif
 
 const u8 gText_ExpandedPlaceholder_May[] = 
 #ifdef CHINESE
-_("MAY"); //TODO 汉化
+_("小遥"); //TODO 汉化
 #else
 _("MAY");
 #endif
 
 const u8 gText_EggNickname[] = 
 #ifdef CHINESE
-_("EGG"); //TODO 汉化
+_("蛋"); //TODO 汉化
 #else
 _("EGG");
 #endif
 
 const u8 gText_Pokemon[] = 
 #ifdef CHINESE
-_("POKéMON"); //TODO 汉化
+_("宝可梦"); //TODO 汉化
 #else
 _("POKéMON");
 #endif
@@ -109,42 +109,42 @@ _("PROF. BIRCH");
 
 const u8 gText_MainMenuNewGame[] = 
 #ifdef CHINESE
-_("NEW GAME"); //TODO 汉化
+_("新游戏"); //TODO 汉化
 #else
 _("NEW GAME");
 #endif
 
 const u8 gText_MainMenuContinue[] = 
 #ifdef CHINESE
-_("CONTINUE"); //TODO 汉化
+_("继续游戏"); //TODO 汉化
 #else
 _("CONTINUE");
 #endif
 
 const u8 gText_MainMenuOption[] = 
 #ifdef CHINESE
-_("OPTION"); //TODO 汉化
+_("设置"); //TODO 汉化
 #else
 _("OPTION");
 #endif
 
 const u8 gText_MainMenuMysteryGift[] = 
 #ifdef CHINESE
-_("MYSTERY GIFT"); //TODO 汉化
+_("神秘礼物"); //TODO 汉化
 #else
 _("MYSTERY GIFT");
 #endif
 
 const u8 gText_MainMenuMysteryGift2[] = 
 #ifdef CHINESE
-_("MYSTERY GIFT"); //TODO 汉化
+_("神秘礼物"); //TODO 汉化
 #else
 _("MYSTERY GIFT");
 #endif
 
 const u8 gText_MainMenuMysteryEvents[] = 
 #ifdef CHINESE
-_("MYSTERY EVENTS"); //TODO 汉化
+_("神秘事件"); //TODO 汉化
 #else
 _("MYSTERY EVENTS");
 #endif
@@ -179,7 +179,7 @@ _("Updating save file using external\ndata. Please wait."); // Unused
 
 const u8 gText_SaveFileUpdated[] = 
 #ifdef CHINESE
-_("The save file has been updated."); // Unused //TODO 汉化
+_("存档文件已经更新"); // Unused //TODO 汉化
 #else
 _("The save file has been updated."); // Unused
 #endif
@@ -214,35 +214,35 @@ _("The internal battery has run dry.\nThe game can be played.\pHowever, clock-ba
 
 const u8 gText_Player[] = 
 #ifdef CHINESE
-_("PLAYER"); // Unused //TODO 汉化
+_("玩家"); // Unused //TODO 汉化
 #else
 _("PLAYER"); // Unused
 #endif
 
 const u8 gText_Pokedex[] = 
 #ifdef CHINESE
-_("POKéDEX"); // Unused //TODO 汉化
+_("图鉴"); // Unused //TODO 汉化
 #else
 _("POKéDEX"); // Unused
 #endif
 
 const u8 gText_Time[] = 
 #ifdef CHINESE
-_("TIME"); //TODO 汉化
+_("时间"); //TODO 汉化
 #else
 _("TIME");
 #endif
 
 const u8 gText_Badges[] = 
 #ifdef CHINESE
-_("BADGES"); // Unused //TODO 汉化
+_("背包"); // Unused //TODO 汉化
 #else
 _("BADGES"); // Unused
 #endif
 
 const u8 gText_AButton[] = 
 #ifdef CHINESE
-_("A Button"); // Unused //TODO 汉化
+_("A 键"); // Unused //TODO 汉化
 #else
 _("A Button"); // Unused
 #endif
@@ -347,14 +347,14 @@ _("{A_BUTTON}EXIT");
 
 const u8 gText_BirchBoy[] = 
 #ifdef CHINESE
-_("BOY"); //TODO 汉化
+_("男孩"); //TODO 汉化
 #else
 _("BOY");
 #endif
 
 const u8 gText_BirchGirl[] = 
 #ifdef CHINESE
-_("GIRL"); //TODO 汉化
+_("女孩"); //TODO 汉化
 #else
 _("GIRL");
 #endif
