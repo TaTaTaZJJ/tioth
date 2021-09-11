@@ -1803,6 +1803,19 @@
 	.byte \operation
 	.endm
 
+	@ 在[x]，[y]坐标绘制头像[index];
+	.macro drawmughot index:req, x=0xFF, y=0xFF
+	.byte 0xee
+	.2byte \index
+	.byte \x
+	.byte \y
+	.endm
+
+	@ 清除头像;
+	.macro clearmughot
+	.byte 0xef
+	.endm
+
 @ Supplementary
 
 	.macro goto_if_unset flag:req, dest:req
