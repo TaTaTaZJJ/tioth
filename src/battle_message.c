@@ -389,14 +389,14 @@ _("{B_ATK_NAME_WITH_PREFIX} was\ndefrosted by {B_CURRENT_MOVE}!");
 
 static const u8 sText_PkmnWasParalyzed[] = 
 #ifdef CHINESE
-_("{B_EFF_NAME_WITH_PREFIX} 被麻痹了!\n无法行动!"); //TODO 汉化
+_("{B_EFF_NAME_WITH_PREFIX}被麻痹了！\n无法行动！"); //TODO 汉化
 #else
 _("{B_EFF_NAME_WITH_PREFIX} is paralyzed!\nIt may be unable to move!");
 #endif
 
 static const u8 sText_PkmnWasParalyzedBy[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\n麻痹了 {B_EFF_NAME_WITH_PREFIX}!\无法行动!");  //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\n麻痹了 {B_EFF_NAME_WITH_PREFIX}!\l无法行动!");  //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\n麻痹了 {B_EFF_NAME_WITH_PREFIX}!\lIt may be unable to move!");
 #endif
@@ -893,7 +893,7 @@ _("{B_ATK_NAME_WITH_PREFIX} is storing\nenergy!");
 
 static const u8 sText_PkmnUnleashedEnergy[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} 释放\能量!");   //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 释放\n能量!");   //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} unleashed\nenergy!");
 #endif
