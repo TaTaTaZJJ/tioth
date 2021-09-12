@@ -2836,9 +2836,9 @@ _("{B_DEF_NAME}'s data was\nadded to the POKéDEX.\p");
 
 static const u8 sText_ItIsRaining[] = 
 #ifdef CHINESE
-_(".");    //TODO 汉化
+_("在下雨.");    //TODO 汉化
 #else
-_("在下雨.");
+_("It is raining.");
 #endif
 
 static const u8 sText_SandstormIsRaging[] = 
@@ -4107,7 +4107,7 @@ _("{B_ATK_NAME_WITH_PREFIX} cured\n{B_DEF_NAME_WITH_PREFIX}'s problem!");
 
 static const u8 sText_AttackerLostFireType[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} burned itself out!");   //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 燃尽了自己！");   //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} burned itself out!");
 #endif
@@ -4135,7 +4135,7 @@ _("{B_ATK_NAME_WITH_PREFIX} is absorbing power!");
 
 static const u8 sText_NoOneWillBeAbleToRun[] = 
 #ifdef CHINESE
-_("No one will be able to run away\nduring the next turn!");    //TODO 汉化
+_("在下一回合中\n没有宝可梦能够逃跑！");    //TODO 汉化
 #else
 _("No one will be able to run away\nduring the next turn!");
 #endif
@@ -4170,7 +4170,7 @@ _("{B_DEF_NAME_WITH_PREFIX}'s aura flared to life!");
 
 static const u8 sText_AirLockActivates[] = 
 #ifdef CHINESE
-_("The effects of weather\ndisappeared.");  //TODO 汉化
+_("天气带来的效果\n消失了。");  //TODO 汉化
 #else
 _("The effects of weather\ndisappeared.");
 #endif
@@ -5298,28 +5298,28 @@ _("What?\n{STR_VAR_1} is evolving!");
 
 const u8 gText_CongratsPkmnEvolved[] = 
 #ifdef CHINESE
-_("Congratulations! Your {STR_VAR_1}\nevolved into {STR_VAR_2}!{WAIT_SE}\p");   //TODO 汉化
+_("恭喜！你的 {STR_VAR_1}\n进化成为 {STR_VAR_2}了！{WAIT_SE}\p");   //TODO 汉化
 #else
 _("Congratulations! Your {STR_VAR_1}\nevolved into {STR_VAR_2}!{WAIT_SE}\p");
 #endif
 
 const u8 gText_PkmnStoppedEvolving[] = 
 #ifdef CHINESE
-_("Huh? {STR_VAR_1}\nstopped evolving!\p"); //TODO 汉化
+_("嗯？ {STR_VAR_1}\n停止了进化！\p"); //TODO 汉化
 #else
 _("Huh? {STR_VAR_1}\nstopped evolving!\p");
 #endif
 
 const u8 gText_EllipsisQuestionMark[] = 
 #ifdef CHINESE
-_("……?\p"); //TODO 汉化
+_("……？\p"); //TODO 汉化
 #else
 _("……?\p");
 #endif
 
 const u8 gText_WhatWillPkmnDo[] = 
 #ifdef CHINESE
-_("What will\n{B_ACTIVE_NAME2} do?");   //TODO 汉化
+_("{B_ACTIVE_NAME2}\n会做什么？");   //TODO 汉化
 #else
 _("What will\n{B_ACTIVE_NAME2} do?");
 #endif
