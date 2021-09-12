@@ -58,44 +58,30 @@ EWRAM_DATA struct BattleMsgData *gBattleMsgDataPtr = NULL;
 // const rom data
 // todo: make some of those names less vague: attacker/target vs pkmn, etc.
 
-static const u8 sText_Trainer1LoseText[] = 
-#ifdef CHINESE
-_("{B_TRAINER1_LOSE_TEXT}");    //TODO 汉化
-#else
-_("{B_TRAINER1_LOSE_TEXT}");
-#endif
-
+static const u8 sText_Trainer1LoseText[] = _("{B_TRAINER1_LOSE_TEXT}");
 static const u8 sText_PkmnGainedEXP[] = 
 #ifdef CHINESE
-_("{B_BUFF1} 获得了{B_BUFF2}\n{B_BUFF3} 点经验!\p");   //TODO 汉化
+_("{B_BUFF1}获得了{B_BUFF2}\n{B_BUFF3}点经验！\p");
 #else
 _("{B_BUFF1} gained{B_BUFF2}\n{B_BUFF3} EXP. Points!\p");
 #endif
-
-static const u8 sText_EmptyString4[] = 
-#ifdef CHINESE
-_("");  //TODO 汉化
-#else
-_("");
-#endif
-
+static const u8 sText_EmptyString4[] = _("");
 static const u8 sText_ABoosted[] = 
 #ifdef CHINESE
-_(" a boosted");    //TODO 汉化
+_("提升");
 #else
 _(" a boosted");
 #endif
-
 static const u8 sText_PkmnGrewToLv[] = 
 #ifdef CHINESE
-_("{B_BUFF1} 升到了等级\nLV. {B_BUFF2}!{WAIT_SE}\p");  //TODO 汉化
+_("{B_BUFF1}升到了\n等级{B_BUFF2}!{WAIT_SE}\p");
 #else
 _("{B_BUFF1} grew to\nLV. {B_BUFF2}!{WAIT_SE}\p");
 #endif
 
 static const u8 sText_PkmnLearnedMove[] = 
 #ifdef CHINESE
-_("{B_BUFF1} 学会了\n{B_BUFF2}!{WAIT_SE}\p");  //TODO 汉化
+_("{B_BUFF1}学会了\n{B_BUFF2}！{WAIT_SE}\p");
 #else
 _("{B_BUFF1} learned\n{B_BUFF2}!{WAIT_SE}\p");
 #endif
@@ -3176,48 +3162,186 @@ _("{B_ATK_NAME_WITH_PREFIX} switched stat changes\nwith the target!");
 
 static const u8 sText_PkmnSurroundedWithVeilOfWater[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} 身边围绕着\n一层水幕!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 身边围绕着\n一层水幕!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} surrounded itself\nwith a veil of water!");
 #endif
 
 static const u8 sText_PkmnLevitatedOnElectromagnetism[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} 通过电磁力\n漂浮了起来!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 通过电磁力\n漂浮了起来!");   //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} levitated on\nelectromagnetism!");
 #endif
 
 static const u8 sText_PkmnTwistedDimensions[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} 扭曲了\n时空!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 扭曲了\n时空!");   //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} twisted\nthe dimensions!");
 #endif
 
-static const u8 sText_PointedStonesFloat[] =_("尖锐的岩石漂浮在了\n {B_DEF_TEAM2} 的队伍周围!");
-static const u8 sText_CloakedInMysticalMoonlight[] =_("被神秘的月光\n笼罩!");
-static const u8 sText_TrappedBySwirlingMagma[] =_("{B_DEF_NAME_WITH_PREFIX} 被\n旋转的岩浆困住了!");
-static const u8 sText_VanishedInstantly[] =_("{B_ATK_NAME_WITH_PREFIX} 突然\n消失了!");
-static const u8 sText_ProtectedTeam[] =_("{B_CURRENT_MOVE} 保护了\n{B_ATK_TEAM2} 的队伍!");
-static const u8 sText_SharedItsGuard[] =_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了防御!");
-static const u8 sText_SharedItsPower[] =_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了攻击!");
-static const u8 sText_SwapsDefAndSpDefOfAllPkmn[] =_("It created a bizarre area in which the\nDefense and Sp.Def stats are swapped!");
-static const u8 sText_BecameNimble[] =_("{B_ATK_NAME_WITH_PREFIX} became nimble!");
-static const u8 sText_HurledIntoTheAir[] =_("{B_DEF_NAME_WITH_PREFIX} was hurled\ninto the air!");
-static const u8 sText_HeldItemsLoseEffects[] =_("It created a bizarre area in which\nPokémon's held items lose their effects!");
-static const u8 sText_FellStraightDown[] =_("{B_DEF_NAME_WITH_PREFIX} fell\nstraight down!");
-static const u8 sText_TransformedIntoWaterType[] =_("{B_DEF_NAME_WITH_PREFIX} transformed\ninto the water type!");
-static const u8 sText_PkmnAcquiredSimple[] =_("{B_DEF_NAME_WITH_PREFIX} acquired\nSimple!");
-static const u8 sText_KindOffer[] =_("{B_DEF_NAME_WITH_PREFIX}\ntook the kind offer!");
-static const u8 sText_ResetsTargetsStatLevels[] =_("{B_DEF_NAME_WITH_PREFIX}'s stat changes\nwere removed!");
-static const u8 sText_AllySwitchPosition[] =_("{B_ATK_NAME_WITH_PREFIX} and\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} switched places!");
-static const u8 sText_RestoreTargetsHealth[] =_("{B_DEF_NAME_WITH_PREFIX}'s HP was restored!");
-static const u8 sText_TookPkmnIntoTheSky[] =_("{B_ATK_NAME_WITH_PREFIX} took\n{B_DEF_NAME_WITH_PREFIX} into the sky!");
-static const u8 sText_FreedFromSkyDrop[] =_("{B_DEF_NAME_WITH_PREFIX} was freed\nfrom the Sky Drop!");
-static const u8 sText_PostponeTargetMove[] =_("{B_DEF_NAME_WITH_PREFIX}'s move\nwas postponed!");
-static const u8 sText_ReflectTargetsType[] =_("{B_ATK_NAME_WITH_PREFIX}'s type\nchanged to match the {B_DEF_NAME_WITH_PREFIX}'s!");
-static const u8 sText_TransferHeldItem[] =_("{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM}\nfrom {B_ATK_NAME_WITH_PREFIX}");
+static const u8 sText_PointedStonesFloat[] =
+#ifdef CHINESE
+_("尖锐的岩石漂浮在了\n {B_DEF_TEAM2} 的队伍周围!");   //TODO 汉化
+#else
+_("Pointed stones float in the air\naround {B_DEF_TEAM2} team!");
+#endif
+
+static const u8 sText_CloakedInMysticalMoonlight[] =
+#ifdef CHINESE
+_("被神秘的月光\n笼罩!");   //TODO 汉化
+#else
+_("It became cloaked in mystical\nmoonlight!");
+#endif
+
+static const u8 sText_TrappedBySwirlingMagma[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} 被\n旋转的岩浆困住了!");   //TODO 汉化
+#else
+_("{B_DEF_NAME_WITH_PREFIX} became\ntrapped by swirling magma!");
+#endif
+
+static const u8 sText_VanishedInstantly[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} 突然\n消失了!");   //TODO 汉化
+#else
+_("{B_ATK_NAME_WITH_PREFIX} vanished\ninstantly!");
+#endif
+
+static const u8 sText_ProtectedTeam[] =
+#ifdef CHINESE
+_("{B_CURRENT_MOVE} 保护了\n{B_ATK_TEAM2} 的队伍!");   //TODO 汉化
+#else
+_("{B_CURRENT_MOVE} protected\n{B_ATK_TEAM2} team!");
+#endif
+
+static const u8 sText_SharedItsGuard[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了防御!");   //TODO 汉化
+#else
+_("{B_ATK_NAME_WITH_PREFIX} shared its\nguard with the target!");
+#endif
+
+static const u8 sText_SharedItsPower[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了攻击!");   //TODO 汉化
+#else
+_("{B_ATK_NAME_WITH_PREFIX} shared its\npower with the target!");
+#endif
+
+static const u8 sText_SwapsDefAndSpDefOfAllPkmn[] =
+#ifdef CHINESE
+_("It created a bizarre area in which the\nDefense and Sp.Def stats are swapped!");   //TODO 汉化
+#else
+    "It created a bizarre area in which the\nDefense and Sp.Def stats are swapped!");
+#endif
+
+static const u8 sText_BecameNimble[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} became nimble!");   //TODO 汉化
+#else
+    "{B_ATK_NAME_WITH_PREFIX} became nimble!");
+#endif
+
+static const u8 sText_HurledIntoTheAir[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} was hurled\ninto the air!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} was hurled\ninto the air!");
+#endif
+
+static const u8 sText_HeldItemsLoseEffects[] =
+#ifdef CHINESE
+_("It created a bizarre area in which\nPokémon's held items lose their effects!");   //TODO 汉化
+#else
+    "It created a bizarre area in which\nPokémon's held items lose their effects!");
+#endif
+
+static const u8 sText_FellStraightDown[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} fell\nstraight down!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} fell\nstraight down!");
+#endif
+
+static const u8 sText_TransformedIntoWaterType[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} transformed\ninto the water type!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} transformed\ninto the water type!");
+#endif
+
+static const u8 sText_PkmnAcquiredSimple[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} acquired\nSimple!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} acquired\nSimple!");
+#endif
+
+static const u8 sText_KindOffer[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX}\ntook the kind offer!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX}\ntook the kind offer!");
+#endif
+
+static const u8 sText_ResetsTargetsStatLevels[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX}'s stat changes\nwere removed!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX}'s stat changes\nwere removed!");
+#endif
+
+static const u8 sText_AllySwitchPosition[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} and\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} switched places!");   //TODO 汉化
+#else
+    "{B_ATK_NAME_WITH_PREFIX} and\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} switched places!");
+#endif
+
+static const u8 sText_RestoreTargetsHealth[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX}'s HP was restored!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX}'s HP was restored!");
+#endif
+
+static const u8 sText_TookPkmnIntoTheSky[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX} took\n{B_DEF_NAME_WITH_PREFIX} into the sky!");   //TODO 汉化
+#else
+    "{B_ATK_NAME_WITH_PREFIX} took\n{B_DEF_NAME_WITH_PREFIX} into the sky!");
+#endif
+
+static const u8 sText_FreedFromSkyDrop[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} was freed\nfrom the Sky Drop!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} was freed\nfrom the Sky Drop!");
+#endif
+
+static const u8 sText_PostponeTargetMove[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX}'s move\nwas postponed!");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX}'s move\nwas postponed!");
+#endif
+
+static const u8 sText_ReflectTargetsType[] =
+#ifdef CHINESE
+_("{B_ATK_NAME_WITH_PREFIX}'s type\nchanged to match the {B_DEF_NAME_WITH_PREFIX}'s!");   //TODO 汉化
+#else
+    "{B_ATK_NAME_WITH_PREFIX}'s type\nchanged to match the {B_DEF_NAME_WITH_PREFIX}'s!");
+#endif
+
+static const u8 sText_TransferHeldItem[] =
+#ifdef CHINESE
+_("{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM}\nfrom {B_ATK_NAME_WITH_PREFIX}");   //TODO 汉化
+#else
+    "{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM}\nfrom {B_ATK_NAME_WITH_PREFIX}");
+#endif
+
 static const u8 sText_EmbargoEnds[] = 
 #ifdef CHINESE
 _("{B_ATK_NAME_WITH_PREFIX} can\nuse items again!");    //TODO 汉化
