@@ -1999,280 +1999,280 @@ _("No! There's no running\nfrom a TRAINER battle!\p");
 
 static const u8 sText_CantEscape[] = 
 #ifdef CHINESE
-_("Can't escape!\p");   //TODO 汉化
+_("不能逃走!\p");   //TODO 汉化
 #else
 _("Can't escape!\p");
 #endif
 
 static const u8 sText_DontLeaveBirch[] = 
 #ifdef CHINESE
-_("PROF. BIRCH: Don't leave me like this!\p");  //TODO 汉化
+_("小田卷博士: 不要就这样离开我!\p");  //TODO 汉化
 #else
 _("PROF. BIRCH: Don't leave me like this!\p");
 #endif
 
 static const u8 sText_ButNothingHappened[] = 
 #ifdef CHINESE
-_("But nothing happened!"); //TODO 汉化
+_("但无事发生!"); //TODO 汉化
 #else
 _("But nothing happened!");
 #endif
 
 static const u8 sText_ButItFailed[] = 
 #ifdef CHINESE
-_("But it failed!");    //TODO 汉化
+_("但它失败了!");    //TODO 汉化
 #else
 _("But it failed!");
 #endif
 
 static const u8 sText_ItHurtConfusion[] = 
 #ifdef CHINESE
-_("It hurt itself in its\nconfusion!"); //TODO 汉化
+_("它在混乱中\n击中了自己!"); //TODO 汉化
 #else
 _("It hurt itself in its\nconfusion!");
 #endif
 
 static const u8 sText_MirrorMoveFailed[] = 
 #ifdef CHINESE
-_("The MIRROR MOVE failed!");   //TODO 汉化
+_("鹦鹉学舌失败了!");   //TODO 汉化
 #else
 _("The MIRROR MOVE failed!");
 #endif
 
 static const u8 sText_StartedToRain[] = 
 #ifdef CHINESE
-_("It started to rain!");   //TODO 汉化
+_("开始下雨了!");   //TODO 汉化
 #else
 _("It started to rain!");
 #endif
 
 static const u8 sText_DownpourStarted[] = 
 #ifdef CHINESE
-_("A downpour started!"); // corresponds to DownpourText in pokegold and pokecrystal and is used by Rain Dance in GSC   //TODO 汉化
+_("开始下起了暴雨!"); // corresponds to DownpourText in pokegold and pokecrystal and is used by Rain Dance in GSC   //TODO 汉化
 #else
 _("A downpour started!"); // corresponds to DownpourText in pokegold and pokecrystal and is used by Rain Dance in GSC
 #endif
 
 static const u8 sText_RainContinues[] = 
 #ifdef CHINESE
-_("Rain continues to fall.");   //TODO 汉化
+_("雨继续下.");   //TODO 汉化
 #else
 _("Rain continues to fall.");
 #endif
 
 static const u8 sText_DownpourContinues[] = 
 #ifdef CHINESE
-_("The downpour continues."); // unused //TODO 汉化
+_("暴雨势头不减."); // unused //TODO 汉化
 #else
 _("The downpour continues."); // unused
 #endif
 
 static const u8 sText_RainStopped[] = 
 #ifdef CHINESE
-_("The rain stopped."); //TODO 汉化
+_("雨停了."); //TODO 汉化
 #else
 _("The rain stopped.");
 #endif
 
 static const u8 sText_SandstormBrewed[] = 
 #ifdef CHINESE
-_("A sandstorm brewed!");   //TODO 汉化
+_("开始刮沙暴了!");   //TODO 汉化
 #else
 _("A sandstorm brewed!");
 #endif
 
 static const u8 sText_SandstormRages[] = 
 #ifdef CHINESE
-_("The sandstorm rages.");  //TODO 汉化
+_("沙暴肆虐.");  //TODO 汉化
 #else
 _("The sandstorm rages.");
 #endif
 
 static const u8 sText_SandstormSubsided[] = 
 #ifdef CHINESE
-_("The sandstorm subsided.");   //TODO 汉化
+_("沙暴停止了.");   //TODO 汉化
 #else
 _("The sandstorm subsided.");
 #endif
 
 static const u8 sText_SunlightGotBright[] = 
 #ifdef CHINESE
-_("The sunlight got bright!");  //TODO 汉化
+_("日照变强了!");  //TODO 汉化
 #else
 _("The sunlight got bright!");
 #endif
 
 static const u8 sText_SunlightStrong[] = 
 #ifdef CHINESE
-_("The sunlight is strong.");   //TODO 汉化
+_("日照很强.");   //TODO 汉化
 #else
 _("The sunlight is strong.");
 #endif
 
 static const u8 sText_SunlightFaded[] = 
 #ifdef CHINESE
-_("The sunlight faded.");   //TODO 汉化
+_("日照复原了.");   //TODO 汉化
 #else
 _("The sunlight faded.");
 #endif
 
 static const u8 sText_StartedHail[] = 
 #ifdef CHINESE
-_("It started to hail!");   //TODO 汉化
+_("开始下冰雹了!");   //TODO 汉化
 #else
 _("It started to hail!");
 #endif
 
 static const u8 sText_HailContinues[] = 
 #ifdef CHINESE
-_("Hail continues to fall.");   //TODO 汉化
+_("冰雹继续肆虐.");   //TODO 汉化
 #else
 _("Hail continues to fall.");
 #endif
 
 static const u8 sText_HailStopped[] = 
 #ifdef CHINESE
-_("The hail stopped."); //TODO 汉化
+_("冰雹不下了."); //TODO 汉化
 #else
 _("The hail stopped.");
 #endif
 
 static const u8 sText_FailedToSpitUp[] = 
 #ifdef CHINESE
-_("But it failed to SPIT UP\na thing!");    //TODO 汉化
+_("但它的喷出失败了!");    //TODO 汉化
 #else
 _("But it failed to SPIT UP\na thing!");
 #endif
 
 static const u8 sText_FailedToSwallow[] = 
 #ifdef CHINESE
-_("But it failed to SWALLOW\na thing!");    //TODO 汉化
+_("但它的吞下失败了!");    //TODO 汉化
 #else
 _("But it failed to SWALLOW\na thing!");
 #endif
 
 static const u8 sText_WindBecameHeatWave[] = 
 #ifdef CHINESE
-_("The wind turned into a\nHEAT WAVE!");    //TODO 汉化
+_("风转变为\n热风!");    //TODO 汉化
 #else
 _("The wind turned into a\nHEAT WAVE!");
 #endif
 
 static const u8 sText_StatChangesGone[] = 
 #ifdef CHINESE
-_("All stat changes were\neliminated!");    //TODO 汉化
+_("所有能力变化都\n消除了!");    //TODO 汉化
 #else
 _("All stat changes were\neliminated!");
 #endif
 
 static const u8 sText_CoinsScattered[] = 
 #ifdef CHINESE
-_("Coins scattered everywhere!");   //TODO 汉化
+_("金币散落一地!");   //TODO 汉化
 #else
 _("Coins scattered everywhere!");
 #endif
 
 static const u8 sText_TooWeakForSubstitute[] = 
 #ifdef CHINESE
-_("It was too weak to make\na SUBSTITUTE!");    //TODO 汉化
+_("它的体力不足以制造\n替身!");    //TODO 汉化
 #else
 _("It was too weak to make\na SUBSTITUTE!");
 #endif
 
 static const u8 sText_SharedPain[] = 
 #ifdef CHINESE
-_("The battlers shared\ntheir pain!");  //TODO 汉化
+_("双方平分了\n体力!");  //TODO 汉化
 #else
 _("The battlers shared\ntheir pain!");
 #endif
 
 static const u8 sText_BellChimed[] = 
 #ifdef CHINESE
-_("A bell chimed!");    //TODO 汉化
+_("铃铛响了起来!");    //TODO 汉化
 #else
 _("A bell chimed!");
 #endif
 
 static const u8 sText_FaintInThree[] = 
 #ifdef CHINESE
-_("All affected POKéMON will\nfaint in three turns!");  //TODO 汉化
+_("所有作用到的宝可梦将\n在3回合后倒下!");  //TODO 汉化
 #else
 _("All affected POKéMON will\nfaint in three turns!");
 #endif
 
 static const u8 sText_NoPPLeft[] = 
 #ifdef CHINESE
-_("There's no PP left for\nthis move!\p");  //TODO 汉化
+_("这个招式已经\n没有PP了\p");  //TODO 汉化
 #else
 _("There's no PP left for\nthis move!\p");
 #endif
 
 static const u8 sText_ButNoPPLeft[] = 
 #ifdef CHINESE
-_("But there was no PP left\nfor the move!");   //TODO 汉化
+_("但这个招式已经\n没有PP了!");   //TODO 汉化
 #else
 _("But there was no PP left\nfor the move!");
 #endif
 
 static const u8 sText_PkmnIgnoresAsleep[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} ignored\norders while asleep!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 无视了\n指令开始睡觉!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} ignored\norders while asleep!");
 #endif
 
 static const u8 sText_PkmnIgnoredOrders[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} ignored\norders!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 无视了\n指令"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} ignored\norders!");
 #endif
 
 static const u8 sText_PkmnBeganToNap[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} began to nap!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 开始睡觉了!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} began to nap!");
 #endif
 
 static const u8 sText_PkmnLoafing[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} is\nloafing around!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 在\n周围闲逛!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} is\nloafing around!");
 #endif
 
 static const u8 sText_PkmnWontObey[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} won't\nobey!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 不服从\n指令"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} won't\nobey!");
 #endif
 
 static const u8 sText_PkmnTurnedAway[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} turned away!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 转身离开了!"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} turned away!");
 #endif
 
 static const u8 sText_PkmnPretendNotNotice[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} pretended\nnot to notice!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 假装\n没注意到!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} pretended\nnot to notice!");
 #endif
 
 static const u8 sText_EnemyAboutToSwitchPkmn[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is\nabout to use {B_BUFF2}.\pWill {B_PLAYER_NAME} change\nPOKéMON?");   //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 即将\n派出 {B_BUFF2}.\p {B_PLAYER_NAME} 想要交换\n宝可梦吗?");   //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is\nabout to use {B_BUFF2}.\pWill {B_PLAYER_NAME} change\nPOKéMON?");
 #endif
 
 static const u8 sText_PkmnLearnedMove2[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} learned\n{B_BUFF1}!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 学会了\n{B_BUFF1}!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} learned\n{B_BUFF1}!");
 #endif
@@ -2286,280 +2286,280 @@ _("Player defeated\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\p");
 
 static const u8 sText_CreptCloser[] = 
 #ifdef CHINESE
-_("{B_PLAYER_NAME} crept closer to\n{B_OPPONENT_MON1_NAME}!");  //TODO 汉化
+_("{B_PLAYER_NAME} 悄悄靠近\n{B_OPPONENT_MON1_NAME}!");  //TODO 汉化
 #else
 _("{B_PLAYER_NAME} crept closer to\n{B_OPPONENT_MON1_NAME}!");
 #endif
 
 static const u8 sText_CantGetCloser[] = 
 #ifdef CHINESE
-_("{B_PLAYER_NAME} can't get any closer!"); //TODO 汉化
+_("{B_PLAYER_NAME} 不能靠得更近了!"); //TODO 汉化
 #else
 _("{B_PLAYER_NAME} can't get any closer!");
 #endif
 
 static const u8 sText_PkmnWatchingCarefully[] = 
 #ifdef CHINESE
-_("{B_OPPONENT_MON1_NAME} is watching\ncarefully!");    //TODO 汉化
+_("{B_OPPONENT_MON1_NAME} 在仔细\n观察!");    //TODO 汉化
 #else
 _("{B_OPPONENT_MON1_NAME} is watching\ncarefully!");
 #endif
 
 static const u8 sText_PkmnCuriousAboutX[] = 
 #ifdef CHINESE
-_("{B_OPPONENT_MON1_NAME} is curious about\nthe {B_BUFF1}!");   //TODO 汉化
+_("{B_OPPONENT_MON1_NAME} 很好奇\n这个 {B_BUFF1}!");   //TODO 汉化
 #else
 _("{B_OPPONENT_MON1_NAME} is curious about\nthe {B_BUFF1}!");
 #endif
 
 static const u8 sText_PkmnEnthralledByX[] = 
 #ifdef CHINESE
-_("{B_OPPONENT_MON1_NAME} is enthralled by\nthe {B_BUFF1}!");   //TODO 汉化
+_("{B_OPPONENT_MON1_NAME} 迷上了\n这个 {B_BUFF1}!");   //TODO 汉化
 #else
 _("{B_OPPONENT_MON1_NAME} is enthralled by\nthe {B_BUFF1}!");
 #endif
 
 static const u8 sText_PkmnIgnoredX[] = 
 #ifdef CHINESE
-_("{B_OPPONENT_MON1_NAME} completely ignored\nthe {B_BUFF1}!"); //TODO 汉化
+_("{B_OPPONENT_MON1_NAME} 完全无视\n这个 {B_BUFF1}!"); //TODO 汉化
 #else
 _("{B_OPPONENT_MON1_NAME} completely ignored\nthe {B_BUFF1}!");
 #endif
 
 static const u8 sText_ThrewPokeblockAtPkmn[] = 
 #ifdef CHINESE
-_("{B_PLAYER_NAME} threw a {POKEBLOCK}\nat the {B_OPPONENT_MON1_NAME}!");   //TODO 汉化
+_("{B_PLAYER_NAME} 扔了一个 {POKEBLOCK}\n在 {B_OPPONENT_MON1_NAME}!");   //TODO 汉化
 #else
 _("{B_PLAYER_NAME} threw a {POKEBLOCK}\nat the {B_OPPONENT_MON1_NAME}!");
 #endif
 
 static const u8 sText_OutOfSafariBalls[] = 
 #ifdef CHINESE
-_("{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of\nSAFARI BALLS! Game over!\p");    //TODO 汉化
+_("{PLAY_SE SE_DING_DONG}播报员: 你已经没有\n狩猎球了! Game over!\p");    //TODO 汉化
 #else
 _("{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of\nSAFARI BALLS! Game over!\p");
 #endif
 
 static const u8 sText_OpponentMon1Appeared[] = 
 #ifdef CHINESE
-_("{B_OPPONENT_MON1_NAME} appeared!\p");    //TODO 汉化
+_("{B_OPPONENT_MON1_NAME} 出现了\p");    //TODO 汉化
 #else
 _("{B_OPPONENT_MON1_NAME} appeared!\p");
 #endif
 
 static const u8 sText_WildPkmnAppeared[] = 
 #ifdef CHINESE
-_("Wild {B_OPPONENT_MON1_NAME} appeared!\p");   //TODO 汉化
+_("野生的 {B_OPPONENT_MON1_NAME} 出现了!\p");   //TODO 汉化
 #else
 _("Wild {B_OPPONENT_MON1_NAME} appeared!\p");
 #endif
 
 static const u8 sText_LegendaryPkmnAppeared[] = 
 #ifdef CHINESE
-_("Wild {B_OPPONENT_MON1_NAME} appeared!\p");   //TODO 汉化
+_("野生的 {B_OPPONENT_MON1_NAME} 出现了!\p");   //TODO 汉化
 #else
 _("Wild {B_OPPONENT_MON1_NAME} appeared!\p");
 #endif
 
 static const u8 sText_WildPkmnAppearedPause[] = 
 #ifdef CHINESE
-_("Wild {B_OPPONENT_MON1_NAME} appeared!{PAUSE 127}");  //TODO 汉化
+_("野生的 {B_OPPONENT_MON1_NAME} 出现了!{PAUSE 127}");  //TODO 汉化
 #else
 _("Wild {B_OPPONENT_MON1_NAME} appeared!{PAUSE 127}");
 #endif
 
 static const u8 sText_TwoWildPkmnAppeared[] = 
 #ifdef CHINESE
-_("Wild {B_OPPONENT_MON1_NAME} and\n{B_OPPONENT_MON2_NAME} appeared!\p");   //TODO 汉化
+_("野生的 {B_OPPONENT_MON1_NAME} 和\n{B_OPPONENT_MON2_NAME} 出现了!\p");   //TODO 汉化
 #else
 _("Wild {B_OPPONENT_MON1_NAME} and\n{B_OPPONENT_MON2_NAME} appeared!\p");
 #endif
 
 static const u8 sText_Trainer1WantsToBattle[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nwould like to battle!\p"); //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\n想要发起挑战!\p"); //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nwould like to battle!\p");
 #endif
 
 static const u8 sText_LinkTrainerWantsToBattle[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME}\nwants to battle!"); //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME}\n想要发起挑战!"); //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME}\nwants to battle!");
 #endif
 
 static const u8 sText_TwoLinkTrainersWantToBattle[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\nwant to battle!");  //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 和 {B_LINK_OPPONENT2_NAME}\n想要发起挑战!");  //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\nwant to battle!");
 #endif
 
 static const u8 sText_Trainer1SentOutPkmn[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_OPPONENT_MON1_NAME}!");    //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 派\n出了 {B_OPPONENT_MON1_NAME}!");    //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_OPPONENT_MON1_NAME}!");
 #endif
 
 static const u8 sText_Trainer1SentOutTwoPkmn[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!"); //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 派\n出了 {B_OPPONENT_MON1_NAME} 和 {B_OPPONENT_MON2_NAME}!"); //TODO 汉化
 #else
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!");
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 派\n出了 {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!");
 #endif
 
 static const u8 sText_Trainer1SentOutPkmn2[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_BUFF1}!"); //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 派\n出了 {B_BUFF1}!"); //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_BUFF1}!");
 #endif
 
 static const u8 sText_LinkTrainerSentOutPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} sent out\n{B_OPPONENT_MON1_NAME}!"); //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 派出了\n{B_OPPONENT_MON1_NAME}!"); //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} sent out\n{B_OPPONENT_MON1_NAME}!");
 #endif
 
 static const u8 sText_LinkTrainerSentOutTwoPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} sent out\n{B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!");  //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 派出了\n{B_OPPONENT_MON1_NAME} 和 {B_OPPONENT_MON2_NAME}!");  //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} sent out\n{B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!");
 #endif
 
 static const u8 sText_TwoLinkTrainersSentOutPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}!\n{B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!");  //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 派出了 {B_LINK_OPPONENT_MON1_NAME}!\n{B_LINK_OPPONENT2_NAME} 派出了 {B_LINK_OPPONENT_MON2_NAME}!");  //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}!\n{B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!");
 #endif
 
 static const u8 sText_LinkTrainerSentOutPkmn2[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} sent out\n{B_BUFF1}!");  //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 派出了\n{B_BUFF1}!");  //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} sent out\n{B_BUFF1}!");
 #endif
 
 static const u8 sText_LinkTrainerMultiSentOutPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_SCR_TRAINER_NAME} sent out\n{B_BUFF1}!");    //TODO 汉化
+_("{B_LINK_SCR_TRAINER_NAME} 派出了\n{B_BUFF1}!");    //TODO 汉化
 #else
 _("{B_LINK_SCR_TRAINER_NAME} sent out\n{B_BUFF1}!");
 #endif
 
 static const u8 sText_GoPkmn[] = 
 #ifdef CHINESE
-_("Go! {B_PLAYER_MON1_NAME}!"); //TODO 汉化
+_("去吧! {B_PLAYER_MON1_NAME}!"); //TODO 汉化
 #else
 _("Go! {B_PLAYER_MON1_NAME}!");
 #endif
 
 static const u8 sText_GoTwoPkmn[] = 
 #ifdef CHINESE
-_("Go! {B_PLAYER_MON1_NAME} and\n{B_PLAYER_MON2_NAME}!");   //TODO 汉化
+_("去吧! {B_PLAYER_MON1_NAME} 和\n{B_PLAYER_MON2_NAME}!");   //TODO 汉化
 #else
 _("Go! {B_PLAYER_MON1_NAME} and\n{B_PLAYER_MON2_NAME}!");
 #endif
 
 static const u8 sText_GoPkmn2[] = 
 #ifdef CHINESE
-_("Go! {B_BUFF1}!");    //TODO 汉化
+_("去吧! {B_BUFF1}!");    //TODO 汉化
 #else
 _("Go! {B_BUFF1}!");
 #endif
 
 static const u8 sText_DoItPkmn[] = 
 #ifdef CHINESE
-_("Do it! {B_BUFF1}!"); //TODO 汉化
+_("加油! {B_BUFF1}!"); //TODO 汉化
 #else
 _("Do it! {B_BUFF1}!");
 #endif
 
 static const u8 sText_GoForItPkmn[] = 
 #ifdef CHINESE
-_("Go for it, {B_BUFF1}!"); //TODO 汉化
+_("去吧, {B_BUFF1}!"); //TODO 汉化
 #else
 _("Go for it, {B_BUFF1}!");
 #endif
 
 static const u8 sText_YourFoesWeakGetEmPkmn[] = 
 #ifdef CHINESE
-_("Your foe's weak!\nGet 'em, {B_BUFF1}!"); //TODO 汉化
+_("对手很虚弱!\n拿下他们, {B_BUFF1}!"); //TODO 汉化
 #else
 _("Your foe's weak!\nGet 'em, {B_BUFF1}!");
 #endif
 
 static const u8 sText_LinkPartnerSentOutPkmnGoPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!\nGo! {B_LINK_PLAYER_MON1_NAME}!"); //TODO 汉化
+_("{B_LINK_PARTNER_NAME} 派出了 {B_LINK_PLAYER_MON2_NAME}!\n去吧! {B_LINK_PLAYER_MON1_NAME}!"); //TODO 汉化
 #else
 _("{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!\nGo! {B_LINK_PLAYER_MON1_NAME}!");
 #endif
 
 static const u8 sText_PkmnThatsEnough[] = 
 #ifdef CHINESE
-_("{B_BUFF1}, that's enough!\nCome back!"); //TODO 汉化
+_("{B_BUFF1}, 你已经做得很好了!\n回来吧!"); //TODO 汉化
 #else
 _("{B_BUFF1}, that's enough!\nCome back!");
 #endif
 
 static const u8 sText_PkmnComeBack[] = 
 #ifdef CHINESE
-_("{B_BUFF1}, come back!"); //TODO 汉化
+_("{B_BUFF1}, 回来吧!"); //TODO 汉化
 #else
 _("{B_BUFF1}, come back!");
 #endif
 
 static const u8 sText_PkmnOkComeBack[] = 
 #ifdef CHINESE
-_("{B_BUFF1}, OK!\nCome back!");    //TODO 汉化
+_("{B_BUFF1}, 足够了!\n回来吧!");    //TODO 汉化
 #else
 _("{B_BUFF1}, OK!\nCome back!");
 #endif
 
 static const u8 sText_PkmnGoodComeBack[] = 
 #ifdef CHINESE
-_("{B_BUFF1}, good!\nCome back!");  //TODO 汉化
+_("{B_BUFF1}, 干得好!\n回来吧!");  //TODO 汉化
 #else
 _("{B_BUFF1}, good!\nCome back!");
 #endif
 
 static const u8 sText_Trainer1WithdrewPkmn[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nwithdrew {B_BUFF1}!"); //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\n收回了 {B_BUFF1}!"); //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nwithdrew {B_BUFF1}!");
 #endif
 
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_OPPONENT1_NAME} withdrew\n{B_BUFF1}!");  //TODO 汉化
+_("{B_LINK_OPPONENT1_NAME} 收回了\n{B_BUFF1}!");  //TODO 汉化
 #else
 _("{B_LINK_OPPONENT1_NAME} withdrew\n{B_BUFF1}!");
 #endif
 
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = 
 #ifdef CHINESE
-_("{B_LINK_SCR_TRAINER_NAME} withdrew\n{B_BUFF1}!");    //TODO 汉化
+_("{B_LINK_SCR_TRAINER_NAME} 收回了\n{B_BUFF1}!");    //TODO 汉化
 #else
 _("{B_LINK_SCR_TRAINER_NAME} withdrew\n{B_BUFF1}!");
 #endif
 
 static const u8 sText_WildPkmnPrefix[] = 
 #ifdef CHINESE
-_("Wild "); //TODO 汉化
+_("野生的 "); //TODO 汉化
 #else
 _("Wild ");
 #endif
 
 static const u8 sText_FoePkmnPrefix[] = 
 #ifdef CHINESE
-_("Foe ");  //TODO 汉化
+_("对方 ");  //TODO 汉化
 #else
 _("Foe ");
 #endif
@@ -2573,49 +2573,49 @@ _("");
 
 static const u8 sText_FoePkmnPrefix2[] = 
 #ifdef CHINESE
-_("Foe");   //TODO 汉化
+_("对方");   //TODO 汉化
 #else
 _("Foe");
 #endif
 
 static const u8 sText_AllyPkmnPrefix[] = 
 #ifdef CHINESE
-_("Ally");  //TODO 汉化
+_("队友");  //TODO 汉化
 #else
 _("Ally");
 #endif
 
 static const u8 sText_FoePkmnPrefix3[] = 
 #ifdef CHINESE
-_("Foe");   //TODO 汉化
+_("对方");   //TODO 汉化
 #else
 _("Foe");
 #endif
 
 static const u8 sText_AllyPkmnPrefix2[] = 
 #ifdef CHINESE
-_("Ally");  //TODO 汉化
+_("队友");  //TODO 汉化
 #else
 _("Ally");
 #endif
 
 static const u8 sText_FoePkmnPrefix4[] = 
 #ifdef CHINESE
-_("Foe");   //TODO 汉化
+_("对方");   //TODO 汉化
 #else
 _("Foe");
 #endif
 
 static const u8 sText_AllyPkmnPrefix3[] = 
 #ifdef CHINESE
-_("Ally");  //TODO 汉化
+_("队友");  //TODO 汉化
 #else
 _("Ally");
 #endif
 
 static const u8 sText_AttackerUsedX[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} used\n{B_BUFF3}!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 使用了\n{B_BUFF3}!"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} used\n{B_BUFF3}!");
 #endif
@@ -2657,14 +2657,14 @@ _("!");
 
 static const u8 sText_Accuracy[] = 
 #ifdef CHINESE
-_("accuracy");  //TODO 汉化
+_("命中");  //TODO 汉化
 #else
 _("accuracy");
 #endif
 
 static const u8 sText_Evasiveness[] = 
 #ifdef CHINESE
-_("evasiveness");   //TODO 汉化
+_("闪避");   //TODO 汉化
 #else
 _("evasiveness");
 #endif
@@ -2679,35 +2679,35 @@ const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 
 static const u8 sText_PokeblockWasTooSpicy[] = 
 #ifdef CHINESE
-_("was too spicy!");    //TODO 汉化
+_("太辣了!");    //TODO 汉化
 #else
 _("was too spicy!");
 #endif
 
 static const u8 sText_PokeblockWasTooDry[] = 
 #ifdef CHINESE
-_("was too dry!");  //TODO 汉化
+_("太涩了!");  //TODO 汉化
 #else
 _("was too dry!");
 #endif
 
 static const u8 sText_PokeblockWasTooSweet[] = 
 #ifdef CHINESE
-_("was too sweet!");    //TODO 汉化
+_("太甜了!");    //TODO 汉化
 #else
 _("was too sweet!");
 #endif
 
 static const u8 sText_PokeblockWasTooBitter[] = 
 #ifdef CHINESE
-_("was too bitter!");   //TODO 汉化
+_("太苦了!");   //TODO 汉化
 #else
 _("was too bitter!");
 #endif
 
 static const u8 sText_PokeblockWasTooSour[] = 
 #ifdef CHINESE
-_("was too sour!"); //TODO 汉化
+_("太酸了!"); //TODO 汉化
 #else
 _("was too sour!");
 #endif
@@ -2724,70 +2724,70 @@ const u8 * const gPokeblockWasTooXStringTable[FLAVOR_COUNT] =
 
 static const u8 sText_PlayerUsedItem[] = 
 #ifdef CHINESE
-_("{B_PLAYER_NAME} used\n{B_LAST_ITEM}!");  //TODO 汉化
+_("{B_PLAYER_NAME} 使用了\n{B_LAST_ITEM}!");  //TODO 汉化
 #else
 _("{B_PLAYER_NAME} used\n{B_LAST_ITEM}!");
 #endif
 
 static const u8 sText_WallyUsedItem[] = 
 #ifdef CHINESE
-_("WALLY used\n{B_LAST_ITEM}!");    //TODO 汉化
+_("满充使用了\n{B_LAST_ITEM}!");    //TODO 汉化
 #else
 _("WALLY used\n{B_LAST_ITEM}!");
 #endif
 
 static const u8 sText_Trainer1UsedItem[] = 
 #ifdef CHINESE
-_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!"); //TODO 汉化
+_("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\n使用了 {B_LAST_ITEM}!"); //TODO 汉化
 #else
 _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!");
 #endif
 
 static const u8 sText_TrainerBlockedBall[] = 
 #ifdef CHINESE
-_("The TRAINER blocked the BALL!"); //TODO 汉化
+_("训练家挡下了精灵球!"); //TODO 汉化
 #else
 _("The TRAINER blocked the BALL!");
 #endif
 
 static const u8 sText_DontBeAThief[] = 
 #ifdef CHINESE
-_("Don't be a thief!"); //TODO 汉化
+_("别当小偷!"); //TODO 汉化
 #else
 _("Don't be a thief!");
 #endif
 
 static const u8 sText_ItDodgedBall[] = 
 #ifdef CHINESE
-_("It dodged the thrown BALL!\nThis POKéMON can't be caught!"); //TODO 汉化
+_("它躲开了!\n这只宝可梦不能被捕捉!"); //TODO 汉化
 #else
 _("It dodged the thrown BALL!\nThis POKéMON can't be caught!");
 #endif
 
 static const u8 sText_YouMissedPkmn[] = 
 #ifdef CHINESE
-_("You missed the POKéMON!");   //TODO 汉化
+_("你错过了这只宝可梦");   //TODO 汉化
 #else
 _("You missed the POKéMON!");
 #endif
 
 static const u8 sText_PkmnBrokeFree[] = 
 #ifdef CHINESE
-_("Oh, no!\nThe POKéMON broke free!");  //TODO 汉化
+_("哦不!\n宝可梦挣脱了!");  //TODO 汉化
 #else
 _("Oh, no!\nThe POKéMON broke free!");
 #endif
 
 static const u8 sText_ItAppearedCaught[] = 
 #ifdef CHINESE
-_("Aww!\nIt appeared to be caught!");   //TODO 汉化
+_("哇!\n好像要被抓住了!");   //TODO 汉化
 #else
 _("Aww!\nIt appeared to be caught!");
 #endif
 
 static const u8 sText_AarghAlmostHadIt[] = 
 #ifdef CHINESE
-_("Aargh!\nAlmost had it!");    //TODO 汉化
+_("啊!\n差一点就抓住了!");    //TODO 汉化
 #else
 _("Aargh!\nAlmost had it!");
 #endif
@@ -2801,182 +2801,182 @@ _("Shoot!\nIt was so close, too!");
 
 static const u8 sText_GotchaPkmnCaught[] = 
 #ifdef CHINESE
-_("Gotcha!\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"); //TODO 汉化
+_("成功!\n{B_DEF_NAME} 被抓住了!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"); //TODO 汉化
 #else
 _("Gotcha!\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p");
 #endif
 
 static const u8 sText_GotchaPkmnCaught2[] = 
 #ifdef CHINESE
-_("Gotcha!\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");    //TODO 汉化
+_("成功!\n{B_DEF_NAME} 被抓住了!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");    //TODO 汉化
 #else
 _("Gotcha!\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");
 #endif
 
 static const u8 sText_GiveNicknameCaptured[] = 
 #ifdef CHINESE
-_("Give a nickname to the\ncaptured {B_DEF_NAME}?");    //TODO 汉化
+_("给刚捕获的宝可梦\n起个名字吗 {B_DEF_NAME}?");    //TODO 汉化
 #else
 _("Give a nickname to the\ncaptured {B_DEF_NAME}?");
 #endif
 
 static const u8 sText_PkmnSentToPC[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME} was sent to\n{B_PC_CREATOR_NAME} PC."); //TODO 汉化
+_("{B_DEF_NAME} 被传送到\n{B_PC_CREATOR_NAME} 电脑."); //TODO 汉化
 #else
 _("{B_DEF_NAME} was sent to\n{B_PC_CREATOR_NAME} PC.");
 #endif
 
 static const u8 sText_Someones[] = 
 #ifdef CHINESE
-_("someone's"); //TODO 汉化
+_("某人的"); //TODO 汉化
 #else
 _("someone's");
 #endif
 
 static const u8 sText_Lanettes[] = 
 #ifdef CHINESE
-_("LANETTE's"); //TODO 汉化
+_("真由美's"); //TODO 汉化
 #else
 _("LANETTE's");
 #endif
 
 static const u8 sText_PkmnDataAddedToDex[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME}'s data was\nadded to the POKéDEX.\p");  //TODO 汉化
+_("{B_DEF_NAME}的数据\n添加到宝可梦图鉴了.\p");  //TODO 汉化
 #else
 _("{B_DEF_NAME}'s data was\nadded to the POKéDEX.\p");
 #endif
 
 static const u8 sText_ItIsRaining[] = 
 #ifdef CHINESE
-_("It is raining.");    //TODO 汉化
+_(".");    //TODO 汉化
 #else
-_("It is raining.");
+_("在下雨.");
 #endif
 
 static const u8 sText_SandstormIsRaging[] = 
 #ifdef CHINESE
-_("A sandstorm is raging.");    //TODO 汉化
+_("在刮沙暴.");    //TODO 汉化
 #else
 _("A sandstorm is raging.");
 #endif
 
 static const u8 sText_BoxIsFull[] = 
 #ifdef CHINESE
-_("The BOX is full!\nYou can't catch any more!\p"); //TODO 汉化
+_("盒子满了!\n你不能再放入了\p"); //TODO 汉化
 #else
 _("The BOX is full!\nYou can't catch any more!\p");
 #endif
 
 static const u8 sText_EnigmaBerry[] = 
 #ifdef CHINESE
-_("ENIGMA BERRY");  //TODO 汉化
+_("谜芝果");  //TODO 汉化
 #else
 _("ENIGMA BERRY");
 #endif
 
 static const u8 sText_BerrySuffix[] = 
 #ifdef CHINESE
-_(" BERRY");    //TODO 汉化
+_(" 果");    //TODO 汉化
 #else
 _(" BERRY");
 #endif
 
 static const u8 sText_PkmnsItemCuredParalysis[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured paralysis!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n麻痹了!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured paralysis!");
 #endif
 
 static const u8 sText_PkmnsItemCuredPoison[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured poison!");    //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n中毒了!");    //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured poison!");
 #endif
 
 static const u8 sText_PkmnsItemHealedBurn[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nhealed its burn!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n被烧伤了!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nhealed its burn!");
 #endif
 
 static const u8 sText_PkmnsItemDefrostedIt[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ndefrosted it!");    //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n被冰冻了!");    //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ndefrosted it!");
 #endif
 
 static const u8 sText_PkmnsItemWokeIt[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nwoke it from its sleep!");  //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n从睡梦中醒来了!");  //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nwoke it from its sleep!");
 #endif
 
 static const u8 sText_PkmnsItemSnappedOut[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nsnapped it out of confusion!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n从混乱中清醒了!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nsnapped it out of confusion!");
 #endif
 
 static const u8 sText_PkmnsItemCuredProblem[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured its {B_BUFF1} problem!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n解决了 {B_BUFF1} 的问题!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured its {B_BUFF1} problem!");
 #endif
 
 static const u8 sText_PkmnsItemNormalizedStatus[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nnormalized its status!");   //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n使它恢复了正常!");   //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nnormalized its status!");
 #endif
 
 static const u8 sText_PkmnsItemRestoredHealth[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored health!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n恢复了健康"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored health!");
 #endif
 
 static const u8 sText_PkmnsItemRestoredPP[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored {B_BUFF1}'s PP!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n回复了 {B_BUFF1}的PP!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored {B_BUFF1}'s PP!");
 #endif
 
 static const u8 sText_PkmnsItemRestoredStatus[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its status!"); //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n恢复了它的能力等级!"); //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its status!");
 #endif
 
 static const u8 sText_PkmnsItemRestoredHPALittle[] = 
 #ifdef CHINESE
-_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its HP a little!");    //TODO 汉化
+_("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_LAST_ITEM}\n回复了它的少量HP!");    //TODO 汉化
 #else
 _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its HP a little!");
 #endif
 
 static const u8 sText_ItemAllowsOnlyYMove[] = 
 #ifdef CHINESE
-_("{B_LAST_ITEM} allows the\nuse of only {B_CURRENT_MOVE}!\p"); //TODO 汉化
+_("{B_LAST_ITEM} 只能\n使用 {B_CURRENT_MOVE}!\p"); //TODO 汉化
 #else
 _("{B_LAST_ITEM} allows the\nuse of only {B_CURRENT_MOVE}!\p");
 #endif
 
 static const u8 sText_PkmnHungOnWithX[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} hung on\nusing its {B_LAST_ITEM}!");    //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 坚持\n使用它的 {B_LAST_ITEM}!");    //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} hung on\nusing its {B_LAST_ITEM}!");
 #endif
@@ -2990,7 +2990,7 @@ _("");
 
 static const u8 sText_YouThrowABallNowRight[] = 
 #ifdef CHINESE
-_("You throw a BALL now, right?\nI… I'll do my best!"); //TODO 汉化
+_("你现在扔一个球, 对面?\n我… 我会努力做到最好的!"); //TODO 汉化
 #else
 _("You throw a BALL now, right?\nI… I'll do my best!");
 #endif
@@ -3015,193 +3015,193 @@ static const u8 sText_Trainer2LoseText[];
 // New battle strings.
 static const s8 sText_EnduredViaSturdy[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} ENDURED\nthe hit using {B_DEF_ABILITY}!");  //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 挺住了\n攻击 {B_DEF_ABILITY}!");  //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} ENDURED\nthe hit using {B_DEF_ABILITY}!");
 #endif
 
 static const s8 sText_PowerHerbActivation[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} became fully charged\ndue to its {B_LAST_ITEM}!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 完全充能了\n因为它的 {B_LAST_ITEM}!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} became fully charged\ndue to its {B_LAST_ITEM}!");
 #endif
 
 static const s8 sText_HurtByItem[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} was hurt\nby its {B_LAST_ITEM}!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 受伤了\n因为它的 {B_LAST_ITEM}!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} was hurt\nby its {B_LAST_ITEM}!");
 #endif
 
 static const s8 sText_BadlyPoisonedByItem[] = 
 #ifdef CHINESE
-_("{B_EFF_NAME_WITH_PREFIX} was badly \npoisoned by the {B_LAST_ITEM}!");   //TODO 汉化
+_("{B_EFF_NAME_WITH_PREFIX} 中剧毒了 \n因为 {B_LAST_ITEM}!");   //TODO 汉化
 #else
 _("{B_EFF_NAME_WITH_PREFIX} was badly \npoisoned by the {B_LAST_ITEM}!");
 #endif
 
 static const s8 sText_BurnedByItem[] = 
 #ifdef CHINESE
-_("{B_EFF_NAME_WITH_PREFIX} was burned\nby the {B_LAST_ITEM}!");    //TODO 汉化
+_("{B_EFF_NAME_WITH_PREFIX} 烧伤了\n因为 {B_LAST_ITEM}!");    //TODO 汉化
 #else
 _("{B_EFF_NAME_WITH_PREFIX} was burned\nby the {B_LAST_ITEM}!");
 #endif
 
 static const s8 sText_TargetAbilityActivates[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} activates!"); //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX}的 {B_DEF_ABILITY} 发动了!"); //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} activates!");
 #endif
 
 static const u8 sText_GravityIntensified[] = 
 #ifdef CHINESE
-_("GRAVITY intensified!");  //TODO 汉化
+_("重力加强了!");  //TODO 汉化
 #else
 _("GRAVITY intensified!");
 #endif
 
 static const u8 sText_TargetIdentified[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} was \nidentified!");    //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 被 \n识破了!");    //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} was \nidentified!");
 #endif
 
 static const u8 sText_TargetWokeUp[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} woke up!"); //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 醒了!"); //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} woke up!");
 #endif
 
 static const u8 sText_PkmnStoleAndAteItem[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} stole and\nate {B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 偷到并\n吃掉了 {B_DEF_NAME_WITH_PREFIX}的 {B_LAST_ITEM}!"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} stole and\nate {B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!");
 #endif
 
 static const u8 sText_TailWindBlew[] = 
 #ifdef CHINESE
-_("The tailwind blew from\nbehind {B_ATK_TEAM2} team!");    //TODO 汉化
+_("吹起了顺风\n {B_ATK_TEAM2} 队伍的身后!");    //TODO 汉化
 #else
 _("The tailwind blew from\nbehind {B_ATK_TEAM2} team!");
 #endif
 
 static const u8 sText_PkmnWentBack[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} went back\nto {B_ATK_TRAINER_CLASS} {B_ATK_TRAINER_NAME}"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 回\n到 {B_ATK_TRAINER_CLASS} {B_ATK_TRAINER_NAME}"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} went back\nto {B_ATK_TRAINER_CLASS} {B_ATK_TRAINER_NAME}");
 #endif
 
 static const u8 sText_PkmnCantUseItemsAnymore[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} can't use\nitems anymore!");    //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 不能使用\n道具了!");    //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} can't use\nitems anymore!");
 #endif
 
 static const u8 sText_PkmnFlung[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} flung its\n{B_LAST_ITEM}!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 扔掉了\n{B_LAST_ITEM}!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} flung its\n{B_LAST_ITEM}!");
 #endif
 
 static const u8 sText_PkmnPreventedFromHealing[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} was prevented\nfrom healing!"); //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 被阻止\n回复!"); //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} was prevented\nfrom healing!");
 #endif
 
 static const u8 sText_PkmnSwitchedAtkAndDef[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} switched its\nAttack and Defense!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 交换了它的\n攻击和防御!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} switched its\nAttack and Defense!");
 #endif
 
 static const u8 sText_PkmnsAbilitySuppressed[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX}'s ability\nwas suppressed!");   //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX}的特性\n被压制了!");   //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX}'s ability\nwas suppressed!");
 #endif
 
 static const u8 sText_ShieldedFromCriticalHits[] = 
 #ifdef CHINESE
-_("The {B_CURRENT_MOVE} shielded {B_ATK_TEAM2}\nteam from critical hits!"); //TODO 汉化
+_(" {B_CURRENT_MOVE} 保护 {B_ATK_TEAM2}\n的队伍不被击中要害!"); //TODO 汉化
 #else
 _("The {B_CURRENT_MOVE} shielded {B_ATK_TEAM2}\nteam from critical hits!");
 #endif
 
 static const u8 sText_SwitchedAtkAndSpAtk[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} switched all its\nchanges to its Attack and\pSp. Atk with the target!");    //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 与目标交换了\n攻击和\p和特攻!");    //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} switched all its\nchanges to its Attack and\pSp. Atk with the target!");
 #endif
 
 static const u8 sText_SwitchedDefAndSpDef[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} switched all its\nchanges to its Defense and\pSp. Def with the target!");   //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 与目标交换了\n防御和\p和特防!");   //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} switched all its\nchanges to its Defense and\pSp. Def with the target!");
 #endif
 
 static const u8 sText_PkmnAcquiredAbility[] = 
 #ifdef CHINESE
-_("{B_DEF_NAME_WITH_PREFIX} acquired\n{B_DEF_ABILITY}!");   //TODO 汉化
+_("{B_DEF_NAME_WITH_PREFIX} 获得了\n{B_DEF_ABILITY}!");   //TODO 汉化
 #else
 _("{B_DEF_NAME_WITH_PREFIX} acquired\n{B_DEF_ABILITY}!");
 #endif
 
 static const u8 sText_PoisonSpikesScattered[] = 
 #ifdef CHINESE
-_("Poison Spikes were scattered all\naround the opposing team's feet!");    //TODO 汉化
+_("毒菱散落在\n对方队伍的脚下!");    //TODO 汉化
 #else
 _("Poison Spikes were scattered all\naround the opposing team's feet!");
 #endif
 
 static const u8 sText_PkmnSwitchedStatChanges[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} switched stat changes\nwith the target!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 与目标交换了\n能力等级!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} switched stat changes\nwith the target!");
 #endif
 
 static const u8 sText_PkmnSurroundedWithVeilOfWater[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} surrounded itself\nwith a veil of water!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 身边围绕着\n一层水幕!"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} surrounded itself\nwith a veil of water!");
 #endif
 
 static const u8 sText_PkmnLevitatedOnElectromagnetism[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} levitated on\nelectromagnetism!");  //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 通过电磁力\n漂浮了起来!");  //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} levitated on\nelectromagnetism!");
 #endif
 
 static const u8 sText_PkmnTwistedDimensions[] = 
 #ifdef CHINESE
-_("{B_ATK_NAME_WITH_PREFIX} twisted\nthe dimensions!"); //TODO 汉化
+_("{B_ATK_NAME_WITH_PREFIX} 扭曲了\n时空!"); //TODO 汉化
 #else
 _("{B_ATK_NAME_WITH_PREFIX} twisted\nthe dimensions!");
 #endif
 
-static const u8 sText_PointedStonesFloat[] =_("Pointed stones float in the air\naround {B_DEF_TEAM2} team!");
-static const u8 sText_CloakedInMysticalMoonlight[] =_("It became cloaked in mystical\nmoonlight!");
-static const u8 sText_TrappedBySwirlingMagma[] =_("{B_DEF_NAME_WITH_PREFIX} became\ntrapped by swirling magma!");
-static const u8 sText_VanishedInstantly[] =_("{B_ATK_NAME_WITH_PREFIX} vanished\ninstantly!");
-static const u8 sText_ProtectedTeam[] =_("{B_CURRENT_MOVE} protected\n{B_ATK_TEAM2} team!");
-static const u8 sText_SharedItsGuard[] =_("{B_ATK_NAME_WITH_PREFIX} shared its\nguard with the target!");
-static const u8 sText_SharedItsPower[] =_("{B_ATK_NAME_WITH_PREFIX} shared its\npower with the target!");
+static const u8 sText_PointedStonesFloat[] =_("尖锐的岩石漂浮在了\n {B_DEF_TEAM2} 的队伍周围!");
+static const u8 sText_CloakedInMysticalMoonlight[] =_("被神秘的月光\n笼罩!");
+static const u8 sText_TrappedBySwirlingMagma[] =_("{B_DEF_NAME_WITH_PREFIX} 被\n旋转的岩浆困住了!");
+static const u8 sText_VanishedInstantly[] =_("{B_ATK_NAME_WITH_PREFIX} 突然\n消失了!");
+static const u8 sText_ProtectedTeam[] =_("{B_CURRENT_MOVE} 保护了\n{B_ATK_TEAM2} 的队伍!");
+static const u8 sText_SharedItsGuard[] =_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了防御!");
+static const u8 sText_SharedItsPower[] =_("{B_ATK_NAME_WITH_PREFIX} 与目标\n平分了攻击!");
 static const u8 sText_SwapsDefAndSpDefOfAllPkmn[] =_("It created a bizarre area in which the\nDefense and Sp.Def stats are swapped!");
 static const u8 sText_BecameNimble[] =_("{B_ATK_NAME_WITH_PREFIX} became nimble!");
 static const u8 sText_HurledIntoTheAir[] =_("{B_DEF_NAME_WITH_PREFIX} was hurled\ninto the air!");
