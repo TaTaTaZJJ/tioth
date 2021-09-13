@@ -1936,11 +1936,13 @@
 	@ 消息框类型
 	@ Message box types
 	MSGBOX_NPC = 2
-	MSGBOX_SIGN = 3
+	MSGBOX_SIGN = 3 //兼容原版
+	MSGBOX_SIGN_WOODEN = 3
 	MSGBOX_DEFAULT = 4
 	MSGBOX_YESNO = 5
 	MSGBOX_AUTOCLOSE = 6
 	MSGBOX_GETPOINTS = 9
+	MSGBOX_SIGN_IRON = 11
 
 	YES = 1
 	NO  = 0
@@ -2041,3 +2043,8 @@
 	.macro totemboost_evas2 battler:req
 	settotemboost \battler, 0, 0, 0, 0, 0, 0, 2
 	.endm
+
+	@ 消息框样式
+	MSGBOX_STYLE_DEFAULT = 0
+	MSGBOX_STYLE_WOODEN = 1
+	MSGBOX_STYLE_IRON = 2

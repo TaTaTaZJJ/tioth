@@ -94,7 +94,7 @@ gStdScripts::
 	.4byte Std_ObtainItem              @ STD_OBTAIN_ITEM
 	.4byte Std_FindItem                @ STD_FIND_ITEM
 	.4byte Std_MsgboxNPC               @ MSGBOX_NPC
-	.4byte Std_MsgboxSign              @ MSGBOX_SIGN
+	.4byte Std_MsgboxSignWooden        @ MSGBOX_SIGN_WOODEN
 	.4byte Std_MsgboxDefault           @ MSGBOX_DEFAULT
 	.4byte Std_MsgboxYesNo             @ MSGBOX_YESNO
 	.4byte Std_MsgboxAutoclose         @ MSGBOX_AUTOCLOSE
@@ -102,6 +102,7 @@ gStdScripts::
 	.4byte Std_RegisteredInMatchCall   @ STD_REGISTER_MATCH_CALL
 	.4byte Std_MsgboxGetPoints         @ MSGBOX_GETPOINTS
 	.4byte Std_10
+	.4byte Std_MsgboxSignIron          @ MSGBOX_SIGN_IRON
 gStdScripts_End::
 
 	.include "data/maps/PetalburgCity/scripts.inc"
