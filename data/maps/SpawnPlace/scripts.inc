@@ -4,9 +4,17 @@ SpawnPlace_MapScripts::
 
 TestAddMoneywithVar::
 	lock
+	setvar VAR_MESSAGE_BOX_STYLE, 0
+	msgbox TestAddMoneywithVar_Text_0, MSGBOX_YESNO
+	setvar VAR_MESSAGE_BOX_STYLE, 1
+	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
+	setvar VAR_MESSAGE_BOX_STYLE, 2
+	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
+	setvar VAR_MESSAGE_BOX_STYLE, 3
+	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
 	setvar VAR_0x8000, 999
 	addmoneywithvar VAR_0x8000, 0
-	msgbox TestAddMoneywithVar_Text_0, 0x2
+	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
 	release
 	return
 
@@ -339,7 +347,20 @@ TestMugshot::
 	end
 
 
+TestWoodenPlate::
+	msgbox TestWoodenPlate_Text_0, MSGBOX_SIGN_WOODEN
+	return
+
+
+TestIronPlate::
+	msgbox TestWoodenPlate_Text_0, MSGBOX_SIGN_IRON
+	return
+
+
 TestAddMoneywithVar_Text_0:
+	.string "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\n啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊$"
+
+TestAddMoneywithVar_Text_1:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
 TestSubMoneywithVar_Text_0:
@@ -380,3 +401,6 @@ TestEmotion_Text_0:
 
 TestMugshot_Text_0:
 	.string "测试头像对话$"
+
+TestWoodenPlate_Text_0:
+	.string "木制路标$"
