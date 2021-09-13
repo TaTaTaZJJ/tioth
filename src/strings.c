@@ -536,7 +536,7 @@ _("ALLIE");
 
 const u8 gText_DefaultNameLianna[] = 
 #ifdef CHINESE
-_("咲藤"); //TODO 汉化
+_("?藤"); //TODO 汉化
 #else
 _("LIANNA");
 #endif
@@ -1572,8 +1572,8 @@ _("Is it okay to\nthrow away {STR_VAR_2}\n{STR_VAR_1}(s)?");
 #endif
 
 const u8 gText_DadsAdvice[] = 
-_("父亲说过……\n逆子，这东西是给这儿用的？!{PAUSE_UNTIL_PRESS}");
-//TODO 汉化
+#ifdef CHINESE
+_("父亲说过……\n逆子，这东西是给这儿用的？!{PAUSE_UNTIL_PRESS}"); //TODO 汉化
 #else
 _("Father advice……\n逆子，这东西是给这儿用的？!{PAUSE_UNTIL_PRESS}");
 #endif
@@ -1650,7 +1650,7 @@ _("But the effects of a REPEL\nlingered from earlier.{PAUSE_UNTIL_PRESS}");
 
 const u8 gText_UsedVar2WildLured[] = 
 #ifdef CHINESE
-_("{PLAYER} 使用了\n{STR_VAR_2}.\野生的宝可梦会被排斥走。{PAUSE_UNTIL_PRESS}"); //TODO 汉化
+_("{PLAYER} 使用了\n{STR_VAR_2}.\p野生的宝可梦会被排斥走。{PAUSE_UNTIL_PRESS}"); //TODO 汉化
 #else
 _("{PLAYER} used the\n{STR_VAR_2}.\pWild POKéMON will be lured.{PAUSE_UNTIL_PRESS}");
 #endif
@@ -2129,14 +2129,14 @@ _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
 
 const u8 gText_Var1IsItThatllBeVar2[] = 
 #ifdef CHINESE
-_("{STR_VAR_1}, 是这个吗？\n一共{STR_VAR_2}元。买吗？"); //TODO 汉化
+_("{STR_VAR_1}，是这个吗？\n一共{STR_VAR_2}元。买吗？"); //TODO 汉化
 #else
 _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
 #endif
 
 const u8 gText_YouWantedVar1ThatllBeVar2[] = 
 #ifdef CHINESE
-_("你想要{STR_VAR_1}?\n一共STR_VAR_2}元。买吗？ "); //TODO 汉化
+_("你想要{STR_VAR_1}？\n一共{STR_VAR_2}元。买吗？"); //TODO 汉化
 #else
 _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
 #endif
