@@ -2445,25 +2445,3 @@ bool8 ScrCmd_checkfollower(struct ScriptContext *ctx)
     CheckPlayerHasFollower();
     return FALSE;
 }
-
-#include "mugshot.h"
-#include "constants/mugshot.h"
-
-// 显示头像
-bool8 SrcCmd_drawmugshot(struct ScriptContext *ctx)
-{
-    u16 index = ScriptReadHalfword(ctx);
-    u8 x = ScriptReadByte(ctx);
-    u8 y = ScriptReadByte(ctx);
-    if (index >= MUGSHOT_COUNT)
-        return FALSE;
-    DrawMugshot(index, x, y);
-    return TRUE;
-}
-
-// 清除头像
-bool8 SrcCmd_clearmugshot(struct ScriptContext *ctx)
-{
-    ClearMugshot();
-    return FALSE;
-}

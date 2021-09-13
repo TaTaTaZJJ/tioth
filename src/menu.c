@@ -8,6 +8,7 @@
 #include "main.h"
 #include "menu.h"
 #include "menu_helpers.h"
+#include "mugshot.h"
 #include "palette.h"
 #include "pokedex.h"
 #include "pokemon_icon.h"
@@ -23,7 +24,7 @@
 #define DLG_WINDOW_PALETTE_NUM 15
 #define DLG_WINDOW_BASE_TILE_NUM 0x200
 #define STD_WINDOW_PALETTE_NUM 14
-#define STD_WINDOW_BASE_TILE_NUM 0x214
+#define STD_WINDOW_BASE_TILE_NUM 0x217
 
 struct MenuInfoIcon
 {
@@ -319,7 +320,11 @@ void WindowFunc_DrawStandardFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width
 }
 
 void WindowFunc_DrawDialogueFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width, u8 height, u8 paletteNum)
-{
+{   
+    u8 arrowTileStart = getBustTileCount();
+    u8 mugshotDirection = VarGet(VAR_MUGSHOT_DIRECTION);
+    u8 dialogType = VarGet(VAR_DIALOG_TYPE);
+
     FillBgTilemapBufferRect(bg,
                             DLG_WINDOW_BASE_TILE_NUM + 0,
                             tilemapLeft - 2,
@@ -425,6 +430,129 @@ void WindowFunc_DrawDialogueFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width
                             1,
                             1,
                             DLG_WINDOW_PALETTE_NUM);
+    if (dialogType != 0)
+    {
+        //先清空现有的箭头
+        FillBgTilemapBufferRect(bg, 0, tilemapLeft + arrowTileStart, tilemapTop - 2, 2, 1, STD_WINDOW_PALETTE_NUM);
+        FillBgTilemapBufferRect(bg, 0, tilemapLeft + width - arrowTileStart - 2, tilemapTop - 2, 2, 1, STD_WINDOW_PALETTE_NUM);
+    }
+
+    if (dialogType == 1 && arrowTileStart)
+    {
+        if (mugshotDirection == 0)
+        {
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 15,
+                                    tilemapLeft + arrowTileStart,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 16,
+                                    tilemapLeft + arrowTileStart + 1,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 17,
+                                    tilemapLeft + arrowTileStart,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 18,
+                                    tilemapLeft + arrowTileStart + 1,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+        }
+        else
+        {
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 16),
+                                    tilemapLeft + width - arrowTileStart - 2,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 15),
+                                    tilemapLeft + width - arrowTileStart - 1,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 18),
+                                    tilemapLeft + width - arrowTileStart - 2,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 17),
+                                    tilemapLeft + width - arrowTileStart - 1,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+        }
+    }
+    else if (dialogType == 2 && arrowTileStart)
+    {
+        if (mugshotDirection == 0)
+        {
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 20,
+                                    tilemapLeft + arrowTileStart,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 21,
+                                    tilemapLeft + arrowTileStart + 1,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    DLG_WINDOW_BASE_TILE_NUM + 19,
+                                    tilemapLeft + arrowTileStart + 1,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+        }
+        else
+        {
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 21),
+                                    tilemapLeft + width - arrowTileStart - 2,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 20),
+                                    tilemapLeft + width - arrowTileStart - 1,
+                                    tilemapTop - 2,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+            FillBgTilemapBufferRect(bg,
+                                    BG_TILE_H_FLIP(DLG_WINDOW_BASE_TILE_NUM + 19),
+                                    tilemapLeft + width - arrowTileStart - 2,
+                                    tilemapTop - 1,
+                                    1,
+                                    1,
+                                    DLG_WINDOW_PALETTE_NUM);
+        }
+    }
 }
 
 void WindowFunc_ClearStdWindowAndFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width, u8 height, u8 paletteNum)
@@ -434,7 +562,10 @@ void WindowFunc_ClearStdWindowAndFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 
 
 void WindowFunc_ClearDialogWindowAndFrame(u8 bg, u8 tilemapLeft, u8 tilemapTop, u8 width, u8 height, u8 paletteNum)
 {
+    u8 arrowTileStart = getBustTileCount();
     FillBgTilemapBufferRect(bg, 0, tilemapLeft - 3, tilemapTop - 1, width + 6, height + 2, STD_WINDOW_PALETTE_NUM);
+    FillBgTilemapBufferRect(bg, 0, tilemapLeft + arrowTileStart, tilemapTop - 2, 2, 1, STD_WINDOW_PALETTE_NUM);
+    FillBgTilemapBufferRect(bg, 0, tilemapLeft + width - arrowTileStart - 2, tilemapTop - 2, 2, 1, STD_WINDOW_PALETTE_NUM);
 }
 
 void SetStandardWindowBorderStyle(u8 windowId, bool8 copyToVram)

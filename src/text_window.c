@@ -108,8 +108,8 @@ const struct TilesPal *GetWindowFrameTilesPal(u8 id)
 
 void LoadMessageBoxGfx(u8 windowId, u16 destOffset, u8 palOffset)
 {   
-    u16 style = VarGet(VAR_MESSAGE_BOX_STYLE);
-    LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), sDialogFrames[style].tiles, 0x1E0, destOffset);
+    u16 style = VarGet(VAR_DIALOG_STYLE);
+    LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), sDialogFrames[style].tiles, 0x2C0, destOffset);
     LoadPalette(sDialogFrames[style].pal, palOffset, 0x20);
 }
 

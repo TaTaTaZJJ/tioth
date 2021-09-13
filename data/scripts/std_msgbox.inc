@@ -9,21 +9,21 @@ Std_MsgboxNPC:
 
 Std_MsgboxSignWooden:
 	lockall
-	setvar VAR_MESSAGE_BOX_STYLE, MSGBOX_STYLE_WOODEN
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_WOODEN
 	message 0x0
 	waitmessage
 	waitbuttonpress
-	setvar VAR_MESSAGE_BOX_STYLE, MSGBOX_STYLE_DEFAULT
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT
 	releaseall
 	return
 
 Std_MsgboxSignIron:
 	lockall
-	setvar VAR_MESSAGE_BOX_STYLE, MSGBOX_STYLE_IRON
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_IRON
 	message 0x0
 	waitmessage
 	waitbuttonpress
-	setvar VAR_MESSAGE_BOX_STYLE, MSGBOX_STYLE_DEFAULT
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT
 	releaseall
 	return
 

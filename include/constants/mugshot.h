@@ -2,7 +2,8 @@
 #define GUARD_CONSTANTS_MUGSHOTS_H
 
 #define MUGSHOT_TEST    0
+#define MUGSHOT_TEST2    1
 
-#define MUGSHOT_COUNT   1 //头像数量，用来防止溢出
+#define MUGSHOT_COUNT   2 //头像数量，用来防止溢出
 
 #endif //GUARD_CONSTANTS_MUGSHOTS_H

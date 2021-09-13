@@ -1803,17 +1803,30 @@
 	.byte \operation
 	.endm
 
-	@ 在[x]，[y]坐标绘制头像[index];
-	.macro drawmughot index:req, x=0xFF, y=0xFF
-	.byte 0xee
-	.2byte \index
-	.byte \x
-	.byte \y
+	LEFT = 0
+	RIGHT = 1
+	NONE = 0
+	ARROW = 1
+	BUBBLE = 2
+
+	@ 默认在左侧绘制头像[id]，leftOrRight为RIGHT时在右侧绘制;
+	.macro mugshot id:req, leftOrRight=LEFT
+	setvar VAR_MUGSHOT_ID, \id
+	setvar VAR_MUGSHOT_DIRECTION, \leftOrRight
+	callnative DrawMugshot
 	.endm
 
-	@ 清除头像;
+	@ 清除头像（这也将重置对话框类型）;
 	.macro clearmughot
-	.byte 0xef
+	setvar VAR_MUGSHOT_ID, 0
+	setvar VAR_MUGSHOT_DIRECTION, LEFT
+	setvar VAR_DIALOG_TYPE, NONE
+	callnative ClearMugshot
+	.endm
+
+	@ 对话框类型（NONE=普通对话框，ARROW=自动根据头像显示箭头，BUBBLE=自动根据头像显示气泡）
+	.macro dialogtype type:req
+	setvar VAR_DIALOG_TYPE, \type
 	.endm
 
 @ Supplementary
