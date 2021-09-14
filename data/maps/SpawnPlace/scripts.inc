@@ -4,17 +4,9 @@ SpawnPlace_MapScripts::
 
 TestAddMoneywithVar::
 	lock
-	setvar VAR_MESSAGE_BOX_STYLE, 0
-	msgbox TestAddMoneywithVar_Text_0, MSGBOX_YESNO
-	setvar VAR_MESSAGE_BOX_STYLE, 1
-	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
-	setvar VAR_MESSAGE_BOX_STYLE, 2
-	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
-	setvar VAR_MESSAGE_BOX_STYLE, 3
-	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
 	setvar VAR_0x8000, 999
 	addmoneywithvar VAR_0x8000, 0
-	msgbox TestAddMoneywithVar_Text_1, MSGBOX_YESNO
+	msgbox TestAddMoneywithVar_Text_0, MSGBOX_SIGN_IRON
 	release
 	return
 
@@ -23,7 +15,7 @@ TestSubMoneywithVar::
 	lock
 	setvar VAR_0x8000, 999
 	removemoneywithvar VAR_0x8000, 0
-	msgbox TestSubMoneywithVar_Text_0
+	msgbox TestSubMoneywithVar_Text_0, MSGBOX_SIGN_IRON
 	release
 	return
 
@@ -32,7 +24,7 @@ TestMultMoneywithVar::
 	lock
 	setvar VAR_0x8000, 3
 	multiplymoneywithvar VAR_0x8000, 0
-	msgbox TestMultMoneywithVar_Text_0
+	msgbox TestMultMoneywithVar_Text_0, MSGBOX_SIGN_IRON
 	release
 	return
 
@@ -41,21 +33,21 @@ TestCheckMoneywithVar::
 	lock
 	setvar VAR_0x8000, 2999
 	checkmoneywithvar VAR_0x8000, 0
-	msgbox TestCheckMoneywithVar_Text_0
+	msgbox TestCheckMoneywithVar_Text_0, MSGBOX_SIGN_IRON
 	compare VAR_RESULT, TRUE
 	goto_if_eq TestCheckMoneywithVar_2
-	msgbox TestCheckMoneywithVar_Text_2
+	msgbox TestCheckMoneywithVar_Text_2, MSGBOX_SIGN_IRON
 TestCheckMoneywithVar_1:
 	release
 	return
 
 TestCheckMoneywithVar_2:
-	msgbox TestCheckMoneywithVar_Text_1
+	msgbox TestCheckMoneywithVar_Text_1, MSGBOX_SIGN_IRON
 	goto TestCheckMoneywithVar_1
 
 
 Test2v2TrainerBattle::
-	msgbox Test2v2TrainerBattle_Text_0
+	msgbox Test2v2TrainerBattle_Text_0, MSGBOX_SIGN_IRON
 	closemessage
 	givemon SPECIES_CYNDAQUIL, 100, 0
 	givemon SPECIES_CYNDAQUIL, 100, 0
@@ -341,9 +333,20 @@ TestEmotionMovement27:
 	step_end
 
 TestMugshot::
-	drawmughot MUGSHOT_TEST
-	msgbox TestMugshot_Text_0, MSGBOX_NPC
+	mugshot MUGSHOT_TEST2
+	dialogtype ARROW
+	msgbox TestMugshot_Text_0
+	fadescreen FADE_TO_BLACK
+	dialogtype BUBBLE
+	msgbox TestMugshot_Text_1
+	mugshot MUGSHOT_TEST, RIGHT
+	dialogtype ARROW
+	msgbox TestMugshot_Text_2
+	dialogtype BUBBLE
+	msgbox TestMugshot_Text_3
+	closemessage
 	clearmughot
+	fadescreen FADE_FROM_BLACK
 	end
 
 
@@ -353,14 +356,18 @@ TestWoodenPlate::
 
 
 TestIronPlate::
-	msgbox TestWoodenPlate_Text_0, MSGBOX_SIGN_IRON
+	msgbox TestIronPlate_Text_0, MSGBOX_SIGN_IRON
+	return
+
+
+TestRadioTextbox::
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_RADIO
+	msgbox TestRadioTextbox_Text_0, MSGBOX_NPC
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT
 	return
 
 
 TestAddMoneywithVar_Text_0:
-	.string "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\n啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊$"
-
-TestAddMoneywithVar_Text_1:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
 TestSubMoneywithVar_Text_0:
@@ -400,7 +407,22 @@ TestEmotion_Text_0:
 	.string "测试表情。$"
 
 TestMugshot_Text_0:
-	.string "测试头像对话$"
+	.string "测试头像对话左$"
+
+TestMugshot_Text_1:
+	.string "测试头像思考左$"
+
+TestMugshot_Text_2:
+	.string "测试头像对话右$"
+
+TestMugshot_Text_3:
+	.string "测试头像思考右$"
 
 TestWoodenPlate_Text_0:
 	.string "木制路标$"
+
+TestIronPlate_Text_0:
+	.string "铁制路标$"
+
+TestRadioTextbox_Text_0:
+	.string "收音机对话框$"

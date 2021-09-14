@@ -322,9 +322,20 @@ movement TestEmotionMovement27 {
 }
 
 script TestMugshot {
-    drawmughot(MUGSHOT_TEST)
-    msgbox("测试头像对话",MSGBOX_NPC)
+    mugshot(MUGSHOT_TEST2)
+    dialogtype(ARROW)
+    msgbox("测试头像对话左")
+    fadescreen(FADE_TO_BLACK)
+    dialogtype(BUBBLE)
+    msgbox("测试头像思考左")
+    mugshot(MUGSHOT_TEST, RIGHT)
+    dialogtype(ARROW)
+    msgbox("测试头像对话右")
+    dialogtype(BUBBLE)
+    msgbox("测试头像思考右")
+    closemessage
     clearmughot
+    fadescreen(FADE_FROM_BLACK)
     end
 }
 
@@ -334,4 +345,10 @@ script TestWoodenPlate {
 
 script TestIronPlate {
     msgbox("铁制路标", MSGBOX_SIGN_IRON)
+}
+
+script TestRadioTextbox {
+    setvar(VAR_DIALOG_STYLE, MSGBOX_STYLE_RADIO)
+    msgbox("收音机对话框", MSGBOX_NPC)
+    setvar(VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT)
 }
