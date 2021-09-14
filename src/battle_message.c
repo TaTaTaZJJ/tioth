@@ -6084,7 +6084,13 @@ _("{B_TRAINER2_WIN_TEXT}"); //TODO 汉化
 _("{B_TRAINER2_WIN_TEXT}");
 #endif
 
-static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!");
+static const u8 sText_Trainer1Fled[] = 
+#ifdef CHINESE
+_("{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!");//TODO 汉化
+#else
+_("{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!");
+#endif
+
 static const u8 sText_PlayerLostAgainstTrainer1[] = 
 #ifdef CHINESE
 _("Player lost against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");    //TODO 汉化
