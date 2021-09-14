@@ -178,13 +178,13 @@ struct Time
     /*0x06*/ s8 seconds;
 };
 
-struct LimitedTimeEvent // 时间事件，当游戏时间达到结束时间，触发脚本
+struct LimitedTimeEvent // 限时事件，当游戏时间达到结束时间，触发脚本
 {
-    u16 playTimeHours;
-    u8 playTimeMinutes;
-    u8 playTimeSeconds;
-    u8 playTimeVBlanks;
-    const u8* script; //事件脚本
+    /*0x00*/ u16 playTimeHours;
+    /*0x02*/ u8 playTimeMinutes;
+    /*0x03*/ u8 playTimeSeconds;
+    /*0x04*/ u8 playTimeVBlanks;
+    /*0x05*/ const u8* script; //事件脚本
 };
 
 struct Pokedex
