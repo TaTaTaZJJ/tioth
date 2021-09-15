@@ -7909,3 +7909,4 @@ EMOJI_BIGANGER = F9 FE
 'ｙ'         = ED
 'ｚ'         = EE
 '：'         = F0
+'—'         = AE

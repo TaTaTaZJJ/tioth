@@ -1,0 +1,61 @@
+#include "global.h"
+#include "config.h"
+#include "strings.h"
+#include "battle_pyramid_bag.h"
+#include "item_menu.h"
+
+{{ doNotModifyHeader }}
+## for text in texts
+{% if existsIn(text,"aligned") %}
+ALIGNED({{text.aligned}})
+{% endif %}
+{% if existsIn(text,"label") %}const u8 {{text.label}}[] ={% if existsIn(text,"comment") %} // {{ text.comment }}{% endif %}
+#ifdef CHINESE
+_("{{text.zh}}");
+#else
+_("{{text.en}}");
+#endif{% endif %}
+## endfor
+
+ALIGNED(4)
+const u8 gText_123Dot[][3] = {_("1."), _("2."), _("3.")};
+
+const u8 *const gBagMenu_ReturnToStrings[] =
+{
+    [ITEMMENULOCATION_FIELD]               = gText_TheField,
+    [ITEMMENULOCATION_BATTLE]              = gText_TheBattle,
+    [ITEMMENULOCATION_PARTY]               = gText_ThePokemonList,
+    [ITEMMENULOCATION_SHOP]                = gText_TheShop,
+    [ITEMMENULOCATION_BERRY_TREE]          = gText_TheField,
+    [ITEMMENULOCATION_BERRY_BLENDER_CRUSH] = gText_TheField,
+    [ITEMMENULOCATION_ITEMPC]              = gText_ThePC,
+    [ITEMMENULOCATION_FAVOR_LADY]          = gText_TheField,
+    [ITEMMENULOCATION_QUIZ_LADY]           = gText_TheField,
+    [ITEMMENULOCATION_APPRENTICE]          = gText_TheField,
+    [ITEMMENULOCATION_WALLY]               = gText_TheBattle,
+    [ITEMMENULOCATION_PCBOX]               = gText_ThePC
+};
+
+const u8 *const gPyramidBagMenu_ReturnToStrings[] =
+{
+    [PYRAMIDBAG_LOC_FIELD]       = gText_TheField,
+    [PYRAMIDBAG_LOC_BATTLE]      = gText_TheBattle,
+    [PYRAMIDBAG_LOC_PARTY]       = gText_ThePokemonList,
+    [PYRAMIDBAG_LOC_CHOOSE_TOSS] = gText_TheField
+};
+
+const u8 *const gPocketNamesStringsTable[] =
+{
+    [ITEMS_POCKET] = gText_ItemsPocket,
+    [BALLS_POCKET] = gText_PokeBallsPocket,
+    [TMHM_POCKET]  = gText_TMHMPocket,
+    [BERRIES_POCKET] = gText_BerriesPocket,
+    [KEYITEMS_POCKET] = gText_KeyItemsPocket
+};
+
+const u8 *const gTextTable_Players[] = {
+    gText_F700Players,
+    gText_F701Players,
+    gText_F702Players,
+    gText_F703Players
+};
