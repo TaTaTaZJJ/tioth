@@ -27,6 +27,7 @@
 #include "main.h"
 #include "menu.h"
 #include "money.h"
+#include "mugshot.h"
 #include "mystery_event_script.h"
 #include "palette.h"
 #include "party_menu.h"
@@ -2443,5 +2444,21 @@ bool8 ScrCmd_facefollower(struct ScriptContext *ctx)
 bool8 ScrCmd_checkfollower(struct ScriptContext *ctx)
 {
     CheckPlayerHasFollower();
+    return FALSE;
+}
+
+bool8 ScrCmd_mugshot(struct ScriptContext *ctx)
+{
+    u16 index = ScriptReadHalfword(ctx);
+    u16 right = ScriptReadByte(ctx);
+
+    DrawMugshot(index, right);
+    return FALSE;
+}
+
+bool8 ScrCmd_clearmugshot(struct ScriptContext *ctx)
+{
+    u8 right = ScriptReadByte(ctx);
+    ClearMugshot(right);
     return FALSE;
 }

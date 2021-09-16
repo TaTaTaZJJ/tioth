@@ -1,9 +1,10 @@
 #ifndef GUARD_MUGSHOTS_H
 #define GUARD_MUGSHOTS_H
 
-#define MUGSHOT_PALETTE_NUM 13      //头像的色板位置
-void DrawMugshot(void);
-void ClearMugshot(void);
-u8 getBustTileCount(void);
+void DrawMugshot(int index, bool8 right);
+void ClearMugshot(bool8 right);
+u8 getLeftBustTileCount(void);
+u8 getRightBustTileCount(void);
+bool8 hasMugshotAtRight(void);
 
 #endif //GUARD_MUGSHOTS_H

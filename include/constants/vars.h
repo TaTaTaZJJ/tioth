@@ -265,9 +265,9 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
 #define VAR_CYCLES                           0x40F7 // 上个周期记录，用于每日时间事件
 #define VAR_DIALOG_STYLE                     0x40F8 // 对话框样式
-#define VAR_DIALOG_TYPE                      0x40F9 // 对话框类型，0=正常，1=箭头，2=泡泡 
-#define VAR_MUGSHOT_ID                       0x40FA // 头像ID
-#define VAR_MUGSHOT_DIRECTION                0x40FB // 头像方向, 0=左，1=右
+#define VAR_DIALOG_ARROW_TYPE                0x40F9 // 对话框指向，0=正常，1=向左箭头，2=向左泡泡，3=向右箭头，4=向右泡泡 
+#define VAR_UNUSED_0x40FA                    0x40FA // Unused Var
+#define VAR_UNUSED_0x40FB                    0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                    0x40FE // Unused Var
