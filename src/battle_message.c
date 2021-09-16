@@ -61,7 +61,7 @@ EWRAM_DATA struct BattleMsgData *gBattleMsgDataPtr = NULL;
 static const u8 sText_Trainer1LoseText[] = _("{B_TRAINER1_LOSE_TEXT}");
 static const u8 sText_PkmnGainedEXP[] = 
 #ifdef CHINESE
-_("{B_BUFF1}获得了{B_BUFF2}\n{B_BUFF3}点经验！\p");
+_("{B_BUFF1}获得了{B_BUFF2}\n{B_BUFF3}点经验值！\p"); //TODO 汉化
 #else
 _("{B_BUFF1} gained{B_BUFF2}\n{B_BUFF3} EXP. Points!\p");
 #endif
