@@ -25,10 +25,13 @@ static const u32 sMugshotImg_Test[] = INCBIN_U32("graphics/mugshots/test.4bpp.lz
 static const u16 sMugshotPal_Test[] = INCBIN_U16("graphics/mugshots/test.gbapal");
 static const u32 sMugshotImg_Test2[] = INCBIN_U32("graphics/mugshots/test2.4bpp.lz");
 static const u16 sMugshotPal_Test2[] = INCBIN_U16("graphics/mugshots/test2.gbapal");
+static const u32 sMugshotImg_Majo[] = INCBIN_U32("graphics/mugshots/majo.4bpp.lz");
+static const u16 sMugshotPal_Majo[] = INCBIN_U16("graphics/mugshots/majo.gbapal");
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     [MUGSHOT_TEST] = {.width = 64, .height = 96, .bust = 64, .image = sMugshotImg_Test, .palette = sMugshotPal_Test},
     [MUGSHOT_TEST2] = {.width = 64, .height = 88, .bust = 64, .image = sMugshotImg_Test2, .palette = sMugshotPal_Test2},
+    [MUGSHOT_MAJO] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo, .palette = sMugshotPal_Majo},
 };
 
 void ClearMugshot(bool8 right)
@@ -87,7 +90,7 @@ void DrawMugshot(int index, bool8 right)
             ClearMugshot(TRUE);
         x = (240 - mugshot->width) / 8;
         sMugshotBustRight = mugshot->bust;
-        baseblock = 0xD0;
+        baseblock = 0xF0;
         palNum = 14;
     }
     else

@@ -367,6 +367,17 @@ TestRadioTextbox::
 	return
 
 
+TestNewMugshot::
+	mugshot MUGSHOT_MAJO
+	msgbox TestMugshot_Text_0
+	mugshot MUGSHOT_MAJO, RIGHT
+	msgbox TestMugshot_Text_2
+	clearmughot
+	clearmughot RIGHT
+	closemessage
+	end
+
+
 TestAddMoneywithVar_Text_0:
 	.string "设置变数8000值为999\n测试钱包值增加变数8000值。$"
 
