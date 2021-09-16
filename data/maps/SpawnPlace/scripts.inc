@@ -333,20 +333,20 @@ TestEmotionMovement27:
 	step_end
 
 TestMugshot::
-	mugshot MUGSHOT_TEST2
-	dialogtype ARROW
+	mugshot MUGSHOT_TEST
+	usedialog LEFT_ARROW
 	msgbox TestMugshot_Text_0
-	fadescreen FADE_TO_BLACK
-	dialogtype BUBBLE
+	usedialog LEFT_BUBBLE
 	msgbox TestMugshot_Text_1
-	mugshot MUGSHOT_TEST, RIGHT
-	dialogtype ARROW
+	mugshot MUGSHOT_TEST2, RIGHT
+	usedialog RIGHT_ARROW
 	msgbox TestMugshot_Text_2
-	dialogtype BUBBLE
+	usedialog RIGHT_BUBBLE
 	msgbox TestMugshot_Text_3
+	clearmughot RIGHT
+	usedialog NORMAL
+	msgbox TestMugshot_Text_4, MSGBOX_YESNO
 	closemessage
-	clearmughot
-	fadescreen FADE_FROM_BLACK
 	end
 
 
@@ -417,6 +417,9 @@ TestMugshot_Text_2:
 
 TestMugshot_Text_3:
 	.string "测试头像思考右$"
+
+TestMugshot_Text_4:
+	.string "测试选项框$"
 
 TestWoodenPlate_Text_0:
 	.string "木制路标$"
