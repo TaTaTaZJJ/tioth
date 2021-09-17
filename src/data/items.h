@@ -1155,7 +1155,7 @@ const struct Item gItems[] =
         .itemId = ITEM_SUPER_REPEL,
         .price = 700,
         .holdEffectParam = 200,
-        .description = sSuper除虫喷雾Desc,
+        .description = sSuperRepelDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Repel,
@@ -1204,7 +1204,7 @@ const struct Item gItems[] =
 
     [ITEM_REPEL] =
     {
-        .name = _("Repel"),
+        .name = _("除虫喷雾"),
         .itemId = ITEM_REPEL,
         .price = 400,
         .holdEffectParam = 100,
@@ -4804,7 +4804,7 @@ const struct Item gItems[] =
         .name = _("教学电视"),
         .itemId = ITEM_TEACHY_TV,
         .price = 0,
-        .description = s茶chyTVDesc,
+        .description = sTeachyTVDesc,
         .importance = 1,
         .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -4840,7 +4840,7 @@ const struct Item gItems[] =
 
     [ITEM_TEA] =
     {
-        .name = _("Tea"),
+        .name = _("茶"),
         .itemId = ITEM_TEA,
         .price = 0,
         .description = sTeaDesc,

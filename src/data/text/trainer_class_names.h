@@ -1,4 +1,4 @@
-const u8 gTrainerClassNames[][13] = {
+const u8 gTrainerClassNames[][19] = {
     [TRAINER_CLASS_PKMN_TRAINER_1] = _("{PKMN}训练家"),
     [TRAINER_CLASS_PKMN_TRAINER_2] = _("{PKMN}训练家"),
     [TRAINER_CLASS_HIKER] = _("登山男"),

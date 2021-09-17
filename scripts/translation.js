@@ -26,7 +26,7 @@ fs.readFile(filename, (err, jsonBuffer) => {
                 if (originalLocale == undefined)
                     originalLocale = 'en';
                 if (text[originalLocale] != undefined && text[locale] != undefined)
-                    targetData = targetData.replace(text[originalLocale], text[locale]);
+                    targetData = targetData.replace(`"${text[originalLocale]}"`, `"${text[locale]}"`);
             }
             else {
                 let newText = text[locale];
