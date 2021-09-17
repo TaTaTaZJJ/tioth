@@ -91,13 +91,16 @@ static const u16 gMessageBoxIron_Pal[] = INCBIN_U16("graphics/text_window/messag
 static const u8 gMessageBoxIron_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_iron.4bpp");
 static const u16 gMessageBoxRadio_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_radio.gbapal");
 static const u8 gMessageBoxRadio_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_radio.4bpp");
+static const u16 gMessageBoxBlack_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_black.gbapal");
+static const u8 gMessageBoxBlack_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_black.4bpp");
 
-static const struct TilesPal sDialogFrames[4] =
+static const struct TilesPal sDialogFrames[5] =
 {
     {gMessageBox_Gfx, gMessageBox_Pal},
     {gMessageBoxWood_Gfx, gMessageBoxWood_Pal},
     {gMessageBoxIron_Gfx, gMessageBoxIron_Pal},
     {gMessageBoxRadio_Gfx, gMessageBoxRadio_Pal},
+    {gMessageBoxBlack_Gfx, gMessageBoxBlack_Pal},
 };
 
 // code
