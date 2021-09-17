@@ -17,8 +17,12 @@ fs.readFile(filename, (err, jsonBuffer) => {
         if (err) throw err;
         let targetData = targetBuffer.toString();
         jsonData.texts.forEach(text => {
-            let regex = new RegExp(text.label + '\\[\\].*_\\(.*\\)', 'g')
-            let replacingWord = text.label + "[] = _(\"" + text[locale] + "\")"
+            let regex = new RegExp(text.label + '\\[\\].*_\\(.*\\)', 'g');
+            let replacingWord = text.label + "[] = _(\"" + text[locale] + "\")";
+            if (!regex.test(targetData)) {
+                regex = new RegExp(text.label + '\\](.*)_\\("(.*)\\)', 'g');
+                replacingWord = text.label + "] = _(\"" + text[locale] + "\")";
+            }
             targetData = targetData.replace(regex, replacingWord);
         });
         fs.writeFile(jsonData.path, targetData, (err) => {

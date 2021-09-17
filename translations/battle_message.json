@@ -3505,6 +3505,113 @@
             "label": "sText_Opposing2",
             "zh": "对方",
             "en": "the opposing"
+        },
+
+        {
+            "label": "TYPE_NORMAL",
+            "zh": "一般属性招式",
+            "en": "a NORMAL move"
+        }
+        ,
+        {
+            "label": "TYPE_FIGHTING",
+            "zh": "格斗属性招式",
+            "en": "a FIGHTING move"
+        }
+        ,
+        {
+            "label": "TYPE_FLYING",
+            "zh": "飞行属性招式",
+            "en": "a FLYING move"
+        }
+        ,
+        {
+            "label": "TYPE_POISON",
+            "zh": "毒属性招式",
+            "en": "a POISON move"
+        }
+        ,
+        {
+            "label": "TYPE_GROUND",
+            "zh": "地面属性招式",
+            "en": "a GROUND move"
+        }
+
+        ,
+        {
+            "label": "TYPE_ROCK",
+            "zh": "岩石属性招式",
+            "en": "a ROCK move"
+        }
+        ,
+        {
+            "label": "TYPE_BUG",
+            "zh": "虫属性招式",
+            "en": "a BUG move"
+        }
+        ,
+        {
+            "label": "TYPE_GHOST",
+            "zh": "鬼属性招式",
+            "en": "a GHOST move"
+        }
+        ,
+        {
+            "label": "TYPE_STEEL",
+            "zh": "钢属性招式",
+            "en": "a STEEL move"
+        }
+        ,
+        {
+            "label": "TYPE_MYSTERY",
+            "zh": "未知属性招式",
+            "en": "a ??? move"
+        }
+        ,
+        {
+            "label": "TYPE_FIRE",
+            "zh": "火属性招式",
+            "en": "a FIRE move"
+        }        ,
+        {
+            "label": "TYPE_WATER",
+            "zh": "水属性招式",
+            "en": "a WATER move"
+        }        ,
+        {
+            "label": "TYPE_GRASS",
+            "zh": "草属性招式",
+            "en": "a GRASS move"
+        }        ,
+        {
+            "label": "TYPE_ELECTRIC",
+            "zh": "电属性招式",
+            "en": "an ELECTRIC move"
+        }        ,
+        {
+            "label": "TYPE_PSYCHIC",
+            "zh": "超能力属性招式",
+            "en": "a PSYCHIC move"
+        }        ,
+        {
+            "label": "TYPE_ICE",
+            "zh": "冰属性招式",
+            "en": "an ICE move"
+        }        ,
+        {
+            "label": "TYPE_DRAGON",
+            "zh": "龙属性招式",
+            "en": "a DRAGON move"
+        }  ,
+        {
+            "label": "TYPE_DARK",
+            "zh": "恶属性招式",
+            "en": "a DARK move"
+        }  ,
+        {
+            "label": "TYPE_FAIRY",
+            "zh": "妖精属性招式",
+            "en": "a FAIRY move"
         }
     ]
 }
