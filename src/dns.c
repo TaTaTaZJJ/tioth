@@ -401,7 +401,6 @@ static void DoDnsLightning();
 static u16 GetDNSFilter();
 static bool8 IsMapDNSException();
 static bool8 IsSpritePaletteTagDnsException(u8 palNum);
-static bool8 IsOverworld();
 static bool8 IsCombat();
 static bool8 IsLightActive();
 
@@ -571,15 +570,6 @@ static bool8 IsSpritePaletteTagDnsException(u8 palNum)
         if (GetSpritePaletteTagByPaletteNum(palNum) == gPaletteTagExceptions[i])
             return TRUE;
     return FALSE;
-}
-
-//Returns true if overworld is running
-static bool8 IsOverworld()
-{
-    if (gMain.callback2 == CB2_Overworld || gMain.callback2 ==CB2_OverworldBasic)
-        return TRUE;
-    else
-        return FALSE;
 }
 
 //Returns true if combat is running

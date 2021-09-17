@@ -3228,3 +3228,11 @@ static void SpriteCB_LinkPlayer(struct Sprite *sprite)
         sprite->data[7]++;
     }
 }
+
+bool8 IsOverworld(void)
+{
+    if (gMain.callback2 == CB2_Overworld || gMain.callback2 ==CB2_OverworldBasic)
+        return TRUE;
+    else
+        return FALSE;
+}
