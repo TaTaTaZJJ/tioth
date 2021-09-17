@@ -1,21 +1,6 @@
 {
+    "path": "src/strings.c",
     "texts": [
-        {
-            "aligned": 4,
-            "label": "gText_ExpandedPlaceholder_Empty",
-            "zh": "",
-            "en": ""
-        },
-        {
-            "label": "gText_ExpandedPlaceholder_Kun",
-            "zh": "",
-            "en": ""
-        },
-        {
-            "label": "gText_ExpandedPlaceholder_Chan",
-            "zh": "",
-            "en": ""
-        },
         {
             "label": "gText_ExpandedPlaceholder_Sapphire",
             "zh": "蓝宝石",
@@ -134,14 +119,12 @@
         {
             "label": "gText_UpdatingSaveExternalData",
             "zh": "更新中的存档正在\\n使用外部数据。请稍等。",
-            "en": "Updating save file using external\\ndata. Please wait.",
-            "comment": "Unused"
+            "en": "Updating save file using external\\ndata. Please wait."
         },
         {
             "label": "gText_SaveFileUpdated",
             "zh": "存档已经更新完毕。",
-            "en": "The save file has been updated.",
-            "comment": "Unused"
+            "en": "The save file has been updated."
         },
         {
             "label": "gText_SaveFileCorrupted",
@@ -166,14 +149,12 @@
         {
             "label": "gText_Player",
             "zh": "玩家",
-            "en": "PLAYER",
-            "comment": "Unused"
+            "en": "PLAYER"
         },
         {
             "label": "gText_Pokedex",
             "zh": "图鉴",
-            "en": "POKéDEX",
-            "comment": "Unused"
+            "en": "POKéDEX"
         },
         {
             "label": "gText_Time",
@@ -183,98 +164,79 @@
         {
             "label": "gText_Badges",
             "zh": "徽章",
-            "en": "BADGES",
-            "comment": "Unused"
+            "en": "BADGES"
         },
         {
             "label": "gText_AButton",
             "zh": "A键",
-            "en": "A Button",
-            "comment": "Unused"
+            "en": "A Button"
         },
         {
             "label": "gText_BButton",
             "zh": "B键",
-            "en": "B Button",
-            "comment": "Unused"
+            "en": "B Button"
         },
         {
             "label": "gText_RButton",
             "zh": "R键",
-            "en": "R Button",
-            "comment": "Unused"
+            "en": "R Button"
         },
         {
             "label": "gText_LButton",
             "zh": "L键",
-            "en": "L Button",
-            "comment": "Unused"
+            "en": "L Button"
         },
         {
             "label": "gText_Start",
             "zh": "START",
-            "en": "START",
-            "comment": "Unused"
+            "en": "START"
         },
         {
             "label": "gText_Select",
             "zh": "SELECT",
-            "en": "SELECT",
-            "comment": "Unused"
+            "en": "SELECT"
         },
         {
             "label": "gText_ControlPad",
             "zh": "+ 十字键",
-            "en": "+ Control Pad",
-            "comment": "Unused"
+            "en": "+ Control Pad"
         },
         {
             "label": "gText_LButtonRButton",
             "zh": "L键  R键",
-            "en": "L Button  R Button",
-            "comment": "Unused"
+            "en": "L Button  R Button"
         },
         {
             "label": "gText_Controls",
             "zh": "控制器",
-            "en": "CONTROLS",
-            "comment": "Unused"
+            "en": "CONTROLS"
         },
         {
-            "aligned": 4,
             "label": "gText_PickOk",
             "zh": "{DPAD_UPDOWN}选择 {A_BUTTON}好",
-            "en": "{DPAD_UPDOWN}PICK {A_BUTTON}OK",
-            "comment": "Unused"
+            "en": "{DPAD_UPDOWN}PICK {A_BUTTON}OK"
         },
         {
-            "aligned": 4,
             "label": "gText_Next",
             "zh": "{A_BUTTON}下个",
-            "en": "{A_BUTTON}NEXT",
-            "comment": "Unused"
+            "en": "{A_BUTTON}NEXT"
         },
         {
-            "aligned": 4,
             "label": "gText_NextBack",
             "zh": "{A_BUTTON}下个 {B_BUTTON}返回",
-            "en": "{A_BUTTON}NEXT {B_BUTTON}BACK",
-            "comment": "Unused"
+            "en": "{A_BUTTON}NEXT {B_BUTTON}BACK"
         },
         {
-            "aligned": 4,
             "label": "gText_PickNextCancel",
             "zh": "{DPAD_UPDOWN}选择 {A_BUTTON}下个 {B_BUTTON}取消",
             "en": "{DPAD_UPDOWN}PICK {A_BUTTON}NEXT {B_BUTTON}CANCEL"
         },
         {
-            "aligned": 4,
             "label": "gText_PickCancel",
             "zh": "{DPAD_UPDOWN}选择 {A_BUTTON}{B_BUTTON}取消",
             "en": "{DPAD_UPDOWN}PICK {A_BUTTON}{B_BUTTON}CANCEL"
         },
         {
-            "aligned": 4,
             "label": "gText_AButtonExit",
             "zh": "{A_BUTTON}退出",
             "en": "{A_BUTTON}EXIT"
@@ -512,20 +474,17 @@
         {
             "label": "gText_EmptyPkmnCategory",
             "zh": "                       宝可梦",
-            "en": "                      POKéMON",
-            "comment": "Unused"
+            "en": "                      POKéMON"
         },
         {
             "label": "gText_EmptyHeight",
             "zh": "{CLEAR_TO 0x0C}    .    m",
-            "en": "{CLEAR_TO 0x0C}    '    ”",
-            "comment": "Unused"
+            "en": "{CLEAR_TO 0x0C}    '    ”"
         },
         {
             "label": "gText_EmptyWeight",
             "zh": "        .   kg",
-            "en": "       .   lbs.",
-            "comment": "Unused"
+            "en": "       .   lbs."
         },
         {
             "label": "gText_EmptyPokedexInfo1",
@@ -820,8 +779,7 @@
         {
             "label": "gText_EmptySpace",
             "zh": " ",
-            "en": "",
-            "comment": "Unused"
+            "en": ""
         },
         {
             "label": "gText_WelcomeToHOF",
@@ -866,8 +824,7 @@
         {
             "label": "gText_IdNumberSlash",
             "zh": "IDNo. /",
-            "en": "IDNo. /",
-            "comment": "Unused"
+            "en": "IDNo. /"
         },
         {
             "label": "gText_Name",
@@ -892,8 +849,7 @@
         {
             "label": "gText_Pokemon4",
             "zh": "宝可梦",
-            "en": "POKéMON",
-            "comment": "Unused"
+            "en": "POKéMON"
         },
         {
             "label": "gText_FlyToWhere",
@@ -958,8 +914,7 @@
         {
             "label": "gText_Cancel7",
             "zh": "取消",
-            "en": "CANCEL",
-            "comment": "Unused"
+            "en": "CANCEL"
         },
         {
             "label": "gText_Item",
@@ -1049,14 +1004,12 @@
         {
             "label": "gText_PlusSymbol",
             "zh": "+",
-            "en": "+",
-            "comment": "Unused"
+            "en": "+"
         },
         {
             "label": "gText_RightArrow",
             "zh": "{RIGHT_ARROW}",
-            "en": "{RIGHT_ARROW}",
-            "comment": "Unused"
+            "en": "{RIGHT_ARROW}"
         },
         {
             "label": "gText_IDNumber2",
@@ -1096,8 +1049,7 @@
         {
             "label": "gText_Berry2",
             "zh": " 树果",
-            "en": "BERRY",
-            "comment": "Unused"
+            "en": "BERRY"
         },
         {
             "label": "gText_Coins",
@@ -1334,9 +1286,7 @@
             "zh": "{STR_VAR_1}.{STR_VAR_2}cm",
             "en": "{STR_VAR_1}.{STR_VAR_2}”"
         },
-        {
-            "comment": "Berry firmness strings"
-        },
+        {},
         {
             "label": "gBerryFirmnessString_VerySoft",
             "zh": "柔软至极",
@@ -1470,14 +1420,12 @@
         {
             "label": "gText_Tasty",
             "zh": "可口",
-            "en": "TASTY",
-            "comment": "Unused"
+            "en": "TASTY"
         },
         {
             "label": "gText_Feel",
             "zh": "口味",
-            "en": "FEEL",
-            "comment": "Unused"
+            "en": "FEEL"
         },
         {
             "label": "gText_StowCase",
@@ -1657,8 +1605,7 @@
         {
             "label": "gText_Moves",
             "zh": "招式",
-            "en": "MOVES",
-            "comment": "Unused"
+            "en": "MOVES"
         },
         {
             "label": "gText_Enter",
@@ -1898,8 +1845,7 @@
         {
             "label": "gText_PkmnRegainhedHealth",
             "zh": "{STR_VAR_1}回复体力了！{PAUSE_UNTIL_PRESS}",
-            "en": "{STR_VAR_1} regained health.{PAUSE_UNTIL_PRESS}",
-            "comment": "Unused"
+            "en": "{STR_VAR_1} regained health.{PAUSE_UNTIL_PRESS}"
         },
         {
             "label": "gText_PkmnBecameHealthy",
@@ -1959,8 +1905,7 @@
         {
             "label": "gText_TeachWhichPokemon2",
             "zh": "让哪个宝可梦学会？",
-            "en": "Teach which POKéMON?",
-            "comment": "Unused"
+            "en": "Teach which POKéMON?"
         },
         {
             "label": "gText_ChoosePokemon",
@@ -2203,49 +2148,41 @@
             "en": "{STR_VAR_1}を ぐるぐるこうかんに\\nだして よろしいですか？"
         },
         {
-            "aligned": 4,
             "label": "gText_OnlyPkmnForBattle",
             "zh": "这是你最后一个能\\n战斗的宝可梦了！",
             "en": "That's your only\\nPOKéMON for battle."
         },
         {
-            "aligned": 4,
             "label": "gText_PkmnCantBeTradedNow",
             "zh": "这个宝可梦暂时不能\\n交换！",
             "en": "That POKéMON can't be traded\\nnow."
         },
         {
-            "aligned": 4,
             "label": "gText_EggCantBeTradedNow",
             "zh": "蛋不能交换！",
             "en": "An EGG can't be traded now."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainersPkmnCantBeTraded",
             "zh": "对方训练师的宝可梦\\n暂时不能交换！",
             "en": "The other TRAINER's POKéMON\\ncan't be traded now."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainerCantAcceptPkmn",
             "zh": "对方训练师暂时不能\\n接受这个宝可梦！",
             "en": "The other TRAINER can't accept\\nthat POKéMON now."
         },
         {
-            "aligned": 4,
             "label": "gText_CantTradeWithTrainer",
             "zh": "你暂时不能和那个\\n训练师交换！",
             "en": "You can't trade with that\\nTRAINER now."
         },
         {
-            "aligned": 4,
             "label": "gText_NotPkmnOtherTrainerWants",
             "zh": "这不是对方训练师\\n想要的宝可梦种类！",
             "en": "That isn't the type of POKéMON\\nthat the other TRAINER wants."
         },
         {
-            "aligned": 4,
             "label": "gText_ThatIsntAnEgg",
             "zh": "那不是宝可梦蛋！",
             "en": "That isn't an EGG."
@@ -2353,8 +2290,7 @@
         {
             "label": "gText_Events",
             "zh": "事件",
-            "en": "EVENTS",
-            "comment": "Unused"
+            "en": "EVENTS"
         },
         {
             "label": "gText_Switch",
@@ -2504,8 +2440,7 @@
         {
             "label": "gText_Var3Var1SlashVar2",
             "zh": "{STR_VAR_3}{STR_VAR_1}/{STR_VAR_2}",
-            "en": "{STR_VAR_3}{STR_VAR_1}/{STR_VAR_2}",
-            "comment": "Unused"
+            "en": "{STR_VAR_3}{STR_VAR_1}/{STR_VAR_2}"
         },
         {
             "label": "gText_Decorate",
@@ -2630,8 +2565,7 @@
         {
             "label": "gText_MustBePlacedOnDesk",
             "zh": "这个不能放在这里！\\n只能摆在桌子等物体上。",
-            "en": "This can't be placed here.\\nIt must be on a DESK, etc.",
-            "comment": "Unused"
+            "en": "This can't be placed here.\\nIt must be on a DESK, etc."
         },
         {
             "label": "gText_CantPlaceInRoom",
@@ -2861,14 +2795,12 @@
         {
             "label": "gText_Littleroot",
             "zh": "未白",
-            "en": "LITTLEROOT",
-            "comment": "Unused. Given the context, Briney may at one point have been able to sail the player here"
+            "en": "LITTLEROOT"
         },
         {
             "label": "gText_Lilycove",
             "zh": "水静",
-            "en": "LILYCOVE",
-            "comment": "Unused. Given the context, Briney may at one point have been able to sail the player here"
+            "en": "LILYCOVE"
         },
         {
             "label": "gText_Dewford",
@@ -2903,8 +2835,7 @@
         {
             "label": "gText_Judging",
             "zh": "评判",
-            "en": "Judging",
-            "comment": "unused"
+            "en": "Judging"
         },
         {
             "label": "gText_CoolnessContest",
@@ -2944,8 +2875,7 @@
         {
             "label": "gText_Count",
             "zh": "总数",
-            "en": "COUNT",
-            "comment": "unused"
+            "en": "COUNT"
         },
         {
             "label": "gText_Registry",
@@ -2995,20 +2925,17 @@
         {
             "label": "gText_Toxic",
             "zh": "有毒",
-            "en": "TOXIC",
-            "comment": "Unused"
+            "en": "TOXIC"
         },
         {
             "label": "gText_Ok3",
             "zh": "好",
-            "en": "OK",
-            "comment": "Unused"
+            "en": "OK"
         },
         {
             "label": "gText_Quit",
             "zh": "退出",
-            "en": "QUIT",
-            "comment": "Unused"
+            "en": "QUIT"
         },
         {
             "label": "gText_SawIt",
@@ -3033,8 +2960,7 @@
         {
             "label": "gText_Info4",
             "zh": "说明",
-            "en": "INFO",
-            "comment": "Unused"
+            "en": "INFO"
         },
         {
             "label": "gText_SingleBattle",
@@ -3054,8 +2980,7 @@
         {
             "label": "gText_MrBriney",
             "zh": "哈奇",
-            "en": "MR. BRINEY",
-            "comment": "Unused"
+            "en": "MR. BRINEY"
         },
         {
             "label": "gText_Challenge",
@@ -3900,8 +3825,7 @@
         {
             "label": "gText_Dot",
             "zh": ".",
-            "en": ".",
-            "comment": "Unused"
+            "en": "."
         },
         {
             "label": "gText_BigGuy",
@@ -4491,8 +4415,7 @@
         {
             "label": "gText_WhatWouldYouLikeToDo",
             "zh": "你想做什么呢？",
-            "en": "What would you like to do?",
-            "comment": "Unused"
+            "en": "What would you like to do?"
         },
         {
             "label": "gText_WithdrawPokemon",
@@ -4592,8 +4515,7 @@
         {
             "label": "gText_NoTrainersRegistered",
             "zh": "没有登记训练师。",
-            "en": "No TRAINERS are registered.",
-            "comment": "Unused"
+            "en": "No TRAINERS are registered."
         },
         {
             "label": "gText_CheckPartyPokemonInDetail",
@@ -4653,26 +4575,22 @@
         {
             "label": "gText_Detail",
             "zh": "详细",
-            "en": "DETAIL",
-            "comment": "Unused"
+            "en": "DETAIL"
         },
         {
             "label": "gText_Call2",
             "zh": "呼叫",
-            "en": "CALL",
-            "comment": "Unused"
+            "en": "CALL"
         },
         {
             "label": "gText_UnusedExit",
             "zh": "退出",
-            "en": "EXIT",
-            "comment": "Unused"
+            "en": "EXIT"
         },
         {
             "label": "gText_CantCallOpponentHere",
             "zh": "你不能在这里呼叫对手！",
-            "en": "Can't call opponent here.",
-            "comment": "Unused"
+            "en": "Can't call opponent here."
         },
         {
             "label": "gText_PokenavMatchCall_Strategy",
@@ -4772,26 +4690,22 @@
         {
             "label": "gText_Ribbons",
             "zh": "缎带数",
-            "en": "RIBBONS",
-            "comment": "Unused"
+            "en": "RIBBONS"
         },
         {
             "label": "gText_PokemonMaleLv",
             "zh": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}",
-            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}"
         },
         {
             "label": "gText_PokemonFemaleLv",
             "zh": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}",
-            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}"
         },
         {
             "label": "gText_PokemonNoGenderLv",
             "zh": "{DYNAMIC 0}/{LV}{DYNAMIC 1}",
-            "en": "{DYNAMIC 0}/{LV}{DYNAMIC 1}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}/{LV}{DYNAMIC 1}"
         },
         {
             "label": "gText_Unknown",
@@ -4826,20 +4740,17 @@
         {
             "label": "gText_PokemonMaleLv2",
             "zh": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}"
         },
         {
             "label": "gText_PokemonFemaleLv2",
             "zh": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY}/{LV}{DYNAMIC 1}{DYNAMIC 2}"
         },
         {
             "label": "gText_PokemonNoGenderLv2",
             "zh": "{DYNAMIC 0}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "en": "{DYNAMIC 0}/{LV}{DYNAMIC 1}{DYNAMIC 2}",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}/{LV}{DYNAMIC 1}{DYNAMIC 2}"
         },
         {
             "label": "gText_CombineFourWordsOrPhrases",
@@ -4874,8 +4785,7 @@
         {
             "label": "gText_WithFourPhrases",
             "zh": "使用四个句子",
-            "en": "With four phrases,",
-            "comment": "Unused"
+            "en": "With four phrases,"
         },
         {
             "label": "gText_CombineNineWordsOrPhrases",
@@ -4930,8 +4840,7 @@
         {
             "label": "gText_TheMailSalutation",
             "zh": "邮件的称呼语",
-            "en": "The MAIL salutation",
-            "comment": "Unused"
+            "en": "The MAIL salutation"
         },
         {
             "label": "gText_TheBardsSong2",
@@ -5016,8 +4925,7 @@
         {
             "label": "gText_TheQuizColon",
             "zh": "测试：",
-            "en": "The quiz:",
-            "comment": "Unused"
+            "en": "The quiz:"
         },
         {
             "label": "gText_ApprenticePhrase",
@@ -5057,26 +4965,22 @@
         {
             "label": "gText_QuitEditing2",
             "zh": "停止编辑吗？",
-            "en": "Quit editing?",
-            "comment": "Unused"
+            "en": "Quit editing?"
         },
         {
             "label": "gText_EditedTextWillNotBeSaved",
             "zh": "已编辑的内容不会被保存，",
-            "en": "The edited text will not be saved.",
-            "comment": "Unused"
+            "en": "The edited text will not be saved."
         },
         {
             "label": "gText_IsThatOkay",
             "zh": "这样可以吗？",
-            "en": "Is that okay?",
-            "comment": "Unused"
+            "en": "Is that okay?"
         },
         {
             "label": "gText_PleaseEnterPhraseOrWord",
             "zh": "请输入一个短语或者词语，",
-            "en": "Please enter a phrase or word.",
-            "comment": "Unused"
+            "en": "Please enter a phrase or word."
         },
         {
             "label": "gText_EntireTextCantBeDeleted",
@@ -5096,8 +5000,7 @@
         {
             "label": "gText_ThatsTrendyAlready",
             "zh": "这已经很流行了！",
-            "en": "That's trendy already!",
-            "comment": "Unused"
+            "en": "That's trendy already!"
         },
         {
             "label": "gText_CombineTwoWordsOrPhrases3",
@@ -5107,32 +5010,27 @@
         {
             "label": "gText_QuitGivingInfo",
             "zh": "放弃给予信息吗？",
-            "en": "Quit giving information?",
-            "comment": "Unused"
+            "en": "Quit giving information?"
         },
         {
             "label": "gText_StopGivingPkmnMail2",
             "zh": "停止给予宝可梦邮件吗？",
-            "en": "Stop giving the POKéMON MAIL?",
-            "comment": "Unused"
+            "en": "Stop giving the POKéMON MAIL?"
         },
         {
             "label": "gText_CreateAQuiz2",
             "zh": "完成一个测试！",
-            "en": "Create a quiz!",
-            "comment": "Unused"
+            "en": "Create a quiz!"
         },
         {
             "label": "gText_SetTheAnswer",
             "zh": "请设置答案！",
-            "en": "Set the answer!",
-            "comment": "Unused"
+            "en": "Set the answer!"
         },
         {
             "label": "gText_CancelSelection",
             "zh": "是否取消选择？",
-            "en": "Cancel the selection?",
-            "comment": "Unused"
+            "en": "Cancel the selection?"
         },
         {
             "label": "gText_Profile",
@@ -5182,8 +5080,7 @@
         {
             "label": "gJPText_WhatIsTheQuizAnswer",
             "zh": "クイズの こたえは？",
-            "en": "クイズの こたえは？",
-            "comment": "Unused"
+            "en": "クイズの こたえは？"
         },
         {
             "label": "gText_ApprenticesPhrase",
@@ -5838,8 +5735,7 @@
         {
             "label": "gText_PokeDollar",
             "zh": "$",
-            "en": "¥",
-            "comment": "Unused"
+            "en": "¥"
         },
         {
             "label": "gText_TrainerCardPokedex",
@@ -5859,8 +5755,7 @@
         {
             "label": "gText_Points",
             "zh": "点数",
-            "en": "points",
-            "comment": "Unused"
+            "en": "points"
         },
         {
             "label": "gText_TrainerCardTime",
@@ -5870,8 +5765,7 @@
         {
             "label": "gJPText_BattlePoints",
             "zh": "ゲ-ムポイント",
-            "en": "ゲ-ムポイント",
-            "comment": "Unused. Name presumed, translation is Game Points"
+            "en": "ゲ-ムポイント"
         },
         {
             "label": "gText_Var1sTrainerCard",
@@ -5989,31 +5883,26 @@
             "en": "BATTLE PYRAMID"
         },
         {
-            "aligned": 4,
             "label": "gText_FacilitySingle",
             "zh": "{STR_VAR_1}单人",
             "en": "{STR_VAR_1} SINGLE"
         },
         {
-            "aligned": 4,
             "label": "gText_FacilityDouble",
             "zh": "{STR_VAR_1}双人",
             "en": "{STR_VAR_1} DOUBLE"
         },
         {
-            "aligned": 4,
             "label": "gText_FacilityMulti",
             "zh": "{STR_VAR_1}多人",
             "en": "{STR_VAR_1} MULTI"
         },
         {
-            "aligned": 4,
             "label": "gText_FacilityLink",
             "zh": "{STR_VAR_1}联机",
             "en": "{STR_VAR_1} LINK"
         },
         {
-            "aligned": 4,
             "label": "gText_Facility",
             "zh": "{STR_VAR_1}",
             "en": "{STR_VAR_1}"
@@ -6086,8 +5975,7 @@
         {
             "label": "gText_ColorDynamic6WhiteDynamic5",
             "zh": "{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR6 WHITE DYNAMIC_COLOR5}",
-            "en": "{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR6 WHITE DYNAMIC_COLOR5}",
-            "comment": "Unused"
+            "en": "{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR6 WHITE DYNAMIC_COLOR5}"
         },
         {
             "label": "gText_HighlightDarkGray",
@@ -6097,8 +5985,7 @@
         {
             "label": "gText_EmptySpace2",
             "zh": " ",
-            "en": "",
-            "comment": "Unused"
+            "en": ""
         },
         {
             "label": "gText_DynColor2Male",
@@ -6178,14 +6065,12 @@
         {
             "label": "gJPText_PlayersXPokemon",
             "zh": "{DYNAMIC 0}の{DYNAMIC 1}ひきめ:",
-            "en": "{DYNAMIC 0}の{DYNAMIC 1}ひきめ:",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}の{DYNAMIC 1}ひきめ:"
         },
         {
             "label": "gJPText_PlayersXPokmonDoesNotExist",
             "zh": "{DYNAMIC 0}の{DYNAMIC 1}ひきめは いません",
-            "en": "{DYNAMIC 0}の{DYNAMIC 1}ひきめは いません",
-            "comment": "Unused"
+            "en": "{DYNAMIC 0}の{DYNAMIC 1}ひきめは いません"
         },
         {
             "label": "gText_ExitingChat",
@@ -6353,175 +6238,146 @@
             "en": "Would you like to nickname the newly\\nhatched {STR_VAR_1}?"
         },
         {
-            "aligned": 4,
             "label": "gText_ReadyPickBerry",
             "zh": "是否准备开始树果混合？\\n请选择一个树果。\\p",
             "en": "Are you ready to BERRY-CRUSH?\\nPlease pick a BERRY for use.\\p"
         },
         {
-            "aligned": 4,
             "label": "gText_WaitForAllChooseBerry",
             "zh": "请等待每一位\\n成员选择好树果。",
             "en": "Please wait while each member\\nchooses a BERRY."
         },
         {
-            "aligned": 4,
             "label": "gText_EndedWithXUnitsPowder",
             "zh": "{PAUSE_MUSIC}{PLAY_BGM MUS_LEVEL_UP}你最终获得{STR_VAR_1}单位\\n圆滑的树果粉末。{RESUME_MUSIC}\\p你树果粉末的\\n总数是{STR_VAR_2}。\\p",
             "en": "{PAUSE_MUSIC}{PLAY_BGM MUS_LEVEL_UP}You ended up with {STR_VAR_1} units of\\nsilky-smooth BERRY POWDER.{RESUME_MUSIC}\\pYour total amount of BERRY POWDER\\nis {STR_VAR_2}.\\p"
         },
         {
-            "aligned": 4,
             "label": "gText_RecordingGameResults",
             "zh": "在存档中记录\\n你的结果，\\l请稍后。",
             "en": "Recording your game results in the\\nsave file.\\lPlease wait."
         },
         {
-            "aligned": 4,
             "label": "gText_PlayBerryCrushAgain",
             "zh": "是否再来一次树果混合？",
             "en": "Want to play BERRY CRUSH again?"
         },
         {
-            "aligned": 4,
             "label": "gText_YouHaveNoBerries",
             "zh": "你没有树果。\\n即将取消游戏。",
             "en": "You have no BERRIES.\\nThe game will be canceled."
         },
         {
-            "aligned": 4,
             "label": "gText_MemberDroppedOut",
             "zh": "有一位成员退出，\\n即将取消游戏。",
             "en": "A member dropped out.\\nThe game will be canceled."
         },
         {
-            "aligned": 4,
             "label": "gText_TimesUpNoGoodPowder",
             "zh": "时间到。\\p不能制作出好的\\n树果粉末……\\p",
             "en": "Time's up.\\pGood BERRY POWDER could not be\\nmade…\\p"
         },
         {
-            "aligned": 4,
             "label": "gText_CommunicationStandby2",
             "zh": "通信等待中……",
             "en": "Communication standby…"
         },
         {
-            "aligned": 4,
             "label": "gText_1DotBlueF700",
             "zh": "1. {COLOR BLUE}{SHADOW LIGHT_BLUE}{DYNAMIC 0}",
             "en": "1. {COLOR BLUE}{SHADOW LIGHT_BLUE}{DYNAMIC 0}"
         },
         {
-            "aligned": 4,
             "label": "gText_1DotF700",
             "zh": "1. {DYNAMIC 0}",
             "en": "1. {DYNAMIC 0}"
         },
         {
-            "aligned": 4,
             "label": "gText_SpaceTimes2",
             "zh": "次",
             "en": "time(s)"
         },
         {
-            "aligned": 4,
             "label": "gText_XDotY",
             "zh": "{STR_VAR_1}.{STR_VAR_2}",
             "en": "{STR_VAR_1}.{STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_Var1Berry",
             "zh": "{STR_VAR_1}个树果",
             "en": "{STR_VAR_1} BERRY"
         },
         {
-            "aligned": 4,
             "label": "gText_TimeColon",
             "zh": "时间：",
             "en": "Time:"
         },
         {
-            "aligned": 4,
             "label": "gText_PressingSpeed",
             "zh": "按键速度：",
             "en": "Pressing Speed:"
         },
         {
-            "aligned": 4,
             "label": "gText_Silkiness",
             "zh": "圆滑度：",
             "en": "Silkiness:"
         },
         {
-            "aligned": 4,
             "label": "gText_StrVar1",
             "zh": "{STR_VAR_1}",
             "en": "{STR_VAR_1}"
         },
         {
-            "aligned": 4,
             "label": "gText_SpaceMin",
             "zh": "分",
             "en": "min. "
         },
         {
-            "aligned": 4,
             "label": "gText_XDotY2",
             "zh": "{STR_VAR_1}.{STR_VAR_2}",
             "en": "{STR_VAR_1}.{STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_SpaceSec",
             "zh": "秒",
             "en": "sec."
         },
         {
-            "aligned": 4,
             "label": "gText_XDotY3",
             "zh": "{STR_VAR_1}.{STR_VAR_2}",
             "en": "{STR_VAR_1}.{STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_TimesPerSec",
             "zh": "次/秒",
             "en": "Times/sec."
         },
         {
-            "aligned": 4,
             "label": "gText_Var1Percent",
             "zh": "{STR_VAR_1}%",
             "en": "{STR_VAR_1}%"
         },
         {
-            "aligned": 4,
             "label": "gText_PressesRankings",
             "zh": "键速排名No.",
             "en": "No. of Presses Rankings"
         },
         {
-            "aligned": 4,
             "label": "gText_CrushingResults",
             "zh": "混合结果",
             "en": "Crushing Results"
         },
         {
-            "aligned": 4,
             "label": "gText_NeatnessRankings",
             "zh": "圆滑度排名",
             "en": "Neatness Rankings"
         },
         {
-            "aligned": 4,
             "label": "gText_CoopRankings",
             "zh": "协力合作排名",
             "en": "Cooperative Rankings"
         },
         {
-            "aligned": 4,
             "label": "gText_PressingPowerRankings",
             "zh": "按压力度排名",
             "en": "Pressing-Power Rankings"
@@ -6559,8 +6415,7 @@
         {
             "label": "gText_UnusedCancel",
             "zh": "取消",
-            "en": "CANCEL",
-            "comment": "Unused"
+            "en": "CANCEL"
         },
         {
             "label": "gText_EmptyString7",
@@ -6925,8 +6780,7 @@
         {
             "label": "gText_Pokemon3",
             "zh": "宝可梦",
-            "en": "POKeMON",
-            "comment": "Unused"
+            "en": "POKeMON"
         },
         {
             "label": "gJPText_MysteryGift",
@@ -6956,8 +6810,7 @@
         {
             "label": "gJPText_SelectConnectAndPressA",
             "zh": "カードeリーダー{PLUS}の　‘つうしん'を\\nえらんで　Aボタンを　おしてください",
-            "en": "カードeリーダー{PLUS}の　‘つうしん'を\\nえらんで　Aボタンを　おしてください",
-            "comment": "Unused"
+            "en": "カードeリーダー{PLUS}の　‘つうしん'を\\nえらんで　Aボタンを　おしてください"
         },
         {
             "label": "gJPText_LinkIsIncorrect",
@@ -6972,8 +6825,7 @@
         {
             "label": "gJPText_UnableConnectWithEReader",
             "zh": "カードeリーダー{PLUS}と\\nつうしん　できません",
-            "en": "カードeリーダー{PLUS}と\\nつうしん　できません",
-            "comment": "Unused"
+            "en": "カードeリーダー{PLUS}と\\nつうしん　できません"
         },
         {
             "label": "gJPText_Connecting",
@@ -6988,8 +6840,7 @@
         {
             "label": "gJPText_ConnectionErrorTryAgain",
             "zh": "つうしん　エラーです\\nはじめから　やりなおして　ください",
-            "en": "つうしん　エラーです\\nはじめから　やりなおして　ください",
-            "comment": "Link error"
+            "en": "つうしん　エラーです\\nはじめから　やりなおして　ください"
         },
         {
             "label": "gJPText_AllowEReaderToLoadCard",
@@ -7029,8 +6880,7 @@
         {
             "label": "gText_3Dashes",
             "zh": "——",
-            "en": "---",
-            "comment": "Unused"
+            "en": "---"
         },
         {
             "label": "gText_SingleBattleRoomResults",
@@ -7173,43 +7023,36 @@
             "en": "Floors cleared: {STR_VAR_1}"
         },
         {
-            "aligned": 4,
             "label": "gText_RecordsLv50",
             "zh": "50级",
             "en": "LV. 50"
         },
         {
-            "aligned": 4,
             "label": "gText_RecordsOpenLevel",
             "zh": "自由级",
             "en": "OPEN LEVEL"
         },
         {
-            "aligned": 4,
             "label": "gText_FrontierFacilityWinStreak",
             "zh": "连胜：{STR_VAR_2}",
             "en": "Win streak: {STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_FrontierFacilityClearStreak",
             "zh": "连续过关：{STR_VAR_2}",
             "en": "Clear streak: {STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_FrontierFacilityRoomsCleared",
             "zh": "通过房间：{STR_VAR_2}",
             "en": "Rooms cleared: {STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_FrontierFacilityKOsStreak",
             "zh": "连续击败：{STR_VAR_2}",
             "en": "KOs in a row: {STR_VAR_2}"
         },
         {
-            "aligned": 4,
             "label": "gText_FrontierFacilityFloorsCleared",
             "zh": "通过楼层：{STR_VAR_2}",
             "en": "Floors cleared: {STR_VAR_2}"
@@ -7422,32 +7265,27 @@
         {
             "label": "gText_Days",
             "zh": "天",
-            "en": "Days",
-            "comment": "Unused"
+            "en": "Days"
         },
         {
             "label": "gText_TimeColon2",
             "zh": "时间：",
-            "en": "Time:",
-            "comment": "Unused"
+            "en": "Time:"
         },
         {
             "label": "gText_GameTime",
             "zh": "游戏时间",
-            "en": "Game time",
-            "comment": "Unused"
+            "en": "Game time"
         },
         {
             "label": "gText_RTCTime",
             "zh": "时钟时间",
-            "en": "RTC time",
-            "comment": "Unused"
+            "en": "RTC time"
         },
         {
             "label": "gText_UpdatedTime",
             "zh": "更新时间",
-            "en": "Updated time",
-            "comment": "Unused"
+            "en": "Updated time"
         },
         {
             "label": "gText_MenuPokedex",
@@ -7582,14 +7420,12 @@
         {
             "label": "gJPText_Player",
             "zh": "プレイヤー",
-            "en": "プレイヤー",
-            "comment": "Unused"
+            "en": "プレイヤー"
         },
         {
             "label": "gJPText_Sama",
             "zh": "さま",
-            "en": "さま",
-            "comment": "Unused"
+            "en": "さま"
         },
         {
             "label": "gText_DexHoenn",
@@ -7609,14 +7445,12 @@
         {
             "label": "gJPText_GameFreak",
             "zh": "{COLOR RED}{SHADOW LIGHT_RED}ゲ-ムフリ-ク",
-            "en": "{COLOR RED}{SHADOW LIGHT_RED}ゲ-ムフリ-ク",
-            "comment": "Unused"
+            "en": "{COLOR RED}{SHADOW LIGHT_RED}ゲ-ムフリ-ク"
         },
         {
             "label": "gText_DiplomaEmpty",
             "zh": "{COLOR RED}{SHADOW LIGHT_RED}",
-            "en": "{COLOR RED}{SHADOW LIGHT_RED}",
-            "comment": "Unused"
+            "en": "{COLOR RED}{SHADOW LIGHT_RED}"
         },
         {
             "label": "gText_Hoenn",
@@ -7663,9 +7497,7 @@
             "zh": "好好照顾{STR_VAR_3}！",
             "en": "Take good care of {STR_VAR_3}!"
         },
-        {
-            "comment": "Easy chat group names"
-        },
+        {},
         {
             "label": "gEasyChatGroupName_Pokemon",
             "zh": "宝可梦",
@@ -8069,14 +7901,12 @@
         {
             "label": "gText_Swap2",
             "zh": "交换",
-            "en": "SWAP",
-            "comment": "Unused"
+            "en": "SWAP"
         },
         {
             "label": "gText_Accept",
             "zh": "接受",
-            "en": "ACCEPT",
-            "comment": "Unused"
+            "en": "ACCEPT"
         },
         {
             "label": "gText_AcceptThisPkmn",
@@ -8086,8 +7916,7 @@
         {
             "label": "gText_4Spaces",
             "zh": "    ",
-            "en": "   ",
-            "comment": "Unused"
+            "en": "   "
         },
         {
             "label": "gText_SamePkmnInPartyAlready",
@@ -8165,362 +7994,301 @@
             "en": "{DYNAMIC 3} players"
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCards",
             "zh": "神秘卡片",
             "en": "WONDER CARDS"
         },
         {
-            "aligned": 4,
             "label": "gText_WonderNews",
             "zh": "神秘新闻",
             "en": "WONDER NEWS"
         },
         {
-            "aligned": 4,
             "label": "gText_WirelessCommunication",
             "zh": "无线通信",
             "en": "WIRELESS COMMUNICATION"
         },
         {
-            "aligned": 4,
             "label": "gText_Friend2",
             "zh": "好友",
             "en": "FRIEND"
         },
         {
-            "aligned": 4,
             "label": "gText_Exit3",
             "zh": "退出",
             "en": "EXIT"
         },
         {
-            "aligned": 4,
             "label": "gText_Receive",
             "zh": "接收",
             "en": "RECEIVE"
         },
         {
-            "aligned": 4,
             "label": "gText_Send",
             "zh": "发送",
             "en": "SEND"
         },
         {
-            "aligned": 4,
             "label": "gText_Toss",
             "zh": "投掷",
             "en": "TOSS"
         },
         {
-            "aligned": 4,
             "label": "gText_VarietyOfEventsImportedWireless",
             "zh": "各种各样的事件将会通过\\n无线通信中载入。",
             "en": "A variety of events will be imported\\nover Wireless Communication."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCardsInPossession",
             "zh": "阅读你拥有的神秘卡片。",
             "en": "Read the WONDER CARDS in your\\npossession."
         },
         {
-            "aligned": 4,
             "label": "gText_ReadNewsThatArrived",
             "zh": "阅读最新的新闻。",
             "en": "Read the NEWS that arrived."
         },
         {
-            "aligned": 4,
             "label": "gText_ReturnToTitle",
             "zh": "返回标题画面。",
             "en": "Return to the title screen."
         },
         {
-            "aligned": 4,
             "label": "gText_DontHaveCardNewOneInput",
             "zh": "你现在没有神秘卡片，\\n所以你将会收到一张新的卡片。",
             "en": "You don't have a WONDER CARD,\\nso a new CARD will be input."
         },
         {
-            "aligned": 4,
             "label": "gText_DontHaveNewsNewOneInput",
             "zh": "你没有任何神秘新闻，\\n所以你将会收到新的新闻。",
             "en": "You don't have any WONDER NEWS,\\nso new NEWS will be input."
         },
         {
-            "aligned": 4,
             "label": "gText_WhereShouldCardBeAccessed",
             "zh": "你希望从哪里获取\\n神秘卡片？",
             "en": "Where should the WONDER CARD\\nbe accessed?"
         },
         {
-            "aligned": 4,
             "label": "gText_WhereShouldNewsBeAccessed",
             "zh": "你希望在哪里察看\\n神秘新闻？",
             "en": "Where should the WONDER NEWS\\nbe accessed?"
         },
         {
-            "aligned": 4,
             "label": "gText_CommunicationStandbyBButtonCancel",
             "zh": "通信待机中……\\nB键：取消",
-            "en": "Communication standby…\\nB Button: Cancel",
-            "comment": "Unused"
+            "en": "Communication standby…\\nB Button: Cancel"
         },
         {
-            "aligned": 4,
             "label": "gText_Communicating",
             "zh": "通信中……",
             "en": "Communicating…"
         },
         {
-            "aligned": 4,
             "label": "gText_CommunicationCompleted",
             "zh": "通信完成。",
             "en": "Communication completed."
         },
         {
-            "aligned": 4,
             "label": "gText_CommunicationError",
             "zh": "通信错误。",
             "en": "Communication error."
         },
         {
-            "aligned": 4,
             "label": "gText_CommunicationCanceled",
             "zh": "通信已被取消。",
             "en": "Communication has been canceled."
         },
         {
-            "aligned": 4,
             "label": "gText_ThrowAwayWonderCard",
             "zh": "丢弃神秘卡片\\n并重新领取新的？",
             "en": "Throw away the WONDER CARD\\nand input a new CARD?"
         },
         {
-            "aligned": 4,
             "label": "gText_HaventReceivedCardsGift",
             "zh": "你还未收到卡片的赠礼\\n确认继续？",
             "en": "You haven't received the CARD's gift\\nyet. Input a new CARD anyway?"
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCardReceivedFrom",
             "zh": "从{STR_VAR_1}处收到了一张\\n神秘卡片。",
             "en": "A WONDER CARD has been received\\nfrom {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderNewsReceivedFrom",
             "zh": "从{STR_VAR_1}处收到了一条\\n神秘新闻。",
             "en": "A WONDER NEWS item has been\\nreceived from {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCardReceived",
             "zh": "已收到了新的神秘卡片",
             "en": "A new WONDER CARD has been\\nreceived."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderNewsReceived",
             "zh": "已收到了新的神秘新闻",
             "en": "A new WONDER NEWS item has been\\nreceived."
         },
         {
-            "aligned": 4,
             "label": "gText_NewStampReceived",
             "zh": "已收到了新的印章。",
             "en": "A new STAMP has been received."
         },
         {
-            "aligned": 4,
             "label": "gText_NewTrainerReceived",
             "zh": "新的训练师已经到达。",
             "en": "A new TRAINER has arrived."
         },
         {
-            "aligned": 4,
             "label": "gText_AlreadyHadCard",
             "zh": "你已经拥有那张神秘卡片。",
             "en": "You already had that\\nWONDER CARD."
         },
         {
-            "aligned": 4,
             "label": "gText_AlreadyHadNews",
             "zh": "你已经拥有那条神秘新闻。",
             "en": "You already had that\\nWONDER NEWS item."
         },
         {
-            "aligned": 4,
             "label": "gText_AlreadyHadStamp",
             "zh": "你已经拥有那个印章。",
             "en": "You already had that\\nSTAMP."
         },
         {
-            "aligned": 4,
             "label": "gText_NoMoreRoomForStamps",
             "zh": "没有增加印章的空间了。",
             "en": "There's no more room for adding\\nSTAMPS."
         },
         {
-            "aligned": 4,
             "label": "gText_RecordUploadedViaWireless",
             "zh": "你的记录已用无线通信更新。",
             "en": "Your record has been uploaded via\\nWIRELESS COMMUNICATION."
         },
         {
-            "aligned": 4,
             "label": "gText_CantAcceptCardFromTrainer",
             "zh": "你不能从这个训练师处接收\\n神秘卡片。",
             "en": "You can't accept a WONDER CARD\\nfrom this TRAINER."
         },
         {
-            "aligned": 4,
             "label": "gText_CantAcceptNewsFromTrainer",
             "zh": "你不能从这个训练师处接收\\n神秘新闻。",
             "en": "You can't accept WONDER NEWS\\nfrom this TRAINER."
         },
         {
-            "aligned": 4,
             "label": "gText_NothingSentOver",
             "zh": "什么也没发生……",
             "en": "Nothing was sent over…"
         },
         {
-            "aligned": 4,
             "label": "gText_WhatToDoWithCards",
             "zh": "你想用神秘卡片做什么？",
             "en": "What would you like to do\\nwith the WONDER CARDS?"
         },
         {
-            "aligned": 4,
             "label": "gText_WhatToDoWithNews",
             "zh": "你想用神秘新闻做什么？",
             "en": "What would you like to do\\nwith the WONDER NEWS?"
         },
         {
-            "aligned": 4,
             "label": "gText_SendingWonderCard",
             "zh": "正在发送你的神秘卡片……",
             "en": "Sending your WONDER CARD…"
         },
         {
-            "aligned": 4,
             "label": "gText_SendingWonderNews",
             "zh": "正在发送你的神秘新闻……",
             "en": "Sending your WONDER NEWS item…"
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCardSentTo",
             "zh": "你的神秘卡片已发送给{STR_VAR_1}。",
             "en": "Your WONDER CARD has been sent\\nto {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderNewsSentTo",
             "zh": "你的神秘新闻已发送给{STR_VAR_1}。",
             "en": "Your WONDER NEWS item has been\\nsent to {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_StampSentTo",
             "zh": "一个印章已发送给{STR_VAR_1}。",
             "en": "A STAMP has been sent to {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_GiftSentTo",
             "zh": "一份礼物也发送给{STR_VAR_1}。",
             "en": "A GIFT has been sent to {STR_VAR_1}."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainerHasCard",
             "zh": "对方训练师已有同样的神秘卡片。",
             "en": "The other TRAINER has the same\\nWONDER CARD already."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainerHasNews",
             "zh": "对方训练师已有同样的神秘新闻。",
             "en": "The other TRAINER has the same\\nWONDER NEWS already."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainerHasStamp",
             "zh": "对方训练师已有同样的印章。",
             "en": "The other TRAINER has the same\\nSTAMP already."
         },
         {
-            "aligned": 4,
             "label": "gText_OtherTrainerCanceled",
             "zh": "对方训练师取消了通信。",
             "en": "The other TRAINER canceled\\ncommunication."
         },
         {
-            "aligned": 4,
             "label": "gText_CantSendGiftToTrainer",
             "zh": "你不能将神秘礼物送给这个训练师。",
             "en": "You can't send a MYSTERY GIFT to\\nthis TRAINER."
         },
         {
-            "aligned": 4,
             "label": "gText_IfThrowAwayCardEventWontHappen",
             "zh": "如果丢弃卡片，\\n其中的事件将不会发生。可以吗？",
             "en": "If you throw away the CARD,\\nits event won't happen. Okay?"
         },
         {
-            "aligned": 4,
             "label": "gText_OkayToDiscardNews",
             "zh": "删除这条新闻可以吗？",
             "en": "Is it okay to discard this\\nNEWS item?"
         },
         {
-            "aligned": 4,
             "label": "gText_HaventReceivedGiftOkayToDiscard",
             "zh": "你还未收到礼物，真的确定删除吗？",
             "en": "You haven't received the\\nGIFT. Is it okay to discard?"
         },
         {
-            "aligned": 4,
             "label": "gText_DataWillBeSaved",
             "zh": "资料保存中……\\n请稍候。",
             "en": "Data will be saved.\\nPlease wait."
         },
         {
-            "aligned": 4,
             "label": "gText_SaveCompletedPressA",
             "zh": "保存完毕。\\n请按A键。",
             "en": "Save completed.\\nPlease press the A Button."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderCardThrownAway",
             "zh": "丢弃了神秘卡片。",
             "en": "The WONDER CARD was thrown away."
         },
         {
-            "aligned": 4,
             "label": "gText_WonderNewsThrownAway",
             "zh": "删除了神秘新闻。",
             "en": "The WONDER NEWS was thrown away."
         },
         {
-            "aligned": 4,
             "label": "gText_MysteryGift",
             "zh": "神秘礼物",
             "en": "MYSTERY GIFT"
         },
         {
-            "aligned": 4,
             "label": "gText_PickOKExit",
             "zh": "{DPAD_UPDOWN}选择 {A_BUTTON}确认 {B_BUTTON}退出",
             "en": "{DPAD_UPDOWN}PICK {A_BUTTON}OK {B_BUTTON}EXIT"
         },
         {
-            "aligned": 4,
             "label": "gText_PickOKCancel",
             "zh": "{DPAD_UPDOWN}选择 {A_BUTTON}确认 {B_BUTTON}取消",
             "en": "{DPAD_UPDOWN}PICK {A_BUTTON}OK {B_BUTTON}CANCEL"
@@ -8678,8 +8446,7 @@
         {
             "label": "gText_MoveRelearnedPkmnDidNotLearnMove",
             "zh": "{STR_VAR_1}没有学会\\n技能{STR_VAR_2}。",
-            "en": "{STR_VAR_1} did not learn the\\nmove {STR_VAR_2}.",
-            "comment": "Unused"
+            "en": "{STR_VAR_1} did not learn the\\nmove {STR_VAR_2}."
         },
         {
             "label": "gText_MoveRelearnerGiveUp",
@@ -8704,8 +8471,7 @@
         {
             "label": "gText_MoveRelearnerType",
             "zh": "属性/",
-            "en": "TYPE/",
-            "comment": "Unused"
+            "en": "TYPE/"
         },
         {
             "label": "gText_MoveRelearnerPP",
@@ -8915,92 +8681,77 @@
         {
             "label": "gText_NoWeather",
             "zh": "天气正常",
-            "en": "NO WEATHER",
-            "comment": "Below are unused debug names for weather types"
+            "en": "NO WEATHER"
         },
         {
             "label": "gText_Sunny",
             "zh": "晴天",
-            "en": "SUNNY",
-            "comment": "Unused"
+            "en": "SUNNY"
         },
         {
             "label": "gText_Sunny2",
             "zh": "晴天2",
-            "en": "SUNNY2",
-            "comment": "Unused"
+            "en": "SUNNY2"
         },
         {
             "label": "gText_Rain",
             "zh": "下雨",
-            "en": "RAIN",
-            "comment": "Unused"
+            "en": "RAIN"
         },
         {
             "label": "gText_Snow",
             "zh": "下雪",
-            "en": "SNOW",
-            "comment": "Unused"
+            "en": "SNOW"
         },
         {
             "label": "gText_Lightning",
             "zh": "闪电",
-            "en": "LIGHTNING",
-            "comment": "Unused"
+            "en": "LIGHTNING"
         },
         {
             "label": "gText_Fog",
             "zh": "雾",
-            "en": "FOG",
-            "comment": "Unused"
+            "en": "FOG"
         },
         {
             "label": "gText_VolcanoAsh",
             "zh": "火山灰",
-            "en": "VOLCANO ASH",
-            "comment": "Unused"
+            "en": "VOLCANO ASH"
         },
         {
             "label": "gText_Sandstorm",
             "zh": "沙尘暴",
-            "en": "SANDSTORM",
-            "comment": "Unused"
+            "en": "SANDSTORM"
         },
         {
             "label": "gText_Fog2",
             "zh": "雾2",
-            "en": "FOG2",
-            "comment": "Unused"
+            "en": "FOG2"
         },
         {
             "label": "gText_Seafloor",
             "zh": "海底",
-            "en": "SEAFLOOR",
-            "comment": "Unused"
+            "en": "SEAFLOOR"
         },
         {
             "label": "gText_Cloudy",
             "zh": "多云",
-            "en": "CLOUDY",
-            "comment": "Unused"
+            "en": "CLOUDY"
         },
         {
             "label": "gText_Sunny3",
             "zh": "晴天3",
-            "en": "SUNNY3",
-            "comment": "Unused"
+            "en": "SUNNY3"
         },
         {
             "label": "gText_HeavyRain",
             "zh": "大雨",
-            "en": "HEAVY RAIN",
-            "comment": "Unused"
+            "en": "HEAVY RAIN"
         },
         {
             "label": "gText_Seafloor2",
             "zh": "海底2",
-            "en": "SEAFLOOR2",
-            "comment": "Unused"
+            "en": "SEAFLOOR2"
         },
         {
             "label": "gText_DelAll",

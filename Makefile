@@ -451,5 +451,7 @@ $(SYM): $(ELF)
 ###################
 ### translation ###
 ###################
+LOCALE?= zh
+TRANSLATION_DIR := translations
 translation:
-	$(JSONPROC) src/strings.json src/strings.json.txt src/strings.c
+	@$(foreach file, $(wildcard $(TRANSLATION_DIR)/*), node scripts/translation.js $(file) $(LOCALE);)
