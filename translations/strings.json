@@ -1286,7 +1286,6 @@
             "zh": "{STR_VAR_1}.{STR_VAR_2}cm",
             "en": "{STR_VAR_1}.{STR_VAR_2}”"
         },
-        {},
         {
             "label": "gBerryFirmnessString_VerySoft",
             "zh": "柔软至极",
@@ -7497,7 +7496,6 @@
             "zh": "好好照顾{STR_VAR_3}！",
             "en": "Take good care of {STR_VAR_3}!"
         },
-        {},
         {
             "label": "gEasyChatGroupName_Pokemon",
             "zh": "宝可梦",
