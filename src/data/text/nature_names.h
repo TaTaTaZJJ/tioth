@@ -1,6 +1,3 @@
-#include "config.h"
-
-#ifdef CHINESE
 static const u8 sHardyNatureName[] = _("勤奋");
 static const u8 sLonelyNatureName[] = _("怕寂寞");
 static const u8 sBraveNatureName[] = _("勇敢");
@@ -26,33 +23,6 @@ static const u8 sGentleNatureName[] = _("温顺");
 static const u8 sSassyNatureName[] = _("自大");
 static const u8 sCarefulNatureName[] = _("慎重");
 static const u8 sQuirkyNatureName[] = _("浮躁");
-#else
-static const u8 sHardyNatureName[] = _("Hardy");
-static const u8 sLonelyNatureName[] = _("Lonely");
-static const u8 sBraveNatureName[] = _("Brave");
-static const u8 sAdamantNatureName[] = _("Adamant");
-static const u8 sNaughtyNatureName[] = _("Naughty");
-static const u8 sBoldNatureName[] = _("Bold");
-static const u8 sDocileNatureName[] = _("Docile");
-static const u8 sRelaxedNatureName[] = _("Relaxed");
-static const u8 sImpishNatureName[] = _("Impish");
-static const u8 sLaxNatureName[] = _("Lax");
-static const u8 sTimidNatureName[] = _("Timid");
-static const u8 sHastyNatureName[] = _("Hasty");
-static const u8 sSeriousNatureName[] = _("Serious");
-static const u8 sJollyNatureName[] = _("Jolly");
-static const u8 sNaiveNatureName[] = _("Naive");
-static const u8 sModestNatureName[] = _("Modest");
-static const u8 sMildNatureName[] = _("Mild");
-static const u8 sQuietNatureName[] = _("Quiet");
-static const u8 sBashfulNatureName[] = _("Bashful");
-static const u8 sRashNatureName[] = _("Rash");
-static const u8 sCalmNatureName[] = _("Calm");
-static const u8 sGentleNatureName[] = _("Gentle");
-static const u8 sSassyNatureName[] = _("Sassy");
-static const u8 sCarefulNatureName[] = _("Careful");
-static const u8 sQuirkyNatureName[] = _("Quirky");
-#endif
 
 const u8 *const gNatureNamePointers[NUM_NATURES] = 
 {
