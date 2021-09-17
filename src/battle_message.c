@@ -1692,7 +1692,7 @@ const u16 gStatusConditionsStringIds[] =
 };
 
 const u8 gText_PkmnIsEvolving[] = _("咦？\n{STR_VAR_1}开始进化了！");
-const u8 gText_CongratsPkmnEvolved[] = _("恭喜！你的{STR_VAR_1}\n进化成{STR_VAR_2}！{WAIT_SE}A\p");
+const u8 gText_CongratsPkmnEvolved[] = _("恭喜！你的{STR_VAR_1}\n进化成{STR_VAR_2}！{WAIT_SE}\p");
 const u8 gText_PkmnStoppedEvolving[] = _("嗯？{STR_VAR_1}\n停止进化了！\p");
 const u8 gText_EllipsisQuestionMark[] = _("……？\p");
 const u8 gText_WhatWillPkmnDo[] = _("想要\n{B_ACTIVE_NAME_WITH_PREFIX}做什么？");

@@ -3018,7 +3018,7 @@
         },
         {
             "label": "gText_CongratsPkmnEvolved",
-            "zh": "恭喜！你的{STR_VAR_1}\\n进化成{STR_VAR_2}！{WAIT_SE}A\\p",
+            "zh": "恭喜！你的{STR_VAR_1}\\n进化成{STR_VAR_2}！{WAIT_SE}\\p",
             "en": "Congratulations! Your {STR_VAR_1}\\nevolved into {STR_VAR_2}!{WAIT_SE}\\p"
         },
         {
