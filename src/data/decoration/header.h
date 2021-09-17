@@ -3,11 +3,7 @@ const struct Decoration gDecorations[] =
     [DECOR_NONE] =
     {
         .id = DECOR_NONE,
-#ifdef CHINESE
-        .name = _("SMALL DESK"),         //TODO: 汉化 （低优先度）
-#else
-        .name = _("SMALL DESK"),
-#endif
+        .name = _("小桌子"),
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DESK,
@@ -19,11 +15,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SMALL_DESK] =
     {
         .id = DECOR_SMALL_DESK,
-#ifdef CHINESE
-        .name = _("SMALL DESK"),         //TODO: 汉化 （低优先度）
-#else
-        .name = _("SMALL DESK"),
-#endif
+        .name = _("小桌子"),
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DESK,
@@ -35,11 +27,7 @@ const struct Decoration gDecorations[] =
     [DECOR_POKEMON_DESK] =
     {
         .id = DECOR_POKEMON_DESK,
-#ifdef CHINESE
-        .name = _("POKéMON DESK"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("POKéMON DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DESK,
@@ -51,11 +39,7 @@ const struct Decoration gDecorations[] =
     [DECOR_HEAVY_DESK] =
     {
         .id = DECOR_HEAVY_DESK,
-#ifdef CHINESE
-        .name = _("HEAVY DESK"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("HEAVY DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x2,
         .category = DECORCAT_DESK,
@@ -67,11 +51,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RAGGED_DESK] =
     {
         .id = DECOR_RAGGED_DESK,
-#ifdef CHINESE
-        .name = _("RAGGED DESK"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("RAGGED DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x2,
         .category = DECORCAT_DESK,
@@ -83,11 +63,7 @@ const struct Decoration gDecorations[] =
     [DECOR_COMFORT_DESK] =
     {
         .id = DECOR_COMFORT_DESK,
-#ifdef CHINESE
-        .name = _("COMFORT DESK"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("COMFORT DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x2,
         .category = DECORCAT_DESK,
@@ -99,11 +75,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PRETTY_DESK] =
     {
         .id = DECOR_PRETTY_DESK,
-#ifdef CHINESE
-        .name = _("PRETTY DESK"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("PRETTY DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_DESK,
@@ -115,11 +87,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BRICK_DESK] =
     {
         .id = DECOR_BRICK_DESK,
-#ifdef CHINESE
-        .name = _("BRICK DESK"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("BRICK DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_DESK,
@@ -131,11 +99,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CAMP_DESK] =
     {
         .id = DECOR_CAMP_DESK,
-#ifdef CHINESE
-        .name = _("CAMP DESK"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("CAMP DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_DESK,
@@ -147,11 +111,7 @@ const struct Decoration gDecorations[] =
     [DECOR_HARD_DESK] =
     {
         .id = DECOR_HARD_DESK,
-#ifdef CHINESE
-        .name = _("HARD DESK"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("HARD DESK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_DESK,
@@ -163,11 +123,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SMALL_CHAIR] =
     {
         .id = DECOR_SMALL_CHAIR,
-#ifdef CHINESE
-        .name = _("SMALL CHAIR"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("SMALL CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -179,11 +135,7 @@ const struct Decoration gDecorations[] =
     [DECOR_POKEMON_CHAIR] =
     {
         .id = DECOR_POKEMON_CHAIR,
-#ifdef CHINESE
-        .name = _("POKéMON CHAIR"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("POKéMON CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -195,11 +147,7 @@ const struct Decoration gDecorations[] =
     [DECOR_HEAVY_CHAIR] =
     {
         .id = DECOR_HEAVY_CHAIR,
-#ifdef CHINESE
-        .name = _("HEAVY CHAIR"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("HEAVY CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -211,11 +159,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PRETTY_CHAIR] =
     {
         .id = DECOR_PRETTY_CHAIR,
-#ifdef CHINESE
-        .name = _("PRETTY CHAIR"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("PRETTY CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -227,11 +171,7 @@ const struct Decoration gDecorations[] =
     [DECOR_COMFORT_CHAIR] =
     {
         .id = DECOR_COMFORT_CHAIR,
-#ifdef CHINESE
-        .name = _("COMFORT CHAIR"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("COMFORT CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -243,11 +183,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RAGGED_CHAIR] =
     {
         .id = DECOR_RAGGED_CHAIR,
-#ifdef CHINESE
-        .name = _("RAGGED CHAIR"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("RAGGED CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -259,11 +195,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BRICK_CHAIR] =
     {
         .id = DECOR_BRICK_CHAIR,
-#ifdef CHINESE
-        .name = _("BRICK CHAIR"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("BRICK CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -275,11 +207,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CAMP_CHAIR] =
     {
         .id = DECOR_CAMP_CHAIR,
-#ifdef CHINESE
-        .name = _("CAMP CHAIR"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("CAMP CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -291,11 +219,7 @@ const struct Decoration gDecorations[] =
     [DECOR_HARD_CHAIR] =
     {
         .id = DECOR_HARD_CHAIR,
-#ifdef CHINESE
-        .name = _("HARD CHAIR"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("HARD CHAIR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CHAIR,
@@ -307,11 +231,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RED_PLANT] =
     {
         .id = DECOR_RED_PLANT,
-#ifdef CHINESE
-        .name = _("RED PLANT"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("RED PLANT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_PLANT,
@@ -323,11 +243,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TROPICAL_PLANT] =
     {
         .id = DECOR_TROPICAL_PLANT,
-#ifdef CHINESE
-        .name = _("TROPICAL PLANT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("TROPICAL PLANT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_PLANT,
@@ -339,11 +255,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PRETTY_FLOWERS] =
     {
         .id = DECOR_PRETTY_FLOWERS,
-#ifdef CHINESE
-        .name = _("PRETTY FLOWERS"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("PRETTY FLOWERS"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_PLANT,
@@ -355,11 +267,7 @@ const struct Decoration gDecorations[] =
     [DECOR_COLORFUL_PLANT] =
     {
         .id = DECOR_COLORFUL_PLANT,
-#ifdef CHINESE
-        .name = _("COLORFUL PLANT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("COLORFUL PLANT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_2x2,
         .category = DECORCAT_PLANT,
@@ -371,11 +279,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BIG_PLANT] =
     {
         .id = DECOR_BIG_PLANT,
-#ifdef CHINESE
-        .name = _("BIG PLANT"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("BIG PLANT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_2x2,
         .category = DECORCAT_PLANT,
@@ -387,11 +291,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GORGEOUS_PLANT] =
     {
         .id = DECOR_GORGEOUS_PLANT,
-#ifdef CHINESE
-        .name = _("GORGEOUS PLANT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("GORGEOUS PLANT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_2x2,
         .category = DECORCAT_PLANT,
@@ -403,11 +303,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RED_BRICK] =
     {
         .id = DECOR_RED_BRICK,
-#ifdef CHINESE
-        .name = _("RED BRICK"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("RED BRICK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -419,11 +315,7 @@ const struct Decoration gDecorations[] =
     [DECOR_YELLOW_BRICK] =
     {
         .id = DECOR_YELLOW_BRICK,
-#ifdef CHINESE
-        .name = _("YELLOW BRICK"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("YELLOW BRICK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -435,11 +327,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BLUE_BRICK] =
     {
         .id = DECOR_BLUE_BRICK,
-#ifdef CHINESE
-        .name = _("BLUE BRICK"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("BLUE BRICK"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -451,11 +339,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RED_BALLOON] =
     {
         .id = DECOR_RED_BALLOON,
-#ifdef CHINESE
-        .name = _("RED BALLOON"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("RED BALLOON"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -467,11 +351,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BLUE_BALLOON] =
     {
         .id = DECOR_BLUE_BALLOON,
-#ifdef CHINESE
-        .name = _("BLUE BALLOON"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("BLUE BALLOON"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -483,11 +363,7 @@ const struct Decoration gDecorations[] =
     [DECOR_YELLOW_BALLOON] =
     {
         .id = DECOR_YELLOW_BALLOON,
-#ifdef CHINESE
-        .name = _("YELLOW BALLOON"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("YELLOW BALLOON"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -499,11 +375,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RED_TENT] =
     {
         .id = DECOR_RED_TENT,
-#ifdef CHINESE
-        .name = _("RED TENT"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("RED TENT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_ORNAMENT,
@@ -515,11 +387,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BLUE_TENT] =
     {
         .id = DECOR_BLUE_TENT,
-#ifdef CHINESE
-        .name = _("BLUE TENT"),  //TODO: 汉化 （低优先度）
-#else
         .name = _("BLUE TENT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_ORNAMENT,
@@ -531,11 +399,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SOLID_BOARD] =
     {
         .id = DECOR_SOLID_BOARD,
-#ifdef CHINESE
-        .name = _("SOLID BOARD"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("SOLID BOARD"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -547,11 +411,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SLIDE] =
     {
         .id = DECOR_SLIDE,
-#ifdef CHINESE
-        .name = _("SLIDE"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("SLIDE"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_2x4,
         .category = DECORCAT_ORNAMENT,
@@ -563,11 +423,7 @@ const struct Decoration gDecorations[] =
     [DECOR_FENCE_LENGTH] =
     {
         .id = DECOR_FENCE_LENGTH,
-#ifdef CHINESE
-        .name = _("FENCE LENGTH"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("FENCE LENGTH"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -579,11 +435,7 @@ const struct Decoration gDecorations[] =
     [DECOR_FENCE_WIDTH] =
     {
         .id = DECOR_FENCE_WIDTH,
-#ifdef CHINESE
-        .name = _("FENCE WIDTH"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("FENCE WIDTH"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -595,11 +447,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TIRE] =
     {
         .id = DECOR_TIRE,
-#ifdef CHINESE
-        .name = _("TIRE"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("TIRE"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_2x2,
         .category = DECORCAT_ORNAMENT,
@@ -611,11 +459,7 @@ const struct Decoration gDecorations[] =
     [DECOR_STAND] =
     {
         .id = DECOR_STAND,
-#ifdef CHINESE
-        .name = _("STAND"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("STAND"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_4x2,
         .category = DECORCAT_ORNAMENT,
@@ -627,11 +471,7 @@ const struct Decoration gDecorations[] =
     [DECOR_MUD_BALL] =
     {
         .id = DECOR_MUD_BALL,
-#ifdef CHINESE
-        .name = _("MUD BALL"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("MUD BALL"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -643,11 +483,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BREAKABLE_DOOR] =
     {
         .id = DECOR_BREAKABLE_DOOR,
-#ifdef CHINESE
-        .name = _("BREAKABLE DOOR"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("BREAKABLE DOOR"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -659,11 +495,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SAND_ORNAMENT] =
     {
         .id = DECOR_SAND_ORNAMENT,
-#ifdef CHINESE
-        .name = _("SAND ORNAMENT"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("SAND ORNAMENT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -675,11 +507,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SILVER_SHIELD] =
     {
         .id = DECOR_SILVER_SHIELD,
-#ifdef CHINESE
-        .name = _("SILVER SHIELD"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("SILVER SHIELD"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -691,11 +519,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GOLD_SHIELD] =
     {
         .id = DECOR_GOLD_SHIELD,
-#ifdef CHINESE
-        .name = _("GOLD SHIELD"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("GOLD SHIELD"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -707,11 +531,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GLASS_ORNAMENT] =
     {
         .id = DECOR_GLASS_ORNAMENT,
-#ifdef CHINESE
-        .name = _("GLASS ORNAMENT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("GLASS ORNAMENT"),
-#endif
         .permission = DECORPERM_BEHIND_FLOOR,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_ORNAMENT,
@@ -723,11 +543,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TV] =
     {
         .id = DECOR_TV,
-#ifdef CHINESE
-        .name = _("TV"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("TV"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -739,11 +555,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ROUND_TV] =
     {
         .id = DECOR_ROUND_TV,
-#ifdef CHINESE
-        .name = _("ROUND TV"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("ROUND TV"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -755,11 +567,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CUTE_TV] =
     {
         .id = DECOR_CUTE_TV,
-#ifdef CHINESE
-        .name = _("CUTE TV"),    //TODO: 汉化 （低优先度）
-#else
         .name = _("CUTE TV"),
-#endif
         .permission = DECORPERM_SOLID_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_ORNAMENT,
@@ -771,11 +579,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GLITTER_MAT] =
     {
         .id = DECOR_GLITTER_MAT,
-#ifdef CHINESE
-        .name = _("GLITTER MAT"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("GLITTER MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -787,11 +591,7 @@ const struct Decoration gDecorations[] =
     [DECOR_JUMP_MAT] =
     {
         .id = DECOR_JUMP_MAT,
-#ifdef CHINESE
-        .name = _("JUMP MAT"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("JUMP MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -803,11 +603,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SPIN_MAT] =
     {
         .id = DECOR_SPIN_MAT,
-#ifdef CHINESE
-        .name = _("SPIN MAT"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("SPIN MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -819,11 +615,7 @@ const struct Decoration gDecorations[] =
     [DECOR_C_LOW_NOTE_MAT] =
     {
         .id = DECOR_C_LOW_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("C Low NOTE MAT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("C Low NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -835,11 +627,7 @@ const struct Decoration gDecorations[] =
     [DECOR_D_NOTE_MAT] =
     {
         .id = DECOR_D_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("D NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("D NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -851,11 +639,7 @@ const struct Decoration gDecorations[] =
     [DECOR_E_NOTE_MAT] =
     {
         .id = DECOR_E_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("E NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("E NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -867,11 +651,7 @@ const struct Decoration gDecorations[] =
     [DECOR_F_NOTE_MAT] =
     {
         .id = DECOR_F_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("F NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("F NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -883,11 +663,7 @@ const struct Decoration gDecorations[] =
     [DECOR_G_NOTE_MAT] =
     {
         .id = DECOR_G_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("G NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("G NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -899,11 +675,7 @@ const struct Decoration gDecorations[] =
     [DECOR_A_NOTE_MAT] =
     {
         .id = DECOR_A_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("A NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("A NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -915,11 +687,7 @@ const struct Decoration gDecorations[] =
     [DECOR_B_NOTE_MAT] =
     {
         .id = DECOR_B_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("B NOTE MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("B NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -931,11 +699,7 @@ const struct Decoration gDecorations[] =
     [DECOR_C_HIGH_NOTE_MAT] =
     {
         .id = DECOR_C_HIGH_NOTE_MAT,
-#ifdef CHINESE
-        .name = _("C High NOTE MAT"),    //TODO: 汉化 （低优先度）
-#else
         .name = _("C High NOTE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_MAT,
@@ -947,11 +711,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SURF_MAT] =
     {
         .id = DECOR_SURF_MAT,
-#ifdef CHINESE
-        .name = _("SURF MAT"),   //TODO: 汉化 （低优先度）
-#else
         .name = _("SURF MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -963,11 +723,7 @@ const struct Decoration gDecorations[] =
     [DECOR_THUNDER_MAT] =
     {
         .id = DECOR_THUNDER_MAT,
-#ifdef CHINESE
-        .name = _("THUNDER MAT"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("THUNDER MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -979,11 +735,7 @@ const struct Decoration gDecorations[] =
     [DECOR_FIRE_BLAST_MAT] =
     {
         .id = DECOR_FIRE_BLAST_MAT,
-#ifdef CHINESE
-        .name = _("FIRE BLAST MAT"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("FIRE BLAST MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -995,11 +747,7 @@ const struct Decoration gDecorations[] =
     [DECOR_POWDER_SNOW_MAT] =
     {
         .id = DECOR_POWDER_SNOW_MAT,
-#ifdef CHINESE
-        .name = _("POWDER SNOW MAT"),    //TODO: 汉化 （低优先度）
-#else
         .name = _("POWDER SNOW MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -1011,11 +759,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ATTRACT_MAT] =
     {
         .id = DECOR_ATTRACT_MAT,
-#ifdef CHINESE
-        .name = _("ATTRACT MAT"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("ATTRACT MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -1027,11 +771,7 @@ const struct Decoration gDecorations[] =
     [DECOR_FISSURE_MAT] =
     {
         .id = DECOR_FISSURE_MAT,
-#ifdef CHINESE
-        .name = _("FISSURE MAT"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("FISSURE MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -1043,11 +783,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SPIKES_MAT] =
     {
         .id = DECOR_SPIKES_MAT,
-#ifdef CHINESE
-        .name = _("SPIKES MAT"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("SPIKES MAT"),
-#endif
         .permission = DECORPERM_PASS_FLOOR,
         .shape = DECORSHAPE_3x3,
         .category = DECORCAT_MAT,
@@ -1059,11 +795,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BALL_POSTER] =
     {
         .id = DECOR_BALL_POSTER,
-#ifdef CHINESE
-        .name = _("BALL POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("BALL POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_POSTER,
@@ -1075,11 +807,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GREEN_POSTER] =
     {
         .id = DECOR_GREEN_POSTER,
-#ifdef CHINESE
-        .name = _("GREEN POSTER"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("GREEN POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_POSTER,
@@ -1091,11 +819,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RED_POSTER] =
     {
         .id = DECOR_RED_POSTER,
-#ifdef CHINESE
-        .name = _("RED POSTER"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("RED POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_POSTER,
@@ -1107,11 +831,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BLUE_POSTER] =
     {
         .id = DECOR_BLUE_POSTER,
-#ifdef CHINESE
-        .name = _("BLUE POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("BLUE POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_POSTER,
@@ -1123,11 +843,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CUTE_POSTER] =
     {
         .id = DECOR_CUTE_POSTER,
-#ifdef CHINESE
-        .name = _("CUTE POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("CUTE POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_POSTER,
@@ -1139,11 +855,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PIKA_POSTER] =
     {
         .id = DECOR_PIKA_POSTER,
-#ifdef CHINESE
-        .name = _("PIKA POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("PIKA POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1155,11 +867,7 @@ const struct Decoration gDecorations[] =
     [DECOR_LONG_POSTER] =
     {
         .id = DECOR_LONG_POSTER,
-#ifdef CHINESE
-        .name = _("LONG POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("LONG POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1171,11 +879,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SEA_POSTER] =
     {
         .id = DECOR_SEA_POSTER,
-#ifdef CHINESE
-        .name = _("SEA POSTER"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("SEA POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1187,11 +891,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SKY_POSTER] =
     {
         .id = DECOR_SKY_POSTER,
-#ifdef CHINESE
-        .name = _("SKY POSTER"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("SKY POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1203,11 +903,7 @@ const struct Decoration gDecorations[] =
     [DECOR_KISS_POSTER] =
     {
         .id = DECOR_KISS_POSTER,
-#ifdef CHINESE
-        .name = _("KISS POSTER"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("KISS POSTER"),
-#endif
         .permission = DECORPERM_NA_WALL,
         .shape = DECORSHAPE_2x1,
         .category = DECORCAT_POSTER,
@@ -1219,11 +915,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PICHU_DOLL] =
     {
         .id = DECOR_PICHU_DOLL,
-#ifdef CHINESE
-        .name = _("PICHU DOLL"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("PICHU DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1235,11 +927,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PIKACHU_DOLL] =
     {
         .id = DECOR_PIKACHU_DOLL,
-#ifdef CHINESE
-        .name = _("PIKACHU DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("PIKACHU DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1251,11 +939,7 @@ const struct Decoration gDecorations[] =
     [DECOR_MARILL_DOLL] =
     {
         .id = DECOR_MARILL_DOLL,
-#ifdef CHINESE
-        .name = _("MARILL DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("MARILL DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1267,11 +951,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TOGEPI_DOLL] =
     {
         .id = DECOR_TOGEPI_DOLL,
-#ifdef CHINESE
-        .name = _("TOGEPI DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("TOGEPI DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1283,11 +963,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CYNDAQUIL_DOLL] =
     {
         .id = DECOR_CYNDAQUIL_DOLL,
-#ifdef CHINESE
-        .name = _("CYNDAQUIL DOLL"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("CYNDAQUIL DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1299,11 +975,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CHIKORITA_DOLL] =
     {
         .id = DECOR_CHIKORITA_DOLL,
-#ifdef CHINESE
-        .name = _("CHIKORITA DOLL"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("CHIKORITA DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1315,11 +987,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TOTODILE_DOLL] =
     {
         .id = DECOR_TOTODILE_DOLL,
-#ifdef CHINESE
-        .name = _("TOTODILE DOLL"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("TOTODILE DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1331,11 +999,7 @@ const struct Decoration gDecorations[] =
     [DECOR_JIGGLYPUFF_DOLL] =
     {
         .id = DECOR_JIGGLYPUFF_DOLL,
-#ifdef CHINESE
-        .name = _("JIGGLYPUFF DOLL"),    //TODO: 汉化 （低优先度）
-#else
         .name = _("JIGGLYPUFF DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1347,11 +1011,7 @@ const struct Decoration gDecorations[] =
     [DECOR_MEOWTH_DOLL] =
     {
         .id = DECOR_MEOWTH_DOLL,
-#ifdef CHINESE
-        .name = _("MEOWTH DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("MEOWTH DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1363,11 +1023,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CLEFAIRY_DOLL] =
     {
         .id = DECOR_CLEFAIRY_DOLL,
-#ifdef CHINESE
-        .name = _("CLEFAIRY DOLL"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("CLEFAIRY DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1379,11 +1035,7 @@ const struct Decoration gDecorations[] =
     [DECOR_DITTO_DOLL] =
     {
         .id = DECOR_DITTO_DOLL,
-#ifdef CHINESE
-        .name = _("DITTO DOLL"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("DITTO DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1395,11 +1047,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SMOOCHUM_DOLL] =
     {
         .id = DECOR_SMOOCHUM_DOLL,
-#ifdef CHINESE
-        .name = _("SMOOCHUM DOLL"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("SMOOCHUM DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1411,11 +1059,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TREECKO_DOLL] =
     {
         .id = DECOR_TREECKO_DOLL,
-#ifdef CHINESE
-        .name = _("TREECKO DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("TREECKO DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1427,11 +1071,7 @@ const struct Decoration gDecorations[] =
     [DECOR_TORCHIC_DOLL] =
     {
         .id = DECOR_TORCHIC_DOLL,
-#ifdef CHINESE
-        .name = _("TORCHIC DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("TORCHIC DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1443,11 +1083,7 @@ const struct Decoration gDecorations[] =
     [DECOR_MUDKIP_DOLL] =
     {
         .id = DECOR_MUDKIP_DOLL,
-#ifdef CHINESE
-        .name = _("MUDKIP DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("MUDKIP DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1459,11 +1095,7 @@ const struct Decoration gDecorations[] =
     [DECOR_DUSKULL_DOLL] =
     {
         .id = DECOR_DUSKULL_DOLL,
-#ifdef CHINESE
-        .name = _("DUSKULL DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("DUSKULL DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1475,11 +1107,7 @@ const struct Decoration gDecorations[] =
     [DECOR_WYNAUT_DOLL] =
     {
         .id = DECOR_WYNAUT_DOLL,
-#ifdef CHINESE
-        .name = _("WYNAUT DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("WYNAUT DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1491,11 +1119,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BALTOY_DOLL] =
     {
         .id = DECOR_BALTOY_DOLL,
-#ifdef CHINESE
-        .name = _("BALTOY DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("BALTOY DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1507,11 +1131,7 @@ const struct Decoration gDecorations[] =
     [DECOR_KECLEON_DOLL] =
     {
         .id = DECOR_KECLEON_DOLL,
-#ifdef CHINESE
-        .name = _("KECLEON DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("KECLEON DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1523,11 +1143,7 @@ const struct Decoration gDecorations[] =
     [DECOR_AZURILL_DOLL] =
     {
         .id = DECOR_AZURILL_DOLL,
-#ifdef CHINESE
-        .name = _("AZURILL DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("AZURILL DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1539,11 +1155,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SKITTY_DOLL] =
     {
         .id = DECOR_SKITTY_DOLL,
-#ifdef CHINESE
-        .name = _("SKITTY DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("SKITTY DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1555,11 +1167,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SWABLU_DOLL] =
     {
         .id = DECOR_SWABLU_DOLL,
-#ifdef CHINESE
-        .name = _("SWABLU DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("SWABLU DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1571,11 +1179,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GULPIN_DOLL] =
     {
         .id = DECOR_GULPIN_DOLL,
-#ifdef CHINESE
-        .name = _("GULPIN DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("GULPIN DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1587,11 +1191,7 @@ const struct Decoration gDecorations[] =
     [DECOR_LOTAD_DOLL] =
     {
         .id = DECOR_LOTAD_DOLL,
-#ifdef CHINESE
-        .name = _("LOTAD DOLL"),         //TODO: 汉化 （低优先度）
-#else
         .name = _("LOTAD DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1603,11 +1203,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SEEDOT_DOLL] =
     {
         .id = DECOR_SEEDOT_DOLL,
-#ifdef CHINESE
-        .name = _("SEEDOT DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("SEEDOT DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
@@ -1619,11 +1215,7 @@ const struct Decoration gDecorations[] =
     [DECOR_PIKA_CUSHION] =
     {
         .id = DECOR_PIKA_CUSHION,
-#ifdef CHINESE
-        .name = _("PIKA CUSHION"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("PIKA CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1635,11 +1227,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ROUND_CUSHION] =
     {
         .id = DECOR_ROUND_CUSHION,
-#ifdef CHINESE
-        .name = _("ROUND CUSHION"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("ROUND CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1651,11 +1239,7 @@ const struct Decoration gDecorations[] =
     [DECOR_KISS_CUSHION] =
     {
         .id = DECOR_KISS_CUSHION,
-#ifdef CHINESE
-        .name = _("KISS CUSHION"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("KISS CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1667,11 +1251,7 @@ const struct Decoration gDecorations[] =
     [DECOR_ZIGZAG_CUSHION] =
     {
         .id = DECOR_ZIGZAG_CUSHION,
-#ifdef CHINESE
-        .name = _("ZIGZAG CUSHION"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("ZIGZAG CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1683,11 +1263,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SPIN_CUSHION] =
     {
         .id = DECOR_SPIN_CUSHION,
-#ifdef CHINESE
-        .name = _("SPIN CUSHION"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("SPIN CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1699,11 +1275,7 @@ const struct Decoration gDecorations[] =
     [DECOR_DIAMOND_CUSHION] =
     {
         .id = DECOR_DIAMOND_CUSHION,
-#ifdef CHINESE
-        .name = _("DIAMOND CUSHION"),    //TODO: 汉化 （低优先度）
-#else
         .name = _("DIAMOND CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1715,11 +1287,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BALL_CUSHION] =
     {
         .id = DECOR_BALL_CUSHION,
-#ifdef CHINESE
-        .name = _("BALL CUSHION"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("BALL CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1731,11 +1299,7 @@ const struct Decoration gDecorations[] =
     [DECOR_GRASS_CUSHION] =
     {
         .id = DECOR_GRASS_CUSHION,
-#ifdef CHINESE
-        .name = _("GRASS CUSHION"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("GRASS CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1747,11 +1311,7 @@ const struct Decoration gDecorations[] =
     [DECOR_FIRE_CUSHION] =
     {
         .id = DECOR_FIRE_CUSHION,
-#ifdef CHINESE
-        .name = _("FIRE CUSHION"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("FIRE CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1763,11 +1323,7 @@ const struct Decoration gDecorations[] =
     [DECOR_WATER_CUSHION] =
     {
         .id = DECOR_WATER_CUSHION,
-#ifdef CHINESE
-        .name = _("WATER CUSHION"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("WATER CUSHION"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_CUSHION,
@@ -1779,11 +1335,7 @@ const struct Decoration gDecorations[] =
     [DECOR_SNORLAX_DOLL] =
     {
         .id = DECOR_SNORLAX_DOLL,
-#ifdef CHINESE
-        .name = _("SNORLAX DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("SNORLAX DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1795,11 +1347,7 @@ const struct Decoration gDecorations[] =
     [DECOR_RHYDON_DOLL] =
     {
         .id = DECOR_RHYDON_DOLL,
-#ifdef CHINESE
-        .name = _("RHYDON DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("RHYDON DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1811,11 +1359,7 @@ const struct Decoration gDecorations[] =
     [DECOR_LAPRAS_DOLL] =
     {
         .id = DECOR_LAPRAS_DOLL,
-#ifdef CHINESE
-        .name = _("LAPRAS DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("LAPRAS DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1827,11 +1371,7 @@ const struct Decoration gDecorations[] =
     [DECOR_VENUSAUR_DOLL] =
     {
         .id = DECOR_VENUSAUR_DOLL,
-#ifdef CHINESE
-        .name = _("VENUSAUR DOLL"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("VENUSAUR DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1843,11 +1383,7 @@ const struct Decoration gDecorations[] =
     [DECOR_CHARIZARD_DOLL] =
     {
         .id = DECOR_CHARIZARD_DOLL,
-#ifdef CHINESE
-        .name = _("CHARIZARD DOLL"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("CHARIZARD DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1859,11 +1395,7 @@ const struct Decoration gDecorations[] =
     [DECOR_BLASTOISE_DOLL] =
     {
         .id = DECOR_BLASTOISE_DOLL,
-#ifdef CHINESE
-        .name = _("BLASTOISE DOLL"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("BLASTOISE DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1875,11 +1407,7 @@ const struct Decoration gDecorations[] =
     [DECOR_WAILMER_DOLL] =
     {
         .id = DECOR_WAILMER_DOLL,
-#ifdef CHINESE
-        .name = _("WAILMER DOLL"),       //TODO: 汉化 （低优先度）
-#else
         .name = _("WAILMER DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1891,11 +1419,7 @@ const struct Decoration gDecorations[] =
     [DECOR_REGIROCK_DOLL] =
     {
         .id = DECOR_REGIROCK_DOLL,
-#ifdef CHINESE
-        .name = _("REGIROCK DOLL"),      //TODO: 汉化 （低优先度）
-#else
         .name = _("REGIROCK DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1907,11 +1431,7 @@ const struct Decoration gDecorations[] =
     [DECOR_REGICE_DOLL] =
     {
         .id = DECOR_REGICE_DOLL,
-#ifdef CHINESE
-        .name = _("REGICE DOLL"),        //TODO: 汉化 （低优先度）
-#else
         .name = _("REGICE DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,
@@ -1923,11 +1443,7 @@ const struct Decoration gDecorations[] =
     [DECOR_REGISTEEL_DOLL] =
     {
         .id = DECOR_REGISTEEL_DOLL,
-#ifdef CHINESE
-        .name = _("REGISTEEL DOLL"),     //TODO: 汉化 （低优先度）
-#else
         .name = _("REGISTEEL DOLL"),
-#endif
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x2,
         .category = DECORCAT_DOLL,

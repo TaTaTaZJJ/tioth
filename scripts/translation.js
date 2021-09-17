@@ -1,6 +1,11 @@
 const fs = require("fs");
 var filename = process.argv[2];
 var locale = process.argv[3];
+var originalLocale = process.argv[4];
+
+function escapeRegExp(string) {
+    return string.replace(/[.*+\-?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}
 
 fs.readFile(filename, (err, jsonBuffer) => {
     if (err) throw err;
@@ -17,25 +22,33 @@ fs.readFile(filename, (err, jsonBuffer) => {
         if (err) throw err;
         let targetData = targetBuffer.toString();
         jsonData.texts.forEach(text => {
-            let newText = text[locale];
-            if (newText == undefined) {
-                console.log(`missing ${locale} of ${text.label} in ${filename}`)
+            if (text.label == undefined) {
+                if (originalLocale == undefined)
+                    originalLocale = 'en';
+                if (text[originalLocale] != undefined && text[locale] != undefined)
+                    targetData = targetData.replace(text[originalLocale], text[locale]);
             }
             else {
-                let regex = new RegExp(text.label + '\\[\\].*_\\(.*\\);', 'g');
-                let replacingWord = text.label + "[] = _(\"" + newText + "\");";
-                if (!regex.test(targetData)) {
-                    regex = new RegExp(text.label + '\\](.*)_\\("(.*)\\);', 'g');
-                    replacingWord = text.label + "] = _(\"" + newText + "\");";
-                    if (!regex.test(targetData)) {
-                        regex = new RegExp(text.label + '\\[\\](.*)_\\((\\n[^\\)]+){1,}"\\);', 'g')
-                        newText = newText.replace('\\l', '\\l"\n"');
-                        newText = newText.replace('\\n', '\\n"\n"');
-                        newText = newText.replace('\\p', '\\p"\n"');
-                        replacingWord = text.label + '[] = _(\n"' + newText + '");';
-                    }
+                let newText = text[locale];
+                if (newText == undefined) {
+                    console.log(`missing ${locale} of ${text.label} in ${filename}`)
                 }
-                targetData = targetData.replace(regex, replacingWord);
+                else {
+                    let regex = new RegExp(text.label + '\\[\\].*_\\(.*\\);', 'g');
+                    let replacingWord = text.label + "[] = _(\"" + newText + "\");";
+                    if (!regex.test(targetData)) {
+                        regex = new RegExp(text.label + '\\](.*)_\\("(.*)\\);', 'g');
+                        replacingWord = text.label + "] = _(\"" + newText + "\");";
+                        if (!regex.test(targetData)) {
+                            regex = new RegExp(text.label + '\\[\\](.*)_\\((\\n[^\\)]+){1,}"\\);', 'g')
+                            newText = newText.replace(new RegExp(escapeRegExp('\\l'), 'g'), '\\l"\n"');
+                            newText = newText.replace(new RegExp(escapeRegExp('\\n'), 'g'), '\\n"\n"');
+                            newText = newText.replace(new RegExp(escapeRegExp('\\p'), 'g'), '\\p"\n"');
+                            replacingWord = text.label + '[] = _(\n"' + newText + '");';
+                        }
+                    }
+                    targetData = targetData.replace(regex, replacingWord);
+                }
             }
         });
         fs.writeFile(jsonData.path, targetData, (err) => {

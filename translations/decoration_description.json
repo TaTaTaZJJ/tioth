@@ -1,0 +1,605 @@
+{
+    "path": "src/data/decoration/description.h",
+    "texts": [
+        {
+            "label": "DecorDesc_SMALL_DESK",
+            "zh": "A small desk built\\nfor one.",
+            "en": "A small desk built\\nfor one."
+        },
+        {
+            "label": "DecorDesc_POKEMON_DESK",
+            "zh": "A small desk built in\\nthe shape of a POKé\\nBALL.",
+            "en": "A small desk built in\\nthe shape of a POKé\\nBALL."
+        },
+        {
+            "label": "DecorDesc_HEAVY_DESK",
+            "zh": "A large desk made\\nof steel. Put some\\ndecorations on it.",
+            "en": "A large desk made\\nof steel. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_RAGGED_DESK",
+            "zh": "A large desk made\\nof wood. Put some\\ndecorations on it.",
+            "en": "A large desk made\\nof wood. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_COMFORT_DESK",
+            "zh": "A large desk made\\nof leaves. Put some\\ndecorations on it.",
+            "en": "A large desk made\\nof leaves. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_PRETTY_DESK",
+            "zh": "A huge desk made\\nof glass. Holds lots\\nof decorations.",
+            "en": "A huge desk made\\nof glass. Holds lots\\nof decorations."
+        },
+        {
+            "label": "DecorDesc_BRICK_DESK",
+            "zh": "A huge desk made\\nof brick. Holds lots\\nof decorations.",
+            "en": "A huge desk made\\nof brick. Holds lots\\nof decorations."
+        },
+        {
+            "label": "DecorDesc_CAMP_DESK",
+            "zh": "A huge desk made\\nof logs. Put lots of\\ndecorations on it.",
+            "en": "A huge desk made\\nof logs. Put lots of\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_HARD_DESK",
+            "zh": "A huge desk made\\nof rocks. Holds\\nmany decorations.",
+            "en": "A huge desk made\\nof rocks. Holds\\nmany decorations."
+        },
+        {
+            "label": "DecorDesc_SMALL_CHAIR",
+            "zh": "A small chair made\\nfor one.",
+            "en": "A small chair made\\nfor one."
+        },
+        {
+            "label": "DecorDesc_POKEMON_CHAIR",
+            "zh": "A small chair built\\nin the shape of a\\nPOKé BALL.",
+            "en": "A small chair built\\nin the shape of a\\nPOKé BALL."
+        },
+        {
+            "label": "DecorDesc_HEAVY_CHAIR",
+            "zh": "A small chair made\\nof steel.",
+            "en": "A small chair made\\nof steel."
+        },
+        {
+            "label": "DecorDesc_PRETTY_CHAIR",
+            "zh": "A small chair made\\nof glass.",
+            "en": "A small chair made\\nof glass."
+        },
+        {
+            "label": "DecorDesc_COMFORT_CHAIR",
+            "zh": "A small chair made\\nof leaves.",
+            "en": "A small chair made\\nof leaves."
+        },
+        {
+            "label": "DecorDesc_RAGGED_CHAIR",
+            "zh": "A small chair made\\nof wood.",
+            "en": "A small chair made\\nof wood."
+        },
+        {
+            "label": "DecorDesc_BRICK_CHAIR",
+            "zh": "A small chair made\\nof brick.",
+            "en": "A small chair made\\nof brick."
+        },
+        {
+            "label": "DecorDesc_CAMP_CHAIR",
+            "zh": "A small chair made\\nof logs.",
+            "en": "A small chair made\\nof logs."
+        },
+        {
+            "label": "DecorDesc_HARD_CHAIR",
+            "zh": "A small chair made\\nof rock.",
+            "en": "A small chair made\\nof rock."
+        },
+        {
+            "label": "DecorDesc_RED_PLANT",
+            "zh": "A vivid red potted\\nplant.",
+            "en": "A vivid red potted\\nplant."
+        },
+        {
+            "label": "DecorDesc_TROPICAL_PLANT",
+            "zh": "A flowering tropical\\nplant in a pot.",
+            "en": "A flowering tropical\\nplant in a pot."
+        },
+        {
+            "label": "DecorDesc_PRETTY_FLOWERS",
+            "zh": "A pot of cute\\nflowers.",
+            "en": "A pot of cute\\nflowers."
+        },
+        {
+            "label": "DecorDesc_COLORFUL_PLANT",
+            "zh": "A large pot with\\nmany colorful\\nflowers.",
+            "en": "A large pot with\\nmany colorful\\nflowers."
+        },
+        {
+            "label": "DecorDesc_BIG_PLANT",
+            "zh": "A large, umbrella-\\nshaped plant in a\\nbig pot.",
+            "en": "A large, umbrella-\\nshaped plant in a\\nbig pot."
+        },
+        {
+            "label": "DecorDesc_GORGEOUS_PLANT",
+            "zh": "A large, impressive\\nplant in a big pot.",
+            "en": "A large, impressive\\nplant in a big pot."
+        },
+        {
+            "label": "DecorDesc_RED_BRICK",
+            "zh": "A red-colored brick.\\nDecorations can be\\nplaced on top.",
+            "en": "A red-colored brick.\\nDecorations can be\\nplaced on top."
+        },
+        {
+            "label": "DecorDesc_YELLOW_BRICK",
+            "zh": "A yellow-colored\\nbrick. Put some\\ndecorations on top.",
+            "en": "A yellow-colored\\nbrick. Put some\\ndecorations on top."
+        },
+        {
+            "label": "DecorDesc_BLUE_BRICK",
+            "zh": "A blue-colored\\nbrick. Put some\\ndecorations on top.",
+            "en": "A blue-colored\\nbrick. Put some\\ndecorations on top."
+        },
+        {
+            "label": "DecorDesc_RED_BALLOON",
+            "zh": "A red balloon filled\\nwith water. Bursts\\nif stepped on.",
+            "en": "A red balloon filled\\nwith water. Bursts\\nif stepped on."
+        },
+        {
+            "label": "DecorDesc_BLUE_BALLOON",
+            "zh": "A blue balloon filled\\nwith water. Bursts\\nif stepped on.",
+            "en": "A blue balloon filled\\nwith water. Bursts\\nif stepped on."
+        },
+        {
+            "label": "DecorDesc_YELLOW_BALLOON",
+            "zh": "A yellow balloon\\nfilled with water.\\nPops if stepped on.",
+            "en": "A yellow balloon\\nfilled with water.\\nPops if stepped on."
+        },
+        {
+            "label": "DecorDesc_RED_TENT",
+            "zh": "A large red tent.\\nYou can hide inside\\nit.",
+            "en": "A large red tent.\\nYou can hide inside\\nit."
+        },
+        {
+            "label": "DecorDesc_BLUE_TENT",
+            "zh": "A large blue tent.\\nYou can hide inside\\nit.",
+            "en": "A large blue tent.\\nYou can hide inside\\nit."
+        },
+        {
+            "label": "DecorDesc_SOLID_BOARD",
+            "zh": "Place over a hole to\\ncross to the other\\nside.",
+            "en": "Place over a hole to\\ncross to the other\\nside."
+        },
+        {
+            "label": "DecorDesc_SLIDE",
+            "zh": "Use to slide down\\nfrom the platform.",
+            "en": "Use to slide down\\nfrom the platform."
+        },
+        {
+            "label": "DecorDesc_FENCE_LENGTH",
+            "zh": "A small fence that\\nblocks passage.",
+            "en": "A small fence that\\nblocks passage."
+        },
+        {
+            "label": "DecorDesc_FENCE_WIDTH",
+            "zh": "A small fence that\\nblocks passage.",
+            "en": "A small fence that\\nblocks passage."
+        },
+        {
+            "label": "DecorDesc_TIRE",
+            "zh": "An old large tire.\\nDecorations can be\\nplaced on top.",
+            "en": "An old large tire.\\nDecorations can be\\nplaced on top."
+        },
+        {
+            "label": "DecorDesc_STAND",
+            "zh": "A large pedestal\\nwith steps.",
+            "en": "A large pedestal\\nwith steps."
+        },
+        {
+            "label": "DecorDesc_MUD_BALL",
+            "zh": "A large ball of mud.\\nCrumbles if stepped\\non.",
+            "en": "A large ball of mud.\\nCrumbles if stepped\\non."
+        },
+        {
+            "label": "DecorDesc_BREAKABLE_DOOR",
+            "zh": "A weird door that\\npeople can walk\\nright through.",
+            "en": "A weird door that\\npeople can walk\\nright through."
+        },
+        {
+            "label": "DecorDesc_SAND_ORNAMENT",
+            "zh": "An ornament made\\nof sand. Crumbles if\\ntouched.",
+            "en": "An ornament made\\nof sand. Crumbles if\\ntouched."
+        },
+        {
+            "label": "DecorDesc_SILVER_SHIELD",
+            "zh": "Awarded for 50\\nstraight wins at\\nthe BATTLE TOWER.",
+            "en": "Awarded for 50\\nstraight wins at\\nthe BATTLE TOWER."
+        },
+        {
+            "label": "DecorDesc_GOLD_SHIELD",
+            "zh": "Awarded for 100\\nstraight wins at\\nthe BATTLE TOWER.",
+            "en": "Awarded for 100\\nstraight wins at\\nthe BATTLE TOWER."
+        },
+        {
+            "label": "DecorDesc_GLASS_ORNAMENT",
+            "zh": "A glass replica of\\na famous sculpture\\nat the ART MUSEUM.",
+            "en": "A glass replica of\\na famous sculpture\\nat the ART MUSEUM."
+        },
+        {
+            "label": "DecorDesc_TV",
+            "zh": "A small, gray-\\ncolored toy TV.",
+            "en": "A small, gray-\\ncolored toy TV."
+        },
+        {
+            "label": "DecorDesc_ROUND_TV",
+            "zh": "A toy TV modeled\\nin the image of a\\nSEEDOT.",
+            "en": "A toy TV modeled\\nin the image of a\\nSEEDOT."
+        },
+        {
+            "label": "DecorDesc_CUTE_TV",
+            "zh": "A toy TV modeled\\nin the image of a\\nSKITTY.",
+            "en": "A toy TV modeled\\nin the image of a\\nSKITTY."
+        },
+        {
+            "label": "DecorDesc_GLITTER_MAT",
+            "zh": "An odd mat that\\nglitters if stepped\\non.",
+            "en": "An odd mat that\\nglitters if stepped\\non."
+        },
+        {
+            "label": "DecorDesc_JUMP_MAT",
+            "zh": "A trick mat that\\njumps when it is\\nstepped on.",
+            "en": "A trick mat that\\njumps when it is\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_SPIN_MAT",
+            "zh": "A trick mat that\\nspins around when\\nstepped on.",
+            "en": "A trick mat that\\nspins around when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_C_LOW_NOTE_MAT",
+            "zh": "A mat that plays\\na low C note when\\nstepped on.",
+            "en": "A mat that plays\\na low C note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_D_NOTE_MAT",
+            "zh": "A mat that plays\\na D note when\\nstepped on.",
+            "en": "A mat that plays\\na D note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_E_NOTE_MAT",
+            "zh": "A mat that plays\\nan E note when\\nstepped on.",
+            "en": "A mat that plays\\nan E note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_F_NOTE_MAT",
+            "zh": "A mat that plays\\nan F note when\\nstepped on.",
+            "en": "A mat that plays\\nan F note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_G_NOTE_MAT",
+            "zh": "A mat that plays\\na G note when\\nstepped on.",
+            "en": "A mat that plays\\na G note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_A_NOTE_MAT",
+            "zh": "A mat that plays\\nan A note when\\nstepped on.",
+            "en": "A mat that plays\\nan A note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_B_NOTE_MAT",
+            "zh": "A mat that plays\\na B note when\\nstepped on.",
+            "en": "A mat that plays\\na B note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_C_HIGH_NOTE_MAT",
+            "zh": "A mat that plays\\na high C note when\\nstepped on.",
+            "en": "A mat that plays\\na high C note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_SURF_MAT",
+            "zh": "A mat designed with\\na SURF image.\\nPut items on top.",
+            "en": "A mat designed with\\na SURF image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_THUNDER_MAT",
+            "zh": "A mat designed with\\na THUNDER image.\\nPut items on top.",
+            "en": "A mat designed with\\na THUNDER image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_FIRE_BLAST_MAT",
+            "zh": "A mat designed with\\na FIRE BLAST image.\\nPut items on top.",
+            "en": "A mat designed with\\na FIRE BLAST image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_POWDER_SNOW_MAT",
+            "zh": "A mat with a POWDER\\nSNOW image design.\\nPut items on top.",
+            "en": "A mat with a POWDER\\nSNOW image design.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_ATTRACT_MAT",
+            "zh": "A mat designed with\\nan ATTRACT image.\\nPut items on top.",
+            "en": "A mat designed with\\nan ATTRACT image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_FISSURE_MAT",
+            "zh": "A mat designed with\\na FISSURE image.\\nPut items on top.",
+            "en": "A mat designed with\\na FISSURE image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_SPIKES_MAT",
+            "zh": "A mat designed with\\na SPIKES image.\\nPut items on top.",
+            "en": "A mat designed with\\na SPIKES image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_BALL_POSTER",
+            "zh": "A small poster\\nprinted with POKé\\nBALLS.",
+            "en": "A small poster\\nprinted with POKé\\nBALLS."
+        },
+        {
+            "label": "DecorDesc_GREEN_POSTER",
+            "zh": "A small poster with\\na TREECKO print.",
+            "en": "A small poster with\\na TREECKO print."
+        },
+        {
+            "label": "DecorDesc_RED_POSTER",
+            "zh": "A small poster with\\na TORCHIC print.",
+            "en": "A small poster with\\na TORCHIC print."
+        },
+        {
+            "label": "DecorDesc_BLUE_POSTER",
+            "zh": "A small poster with\\na MUDKIP print.",
+            "en": "A small poster with\\na MUDKIP print."
+        },
+        {
+            "label": "DecorDesc_CUTE_POSTER",
+            "zh": "A small poster with\\nan AZURILL print.",
+            "en": "A small poster with\\nan AZURILL print."
+        },
+        {
+            "label": "DecorDesc_PIKA_POSTER",
+            "zh": "A large poster with\\na PIKACHU and\\nPICHU print.",
+            "en": "A large poster with\\na PIKACHU and\\nPICHU print."
+        },
+        {
+            "label": "DecorDesc_LONG_POSTER",
+            "zh": "A large poster with\\na SEVIPER print.",
+            "en": "A large poster with\\na SEVIPER print."
+        },
+        {
+            "label": "DecorDesc_SEA_POSTER",
+            "zh": "A large poster with\\na RELICANTH print.",
+            "en": "A large poster with\\na RELICANTH print."
+        },
+        {
+            "label": "DecorDesc_SKY_POSTER",
+            "zh": "A large poster with\\na WINGULL print.",
+            "en": "A large poster with\\na WINGULL print."
+        },
+        {
+            "label": "DecorDesc_KISS_POSTER",
+            "zh": "A large poster with\\na SMOOCHUM print.",
+            "en": "A large poster with\\na SMOOCHUM print."
+        },
+        {
+            "label": "DecorDesc_PICHU_DOLL",
+            "zh": "A PICHU doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A PICHU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_PIKACHU_DOLL",
+            "zh": "A PIKACHU doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A PIKACHU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MARILL_DOLL",
+            "zh": "A MARILL doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A MARILL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TOGEPI_DOLL",
+            "zh": "A TOGEPI doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A TOGEPI doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CYNDAQUIL_DOLL",
+            "zh": "A CYNDAQUIL doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A CYNDAQUIL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CHIKORITA_DOLL",
+            "zh": "A CHIKORITA doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A CHIKORITA doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TOTODILE_DOLL",
+            "zh": "A TOTODILE doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A TOTODILE doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_JIGGLYPUFF_DOLL",
+            "zh": "A JIGGLYPUFF doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A JIGGLYPUFF doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MEOWTH_DOLL",
+            "zh": "A MEOWTH doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A MEOWTH doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CLEFAIRY_DOLL",
+            "zh": "A CLEFAIRY doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A CLEFAIRY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DITTO_DOLL",
+            "zh": "A DITTO doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A DITTO doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SMOOCHUM_DOLL",
+            "zh": "A SMOOCHUM doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SMOOCHUM doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TREECKO_DOLL",
+            "zh": "A TREECKO doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A TREECKO doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TORCHIC_DOLL",
+            "zh": "A TORCHIC doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A TORCHIC doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MUDKIP_DOLL",
+            "zh": "A MUDKIP doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A MUDKIP doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DUSKULL_DOLL",
+            "zh": "A DUSKULL doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A DUSKULL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_WYNAUT_DOLL",
+            "zh": "A WYNAUT doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A WYNAUT doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BALTOY_DOLL",
+            "zh": "A BALTOY doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A BALTOY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_KECLEON_DOLL",
+            "zh": "A KECLEON doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A KECLEON doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_AZURILL_DOLL",
+            "zh": "An AZURILL doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "An AZURILL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SKITTY_DOLL",
+            "zh": "A SKITTY doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SKITTY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SWABLU_DOLL",
+            "zh": "A SWABLU doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SWABLU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_GULPIN_DOLL",
+            "zh": "A GULPIN doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A GULPIN doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_LOTAD_DOLL",
+            "zh": "A LOTAD doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A LOTAD doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SEEDOT_DOLL",
+            "zh": "A SEEDOT doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SEEDOT doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_PIKA_CUSHION",
+            "zh": "A PIKACHU cushion.\\nPlace it on a mat\\nor a desk.",
+            "en": "A PIKACHU cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_ROUND_CUSHION",
+            "zh": "A MARILL cushion.\\nPlace it on a mat\\nor a desk.",
+            "en": "A MARILL cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_KISS_CUSHION",
+            "zh": "A SMOOCHUM\\ncushion. Place it on\\na mat or a desk.",
+            "en": "A SMOOCHUM\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_ZIGZAG_CUSHION",
+            "zh": "A ZIGZAGOON\\ncushion. Place it on\\na mat or a desk.",
+            "en": "A ZIGZAGOON\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_SPIN_CUSHION",
+            "zh": "A SPINDA cushion.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SPINDA cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DIAMOND_CUSHION",
+            "zh": "A SABLEYE cushion.\\nPlace it on a mat\\nor a desk.",
+            "en": "A SABLEYE cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BALL_CUSHION",
+            "zh": "A BALL cushion.\\nPlace it on a mat\\nor a desk.",
+            "en": "A BALL cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_GRASS_CUSHION",
+            "zh": "A grass-mark\\ncushion. Place it on\\na mat or a desk.",
+            "en": "A grass-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_FIRE_CUSHION",
+            "zh": "A fire-mark\\ncushion. Place it on\\na mat or a desk.",
+            "en": "A fire-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_WATER_CUSHION",
+            "zh": "A water-mark\\ncushion. Place it on\\na mat or a desk.",
+            "en": "A water-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_SNORLAX_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_RHYDON_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_LAPRAS_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_VENUSAUR_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CHARIZARD_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BLASTOISE_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_WAILMER_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGIROCK_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGICE_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGISTEEL_DOLL",
+            "zh": "A large doll.\\nPlace it on a mat\\nor a desk.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        }
+    ]
+}

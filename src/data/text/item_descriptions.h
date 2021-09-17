@@ -51,7 +51,8 @@ static const u8 sPremierBallDesc[] = _(
 
 static const u8 sLevelBallDesc[] = _(
 "有点与众不同的球。要捕捉的\n"
-"宝可梦比自己宝可梦的等级\n越低，就会越容易捕捉。");
+"宝可梦比自己宝可梦的等级\n"
+"越低，就会越容易捕捉。");
 
 static const u8 sLureBallDesc[] = _(
 "有点与众不同的球。能很容易\n"
@@ -63,11 +64,13 @@ static const u8 sMoonBallDesc[] = _(
 
 static const u8 sFriendBallDesc[] = _(
 "有点与众不同的球。捉到的\n"
-"野生宝可梦会立刻变得和训\n练家亲密起来。");
+"野生宝可梦会立刻变得和训\n"
+"练家亲密起来。");
 
 static const u8 sLoveBallDesc[] = _(
 "有点与众不同的球。能很容易\n"
-"地捕捉和自己宝可梦性\n别不同的宝可梦。");
+"地捕捉和自己宝可梦性\n"
+"别不同的宝可梦。");
 
 static const u8 sHeavyBallDesc[] = _(
 "有点与众不同的球。能很容易\n"
@@ -83,11 +86,13 @@ static const u8 sHealBallDesc[] = _(
 
 static const u8 sQuickBallDesc[] = _(
 "有点与众不同的球。如果战斗\n"
-"开始后立刻使用，就能\n很容易地捉到宝可梦。");
+"开始后立刻使用，就能\n"
+"很容易地捉到宝可梦。");
 
 static const u8 sDuskBallDesc[] = _(
 "有点与众不同的球。能很容易\n"
-"地在夜晚或洞窟等阴暗\n的地方捕捉宝可梦。");
+"地在夜晚或洞窟等阴暗\n"
+"的地方捕捉宝可梦。");
 
 static const u8 sCherishBallDesc[] = _(
 "相当珍贵的球。特制出来的\n"
@@ -102,11 +107,13 @@ static const u8 sParkBallDesc[] = _(
 
 static const u8 sDreamBallDesc[] = _(
 "在连入之森中，不知何时出现\n"
-"在包包里的梦中球。能捉到任\n何宝可梦。");
+"在包包里的梦中球。能捉到任\n"
+"何宝可梦。");
 
 static const u8 sBeastBallDesc[] = _(
 "为捕捉究极异兽而制作的特殊\n"
-"精灵球。很难捕捉究极异兽之\n外的宝可梦。");
+"精灵球。很难捕捉究极异兽之\n"
+"外的宝可梦。");
 
 // Medicine
 static const u8 sPotionDesc[] = _(
@@ -227,11 +234,13 @@ static const u8 sRedFluteDesc[] = _(
 
 static const u8 sBlackFluteDesc[] = _(
 "以黑色玻璃制成的哨子。在使\n"
-"用的地方更容易遇到强大的\n宝可梦。");
+"用的地方更容易遇到强大的\n"
+"宝可梦。");
 
 static const u8 sWhiteFluteDesc[] = _(
 "以白色玻璃制成的哨子。在\n"
-"使用的地方更容易遇到弱小\n的宝可梦。");
+"使用的地方更容易遇到弱小\n"
+"的宝可梦。");
 
 static const u8 sBerryJuiceDesc[] = _(
 "100%树果果汁。能让1只宝\n"
@@ -321,48 +330,59 @@ static const u8 sGuardSpecDesc[] = _(
 
 static const u8 sDireHitDesc[] = _(
 "击中要害的几率会大幅提高。\n"
-"只能使用1次。离场后，效果\n便会消失。");
+"只能使用1次。离场后，效果\n"
+"便会消失。");
 
 static const u8 sXAttackDesc[] = _(
 "大幅提高战斗中宝可梦攻击\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sXDefendDesc[] = _(
 "大幅提高战斗中宝可梦防御\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sXSpeedDesc[] = _(
 "大幅提高战斗中宝可梦速度\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sXAccuracyDesc[] = _(
 "大幅提高战斗中宝可梦命中\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sXSpecialAttackDesc[] = _(
 "大幅提高战斗中宝可梦特攻\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sXSpecialDefenseDesc[] = _(
 "大幅提高战斗中宝可梦特防\n"
-"的道具。离场后，效果便会\n消失。");
+"的道具。离场后，效果便会\n"
+"消失。");
 
 static const u8 sPokeDollDesc[] = _(
 "能吸引宝可梦注意的道具。\n"
-"在和野生宝可梦的战斗中绝\n对可以逃走。");
+"在和野生宝可梦的战斗中绝\n"
+"对可以逃走。");
 
 static const u8 sFluffyTailDesc[] = _(
 "能吸引宝可梦注意的道具。\n"
-"在和野生宝可梦的战斗中绝\n对可以逃走。");
+"在和野生宝可梦的战斗中绝\n"
+"对可以逃走。");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
 "弱小的野生宝可梦将完全不\n"
-"会出现。效果比除虫喷雾更\n持久。");
+"会出现。效果比除虫喷雾更\n"
+"持久。");
 
 static const u8 sMaxRepelDesc[] = _(
 "弱小的野生宝可梦将完全不\n"
-"会出现。效果比白银喷雾更\n持久。");
+"会出现。效果比白银喷雾更\n"
+"持久。");
 
 static const u8 sAbilityCapsuleDesc[] = _(
 "使用后会改变宝可梦的特性。");
@@ -373,7 +393,8 @@ static const u8 sEscapeRopeDesc[] = _(
 
 static const u8 sRepelDesc[] = _(
 "使用后，在较短的一段时间\n"
-"内，弱小的野生宝可梦将完\n全不会出现。");
+"内，弱小的野生宝可梦将完\n"
+"全不会出现。");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
@@ -602,83 +623,103 @@ static const u8 sIapapaBerryDesc[] = _(
 
 static const u8 sRazzBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨强\n壮。黄色的果实尝起来是酸的。");
+"来的宝可方块可用来打磨强\n"
+"壮。黄色的果实尝起来是酸的。");
 
 static const u8 sBlukBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨美\n丽。蓝色的果实尝起来是涩的。");
+"来的宝可方块可用来打磨美\n"
+"丽。蓝色的果实尝起来是涩的。");
 
 static const u8 sNanabBerryDesc[] = _(
 "捕捉宝可梦时，把这树果交\n"
-"给宝可梦就能稍微平复一下\n对方的情绪。");
+"给宝可梦就能稍微平复一下\n"
+"对方的情绪。");
 
 static const u8 sWepearBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨聪\n明。绿色的果实尝起来是苦的。");
+"来的宝可方块可用来打磨聪\n"
+"明。绿色的果实尝起来是苦的。");
 
 static const u8 sPinapBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨强\n壮。黄色的果实尝起来是酸的。");
+"来的宝可方块可用来打磨强\n"
+"壮。黄色的果实尝起来是酸的。");
 
 static const u8 sPomegBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但HP的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但HP的基础点数会降低。");
 
 static const u8 sKelpsyBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但攻击的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但攻击的基础点数会降低。");
 
 static const u8 sQualotBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但防御的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但防御的基础点数会降低。");
 
 static const u8 sHondewBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但特攻的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但特攻的基础点数会降低。");
 
 static const u8 sGrepaBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但特防的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但特防的基础点数会降低。");
 
 static const u8 sTamatoBerryDesc[] = _(
 "如果把它交给宝可梦，宝可\n"
-"梦就会变得非常容易和训练\n家亲密，但速度的基础点数会降低。");
+"梦就会变得非常容易和训练\n"
+"家亲密，但速度的基础点数会降低。");
 
 static const u8 sCornnBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨美\n丽。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨美\n"
+"丽。在其他地区很少见的树果。");
 
 static const u8 sMagostBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨可\n爱。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨可\n"
+"爱。在其他地区很少见的树果。");
 
 static const u8 sRabutaBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨聪\n明。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨聪\n"
+"明。在其他地区很少见的树果。");
 
 static const u8 sNomelBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨强\n壮。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨强\n"
+"壮。在其他地区很少见的树果。");
 
 static const u8 sSpelonBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨可\n爱。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨可\n"
+"爱。在其他地区很少见的树果。");
 
 static const u8 sPamtreBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨美\n丽。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨美\n"
+"丽。在其他地区很少见的树果。");
 
 static const u8 sWatmelBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨聪\n明。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨聪\n"
+"明。在其他地区很少见的树果。");
 
 static const u8 sDurinBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨聪\n明。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨聪\n"
+"明。在其他地区很少见的树果。");
 
 static const u8 sBelueBerryDesc[] = _(
 "用于制作宝可方块，制作出\n"
-"来的宝可方块可用来打磨美\n丽。在其他地区很少见的树果。");
+"来的宝可方块可用来打磨美\n"
+"丽。在其他地区很少见的树果。");
 
 static const u8 sLiechiBerryDesc[] = _(
 "让宝可梦携带后，危机时，\n"
@@ -714,79 +755,98 @@ static const u8 sMicleBerryDesc[] = _(
 
 static const u8 sEnigmaBerryDesc[] = _(
 "Pokéblock ingredient.\n"
-"Plant in loamy soil\nto grow a mystery.");
+"Plant in loamy soil\n"
+"to grow a mystery.");
 
 static const u8 sOccaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的火属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的火属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sPasshoBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的水属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的水属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sWacanBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的电属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的电属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sRindoBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的草属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的草属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sYacheBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的冰属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的冰属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sChopleBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的格斗属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的格斗属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sKebiaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的毒属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的毒属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sShucaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的地面属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的地面属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sCobaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的飞行属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的飞行属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sPayapaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的超能力属性招式\n攻击时，能令其威力减弱。");
+"效果绝佳的超能力属性招式\n"
+"攻击时，能令其威力减弱。");
 
 static const u8 sTangaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的虫属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的虫属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sChartiBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的岩石属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的岩石属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sKasibBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的幽灵属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的幽灵属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sHabanBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的龙属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的龙属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sColburBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的恶属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的恶属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sBabiriBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"效果绝佳的钢属性招式攻击\n时，能令其威力减弱。");
+"效果绝佳的钢属性招式攻击\n"
+"时，能令其威力减弱。");
 
 static const u8 sChilanBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"一般属性招式攻击时，能\n令其威力减弱。");
+"一般属性招式攻击时，能\n"
+"令其威力减弱。");
 
 static const u8 sRoseliBerryDesc[] = _(
 "如果宝可梦携带了它，可以\n"
-"在对战中降低妖精属性招式\n效果绝佳的效果。");
+"在对战中降低妖精属性招式\n"
+"效果绝佳的效果。");
 
 static const u8 sCustapBerryDesc[] = _(
 "让宝可梦携带后，危机时，\n"
@@ -794,24 +854,29 @@ static const u8 sCustapBerryDesc[] = _(
 
 static const u8 sJabocaBerryDesc[] = _(
 "让宝可梦携带后，在受到\n"
-"物理招式攻击时，能给予对\n手伤害。");
+"物理招式攻击时，能给予对\n"
+"手伤害。");
 
 static const u8 sRowapBerryDesc[] = _(
 "让宝可梦携带后，在受到特\n"
-"殊招式攻击时，能给予对手\n伤害。");
+"殊招式攻击时，能给予对手\n"
+"伤害。");
 
 static const u8 sKeeBerryDesc[] = _(
 "如果宝可梦携带了它，可以\n"
-"在对战中受到物理招式攻击\n时，防御提升1级。");
+"在对战中受到物理招式攻击\n"
+"时，防御提升1级。");
 
 static const u8 sMarangaBerryDesc[] = _(
 "如果宝可梦携带了它，可以\n"
-"在对战中受到特殊招式攻击\n时，特防提升1级。");
+"在对战中受到特殊招式攻击\n"
+"时，特防提升1级。");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
 "闪闪发光的粉末。携带后，\n"
-"光芒会迷惑对手，从而使其\n招式变得不容易命中。");
+"光芒会迷惑对手，从而使其\n"
+"招式变得不容易命中。");
 
 static const u8 sWhiteHerbDesc[] = _(
 "当携带它的宝可梦能力降低\n"
@@ -819,7 +884,8 @@ static const u8 sWhiteHerbDesc[] = _(
 
 static const u8 sMachoBraceDesc[] = _(
 "又硬又重的锻炼器。虽然携\n"
-"带后速度会降低，但会比平\n时更容易茁壮成长。");
+"带后速度会降低，但会比平\n"
+"时更容易茁壮成长。");
 
 static const u8 sExpShareDesc[] = _(
 "打开开关后，能让同行的\n"
@@ -831,7 +897,8 @@ static const u8 sQuickClawDesc[] = _(
 
 static const u8 sSootheBellDesc[] = _(
 "音色悦耳的铃铛。携带它的\n"
-"宝可梦会受到安抚，变得容\n易和训练家亲密。");
+"宝可梦会受到安抚，变得容\n"
+"易和训练家亲密。");
 
 static const u8 sMentalHerbDesc[] = _(
 "当携带它的宝可梦无法自由\n"
@@ -839,7 +906,8 @@ static const u8 sMentalHerbDesc[] = _(
 
 static const u8 sChoiceBandDesc[] = _(
 "有点讲究的头带。虽然携带\n"
-"后攻击会提高，但只能使出\n相同的招式。");
+"后攻击会提高，但只能使出\n"
+"相同的招式。");
 
 static const u8 sKingsRockDesc[] = _(
 "携带后进行攻击，在造成伤\n"
@@ -847,19 +915,23 @@ static const u8 sKingsRockDesc[] = _(
 
 static const u8 sSilverPowderDesc[] = _(
 "散发着银色光辉的粉末。\n"
-"携带后，虫属性的招式威力\n就会提高。");
+"携带后，虫属性的招式威力\n"
+"就会提高。");
 
 static const u8 sAmuletCoinDesc[] = _(
 "只要携带它的宝可梦在战斗\n"
-"时出场一次，就能获得2倍\n金钱。");
+"时出场一次，就能获得2倍\n"
+"金钱。");
 
 static const u8 sCleanseTagDesc[] = _(
 "让排在最前面的宝可梦携带\n"
-"后，野生宝可梦就会不容易\n出现。");
+"后，野生宝可梦就会不容易\n"
+"出现。");
 
 static const u8 sSoulDewDesc[] = _(
 "让拉帝欧斯或拉帝亚斯携带\n"
-"后，超能力和龙属性的招式\n威力就会提高的神奇珠子。");
+"后，超能力和龙属性的招式\n"
+"威力就会提高的神奇珠子。");
 
 static const u8 sDeepSeaToothDesc[] = _(
 "让珍珠贝携带后，特攻就会提高的牙齿。散发着闪亮的银光。");
@@ -877,15 +949,18 @@ static const u8 sEverstoneDesc[] = _(
 
 static const u8 sFocusBandDesc[] = _(
 "携带后，即便受到可能会导\n"
-"致濒死的招式，有时也能仅\n以1HP撑过去。");
+"致濒死的招式，有时也能仅\n"
+"以1HP撑过去。");
 
 static const u8 sLuckyEggDesc[] = _(
 "满载着幸福的蛋。携带它的\n"
-"宝可梦获得的经验值会少量\n增加。");
+"宝可梦获得的经验值会少量\n"
+"增加。");
 
 static const u8 sScopeLensDesc[] = _(
 "能看见弱点的镜片。携带它\n"
-"的宝可梦的招式会变得容易\n击中要害。");
+"的宝可梦的招式会变得容易\n"
+"击中要害。");
 
 static const u8 sMetalCoatDesc[] = _(
 "特殊的金属膜。携带后，钢\n"
@@ -936,7 +1011,8 @@ static const u8 sPrismScaleDesc[] = _(
 
 static const u8 sWhippedDreamDesc[] = _(
 "软软起着泡的，稍微有\n"
-"点甜的奶油。某种宝可梦很\n喜欢它。");
+"点甜的奶油。某种宝可梦很\n"
+"喜欢它。");
 
 static const u8 sSachetDesc[] = _(
 "装着散发微浓香气的香料的\n"
@@ -952,7 +1028,8 @@ static const u8 sSoftSandDesc[] = _(
 
 static const u8 sHardStoneDesc[] = _(
 "绝对不会裂开的石头。携带\n"
-"后，岩石属性的招式威力就\n会提高。");
+"后，岩石属性的招式威力就\n"
+"会提高。");
 
 static const u8 sMiracleSeedDesc[] = _(
 "孕育生命的种子。携带后，\n"
@@ -960,11 +1037,13 @@ static const u8 sMiracleSeedDesc[] = _(
 
 static const u8 sBlackGlassesDesc[] = _(
 "看上去很奇怪的眼镜。携带\n"
-"后，恶属性的招式威力就会\n提高。");
+"后，恶属性的招式威力就会\n"
+"提高。");
 
 static const u8 sBlackBeltDesc[] = _(
 "能振作精神的带子。携带后，\n"
-"格斗属性的招式威力就会\n提高。");
+"格斗属性的招式威力就会\n"
+"提高。");
 
 static const u8 sMagnetDesc[] = _(
 "强力的磁铁。携带后，电属\n"
@@ -992,7 +1071,8 @@ static const u8 sSpellTagDesc[] = _(
 
 static const u8 sTwistedSpoonDesc[] = _(
 "注入了念力的汤匙。携带后，\n"
-"超能力属性的招式威力就会\n提高。");
+"超能力属性的招式威力就会\n"
+"提高。");
 
 static const u8 sCharcoalDesc[] = _(
 "焚烧用的燃料。携带后，火\n"
@@ -1016,27 +1096,33 @@ static const u8 sShellBellDesc[] = _(
 
 static const u8 sPowerBracerDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的攻击会比平时\n成长得更高。");
+"但宝可梦的攻击会比平时\n"
+"成长得更高。");
 
 static const u8 sPowerBeltDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的防御会比平时\n成长得更高。");
+"但宝可梦的防御会比平时\n"
+"成长得更高。");
 
 static const u8 sPowerLensDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的特攻会比平时\n成长得更高。");
+"但宝可梦的特攻会比平时\n"
+"成长得更高。");
 
 static const u8 sPowerBandDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的特防会比平时\n成长得更高。");
+"但宝可梦的特防会比平时\n"
+"成长得更高。");
 
 static const u8 sPowerAnkletDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的速度会比平时\n成长得更高。");
+"但宝可梦的速度会比平时\n"
+"成长得更高。");
 
 static const u8 sPowerWeightDesc[] = _(
 "虽然携带后速度会降低，\n"
-"但宝可梦的HP会比平时\n成长得更高。");
+"但宝可梦的HP会比平时\n"
+"成长得更高。");
 
 static const u8 sSeaIncenseDesc[] = _(
 "有着神奇香气的薰香。携带后，\n"
@@ -1218,7 +1304,8 @@ static const u8 sRootFossilDesc[] = _(
 
 static const u8 sClawFossilDesc[] = _(
 "很久以前栖息在海里的\n"
-"古代宝可梦的化石。\n好像是爪子的一部分。");
+"古代宝可梦的化石。\n"
+"好像是爪子的一部分。");
 
 static const u8 sDevonScopeDesc[] = _(
 "会对看不见的宝可梦起反应，\n"

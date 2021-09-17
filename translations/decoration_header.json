@@ -1,0 +1,489 @@
+{
+    "path": "src/data/decoration/header.h",
+    "texts": [
+        {
+            "en": "SMALL DESK",
+            "zh": "小桌子"
+        },
+        {
+            "en": "SMALL DESK",
+            "zh": "SMALL DESK"
+        },
+        {
+            "en": "POKéMON DESK",
+            "zh": "POKéMON DESK"
+        },
+        {
+            "en": "HEAVY DESK",
+            "zh": "HEAVY DESK"
+        },
+        {
+            "en": "RAGGED DESK",
+            "zh": "RAGGED DESK"
+        },
+        {
+            "en": "COMFORT DESK",
+            "zh": "COMFORT DESK"
+        },
+        {
+            "en": "PRETTY DESK",
+            "zh": "PRETTY DESK"
+        },
+        {
+            "en": "BRICK DESK",
+            "zh": "BRICK DESK"
+        },
+        {
+            "en": "CAMP DESK",
+            "zh": "CAMP DESK"
+        },
+        {
+            "en": "HARD DESK",
+            "zh": "HARD DESK"
+        },
+        {
+            "en": "SMALL CHAIR",
+            "zh": "SMALL CHAIR"
+        },
+        {
+            "en": "POKéMON CHAIR",
+            "zh": "POKéMON CHAIR"
+        },
+        {
+            "en": "HEAVY CHAIR",
+            "zh": "HEAVY CHAIR"
+        },
+        {
+            "en": "PRETTY CHAIR",
+            "zh": "PRETTY CHAIR"
+        },
+        {
+            "en": "COMFORT CHAIR",
+            "zh": "COMFORT CHAIR"
+        },
+        {
+            "en": "RAGGED CHAIR",
+            "zh": "RAGGED CHAIR"
+        },
+        {
+            "en": "BRICK CHAIR",
+            "zh": "BRICK CHAIR"
+        },
+        {
+            "en": "CAMP CHAIR",
+            "zh": "CAMP CHAIR"
+        },
+        {
+            "en": "HARD CHAIR",
+            "zh": "HARD CHAIR"
+        },
+        {
+            "en": "RED PLANT",
+            "zh": "RED PLANT"
+        },
+        {
+            "en": "TROPICAL PLANT",
+            "zh": "TROPICAL PLANT"
+        },
+        {
+            "en": "PRETTY FLOWERS",
+            "zh": "PRETTY FLOWERS"
+        },
+        {
+            "en": "COLORFUL PLANT",
+            "zh": "COLORFUL PLANT"
+        },
+        {
+            "en": "BIG PLANT",
+            "zh": "BIG PLANT"
+        },
+        {
+            "en": "GORGEOUS PLANT",
+            "zh": "GORGEOUS PLANT"
+        },
+        {
+            "en": "RED BRICK",
+            "zh": "RED BRICK"
+        },
+        {
+            "en": "YELLOW BRICK",
+            "zh": "YELLOW BRICK"
+        },
+        {
+            "en": "BLUE BRICK",
+            "zh": "BLUE BRICK"
+        },
+        {
+            "en": "RED BALLOON",
+            "zh": "RED BALLOON"
+        },
+        {
+            "en": "BLUE BALLOON",
+            "zh": "BLUE BALLOON"
+        },
+        {
+            "en": "YELLOW BALLOON",
+            "zh": "YELLOW BALLOON"
+        },
+        {
+            "en": "RED TENT",
+            "zh": "RED TENT"
+        },
+        {
+            "en": "BLUE TENT",
+            "zh": "BLUE TENT"
+        },
+        {
+            "en": "SOLID BOARD",
+            "zh": "SOLID BOARD"
+        },
+        {
+            "en": "SLIDE",
+            "zh": "SLIDE"
+        },
+        {
+            "en": "FENCE LENGTH",
+            "zh": "FENCE LENGTH"
+        },
+        {
+            "en": "FENCE WIDTH",
+            "zh": "FENCE WIDTH"
+        },
+        {
+            "en": "TIRE",
+            "zh": "TIRE"
+        },
+        {
+            "en": "STAND",
+            "zh": "STAND"
+        },
+        {
+            "en": "MUD BALL",
+            "zh": "MUD BALL"
+        },
+        {
+            "en": "BREAKABLE DOOR",
+            "zh": "BREAKABLE DOOR"
+        },
+        {
+            "en": "SAND ORNAMENT",
+            "zh": "SAND ORNAMENT"
+        },
+        {
+            "en": "SILVER SHIELD",
+            "zh": "SILVER SHIELD"
+        },
+        {
+            "en": "GOLD SHIELD",
+            "zh": "GOLD SHIELD"
+        },
+        {
+            "en": "GLASS ORNAMENT",
+            "zh": "GLASS ORNAMENT"
+        },
+        {
+            "en": "TV",
+            "zh": "TV"
+        },
+        {
+            "en": "ROUND TV",
+            "zh": "ROUND TV"
+        },
+        {
+            "en": "CUTE TV",
+            "zh": "CUTE TV"
+        },
+        {
+            "en": "GLITTER MAT",
+            "zh": "GLITTER MAT"
+        },
+        {
+            "en": "JUMP MAT",
+            "zh": "JUMP MAT"
+        },
+        {
+            "en": "SPIN MAT",
+            "zh": "SPIN MAT"
+        },
+        {
+            "en": "C Low NOTE MAT",
+            "zh": "C Low NOTE MAT"
+        },
+        {
+            "en": "D NOTE MAT",
+            "zh": "D NOTE MAT"
+        },
+        {
+            "en": "E NOTE MAT",
+            "zh": "E NOTE MAT"
+        },
+        {
+            "en": "F NOTE MAT",
+            "zh": "F NOTE MAT"
+        },
+        {
+            "en": "G NOTE MAT",
+            "zh": "G NOTE MAT"
+        },
+        {
+            "en": "A NOTE MAT",
+            "zh": "A NOTE MAT"
+        },
+        {
+            "en": "B NOTE MAT",
+            "zh": "B NOTE MAT"
+        },
+        {
+            "en": "C High NOTE MAT",
+            "zh": "C High NOTE MAT"
+        },
+        {
+            "en": "SURF MAT",
+            "zh": "SURF MAT"
+        },
+        {
+            "en": "THUNDER MAT",
+            "zh": "THUNDER MAT"
+        },
+        {
+            "en": "FIRE BLAST MAT",
+            "zh": "FIRE BLAST MAT"
+        },
+        {
+            "en": "POWDER SNOW MAT",
+            "zh": "POWDER SNOW MAT"
+        },
+        {
+            "en": "ATTRACT MAT",
+            "zh": "ATTRACT MAT"
+        },
+        {
+            "en": "FISSURE MAT",
+            "zh": "FISSURE MAT"
+        },
+        {
+            "en": "SPIKES MAT",
+            "zh": "SPIKES MAT"
+        },
+        {
+            "en": "BALL POSTER",
+            "zh": "BALL POSTER"
+        },
+        {
+            "en": "GREEN POSTER",
+            "zh": "GREEN POSTER"
+        },
+        {
+            "en": "RED POSTER",
+            "zh": "RED POSTER"
+        },
+        {
+            "en": "BLUE POSTER",
+            "zh": "BLUE POSTER"
+        },
+        {
+            "en": "CUTE POSTER",
+            "zh": "CUTE POSTER"
+        },
+        {
+            "en": "PIKA POSTER",
+            "zh": "PIKA POSTER"
+        },
+        {
+            "en": "LONG POSTER",
+            "zh": "LONG POSTER"
+        },
+        {
+            "en": "SEA POSTER",
+            "zh": "SEA POSTER"
+        },
+        {
+            "en": "SKY POSTER",
+            "zh": "SKY POSTER"
+        },
+        {
+            "en": "KISS POSTER",
+            "zh": "KISS POSTER"
+        },
+        {
+            "en": "PICHU DOLL",
+            "zh": "PICHU DOLL"
+        },
+        {
+            "en": "PIKACHU DOLL",
+            "zh": "PIKACHU DOLL"
+        },
+        {
+            "en": "MARILL DOLL",
+            "zh": "MARILL DOLL"
+        },
+        {
+            "en": "TOGEPI DOLL",
+            "zh": "TOGEPI DOLL"
+        },
+        {
+            "en": "CYNDAQUIL DOLL",
+            "zh": "CYNDAQUIL DOLL"
+        },
+        {
+            "en": "CHIKORITA DOLL",
+            "zh": "CHIKORITA DOLL"
+        },
+        {
+            "en": "TOTODILE DOLL",
+            "zh": "TOTODILE DOLL"
+        },
+        {
+            "en": "JIGGLYPUFF DOLL",
+            "zh": "JIGGLYPUFF DOLL"
+        },
+        {
+            "en": "MEOWTH DOLL",
+            "zh": "MEOWTH DOLL"
+        },
+        {
+            "en": "CLEFAIRY DOLL",
+            "zh": "CLEFAIRY DOLL"
+        },
+        {
+            "en": "DITTO DOLL",
+            "zh": "DITTO DOLL"
+        },
+        {
+            "en": "SMOOCHUM DOLL",
+            "zh": "SMOOCHUM DOLL"
+        },
+        {
+            "en": "TREECKO DOLL",
+            "zh": "TREECKO DOLL"
+        },
+        {
+            "en": "TORCHIC DOLL",
+            "zh": "TORCHIC DOLL"
+        },
+        {
+            "en": "MUDKIP DOLL",
+            "zh": "MUDKIP DOLL"
+        },
+        {
+            "en": "DUSKULL DOLL",
+            "zh": "DUSKULL DOLL"
+        },
+        {
+            "en": "WYNAUT DOLL",
+            "zh": "WYNAUT DOLL"
+        },
+        {
+            "en": "BALTOY DOLL",
+            "zh": "BALTOY DOLL"
+        },
+        {
+            "en": "KECLEON DOLL",
+            "zh": "KECLEON DOLL"
+        },
+        {
+            "en": "AZURILL DOLL",
+            "zh": "AZURILL DOLL"
+        },
+        {
+            "en": "SKITTY DOLL",
+            "zh": "SKITTY DOLL"
+        },
+        {
+            "en": "SWABLU DOLL",
+            "zh": "SWABLU DOLL"
+        },
+        {
+            "en": "GULPIN DOLL",
+            "zh": "GULPIN DOLL"
+        },
+        {
+            "en": "LOTAD DOLL",
+            "zh": "LOTAD DOLL"
+        },
+        {
+            "en": "SEEDOT DOLL",
+            "zh": "SEEDOT DOLL"
+        },
+        {
+            "en": "PIKA CUSHION",
+            "zh": "PIKA CUSHION"
+        },
+        {
+            "en": "ROUND CUSHION",
+            "zh": "ROUND CUSHION"
+        },
+        {
+            "en": "KISS CUSHION",
+            "zh": "KISS CUSHION"
+        },
+        {
+            "en": "ZIGZAG CUSHION",
+            "zh": "ZIGZAG CUSHION"
+        },
+        {
+            "en": "SPIN CUSHION",
+            "zh": "SPIN CUSHION"
+        },
+        {
+            "en": "DIAMOND CUSHION",
+            "zh": "DIAMOND CUSHION"
+        },
+        {
+            "en": "BALL CUSHION",
+            "zh": "BALL CUSHION"
+        },
+        {
+            "en": "GRASS CUSHION",
+            "zh": "GRASS CUSHION"
+        },
+        {
+            "en": "FIRE CUSHION",
+            "zh": "FIRE CUSHION"
+        },
+        {
+            "en": "WATER CUSHION",
+            "zh": "WATER CUSHION"
+        },
+        {
+            "en": "SNORLAX DOLL",
+            "zh": "SNORLAX DOLL"
+        },
+        {
+            "en": "RHYDON DOLL",
+            "zh": "RHYDON DOLL"
+        },
+        {
+            "en": "LAPRAS DOLL",
+            "zh": "LAPRAS DOLL"
+        },
+        {
+            "en": "VENUSAUR DOLL",
+            "zh": "VENUSAUR DOLL"
+        },
+        {
+            "en": "CHARIZARD DOLL",
+            "zh": "CHARIZARD DOLL"
+        },
+        {
+            "en": "BLASTOISE DOLL",
+            "zh": "BLASTOISE DOLL"
+        },
+        {
+            "en": "WAILMER DOLL",
+            "zh": "WAILMER DOLL"
+        },
+        {
+            "en": "REGIROCK DOLL",
+            "zh": "REGIROCK DOLL"
+        },
+        {
+            "en": "REGICE DOLL",
+            "zh": "REGICE DOLL"
+        },
+        {
+            "en": "REGISTEEL DOLL",
+            "zh": "REGISTEEL DOLL"
+        }
+    ]
+}
