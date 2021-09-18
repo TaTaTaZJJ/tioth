@@ -126,10 +126,11 @@
 
 /*=================================== 苍穹设定 ===================================*/
 // 时间相关
-#define USE_PLAYTIME_AS_LOCAL       TRUE    // 使用游戏时间计算本地时间
-#define TIME_MODIFIER               60      // 本地时间倍数
-#define DAYS_PER_CYCLE              336     // 本地周期天数
-#define DAYS_PER_MONTH              28      // 本地月份天数
-#define LIMITED_TIME_EVENT_COUNT    5       // 最大限时事件数量
+#define USE_PLAYTIME_AS_LOCAL           TRUE    // 使用游戏时间计算本地时间
+#define TIME_MODIFIER                   60      // 本地时间倍数
+#define DAYS_PER_CYCLE                  336     // 本地周期天数
+#define DAYS_PER_MONTH                  28      // 本地月份天数
+#define LIMITED_TIME_EVENT_COUNT        5       // 最大限时事件数量
+#define USE_LEVEL_BALANCING_MODIFIER    TRUE    // 使用50级前的面板用50级的计算
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

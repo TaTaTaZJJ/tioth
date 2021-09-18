@@ -50,4 +50,6 @@ u8 CreateFieldMoveTask(void);
 bool8 SetUpFieldMove_RockSmash(void);
 bool8 FldEff_UseRockSmash(void);
 
+void Task_EnterCaveTransition2(u8 taskId);
+
 #endif // GUARD_FLDEFF_H

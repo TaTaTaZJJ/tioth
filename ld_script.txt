@@ -333,6 +333,7 @@ SECTIONS {
         src/follow_me.o(.text);
         src/dns.o(.text);
         src/mugshot.o(.text);
+        src/map_preview.o(.text);
     } =0
 
     script_data :
@@ -696,6 +697,7 @@ SECTIONS {
         src/follow_me.o(.rodata);
         src/dns.o(.rodata);
         src/mugshot.o(.rodata);
+        src/map_preview.o(.rodata);
     } =0
 
     song_data :
