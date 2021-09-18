@@ -976,6 +976,19 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
             offset = GetStringRightAlignXOffset(7, gStringVar4, 119);
             BagMenu_Print(windowId, 7, gStringVar4, offset, y, 0, 0, TEXT_SPEED_FF, COLORID_NORMAL);
         }
+#if SHOW_IMPORTANT_ITEM_COUNT
+        else
+        {
+            // Print item quantity
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
+            StringExpandPlaceholders(gStringVar4, gText_xVar1);
+            offset = GetStringRightAlignXOffset(7, gStringVar4, 119);
+            BagMenu_Print(windowId, 7, gStringVar4, offset, y, 0, 0, TEXT_SPEED_FF, COLORID_NORMAL);
+            // Print registered icon
+            if (gSaveBlock1Ptr->registeredItem && gSaveBlock1Ptr->registeredItem == itemId)
+                BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 96, y - 1, 24, 16);
+        }
+#else
         else if (gBagPosition.pocket != KEYITEMS_POCKET && ItemId_GetImportance(itemId) == FALSE)
         {
             // Print item quantity
@@ -990,6 +1003,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
             if (gSaveBlock1Ptr->registeredItem && gSaveBlock1Ptr->registeredItem == itemId)
                 BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 96, y - 1, 24, 16);
         }
+#endif
     }
 }
 

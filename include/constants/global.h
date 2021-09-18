@@ -132,5 +132,6 @@
 #define DAYS_PER_MONTH                  28      // 本地月份天数
 #define LIMITED_TIME_EVENT_COUNT        5       // 最大限时事件数量
 #define USE_LEVEL_BALANCING_MODIFIER    TRUE    // 使用50级前的面板用50级的计算
+#define SHOW_IMPORTANT_ITEM_COUNT       TRUE    // 显示重要道具的数量
 
 #endif // GUARD_CONSTANTS_GLOBAL_H
