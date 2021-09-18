@@ -45,4 +45,7 @@ bool8 IsPlayerStandingStill(void);
 void SetPlayerVisibility(bool8 visible);
 void Task_WarpAndLoadMap(u8 taskId);
 
+void FillPalBufferBlack(void);
+bool32 WaitForWeatherFadeIn(void);
+
 #endif // GUARD_FIELD_SCREEN_EFFECT_H
