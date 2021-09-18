@@ -3,147 +3,147 @@
     "texts": [
         {
             "label": "sPoundDescription",
-            "zh": "使用长长的尾巴或手等拍打对手进行攻击。",
+            "zh": "使用长长的尾巴或\\n手等拍打对手进行\\n攻击。",
             "en": "Pounds the foe withforelegs or tail."
         },
         {
             "label": "sKarateChopDescription",
-            "zh": "用手刀攻击对方，要害命中率高。",
+            "zh": "用手刀攻击对方，\\n要害命中率高。",
             "en": "A chopping attack with ahigh critical-hit ratio."
         },
         {
             "label": "sDoubleSlapDescription",
-            "zh": "用回旋掌击对方，能攻击2至5次。",
+            "zh": "用回旋掌击对方，\\n能攻击2至5次。",
             "en": "Repeatedly slaps the foe2 to 5 times."
         },
         {
             "label": "sCometPunchDescription",
-            "zh": "连续殴打对方，能攻击2至5次。",
+            "zh": "连续殴打对方，能\\n攻击2至5次。",
             "en": "Repeatedly punches the foe2 to 5 times."
         },
         {
             "label": "sMegaPunchDescription",
-            "zh": "用聚集了高能量的拳头打击对方。",
+            "zh": "用聚集了高能量的\\n拳头打击对方。",
             "en": "A strong punch thrown withincredible power."
         },
         {
             "label": "sPayDayDescription",
-            "zh": "用金币扔对方，战斗结束后能得到额外的金钱。",
+            "zh": "用金币扔对方，战\\n斗结束后能得到额\\n外的金钱。",
             "en": "Throws coins at the foe.Money is recovered after."
         },
         {
             "label": "sFirePunchDescription",
-            "zh": "聚集了火焰的拳击，可能使对方烧伤。",
+            "zh": "聚集了火焰的拳击\\n，可能使对方烧伤。",
             "en": "A fiery punch that may burnthe foe."
         },
         {
             "label": "sIcePunchDescription",
-            "zh": "聚集了冷气的拳击，可能使对方冰冻。",
+            "zh": "聚集了冷气的拳击\\n，可能使对方冰冻。",
             "en": "An icy punch that mayfreeze the foe."
         },
         {
             "label": "sThunderPunchDescription",
-            "zh": "聚集了电光的拳击，可能使对方麻痹。",
+            "zh": "聚集了电光的拳击\\n，可能使对方麻痹。",
             "en": "An electrified punch thatmay paralyze the foe."
         },
         {
             "label": "sScratchDescription",
-            "zh": "用尖锐的爪子抓对方。",
+            "zh": "用尖锐的爪子抓对\\n方。",
             "en": "Scratches the foe withsharp claws."
         },
         {
             "label": "sViseGripDescription",
-            "zh": "用巨大的夹子夹对方。",
+            "zh": "用巨大的夹子夹对\\n方。",
             "en": "Grips the foe with large andpowerful pincers."
         },
         {
             "label": "sGuillotineDescription",
-            "zh": "用巨大的夹子夹对方，使其无法战斗。",
+            "zh": "用巨大的夹子夹对\\n方，使其无法战斗。",
             "en": "A powerful pincer attackthat may cause fainting."
         },
         {
             "label": "sRazorWindDescription",
-            "zh": "这一回合制造一个风阵，下一回合攻击。",
+            "zh": "这一回合制造一个\\n风阵，下一回合攻\\n击。",
             "en": "A 2-turn move that strikesthe foe on the 2nd turn."
         },
         {
             "label": "sSwordsDanceDescription",
-            "zh": "跳战斗之舞，大幅提升攻击力。",
+            "zh": "跳战斗之舞，大幅\\n提升攻击力。",
             "en": "A fighting dance thatsharply raises Attack."
         },
         {
             "label": "sCutDescription",
-            "zh": "用尖锐的刀爪或爪子砍击对方。",
+            "zh": "用尖锐的刀爪或爪\\n子砍击对方。",
             "en": "Cuts the foe with sharpscythes, claws, etc."
         },
         {
             "label": "sGustDescription",
-            "zh": "用翅膀制造强风来攻击对方。",
+            "zh": "用翅膀制造强风来\\n攻击对方。",
             "en": "Strikes the foe with a gustof wind whipped up by wings."
         },
         {
             "label": "sWingAttackDescription",
-            "zh": "张开巨大的翅膀冲击对方。",
+            "zh": "张开巨大的翅膀冲\\n击对方。",
             "en": "Strikes the foe with wingsspread wide."
         },
         {
             "label": "sWhirlwindDescription",
-            "zh": "用强风吹走对方，从而结束战斗。",
+            "zh": "用强风吹走对方，\\n从而结束战斗。",
             "en": "Blows away the foe withwind and ends the battle."
         },
         {
             "label": "sFlyDescription",
-            "zh": "这一回合飞上天，下一回合攻击。",
+            "zh": "这一回合飞上天，\\n下一回合攻击。",
             "en": "Flies up on the first turn,then strikes the next turn."
         },
         {
             "label": "sBindDescription",
-            "zh": "2至5回合内，用身体或藤蔓捆住对方。",
+            "zh": "2至5回合内，用\\n身体或藤蔓捆住对\\n方。",
             "en": "Binds and squeezes the foefor 2 to 5 turns."
         },
         {
             "label": "sSlamDescription",
-            "zh": "用尾巴或藤蔓打击对方。",
+            "zh": "用尾巴或藤蔓打击\\n对方。",
             "en": "Slams the foe with a longtail, vine, etc."
         },
         {
             "label": "sVineWhipDescription",
-            "zh": "用像鞭子一样细长的藤蔓打击对方。",
+            "zh": "用像鞭子一样细长\\n的藤蔓打击对方。",
             "en": "Strikes the foe withslender, whiplike vines."
         },
         {
             "label": "sStompDescription",
-            "zh": "用巨大的脚掌踩对方，可能使其害怕。",
+            "zh": "用巨大的脚掌踩对\\n方，可能使其害怕\\n。",
             "en": "Stomps the enemy with a bigfoot. May cause flinching."
         },
         {
             "label": "sDoubleKickDescription",
-            "zh": "用双脚连续交替地攻击对方。",
+            "zh": "用双脚连续交替地\\n攻击对方。",
             "en": "A double-kicking attackthat strikes the foe twice."
         },
         {
             "label": "sMegaKickDescription",
-            "zh": "用充满力量的一脚踢飞对方。",
+            "zh": "用充满力量的一脚\\n踢飞对方。",
             "en": "An extremely powerful kickwith intense force."
         },
         {
             "label": "sJumpKickDescription",
-            "zh": "用跳跃起来飞踢对方，未命中自己会受伤害。",
+            "zh": "用跳跃起来飞踢对\\n方，未命中自己会\\n受伤害。",
             "en": "A strong jumping kick. Maymiss and hurt the kicker."
         },
         {
             "label": "sRollingKickDescription",
-            "zh": "快速回旋身体后顺势踢出去。",
+            "zh": "快速回旋身体后顺\\n势踢出去。",
             "en": "A fast kick delivered froma rapid spin."
         },
         {
             "label": "sSandAttackDescription",
-            "zh": "向对方脸上泼沙子降低其命中率。",
+            "zh": "向对方脸上泼沙子\\n降低其命中率。",
             "en": "Reduces the foe's accuracyby hurling sand in its face."
         },
         {
             "label": "sHeadbuttDescription",
-            "zh": "用头撞击对方，可能使其害怕。",
+            "zh": "用头撞击对方，可\\n能使其害怕。",
             "en": "A ramming attack that maycause flinching."
         },
         {
@@ -153,122 +153,122 @@
         },
         {
             "label": "sFuryAttackDescription",
-            "zh": "用尖角连续攻击2至5次。",
+            "zh": "用尖角连续攻击2\\n至5次。",
             "en": "Jabs the foe 2 to 5 timeswith sharp horns, etc."
         },
         {
             "label": "sHornDrillDescription",
-            "zh": "让角像钻头一样转动，使对方无法战斗。",
+            "zh": "让角像钻头一样转\\n动，使对方无法战\\n斗。",
             "en": "A one-hit KO attack thatuses a horn like a drill."
         },
         {
             "label": "sTackleDescription",
-            "zh": "用整个身体撞击对方。",
+            "zh": "用整个身体撞击对\\n方。",
             "en": "Charges the foe with a full-body tackle."
         },
         {
             "label": "sBodySlamDescription",
-            "zh": "把对方压在身下，可能使其麻痹。",
+            "zh": "把对方压在身下，\\n可能使其麻痹。",
             "en": "A full-body slam that maycause paralysis."
         },
         {
             "label": "sWrapDescription",
-            "zh": "2至5回合内，用身体或藤蔓捆住对方。",
+            "zh": "2至5回合内，用\\n身体或藤蔓捆住对\\n方。",
             "en": "Wraps and squeezes the foe2 to 5 times with vines, etc."
         },
         {
             "label": "sTakeDownDescription",
-            "zh": "猛烈撞击对方，自己也受到伤害。",
+            "zh": "猛烈撞击对方，自\\n己也受到伤害。",
             "en": "A reckless charge attackthat also hurts the user."
         },
         {
             "label": "sThrashDescription",
-            "zh": "2至3回合持续狂暴，之后会混乱。",
+            "zh": "2至3回合持续狂\\n暴，之后会混乱。",
             "en": "A rampage of 2 to 3 turnsthat confuses the user."
         },
         {
             "label": "sDoubleEdgeDescription",
-            "zh": "拼命地猛烈撞击对方，自己也会受到反弹伤害。",
+            "zh": "拼命地猛烈撞击对\\n方，自己也会受到\\n反弹伤害。",
             "en": "A life-risking tackle thatalso hurts the user."
         },
         {
             "label": "sTailWhipDescription",
-            "zh": "向对方摇尾巴使其大意，从而降低其防御。",
+            "zh": "向对方摇尾巴使其\\n大意，从而降低其\\n防御。",
             "en": "Wags the tail to lower thefoe's Defense."
         },
         {
             "label": "sPoisonStingDescription",
-            "zh": "用有毒的针或角刺对方，可能使其中毒。",
+            "zh": "用有毒的针或角刺\\n对方，可能使其中\\n毒。",
             "en": "A toxic attack with barbs,etc., that may poison."
         },
         {
             "label": "sTwineedleDescription",
-            "zh": "用双手上的针连续2次刺对方。",
+            "zh": "用双手上的针连续\\n2次刺对方。",
             "en": "Stingers on the forelegsjab the foe twice."
         },
         {
             "label": "sPinMissileDescription",
-            "zh": "连续2至5次向对方放射尖利的针刺。",
+            "zh": "连续2至5次向对\\n方放射尖利的针刺\\n。",
             "en": "Sharp pins are fired tostrike 2 to 5 times."
         },
         {
             "label": "sLeerDescription",
-            "zh": "瞪对方使其害怕，从而降低其物防。",
+            "zh": "瞪对方使其害怕，\\n从而降低其物防。",
             "en": "Frightens the foe with aleer to lower Defense."
         },
         {
             "label": "sBiteDescription",
-            "zh": "用尖利的牙齿咬对方，可能使其害怕。",
+            "zh": "用尖利的牙齿咬对\\n方，可能使其害怕\\n。",
             "en": "Bites with vicious fangs.May cause flinching."
         },
         {
             "label": "sGrowlDescription",
-            "zh": "可爱地向对方叫唤使其大意，从而降低其物攻。",
+            "zh": "可爱地向对方叫唤\\n使其大意，从而降\\n低其物攻。",
             "en": "Growls cutely to reduce thefoe's Attack."
         },
         {
             "label": "sRoarDescription",
-            "zh": "大声吼叫让对方逃跑，从而结束战斗。",
+            "zh": "大声吼叫让对方逃\\n跑，从而结束战斗\\n。",
             "en": "Makes the foe flee to endthe battle."
         },
         {
             "label": "sSingDescription",
-            "zh": "用悠扬的歌声让对方睡眠。",
+            "zh": "用悠扬的歌声让对\\n方睡眠。",
             "en": "A soothing song lulls thefoe into a deep slumber."
         },
         {
             "label": "sSupersonicDescription",
-            "zh": "发出怪音波让对方混乱。",
+            "zh": "发出怪音波让对方\\n混乱。",
             "en": "Emits bizarre sound wavesthat may confuse the foe."
         },
         {
             "label": "sSonicBoomDescription",
-            "zh": "用冲击波攻击对方，损伤对方20点HP。",
+            "zh": "用冲击波攻击对方\\n，损伤对方20点\\nHP。",
             "en": "Launches shock waves thatalways inflict 20 HP damage."
         },
         {
             "label": "sDisableDescription",
-            "zh": "用超能力封锁对方的行动一回合。",
+            "zh": "用超能力封锁对方\\n的行动一回合。",
             "en": "Psychically disables one ofthe foe's moves."
         },
         {
             "label": "sAcidDescription",
-            "zh": "用强酸溶化对方皮肤，可能降低其物防。",
+            "zh": "用强酸溶化对方皮\\n肤，可能降低其物\\n防。",
             "en": "Sprays a hide-melting acid.May lower Defense."
         },
         {
             "label": "sEmberDescription",
-            "zh": "用小型火焰攻击，可能使对方烧伤。",
+            "zh": "用小型火焰攻击，\\n可能使对方烧伤。",
             "en": "A weak fire attack that mayinflict a burn."
         },
         {
             "label": "sFlamethrowerDescription",
-            "zh": "用大型火焰攻击，可能使对方烧伤。",
+            "zh": "用大型火焰攻击，\\n可能使对方烧伤。",
             "en": "A powerful fire attack thatmay inflict a burn."
         },
         {
             "label": "sMistDescription",
-            "zh": "用白雾覆盖全身，防止自己的能力被对方降低。",
+            "zh": "用白雾覆盖全身，\\n防止自己的能力被\\n对方降低。",
             "en": "Creates a mist that stopsreduction of abilities."
         },
         {
@@ -278,12 +278,12 @@
         },
         {
             "label": "sHydroPumpDescription",
-            "zh": "喷射强力的水柱攻击对方。",
+            "zh": "喷射强力的水柱攻\\n击对方。",
             "en": "Blasts water at high powerto strike the foe."
         },
         {
             "label": "sSurfDescription",
-            "zh": "制造一堵水墙，以惊人的气势冲向对方。",
+            "zh": "制造一堵水墙，以\\n惊人的气势冲向对\\n方。",
             "en": "Creates a huge wave, thencrashes it down on the foe."
         },
         {
@@ -2434,7 +2434,7 @@
         },
         {
             "label": "sAFTER_YOUDescription",
-            "zh": "支援我方或对手的行\l动，使其紧接着此招式之后行动。",
+            "zh": "支援我方或对手的行\\l动，使其紧接着此招式之后行动。",
             "en": "Helps out the foe, lettingit move next."
         },
         {
@@ -2709,7 +2709,7 @@
         },
         {
             "label": "sFUSION_BOLTDescription",
-            "zh": 释放出巨大的闪电。受到巨大的火焰影响时，招式威力会提高。",
+            "zh": "释放出巨大的闪电。受到巨大的火焰影响时，招式威力会提高。",
             "en": "Summons a thunderbolt.Works well with a fireball."
         },
         {
@@ -3324,7 +3324,7 @@
         },
         {
             "label": "sFREEZY_FROSTDescription",
-            "zh": "利用冰冷的黑雾结晶\l进行攻击。使全体宝可梦的能力变回原点。",
+            "zh": "利用冰冷的黑雾结晶\\l进行攻击。使全体宝可梦的能力变回原点。",
             "en": "Crystal from cold haze hits.Eliminates all stat changes."
         },
         {
