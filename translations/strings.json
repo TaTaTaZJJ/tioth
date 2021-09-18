@@ -1134,7 +1134,7 @@
         {
             "label": "gText_DadsAdvice",
             "zh": "老爸说过……\\n{PLAYER}，每一样东西都有适合使用的时候！{PAUSE_UNTIL_PRESS}",
-            "en": "Father advice……\\n逆子，这东西是给这儿用的？!{PAUSE_UNTIL_PRESS}"
+            "en": "DAD's advice…\n{PLAYER}, there's a time and place for\\leverything!{PAUSE_UNTIL_PRESS}"
         },
         {
             "label": "gText_CantDismountBike",
@@ -1143,7 +1143,7 @@
         },
         {
             "label": "gText_ItemFinderNearby",
-            "zh": "哈？\\n寻宝机器有反应了！\\p看来在这附近有隐藏道具！{PAUSE_UNTIL_PRESS}",
+            "zh": "嗯？\\n寻宝机器有反应了！\\p看来在这附近有隐藏道具！{PAUSE_UNTIL_PRESS}",
             "en": "Huh?\\nThe ITEMFINDER's responding!\\pThere's an item buried around here!{PAUSE_UNTIL_PRESS}"
         },
         {
@@ -1323,72 +1323,72 @@
         },
         {
             "label": "gText_RedPokeblock",
-            "zh": "红色能量块",
+            "zh": "红色{POKEBLOCK}",
             "en": "RED {POKEBLOCK}"
         },
         {
             "label": "gText_BluePokeblock",
-            "zh": "蓝色能量块",
+            "zh": "蓝色{POKEBLOCK}",
             "en": "BLUE {POKEBLOCK}"
         },
         {
             "label": "gText_PinkPokeblock",
-            "zh": "粉色能量块",
+            "zh": "粉色{POKEBLOCK}",
             "en": "PINK {POKEBLOCK}"
         },
         {
             "label": "gText_GreenPokeblock",
-            "zh": "绿色能量块",
+            "zh": "绿色{POKEBLOCK}",
             "en": "GREEN {POKEBLOCK}"
         },
         {
             "label": "gText_YellowPokeblock",
-            "zh": "黄色能量块",
+            "zh": "黄色{POKEBLOCK}",
             "en": "YELLOW {POKEBLOCK}"
         },
         {
             "label": "gText_PurplePokeblock",
-            "zh": "紫色能量块",
+            "zh": "紫色{POKEBLOCK}",
             "en": "PURPLE {POKEBLOCK}"
         },
         {
             "label": "gText_IndigoPokeblock",
-            "zh": "靛蓝色能量块",
+            "zh": "靛蓝色{POKEBLOCK}",
             "en": "INDIGO {POKEBLOCK}"
         },
         {
             "label": "gText_BrownPokeblock",
-            "zh": "棕色能量块",
+            "zh": "棕色{POKEBLOCK}",
             "en": "BROWN {POKEBLOCK}"
         },
         {
             "label": "gText_LiteBluePokeblock",
-            "zh": "淡蓝色能量块",
+            "zh": "淡蓝色{POKEBLOCK}",
             "en": "LITEBLUE {POKEBLOCK}"
         },
         {
             "label": "gText_OlivePokeblock",
-            "zh": "橄榄色能量块",
+            "zh": "橄榄色{POKEBLOCK}",
             "en": "OLIVE {POKEBLOCK}"
         },
         {
             "label": "gText_GrayPokeblock",
-            "zh": "灰色能量块",
+            "zh": "灰色{POKEBLOCK}",
             "en": "GRAY {POKEBLOCK}"
         },
         {
             "label": "gText_BlackPokeblock",
-            "zh": "黑色能量块",
+            "zh": "黑色{POKEBLOCK}",
             "en": "BLACK {POKEBLOCK}"
         },
         {
             "label": "gText_WhitePokeblock",
-            "zh": "白色能量块",
+            "zh": "白色{POKEBLOCK}",
             "en": "WHITE {POKEBLOCK}"
         },
         {
             "label": "gText_GoldPokeblock",
-            "zh": "金色能量块",
+            "zh": "金色{POKEBLOCK}",
             "en": "GOLD {POKEBLOCK}"
         },
         {
@@ -1773,7 +1773,7 @@
         },
         {
             "label": "gText_PkmnCantLearnMove",
-            "zh": "{STR_VAR_1}与{STR_VAR_2}\\n的相性很差，\\p{STR_VAR_2}不能\\n学会！{PAUSE_UNTIL_PRESS}",
+            "zh": "{STR_VAR_1}与{STR_VAR_2}\\n的相性很差。\\p{STR_VAR_2}不能\\n学会！{PAUSE_UNTIL_PRESS}",
             "en": "{STR_VAR_1} and {STR_VAR_2}\\nare not compatible.\\p{STR_VAR_2} can't be\\nlearned.{PAUSE_UNTIL_PRESS}"
         },
         {
@@ -1798,7 +1798,7 @@
         },
         {
             "label": "gText_12PoofForgotMove",
-            "zh": "1，{PAUSE 15}2……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}砰！\\p{STR_VAR_1}将\\n{STR_VAR_2}忘记了！\\p然后……{PAUSE_UNTIL_PRESS}",
+            "zh": "1，{PAUSE 15}2，{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}砰！\\p{STR_VAR_1}将\\n{STR_VAR_2}忘记了！\\p然后……{PAUSE_UNTIL_PRESS}",
             "en": "1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\\p{STR_VAR_1} forgot how to\\nuse {STR_VAR_2}.\\pAnd…{PAUSE_UNTIL_PRESS}"
         },
         {
@@ -2163,22 +2163,22 @@
         },
         {
             "label": "gText_OtherTrainersPkmnCantBeTraded",
-            "zh": "对方训练师的宝可梦\\n暂时不能交换！",
+            "zh": "对方训练家的宝可梦\\n暂时不能交换！",
             "en": "The other TRAINER's POKéMON\\ncan't be traded now."
         },
         {
             "label": "gText_OtherTrainerCantAcceptPkmn",
-            "zh": "对方训练师暂时不能\\n接受这个宝可梦！",
+            "zh": "对方训练家暂时不能\\n接受这个宝可梦！",
             "en": "The other TRAINER can't accept\\nthat POKéMON now."
         },
         {
             "label": "gText_CantTradeWithTrainer",
-            "zh": "你暂时不能和那个\\n训练师交换！",
+            "zh": "你暂时不能和那个\\n训练家交换！",
             "en": "You can't trade with that\\nTRAINER now."
         },
         {
             "label": "gText_NotPkmnOtherTrainerWants",
-            "zh": "这不是对方训练师\\n想要的宝可梦种类！",
+            "zh": "这不是对方训练家\\n想要的宝可梦种类！",
             "en": "That isn't the type of POKéMON\\nthat the other TRAINER wants."
         },
         {
@@ -3658,7 +3658,7 @@
         },
         {
             "label": "gText_JudgeMind",
-            "zh": "裁判：注意",
+            "zh": "裁判：头脑",
             "en": "JUDGE: MIND"
         },
         {
@@ -3668,7 +3668,7 @@
         },
         {
             "label": "gText_JudgeBody",
-            "zh": "裁判：主体",
+            "zh": "裁判：身体",
             "en": "JUDGE: BODY"
         },
         {
@@ -3678,7 +3678,7 @@
         },
         {
             "label": "gText_TourneyTree",
-            "zh": "对阵树",
+            "zh": "对战树",
             "en": "TOURNEY TREE"
         },
         {
@@ -3743,7 +3743,7 @@
         },
         {
             "label": "gText_PyramidTrainers",
-            "zh": "金字塔：训练师",
+            "zh": "金字塔：训练家",
             "en": "PYRAMID: TRAINERS"
         },
         {
@@ -3778,7 +3778,7 @@
         },
         {
             "label": "gText_BattleTrainers",
-            "zh": "对战训练师",
+            "zh": "对战训练家",
             "en": "BATTLE TRAINERS"
         },
         {
@@ -4493,7 +4493,7 @@
         },
         {
             "label": "gText_CallRegisteredTrainer",
-            "zh": "呼叫已登记的训练师。",
+            "zh": "呼叫已登记的训练家。",
             "en": "Call a registered TRAINER."
         },
         {
@@ -4513,7 +4513,7 @@
         },
         {
             "label": "gText_NoTrainersRegistered",
-            "zh": "没有登记训练师。",
+            "zh": "没有登记训练家。",
             "en": "No TRAINERS are registered."
         },
         {
@@ -4598,7 +4598,7 @@
         },
         {
             "label": "gText_PokenavMatchCall_TrainerPokemon",
-            "zh": "训练师的宝可梦",
+            "zh": "训练家的宝可梦",
             "en": "TRAINER'S POKéMON"
         },
         {
@@ -4673,7 +4673,7 @@
         },
         {
             "label": "gText_TrainerCloseBy",
-            "zh": "这个训练师就在附近！\\n去和训练师谈谈吧！",
+            "zh": "这个训练家就在附近！\\n去和训练家谈谈吧！",
             "en": "That TRAINER is close by.\\nTalk to the TRAINER in person!"
         },
         {
@@ -4883,7 +4883,7 @@
         },
         {
             "label": "gText_TheTrainersImage",
-            "zh": "这个训练师的形象。",
+            "zh": "这个训练家的形象。",
             "en": "the TRAINER's image."
         },
         {
@@ -5078,7 +5078,7 @@
         },
         {
             "label": "gJPText_WhatIsTheQuizAnswer",
-            "zh": "クイズの こたえは？",
+            "zh": "测试的答案是什么？",
             "en": "クイズの こたえは？"
         },
         {
@@ -5763,12 +5763,12 @@
         },
         {
             "label": "gJPText_BattlePoints",
-            "zh": "ゲ-ムポイント",
+            "zh": "游戏积分",
             "en": "ゲ-ムポイント"
         },
         {
             "label": "gText_Var1sTrainerCard",
-            "zh": "{STR_VAR_1}的训练师卡片",
+            "zh": "{STR_VAR_1}的训练家卡片",
             "en": "{STR_VAR_1}'s TRAINER CARD"
         },
         {
@@ -5808,12 +5808,12 @@
         },
         {
             "label": "gText_WaitingTrainerFinishReading",
-            "zh": "正在等待另一位训练师\\n结束查看你的训练师卡片。",
+            "zh": "正在等待另一位训练家\\n结束查看你的训练家卡片。",
             "en": "Waiting for the other TRAINER to\\nfinish reading your TRAINER CARD."
         },
         {
             "label": "gText_PokeblocksWithFriends",
-            "zh": "能量方块 赢/个朋友",
+            "zh": "宝可方块 赢/个朋友",
             "en": "{POKEBLOCK}S W/FRIENDS"
         },
         {
@@ -6428,7 +6428,7 @@
         },
         {
             "label": "gText_CheckTrainerCard",
-            "zh": "查看训练师卡片。",
+            "zh": "查看训练家卡片。",
             "en": "Check TRAINER CARD."
         },
         {
@@ -6783,7 +6783,7 @@
         },
         {
             "label": "gJPText_MysteryGift",
-            "zh": "ふしぎなもらいもの",
+            "zh": "神秘礼物",
             "en": "ふしぎなもらいもの"
         },
         {
@@ -7503,7 +7503,7 @@
         },
         {
             "label": "gEasyChatGroupName_Trainer",
-            "zh": "训练师",
+            "zh": "训练家",
             "en": "TRAINER"
         },
         {
@@ -8133,7 +8133,7 @@
         },
         {
             "label": "gText_NewTrainerReceived",
-            "zh": "新的训练师已经到达。",
+            "zh": "新的训练家已经到达。",
             "en": "A new TRAINER has arrived."
         },
         {
@@ -8163,12 +8163,12 @@
         },
         {
             "label": "gText_CantAcceptCardFromTrainer",
-            "zh": "你不能从这个训练师处接收\\n神秘卡片。",
+            "zh": "你不能从这个训练家处接收\\n神秘卡片。",
             "en": "You can't accept a WONDER CARD\\nfrom this TRAINER."
         },
         {
             "label": "gText_CantAcceptNewsFromTrainer",
-            "zh": "你不能从这个训练师处接收\\n神秘新闻。",
+            "zh": "你不能从这个训练家处接收\\n神秘新闻。",
             "en": "You can't accept WONDER NEWS\\nfrom this TRAINER."
         },
         {
@@ -8218,27 +8218,27 @@
         },
         {
             "label": "gText_OtherTrainerHasCard",
-            "zh": "对方训练师已有同样的神秘卡片。",
+            "zh": "对方训练家已有同样的神秘卡片。",
             "en": "The other TRAINER has the same\\nWONDER CARD already."
         },
         {
             "label": "gText_OtherTrainerHasNews",
-            "zh": "对方训练师已有同样的神秘新闻。",
+            "zh": "对方训练家已有同样的神秘新闻。",
             "en": "The other TRAINER has the same\\nWONDER NEWS already."
         },
         {
             "label": "gText_OtherTrainerHasStamp",
-            "zh": "对方训练师已有同样的印章。",
+            "zh": "对方训练家已有同样的印章。",
             "en": "The other TRAINER has the same\\nSTAMP already."
         },
         {
             "label": "gText_OtherTrainerCanceled",
-            "zh": "对方训练师取消了通信。",
+            "zh": "对方训练家取消了通信。",
             "en": "The other TRAINER canceled\\ncommunication."
         },
         {
             "label": "gText_CantSendGiftToTrainer",
-            "zh": "你不能将神秘礼物送给这个训练师。",
+            "zh": "你不能将神秘礼物送给这个训练家。",
             "en": "You can't send a MYSTERY GIFT to\\nthis TRAINER."
         },
         {
