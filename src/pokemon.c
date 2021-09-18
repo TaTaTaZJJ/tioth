@@ -3734,6 +3734,10 @@ void CalculateMonStats(struct Pokemon *mon)
 
     SetMonData(mon, MON_DATA_LEVEL, &level);
 
+#ifdef USE_LEVEL_BALANCING_MODIFIER
+        level = 50;
+#endif
+
     if (species == SPECIES_SHEDINJA)
     {
         newMaxHP = 1;
