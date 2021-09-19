@@ -184,6 +184,10 @@ bool8 CheckBagHasSpace(u16 itemId, u16 count)
     u16 slotCapacity;
     u16 ownedCount;
 
+    #if USE_BAG_ITEM_LIMIT
+    u16 limit;
+    #endif
+
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
         return FALSE;
 
@@ -193,10 +197,21 @@ bool8 CheckBagHasSpace(u16 itemId, u16 count)
     }
 
     pocket = ItemId_GetPocket(itemId) - 1;
+
+    #if USE_BAG_ITEM_LIMIT
+    limit = ItemId_GetLimit(itemId);
     if (pocket != BERRIES_POCKET)
         slotCapacity = MAX_BAG_ITEM_CAPACITY;
     else
         slotCapacity = MAX_BERRY_CAPACITY;
+    if (limit < slotCapacity && limit != 0)
+        slotCapacity = limit;
+    #else
+    if (pocket != BERRIES_POCKET)
+        slotCapacity = MAX_BAG_ITEM_CAPACITY;
+    else
+        slotCapacity = MAX_BERRY_CAPACITY;
+    #endif
 
     // Check space in any existing item slots that already contain this item
     for (i = 0; i < gBagPockets[pocket].capacity; i++)
@@ -216,7 +231,15 @@ bool8 CheckBagHasSpace(u16 itemId, u16 count)
 
     // Check space in empty item slots
     if (count > 0)
-    {
+    { 
+        #if USE_BAG_ITEM_LIMIT
+        if (pocket != TMHM_POCKET)
+        {
+            if (CheckBagHasItem(itemId, limit))
+                return FALSE;
+        }
+        #endif
+
         for (i = 0; i < gBagPockets[pocket].capacity; i++)
         {
             if (gBagPockets[pocket].itemSlots[i].itemId == 0)
@@ -260,15 +283,27 @@ bool8 AddBagItem(u16 itemId, u16 count)
         u16 slotCapacity;
         u16 ownedCount;
         u8 pocket = ItemId_GetPocket(itemId) - 1;
-
+        #if USE_BAG_ITEM_LIMIT
+        u8 limit = 0;
+        #endif
         itemPocket = &gBagPockets[pocket];
         newItems = AllocZeroed(itemPocket->capacity * sizeof(struct ItemSlot));
         memcpy(newItems, itemPocket->itemSlots, itemPocket->capacity * sizeof(struct ItemSlot));
 
+        #if USE_BAG_ITEM_LIMIT
+        limit = ItemId_GetLimit(itemId);
         if (pocket != BERRIES_POCKET)
             slotCapacity = MAX_BAG_ITEM_CAPACITY;
         else
             slotCapacity = MAX_BERRY_CAPACITY;
+        if (limit < slotCapacity && limit != 0)
+            slotCapacity = limit;
+        #else
+        if (pocket != BERRIES_POCKET)
+            slotCapacity = MAX_BAG_ITEM_CAPACITY;
+        else
+            slotCapacity = MAX_BERRY_CAPACITY;
+        #endif
 
         for (i = 0; i < itemPocket->capacity; i++)
         {
@@ -294,6 +329,10 @@ bool8 AddBagItem(u16 itemId, u16 count)
                     }
                     else
                     {
+                        #if USE_BAG_ITEM_LIMIT
+                        if (CheckBagHasItem(itemId, limit))
+                            return FALSE;
+                        #endif
                         count -= slotCapacity - ownedCount;
                         SetBagItemQuantity(&newItems[i].quantity, slotCapacity);
                         // don't create another instance of the item if it's at max slot capacity and count is equal to 0
@@ -741,10 +780,10 @@ bool8 AddPyramidBagItem(u16 itemId, u16 count)
     u8 *quantities = gSaveBlock2Ptr->frontier.pyramidBag.quantity[gSaveBlock2Ptr->frontier.lvlMode];
 
     u16 *newItems = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(u16));
-    u8 *newQuantities = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(u8));
+    u16 *newQuantities = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(u16));
 
     memcpy(newItems, items, PYRAMID_BAG_ITEMS_COUNT * sizeof(u16));
-    memcpy(newQuantities, quantities, PYRAMID_BAG_ITEMS_COUNT * sizeof(u8));
+    memcpy(newQuantities, quantities, PYRAMID_BAG_ITEMS_COUNT * sizeof(u16));
 
     for (i = 0; i < PYRAMID_BAG_ITEMS_COUNT; i++)
     {
@@ -969,4 +1008,9 @@ bool32 IsPinchBerryItemEffect(u16 holdEffect)
     }
 
     return FALSE;
+}
+
+u16 ItemId_GetLimit(u16 itemId)
+{
+    return gItems[SanitizeItemId(itemId)].limit;
 }
