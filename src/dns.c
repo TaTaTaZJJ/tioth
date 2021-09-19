@@ -487,6 +487,9 @@ static u16 GetDNSFilter()
     u8 hour = gLocalTime.hours;    
     u8 minutes = gLocalTime.minutes;   
 
+    if (gGlobalFieldTintMode != QL_TINT_NONE) // 色调模式下禁用色板滤镜
+        return gDayFilter;
+
     switch(GetDnsTimeLapse(hour))
     {
         case TIME_MIDNIGHT:

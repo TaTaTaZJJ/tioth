@@ -2197,3 +2197,6 @@ static const u8 sTapuniumZDesc[] = _(
 
 static const u8 sUltranecroziumZDesc[] = _(
 "Z力量的结晶。会将奈克洛兹玛的光子喷涌升级成Z招式。");
+
+static const u8 sMirrorOfMindDesc[] = _(
+"切换相对世界。");

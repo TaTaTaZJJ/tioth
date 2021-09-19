@@ -55,6 +55,7 @@
 #include "task.h"
 #include "tileset_anims.h"
 #include "time_events.h"
+#include "tioth_specials.h"
 #include "trainer_hill.h"
 #include "trainer_pokemon_sprites.h"
 #include "tv.h"
@@ -940,7 +941,8 @@ static u8 GetAdjustedInitialTransitionFlags(struct InitialPlayerAvatarState *pla
 }
 
 static u8 GetAdjustedInitialDirection(struct InitialPlayerAvatarState *playerStruct, u8 transitionFlags, u16 metatileBehavior, u8 mapType)
-{
+{   
+    u8 mirrorWorldDirection = GetDreamWorldTransitionDirection();
     if (FlagGet(FLAG_SYS_CRUISE_MODE) && mapType == MAP_TYPE_OCEAN_ROUTE)
         return DIR_EAST;
     else if (MetatileBehavior_IsDeepSouthWarp(metatileBehavior) == TRUE)
@@ -960,6 +962,8 @@ static u8 GetAdjustedInitialDirection(struct InitialPlayerAvatarState *playerStr
         return playerStruct->direction;
     else if (MetatileBehavior_IsLadder(metatileBehavior) == TRUE)
         return playerStruct->direction;
+    else if (mirrorWorldDirection != DIR_NONE)
+        return mirrorWorldDirection;
     else
         return DIR_SOUTH;
 }

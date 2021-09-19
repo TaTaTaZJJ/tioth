@@ -7547,4 +7547,16 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 255  //signature z move
     },
+
+    [ITEM_MIRROR_OF_MIND] =
+    {
+        .name = _("心灵之镜"),
+        .itemId = ITEM_MIRROR_OF_MIND,
+        .price = 0,
+        .description = sMirrorOfMindDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_MirrorOfMind,
+    },
 };
