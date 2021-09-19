@@ -368,14 +368,8 @@ TestRadioTextbox::
 
 
 TestNewMugshot::
-	mugshot MUGSHOT_MAJO
-	msgbox TestMugshot_Text_0
-	mugshot MUGSHOT_MAJO, RIGHT
-	msgbox TestMugshot_Text_2
-	clearmughot
-	clearmughot RIGHT
-	closemessage
-	end
+	giveitem ITEM_MIRROR_OF_MIND, 1
+	return
 
 
 TestAddMoneywithVar_Text_0:

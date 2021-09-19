@@ -1072,3 +1072,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TiothMap_Indoor1/scripts.inc"
 
 	.include "data/maps/TiothMap_IndoorDream0/scripts.inc"
+
+	.include "data/maps/SpawnPlaceMirror/scripts.inc"

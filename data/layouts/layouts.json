@@ -4450,6 +4450,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/TiothMap_IndoorDream0/border.bin",
       "blockdata_filepath": "data/layouts/TiothMap_IndoorDream0/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPAWN_PLACE_MIRROR",
+      "name": "SpawnPlaceMirror_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SpawnPlaceMirror/border.bin",
+      "blockdata_filepath": "data/layouts/SpawnPlaceMirror/map.bin"
     }
   ]
 }

@@ -354,12 +354,5 @@ script TestRadioTextbox {
 }
 
 script TestNewMugshot {
-    mugshot(MUGSHOT_MAJO) // 显示头像,默认在左边
-    msgbox("测试头像对话左")
-    mugshot(MUGSHOT_MAJO, RIGHT) //在右边显示头像
-    msgbox("测试头像对话右")
-    clearmughot // 清除头像，默认是左边
-    clearmughot(RIGHT) // 清除在右边的头像
-    closemessage
-    end
+    giveitem(ITEM_MIRROR_OF_MIND,1)
 }
