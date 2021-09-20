@@ -1,8 +1,10 @@
 #include "global.h"
 #include "tioth_specials.h"
 #include "overworld.h"
+#include "script.h"
 #include "field_screen_effect.h"
 #include "field_player_avatar.h"
+#include "event_data.h"
 #include "constants/maps.h"
 
 EWRAM_DATA u8 playerFacingAtBeforeWarp = DIR_NONE; // 记录玩家转移前的面向
@@ -124,4 +126,59 @@ u8 GetDreamWorldTransitionDirection(void)
 bool8 IsDreamWorld(void)
 {
     return insideDreamWorld;
+}
+
+// 设置限时事件，
+// VAR_0x8000=事件编号
+// VAR_0x8001=天，单位为游戏时间VAR_0x8002
+// VAR_0x8002=小时，单位为游戏时间
+// VAR_0x8003=分钟，单位为游戏时间
+// 脚本设在loadword 0
+void SetTimeEvent(void)
+{
+    const u8 *script;
+    u8 slot = VarGet(VAR_0x8000);
+    u8 days = VarGet(VAR_0x8001);
+
+    //换算成真实时间
+    int playTimeMinutes = VarGet(VAR_0x8002) + days * 24;
+    int playTimeSeconds = VarGet(VAR_0x8003);
+    int playTimeHours;
+    script = (const u8 *)ReadWord(0);
+
+    if (slot < LIMITED_TIME_EVENT_COUNT)
+    {   
+        //算出脚本触发时机
+        playTimeSeconds += gSaveBlock2Ptr->playTimeSeconds;
+        playTimeMinutes += gSaveBlock2Ptr->playTimeMinutes;
+        playTimeHours = gSaveBlock2Ptr->playTimeHours;
+
+        if (playTimeSeconds >= 60)
+        {
+            playTimeMinutes += playTimeSeconds / 60;
+            playTimeSeconds %= 60;
+        }
+
+        if (playTimeMinutes >= 60)
+        {
+            playTimeHours += playTimeMinutes / 60;
+            playTimeMinutes %= 60;
+        }
+
+        gSaveBlock1Ptr->limitedTimeEvent[slot].script = script;
+        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeHours = playTimeHours;
+        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeMinutes = playTimeMinutes;
+        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeSeconds = playTimeSeconds;
+        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeVBlanks = gSaveBlock2Ptr->playTimeVBlanks;
+    }
+}
+
+//清除限时事件，VAR_0x8000=时间事件编号
+void ClearTimeEvent(void)
+{
+    u8 slot = VarGet(VAR_0x8000);
+    if (slot < LIMITED_TIME_EVENT_COUNT)
+    {   
+        gSaveBlock1Ptr->limitedTimeEvent[slot].script = 0;
+    }
 }
