@@ -61,8 +61,7 @@ script TestFollowMe {
 
 script TestSetScript {
     lock
-    setvar(VAR_T_SLOT, 0)
-    special(ClearTimeEvent)
+    cleartimeevent(0)
     msgbox("这是10分钟前设置的事件。\n(现实10秒)")
     closemessage
     release
@@ -71,8 +70,7 @@ script TestSetScript {
 
 script TestSetScript2 {
     lock
-    setvar(VAR_T_SLOT, 1)
-    special(ClearTimeEvent)
+    cleartimeevent(1)
     msgbox("这是20分钟前设置的事件。\n(现实20秒)")
     closemessage
     release
@@ -81,21 +79,10 @@ script TestSetScript2 {
 
 script TestTimeEvent {
     lock
-    setvar(VAR_T_SLOT, 0)
-    setvar(VAR_T_DAYS, 0)
-    setvar(VAR_T_HOURS, 0)
-    setvar(VAR_T_MINUTES, 10)
-    loadword(0, TestSetScript)
-    special(SetTimeEvent)
-    setvar(VAR_T_SLOT, 1)
-    setvar(VAR_T_DAYS, 0)
-    setvar(VAR_T_HOURS, 0)
-    setvar(VAR_T_MINUTES, 20)
-    loadword(0, TestSetScript2)
-    special(SetTimeEvent)
+    settimeevent(0, 0, 0, 10, TestSetScript)
+    settimeevent(1, 0, 0, 20, TestSetScript2)
     end
 }
-
 
 script TestEmotion {
     lock

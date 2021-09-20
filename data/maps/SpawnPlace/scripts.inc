@@ -73,8 +73,7 @@ TestFollowMe::
 
 TestSetScript::
 	lock
-	setvar VAR_T_SLOT, 0
-	special ClearTimeEvent
+	cleartimeevent 0
 	msgbox TestSetScript_Text_0
 	closemessage
 	release
@@ -83,8 +82,7 @@ TestSetScript::
 
 TestSetScript2::
 	lock
-	setvar VAR_T_SLOT, 1
-	special ClearTimeEvent
+	cleartimeevent 1
 	msgbox TestSetScript2_Text_0
 	closemessage
 	release
@@ -93,18 +91,8 @@ TestSetScript2::
 
 TestTimeEvent::
 	lock
-	setvar VAR_T_SLOT, 0
-	setvar VAR_T_DAYS, 0
-	setvar VAR_T_HOURS, 0
-	setvar VAR_T_MINUTES, 10
-	loadword 0, TestSetScript
-	special SetTimeEvent
-	setvar VAR_T_SLOT, 1
-	setvar VAR_T_DAYS, 0
-	setvar VAR_T_HOURS, 0
-	setvar VAR_T_MINUTES, 20
-	loadword 0, TestSetScript2
-	special SetTimeEvent
+	settimeevent 0, 0, 0, 10, TestSetScript
+	settimeevent 1, 0, 0, 20, TestSetScript2
 	end
 
 
