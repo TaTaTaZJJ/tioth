@@ -2076,6 +2076,5 @@
 
 	.macro cleartimeevent slot:req
     setvar VAR_0x8000, \slot
-    loadword 0, \script
     callnative ClearTimeEvent 
 	.endm
