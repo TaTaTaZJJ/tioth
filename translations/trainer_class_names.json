@@ -23,7 +23,7 @@
         },
         {
             "label": "TRAINER_CLASS_PKMN_BREEDER",
-            "zh": "{PKMN}培育家",
+            "zh": "宝可梦培育家",
             "en": "{PKMN} BREEDER"
         },
         {
@@ -253,7 +253,7 @@
         },
         {
             "label": "TRAINER_CLASS_PKMN_TRAINER_3",
-            "zh": "{PKMN}训练家",
+            "zh": "宝可梦训练家",
             "en": "{PKMN} TRAINER"
         },
         {
@@ -263,7 +263,7 @@
         },
         {
             "label": "TRAINER_CLASS_PKMN_RANGER",
-            "zh": "{PKMN}巡护员",
+            "zh": "宝可梦巡护员",
             "en": "{PKMN} RANGER"
         },
         {
