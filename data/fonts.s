@@ -74,3 +74,19 @@ gFont2JapaneseGlyphs::
 	.align 2
 gFont2JapaneseGlyphWidths::
 	.include "graphics/fonts/font2_japanese_widths.inc"
+
+	.align 2
+gFont0ChineseGlyphs::
+	.incbin "graphics/fonts/font0_chinese.latfont"
+
+	.align 2
+gFont1ChineseGlyphs::
+	.incbin "graphics/fonts/font1_chinese.latfont"
+
+	.align 2
+gFont0ChineseGlyphWidths::
+	.include "graphics/fonts/font0_chinese_widths.inc"
+
+	.align 2
+gFont1ChineseGlyphWidths::
+	.include "graphics/fonts/font1_chinese_widths.inc"
