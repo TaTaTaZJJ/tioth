@@ -14,8 +14,13 @@
 ## 特别感谢
 
 pret相关人员 — 绿宝石反编译项目及技术文献
+
 DizzyEggg和rh-hideout相关人员 — 后世代战斗引擎，道具及精灵添加
+
 ghoulslash — 部分游戏功能及体验优化改动
+
 Xhyzi — 昼夜功能源码
+
 porymap相关人员 — porymap
+
 poryscript相关人员 — poryscript
