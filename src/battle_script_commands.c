@@ -3703,9 +3703,7 @@ static void Cmd_getexp(void)
         }
         else
         {   
-            if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
-            else
+            if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
                 IncrementGameStat(GAME_STAT_WILD_POKEMON_BEATENS);
             gBattleScripting.getexpState++;
             gBattleStruct->givenExpMons |= gBitTable[gBattlerPartyIndexes[gBattlerFainted]];
