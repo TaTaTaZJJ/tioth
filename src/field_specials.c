@@ -91,7 +91,7 @@ void SetPlayerGotFirstFans(void);
 u16 GetNumFansOfPlayerInTrainerFanClub(void);
 
 static void RecordCyclingRoadResults(u32, u8);
-static void LoadLinkPartnerObjectEventSpritePalette(u8 graphicsId, u8 localEventId, u8 paletteNum);
+static void LoadLinkPartnerObjectEventSpritePalette(u16 graphicsId, u8 localEventId, u8 paletteNum);
 static void Task_PetalburgGymSlideOpenRoomDoors(u8 taskId);
 static void PetalburgGymSetDoorMetatiles(u8 roomNumber, u16 metatileId);
 static void Task_PCTurnOnEffect(u8);
@@ -534,7 +534,7 @@ void SpawnLinkPartnerObjectEvent(void)
     };
     u8 myLinkPlayerNumber;
     u8 playerFacingDirection;
-    u8 linkSpriteId;
+    u16 linkSpriteId;
     u8 i;
 
     myLinkPlayerNumber = GetMultiplayerId();
@@ -597,7 +597,7 @@ void SpawnLinkPartnerObjectEvent(void)
     }
 }
 
-static void LoadLinkPartnerObjectEventSpritePalette(u8 graphicsId, u8 localEventId, u8 paletteNum)
+static void LoadLinkPartnerObjectEventSpritePalette(u16 graphicsId, u8 localEventId, u8 paletteNum)
 {
     u8 adjustedPaletteNum;
     // Note: This temp var is necessary; paletteNum += 6 doesn't match.
@@ -4374,59 +4374,4 @@ void SetPlayerGotFirstFans(void)
 u8 Script_TryGainNewFanFromCounter(void)
 {
     return TryGainNewFanFromCounter(gSpecialVar_0x8004);
-}
-
-// 设置限时事件，
-// VAR_T_SLOT=事件编号
-// VAR_T_DAYS=天，单位为游戏时间
-// VAR_T_HOURS=小时，单位为游戏时间
-// VAR_T_MINUTES=分钟，单位为游戏时间
-// 脚本设在loadword 0
-void SetTimeEvent(void)
-{
-    const u8 *script;
-    u8 slot = VarGet(VAR_T_SLOT);
-    u8 days = VarGet(VAR_T_DAYS);
-
-    //换算成真实时间
-    int playTimeMinutes = VarGet(VAR_T_HOURS) + days * 24;
-    int playTimeSeconds = VarGet(VAR_T_MINUTES);
-    int playTimeHours;
-    script = (const u8 *)ReadWord(0);
-
-    if (slot < LIMITED_TIME_EVENT_COUNT)
-    {   
-        //算出脚本触发时机
-        playTimeSeconds += gSaveBlock2Ptr->playTimeSeconds;
-        playTimeMinutes += gSaveBlock2Ptr->playTimeMinutes;
-        playTimeHours = gSaveBlock2Ptr->playTimeHours;
-
-        if (playTimeSeconds >= 60)
-        {
-            playTimeMinutes += playTimeSeconds / 60;
-            playTimeSeconds %= 60;
-        }
-
-        if (playTimeMinutes >= 60)
-        {
-            playTimeHours += playTimeMinutes / 60;
-            playTimeMinutes %= 60;
-        }
-
-        gSaveBlock1Ptr->limitedTimeEvent[slot].script = script;
-        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeHours = playTimeHours;
-        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeMinutes = playTimeMinutes;
-        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeSeconds = playTimeSeconds;
-        gSaveBlock1Ptr->limitedTimeEvent[slot].playTimeVBlanks = gSaveBlock2Ptr->playTimeVBlanks;
-    }
-}
-
-//清除限时事件，VAR_T_SLOT=时间事件编号
-void ClearTimeEvent(void)
-{
-    u8 slot = VarGet(VAR_T_SLOT);
-    if (slot < LIMITED_TIME_EVENT_COUNT)
-    {   
-        gSaveBlock1Ptr->limitedTimeEvent[slot].script = 0;
-    }
 }

@@ -151,4 +151,4 @@
     .include "src/dns.o"
     .include "src/mugshot.o"
 	.include "src/map_preview.o"
-	
+	.include "src/tioth_specials.o"

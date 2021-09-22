@@ -1355,7 +1355,7 @@
 
 	.macro createvobject sprite:req, byte2:req, x:req, y:req, elevation, direction
 	.byte 0xaa
-	.byte \sprite
+	.2byte \sprite
 	.byte \byte2
 	.2byte \x
 	.2byte \y
@@ -2063,3 +2063,18 @@
 	MSGBOX_STYLE_IRON = 2
 	MSGBOX_STYLE_RADIO = 3
 	MSGBOX_STYLE_BLACK = 4
+
+	@
+	.macro settimeevent slot:req days:req hours:req minutes:req script:req
+    setvar VAR_0x8000, \slot
+    setvar VAR_0x8001, \days
+    setvar VAR_0x8002, \hours
+    setvar VAR_0x8003, \minutes
+    loadword 0, \script
+    callnative SetTimeEvent 
+	.endm
+
+	.macro cleartimeevent slot:req
+    setvar VAR_0x8000, \slot
+    callnative ClearTimeEvent 
+	.endm

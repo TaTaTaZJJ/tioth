@@ -37,7 +37,7 @@
 #define SECRET_BASES_COUNT 20
 #define TV_SHOWS_COUNT 25
 #define POKE_NEWS_COUNT 16
-#define PC_ITEMS_COUNT 50
+#define PC_ITEMS_COUNT 100
 #define BAG_ITEMS_COUNT 30
 #define BAG_KEYITEMS_COUNT 30
 #define BAG_POKEBALLS_COUNT 16
@@ -132,5 +132,7 @@
 #define DAYS_PER_MONTH                  28      // 本地月份天数
 #define LIMITED_TIME_EVENT_COUNT        5       // 最大限时事件数量
 #define USE_LEVEL_BALANCING_MODIFIER    TRUE    // 使用50级前的面板用50级的计算
+#define SHOW_IMPORTANT_ITEM_COUNT       TRUE    // 显示重要道具的数量
+#define USE_BAG_ITEM_LIMIT              TRUE    // 使用背包道具可持有上限
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

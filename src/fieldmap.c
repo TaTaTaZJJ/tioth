@@ -30,6 +30,7 @@ EWRAM_DATA struct MapHeader gMapHeader = {0};
 EWRAM_DATA struct Camera gCamera = {0};
 EWRAM_DATA static struct ConnectionFlags gMapConnectionFlags = {0};
 EWRAM_DATA static u32 sFiller = 0; // without this, the next file won't align properly
+EWRAM_DATA u8 gGlobalFieldTintMode = QL_TINT_NONE;
 
 struct BackupMapLayout gBackupMapLayout;
 
@@ -860,9 +861,22 @@ static void CopyTilesetToVramUsingHeap(struct Tileset const *tileset, u16 numTil
     }
 }
 
-static void FieldmapPaletteDummy(u16 offset, u16 size)
+static void Fieldmap_ApplyGlobalTintToPaletteEntries(u16 offset, u16 size) // 参考火红原版和灰阶模式
 {
-
+    switch (gGlobalFieldTintMode)
+    {
+        case QL_TINT_NONE:
+            return;
+        case QL_TINT_GRAYSCALE:
+            TintPalette_GrayScale(gPlttBufferUnfaded + offset, size);
+            break;
+        case QL_TINT_SEPIA:
+            TintPalette_SepiaTone(gPlttBufferUnfaded + offset, size);
+            break;
+        default:
+            return;
+    }
+    CpuCopy16(gPlttBufferUnfaded + offset, gPlttBufferFaded + offset, size * sizeof(u16));
 }
 
 static void FieldmapUnkDummy(void)
@@ -880,17 +894,17 @@ void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u16 size)
         {
             LoadPalette(&black, destOffset, 2);
             LoadPalette(((u16*)tileset->palettes) + 1, destOffset + 1, size - 2);
-            FieldmapPaletteDummy(destOffset + 1, (size - 2) >> 1);
+            Fieldmap_ApplyGlobalTintToPaletteEntries(destOffset + 1, (size - 2) >> 1);
         }
         else if (tileset->isSecondary == TRUE)
         {
             LoadPalette(((u16*)tileset->palettes) + (NUM_PALS_IN_PRIMARY * 16), destOffset, size);
-            FieldmapPaletteDummy(destOffset, size >> 1);
+            Fieldmap_ApplyGlobalTintToPaletteEntries(destOffset, size >> 1);
         }
         else
         {
             LoadCompressedPalette((u32*)tileset->palettes, destOffset, size);
-            FieldmapPaletteDummy(destOffset, size >> 1);
+            Fieldmap_ApplyGlobalTintToPaletteEntries(destOffset, size >> 1);
         }
     }
 }

@@ -950,6 +950,12 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
     u16 itemQuantity;
     int offset;
 
+    #if USE_BAG_ITEM_LIMIT
+    u16 limit;
+    u16 totalCount;
+    u8 digit = 3;
+    #endif
+
     if (itemIndex != LIST_CANCEL)
     {
         if (gBagMenu->toSwapPos != NOT_SWAPPING)
@@ -963,24 +969,85 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
 
         itemId = BagGetItemIdByPocketPosition(gBagPosition.pocket + 1, itemIndex);
         itemQuantity = BagGetQuantityByPocketPosition(gBagPosition.pocket + 1, itemIndex);
-
+        #if USE_BAG_ITEM_LIMIT
+        limit = ItemId_GetLimit(itemId);
+        totalCount = CountTotalItemQuantityInBag(itemId);
+        #endif
         // Draw HM icon
         if (itemId >= ITEM_HM01 && itemId <= ITEM_HM08)
             BlitBitmapToWindow(windowId, gBagMenuHMIcon_Gfx, 8, y - 1, 16, 16);
 
         if (gBagPosition.pocket == BERRIES_POCKET)
         {
+            #if USE_BAG_ITEM_LIMIT
+            if (limit == 0 || limit > MAX_BERRY_CAPACITY)
+                limit = MAX_BERRY_CAPACITY;
+            if (limit >= 10 && limit < 100)
+                digit = 2;
+            else if (limit < 10)
+                digit = 1;
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, digit);
+            ConvertIntToDecimalStringN(gStringVar2, limit, STR_CONV_MODE_RIGHT_ALIGN, digit); //上限
+            if (itemQuantity == limit)
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2Red);
+            else
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2);
+            #else
             // Print berry quantity
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BERRY_CAPACITY_DIGITS);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
+            #endif
             offset = GetStringRightAlignXOffset(7, gStringVar4, 119);
             BagMenu_Print(windowId, 7, gStringVar4, offset, y, 0, 0, TEXT_SPEED_FF, COLORID_NORMAL);
         }
-        else if (gBagPosition.pocket != KEYITEMS_POCKET && ItemId_GetImportance(itemId) == FALSE)
+    #if SHOW_IMPORTANT_ITEM_COUNT
+        else
         {
+            #if USE_BAG_ITEM_LIMIT
+            if (limit == 0 || limit > MAX_BAG_ITEM_CAPACITY)
+                limit = MAX_BAG_ITEM_CAPACITY;
+            if (limit >= 10 && limit < 100)
+                digit = 2;
+            else if (limit < 10)
+                digit = 1;
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, digit);
+            ConvertIntToDecimalStringN(gStringVar2, limit, STR_CONV_MODE_RIGHT_ALIGN, digit); //上限
+            if (itemQuantity == limit)
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2Red);
+            else
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2);
+            #else
             // Print item quantity
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
+            #endif
+            offset = GetStringRightAlignXOffset(7, gStringVar4, 119);
+            BagMenu_Print(windowId, 7, gStringVar4, offset, y, 0, 0, TEXT_SPEED_FF, COLORID_NORMAL);
+            // Print registered icon
+            if (gSaveBlock1Ptr->registeredItem && gSaveBlock1Ptr->registeredItem == itemId)
+                BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 96, y - 1, 24, 16);
+        }
+    #else
+        else if (gBagPosition.pocket != KEYITEMS_POCKET && ItemId_GetImportance(itemId) == FALSE)
+        {
+            #if USE_BAG_ITEM_LIMIT
+            if (limit == 0 || limit > MAX_BAG_ITEM_CAPACITY)
+                limit = MAX_BAG_ITEM_CAPACITY;
+            if (limit >= 10 && limit < 100)
+                digit = 2;
+            else if (limit < 10)
+                digit = 1;
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, digit);
+            ConvertIntToDecimalStringN(gStringVar2, limit, STR_CONV_MODE_RIGHT_ALIGN, digit); //上限
+            if (itemQuantity == limit)
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2Red);
+            else
+                StringExpandPlaceholders(gStringVar4, gText_Var1SlashVar2);
+            #else
+            // Print item quantity
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
+            StringExpandPlaceholders(gStringVar4, gText_xVar1);
+            #endif
             offset = GetStringRightAlignXOffset(7, gStringVar4, 119);
             BagMenu_Print(windowId, 7, gStringVar4, offset, y, 0, 0, TEXT_SPEED_FF, COLORID_NORMAL);
         }
@@ -990,6 +1057,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
             if (gSaveBlock1Ptr->registeredItem && gSaveBlock1Ptr->registeredItem == itemId)
                 BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 96, y - 1, 24, 16);
         }
+#endif
     }
 }
 

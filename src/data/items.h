@@ -24,6 +24,7 @@ const struct Item gItems[] =
         .battleUsage = ITEM_B_USE_OTHER,
         .battleUseFunc = ItemUseInBattle_PokeBall,
         .secondaryId = ITEM_MASTER_BALL - FIRST_BALL,
+        .limit = 1
     },
 
     [ITEM_ULTRA_BALL] =
@@ -7546,5 +7547,17 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 255  //signature z move
+    },
+
+    [ITEM_MIRROR_OF_MIND] =
+    {
+        .name = _("心灵之镜"),
+        .itemId = ITEM_MIRROR_OF_MIND,
+        .price = 0,
+        .description = sMirrorOfMindDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_MirrorOfMind,
     },
 };
