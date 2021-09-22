@@ -3,12 +3,12 @@
     "texts": [
         {
             "label": "TRAINER_CLASS_PKMN_TRAINER_1",
-            "zh": "{PKMN}训练家",
+            "zh": "宝可梦训练家",
             "en": "{PKMN} TRAINER"
         },
         {
             "label": "TRAINER_CLASS_PKMN_TRAINER_2",
-            "zh": "{PKMN}训练家",
+            "zh": "宝可梦训练家",
             "en": "{PKMN} TRAINER"
         },
         {
@@ -328,7 +328,7 @@
         },
         {
             "label": "TRAINER_CLASS_RS_PROTAG",
-            "zh": "{PKMN}训练家",
+            "zh": "宝可梦训练家",
             "en": "{PKMN} TRAINER"
         }
     ]
