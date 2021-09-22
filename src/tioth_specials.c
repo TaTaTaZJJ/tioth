@@ -5,6 +5,8 @@
 #include "field_screen_effect.h"
 #include "field_player_avatar.h"
 #include "event_data.h"
+#include "string_util.h"
+#include "constants/game_stat.h"
 #include "constants/maps.h"
 
 EWRAM_DATA u8 playerFacingAtBeforeWarp = DIR_NONE; // 记录玩家转移前的面向
@@ -181,4 +183,14 @@ void ClearTimeEvent(void)
     {   
         gSaveBlock1Ptr->limitedTimeEvent[slot].script = 0;
     }
+}
+
+void GetWildPokemonBeatensCount(void)
+{
+    ConvertIntToDecimalStringN(gStringVar1, GetGameStat(GAME_STAT_WILD_POKEMON_BEATENS), STR_CONV_MODE_LEFT_ALIGN, 5);
+}
+
+void GetTrainerBeatensCount(void)
+{
+    ConvertIntToDecimalStringN(gStringVar2, GetGameStat(GAME_STAT_TRAINER_BEATENS), STR_CONV_MODE_LEFT_ALIGN, 5);
 }

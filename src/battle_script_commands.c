@@ -3702,7 +3702,11 @@ static void Cmd_getexp(void)
             gBattleScripting.getexpState = 6; // goto last case
         }
         else
-        {
+        {   
+            if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
+            else
+                IncrementGameStat(GAME_STAT_WILD_POKEMON_BEATENS);
             gBattleScripting.getexpState++;
             gBattleStruct->givenExpMons |= gBitTable[gBattlerPartyIndexes[gBattlerFainted]];
         }
