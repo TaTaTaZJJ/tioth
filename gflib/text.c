@@ -26,86 +26,91 @@ struct TextGlyph gCurGlyph;
 TextFlags gTextFlags;
 
 const u8 gFontHalfRowOffsets[] =
-    {
-        0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
-        0x09, 0x0A, 0x0B, 0x09, 0x0C, 0x0D, 0x0E, 0x0C, 0x0F, 0x10, 0x11, 0x0F, 0x09, 0x0A, 0x0B, 0x09,
-        0x12, 0x13, 0x14, 0x12, 0x15, 0x16, 0x17, 0x15, 0x18, 0x19, 0x1A, 0x18, 0x12, 0x13, 0x14, 0x12,
-        0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
-        0x1B, 0x1C, 0x1D, 0x1B, 0x1E, 0x1F, 0x20, 0x1E, 0x21, 0x22, 0x23, 0x21, 0x1B, 0x1C, 0x1D, 0x1B,
-        0x24, 0x25, 0x26, 0x24, 0x27, 0x28, 0x29, 0x27, 0x2A, 0x2B, 0x2C, 0x2A, 0x24, 0x25, 0x26, 0x24,
-        0x2D, 0x2E, 0x2F, 0x2D, 0x30, 0x31, 0x32, 0x30, 0x33, 0x34, 0x35, 0x33, 0x2D, 0x2E, 0x2F, 0x2D,
-        0x1B, 0x1C, 0x1D, 0x1B, 0x1E, 0x1F, 0x20, 0x1E, 0x21, 0x22, 0x23, 0x21, 0x1B, 0x1C, 0x1D, 0x1B,
-        0x36, 0x37, 0x38, 0x36, 0x39, 0x3A, 0x3B, 0x39, 0x3C, 0x3D, 0x3E, 0x3C, 0x36, 0x37, 0x38, 0x36,
-        0x3F, 0x40, 0x41, 0x3F, 0x42, 0x43, 0x44, 0x42, 0x45, 0x46, 0x47, 0x45, 0x3F, 0x40, 0x41, 0x3F,
-        0x48, 0x49, 0x4A, 0x48, 0x4B, 0x4C, 0x4D, 0x4B, 0x4E, 0x4F, 0x50, 0x4E, 0x48, 0x49, 0x4A, 0x48,
-        0x36, 0x37, 0x38, 0x36, 0x39, 0x3A, 0x3B, 0x39, 0x3C, 0x3D, 0x3E, 0x3C, 0x36, 0x37, 0x38, 0x36,
-        0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
-        0x09, 0x0A, 0x0B, 0x09, 0x0C, 0x0D, 0x0E, 0x0C, 0x0F, 0x10, 0x11, 0x0F, 0x09, 0x0A, 0x0B, 0x09,
-        0x12, 0x13, 0x14, 0x12, 0x15, 0x16, 0x17, 0x15, 0x18, 0x19, 0x1A, 0x18, 0x12, 0x13, 0x14, 0x12,
-        0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00};
+{
+    0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
+    0x09, 0x0A, 0x0B, 0x09, 0x0C, 0x0D, 0x0E, 0x0C, 0x0F, 0x10, 0x11, 0x0F, 0x09, 0x0A, 0x0B, 0x09,
+    0x12, 0x13, 0x14, 0x12, 0x15, 0x16, 0x17, 0x15, 0x18, 0x19, 0x1A, 0x18, 0x12, 0x13, 0x14, 0x12,
+    0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
+    0x1B, 0x1C, 0x1D, 0x1B, 0x1E, 0x1F, 0x20, 0x1E, 0x21, 0x22, 0x23, 0x21, 0x1B, 0x1C, 0x1D, 0x1B,
+    0x24, 0x25, 0x26, 0x24, 0x27, 0x28, 0x29, 0x27, 0x2A, 0x2B, 0x2C, 0x2A, 0x24, 0x25, 0x26, 0x24,
+    0x2D, 0x2E, 0x2F, 0x2D, 0x30, 0x31, 0x32, 0x30, 0x33, 0x34, 0x35, 0x33, 0x2D, 0x2E, 0x2F, 0x2D,
+    0x1B, 0x1C, 0x1D, 0x1B, 0x1E, 0x1F, 0x20, 0x1E, 0x21, 0x22, 0x23, 0x21, 0x1B, 0x1C, 0x1D, 0x1B,
+    0x36, 0x37, 0x38, 0x36, 0x39, 0x3A, 0x3B, 0x39, 0x3C, 0x3D, 0x3E, 0x3C, 0x36, 0x37, 0x38, 0x36,
+    0x3F, 0x40, 0x41, 0x3F, 0x42, 0x43, 0x44, 0x42, 0x45, 0x46, 0x47, 0x45, 0x3F, 0x40, 0x41, 0x3F,
+    0x48, 0x49, 0x4A, 0x48, 0x4B, 0x4C, 0x4D, 0x4B, 0x4E, 0x4F, 0x50, 0x4E, 0x48, 0x49, 0x4A, 0x48,
+    0x36, 0x37, 0x38, 0x36, 0x39, 0x3A, 0x3B, 0x39, 0x3C, 0x3D, 0x3E, 0x3C, 0x36, 0x37, 0x38, 0x36,
+    0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00,
+    0x09, 0x0A, 0x0B, 0x09, 0x0C, 0x0D, 0x0E, 0x0C, 0x0F, 0x10, 0x11, 0x0F, 0x09, 0x0A, 0x0B, 0x09,
+    0x12, 0x13, 0x14, 0x12, 0x15, 0x16, 0x17, 0x15, 0x18, 0x19, 0x1A, 0x18, 0x12, 0x13, 0x14, 0x12,
+    0x00, 0x01, 0x02, 0x00, 0x03, 0x04, 0x05, 0x03, 0x06, 0x07, 0x08, 0x06, 0x00, 0x01, 0x02, 0x00
+};
 
 const u8 gDownArrowTiles[] = INCBIN_U8("graphics/fonts/down_arrow.4bpp");
 const u8 gDarkDownArrowTiles[] = INCBIN_U8("graphics/fonts/down_arrow_RS.4bpp");
 const u8 gUnusedFRLGBlankedDownArrow[] = INCBIN_U8("graphics/fonts/unused_frlg_blanked_down_arrow.4bpp");
 const u8 gUnusedFRLGDownArrow[] = INCBIN_U8("graphics/fonts/unused_frlg_down_arrow.4bpp");
-const u8 gDownArrowYCoords[] = {0x0, 0x1, 0x2, 0x1};
-const u8 gWindowVerticalScrollSpeeds[] = {0x1, 0x2, 0x4, 0x0};
+const u8 gDownArrowYCoords[] = { 0x0, 0x1, 0x2, 0x1 };
+const u8 gWindowVerticalScrollSpeeds[] = { 0x1, 0x2, 0x4, 0x0 };
 
 const struct GlyphWidthFunc gGlyphWidthFuncs[] =
-    {
-        {0x0, GetGlyphWidthFont0},
-        {0x1, GetGlyphWidthFont1},
-        {0x2, GetGlyphWidthFont2},
-        {0x3, GetGlyphWidthFont2},
-        {0x4, GetGlyphWidthFont2},
-        {0x5, GetGlyphWidthFont2},
-        {0x6, GetGlyphWidthFont6},
-        {0x7, GetGlyphWidthFont7},
-        {0x8, GetGlyphWidthFont8}};
+{
+    { 0x0, GetGlyphWidthFont0 },
+    { 0x1, GetGlyphWidthFont1 },
+    { 0x2, GetGlyphWidthFont2 },
+    { 0x3, GetGlyphWidthFont2 },
+    { 0x4, GetGlyphWidthFont2 },
+    { 0x5, GetGlyphWidthFont2 },
+    { 0x6, GetGlyphWidthFont6 },
+    { 0x7, GetGlyphWidthFont7 },
+    { 0x8, GetGlyphWidthFont8 }
+};
 
 const struct KeypadIcon gKeypadIcons[] =
-    {
-        [CHAR_A_BUTTON] = {0x0, 0x8, 0xC},
-        [CHAR_B_BUTTON] = {0x1, 0x8, 0xC},
-        [CHAR_L_BUTTON] = {0x2, 0x10, 0xC},
-        [CHAR_R_BUTTON] = {0x4, 0x10, 0xC},
-        [CHAR_START_BUTTON] = {0x6, 0x18, 0xC},
-        [CHAR_SELECT_BUTTON] = {0x9, 0x18, 0xC},
-        [CHAR_DPAD_UP] = {0xC, 0x8, 0xC},
-        [CHAR_DPAD_DOWN] = {0xD, 0x8, 0xC},
-        [CHAR_DPAD_LEFT] = {0xE, 0x8, 0xC},
-        [CHAR_DPAD_RIGHT] = {0xF, 0x8, 0xC},
-        [CHAR_DPAD_UPDOWN] = {0x20, 0x8, 0xC},
-        [CHAR_DPAD_LEFTRIGHT] = {0x21, 0x8, 0xC},
-        [CHAR_DPAD_NONE] = {0x22, 0x8, 0xC}};
+{
+    [CHAR_A_BUTTON]       = {  0x0,  0x8, 0xC },
+    [CHAR_B_BUTTON]       = {  0x1,  0x8, 0xC },
+    [CHAR_L_BUTTON]       = {  0x2, 0x10, 0xC },
+    [CHAR_R_BUTTON]       = {  0x4, 0x10, 0xC },
+    [CHAR_START_BUTTON]   = {  0x6, 0x18, 0xC },
+    [CHAR_SELECT_BUTTON]  = {  0x9, 0x18, 0xC },
+    [CHAR_DPAD_UP]        = {  0xC,  0x8, 0xC },
+    [CHAR_DPAD_DOWN]      = {  0xD,  0x8, 0xC },
+    [CHAR_DPAD_LEFT]      = {  0xE,  0x8, 0xC },
+    [CHAR_DPAD_RIGHT]     = {  0xF,  0x8, 0xC },
+    [CHAR_DPAD_UPDOWN]    = { 0x20,  0x8, 0xC },
+    [CHAR_DPAD_LEFTRIGHT] = { 0x21,  0x8, 0xC },
+    [CHAR_DPAD_NONE]      = { 0x22,  0x8, 0xC }
+};
 
 const u8 gKeypadIconTiles[] = INCBIN_U8("graphics/fonts/keypad_icons.4bpp");
 
 const struct FontInfo gFontInfos[] =
-    {
-        {Font0Func, 0x5, 0xC, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font1Func, 0x6, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font2Func, 0x6, 0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font3Func, 0x6, 0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font4Func, 0x6, 0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font5Func, 0x6, 0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font6Func, 0x8, 0x10, 0x0, 0x8, 0x0, 0x2, 0x1, 0x3},
-        {Font7Func, 0x5, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {Font8Func, 0x5, 0x8, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3},
-        {NULL, 0x8, 0x8, 0x0, 0x0, 0x0, 0x1, 0x2, 0xF}};
+{
+    { Font0Func, 0x5,  0xC, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font1Func, 0x6, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font2Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font3Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font4Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font5Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font6Func, 0x8, 0x10, 0x0, 0x8, 0x0, 0x2, 0x1, 0x3 },
+    { Font7Func, 0x5, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font8Func, 0x5,  0x8, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { NULL,      0x8,  0x8, 0x0, 0x0, 0x0, 0x1, 0x2, 0xF }
+};
 
 const u8 gMenuCursorDimensions[][2] =
-    {
-        {0x8, 0xC},
-        {0x8, 0xF},
-        {0x8, 0xE},
-        {0x8, 0xE},
-        {0x8, 0xE},
-        {0x8, 0xE},
-        {0x8, 0x10},
-        {0x8, 0xF},
-        {0x8, 0x8},
-        {0x0, 0x0}};
+{
+    { 0x8,  0xC },
+    { 0x8,  0xF },
+    { 0x8,  0xE },
+    { 0x8,  0xE },
+    { 0x8,  0xE },
+    { 0x8,  0xE },
+    { 0x8, 0x10 },
+    { 0x8,  0xF },
+    { 0x8,  0x8 },
+    { 0x0,  0x0 }
+};
 
 const u16 gFont9JapaneseGlyphs[] = INCBIN_U16("graphics/fonts/font9.hwjpnfont");
 
@@ -123,8 +128,10 @@ extern const u16 gFont0JapaneseGlyphs[];
 extern const u16 gFont1JapaneseGlyphs[];
 extern const u16 gFont2JapaneseGlyphs[];
 extern const u8 gFont2JapaneseGlyphWidths[];
-extern const u16 gFont0ChineseGlyphs[];     //汉字小字模
-extern const u16 gFont1ChineseGlyphs[];     //汉字大字模
+extern const u16 gFont0ChineseGlyphs[];     //汉字小字体字模
+extern const u16 gFont1ChineseGlyphs[];     //汉字大字体字模
+extern const u8 gFont0ChineseGlyphWidths[];     //汉字小字体标点符号宽度
+extern const u8 gFont1ChineseGlyphWidths[];     //汉字大字体标点符号宽度
 
 void SetFontsPointer(const struct FontInfo *fonts)
 {
@@ -540,7 +547,7 @@ void ClearTextSpan(struct TextPrinter *textPrinter, u32 width)
     struct Window *window;
     struct Bitmap pixels_data;
     struct TextGlyph *glyph;
-    u8 *glyphHeight;
+    u8* glyphHeight;
 
     if (gLastTextBgColor != 0)
     {
@@ -696,13 +703,13 @@ void TextPrinterDrawDownArrow(struct TextPrinter *textPrinter)
 
             switch (gTextFlags.useAlternateDownArrow)
             {
-            case FALSE:
-            default:
-                arrowTiles = gDownArrowTiles;
-                break;
-            case TRUE:
-                arrowTiles = gDarkDownArrowTiles;
-                break;
+                case FALSE:
+                default:
+                    arrowTiles = gDownArrowTiles;
+                    break;
+                case TRUE:
+                    arrowTiles = gDarkDownArrowTiles;
+                    break;
             }
 
             BlitBitmapRectToWindow(
@@ -803,13 +810,13 @@ void DrawDownArrow(u8 windowId, u16 x, u16 y, u8 bgColor, bool8 drawArrow, u8 *c
         {
             switch (gTextFlags.useAlternateDownArrow)
             {
-            case 0:
-            default:
-                arrowTiles = gDownArrowTiles;
-                break;
-            case 1:
-                arrowTiles = gDarkDownArrowTiles;
-                break;
+                case 0:
+                default:
+                    arrowTiles = gDownArrowTiles;
+                    break;
+                case 1:
+                    arrowTiles = gDarkDownArrowTiles;
+                    break;
             }
 
             BlitBitmapRectToWindow(
@@ -974,18 +981,18 @@ u16 RenderText(struct TextPrinter *textPrinter)
                 textPrinter->printerTemplate.currentChar++;
                 return 2;
             case EXT_CTRL_CODE_CLEAR_TO:
-            {
-                widthHelper = *textPrinter->printerTemplate.currentChar;
-                widthHelper += textPrinter->printerTemplate.x;
-                textPrinter->printerTemplate.currentChar++;
-                width = widthHelper - textPrinter->printerTemplate.currentX;
-                if (width > 0)
                 {
-                    ClearTextSpan(textPrinter, width);
-                    textPrinter->printerTemplate.currentX += width;
-                    return 0;
+                    widthHelper = *textPrinter->printerTemplate.currentChar;
+                    widthHelper += textPrinter->printerTemplate.x;
+                    textPrinter->printerTemplate.currentChar++;
+                    width = widthHelper - textPrinter->printerTemplate.currentX;
+                    if (width > 0)
+                    {
+                        ClearTextSpan(textPrinter, width);
+                        textPrinter->printerTemplate.currentX += width;
+                        return 0;
+                    }
                 }
-            }
                 return 2;
             case EXT_CTRL_CODE_MIN_LETTER_SPACING:
                 textPrinter->minLetterSpacing = *textPrinter->printerTemplate.currentChar++;
@@ -1015,7 +1022,7 @@ u16 RenderText(struct TextPrinter *textPrinter)
             gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY);
             textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
             return 0;
-        //汉字判定
+        //判断首字节是否为汉字专用控制符，并重写成新的编码
         case 0x01:
             currChar = *textPrinter->printerTemplate.currentChar | 0x1000;
             textPrinter->printerTemplate.currentChar++;
@@ -1128,7 +1135,6 @@ u16 RenderText(struct TextPrinter *textPrinter)
             currChar = *textPrinter->printerTemplate.currentChar | 0x2B00;
             textPrinter->printerTemplate.currentChar++;
             break;
-        //汉字判定结束
         case EOS:
             return 1;
         }
@@ -1379,17 +1385,17 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case PLACEHOLDER_BEGIN:
             switch (*++str)
             {
-            case PLACEHOLDER_ID_STRING_VAR_1:
-                bufferPointer = gStringVar1;
-                break;
-            case PLACEHOLDER_ID_STRING_VAR_2:
-                bufferPointer = gStringVar2;
-                break;
-            case PLACEHOLDER_ID_STRING_VAR_3:
-                bufferPointer = gStringVar3;
-                break;
-            default:
-                return 0;
+                case PLACEHOLDER_ID_STRING_VAR_1:
+                    bufferPointer = gStringVar1;
+                    break;
+                case PLACEHOLDER_ID_STRING_VAR_2:
+                    bufferPointer = gStringVar2;
+                    break;
+                case PLACEHOLDER_ID_STRING_VAR_3:
+                    bufferPointer = gStringVar3;
+                    break;
+                default:
+                    return 0;
             }
         case CHAR_DYNAMIC:
             if (bufferPointer == NULL)
@@ -1614,7 +1620,8 @@ u8 RenderTextFont9(u8 *pixels, u8 fontId, u8 *str)
             pixels += 0x40;
             break;
         }
-    } while (temp != EOS);
+    }
+    while (temp != EOS);
 
     RestoreTextColors(&colorBackup[0], &colorBackup[1], &colorBackup[2]);
     return 1;
@@ -1661,30 +1668,30 @@ u8 GetFontAttribute(u8 fontId, u8 attributeId)
     int result = 0;
     switch (attributeId)
     {
-    case FONTATTR_MAX_LETTER_WIDTH:
-        result = gFontInfos[fontId].maxLetterWidth;
-        break;
-    case FONTATTR_MAX_LETTER_HEIGHT:
-        result = gFontInfos[fontId].maxLetterHeight;
-        break;
-    case FONTATTR_LETTER_SPACING:
-        result = gFontInfos[fontId].letterSpacing;
-        break;
-    case FONTATTR_LINE_SPACING:
-        result = gFontInfos[fontId].lineSpacing;
-        break;
-    case FONTATTR_UNKNOWN:
-        result = gFontInfos[fontId].unk;
-        break;
-    case FONTATTR_COLOR_FOREGROUND:
-        result = gFontInfos[fontId].fgColor;
-        break;
-    case FONTATTR_COLOR_BACKGROUND:
-        result = gFontInfos[fontId].bgColor;
-        break;
-    case FONTATTR_COLOR_SHADOW:
-        result = gFontInfos[fontId].shadowColor;
-        break;
+        case FONTATTR_MAX_LETTER_WIDTH:
+            result = gFontInfos[fontId].maxLetterWidth;
+            break;
+        case FONTATTR_MAX_LETTER_HEIGHT:
+            result = gFontInfos[fontId].maxLetterHeight;
+            break;
+        case FONTATTR_LETTER_SPACING:
+            result = gFontInfos[fontId].letterSpacing;
+            break;
+        case FONTATTR_LINE_SPACING:
+            result = gFontInfos[fontId].lineSpacing;
+            break;
+        case FONTATTR_UNKNOWN:
+            result = gFontInfos[fontId].unk;
+            break;
+        case FONTATTR_COLOR_FOREGROUND:
+            result = gFontInfos[fontId].fgColor;
+            break;
+        case FONTATTR_COLOR_BACKGROUND:
+            result = gFontInfos[fontId].bgColor;
+            break;
+        case FONTATTR_COLOR_SHADOW:
+            result = gFontInfos[fontId].shadowColor;
+            break;
     }
     return result;
 }
@@ -1696,7 +1703,8 @@ u8 GetMenuCursorDimensionByFont(u8 fontId, u8 whichDimension)
 
 void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
+
     if (isJapanese == 1)
     {
         glyphs = gFont0JapaneseGlyphs + (0x100 * (glyphId >> 0x4)) + (0x8 * (glyphId & 0xF));
@@ -1707,10 +1715,10 @@ void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
     }
     else
     {
-        if (glyphId >= 0x1000) //两字节字符判定
+        if (glyphId >= 0x1000) //汉字字符判定
         {
-            glyphs = gFont0ChineseGlyphs + (32 * (glyphId - 0x1000));
-            gCurGlyph.width = 10;
+            glyphs = gFont0ChineseGlyphs + (0x20 * (glyphId - 0x1000));
+            gCurGlyph.width = (glyphId >= 0x2B5E && glyphId <= 0x2B66) ? gFont0ChineseGlyphWidths[glyphId - 0x2B5E] : 10;
         }
         else
         {
@@ -1745,7 +1753,7 @@ u32 GetGlyphWidthFont0(u16 glyphId, bool32 isJapanese)
 
 void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
 
     if (isJapanese == TRUE)
     {
@@ -1757,10 +1765,10 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
     }
     else
     {
-        if (glyphId >= 0x1000) //两字节字符判定
+        if (glyphId >= 0x1000) //汉字字符判定
         {
-            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
-            gCurGlyph.width = 12;
+            glyphs = gFont1ChineseGlyphs + (0x20 * (glyphId - 0x1000));
+            gCurGlyph.width = (glyphId >= 0x2B5E && glyphId <= 0x2B66) ? gFont1ChineseGlyphWidths[glyphId - 0x2B5E] : 12;
         }
         else
         {
@@ -1795,7 +1803,7 @@ u32 GetGlyphWidthFont7(u16 glyphId, bool32 isJapanese)
 
 void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
 
     if (isJapanese == TRUE)
     {
@@ -1807,10 +1815,10 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
     }
     else
     {
-        if (glyphId >= 0x1000) //两字节字符判定
+        if (glyphId >= 0x1000) //汉字字符判定
         {
-            glyphs = gFont0ChineseGlyphs + (32 * (glyphId - 0x1000));
-            gCurGlyph.width = 10;
+            glyphs = gFont0ChineseGlyphs + (0x20 * (glyphId - 0x1000));
+            gCurGlyph.width = (glyphId >= 0x2B5E && glyphId <= 0x2B66) ? gFont0ChineseGlyphWidths[glyphId - 0x2B5E] : 10;
         }
         else
         {
@@ -1845,24 +1853,24 @@ u32 GetGlyphWidthFont8(u16 glyphId, bool32 isJapanese)
 
 void DecompressGlyphFont2(u16 glyphId, bool32 isJapanese)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
 
     if (isJapanese == TRUE)
     {
         glyphs = gFont2JapaneseGlyphs + (0x100 * (glyphId >> 0x3)) + (0x10 * (glyphId & 0x7));
         DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
         DecompressGlyphTile(glyphs + 0x8, gCurGlyph.gfxBufferTop + 8);
-        DecompressGlyphTile(glyphs + 0x80, gCurGlyph.gfxBufferBottom);     // gCurGlyph + 0x20
-        DecompressGlyphTile(glyphs + 0x88, gCurGlyph.gfxBufferBottom + 8); // gCurGlyph + 0x60
+        DecompressGlyphTile(glyphs + 0x80, gCurGlyph.gfxBufferBottom);    // gCurGlyph + 0x20
+        DecompressGlyphTile(glyphs + 0x88, gCurGlyph.gfxBufferBottom + 8);    // gCurGlyph + 0x60
         gCurGlyph.width = gFont2JapaneseGlyphWidths[glyphId];
         gCurGlyph.height = 14;
     }
     else
     {
-        if (glyphId >= 0x1000) //两字节字符判定
+        if (glyphId >= 0x1000) //汉字字符判定
         {
-            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
-            gCurGlyph.width = 12;
+            glyphs = gFont1ChineseGlyphs + (0x20 * (glyphId - 0x1000));
+            gCurGlyph.width = (glyphId >= 0x2B5E && glyphId <= 0x2B66) ? gFont1ChineseGlyphWidths[glyphId - 0x2B5E] : 12;
         }
         else
         {
@@ -1897,7 +1905,7 @@ u32 GetGlyphWidthFont2(u16 glyphId, bool32 isJapanese)
 
 void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
 
     if (isJapanese == TRUE)
     {
@@ -1909,10 +1917,10 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
     }
     else
     {
-        if (glyphId >= 0x1000) //两字节字符判定
+        if (glyphId >= 0x1000) //汉字字符判定
         {
-            glyphs = gFont1ChineseGlyphs + (32 * (glyphId - 0x1000));
-            gCurGlyph.width = 12;
+            glyphs = gFont1ChineseGlyphs + (0x20 * (glyphId - 0x1000));
+            gCurGlyph.width = (glyphId >= 0x2B5E && glyphId <= 0x2B66) ? gFont1ChineseGlyphWidths[glyphId - 0x2B5E] : 12;
         }
         else
         {
@@ -1947,7 +1955,7 @@ u32 GetGlyphWidthFont1(u16 glyphId, bool32 isJapanese)
 
 void DecompressGlyphFont9(u16 glyphId)
 {
-    const u16 *glyphs;
+    const u16* glyphs;
 
     glyphs = gFont9JapaneseGlyphs + (0x100 * (glyphId >> 4)) + (0x8 * (glyphId & 0xF));
     DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);

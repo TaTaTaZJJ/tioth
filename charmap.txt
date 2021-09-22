@@ -79,7 +79,6 @@ SUPER_RE    = A0
 '?'         = AC
 '.'         = AD
 '-'         = AE
-'～'         = AE
 '·'         = AF
 '…'         = B0
 '“'         = B1
@@ -90,8 +89,6 @@ SUPER_RE    = A0
 '♀'         = B6
 '¥'         = B7
 ','         = B8
-'，'        = B8
-'、'        = B8
 '×'         = B9
 '/'         = BA
 'A'         = BB
@@ -323,9 +320,9 @@ TALL_PLUS   = FC 0C FB
 
 @ Japanese punctuation
 '　' = 00
-'！' = AB
-'？' = AC
-'。' = AD
+@ '！' = AB (和汉字冲突)
+@ '？' = AC (和汉字冲突)
+@ '。' = AD (和汉字冲突)
 'ー' = AE
 '⋯' = B0
 
@@ -7851,11 +7848,22 @@ EMOJI_BIGANGER = F9 FE
 '鼾' = 1E5C
 '齄' = 1E5D
 
+@标点符号
+'；' = 1E5E
+'。' = 1E5F
+'—'  = 1E60
+'~'  = 1E61
+'、' = 1E62
+'，' = 1E63
+'！' = 1E64
+'？' = 1E65
+'：' = 1E66
+
 '\l' = FA @ scroll up window text
 '\p' = FB @ new paragraph
 '\n' = FE @ new line
 
-@全角字体
+@全角英文字母，目前没有字模，所以指向半角的字体
 'Ａ'         = BB
 'Ｂ'         = BC
 'Ｃ'         = BD
@@ -7908,6 +7916,3 @@ EMOJI_BIGANGER = F9 FE
 'ｘ'         = EC
 'ｙ'         = ED
 'ｚ'         = EE
-'：'         = F0
-'—'         = AE
-'~'         = AE
