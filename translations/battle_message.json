@@ -108,7 +108,7 @@
         },
         {
             "label": "sText_PlayerGotMoney",
-            "zh": "{B_PLAYER_NAME}收到了\\n{B_BUFF1}$作为奖励！\\p",
+            "zh": "{B_PLAYER_NAME}收到了\\n{B_BUFF1}元作为奖励！\\p",
             "en": "{B_PLAYER_NAME} got ¥{B_BUFF1}\\nfor winning!\\p"
         },
         {
@@ -1828,7 +1828,7 @@
         },
         {
             "label": "sText_AttackerUsedX",
-            "zh": "{B_ATK_NAME_WITH_PREFIX}使用\\n{B_BUFF2}！",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}使用\\n{B_BUFF3}！",
             "en": "{B_ATK_NAME_WITH_PREFIX} used\\n{B_BUFF3}!"
         },
         {
