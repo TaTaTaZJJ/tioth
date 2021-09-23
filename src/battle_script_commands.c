@@ -6329,14 +6329,46 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
     return moneyReward;
 }
 
+static u16 GetTrainerLootItemToGive(u16 trainerId)
+{
+    return gTrainers[trainerId].rewardItem;
+}
+
 static void Cmd_getmoneyreward(void)
 {
+    u16 item;
     u32 moneyReward = GetTrainerMoneyToGive(gTrainerBattleOpponent_A);
     if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
         moneyReward += GetTrainerMoneyToGive(gTrainerBattleOpponent_B);
 
     AddMoney(&gSaveBlock1Ptr->money, moneyReward);
     PREPARE_WORD_NUMBER_BUFFER(gBattleTextBuff1, 5, moneyReward);
+
+    // 奖励道具
+    gRewardItemCount = 0;
+    item = GetTrainerLootItemToGive(gTrainerBattleOpponent_A);
+    if (AddBagItem(item, 1) == TRUE) //道具加入背包成功时记录道具名字
+    {
+        PREPARE_ITEM_BUFFER(gBattleTextBuff2, item);
+        gRewardItemCount++;
+    }
+
+    if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) //双打
+    {    
+        item = GetTrainerLootItemToGive(gTrainerBattleOpponent_B);
+        if (AddBagItem(item, 1) == TRUE) 
+        {   
+            if (gRewardItemCount == 0)
+            {
+                PREPARE_ITEM_BUFFER(gBattleTextBuff2, item); //当训练师1不给道具时
+            }
+            else
+            {
+                PREPARE_ITEM_BUFFER(gBattleTextBuff3, item);
+            }
+            gRewardItemCount++;
+        }
+    }
 
     gBattlescriptCurrInstr++;
 }
