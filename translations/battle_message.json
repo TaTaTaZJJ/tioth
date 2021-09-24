@@ -1,0 +1,3605 @@
+{
+    "path": "src/battle_message.c",
+    "texts": [
+        {
+            "label": "sText_Trainer1LoseText",
+            "zh": "{B_TRAINER1_LOSE_TEXT}",
+            "en": "{B_TRAINER1_LOSE_TEXT}"
+        },
+        {
+            "label": "sText_PkmnGainedEXP",
+            "zh": "{B_BUFF1}获得了{B_BUFF2}\\n{B_BUFF3}点经验值！\\p",
+            "en": "{B_BUFF1} gained{B_BUFF2}\\n{B_BUFF3} EXP. Points!\\p"
+        },
+        {
+            "label": "sText_EmptyString4",
+            "zh": "",
+            "en": ""
+        },
+        {
+            "label": "sText_ABoosted",
+            "zh": "提升",
+            "en": " a boosted"
+        },
+        {
+            "label": "sText_PkmnGrewToLv",
+            "zh": "{B_BUFF1}\\n升到了{B_BUFF2}级！{WAIT_SE}\\p",
+            "en": "{B_BUFF1} grew to\\nLV. {B_BUFF2}!{WAIT_SE}\\p"
+        },
+        {
+            "label": "sText_PkmnLearnedMove",
+            "zh": "{B_BUFF1}习得\\n技能{B_BUFF2}！{WAIT_SE}\\p",
+            "en": "{B_BUFF1} learned\\n{B_BUFF2}!{WAIT_SE}\\p"
+        },
+        {
+            "label": "sText_TryToLearnMove1",
+            "zh": "{B_BUFF1}想要习得\\n技能{B_BUFF2}。\\p",
+            "en": "{B_BUFF1} is trying to\\nlearn {B_BUFF2}.\\p"
+        },
+        {
+            "label": "sText_TryToLearnMove2",
+            "zh": "但是，{B_BUFF1}已经不能\\n习得更多的技能。\\p",
+            "en": "But, {B_BUFF1} can't learn\\nmore than four moves.\\p"
+        },
+        {
+            "label": "sText_TryToLearnMove3",
+            "zh": "删除一个技能给\\n{B_BUFF2}留下空间？",
+            "en": "Delete a move to make\\nroom for {B_BUFF2}?"
+        },
+        {
+            "label": "sText_PkmnForgotMove",
+            "zh": "{B_BUFF1}忘记了\\n{B_BUFF2}。\\p",
+            "en": "{B_BUFF1} forgot\\n{B_BUFF2}.\\p"
+        },
+        {
+            "label": "sText_StopLearningMove",
+            "zh": "{PAUSE 32}放弃习得\\n技能{B_BUFF2}？",
+            "en": "{PAUSE 32}Stop learning\\n{B_BUFF2}?"
+        },
+        {
+            "label": "sText_DidNotLearnMove",
+            "zh": "{B_BUFF1}没有习得\\n技能{B_BUFF2}。\\p",
+            "en": "{B_BUFF1} did not learn\\n{B_BUFF2}.\\p"
+        },
+        {
+            "label": "sText_UseNextPkmn",
+            "zh": "要更换宝可梦吗？",
+            "en": "Use next POKéMON?"
+        },
+        {
+            "label": "sText_AttackMissed",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的\\n攻击没有命中！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s\\nattack missed!"
+        },
+        {
+            "label": "sText_PkmnProtectedItself",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n保护了自己！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}\\nprotected itself!"
+        },
+        {
+            "label": "sText_AvoidedDamage",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}因{B_DEF_ABILITY}\\n避免了伤害！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} avoided\\ndamage with {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnMakesGroundMiss",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}因{B_DEF_ABILITY}\\n抵御了地上系技能！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} makes GROUND\\nmoves miss with {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnAvoidedAttack",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}抵御了攻击！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} avoided\\nthe attack!"
+        },
+        {
+            "label": "sText_ItDoesntAffect",
+            "zh": "对{B_DEF_NAME_WITH_PREFIX}\\n没有效果……",
+            "en": "It doesn't affect\\n{B_DEF_NAME_WITH_PREFIX}…"
+        },
+        {
+            "label": "sText_AttackerFainted",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n倒下了！\\p",
+            "en": "{B_ATK_NAME_WITH_PREFIX}\\nfainted!\\p"
+        },
+        {
+            "label": "sText_TargetFainted",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n倒下了！\\p",
+            "en": "{B_DEF_NAME_WITH_PREFIX}\\nfainted!\\p"
+        },
+        {
+            "label": "sText_PlayerGotMoney",
+            "zh": "{B_PLAYER_NAME}收到了\\n{B_BUFF1}元作为奖励！\\p",
+            "en": "{B_PLAYER_NAME} got ¥{B_BUFF1}\\nfor winning!\\p"
+        },
+        {
+            "label": "sText_PlayerWhiteout",
+            "zh": "{B_PLAYER_NAME}\\n已经没有可用的宝可梦了！\\p",
+            "en": "{B_PLAYER_NAME} is out of\\nusable POKéMON!\\p"
+        },
+        {
+            "label": "sText_PlayerWhiteout2",
+            "zh": "{B_PLAYER_NAME}被击败了！{PAUSE_UNTIL_PRESS}",
+            "en": "{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS}"
+        },
+        {
+            "label": "sText_PreventsEscape",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}用{B_SCR_ACTIVE_ABILITY}\\n阻止逃跑！\\p",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents\\nescape with {B_SCR_ACTIVE_ABILITY}!\\p"
+        },
+        {
+            "label": "sText_CantEscape2",
+            "zh": "不能逃跑！\\p",
+            "en": "Can't escape!\\p"
+        },
+        {
+            "label": "sText_AttackerCantEscape",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}不能逃跑！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can't escape!"
+        },
+        {
+            "label": "sText_HitXTimes",
+            "zh": "连续命中{B_BUFF1}次！",
+            "en": "Hit {B_BUFF1} time(s)!"
+        },
+        {
+            "label": "sText_PkmnFellAsleep",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}\\n睡着了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}\\nfell asleep!"
+        },
+        {
+            "label": "sText_PkmnMadeSleep",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使{B_EFF_NAME_WITH_PREFIX}睡着了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nmade {B_EFF_NAME_WITH_PREFIX} sleep!"
+        },
+        {
+            "label": "sText_PkmnAlreadyAsleep",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n已经睡着了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is\\nalready asleep!"
+        },
+        {
+            "label": "sText_PkmnAlreadyAsleep2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n已经睡着了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is\\nalready asleep!"
+        },
+        {
+            "label": "sText_PkmnWasntAffected",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n没有受到影响！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}\\nwasn't affected!"
+        },
+        {
+            "label": "sText_PkmnWasPoisoned",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}\\n中毒了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}\\nwas poisoned!"
+        },
+        {
+            "label": "sText_PkmnPoisonedBy",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_BUFF1}\\n使{B_EFF_NAME_WITH_PREFIX}中毒了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} was poisoned by\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnHurtByPoison",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因中毒\\n受到了伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is hurt\\nby poison!"
+        },
+        {
+            "label": "sText_PkmnAlreadyPoisoned",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n中毒了。",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is already\\npoisoned."
+        },
+        {
+            "label": "sText_PkmnBadlyPoisoned",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}\\n中了剧毒！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} is badly\\npoisoned!"
+        },
+        {
+            "label": "sText_PkmnEnergyDrained",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n被吸取了能量！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} had its\\nenergy drained!"
+        },
+        {
+            "label": "sText_PkmnWasBurned",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}烧伤了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} was burned!"
+        },
+        {
+            "label": "sText_PkmnBurnedBy",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使{B_EFF_NAME_WITH_PREFIX}烧伤了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nburned {B_EFF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnHurtByBurn",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n因烧伤受到了伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is hurt\\nby its burn!"
+        },
+        {
+            "label": "sText_PkmnAlreadyHasBurn",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n已经烧伤了。",
+            "en": "{B_DEF_NAME_WITH_PREFIX} already\\nhas a burn."
+        },
+        {
+            "label": "sText_PkmnWasFrozen",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}\\n被冰冻！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} was\\nfrozen solid!"
+        },
+        {
+            "label": "sText_PkmnFrozenBy",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使{B_EFF_NAME_WITH_PREFIX}被冰冻了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nfroze {B_EFF_NAME_WITH_PREFIX} solid!"
+        },
+        {
+            "label": "sText_PkmnIsFrozen",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}被\\n冰冻了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is\\nfrozen solid!"
+        },
+        {
+            "label": "sText_PkmnWasDefrosted",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n解除了冰冻！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was\\ndefrosted!"
+        },
+        {
+            "label": "sText_PkmnWasDefrosted2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n解除了冰冻！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was\\ndefrosted!"
+        },
+        {
+            "label": "sText_PkmnWasDefrostedBy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因{B_CURRENT_MOVE}\\n解除了冰冻！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was\\ndefrosted by {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnWasParalyzed",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}麻痹了！\\n可能无法行动！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} is paralyzed!\\nIt may be unable to move!"
+        },
+        {
+            "label": "sText_PkmnWasParalyzedBy",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使{B_EFF_NAME_WITH_PREFIX}麻痹了！\\l可能无法行动！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\n麻痹了 {B_EFF_NAME_WITH_PREFIX}!\\lIt may be unable to move!"
+        },
+        {
+            "label": "sText_PkmnIsParalyzed",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}麻痹了！\\n无法行动！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is paralyzed!\\nIt can't move!"
+        },
+        {
+            "label": "sText_PkmnIsAlreadyParalyzed",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n已经麻痹了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is\\nalready paralyzed!"
+        },
+        {
+            "label": "sText_PkmnHealedParalysis",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的身体\\n不再麻痹了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was\\nhealed of paralysis!"
+        },
+        {
+            "label": "sText_PkmnDreamEaten",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的梦\\n被吃了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s\\ndream was eaten!"
+        },
+        {
+            "label": "sText_StatsWontIncrease",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}\\n已经无法上升了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwon't go higher!"
+        },
+        {
+            "label": "sText_StatsWontDecrease",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n已经无法下降了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwon't go lower!"
+        },
+        {
+            "label": "sText_TeamStoppedWorking",
+            "zh": "我方的{B_BUFF1}\\n失去了作用！",
+            "en": "Your team's {B_BUFF1}\\nstopped working!"
+        },
+        {
+            "label": "sText_FoeStoppedWorking",
+            "zh": "对手的{B_BUFF1}\\n失去了作用！",
+            "en": "The foe's {B_BUFF1}\\nstopped working!"
+        },
+        {
+            "label": "sText_PkmnIsConfused",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n混乱了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is\\nconfused!"
+        },
+        {
+            "label": "sText_PkmnHealedConfusion",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n解除了混乱！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} snapped\\nout of confusion!"
+        },
+        {
+            "label": "sText_PkmnWasConfused",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}\\n开始混乱了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} became\\nconfused!"
+        },
+        {
+            "label": "sText_PkmnAlreadyConfused",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n已经混乱了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is\\nalready confused!"
+        },
+        {
+            "label": "sText_PkmnFellInLove",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n被迷倒了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}\\nfell in love!"
+        },
+        {
+            "label": "sText_PkmnInLove",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}迷倒了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is in love\\nwith {B_SCR_ACTIVE_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnImmobilizedByLove",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因\\n迷倒无法行动！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is\\nimmobilized by love!"
+        },
+        {
+            "label": "sText_PkmnBlownAway",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被\\n吹飞了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was\\nblown away!"
+        },
+        {
+            "label": "sText_PkmnChangedType",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}变成了\\n{B_BUFF1}系！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} transformed\\ninto the {B_BUFF1} type!"
+        },
+        {
+            "label": "sText_PkmnFlinched",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}动弹不得！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} flinched!"
+        },
+        {
+            "label": "sText_PkmnRegainedHealth",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n恢复了健康！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} regained\\nhealth!"
+        },
+        {
+            "label": "sText_PkmnHPFull",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的\\nHP满了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s\\nHP is full!"
+        },
+        {
+            "label": "sText_PkmnRaisedSpDef",
+            "zh": "{B_ATK_PREFIX2}的{B_CURRENT_MOVE}\\n提升了特防！",
+            "en": "{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}\\nraised SP. DEF!"
+        },
+        {
+            "label": "sText_PkmnRaisedSpDefALittle",
+            "zh": "{B_ATK_PREFIX2}的{B_CURRENT_MOVE}\\n稍微提升了特防！",
+            "en": "{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}\\nraised SP. DEF a little!"
+        },
+        {
+            "label": "sText_PkmnRaisedDef",
+            "zh": "{B_ATK_PREFIX2}的{B_CURRENT_MOVE}\\n提升了防御！",
+            "en": "{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}\\nraised DEFENSE!"
+        },
+        {
+            "label": "sText_PkmnRaisedDefALittle",
+            "zh": "{B_ATK_PREFIX2}的{B_CURRENT_MOVE}\\n稍微提升了防御！",
+            "en": "{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}\\nraised DEFENSE a little!"
+        },
+        {
+            "label": "sText_PkmnCoveredByVeil",
+            "zh": "{B_ATK_PREFIX2}的一方\\n被罩子包裹了！",
+            "en": "{B_ATK_PREFIX2}'s party is covered\\nby a veil!"
+        },
+        {
+            "label": "sText_PkmnUsedSafeguard",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的一方被\\n神秘护身保护了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s party is protected\\nby SAFEGUARD!"
+        },
+        {
+            "label": "sText_PkmnSafeguardExpired",
+            "zh": "{B_ATK_PREFIX3}的一方\\n不再受神秘护身保护了！",
+            "en": "{B_ATK_PREFIX3}'s party is no longer\\nprotected by SAFEGUARD!"
+        },
+        {
+            "label": "sText_PkmnWentToSleep",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n睡着了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} went\\nto sleep!"
+        },
+        {
+            "label": "sText_PkmnSleptHealthy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}睡着了\\n并且恢复了体力！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} slept and\\nbecame healthy!"
+        },
+        {
+            "label": "sText_PkmnWhippedWhirlwind",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n使出了旋风！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} whipped\\nup a whirlwind!"
+        },
+        {
+            "label": "sText_PkmnTookSunlight",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n吸收了阳光！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} took\\nin sunlight!"
+        },
+        {
+            "label": "sText_PkmnLoweredHead",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的头\\n往后缩了下！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} lowered\\nits head!"
+        },
+        {
+            "label": "sText_PkmnIsGlowing",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}正在发光！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is glowing!"
+        },
+        {
+            "label": "sText_PkmnFlewHigh",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n飞向了高空！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} flew\\nup high!"
+        },
+        {
+            "label": "sText_PkmnDugHole",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}挖向了地下！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} dug a hole!"
+        },
+        {
+            "label": "sText_PkmnHidUnderwater",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}潜入水中！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} hid\\nunderwater!"
+        },
+        {
+            "label": "sText_PkmnSprangUp",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}跳了起来！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} sprang up!"
+        },
+        {
+            "label": "sText_PkmnSqueezedByBind",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}因\\n{B_ATK_NAME_WITH_PREFIX}的绑紧被绑住了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was squeezed by\\n{B_ATK_NAME_WITH_PREFIX}'s BIND!"
+        },
+        {
+            "label": "sText_PkmnTrappedInVortex",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被困于\\n漩涡中！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was trapped\\nin the vortex!"
+        },
+        {
+            "label": "sText_PkmnTrappedBySandTomb",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被困于\\n流沙地狱中！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was trapped\\nby SAND TOMB!"
+        },
+        {
+            "label": "sText_PkmnWrappedBy",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被\\n{B_ATK_NAME_WITH_PREFIX}捆绑了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was WRAPPED by\\n{B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnClamped",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的壳夹着\\n{B_DEF_NAME_WITH_PREFIX}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} CLAMPED\\n{B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnHurtBy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因\\n{B_BUFF1}受到伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is hurt\\nby {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnFreedFrom",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}不受\\n{B_BUFF1}的影响了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was freed\\nfrom {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnCrashed",
+            "zh": "强力的冲击使{B_ATK_NAME_WITH_PREFIX}\\n摔倒了!！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} kept going\\nand crashed!"
+        },
+        {
+            "label": "gText_PkmnShroudedInMist",
+            "zh": "{B_ATK_PREFIX2}\\n被白雾笼罩了！",
+            "en": "{B_ATK_PREFIX2} became\\nshrouded in MIST!"
+        },
+        {
+            "label": "sText_PkmnProtectedByMist",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\n被白雾保护了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is protected\\nby MIST!"
+        },
+        {
+            "label": "gText_PkmnGettingPumped",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n变得兴奋了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is getting\\npumped!"
+        },
+        {
+            "label": "sText_PkmnHitWithRecoil",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n受到了反馈伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is hit\\nwith recoil!"
+        },
+        {
+            "label": "sText_PkmnProtectedItself2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n保护了自己！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} protected\\nitself!"
+        },
+        {
+            "label": "sText_PkmnBuffetedBySandstorm",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因\\n沙暴受到了伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is buffeted\\nby the sandstorm!"
+        },
+        {
+            "label": "sText_PkmnPeltedByHail",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因\\n冰雹受到了伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is pelted\\nby HAIL!"
+        },
+        {
+            "label": "sText_PkmnsXWoreOff",
+            "zh": "{B_ATK_PREFIX1}的{B_BUFF1}\\n消失了！",
+            "en": "{B_ATK_PREFIX1}'s {B_BUFF1}\\nwore off!"
+        },
+        {
+            "label": "sText_PkmnSeeded",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被种了种子！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was seeded!"
+        },
+        {
+            "label": "sText_PkmnEvadedAttack",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n回避了攻击！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} evaded\\nthe attack!"
+        },
+        {
+            "label": "sText_PkmnSappedByLeechSeed",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的HP\\n因寄生种子减少了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s health is\\nsapped by LEECH SEED!"
+        },
+        {
+            "label": "sText_PkmnFastAsleep",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}熟睡了。",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is fast\\nasleep."
+        },
+        {
+            "label": "sText_PkmnWokeUp",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}醒来了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} woke up!"
+        },
+        {
+            "label": "sText_PkmnUproarKeptAwake",
+            "zh": "但是，{B_SCR_ACTIVE_NAME_WITH_PREFIX}的吵闹\\n让它保持了清醒！",
+            "en": "But {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s UPROAR\\nkept it awake!"
+        },
+        {
+            "label": "sText_PkmnWokeUpInUproar",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}在\\n吵闹中睡着了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} woke up\\nin the UPROAR!"
+        },
+        {
+            "label": "sText_PkmnCausedUproar",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n引起了吵闹！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} caused\\nan UPROAR!"
+        },
+        {
+            "label": "sText_PkmnMakingUproar",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n在制造吵闹！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is making\\nan UPROAR!"
+        },
+        {
+            "label": "sText_PkmnCalmedDown",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}平静了下来。",
+            "en": "{B_ATK_NAME_WITH_PREFIX} calmed down."
+        },
+        {
+            "label": "sText_PkmnCantSleepInUproar",
+            "zh": "但是，{B_DEF_NAME_WITH_PREFIX}无法在\\n吵闹中睡眠！",
+            "en": "But {B_DEF_NAME_WITH_PREFIX} can't\\nsleep in an UPROAR!"
+        },
+        {
+            "label": "sText_PkmnStockpiled",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}储存了\\n{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} STOCKPILED\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnCantStockpile",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n不能再储存了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can't\\nSTOCKPILE any more!"
+        },
+        {
+            "label": "sText_PkmnCantSleepInUproar2",
+            "zh": "但是，{B_DEF_NAME_WITH_PREFIX}在\\n吵闹中不会睡着！",
+            "en": "But {B_DEF_NAME_WITH_PREFIX} can't\\nsleep in an UPROAR!"
+        },
+        {
+            "label": "sText_UproarKeptPkmnAwake",
+            "zh": "但是，吵闹使得\\n{B_DEF_NAME_WITH_PREFIX}保持清醒！",
+            "en": "But the UPROAR kept\\n{B_DEF_NAME_WITH_PREFIX} awake!"
+        },
+        {
+            "label": "sText_PkmnStayedAwakeUsing",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}在清醒中\\n使用它的{B_DEF_ABILITY}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} stayed awake\\nusing its {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnStoringEnergy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n积蓄了能量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is storing\\nenergy!"
+        },
+        {
+            "label": "sText_PkmnUnleashedEnergy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n释放了能量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} unleashed\\nenergy!"
+        },
+        {
+            "label": "sText_PkmnFatigueConfusion",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}由于\\n疲劳变得混乱！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became\\nconfused due to fatigue!"
+        },
+        {
+            "label": "sText_PlayerPickedUpMoney",
+            "zh": "{B_PLAYER_NAME}捡到了\\n{B_BUFF1}$！\\p",
+            "en": "{B_PLAYER_NAME} picked up\\n¥{B_BUFF1}!\\p"
+        },
+        {
+            "label": "sText_PkmnUnaffected",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n没受到影响！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is\\nunaffected!"
+        },
+        {
+            "label": "sText_PkmnTransformedInto",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}变身为\\n{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} transformed\\ninto {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnMadeSubstitute",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n制造了一个替身！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} made\\na SUBSTITUTE!"
+        },
+        {
+            "label": "sText_PkmnHasSubstitute",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}已经\\n有一个替身了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} already\\nhas a SUBSTITUTE!"
+        },
+        {
+            "label": "sText_SubstituteDamaged",
+            "zh": "替身为\\n{B_DEF_NAME_WITH_PREFIX}承受了伤害！\\p",
+            "en": "The SUBSTITUTE took damage\\nfor {B_DEF_NAME_WITH_PREFIX}!\\p"
+        },
+        {
+            "label": "sText_PkmnSubstituteFaded",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的\\n替身消失了！\\p",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s\\nSUBSTITUTE faded!\\p"
+        },
+        {
+            "label": "sText_PkmnMustRecharge",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n必须恢复能量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} must\\nrecharge!"
+        },
+        {
+            "label": "sText_PkmnRageBuilding",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n已经愤怒了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s RAGE\\nis building!"
+        },
+        {
+            "label": "sText_PkmnMoveWasDisabled",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n无法起作用！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwas disabled!"
+        },
+        {
+            "label": "sText_PkmnMoveDisabledNoMore",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n不再起作用！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is disabled\\nno more!"
+        },
+        {
+            "label": "sText_PkmnGotEncore",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n中了再来一次！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} got\\nan ENCORE!"
+        },
+        {
+            "label": "sText_PkmnEncoreEnded",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}对\\n再来一次免疫！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s ENCORE\\nended!"
+        },
+        {
+            "label": "sText_PkmnTookAim",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n瞄准了{B_DEF_NAME_WITH_PREFIX}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} took aim\\nat {B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnSketchedMove",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}对\\n{B_BUFF1}做素描！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} SKETCHED\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnTryingToTakeFoe",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}试图\\n与对手同归于尽！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is trying\\nto take its foe with it!"
+        },
+        {
+            "label": "sText_PkmnTookFoe",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}与\\n{B_ATK_NAME_WITH_PREFIX}同归于尽！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} took\\n{B_ATK_NAME_WITH_PREFIX} with it!"
+        },
+        {
+            "label": "sText_PkmnReducedPP",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}减少了\\n{B_BUFF2}点！",
+            "en": "Reduced {B_DEF_NAME_WITH_PREFIX}'s\\n{B_BUFF1} by {B_BUFF2}!"
+        },
+        {
+            "label": "sText_PkmnStoleItem",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}偷窃了\\n{B_DEF_NAME_WITH_PREFIX}的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} stole\\n{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_TargetCantEscapeNow",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}暂时\\n不能逃跑！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} can't\\nescape now!"
+        },
+        {
+            "label": "sText_PkmnFellIntoNightmare",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n堕入了恶梦之中！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} fell into\\na NIGHTMARE!"
+        },
+        {
+            "label": "sText_PkmnLockedInNightmare",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n被困于恶梦之中！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is locked\\nin a NIGHTMARE!"
+        },
+        {
+            "label": "sText_PkmnLaidCurse",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}减半了自身的HP，\\n并给{B_DEF_NAME_WITH_PREFIX}施加了诅咒！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} cut its own HP and\\nlaid a CURSE on {B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnAfflictedByCurse",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}受到了\\n诅咒造成的伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is afflicted\\nby the CURSE!"
+        },
+        {
+            "label": "sText_SpikesScattered",
+            "zh": "铁菱已经遍布\\n对手的周围！",
+            "en": "SPIKES were scattered all around\\nthe opponent's side!"
+        },
+        {
+            "label": "sText_PkmnHurtBySpikes",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}受到\\n铁菱的伤害！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is hurt\\nby SPIKES!"
+        },
+        {
+            "label": "sText_PkmnIdentified",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}鉴别了\\n{B_DEF_NAME_WITH_PREFIX}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} identified\\n{B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnPerishCountFell",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的灭亡回合\\n只剩下{B_BUFF1}回合！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s PERISH count\\nfell to {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnBracedItself",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}挺住了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} braced\\nitself!"
+        },
+        {
+            "label": "sText_PkmnEnduredHit",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}忍耐了攻击！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} ENDURED\\nthe hit!"
+        },
+        {
+            "label": "sText_MagnitudeStrength",
+            "zh": "震级{B_BUFF1}！",
+            "en": "MAGNITUDE {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnCutHPMaxedAttack",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的HP减少了，\\n并且攻击上升至最高！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} cut its own HP\\nand maximized ATTACK!"
+        },
+        {
+            "label": "sText_PkmnCopiedStatChanges",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}复制了\\n{B_DEF_NAME_WITH_PREFIX}的能力等级！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} copied\\n{B_DEF_NAME_WITH_PREFIX}'s stat changes!"
+        },
+        {
+            "label": "sText_PkmnGotFree",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}解脱了\\n{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} got free of\\n{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnShedLeechSeed",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n摆脱了寄生种子！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} shed\\nLEECH SEED!"
+        },
+        {
+            "label": "sText_PkmnBlewAwaySpikes",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n清除了铁菱！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} blew away\\nSPIKES!"
+        },
+        {
+            "label": "sText_PkmnFledFromBattle",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}从对战中\\n逃脱了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} fled from\\nbattle!"
+        },
+        {
+            "label": "sText_PkmnForesawAttack",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n预知了攻击！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} foresaw\\nan attack!"
+        },
+        {
+            "label": "sText_PkmnTookAttack",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}挡下了\\n{B_BUFF1}的攻击！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} took the\\n{B_BUFF1} attack!"
+        },
+        {
+            "label": "sText_PkmnChoseXAsDestiny",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}准备和\\n{B_CURRENT_MOVE}一同倒下！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} chose\\n{B_CURRENT_MOVE} as its destiny!"
+        },
+        {
+            "label": "sText_PkmnAttack",
+            "zh": "{B_BUFF1}的攻击！",
+            "en": "{B_BUFF1}'s attack!"
+        },
+        {
+            "label": "sText_PkmnCenterAttention",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}将\\n焦点集中在自身！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became the\\ncenter of attention!"
+        },
+        {
+            "label": "sText_PkmnChargingPower",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n开始积蓄能量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} began\\ncharging power!"
+        },
+        {
+            "label": "sText_NaturePowerTurnedInto",
+            "zh": "自然能力变成了\\n{B_CURRENT_MOVE}！",
+            "en": "NATURE POWER turned into\\n{B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnStatusNormal",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的状态\\n恢复了正常！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s status\\nreturned to normal!"
+        },
+        {
+            "label": "sText_PkmnSubjectedToTorment",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n受到了无理取闹的影响！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was subjected\\nto TORMENT!"
+        },
+        {
+            "label": "sText_PkmnTighteningFocus",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n集中了力量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is tightening\\nits focus!"
+        },
+        {
+            "label": "sText_PkmnFellForTaunt",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n受到了挑衅！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} fell for\\nthe Taunt!"
+        },
+        {
+            "label": "sText_PkmnReadyToHelp",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n准备帮助{B_DEF_NAME_WITH_PREFIX}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is ready to\\nhelp {B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnSwitchedItems",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}与对手\\n交换了携带道具！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} switched\\nitems with its opponent!"
+        },
+        {
+            "label": "sText_PkmnObtainedX",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}获得了\\n{B_BUFF1}。",
+            "en": "{B_ATK_NAME_WITH_PREFIX} obtained\\n{B_BUFF1}."
+        },
+        {
+            "label": "sText_PkmnObtainedX2",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}获得了\\n{B_BUFF2}。",
+            "en": "{B_DEF_NAME_WITH_PREFIX} obtained\\n{B_BUFF2}."
+        },
+        {
+            "label": "sText_PkmnObtainedXYObtainedZ",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}获得了\\n{B_BUFF1}。\\p{B_DEF_NAME_WITH_PREFIX}获得了\\n{B_BUFF2}。",
+            "en": "{B_ATK_NAME_WITH_PREFIX} obtained\\n{B_BUFF1}.\\p{B_DEF_NAME_WITH_PREFIX} obtained\\n{B_BUFF2}."
+        },
+        {
+            "label": "sText_PkmnCopiedFoe",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}模仿了\\n{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} copied\\n{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnMadeWish",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}许了一个愿！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} made a WISH!"
+        },
+        {
+            "label": "sText_PkmnWishCameTrue",
+            "zh": "{B_BUFF1}的许愿\\n实现了！",
+            "en": "{B_BUFF1}'s WISH\\ncame true!"
+        },
+        {
+            "label": "sText_PkmnPlantedRoots",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}扎下了根！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} planted its roots!"
+        },
+        {
+            "label": "sText_PkmnAbsorbedNutrients",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n汲取了根茎的养分！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} absorbed\\nnutrients with its roots!"
+        },
+        {
+            "label": "sText_PkmnAnchoredItself",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}把自身\\n用根茎紧紧固定住了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} anchored\\nitself with its roots!"
+        },
+        {
+            "label": "sText_PkmnWasMadeDrowsy",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}使得\\n{B_DEF_NAME_WITH_PREFIX}昏昏欲睡！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} made\\n{B_DEF_NAME_WITH_PREFIX} drowsy!"
+        },
+        {
+            "label": "sText_PkmnKnockedOff",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}打破了\\n{B_DEF_NAME_WITH_PREFIX}的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} knocked off\\n{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_PkmnSwappedAbilities",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n与对手互换了特性！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} swapped abilities\\nwith its opponent!"
+        },
+        {
+            "label": "sText_PkmnSealedOpponentMove",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n封印了对手的技能！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} sealed the\\nopponent's move(s)!"
+        },
+        {
+            "label": "sText_PkmnWantsGrudge",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n让对手背负怨恨！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} wants the\\nopponent to bear a GRUDGE!"
+        },
+        {
+            "label": "sText_PkmnLostPPGrudge",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}\\n失去了所有的PP！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} lost\\nall its PP due to the GRUDGE!"
+        },
+        {
+            "label": "sText_PkmnShroudedItself",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}将\\n自身笼罩在{B_CURRENT_MOVE}中！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} shrouded\\nitself in {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnMoveBounced",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}\\n因为魔术外衣被反弹了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}\\nwas bounced back by MAGIC COAT!"
+        },
+        {
+            "label": "sText_PkmnWaitsForTarget",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}等待目标\\n以便复制技能！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} waits for a target\\nto make a move!"
+        },
+        {
+            "label": "sText_PkmnSnatchedMove",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}抢夺了\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}的技能！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} SNATCHED\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s move!"
+        },
+        {
+            "label": "sText_ElectricityWeakened",
+            "zh": "电的力量\\n减弱了！",
+            "en": "Electricity's power was\\nweakened!"
+        },
+        {
+            "label": "sText_FireWeakened",
+            "zh": "炎的力量\\n减弱了！",
+            "en": "Fire's power was\\nweakened!"
+        },
+        {
+            "label": "sText_XFoundOneY",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}发现了\\n一个{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} found\\none {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_SoothingAroma",
+            "zh": "一股沁心的香气\\n弥漫了开来！",
+            "en": "A soothing aroma wafted\\nthrough the area!"
+        },
+        {
+            "label": "sText_ItemsCantBeUsedNow",
+            "zh": "道具暂不起作用。{PAUSE 64}",
+            "en": "Items can't be used now.{PAUSE 64}"
+        },
+        {
+            "label": "sText_ForXCommaYZ",
+            "zh": "对于{B_SCR_ACTIVE_NAME_WITH_PREFIX}，\\n{B_LAST_ITEM} {B_BUFF1} 。",
+            "en": "For {B_SCR_ACTIVE_NAME_WITH_PREFIX},\\n{B_LAST_ITEM} {B_BUFF1}"
+        },
+        {
+            "label": "sText_PkmnUsedXToGetPumped",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}使用\\n{B_LAST_ITEM}来变得兴奋！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} used\\n{B_LAST_ITEM} to get pumped!"
+        },
+        {
+            "label": "sText_PkmnLostFocus",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}失去了焦点\\n不能出招！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} lost its\\nfocus and couldn't move!"
+        },
+        {
+            "label": "sText_PkmnWasDraggedOut",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被\\n拖入了战斗！\\p",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was\\ndragged out!\\p"
+        },
+        {
+            "label": "sText_TheWallShattered",
+            "zh": "墙壁粉碎了！",
+            "en": "The wall shattered!"
+        },
+        {
+            "label": "sText_ButNoEffect",
+            "zh": "但是不起任何作用！",
+            "en": "But it had no effect!"
+        },
+        {
+            "label": "sText_PkmnHasNoMovesLeft",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX}\\n已经没有技能了！\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX} has no\\nmoves left!\\p"
+        },
+        {
+            "label": "sText_PkmnMoveIsDisabled",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}\\n不起作用！\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}\\nis disabled!\\p"
+        },
+        {
+            "label": "sText_PkmnCantUseMoveTorment",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX}不能\\n使用相同的技能！\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX} can't use the same\\nmove in a row due to the Torment!\\p"
+        },
+        {
+            "label": "sText_PkmnCantUseMoveTaunt",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX}受到假指控后，\\n无法使用{B_CURRENT_MOVE}！\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX} can't use\\n{B_CURRENT_MOVE} after the Taunt!\\p"
+        },
+        {
+            "label": "sText_PkmnCantUseMoveSealed",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX}不能使用\\n被封印的{B_CURRENT_MOVE}！\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX} can't use the\\nsealed {B_CURRENT_MOVE}!\\p"
+        },
+        {
+            "label": "sText_PkmnCantUseMoveThroatChop",
+            "zh": "{B_ACTIVE_NAME_WITH_PREFIX} 无法使用\\n{B_CURRENT_MOVE}失声!\\p",
+            "en": "{B_ACTIVE_NAME_WITH_PREFIX} can't use\\n{B_CURRENT_MOVE} due to Throat Chop!\\p"
+        },
+        {
+            "label": "sText_PkmnMadeItRain",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使天空下起雨！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nmade it rain!"
+        },
+        {
+            "label": "sText_PkmnRaisedSpeed",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n提升了速度！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nraised its SPEED!"
+        },
+        {
+            "label": "sText_PkmnProtectedBy",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}受到了\\n{B_DEF_ABILITY}的保护！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was protected\\nby {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnPreventsUsage",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n防止了{B_ATK_NAME_WITH_PREFIX}\\l使用{B_CURRENT_MOVE}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevents {B_ATK_NAME_WITH_PREFIX}\\lfrom using {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnRestoredHPUsing",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}因{B_DEF_ABILITY}\\n恢复了HP！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} restored HP\\nusing its {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnsXMadeYUseless",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n使{B_CURRENT_MOVE}不起作用！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nmade {B_CURRENT_MOVE} useless!"
+        },
+        {
+            "label": "sText_PkmnChangedTypeWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n使它变成{B_BUFF1}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nmade it the {B_BUFF1} type!"
+        },
+        {
+            "label": "sText_PkmnPreventsParalysisWith",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n抵御了麻痹！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevents paralysis!"
+        },
+        {
+            "label": "sText_PkmnPreventsRomanceWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n抵御了迷人！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevents romance!"
+        },
+        {
+            "label": "sText_PkmnPreventsPoisoningWith",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n抵御了中毒！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevents poisoning!"
+        },
+        {
+            "label": "sText_PkmnPreventsConfusionWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n抵御了混乱！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevents confusion!"
+        },
+        {
+            "label": "sText_PkmnRaisedFirePowerWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n提升了炎系技能的威力！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nraised its FIRE power!"
+        },
+        {
+            "label": "sText_PkmnAnchorsItselfWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}因\\n{B_DEF_ABILITY}固定住了自身！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} anchors\\nitself with {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PkmnCutsAttackWith",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n降低了{B_DEF_NAME_WITH_PREFIX}的攻击！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\ncuts {B_DEF_NAME_WITH_PREFIX}'s ATTACK!"
+        },
+        {
+            "label": "sText_PkmnPreventsStatLossWith",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n防止了能力等级下降！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nprevents stat loss!"
+        },
+        {
+            "label": "sText_PkmnHurtsWith",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n对{B_ATK_NAME_WITH_PREFIX}造成了伤害！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was hurt by\\n{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnTraced",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}追踪了\\n{B_BUFF1}的{B_BUFF2}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} TRACED\\n{B_BUFF1}'s {B_BUFF2}!"
+        },
+        {
+            "label": "sText_PkmnsXPreventsBurns",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\\n防止了烧伤！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY}\\nprevents burns!"
+        },
+        {
+            "label": "sText_PkmnsXBlocksY",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n阻止了{B_CURRENT_MOVE}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nblocks {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnsXBlocksY2",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n阻止了{B_CURRENT_MOVE}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nblocks {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_PkmnsXRestoredHPALittle2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}\\n使HP稍微恢复了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\\nrestored its HP a little!"
+        },
+        {
+            "label": "sText_PkmnsXWhippedUpSandstorm",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n在场上扬起了沙暴！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nwhipped up a sandstorm!"
+        },
+        {
+            "label": "sText_PkmnsXIntensifiedSun",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使阳光更加强烈！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nintensified the sun's rays!"
+        },
+        {
+            "label": "sText_PkmnsXPreventsYLoss",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n防止了{B_BUFF1}下降！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nprevents {B_BUFF1} loss!"
+        },
+        {
+            "label": "sText_PkmnsXInfatuatedY",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n迷倒了{B_ATK_NAME_WITH_PREFIX}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\ninfatuated {B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_PkmnsXMadeYIneffective",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n使{B_CURRENT_MOVE}无效化了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nmade {B_CURRENT_MOVE} ineffective!"
+        },
+        {
+            "label": "sText_PkmnsXCuredYProblem",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n治愈了{B_BUFF1}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\ncured its {B_BUFF1} problem!"
+        },
+        {
+            "label": "sText_ItSuckedLiquidOoze",
+            "zh": "吸收了黏液！",
+            "en": "It sucked up the\\nLIQUID OOZE!"
+        },
+        {
+            "label": "sText_PkmnTransformed",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}变身了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} transformed!"
+        },
+        {
+            "label": "sText_PkmnsXTookAttack",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n承受了攻击！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\ntook the attack!"
+        },
+        {
+            "label": "gText_PkmnsXPreventsSwitching",
+            "zh": "{B_BUFF1}的{B_LAST_ABILITY}\\n防止了替换！\\p",
+            "en": "{B_BUFF1}'s {B_LAST_ABILITY}\\nprevents switching!\\p"
+        },
+        {
+            "label": "sText_PreventedFromWorking",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n防止了{B_SCR_ACTIVE_NAME_WITH_PREFIX}的\\l{B_BUFF1}起作用！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nprevented {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s\\l{B_BUFF1} from working!"
+        },
+        {
+            "label": "sText_PkmnsXMadeItIneffective",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n使它无效化了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nmade it ineffective!"
+        },
+        {
+            "label": "sText_PkmnsXPreventsFlinching",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\\n防止了害怕！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY}\\nprevents flinching!"
+        },
+        {
+            "label": "sText_PkmnsXPreventsYsZ",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}\\n防止了{B_DEF_NAME_WITH_PREFIX}的\\l{B_DEF_ABILITY}起作用！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\\nprevents {B_DEF_NAME_WITH_PREFIX}'s\\l{B_DEF_ABILITY} from working!"
+        },
+        {
+            "label": "sText_PkmnsXCuredItsYProblem",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n治愈了它的{B_BUFF1}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\ncured its {B_BUFF1} problem!"
+        },
+        {
+            "label": "sText_PkmnsXHadNoEffectOnY",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n对{B_EFF_NAME_WITH_PREFIX}不起作用！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nhad no effect on {B_EFF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "gText_StatSharply",
+            "zh": "急剧",
+            "en": "sharply "
+        },
+        {
+            "label": "gText_StatRose",
+            "zh": "提升！",
+            "en": "rose!"
+        },
+        {
+            "label": "sText_StatHarshly",
+            "zh": "大幅",
+            "en": "harshly "
+        },
+        {
+            "label": "sText_StatFell",
+            "zh": "下降！",
+            "en": "fell!"
+        },
+        {
+            "label": "sText_AttackersStatRose",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}\\n{B_BUFF2}",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}\\n{B_BUFF2}"
+        },
+        {
+            "label": "gText_DefendersStatRose",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n{B_BUFF2}",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\n{B_BUFF2}"
+        },
+        {
+            "label": "sText_UsingItemTheStatOfPkmnRose",
+            "zh": "使用了{B_LAST_ITEM}，{B_BUFF1}\\n的{B_SCR_ACTIVE_NAME_WITH_PREFIX}{B_BUFF2}",
+            "en": "Using {B_LAST_ITEM}, the {B_BUFF1}\\nof {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}"
+        },
+        {
+            "label": "sText_AttackersStatFell",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}\\n{B_BUFF2}",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}\\n{B_BUFF2}"
+        },
+        {
+            "label": "sText_DefendersStatFell",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n{B_BUFF2}",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\n{B_BUFF2}"
+        },
+        {
+            "label": "sText_StatsWontIncrease2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的能力\\n不能再提升了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s stats won't\\ngo any higher!"
+        },
+        {
+            "label": "sText_StatsWontDecrease2",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的能力\\n不能再降低了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s stats won't\\ngo any lower!"
+        },
+        {
+            "label": "sText_CriticalHit",
+            "zh": "命中要害！",
+            "en": "A critical hit!"
+        },
+        {
+            "label": "sText_OneHitKO",
+            "zh": "一击必杀！",
+            "en": "It's a one-hit KO!"
+        },
+        {
+            "label": "sText_123Poof",
+            "zh": "{PAUSE 32}1，{PAUSE 15}2，然后{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}叮咚！\\p",
+            "en": "{PAUSE 32}1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\\p"
+        },
+        {
+            "label": "sText_AndEllipsis",
+            "zh": "那…\\p",
+            "en": "And…\\p"
+        },
+        {
+            "label": "sText_HMMovesCantBeForgotten",
+            "zh": "暂时无法忘记秘传技能。\\p",
+            "en": "HM moves can't be\\nforgotten now.\\p"
+        },
+        {
+            "label": "sText_NotVeryEffective",
+            "zh": "收效甚微…",
+            "en": "It's not very effective…"
+        },
+        {
+            "label": "sText_SuperEffective",
+            "zh": "效果拔群！",
+            "en": "It's super effective!"
+        },
+        {
+            "label": "sText_GotAwaySafely",
+            "zh": "{PLAY_SE SE_FLEE}成功逃走了！\\p",
+            "en": "{PLAY_SE SE_FLEE}Got away safely!\\p"
+        },
+        {
+            "label": "sText_PkmnFledUsingIts",
+            "zh": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX}\\n使用了{B_LAST_ITEM}后逃走了！\\p",
+            "en": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled\\nusing its {B_LAST_ITEM}!\\p"
+        },
+        {
+            "label": "sText_PkmnFledUsing",
+            "zh": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX}\\n使用了{B_ATK_ABILITY}后逃走了！\\p",
+            "en": "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled\\nusing {B_ATK_ABILITY}!\\p"
+        },
+        {
+            "label": "sText_WildPkmnFled",
+            "zh": "{PLAY_SE SE_FLEE}野生{B_BUFF1}逃走了！",
+            "en": "{PLAY_SE SE_FLEE}Wild {B_BUFF1} fled!"
+        },
+        {
+            "label": "sText_PlayerDefeatedLinkTrainer",
+            "zh": "你打败了\\n{B_LINK_OPPONENT1_NAME}！",
+            "en": "Player defeated\\n{B_LINK_OPPONENT1_NAME}!"
+        },
+        {
+            "label": "sText_TwoLinkTrainersDefeated",
+            "zh": "你打败了{B_LINK_OPPONENT1_NAME}\\n和{B_LINK_OPPONENT2_NAME}！",
+            "en": "Player beat {B_LINK_OPPONENT1_NAME}\\nand {B_LINK_OPPONENT2_NAME}!"
+        },
+        {
+            "label": "sText_PlayerLostAgainstLinkTrainer",
+            "zh": "你输给了\\n{B_LINK_OPPONENT1_NAME}！",
+            "en": "Player lost against\\n{B_LINK_OPPONENT1_NAME}!"
+        },
+        {
+            "label": "sText_PlayerLostToTwo",
+            "zh": "你输给了{B_LINK_OPPONENT1_NAME}\\n和{B_LINK_OPPONENT2_NAME}！",
+            "en": "Player lost to {B_LINK_OPPONENT1_NAME}\\nand {B_LINK_OPPONENT2_NAME}!"
+        },
+        {
+            "label": "sText_PlayerBattledToDrawLinkTrainer",
+            "zh": "你与\\n{B_LINK_OPPONENT1_NAME}打成了平手！",
+            "en": "Player battled to a draw against\\n{B_LINK_OPPONENT1_NAME}!"
+        },
+        {
+            "label": "sText_PlayerBattledToDrawVsTwo",
+            "zh": "你与{B_LINK_OPPONENT1_NAME}\\n和{B_LINK_OPPONENT2_NAME}打成了平手！",
+            "en": "Player battled to a draw against\\n{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
+        },
+        {
+            "label": "sText_WildFled",
+            "zh": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}逃了！",
+            "en": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} fled!"
+        },
+        {
+            "label": "sText_TwoWildFled",
+            "zh": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}和\\n{B_LINK_OPPONENT2_NAME}逃走了！",
+            "en": "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and\\n{B_LINK_OPPONENT2_NAME} fled!"
+        },
+        {
+            "label": "sText_NoRunningFromTrainers",
+            "zh": "不可以！训练家要堂堂正正地\\n面对战斗！\\p",
+            "en": "No! There's no running\\nfrom a TRAINER battle!\\p"
+        },
+        {
+            "label": "sText_CantEscape",
+            "zh": "不能逃跑！\\p",
+            "en": "Can't escape!\\p"
+        },
+        {
+            "label": "sText_DontLeaveBirch",
+            "zh": "小田卷博士：不要像那样不管我！\\p",
+            "en": "PROF. BIRCH: Don't leave me like this!\\p"
+        },
+        {
+            "label": "sText_ButNothingHappened",
+            "zh": "但是什么都没发生！",
+            "en": "But nothing happened!"
+        },
+        {
+            "label": "sText_ButItFailed",
+            "zh": "但是它失败了！",
+            "en": "But it failed!"
+        },
+        {
+            "label": "sText_ItHurtConfusion",
+            "zh": "因混乱对自己\\n造成了伤害！",
+            "en": "It hurt itself in its\\nconfusion!"
+        },
+        {
+            "label": "sText_MirrorMoveFailed",
+            "zh": "鹦鹉学舌失败了！",
+            "en": "The MIRROR MOVE failed!"
+        },
+        {
+            "label": "sText_StartedToRain",
+            "zh": "下起了雨！",
+            "en": "It started to rain!"
+        },
+        {
+            "label": "sText_DownpourStarted",
+            "zh": "下起了大雨！",
+            "en": "A downpour started!"
+        },
+        {
+            "label": "sText_RainContinues",
+            "zh": "雨一直在下。",
+            "en": "Rain continues to fall."
+        },
+        {
+            "label": "sText_DownpourContinues",
+            "zh": "大雨一直在下。",
+            "en": "The downpour continues."
+        },
+        {
+            "label": "sText_RainStopped",
+            "zh": "雨不再下了。",
+            "en": "The rain stopped."
+        },
+        {
+            "label": "sText_SandstormBrewed",
+            "zh": "扬起了沙暴！",
+            "en": "A sandstorm brewed!"
+        },
+        {
+            "label": "sText_SandstormRages",
+            "zh": "飞沙走石。",
+            "en": "The sandstorm rages."
+        },
+        {
+            "label": "sText_SandstormSubsided",
+            "zh": "沙暴停止了。",
+            "en": "The sandstorm subsided."
+        },
+        {
+            "label": "sText_SunlightGotBright",
+            "zh": "阳光变猛烈了！",
+            "en": "The sunlight got bright!"
+        },
+        {
+            "label": "sText_SunlightStrong",
+            "zh": "阳光很猛烈。",
+            "en": "The sunlight is strong."
+        },
+        {
+            "label": "sText_SunlightFaded",
+            "zh": "阳光不再猛烈。",
+            "en": "The sunlight faded."
+        },
+        {
+            "label": "sText_StartedHail",
+            "zh": "下起了冰雹！",
+            "en": "It started to hail!"
+        },
+        {
+            "label": "sText_HailContinues",
+            "zh": "冰雹还在持续。",
+            "en": "Hail continues to fall."
+        },
+        {
+            "label": "sText_HailStopped",
+            "zh": "冰雹停止了。",
+            "en": "The hail stopped."
+        },
+        {
+            "label": "sText_FailedToSpitUp",
+            "zh": "无法使出喷出！",
+            "en": "But it failed to SPIT UP\\na thing!"
+        },
+        {
+            "label": "sText_FailedToSwallow",
+            "zh": "无法使出吞下！",
+            "en": "But it failed to SWALLOW\\na thing!"
+        },
+        {
+            "label": "sText_WindBecameHeatWave",
+            "zh": "风变成\\n热风了！",
+            "en": "The wind turned into a\\nHEAT WAVE!"
+        },
+        {
+            "label": "sText_StatChangesGone",
+            "zh": "能力等级\\n都还原成初始状态了！",
+            "en": "All stat changes were\\neliminated!"
+        },
+        {
+            "label": "sText_CoinsScattered",
+            "zh": "钱币散落一地！",
+            "en": "Coins scattered everywhere!"
+        },
+        {
+            "label": "sText_TooWeakForSubstitute",
+            "zh": "HP太低了，\\n以致无法制造替身！",
+            "en": "It was too weak to make\\na SUBSTITUTE!"
+        },
+        {
+            "label": "sText_SharedPain",
+            "zh": "平分了双方的HP！",
+            "en": "The battlers shared\\ntheir pain!"
+        },
+        {
+            "label": "sText_BellChimed",
+            "zh": "铃铛响了起来！",
+            "en": "A bell chimed!"
+        },
+        {
+            "label": "sText_FaintInThree",
+            "zh": "受到影响的宝可梦\\n将在3回合内倒下！",
+            "en": "All affected POKéMON will\\nfaint in three turns!"
+        },
+        {
+            "label": "sText_NoPPLeft",
+            "zh": "该技能没有PP，\\n无法使用！\\p",
+            "en": "There's no PP left for\\nthis move!\\p"
+        },
+        {
+            "label": "sText_ButNoPPLeft",
+            "zh": "但是该技能没有PP！",
+            "en": "But there was no PP left\\nfor the move!"
+        },
+        {
+            "label": "sText_PkmnIgnoresAsleep",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}在睡眠时\\n无法听从命令！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} ignored\\norders while asleep!"
+        },
+        {
+            "label": "sText_PkmnIgnoredOrders",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}无法\\n听从命令！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} ignored\\norders!"
+        },
+        {
+            "label": "sText_PkmnBeganToNap",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}开始打盹了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} began to nap!"
+        },
+        {
+            "label": "sText_PkmnLoafing",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}在\\n周围闲逛！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is\\nloafing around!"
+        },
+        {
+            "label": "sText_PkmnWontObey",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}不\\n听从命令！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} won't\\nobey!"
+        },
+        {
+            "label": "sText_PkmnTurnedAway",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}转身离开！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} turned away!"
+        },
+        {
+            "label": "sText_PkmnPretendNotNotice",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}假装\\n没有注意到！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} pretended\\nnot to notice!"
+        },
+        {
+            "label": "sText_EnemyAboutToSwitchPkmn",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n就要换上{B_BUFF2}了。\\p{B_PLAYER_NAME}要替换\\n宝可梦吗？",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is\\nabout to use {B_BUFF2}.\\pWill {B_PLAYER_NAME} change\\nPOKéMON?"
+        },
+        {
+            "label": "sText_PkmnLearnedMove2",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}习得了\\n{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} learned\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_PlayerDefeatedLinkTrainerTrainer1",
+            "zh": "你打败了\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}！\\p",
+            "en": "Player defeated\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\\p"
+        },
+        {
+            "label": "sText_CreptCloser",
+            "zh": "{B_PLAYER_NAME}悄悄靠近了\\n{B_OPPONENT_MON1_NAME}！",
+            "en": "{B_PLAYER_NAME} crept closer to\\n{B_OPPONENT_MON1_NAME}!"
+        },
+        {
+            "label": "sText_CantGetCloser",
+            "zh": "{B_PLAYER_NAME}不能再靠近了！",
+            "en": "{B_PLAYER_NAME} can't get any closer!"
+        },
+        {
+            "label": "sText_PkmnWatchingCarefully",
+            "zh": "{B_OPPONENT_MON1_NAME}小心地\\n注视着！",
+            "en": "{B_OPPONENT_MON1_NAME} is watching\\ncarefully!"
+        },
+        {
+            "label": "sText_PkmnCuriousAboutX",
+            "zh": "{B_OPPONENT_MON1_NAME}对\\n{B_BUFF1}感到好奇！",
+            "en": "{B_OPPONENT_MON1_NAME} is curious about\\nthe {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnEnthralledByX",
+            "zh": "{B_OPPONENT_MON1_NAME}被\\n{B_BUFF1}迷倒了！",
+            "en": "{B_OPPONENT_MON1_NAME} is enthralled by\\nthe {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PkmnIgnoredX",
+            "zh": "{B_OPPONENT_MON1_NAME}完全忽视了\\n{B_BUFF1}！",
+            "en": "{B_OPPONENT_MON1_NAME} completely ignored\\nthe {B_BUFF1}!"
+        },
+        {
+            "label": "sText_ThrewPokeblockAtPkmn",
+            "zh": "{B_PLAYER_NAME}朝{B_OPPONENT_MON1_NAME}投掷了\\n{POKEBLOCK}！",
+            "en": "{B_PLAYER_NAME} threw a {POKEBLOCK}\\nat the {B_OPPONENT_MON1_NAME}!"
+        },
+        {
+            "label": "sText_OutOfSafariBalls",
+            "zh": "{PLAY_SE SE_DING_DONG}提示：\\n你用完了原野球！游戏结束！\\p",
+            "en": "{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of\\nSAFARI BALLS! Game over!\\p"
+        },
+        {
+            "label": "sText_OpponentMon1Appeared",
+            "zh": "{B_OPPONENT_MON1_NAME}出现了！\\p",
+            "en": "{B_OPPONENT_MON1_NAME} appeared!\\p"
+        },
+        {
+            "label": "sText_WildPkmnAppeared",
+            "zh": "野生的{B_OPPONENT_MON1_NAME}跳了出来！\\p",
+            "en": "Wild {B_OPPONENT_MON1_NAME} appeared!\\p"
+        },
+        {
+            "label": "sText_LegendaryPkmnAppeared",
+            "zh": "野生的{B_OPPONENT_MON1_NAME}跳了出来！\\p",
+            "en": "Wild {B_OPPONENT_MON1_NAME} appeared!\\p"
+        },
+        {
+            "label": "sText_WildPkmnAppearedPause",
+            "zh": "野生的{B_OPPONENT_MON1_NAME}跳了出来！{PAUSE 127}",
+            "en": "Wild {B_OPPONENT_MON1_NAME} appeared!{PAUSE 127}"
+        },
+        {
+            "label": "sText_TwoWildPkmnAppeared",
+            "zh": "野生的{B_OPPONENT_MON1_NAME}和\\n{B_OPPONENT_MON2_NAME}跳了出来！\\p",
+            "en": "Wild {B_OPPONENT_MON1_NAME} and\\n{B_OPPONENT_MON2_NAME} appeared!\\p"
+        },
+        {
+            "label": "sText_Trainer1WantsToBattle",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n想要来场对战！\\p",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nwould like to battle!\\p"
+        },
+        {
+            "label": "sText_LinkTrainerWantsToBattle",
+            "zh": "{B_LINK_OPPONENT1_NAME}\\n想要对战！",
+            "en": "{B_LINK_OPPONENT1_NAME}\\nwants to battle!"
+        },
+        {
+            "label": "sText_TwoLinkTrainersWantToBattle",
+            "zh": "{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}\\n想要对战！",
+            "en": "{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\\nwant to battle!"
+        },
+        {
+            "label": "sText_Trainer1SentOutPkmn",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n派出了{B_OPPONENT_MON1_NAME}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\\nout {B_OPPONENT_MON1_NAME}!"
+        },
+        {
+            "label": "sText_Trainer1SentOutTwoPkmn",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n派出了{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} 派\\n出了 {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!"
+        },
+        {
+            "label": "sText_Trainer1SentOutPkmn2",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n派出了{B_BUFF1}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\\nout {B_BUFF1}!"
+        },
+        {
+            "label": "sText_LinkTrainerSentOutPkmn",
+            "zh": "{B_LINK_OPPONENT1_NAME}派出了\\n{B_OPPONENT_MON1_NAME}！",
+            "en": "{B_LINK_OPPONENT1_NAME} sent out\\n{B_OPPONENT_MON1_NAME}!"
+        },
+        {
+            "label": "sText_LinkTrainerSentOutTwoPkmn",
+            "zh": "{B_LINK_OPPONENT1_NAME}派出了\\n{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！",
+            "en": "{B_LINK_OPPONENT1_NAME} sent out\\n{B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!"
+        },
+        {
+            "label": "sText_TwoLinkTrainersSentOutPkmn",
+            "zh": "{B_LINK_OPPONENT1_NAME}派出了{B_LINK_OPPONENT_MON1_NAME}！\\n{B_LINK_OPPONENT2_NAME}派出了{B_LINK_OPPONENT_MON2_NAME}！",
+            "en": "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}!\\n{B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!"
+        },
+        {
+            "label": "sText_LinkTrainerSentOutPkmn2",
+            "zh": "{B_LINK_OPPONENT1_NAME}派出了\\n{B_BUFF1}！",
+            "en": "{B_LINK_OPPONENT1_NAME} sent out\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_LinkTrainerMultiSentOutPkmn",
+            "zh": "{B_LINK_SCR_TRAINER_NAME}派出了\\n{B_BUFF1}！",
+            "en": "{B_LINK_SCR_TRAINER_NAME} sent out\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_GoPkmn",
+            "zh": "就决定是你了！{B_PLAYER_MON1_NAME}！",
+            "en": "Go! {B_PLAYER_MON1_NAME}!"
+        },
+        {
+            "label": "sText_GoTwoPkmn",
+            "zh": "就决定是你们了！\\n{B_PLAYER_MON1_NAME}、{B_PLAYER_MON2_NAME}！",
+            "en": "Go! {B_PLAYER_MON1_NAME} and\\n{B_PLAYER_MON2_NAME}!"
+        },
+        {
+            "label": "sText_GoPkmn2",
+            "zh": "就决定是你了！{B_BUFF1}！",
+            "en": "Go! {B_BUFF1}!"
+        },
+        {
+            "label": "sText_DoItPkmn",
+            "zh": "拜托了！{B_BUFF1}！",
+            "en": "Do it! {B_BUFF1}!"
+        },
+        {
+            "label": "sText_GoForItPkmn",
+            "zh": "好好加油吧，{B_BUFF1}！",
+            "en": "Go for it, {B_BUFF1}!"
+        },
+        {
+            "label": "sText_YourFoesWeakGetEmPkmn",
+            "zh": "对手很虚弱！\\n机会来了，{B_BUFF1}！",
+            "en": "Your foe's weak!\\nGet 'em, {B_BUFF1}!"
+        },
+        {
+            "label": "sText_LinkPartnerSentOutPkmnGoPkmn",
+            "zh": "{B_LINK_PARTNER_NAME}派出了{B_LINK_PLAYER_MON2_NAME}！\\n去吧！{B_LINK_PLAYER_MON1_NAME}！",
+            "en": "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!\\nGo! {B_LINK_PLAYER_MON1_NAME}!"
+        },
+        {
+            "label": "sText_PkmnThatsEnough",
+            "zh": "{B_BUFF1}，辛苦你了！\\n回来吧！",
+            "en": "{B_BUFF1}, that's enough!\\nCome back!"
+        },
+        {
+            "label": "sText_PkmnComeBack",
+            "zh": "{B_BUFF1}，回来吧！",
+            "en": "{B_BUFF1}, come back!"
+        },
+        {
+            "label": "sText_PkmnOkComeBack",
+            "zh": "{B_BUFF1}\\n干得好！回来吧！",
+            "en": "{B_BUFF1}, OK!\\nCome back!"
+        },
+        {
+            "label": "sText_PkmnGoodComeBack",
+            "zh": "{B_BUFF1}\\n做得漂亮！回来吧！",
+            "en": "{B_BUFF1}, good!\\nCome back!"
+        },
+        {
+            "label": "sText_Trainer1WithdrewPkmn",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n收回了{B_BUFF1}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nwithdrew {B_BUFF1}!"
+        },
+        {
+            "label": "sText_LinkTrainer1WithdrewPkmn",
+            "zh": "{B_LINK_OPPONENT1_NAME}收回了\\n{B_BUFF1}！",
+            "en": "{B_LINK_OPPONENT1_NAME} withdrew\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_LinkTrainer2WithdrewPkmn",
+            "zh": "{B_LINK_SCR_TRAINER_NAME}收回了\\n{B_BUFF1}！",
+            "en": "{B_LINK_SCR_TRAINER_NAME} withdrew\\n{B_BUFF1}!"
+        },
+        {
+            "label": "sText_WildPkmnPrefix",
+            "zh": "野生的",
+            "en": "Wild "
+        },
+        {
+            "label": "sText_FoePkmnPrefix",
+            "zh": "对方的",
+            "en": "Foe "
+        },
+        {
+            "label": "sText_EmptyString8",
+            "zh": "",
+            "en": ""
+        },
+        {
+            "label": "sText_FoePkmnPrefix2",
+            "zh": "对方",
+            "en": "Foe"
+        },
+        {
+            "label": "sText_AllyPkmnPrefix",
+            "zh": "我方",
+            "en": "Ally"
+        },
+        {
+            "label": "sText_FoePkmnPrefix3",
+            "zh": "对方",
+            "en": "Foe"
+        },
+        {
+            "label": "sText_AllyPkmnPrefix2",
+            "zh": "我方",
+            "en": "Ally"
+        },
+        {
+            "label": "sText_FoePkmnPrefix4",
+            "zh": "对方",
+            "en": "Foe"
+        },
+        {
+            "label": "sText_AllyPkmnPrefix3",
+            "zh": "我方",
+            "en": "Ally"
+        },
+        {
+            "label": "sText_AttackerUsedX",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}使用\\n{B_BUFF3}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} used\\n{B_BUFF3}!"
+        },
+        {
+            "label": "sText_ExclamationMark",
+            "zh": "！",
+            "en": "!"
+        },
+        {
+            "label": "sText_ExclamationMark2",
+            "zh": "！",
+            "en": "!"
+        },
+        {
+            "label": "sText_ExclamationMark3",
+            "zh": "！",
+            "en": "!"
+        },
+        {
+            "label": "sText_ExclamationMark4",
+            "zh": "！",
+            "en": "!"
+        },
+        {
+            "label": "sText_ExclamationMark5",
+            "zh": "！",
+            "en": "!"
+        },
+        {
+            "label": "sText_Accuracy",
+            "zh": "命中率",
+            "en": "accuracy"
+        },
+        {
+            "label": "sText_Evasiveness",
+            "zh": "回避率",
+            "en": "evasiveness"
+        },
+        {
+            "label": "sText_PokeblockWasTooSpicy",
+            "zh": "太辣！",
+            "en": "was too spicy!"
+        },
+        {
+            "label": "sText_PokeblockWasTooDry",
+            "zh": "太涩！",
+            "en": "was too dry!"
+        },
+        {
+            "label": "sText_PokeblockWasTooSweet",
+            "zh": "太甜！",
+            "en": "was too sweet!"
+        },
+        {
+            "label": "sText_PokeblockWasTooBitter",
+            "zh": "太苦！",
+            "en": "was too bitter!"
+        },
+        {
+            "label": "sText_PokeblockWasTooSour",
+            "zh": "太酸！",
+            "en": "was too sour!"
+        },
+        {
+            "label": "sText_PlayerUsedItem",
+            "zh": "{B_PLAYER_NAME}使用\\n{B_LAST_ITEM}！",
+            "en": "{B_PLAYER_NAME} used\\n{B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_WallyUsedItem",
+            "zh": "满充使用了\\n{B_LAST_ITEM}！",
+            "en": "WALLY used\\n{B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_Trainer1UsedItem",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\n使用了{B_LAST_ITEM}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nused {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_TrainerBlockedBall",
+            "zh": "训练家挡下了精灵球！",
+            "en": "The TRAINER blocked the BALL!"
+        },
+        {
+            "label": "sText_DontBeAThief",
+            "zh": "不要做贼！",
+            "en": "Don't be a thief!"
+        },
+        {
+            "label": "sText_ItDodgedBall",
+            "zh": "它躲开了精灵球！\\n这只宝可梦不能被收服！",
+            "en": "It dodged the thrown BALL!\\nThis POKéMON can't be caught!"
+        },
+        {
+            "label": "sText_YouMissedPkmn",
+            "zh": "你错过了这只宝可梦！",
+            "en": "You missed the POKéMON!"
+        },
+        {
+            "label": "sText_PkmnBrokeFree",
+            "zh": "哦，不！\\n宝可梦逃走了！",
+            "en": "Oh, no!\\nThe POKéMON broke free!"
+        },
+        {
+            "label": "sText_ItAppearedCaught",
+            "zh": "啊！\\n似乎要被抓住了！",
+            "en": "Aww!\\nIt appeared to be caught!"
+        },
+        {
+            "label": "sText_AarghAlmostHadIt",
+            "zh": "哎呀！\\n再加把劲！",
+            "en": "Aargh!\\nAlmost had it!"
+        },
+        {
+            "label": "sText_ShootSoClose",
+            "zh": "可恶！\\n就差一点点了！",
+            "en": "Shoot!\\nIt was so close, too!"
+        },
+        {
+            "label": "sText_GotchaPkmnCaught",
+            "zh": "搞定！\\n{B_DEF_NAME}被收服了！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p",
+            "en": "Gotcha!\\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\\p"
+        },
+        {
+            "label": "sText_GotchaPkmnCaught2",
+            "zh": "搞定！\\n{B_DEF_NAME}被收服了！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}",
+            "en": "Gotcha!\\n{B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"
+        },
+        {
+            "label": "sText_GiveNicknameCaptured",
+            "zh": "要给{B_DEF_NAME}取一个昵称么？",
+            "en": "Give a nickname to the\\ncaptured {B_DEF_NAME}?"
+        },
+        {
+            "label": "sText_PkmnSentToPC",
+            "zh": "{B_DEF_NAME}被送到了\\n{B_PC_CREATOR_NAME}电脑。",
+            "en": "{B_DEF_NAME} was sent to\\n{B_PC_CREATOR_NAME} PC."
+        },
+        {
+            "label": "sText_Someones",
+            "zh": "某人的",
+            "en": "someone's"
+        },
+        {
+            "label": "sText_Lanettes",
+            "zh": "真弓的",
+            "en": "LANETTE's"
+        },
+        {
+            "label": "sText_PkmnDataAddedToDex",
+            "zh": "{B_DEF_NAME}的数据\\n登记到了宝可梦图鉴。\\p",
+            "en": "{B_DEF_NAME}'s data was\\nadded to the POKéDEX.\\p"
+        },
+        {
+            "label": "sText_ItIsRaining",
+            "zh": "现在在下雨。",
+            "en": "It is raining."
+        },
+        {
+            "label": "sText_SandstormIsRaging",
+            "zh": "沙暴很猛烈。",
+            "en": "A sandstorm is raging."
+        },
+        {
+            "label": "sText_BoxIsFull",
+            "zh": "盒子已经满了！\\n不能再收服更多了！\\p",
+            "en": "The BOX is full!\\nYou can't catch any more!\\p"
+        },
+        {
+            "label": "sText_EnigmaBerry",
+            "zh": "谜之果",
+            "en": "ENIGMA BERRY"
+        },
+        {
+            "label": "sText_BerrySuffix",
+            "zh": "树果",
+            "en": " BERRY"
+        },
+        {
+            "label": "sText_PkmnsItemCuredParalysis",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了麻痹！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\ncured paralysis!"
+        },
+        {
+            "label": "sText_PkmnsItemCuredPoison",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了中毒！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\ncured poison!"
+        },
+        {
+            "label": "sText_PkmnsItemHealedBurn",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了灼烧！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nhealed its burn!"
+        },
+        {
+            "label": "sText_PkmnsItemDefrostedIt",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n解除了冰冻！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\ndefrosted it!"
+        },
+        {
+            "label": "sText_PkmnsItemWokeIt",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n让它从睡眠中苏醒了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nwoke it from its sleep!"
+        },
+        {
+            "label": "sText_PkmnsItemSnappedOut",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n使它解除了混乱！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nsnapped it out of confusion!"
+        },
+        {
+            "label": "sText_PkmnsItemCuredProblem",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了它的{B_BUFF1}状态！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\ncured its {B_BUFF1} problem!"
+        },
+        {
+            "label": "sText_PkmnsItemNormalizedStatus",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了异常状态！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nnormalized its status!"
+        },
+        {
+            "label": "sText_PkmnsItemRestoredHealth",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n恢复了HP！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nrestored health!"
+        },
+        {
+            "label": "sText_PkmnsItemRestoredPP",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n恢复了{B_BUFF1}的PP！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nrestored {B_BUFF1}'s PP!"
+        },
+        {
+            "label": "sText_PkmnsItemRestoredStatus",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n治愈了异常状态！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nrestored its status!"
+        },
+        {
+            "label": "sText_PkmnsItemRestoredHPALittle",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n稍微恢复了HP！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nrestored its HP a little!"
+        },
+        {
+            "label": "sText_ItemAllowsOnlyYMove",
+            "zh": "{B_LAST_ITEM}只允许\\n使用{B_CURRENT_MOVE}！\\p",
+            "en": "{B_LAST_ITEM} allows the\\nuse of only {B_CURRENT_MOVE}!\\p"
+        },
+        {
+            "label": "sText_PkmnHungOnWithX",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}靠它的\\n{B_LAST_ITEM}顶住了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} hung on\\nusing its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "gText_EmptyString3",
+            "zh": "",
+            "en": ""
+        },
+        {
+            "label": "sText_YouThrowABallNowRight",
+            "zh": "现在要扔出精灵球了是吧？\\n我…我会全力以赴！",
+            "en": "You throw a BALL now, right?\\nI… I'll do my best!"
+        },
+        {
+            "label": "sText_EnduredViaSturdy",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 挺住了\\n攻击 {B_DEF_ABILITY}!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} ENDURED\\nthe hit using {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PowerHerbActivation",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 完全充能了\\n因为它的 {B_LAST_ITEM}!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became fully charged\\ndue to its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_HurtByItem",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}受伤了\\n因为它的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was hurt\\nby its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_BadlyPoisonedByItem",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}中剧毒了\\n因为{B_LAST_ITEM}！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} was badly \\npoisoned by the {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_BurnedByItem",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}烧伤了\\n因为{B_LAST_ITEM}！",
+            "en": "{B_EFF_NAME_WITH_PREFIX} was burned\\nby the {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_TargetAbilityActivates",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}发动了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} activates!"
+        },
+        {
+            "label": "sText_GravityIntensified",
+            "zh": "重力加强了！",
+            "en": "GRAVITY intensified!"
+        },
+        {
+            "label": "sText_TargetIdentified",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被\\n识破了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was \\nidentified!"
+        },
+        {
+            "label": "sText_TargetWokeUp",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}醒了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} woke up!"
+        },
+        {
+            "label": "sText_PkmnStoleAndAteItem",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}偷到并\\n吃掉了{B_DEF_NAME_WITH_PREFIX}的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} stole and\\nate {B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_TailWindBlew",
+            "zh": "{B_ATK_TEAM2}的身后\\n吹起了顺风！",
+            "en": "The tailwind blew from\\nbehind {B_ATK_TEAM2} team!"
+        },
+        {
+            "label": "sText_PkmnWentBack",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}回\\n到{B_ATK_TRAINER_CLASS}{B_ATK_TRAINER_NAME}",
+            "en": "{B_ATK_NAME_WITH_PREFIX} went back\\nto {B_ATK_TRAINER_CLASS} {B_ATK_TRAINER_NAME}"
+        },
+        {
+            "label": "sText_PkmnCantUseItemsAnymore",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}不能使用\\n道具了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} can't use\\nitems anymore!"
+        },
+        {
+            "label": "sText_PkmnFlung",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}扔掉了\\n{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} flung its\\n{B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_PkmnPreventedFromHealing",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被阻止\\n回复！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was prevented\\nfrom healing!"
+        },
+        {
+            "label": "sText_PkmnSwitchedAtkAndDef",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}交换了它的\\n攻击和防御！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} switched its\\nAttack and Defense!"
+        },
+        {
+            "label": "sText_PkmnsAbilitySuppressed",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的特性\\n被压制了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s ability\\nwas suppressed!"
+        },
+        {
+            "label": "sText_ShieldedFromCriticalHits",
+            "zh": "{B_CURRENT_MOVE}保护{B_ATK_TEAM2}\\n的队伍不被击中要害！",
+            "en": "The {B_CURRENT_MOVE} shielded {B_ATK_TEAM2}\\nteam from critical hits!"
+        },
+        {
+            "label": "sText_SwitchedAtkAndSpAtk",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}与目标交换了\\n攻击和\\p和特攻！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} switched all its\\nchanges to its Attack and\\pSp. Atk with the target!"
+        },
+        {
+            "label": "sText_SwitchedDefAndSpDef",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}与目标交换了\\n防御和\\p和特防！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} switched all its\\nchanges to its Defense and\\pSp. Def with the target!"
+        },
+        {
+            "label": "sText_PkmnAcquiredAbility",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}获得了\\n{B_DEF_ABILITY}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} acquired\\n{B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_PoisonSpikesScattered",
+            "zh": "毒菱散落在\\n对方队伍的脚下！",
+            "en": "Poison Spikes were scattered all\\naround the opposing team's feet!"
+        },
+        {
+            "label": "sText_PkmnSwitchedStatChanges",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}与目标交换了\\n能力等级！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} switched stat changes\\nwith the target!"
+        },
+        {
+            "label": "sText_PkmnSurroundedWithVeilOfWater",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}身边围绕着\\n一层水幕！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} surrounded itself\\nwith a veil of water!"
+        },
+        {
+            "label": "sText_PkmnLevitatedOnElectromagnetism",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}通过电磁力\\n漂浮了起来！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} levitated on\\nelectromagnetism!"
+        },
+        {
+            "label": "sText_PkmnTwistedDimensions",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}扭曲了\\n时空！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} twisted\\nthe dimensions!"
+        },
+        {
+            "label": "sText_PointedStonesFloat",
+            "zh": "尖锐的岩石漂浮在了\\n {B_DEF_TEAM2} 的队伍周围!",
+            "en": "Pointed stones float in the air\\naround {B_DEF_TEAM2} team!"
+        },
+        {
+            "label": "sText_CloakedInMysticalMoonlight",
+            "zh": "被神秘的月光\\n笼罩!",
+            "en": "It became cloaked in mystical\\nmoonlight!"
+        },
+        {
+            "label": "sText_TrappedBySwirlingMagma",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 被\\n旋转的岩浆困住了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} became\\ntrapped by swirling magma!"
+        },
+        {
+            "label": "sText_VanishedInstantly",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 突然\\n消失了!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} vanished\\ninstantly!"
+        },
+        {
+            "label": "sText_ProtectedTeam",
+            "zh": "{B_CURRENT_MOVE} 保护了\\n{B_ATK_TEAM2} 的队伍!",
+            "en": "{B_CURRENT_MOVE} protected\\n{B_ATK_TEAM2} team!"
+        },
+        {
+            "label": "sText_SharedItsGuard",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 与目标\\n平分了防御!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} shared its\\nguard with the target!"
+        },
+        {
+            "label": "sText_SharedItsPower",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 与目标\\n平分了攻击!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} shared its\\npower with the target!"
+        },
+        {
+            "label": "sText_SwapsDefAndSpDefOfAllPkmn",
+            "zh": "制造出了\\n防御与特防能力值互换的奇妙空间!",
+            "en": "It created a bizarre area in which the\\nDefense and Sp.Def stats are swapped!"
+        },
+        {
+            "label": "sText_BecameNimble",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 变得灵活了!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became nimble!"
+        },
+        {
+            "label": "sText_HurledIntoTheAir",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 被投向了\\n空中!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was hurled\\ninto the air!"
+        },
+        {
+            "label": "sText_HeldItemsLoseEffects",
+            "zh": "制造出了\\n道具无效的魔法空间!",
+            "en": "It created a bizarre area in which\\nPokémon's held items lose their effects!"
+        },
+        {
+            "label": "sText_FellStraightDown",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 被\\n击落!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} fell\\nstraight down!"
+        },
+        {
+            "label": "sText_TransformedIntoWaterType",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 变成了\\n水属性!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} transformed\\ninto the water type!"
+        },
+        {
+            "label": "sText_PkmnAcquiredSimple",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 获得了\\n单纯!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} acquired\\nSimple!"
+        },
+        {
+            "label": "sText_KindOffer",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}\\n接受了好意!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}\\ntook the kind offer!"
+        },
+        {
+            "label": "sText_ResetsTargetsStatLevels",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的能力\\n被清除了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s stat changes\\nwere removed!"
+        },
+        {
+            "label": "sText_AllySwitchPosition",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 和\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} 交换了位置!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} and\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} switched places!"
+        },
+        {
+            "label": "sText_RestoreTargetsHealth",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的HP回复了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s HP was restored!"
+        },
+        {
+            "label": "sText_TookPkmnIntoTheSky",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 把\\n{B_DEF_NAME_WITH_PREFIX} 抓向天空!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} took\\n{B_DEF_NAME_WITH_PREFIX} into the sky!"
+        },
+        {
+            "label": "sText_FreedFromSkyDrop",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 从自由落体状态\\n逃脱了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} was freed\\nfrom the Sky Drop!"
+        },
+        {
+            "label": "sText_PostponeTargetMove",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的行动\\n延后了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s move\\nwas postponed!"
+        },
+        {
+            "label": "sText_ReflectTargetsType",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的属性\\n变成了 {B_DEF_NAME_WITH_PREFIX}'s!",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s type\\nchanged to match the {B_DEF_NAME_WITH_PREFIX}'s!"
+        },
+        {
+            "label": "sText_TransferHeldItem",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 收到了 {B_LAST_ITEM}\\n来自 {B_ATK_NAME_WITH_PREFIX}",
+            "en": "{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM}\\nfrom {B_ATK_NAME_WITH_PREFIX}"
+        },
+        {
+            "label": "sText_EmbargoEnds",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}可以\\n再次使用道具了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can\\nuse items again!"
+        },
+        {
+            "label": "sText_Electromagnetism",
+            "zh": "电磁浮游",
+            "en": "electromagnetism"
+        },
+        {
+            "label": "sText_BufferEnds",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}\\n解除了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwore off!"
+        },
+        {
+            "label": "sText_ThroatChopEnds",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}能再次使用\\n声音类招式了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can\\nuse sound-based moves again!"
+        },
+        {
+            "label": "sText_TelekinesisEnds",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}从意念移物\\n状态中逃脱了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was freed\\nfrom the telekinesis!"
+        },
+        {
+            "label": "sText_TailwindEnds",
+            "zh": "{B_ATK_TEAM1}队伍的顺风\\n停止了！",
+            "en": "{B_ATK_TEAM1} team's tailwind\\n petered out!"
+        },
+        {
+            "label": "sText_LuckyChantEnds",
+            "zh": "{B_ATK_TEAM1}队伍的幸运咒语\\n结束了！",
+            "en": "{B_ATK_TEAM1} team's Lucky Chant\\n wore off!"
+        },
+        {
+            "label": "sText_TrickRoomEnds",
+            "zh": "扭曲的空间\\n复原了！",
+            "en": "The twisted dimensions returned to\\nnormal!"
+        },
+        {
+            "label": "sText_WonderRoomEnds",
+            "zh": "奇妙空间结束了,防御\\n与特防能力值恢复了正常！",
+            "en": "Wonder Room wore off, and Defense\\nand Sp. Def stats returned to normal!"
+        },
+        {
+            "label": "sText_MagicRoomEnds",
+            "zh": "魔法空间结束了,道具\\n效果恢复了正常！",
+            "en": "Magic Room wore off, and held items'\\neffects returned to normal!"
+        },
+        {
+            "label": "sText_MudSportEnds",
+            "zh": "玩泥巴的效果消失了.",
+            "en": "The effects of Mud Sport have faded."
+        },
+        {
+            "label": "sText_WaterSportEnds",
+            "zh": "玩水的效果消失了.",
+            "en": "The effects of Water Sport have faded."
+        },
+        {
+            "label": "sText_GravityEnds",
+            "zh": "重力恢复了正常！",
+            "en": "Gravity returned to normal!"
+        },
+        {
+            "label": "sText_AquaRingHeal",
+            "zh": "水流环回复了\\n{B_ATK_NAME_WITH_PREFIX}'的HP！",
+            "en": "Aqua Ring restored\\n{B_ATK_NAME_WITH_PREFIX}'s HP!"
+        },
+        {
+            "label": "sText_TargetAbilityRaisedStat",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n提高了它的{B_BUFF1}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nraised its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_TargetAbilityLoweredStat",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n降低了它的{B_BUFF1}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nlowered its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_AttackerAbilityRaisedStat",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}\\n提高了它的{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\\nraised its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_ScriptingAbilityRaisedStat",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n提高了它的{B_BUFF1}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nraised its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_AuroraVeilEnds",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}\\n消失了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}\\nwore off!"
+        },
+        {
+            "label": "sText_ElectricTerrainEnds",
+            "zh": "脚下的电光\\n不见了.",
+            "en": "The electricity disappeared\\nfrom the battlefield."
+        },
+        {
+            "label": "sText_MistyTerrainEnds",
+            "zh": "脚下的雾气\\n不见了.",
+            "en": "The mist disappeared\\nfrom the battlefield."
+        },
+        {
+            "label": "sText_PsychicTerrainEnds",
+            "zh": "脚下奇妙的感觉\\n不见了.",
+            "en": "The weirdness disappeared\\nfrom the battlefield."
+        },
+        {
+            "label": "sText_GrassyTerrainEnds",
+            "zh": "脚下的青草\\n不见了.",
+            "en": "The grass disappeared\\nfrom the battlefield."
+        },
+        {
+            "label": "sText_TargetsStatWasMaxedOut",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}最大化了\\n它的{B_BUFF1}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} maxed\\nits {B_BUFF1}!"
+        },
+        {
+            "label": "sText_PoisonHealHpUp",
+            "zh": "毒素回复了{B_ATK_NAME_WITH_PREFIX}\\n的少量体力！",
+            "en": "The poisoning healed {B_ATK_NAME_WITH_PREFIX}\\na little bit!"
+        },
+        {
+            "label": "sText_BadDreamsDmg",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}正在被\\n折磨\\n{B_ATK_ABILITY}！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is tormented\\nby {B_ATK_ABILITY}!"
+        },
+        {
+            "label": "sText_MoldBreakerEnters",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}打破了常规！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} breaks the mold!"
+        },
+        {
+            "label": "sText_TeravoltEnters",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\\n溅射气场！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is radiating \\na bursting aura!"
+        },
+        {
+            "label": "sText_TurboblazeEnters",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\\n炽热气场！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is radiating\\na blazing aura!"
+        },
+        {
+            "label": "sText_SlowStartEnters",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}错失先机！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} can't get it going!"
+        },
+        {
+            "label": "sText_SlowStartEnd",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}最终聚集了\\n它所有的力量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} finally got\\nits act together!"
+        },
+        {
+            "label": "sText_SolarPowerHpDrop",
+            "zh": "The{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}\\n受到了伤害！",
+            "en": "The {B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\\ntakes its toll!"
+        },
+        {
+            "label": "sText_AftermathDmg",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}受伤了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is hurt!"
+        },
+        {
+            "label": "sText_AnticipationActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}发抖了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} shuddered\\nin anticipation!"
+        },
+        {
+            "label": "sText_ForewarnActivates",
+            "zh": "{B_SCR_ACTIVE_ABILITY}的预知梦预知到了{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\n的{B_DEF_NAME_WITH_PREFIX}'s{B_BUFF1}！",
+            "en": "{B_SCR_ACTIVE_ABILITY} alerted {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nto the {B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}!"
+        },
+        {
+            "label": "sText_IceBodyHpGain",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}\\n回复了少量体力！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}\\nhealed it a little bit!"
+        },
+        {
+            "label": "sText_SnowWarningHail",
+            "zh": "开始下冰雹了！",
+            "en": "It started to hail!"
+        },
+        {
+            "label": "sText_FriskActivates",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}察觉到了{B_DEF_NAME_WITH_PREFIX}\\n的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} frisked {B_DEF_NAME_WITH_PREFIX} and\\nfound its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_UnnerveEnters",
+            "zh": "对手的队伍太紧张以致于\\n无法吃下树果！",
+            "en": "The opposing team is too nervous\\nto eat Berries!"
+        },
+        {
+            "label": "sText_HarvestBerry",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}收获了\\n它的{B_LAST_ITEM}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} harvested\\nits {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_LastAbilityRaisedBuff1",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_LAST_ABILITY}\\n提高了它的{B_BUFF1}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_LAST_ABILITY}\\nraised its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_MagicBounceActivates",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}弹回了\\n{B_ATK_NAME_WITH_PREFIX}！",
+            "en": "The {B_DEF_NAME_WITH_PREFIX} bounced the\\n{B_ATK_NAME_WITH_PREFIX} back!"
+        },
+        {
+            "label": "sText_ProteanTypeChange",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}变身\\n成了{B_BUFF1}属性！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} transformed\\nit into the {B_BUFF1} type!"
+        },
+        {
+            "label": "sText_SymbiosisItemPass",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}通过{B_ATK_ABILITY}把它的{B_LAST_ITEM}\\n传递给{B_SCR_ACTIVE_NAME_WITH_PREFIX}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} passed its {B_LAST_ITEM}\\nto {B_SCR_ACTIVE_NAME_WITH_PREFIX} through {B_ATK_ABILITY}!"
+        },
+        {
+            "label": "sText_StealthRockDmg",
+            "zh": "锋利的岩石扎进了对手的\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}！",
+            "en": "Pointed stones dug into\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_ToxicSpikesAbsorbed",
+            "zh": "毒菱从对方的队伍\\n周围消失了！",
+            "en": "The poison spikes disappeared\\nfrom around the opposing team's feet!"
+        },
+        {
+            "label": "sText_ToxicSpikesPoisoned",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}中毒了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} was poisoned!"
+        },
+        {
+            "label": "sText_StickyWebSwitchIn",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}陷入了\\n粘网！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} was\\ncaught in a Sticky Web!"
+        },
+        {
+            "label": "sText_HealingWishCameTrue",
+            "zh": "治愈之愿降临\\n在了{B_ATK_NAME_WITH_PREFIX}！",
+            "en": "The healing wish came true\\nfor {B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_HealingWishHealed",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}恢复了健康！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} regained health!"
+        },
+        {
+            "label": "sText_LunarDanceCameTrue",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}被神秘的月光\\n笼罩！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became cloaked\\nin mystical moonlight!"
+        },
+        {
+            "label": "sText_CursedBodyDisabled",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}被{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}定住了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled\\nby {B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_AttackerAquiredAbility",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}获得了{B_LAST_ABILITY}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} acquired {B_LAST_ABILITY}!"
+        },
+        {
+            "label": "sText_TargetStatWontGoHigher",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}\\n不能变得更高了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwon't go higher!"
+        },
+        {
+            "label": "sText_PkmnMoveBouncedViaAbility",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}被\\n{B_DEF_NAME_WITH_PREFIX}的\\l{B_DEF_ABILITY}弹回了！",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} was\\nbounced back by {B_DEF_NAME_WITH_PREFIX}'s\\l{B_DEF_ABILITY}!"
+        },
+        {
+            "label": "sText_ImposterTransform",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}变身成了\\n{B_DEF_NAME_WITH_PREFIX}并发动了{B_LAST_ABILITY}！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} transformed into\\n{B_DEF_NAME_WITH_PREFIX} using {B_LAST_ABILITY}!"
+        },
+        {
+            "label": "sText_NotDoneYet",
+            "zh": "这个招式的效果还没做完！\\p",
+            "en": "This move effect is not done yet!\\p"
+        },
+        {
+            "label": "sText_PkmnBlewAwayToxicSpikes",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}清除了\\n毒菱！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} blew away\\nTOXIC SPIKES!"
+        },
+        {
+            "label": "sText_PkmnBlewAwayStickyWeb",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}清除了\\n黏黏网！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} blew away\\nSTICKY WEB!"
+        },
+        {
+            "label": "sText_PkmnBlewAwayStealthRock",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}清除了\\n隐形岩！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} blew away\\nSTEALTH ROCK!"
+        },
+        {
+            "label": "sText_StickyWebUsed",
+            "zh": "一张黏黏网展开在了{B_DEF_TEAM2}队伍的周围！",
+            "en": "A sticky web spreads out on the\\nground around {B_DEF_TEAM2} team!"
+        },
+        {
+            "label": "sText_QuashSuccess",
+            "zh": "对方{B_ATK_NAME_WITH_PREFIX}的行动延后了！",
+            "en": "The opposing {B_ATK_NAME_WITH_PREFIX}'s move was postponed!"
+        },
+        {
+            "label": "sText_IonDelugeOn",
+            "zh": "离子风暴正在\\n肆虐！",
+            "en": "A deluge of ions showers\\nthe battlefield!"
+        },
+        {
+            "label": "sText_TopsyTurvySwitchedStats",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的能力被\\n清除了！",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s stat changes were\\nall reversed!"
+        },
+        {
+            "label": "sText_TerrainBecomesMisty",
+            "zh": "脚下雾气缭绕！",
+            "en": "Mist swirled about\\nthe battlefield!"
+        },
+        {
+            "label": "sText_TerrainBecomesGrassy",
+            "zh": "脚下绿草如茵！",
+            "en": "Grass grew to cover\\nthe battlefield!"
+        },
+        {
+            "label": "sText_TerrainBecomesElectric",
+            "zh": "脚下电光飞闪！",
+            "en": "An electric current runs across\\nthe battlefield!"
+        },
+        {
+            "label": "sText_TerrainBecomesPsychic",
+            "zh": "脚下传来了奇妙的感觉！",
+            "en": "The battlefield got weird!"
+        },
+        {
+            "label": "sText_TargetElectrified",
+            "zh": "The {B_DEF_NAME_WITH_PREFIX}的招式\\n带电了!",
+            "en": "The {B_DEF_NAME_WITH_PREFIX}'s moves\\nhave been electrified!"
+        },
+        {
+            "label": "sText_AssaultVestDoesntAllow",
+            "zh": "{B_LAST_ITEM} 的效果让这个\\n招式无法被使用!\\p",
+            "en": "The effects of the {B_LAST_ITEM} prevent status\\nmoves from being used!\\p"
+        },
+        {
+            "label": "sText_GravityPreventsUsage",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 不能使用 {B_CURRENT_MOVE}\\n由于重力的影响!\\p",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE}\\nbecause of gravity!\\p"
+        },
+        {
+            "label": "sText_HealBlockPreventsUsage",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 无法\\n使用治愈招式!\\p",
+            "en": "{B_ATK_NAME_WITH_PREFIX} was\\nprevented from healing!\\p"
+        },
+        {
+            "label": "sText_MegaEvoReacting",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的 {B_LAST_ITEM} 对 \\n{B_ATK_TRAINER_NAME}'s 超级环有反应了!",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_LAST_ITEM} is \\nreacting to {B_ATK_TRAINER_NAME}'s Mega Ring!"
+        },
+        {
+            "label": "sText_FerventWishReached",
+            "zh": "{B_ATK_TRAINER_NAME}'热切的心意\\n传达到了{B_ATK_NAME_WITH_PREFIX}!",
+            "en": "{B_ATK_TRAINER_NAME}'s fervent wish\\nhas reached {B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_MegaEvoEvolved",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 超级进化为\\n超级{B_BUFF1}!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} has Mega\\nEvolved into Mega {B_BUFF1}!"
+        },
+        {
+            "label": "sText_drastically",
+            "zh": "巨幅提升 ",
+            "en": "drastically "
+        },
+        {
+            "label": "sText_severely",
+            "zh": "巨幅下降 ",
+            "en": "severely "
+        },
+        {
+            "label": "sText_Infestation",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 遭受着\\n {B_ATK_NAME_WITH_PREFIX}的死缠烂打!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} has been afflicted\\nwith an infestation by {B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_NoEffectOnTarget",
+            "zh": "对{B_DEF_NAME_WITH_PREFIX}\\n没有效果！",
+            "en": "It had no effect\\non {B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_BurstingFlames",
+            "zh": "烈焰溅射到了\\n {B_SCR_ACTIVE_NAME_WITH_PREFIX}！",
+            "en": "The bursting flames\\nhit {B_SCR_ACTIVE_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_BestowItemGiving",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 从{B_ATK_NAME_WITH_PREFIX}\\n收到了 {B_LAST_ITEM}!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM}\\nfrom {B_ATK_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_ThirdTypeAdded",
+            "zh": "{B_BUFF1} 被附加到了\\n{B_DEF_NAME_WITH_PREFIX}上",
+            "en": "{B_BUFF1} type was added to\\n{B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_FellForFeint",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 摔倒\\n了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} fell for\\nthe feint!"
+        },
+        {
+            "label": "sText_PokemonCannotUseMove",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 无法\\n使用 {B_CURRENT_MOVE}!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} cannot\\nuse {B_CURRENT_MOVE}!"
+        },
+        {
+            "label": "sText_CoveredInPowder",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被粉尘覆盖！",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is covered in powder!"
+        },
+        {
+            "label": "sText_PowderExplodes",
+            "zh": "宝可梦身上的粉尘被火焰碰到后爆炸了！",
+            "en": "When the flame touched the powder\\non the Pokémon, it exploded!"
+        },
+        {
+            "label": "sText_BelchCantUse",
+            "zh": "无法使用打嗝！",
+            "en": "Belch cannot be used!\\p"
+        },
+        {
+            "label": "sText_SpectralThiefSteal",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 偷取了目标\\n提升的能力!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} stole the target's\\nboosted stats!"
+        },
+        {
+            "label": "sText_GravityGrounding",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 因为重力\\n不能停留空中!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} can't stay airborne\\nbecause of gravity!"
+        },
+        {
+            "label": "sText_MistyTerrainPreventsStatus",
+            "zh": "{B_DEF_NAME_WITH_PREFIX} 的脚下\\n雾气缭绕!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} surrounds itself\\nwith a protective mist!"
+        },
+        {
+            "label": "sText_GrassyTerrainHeals",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}因为青草场地\\n恢复了少量HP!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is healed\\nby the grassy terrain!"
+        },
+        {
+            "label": "sText_ElectricTerrainPreventsSleep",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的脚下\\n电光飞闪!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} surrounds itself\\nwith electrified terrain!"
+        },
+        {
+            "label": "sText_PsychicTerrainPreventsPriority",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的脚下\\n传来了奇妙的感觉!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} surrounds itself\\nwith psychic terrain!"
+        },
+        {
+            "label": "sText_SafetyGooglesProtected",
+            "zh": "多亏了它的{B_LAST_ITEM}\\n{B_DEF_NAME_WITH_PREFIX}没有起效果!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is not affected\\nthanks to its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_FlowerVeilProtected",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}用花幕\\n包裹了自己!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} surrounded itself\\nwith a veil of petals!"
+        },
+        {
+            "label": "sText_SweetVeilProtected",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}用甜幕\\n包裹了自己!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} surrounded itself\\nwith a veil of sweetness!"
+        },
+        {
+            "label": "sText_AromaVeilProtected",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}被芳香幕\\n保护了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} is protected\\nby an aromatic veil!"
+        },
+        {
+            "label": "sText_CelebrateMessage",
+            "zh": "祝贺, {B_PLAYER_NAME}!",
+            "en": "Congratulations, {B_PLAYER_NAME}!"
+        },
+        {
+            "label": "sText_UsedInstructedMove",
+            "zh": "由于号令的{B_BUFF1}\\n{B_ATK_NAME_WITH_PREFIX}使出了招式!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} used the move\\ninstructed by {B_BUFF1}!"
+        },
+        {
+            "label": "sText_LaserFocusMessage",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}\\n高度集中!",
+            "en": "{B_ATK_NAME_WITH_PREFIX}\\nconcentrated intensely!"
+        },
+        {
+            "label": "sText_GemActivates",
+            "zh": "{B_LAST_ITEM} 增强了\\n{B_ATK_NAME_WITH_PREFIX}的力量!",
+            "en": "{B_LAST_ITEM} strengthened\\n{B_ATK_NAME_WITH_PREFIX}'s power!"
+        },
+        {
+            "label": "sText_BerryDmgReducing",
+            "zh": "{B_LAST_ITEM}为{B_DEF_NAME_WITH_PREFIX}\\n减少了伤害!",
+            "en": "{B_LAST_ITEM} weakened the damage\\nto {B_DEF_NAME_WITH_PREFIX}!"
+        },
+        {
+            "label": "sText_TargetAteItem",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}吃掉了它的{B_LAST_ITEM}!",
+            "en": "{B_DEF_NAME_WITH_PREFIX} ate its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_AirBalloonFloat",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}用它的{B_LAST_ITEM}\\n飘在了空中!",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} floats in the air\\nwith its {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_AirBalloonPop",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的{B_LAST_ITEM}破了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM} popped!"
+        },
+        {
+            "label": "sText_IncinerateBurn",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的{B_LAST_ITEM}\\n被烧掉了!",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\\nwas burnt up!"
+        },
+        {
+            "label": "sText_BugBite",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 偷走并吃掉了\\n{B_EFF_NAME_WITH_PREFIX}的{B_LAST_ITEM}!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} stole and ate\\n{B_EFF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_IllusionWoreOff",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的幻象被识破了!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s Illusion wore off!"
+        },
+        {
+            "label": "sText_AttackerCuredTargetStatus",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 治愈了\\n{B_DEF_NAME_WITH_PREFIX}的问题!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} cured\\n{B_DEF_NAME_WITH_PREFIX}'s problem!"
+        },
+        {
+            "label": "sText_AttackerLostFireType",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 燃尽了自己！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} burned itself out!"
+        },
+        {
+            "label": "sText_HealerCure",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}的{B_LAST_ABILITY}\\n治愈了{B_SCR_ACTIVE_NAME_WITH_PREFIX}的问题!",
+            "en": "{B_ATK_NAME_WITH_PREFIX}'s {B_LAST_ABILITY}\\ncured {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s problem!"
+        },
+        {
+            "label": "sText_ReceiverAbilityTakeOver",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的 {B_SCR_ACTIVE_ABILITY}\\n被继承了!",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nwas taken over!"
+        },
+        {
+            "label": "sText_PkmnAbsorbingPower",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}正在吸收力量!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} is absorbing power!"
+        },
+        {
+            "label": "sText_NoOneWillBeAbleToRun",
+            "zh": "在下一回合中\\n没有宝可梦能够逃跑！",
+            "en": "No one will be able to run away\\nduring the next turn!"
+        },
+        {
+            "label": "sText_DestinyKnotActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} 爱上了\\n因为 {B_LAST_ITEM}!",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} fell in love\\nfrom the {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_CloakedInAFreezingLight",
+            "zh": "{B_ATK_NAME_WITH_PREFIX} 被冷光\\n包围了!",
+            "en": "{B_ATK_NAME_WITH_PREFIX} became cloaked\\nin a freezing light!"
+        },
+        {
+            "label": "sText_StatWasNotLowered",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}的 {B_BUFF1}\\n没有被降低!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}\\nwas not lowered!"
+        },
+        {
+            "label": "sText_AuraFlaredToLife",
+            "zh": "{B_DEF_NAME_WITH_PREFIX}灵光焕发!",
+            "en": "{B_DEF_NAME_WITH_PREFIX}'s aura flared to life!"
+        },
+        {
+            "label": "sText_AirLockActivates",
+            "zh": "天气带来的效果\\n消失了。",
+            "en": "The effects of weather\\ndisappeared."
+        },
+        {
+            "label": "sText_PressureActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在施加\\n压迫感！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is exerting its\\npressure!"
+        },
+        {
+            "label": "sText_DarkAuraActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\\n暗黑气场！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is radiating\\na dark aura!"
+        },
+        {
+            "label": "sText_FairyAuraActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\\n妖精气场！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is radiating\\na fairy aura!"
+        },
+        {
+            "label": "sText_AuraBreakActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}反转了所有\\n其它宝可梦的气场！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} reversed all\\nother POKéMON's auras!"
+        },
+        {
+            "label": "sText_ComatoseActivates",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在打瞌睡！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is drowsing!"
+        },
+        {
+            "label": "sText_ScreenCleanerActivates",
+            "zh": "所有的墙都被\\n清除了！",
+            "en": "All screens on the field were\\ncleansed!"
+        },
+        {
+            "label": "sText_FetchedPokeBall",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}回收了\\n一个{B_LAST_ITEM}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} found\\na {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_BattlerAbilityRaisedStat",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\\n提高了它的{B_BUFF1}！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}\\nraised its {B_BUFF1}!"
+        },
+        {
+            "label": "sText_ASandstormKickedUp",
+            "zh": "刮起了沙暴！",
+            "en": "A sandstorm kicked up!"
+        },
+        {
+            "label": "sText_PkmnsWillPerishIn3Turns",
+            "zh": "所有宝可梦都会在\\n三回合后倒下！",
+            "en": "Both Pokémon will perish\\nin three turns!"
+        },
+        {
+            "label": "sText_AbilityRaisedStatDrastically",
+            "zh": "{B_DEF_ABILITY}巨幅提升了{B_DEF_NAME_WITH_PREFIX}的\\n{B_BUFF1}！",
+            "en": "{B_DEF_ABILITY} raised {B_DEF_NAME_WITH_PREFIX}'s\\n{B_BUFF1} drastically!"
+        },
+        {
+            "label": "sText_AsOneEnters",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}同时具备两种特性！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} has two Abilities!"
+        },
+        {
+            "label": "sText_CuriousMedicineEnters",
+            "zh": "{B_EFF_NAME_WITH_PREFIX}的\\n能力变化还原了！",
+            "en": "{B_EFF_NAME_WITH_PREFIX}'s\\nstat changes were reset!"
+        },
+        {
+            "label": "sText_CanActFaster",
+            "zh": "多亏了{B_LAST_ITEM}，\\n{B_ATK_NAME_WITH_PREFIX}能更快地行动！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} can act faster,\\nthanks to {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_MicleBerryActivates",
+            "zh": "通过使用{B_LAST_ITEM}\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}提高了它的命中率！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} boosted the accuracy of its\\nnext move using {B_LAST_ITEM}!"
+        },
+        {
+            "label": "sText_PkmnShookOffTheTaunt",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}从挑衅状态中\\n解除了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} shook off\\nthe taunt!"
+        },
+        {
+            "label": "sText_PkmnGotOverItsInfatuation",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}不再迷恋\\n对方了！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} got over\\nits infatuation!"
+        },
+        {
+            "label": "gText_PkmnIsEvolving",
+            "zh": "咦？\\n{STR_VAR_1}开始进化了！",
+            "en": "What?\\n{STR_VAR_1} is evolving!"
+        },
+        {
+            "label": "gText_CongratsPkmnEvolved",
+            "zh": "恭喜！你的{STR_VAR_1}\\n进化成{STR_VAR_2}！{WAIT_SE}A\\p",
+            "en": "Congratulations! Your {STR_VAR_1}\\nevolved into {STR_VAR_2}!{WAIT_SE}\\p"
+        },
+        {
+            "label": "gText_PkmnStoppedEvolving",
+            "zh": "嗯？{STR_VAR_1}\\n停止进化了！\\p",
+            "en": "Huh? {STR_VAR_1}\\nstopped evolving!\\p"
+        },
+        {
+            "label": "gText_EllipsisQuestionMark",
+            "zh": "……？\\p",
+            "en": "……?\\p"
+        },
+        {
+            "label": "gText_WhatWillPkmnDo",
+            "zh": "想要\\n{B_ACTIVE_NAME2}做什么？",
+            "en": "What will\\n{B_ACTIVE_NAME2} do?"
+        },
+        {
+            "label": "gText_WhatWillPkmnDo2",
+            "zh": "想要\\n{B_PLAYER_NAME}做什么？",
+            "en": "What will\\n{B_PLAYER_NAME} do?"
+        },
+        {
+            "label": "gText_WhatWillWallyDo",
+            "zh": "满充要做\\n什么？",
+            "en": "What will\\nWALLY do?"
+        },
+        {
+            "label": "gText_LinkStandby",
+            "zh": "{PAUSE 16}准备连线中…",
+            "en": "{PAUSE 16}Link standby…"
+        },
+        {
+            "label": "gText_BattleMenu",
+            "zh": "战斗{CLEAR_TO 56}背包\\n宝可梦{CLEAR_TO 56}逃跑",
+            "en": "FIGHT{CLEAR_TO 56}BAG\\nPOKéMON{CLEAR_TO 56}RUN"
+        },
+        {
+            "label": "gText_SafariZoneMenu",
+            "zh": "精灵球{CLEAR_TO 56}{POKEBLOCK}\\n靠近{CLEAR_TO 56}逃跑",
+            "en": "BALL{CLEAR_TO 56}{POKEBLOCK}\\nGO NEAR{CLEAR_TO 56}RUN"
+        },
+        {
+            "label": "gText_MoveInterfacePP",
+            "zh": "PP ",
+            "en": "PP "
+        },
+        {
+            "label": "gText_MoveInterfaceType",
+            "zh": "属性/",
+            "en": "TYPE/"
+        },
+        {
+            "label": "gText_MoveInterfacePpType",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\\n属性/",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\\nTYPE/"
+        },
+        {
+            "label": "gText_MoveInterfaceDynamicColors",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}"
+        },
+        {
+            "label": "gText_WhichMoveToForget4",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}要忘记\\n哪个技能？",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Which move should\\nbe forgotten?"
+        },
+        {
+            "label": "gText_BattleYesNoChoice",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}是\\n否",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Yes\\nNo"
+        },
+        {
+            "label": "gText_BattleSwitchWhich",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}与哪个\\n换位？",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Switch\\nwhich?"
+        },
+        {
+            "label": "gText_BattleSwitchWhich2",
+            "zh": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}",
+            "en": "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}"
+        },
+        {
+            "label": "gText_BattleSwitchWhich3",
+            "zh": "{UP_ARROW}",
+            "en": "{UP_ARROW}"
+        },
+        {
+            "label": "gText_BattleSwitchWhich4",
+            "zh": "{ESCAPE 4}",
+            "en": "{ESCAPE 4}"
+        },
+        {
+            "label": "gText_BattleSwitchWhich5",
+            "zh": "-",
+            "en": "-"
+        },
+        {
+            "label": "gText_SafariBalls",
+            "zh": "{HIGHLIGHT DARK_GRAY}狩猎球",
+            "en": "{HIGHLIGHT DARK_GRAY}SAFARI BALLS"
+        },
+        {
+            "label": "gText_SafariBallLeft",
+            "zh": "{HIGHLIGHT DARK_GRAY}Left: $\" \"{HIGHLIGHT DARK_GRAY}",
+            "en": "{HIGHLIGHT DARK_GRAY}Left: $\" \"{HIGHLIGHT DARK_GRAY}"
+        },
+        {
+            "label": "gText_Sleep",
+            "zh": "睡眠",
+            "en": "sleep"
+        },
+        {
+            "label": "gText_Poison",
+            "zh": "中毒",
+            "en": "poison"
+        },
+        {
+            "label": "gText_Burn",
+            "zh": "灼烧",
+            "en": "burn"
+        },
+        {
+            "label": "gText_Paralysis",
+            "zh": "麻痹",
+            "en": "paralysis"
+        },
+        {
+            "label": "gText_Ice",
+            "zh": "冰冻",
+            "en": "ice"
+        },
+        {
+            "label": "gText_Confusion",
+            "zh": "混乱",
+            "en": "confusion"
+        },
+        {
+            "label": "gText_Love",
+            "zh": "着迷",
+            "en": "love"
+        },
+        {
+            "label": "gText_SpaceAndSpace",
+            "zh": "和",
+            "en": " and "
+        },
+        {
+            "label": "gText_CommaSpace",
+            "zh": "，",
+            "en": ", "
+        },
+        {
+            "label": "gText_Space2",
+            "zh": " ",
+            "en": " "
+        },
+        {
+            "label": "gText_LineBreak",
+            "zh": "\\l",
+            "en": "\\l"
+        },
+        {
+            "label": "gText_NewLine",
+            "zh": "\\n",
+            "en": "\\n"
+        },
+        {
+            "label": "gText_Are",
+            "zh": "是",
+            "en": "are"
+        },
+        {
+            "label": "gText_Are2",
+            "zh": "是",
+            "en": "are"
+        },
+        {
+            "label": "gText_BadEgg",
+            "zh": "坏蛋",
+            "en": "Bad EGG"
+        },
+        {
+            "label": "gText_BattleWallyName",
+            "zh": "满充",
+            "en": "WALLY"
+        },
+        {
+            "label": "gText_Win",
+            "zh": "{HIGHLIGHT TRANSPARENT}胜",
+            "en": "{HIGHLIGHT TRANSPARENT}Win"
+        },
+        {
+            "label": "gText_Loss",
+            "zh": "{HIGHLIGHT TRANSPARENT}败",
+            "en": "{HIGHLIGHT TRANSPARENT}Loss"
+        },
+        {
+            "label": "gText_Draw",
+            "zh": "{HIGHLIGHT TRANSPARENT}和",
+            "en": "{HIGHLIGHT TRANSPARENT}Draw"
+        },
+        {
+            "label": "sText_SpaceIs",
+            "zh": "是",
+            "en": " is"
+        },
+        {
+            "label": "sText_ApostropheS",
+            "zh": "的",
+            "en": "'s"
+        },
+        {
+            "label": "gText_BattleTourney",
+            "zh": "战斗巡回赛",
+            "en": "BATTLE TOURNEY"
+        },
+        {
+            "label": "sText_Round1",
+            "zh": "第1回合",
+            "en": "Round 1"
+        },
+        {
+            "label": "sText_Round2",
+            "zh": "第2回合",
+            "en": "Round 2"
+        },
+        {
+            "label": "sText_Semifinal",
+            "zh": "半决赛",
+            "en": "Semifinal"
+        },
+        {
+            "label": "sText_Final",
+            "zh": "决赛",
+            "en": "Final"
+        },
+        {
+            "label": "gText_TheGreatNewHope",
+            "zh": "伟大的新希望!\\p",
+            "en": "The great new hope!\\p"
+        },
+        {
+            "label": "gText_WillChampionshipDreamComeTrue",
+            "zh": "冠军梦会实现吗？！\\p",
+            "en": "Will the championship dream come true?!\\p"
+        },
+        {
+            "label": "gText_AFormerChampion",
+            "zh": "曾经的冠军！\\p",
+            "en": "A former CHAMPION!\\p"
+        },
+        {
+            "label": "gText_ThePreviousChampion",
+            "zh": "上届冠军！\\p",
+            "en": "The previous CHAMPION!\\p"
+        },
+        {
+            "label": "gText_TheUnbeatenChampion",
+            "zh": "不败的冠军！\\p",
+            "en": "The unbeaten CHAMPION!\\p"
+        },
+        {
+            "label": "gText_PlayerMon1Name",
+            "zh": "{B_PLAYER_MON1_NAME}",
+            "en": "{B_PLAYER_MON1_NAME}"
+        },
+        {
+            "label": "gText_Vs",
+            "zh": "对决",
+            "en": "VS"
+        },
+        {
+            "label": "gText_OpponentMon1Name",
+            "zh": "{B_OPPONENT_MON1_NAME}",
+            "en": "{B_OPPONENT_MON1_NAME}"
+        },
+        {
+            "label": "gText_Mind",
+            "zh": "头脑",
+            "en": "Mind"
+        },
+        {
+            "label": "gText_Skill",
+            "zh": "技巧",
+            "en": "Skill"
+        },
+        {
+            "label": "gText_Body",
+            "zh": "身体",
+            "en": "Body"
+        },
+        {
+            "label": "gText_Judgement",
+            "zh": "{B_BUFF1}{CLEAR 13}判定{CLEAR 13}{B_BUFF2}",
+            "en": "{B_BUFF1}{CLEAR 13}Judgment{CLEAR 13}{B_BUFF2}"
+        },
+        {
+            "label": "sText_TwoTrainersSentPkmn",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}派出了\\n{B_OPPONENT_MON1_NAME}！\\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME}派出了\\n{B_OPPONENT_MON2_NAME}！",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\\nout {B_OPPONENT_MON1_NAME}!\\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent\\nout {B_OPPONENT_MON2_NAME}!"
+        },
+        {
+            "label": "sText_Trainer2SentOutPkmn",
+            "zh": "{B_TRAINER2_CLASS} {B_TRAINER2_NAME}派出了\\n{B_BUFF1}！",
+            "en": "{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent\\nout {B_BUFF1}!"
+        },
+        {
+            "label": "sText_TwoTrainersWantToBattle",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}和\\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\\l想要对战！\\p",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} and\\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\\lwant to battle!\\p"
+        },
+        {
+            "label": "sText_InGamePartnerSentOutZGoN",
+            "zh": "{B_PARTNER_CLASS} {B_PARTNER_NAME}派出了\\n{B_PLAYER_MON2_NAME}！\\l去吧，{B_PLAYER_MON1_NAME}！",
+            "en": "{B_PARTNER_CLASS} {B_PARTNER_NAME} sent\\nout {B_PLAYER_MON2_NAME}!\\lGo, {B_PLAYER_MON1_NAME}!"
+        },
+        {
+            "label": "sText_TwoInGameTrainersDefeated",
+            "zh": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}和\\n{B_TRAINER2_CLASS}{B_TRAINER2_NAME}\\l被打败了！\\p",
+            "en": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} and\\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\\lwere defeated!\\p"
+        },
+        {
+            "label": "sText_Trainer2LoseText",
+            "zh": "{B_TRAINER2_LOSE_TEXT}",
+            "en": "{B_TRAINER2_LOSE_TEXT}"
+        },
+        {
+            "label": "sText_PkmnIncapableOfPower",
+            "zh": "{B_ATK_NAME_WITH_PREFIX}似乎无法\\n使出力量！",
+            "en": "{B_ATK_NAME_WITH_PREFIX} appears incapable\\nof using its power!"
+        },
+        {
+            "label": "sText_GlintAppearsInEye",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}眼中闪烁\\n着亮光！",
+            "en": "A glint appears in\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s eyes!"
+        },
+        {
+            "label": "sText_PkmnGettingIntoPosition",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}准备\\n就位！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is getting into\\nposition!"
+        },
+        {
+            "label": "sText_PkmnBeganGrowlingDeeply",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}发出了咆哮！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} began growling deeply!"
+        },
+        {
+            "label": "sText_PkmnEagerForMore",
+            "zh": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}想要更多！",
+            "en": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} is eager for more!"
+        },
+        {
+            "label": "sText_RefIfNothingIsDecided",
+            "zh": "裁判：如果3回合无法决出胜负，\\n将由我们来裁定结果！",
+            "en": "REFEREE: If nothing is decided in\\n3 turns, we will go to judging!"
+        },
+        {
+            "label": "sText_RefThatsIt",
+            "zh": "裁判：到此为止！现在将由我们\\n裁定谁是胜利者！",
+            "en": "REFEREE: That's it! We will now go to\\njudging to determine the winner!"
+        },
+        {
+            "label": "sText_RefJudgeMind",
+            "zh": "裁判：判定类别 1，头脑！\\n宝可梦展示出最大勇气！\\p",
+            "en": "REFEREE: Judging category 1, Mind!\\nThe POKéMON showing the most guts!\\p"
+        },
+        {
+            "label": "sText_RefJudgeSkill",
+            "zh": "裁判：判定类别 2，技巧！\\n宝可梦最优化使用技能！\\p",
+            "en": "REFEREE: Judging category 2, Skill!\\nThe POKéMON using moves the best!\\p"
+        },
+        {
+            "label": "sText_RefJudgeBody",
+            "zh": "裁判：判定类别 3，身体！\\n宝可梦拥有最强生命力！\\p",
+            "en": "REFEREE: Judging category 3, Body!\\nThe POKéMON with the most vitality!\\p"
+        },
+        {
+            "label": "sText_RefPlayerWon",
+            "zh": "裁判：裁定结果：{B_BUFF1}与{B_BUFF2}！\\n胜利者是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\\p",
+            "en": "REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\\nThe winner is {B_PLAYER_NAME}'s {B_PLAYER_MON1_NAME}!\\p"
+        },
+        {
+            "label": "sText_RefOpponentWon",
+            "zh": "裁判：裁定结果：{B_BUFF1}与{B_BUFF2}！\\n胜利者是{B_TRAINER1_NAME}的{B_DEF_NAME}！\\p",
+            "en": "REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\\nThe winner is {B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME}!\\p"
+        },
+        {
+            "label": "sText_RefDraw",
+            "zh": "裁判：裁定结果：3比3！\\n你们打成了平手！\\p",
+            "en": "REFEREE: Judgment: 3 to 3!\\nWe have a draw!\\p"
+        },
+        {
+            "label": "sText_DefeatedOpponentByReferee",
+            "zh": "裁判裁定{B_PLAYER_MON1_NAME}击败了\\n对手{B_OPPONENT_MON1_NAME}！",
+            "en": "{B_PLAYER_MON1_NAME} defeated the opponent\\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
+        },
+        {
+            "label": "sText_LostToOpponentByReferee",
+            "zh": "裁判裁定{B_PLAYER_MON1_NAME}输给了\\n对手{B_OPPONENT_MON1_NAME}！",
+            "en": "{B_PLAYER_MON1_NAME} lost to the opponent\\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
+        },
+        {
+            "label": "sText_TiedOpponentByReferee",
+            "zh": "裁判裁定{B_PLAYER_MON1_NAME}与\\n{B_OPPONENT_MON1_NAME}打成了平手！",
+            "en": "{B_PLAYER_MON1_NAME} tied the opponent\\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
+        },
+        {
+            "label": "sText_RefCommenceBattle",
+            "zh": "裁判：{B_PLAYER_MON1_NAME}对抗{B_OPPONENT_MON1_NAME}！\\n战斗开始！",
+            "en": "REFEREE: {B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}!\\nCommence battling!"
+        },
+        {
+            "label": "sText_QuestionForfeitMatch",
+            "zh": "想放弃参赛资格，\\n并退出比赛吗？",
+            "en": "Would you like to forfeit the match\\nand quit now?"
+        },
+        {
+            "label": "sText_ForfeitedMatch",
+            "zh": "{B_PLAYER_NAME}放弃了参赛资格！",
+            "en": "{B_PLAYER_NAME} forfeited the match!"
+        },
+        {
+            "label": "sText_Trainer1WinText",
+            "zh": "{B_TRAINER1_WIN_TEXT}",
+            "en": "{B_TRAINER1_WIN_TEXT}"
+        },
+        {
+            "label": "sText_Trainer2WinText",
+            "zh": "{B_TRAINER2_WIN_TEXT}",
+            "en": "{B_TRAINER2_WIN_TEXT}"
+        },
+        {
+            "label": "sText_Trainer1Fled",
+            "zh": "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS}{B_TRAINER1_NAME}逃跑了！",
+            "en": "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!"
+        },
+        {
+            "label": "sText_PlayerLostAgainstTrainer1",
+            "zh": "你输给了\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}！",
+            "en": "Player lost against\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!"
+        },
+        {
+            "label": "sText_PlayerBattledToDrawTrainer1",
+            "zh": "你跟\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}打成了平手！",
+            "en": "Player battled to a draw against\\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!"
+        },
+        {
+            "label": "gText_RecordBattleToPass",
+            "zh": "你想将这场对战记录\\n在你的开拓区通行证上吗？",
+            "en": "Would you like to record your battle\\non your FRONTIER PASS?"
+        },
+        {
+            "label": "gText_BattleRecordedOnPass",
+            "zh": "{B_PLAYER_NAME}的对战结果\\n已经记录在开拓区通行证上了。",
+            "en": "{B_PLAYER_NAME}'s battle result was recorded\\non the FRONTIER PASS."
+        },
+        {
+            "label": "sText_LinkTrainerWantsToBattlePause",
+            "zh": "{B_LINK_OPPONENT1_NAME}\\n想要对战！{PAUSE 49}",
+            "en": "{B_LINK_OPPONENT1_NAME}\\nwants to battle!{PAUSE 49}"
+        },
+        {
+            "label": "sText_TwoLinkTrainersWantToBattlePause",
+            "zh": "{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}\\n想要对战！{PAUSE 49}",
+            "en": "{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\\nwant to battle!{PAUSE 49}"
+        },
+        {
+            "label": "sText_Your1",
+            "zh": "我方",
+            "en": "Your"
+        },
+        {
+            "label": "sText_Opposing1",
+            "zh": "对方",
+            "en": "The opposing"
+        },
+        {
+            "label": "sText_Your2",
+            "zh": "我方",
+            "en": "your"
+        },
+        {
+            "label": "sText_Opposing2",
+            "zh": "对方",
+            "en": "the opposing"
+        },
+        {
+            "label": "TYPE_NORMAL",
+            "zh": "一般属性招式",
+            "en": "a NORMAL move"
+        },
+        {
+            "label": "TYPE_FIGHTING",
+            "zh": "格斗属性招式",
+            "en": "a FIGHTING move"
+        },
+        {
+            "label": "TYPE_FLYING",
+            "zh": "飞行属性招式",
+            "en": "a FLYING move"
+        },
+        {
+            "label": "TYPE_POISON",
+            "zh": "毒属性招式",
+            "en": "a POISON move"
+        },
+        {
+            "label": "TYPE_GROUND",
+            "zh": "地面属性招式",
+            "en": "a GROUND move"
+        },
+        {
+            "label": "TYPE_ROCK",
+            "zh": "岩石属性招式",
+            "en": "a ROCK move"
+        },
+        {
+            "label": "TYPE_BUG",
+            "zh": "虫属性招式",
+            "en": "a BUG move"
+        },
+        {
+            "label": "TYPE_GHOST",
+            "zh": "鬼属性招式",
+            "en": "a GHOST move"
+        },
+        {
+            "label": "TYPE_STEEL",
+            "zh": "钢属性招式",
+            "en": "a STEEL move"
+        },
+        {
+            "label": "TYPE_MYSTERY",
+            "zh": "未知属性招式",
+            "en": "a ??? move"
+        },
+        {
+            "label": "TYPE_FIRE",
+            "zh": "火属性招式",
+            "en": "a FIRE move"
+        },
+        {
+            "label": "TYPE_WATER",
+            "zh": "水属性招式",
+            "en": "a WATER move"
+        },
+        {
+            "label": "TYPE_GRASS",
+            "zh": "草属性招式",
+            "en": "a GRASS move"
+        },
+        {
+            "label": "TYPE_ELECTRIC",
+            "zh": "电属性招式",
+            "en": "an ELECTRIC move"
+        },
+        {
+            "label": "TYPE_PSYCHIC",
+            "zh": "超能力属性招式",
+            "en": "a PSYCHIC move"
+        },
+        {
+            "label": "TYPE_ICE",
+            "zh": "冰属性招式",
+            "en": "an ICE move"
+        },
+        {
+            "label": "TYPE_DRAGON",
+            "zh": "龙属性招式",
+            "en": "a DRAGON move"
+        },
+        {
+            "label": "TYPE_DARK",
+            "zh": "恶属性招式",
+            "en": "a DARK move"
+        },
+        {
+            "label": "TYPE_FAIRY",
+            "zh": "妖精属性招式",
+            "en": "a FAIRY move"
+        }
+    ]
+}

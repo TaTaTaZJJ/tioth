@@ -5,6 +5,7 @@
 #include "palette.h"
 #include "bg.h"
 #include "graphics.h"
+#include "event_data.h"
 
 // const rom data
 const u8 gTextWindowFrame1_Gfx[] = INCBIN_U8("graphics/text_window/1.4bpp");
@@ -51,7 +52,7 @@ static const u16 sTextWindowFrame20_Pal[] = INCBIN_U16("graphics/text_window/20.
 
 static const u16 sTextWindowPalettes[][16] =
 {
-    INCBIN_U16("graphics/text_window/message_box.gbapal"),
+    INCBIN_U16("graphics/text_window/message_box/message_box.gbapal"),
     INCBIN_U16("graphics/text_window/text_pal1.gbapal"),
     INCBIN_U16("graphics/text_window/text_pal2.gbapal"),
     INCBIN_U16("graphics/text_window/text_pal3.gbapal"),
@@ -82,6 +83,26 @@ static const struct TilesPal sWindowFrames[WINDOW_FRAMES_COUNT] =
     {sTextWindowFrame20_Gfx, sTextWindowFrame20_Pal}
 };
 
+static const u16 gMessageBox_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box.gbapal");
+static const u8 gMessageBox_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box.4bpp");
+static const u16 gMessageBoxWood_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_wood.gbapal");
+static const u8 gMessageBoxWood_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_wood.4bpp");
+static const u16 gMessageBoxIron_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_iron.gbapal");
+static const u8 gMessageBoxIron_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_iron.4bpp");
+static const u16 gMessageBoxRadio_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_radio.gbapal");
+static const u8 gMessageBoxRadio_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_radio.4bpp");
+static const u16 gMessageBoxBlack_Pal[] = INCBIN_U16("graphics/text_window/message_box/message_box_black.gbapal");
+static const u8 gMessageBoxBlack_Gfx[] = INCBIN_U8("graphics/text_window/message_box/message_box_black.4bpp");
+
+static const struct TilesPal sDialogFrames[5] =
+{
+    {gMessageBox_Gfx, gMessageBox_Pal},
+    {gMessageBoxWood_Gfx, gMessageBoxWood_Pal},
+    {gMessageBoxIron_Gfx, gMessageBoxIron_Pal},
+    {gMessageBoxRadio_Gfx, gMessageBoxRadio_Pal},
+    {gMessageBoxBlack_Gfx, gMessageBoxBlack_Pal},
+};
+
 // code
 const struct TilesPal *GetWindowFrameTilesPal(u8 id)
 {
@@ -92,9 +113,10 @@ const struct TilesPal *GetWindowFrameTilesPal(u8 id)
 }
 
 void LoadMessageBoxGfx(u8 windowId, u16 destOffset, u8 palOffset)
-{
-    LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), gMessageBox_Gfx, 0x1C0, destOffset);
-    LoadPalette(GetOverworldTextboxPalettePtr(), palOffset, 0x20);
+{   
+    u16 style = VarGet(VAR_DIALOG_STYLE);
+    LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), sDialogFrames[style].tiles, 0x2C0, destOffset);
+    LoadPalette(sDialogFrames[style].pal, palOffset, 0x20);
 }
 
 void LoadUserWindowBorderGfx_(u8 windowId, u16 destOffset, u8 palOffset)

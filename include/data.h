@@ -70,7 +70,8 @@ struct Trainer
     /*0x18*/ bool8 doubleBattle;
     /*0x1C*/ u32 aiFlags;
     /*0x20*/ u8 partySize;
-    /*0x24*/ union TrainerMonPtr party;
+    /*0x24*/ u16 rewardItem;
+    /*0x2C*/ union TrainerMonPtr party;
 };
 
 #define TRAINER_ENCOUNTER_MUSIC(trainer)((gTrainers[trainer].encounterMusic_gender & 0x7F))
@@ -121,7 +122,7 @@ extern const struct CompressedSpriteSheet gMonFrontPicTableFemale[];
 extern const bool8 SpeciesHasGenderDifference[NUM_SPECIES];
 
 extern const struct Trainer gTrainers[];
-extern const u8 gTrainerClassNames[][13];
+extern const u8 gTrainerClassNames[][19];
 extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
 extern const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1];
 

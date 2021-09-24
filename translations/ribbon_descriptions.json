@@ -1,0 +1,100 @@
+{
+    "path": "src/data/text/ribbon_descriptions.h",
+    "texts": [
+        {
+            "label": "gRibbonDescriptionPart1_Champion",
+            "zh": "打败冠军，登录荣誉殿堂",
+            "en": "CHAMPION-beating, HALL"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_Champion",
+            "zh": "荣誉殿堂奖章",
+            "en": "OF FAME Member RIBBON"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_CoolContest",
+            "zh": "帅气大赛",
+            "en": "COOL CONTEST"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_BeautyContest",
+            "zh": "美丽大赛",
+            "en": "BEAUTY CONTEST"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_CuteContest",
+            "zh": "可爱大赛",
+            "en": "CUTE CONTEST"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_SmartContest",
+            "zh": "聪明大赛",
+            "en": "SMART CONTEST"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_ToughContest",
+            "zh": "强壮大赛",
+            "en": "TOUGH CONTEST"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_NormalRank",
+            "zh": "普通组冠军!",
+            "en": "Normal Rank winner!"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_SuperRank",
+            "zh": "超级组冠军!",
+            "en": "Super Rank winner!"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_HyperRank",
+            "zh": "高级组冠军!",
+            "en": "Hyper Rank winner!"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_MasterRank",
+            "zh": "大师组冠军!",
+            "en": "Master Rank winner!"
+        },
+        {
+            "label": "gRibbonDescriptionPart1_Winning",
+            "zh": "获得50级组冠军",
+            "en": "For clearing LV50"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_Winning",
+            "zh": "在对战塔",
+            "en": "at the BATTLE TOWER."
+        },
+        {
+            "label": "gRibbonDescriptionPart1_Victory",
+            "zh": "获得自由组冠军",
+            "en": "For clearing Open Level"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_Victory",
+            "zh": "在对战塔",
+            "en": "at the BATTLE TOWER."
+        },
+        {
+            "label": "gRibbonDescriptionPart1_Artist",
+            "zh": "该奖章赠与被选为",
+            "en": "RIBBON for being chosen"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_Artist",
+            "zh": "华丽肖像模特",
+            "en": "as a super sketch model."
+        },
+        {
+            "label": "gRibbonDescriptionPart1_Effort",
+            "zh": "该奖章赠予",
+            "en": "RIBBON awarded for"
+        },
+        {
+            "label": "gRibbonDescriptionPart2_Effort",
+            "zh": "努力的宝可梦",
+            "en": "being a hard worker."
+        }
+    ]
+}

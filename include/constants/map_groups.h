@@ -6,13 +6,15 @@
 //
 
 // gMapGroup_Test
-#define MAP_SPAWN_PLACE (0 | (0 << 8))
+#define MAP_SPAWN_PLACE        (0 | (0 << 8))
+#define MAP_SPAWN_PLACE_MIRROR (1 | (0 << 8))
 
 // TiothMapGroup_Indoor
 #define MAP_TIOTH_MAP_INDOOR0 (0 | (1 << 8))
 #define MAP_TIOTH_MAP_INDOOR1 (1 | (1 << 8))
 
 // TiothMapGroup_IndoorDream
+#define MAP_TIOTH_MAP_INDOOR_DREAM0 (0 | (2 << 8))
 
 // gMapGroup_TownsAndRoutes
 #define MAP_PETALBURG_CITY      (0 | (3 << 8))

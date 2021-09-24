@@ -126,14 +126,14 @@ static void RunTimeBasedEvents(s16 *data)
     switch (tState)
     {
         case 0:
-            if (gMain.vblankCounter1 & 0x1000)
+            if (gMain.vblankCounter1 & 60) // 每秒触发
             {
                 DoTimeBasedEvents();
                 tState++;
             }
             break;
         case 1:
-            if (!(gMain.vblankCounter1 & 0x1000))
+            if (!(gMain.vblankCounter1 & 60)) // 每秒触发
             {
                 tState--;
             }

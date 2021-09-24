@@ -1,0 +1,2417 @@
+{
+    "path": "src/data/items.h",
+    "texts": [
+        {
+            "zh": "大师球",
+            "en": "Master Ball"
+        },
+        {
+            "zh": "高级球",
+            "en": "Ultra Ball"
+        },
+        {
+            "zh": "超级球",
+            "en": "Great Ball"
+        },
+        {
+            "zh": "精灵球",
+            "en": "Poké Ball"
+        },
+        {
+            "zh": "狩猎球",
+            "en": "Safari Ball"
+        },
+        {
+            "zh": "捕网球",
+            "en": "Net Ball"
+        },
+        {
+            "zh": "潜水球",
+            "en": "Dive Ball"
+        },
+        {
+            "zh": "巢穴球",
+            "en": "Nest Ball"
+        },
+        {
+            "zh": "重复球",
+            "en": "Repeat Ball"
+        },
+        {
+            "zh": "计时球",
+            "en": "Timer Ball"
+        },
+        {
+            "zh": "豪华球",
+            "en": "Luxury Ball"
+        },
+        {
+            "zh": "纪念球",
+            "en": "Premier Ball"
+        },
+        {
+            "zh": "等级球",
+            "en": "Level Ball"
+        },
+        {
+            "zh": "诱饵球",
+            "en": "Lure Ball"
+        },
+        {
+            "zh": "月亮球",
+            "en": "Moon Ball"
+        },
+        {
+            "zh": "友友球",
+            "en": "Friend Ball"
+        },
+        {
+            "zh": "甜甜蜜球",
+            "en": "Love Ball"
+        },
+        {
+            "zh": "沉重球",
+            "en": "Heavy Ball"
+        },
+        {
+            "zh": "速度球",
+            "en": "Fast Ball"
+        },
+        {
+            "zh": "治愈球",
+            "en": "Heal Ball"
+        },
+        {
+            "zh": "先机球",
+            "en": "Quick Ball"
+        },
+        {
+            "zh": "黑暗球",
+            "en": "Dusk Ball"
+        },
+        {
+            "zh": "贵重球",
+            "en": "Cherish Ball"
+        },
+        {
+            "zh": "竞赛球",
+            "en": "Sport Ball"
+        },
+        {
+            "zh": "公园球",
+            "en": "Park Ball"
+        },
+        {
+            "zh": "梦境球",
+            "en": "Dream Ball"
+        },
+        {
+            "zh": "究极球",
+            "en": "Beast Ball"
+        },
+        {
+            "zh": "伤药",
+            "en": "Potion"
+        },
+        {
+            "zh": "解毒药",
+            "en": "Antidote"
+        },
+        {
+            "zh": "灼伤药",
+            "en": "Burn Heal"
+        },
+        {
+            "zh": "解冻药",
+            "en": "Ice Heal"
+        },
+        {
+            "zh": "解眠药",
+            "en": "Awakening"
+        },
+        {
+            "zh": "解麻药",
+            "en": "Paralyze Heal"
+        },
+        {
+            "zh": "全复药",
+            "en": "Full Restore"
+        },
+        {
+            "zh": "全满药",
+            "en": "Max Potion"
+        },
+        {
+            "zh": "厉害伤药",
+            "en": "Hyper Potion"
+        },
+        {
+            "zh": "好伤药",
+            "en": "Super Potion"
+        },
+        {
+            "zh": "万灵药",
+            "en": "Full Heal"
+        },
+        {
+            "zh": "活力碎片",
+            "en": "Revive"
+        },
+        {
+            "zh": "活力块",
+            "en": "Max Revive"
+        },
+        {
+            "zh": "美味之水",
+            "en": "Fresh Water"
+        },
+        {
+            "zh": "劲爽汽水",
+            "en": "Soda Pop"
+        },
+        {
+            "zh": "果汁牛奶",
+            "en": "Lemonade"
+        },
+        {
+            "zh": "哞哞鲜奶",
+            "en": "Moomoo Milk"
+        },
+        {
+            "zh": "元气粉",
+            "en": "Energy Powder"
+        },
+        {
+            "zh": "元气根",
+            "en": "Energy Root"
+        },
+        {
+            "zh": "万能粉",
+            "en": "Heal Powder"
+        },
+        {
+            "zh": "复活草",
+            "en": "Revival Herb"
+        },
+        {
+            "zh": "PP单项小补剂",
+            "en": "Ether"
+        },
+        {
+            "zh": "PP单项全补剂",
+            "en": "Max Ether"
+        },
+        {
+            "zh": "PP多项小补剂",
+            "en": "Elixir"
+        },
+        {
+            "zh": "PP多项全补剂",
+            "en": "Max Elixir"
+        },
+        {
+            "zh": "釜炎仙贝",
+            "en": "Lava Cookie"
+        },
+        {
+            "zh": "蓝色玻璃哨",
+            "en": "Blue Flute"
+        },
+        {
+            "zh": "黄色玻璃哨",
+            "en": "Yellow Flute"
+        },
+        {
+            "zh": "红色玻璃哨",
+            "en": "Red Flute"
+        },
+        {
+            "zh": "黑色玻璃哨",
+            "en": "Black Flute"
+        },
+        {
+            "zh": "白色玻璃哨",
+            "en": "White Flute"
+        },
+        {
+            "zh": "树果汁",
+            "en": "Berry Juice"
+        },
+        {
+            "zh": "心形甜点",
+            "en": "Sweet Heart"
+        },
+        {
+            "zh": "大马拉萨达",
+            "en": "Big Malasada"
+        },
+        {
+            "zh": "森之羊羹",
+            "en": "Old Gateau"
+        },
+        {
+            "zh": "圣灰",
+            "en": "Sacred Ash"
+        },
+        {
+            "zh": "浅滩海盐",
+            "en": "Shoal Salt"
+        },
+        {
+            "zh": "浅滩贝壳",
+            "en": "Shoal Shell"
+        },
+        {
+            "zh": "红色碎片",
+            "en": "Red Shard"
+        },
+        {
+            "zh": "蓝色碎片",
+            "en": "Blue Shard"
+        },
+        {
+            "zh": "黄色碎片",
+            "en": "Yellow Shard"
+        },
+        {
+            "zh": "绿色碎片",
+            "en": "Green Shard"
+        },
+        {
+            "zh": "HP增强剂",
+            "en": "HP Up"
+        },
+        {
+            "zh": "攻击增强剂",
+            "en": "Protein"
+        },
+        {
+            "zh": "防御增强剂",
+            "en": "Iron"
+        },
+        {
+            "zh": "速度增强剂",
+            "en": "Carbos"
+        },
+        {
+            "zh": "特攻增强剂",
+            "en": "Calcium"
+        },
+        {
+            "zh": "神奇糖果",
+            "en": "Rare Candy"
+        },
+        {
+            "zh": "PP提升剂",
+            "en": "PP Up"
+        },
+        {
+            "zh": "特防增强剂",
+            "en": "Zinc"
+        },
+        {
+            "zh": "PP极限提升剂",
+            "en": "PP Max"
+        },
+        {
+            "zh": "能力防守",
+            "en": "Guard Spec."
+        },
+        {
+            "zh": "要害攻击",
+            "en": "Dire Hit"
+        },
+        {
+            "zh": "力量强化",
+            "en": "X Attack"
+        },
+        {
+            "zh": "防御强化",
+            "en": "X Defense"
+        },
+        {
+            "zh": "速度强化",
+            "en": "X Speed"
+        },
+        {
+            "zh": "命中强化",
+            "en": "X Accuracy"
+        },
+        {
+            "zh": "特攻强化",
+            "en": "X Sp. Atk"
+        },
+        {
+            "zh": "特防强化",
+            "en": "X Sp. Def"
+        },
+        {
+            "zh": "皮皮玩偶",
+            "en": "Poké Doll"
+        },
+        {
+            "zh": "向尾喵的尾巴",
+            "en": "Fluffy Tail"
+        },
+        {
+            "zh": "白银喷雾",
+            "en": "Super Repel"
+        },
+        {
+            "zh": "黄金喷雾",
+            "en": "Max Repel"
+        },
+        {
+            "zh": "特性胶囊",
+            "en": "AbilityCapsle"
+        },
+        {
+            "zh": "离洞绳",
+            "en": "Escape Rope"
+        },
+        {
+            "zh": "除虫喷雾",
+            "en": "Repel"
+        },
+        {
+            "zh": "日之石",
+            "en": "Sun Stone"
+        },
+        {
+            "zh": "月之石",
+            "en": "Moon Stone"
+        },
+        {
+            "zh": "火之石",
+            "en": "Fire Stone"
+        },
+        {
+            "zh": "雷之石",
+            "en": "Thunder Stone"
+        },
+        {
+            "zh": "水之石",
+            "en": "Water Stone"
+        },
+        {
+            "zh": "叶之石",
+            "en": "Leaf Stone"
+        },
+        {
+            "zh": "觉醒之石",
+            "en": "Dawn Stone"
+        },
+        {
+            "zh": "暗之石",
+            "en": "Dusk Stone"
+        },
+        {
+            "zh": "光之石",
+            "en": "Shiny Stone"
+        },
+        {
+            "zh": "冰之石",
+            "en": "Ice Stone"
+        },
+        {
+            "zh": "红球果",
+            "en": "Red Apricorn"
+        },
+        {
+            "zh": "蓝球果",
+            "en": "Blue Apricorn"
+        },
+        {
+            "zh": "黄球果",
+            "en": "YellwApricorn"
+        },
+        {
+            "zh": "绿球果",
+            "en": "GreenApricorn"
+        },
+        {
+            "zh": "粉球果",
+            "en": "Pink Apricorn"
+        },
+        {
+            "zh": "白球果",
+            "en": "WhiteApricorn"
+        },
+        {
+            "zh": "黑球果",
+            "en": "BlackApricorn"
+        },
+        {
+            "zh": "小蘑菇",
+            "en": "Tiny Mushroom"
+        },
+        {
+            "zh": "大蘑菇",
+            "en": "Big Mushroom"
+        },
+        {
+            "zh": "珍珠",
+            "en": "Pearl"
+        },
+        {
+            "zh": "大珍珠",
+            "en": "Big Pearl"
+        },
+        {
+            "zh": "星星沙子",
+            "en": "Stardust"
+        },
+        {
+            "zh": "星星碎片",
+            "en": "Star Piece"
+        },
+        {
+            "zh": "金珠",
+            "en": "Nugget"
+        },
+        {
+            "zh": "心之鳞片",
+            "en": "Heart Scale"
+        },
+        {
+            "zh": "朱红色花蜜",
+            "en": "Red Nectar"
+        },
+        {
+            "zh": "金黄色花蜜",
+            "en": "Yellow Nectar"
+        },
+        {
+            "zh": "桃粉色花蜜",
+            "en": "Pink Nectar"
+        },
+        {
+            "zh": "兰紫色花蜜",
+            "en": "Purple Nectar"
+        },
+        {
+            "zh": "贵重骨头",
+            "en": "Rare Bone"
+        },
+        {
+            "zh": "橙色邮件",
+            "en": "Orange Mail"
+        },
+        {
+            "zh": "港口邮件",
+            "en": "Harbor Mail"
+        },
+        {
+            "zh": "闪亮邮件",
+            "en": "Glitter Mail"
+        },
+        {
+            "zh": "机械邮件",
+            "en": "Mech Mail"
+        },
+        {
+            "zh": "木纹邮件",
+            "en": "Wood Mail"
+        },
+        {
+            "zh": "波涛邮件",
+            "en": "Wave Mail"
+        },
+        {
+            "zh": "珠宝邮件",
+            "en": "Bead Mail"
+        },
+        {
+            "zh": "影子邮件",
+            "en": "Shadow Mail"
+        },
+        {
+            "zh": "热带邮件",
+            "en": "Tropic Mail"
+        },
+        {
+            "zh": "梦境邮件",
+            "en": "Dream Mail"
+        },
+        {
+            "zh": "奇迹邮件",
+            "en": "Fab Mail"
+        },
+        {
+            "zh": "复古邮件",
+            "en": "Retro Mail"
+        },
+        {
+            "zh": "樱子果",
+            "en": "Cheri Berry"
+        },
+        {
+            "zh": "零余果",
+            "en": "Chesto Berry"
+        },
+        {
+            "zh": "桃桃果",
+            "en": "Pecha Berry"
+        },
+        {
+            "zh": "莓莓果",
+            "en": "Rawst Berry"
+        },
+        {
+            "zh": "利木果",
+            "en": "Aspear Berry"
+        },
+        {
+            "zh": "苹野果",
+            "en": "Leppa Berry"
+        },
+        {
+            "zh": "橙橙果",
+            "en": "Oran Berry"
+        },
+        {
+            "zh": "柿仔果",
+            "en": "Persim Berry"
+        },
+        {
+            "zh": "木子果",
+            "en": "Lum Berry"
+        },
+        {
+            "zh": "文柚果",
+            "en": "Sitrus Berry"
+        },
+        {
+            "zh": "勿花果",
+            "en": "Figy Berry"
+        },
+        {
+            "zh": "异奇果",
+            "en": "Wiki Berry"
+        },
+        {
+            "zh": "芒芒果",
+            "en": "Mago Berry"
+        },
+        {
+            "zh": "乐芭果",
+            "en": "Aguav Berry"
+        },
+        {
+            "zh": "芭亚果",
+            "en": "Iapapa Berry"
+        },
+        {
+            "zh": "蔓莓果",
+            "en": "Razz Berry"
+        },
+        {
+            "zh": "墨莓果",
+            "en": "Bluk Berry"
+        },
+        {
+            "zh": "蕉香果",
+            "en": "Nanab Berry"
+        },
+        {
+            "zh": "西梨果",
+            "en": "Wepear Berry"
+        },
+        {
+            "zh": "凰梨果",
+            "en": "Pinap Berry"
+        },
+        {
+            "zh": "榴石果",
+            "en": "Pomeg Berry"
+        },
+        {
+            "zh": "藻根果",
+            "en": "Kelpsy Berry"
+        },
+        {
+            "zh": "比巴果",
+            "en": "Qualot Berry"
+        },
+        {
+            "zh": "哈密果",
+            "en": "Hondew Berry"
+        },
+        {
+            "zh": "萄葡果",
+            "en": "Grepa Berry"
+        },
+        {
+            "zh": "茄番果",
+            "en": "Tamato Berry"
+        },
+        {
+            "zh": "玉黍果",
+            "en": "Cornn Berry"
+        },
+        {
+            "zh": "岳竹果",
+            "en": "Magost Berry"
+        },
+        {
+            "zh": "茸丹果",
+            "en": "Rabuta Berry"
+        },
+        {
+            "zh": "檬柠果",
+            "en": "Nomel Berry"
+        },
+        {
+            "zh": "刺角果",
+            "en": "Spelon Berry"
+        },
+        {
+            "zh": "椰木果",
+            "en": "Pamtre Berry"
+        },
+        {
+            "zh": "瓜西果",
+            "en": "Watmel Berry"
+        },
+        {
+            "zh": "金枕果",
+            "en": "Durin Berry"
+        },
+        {
+            "zh": "靛莓果",
+            "en": "Belue Berry"
+        },
+        {
+            "zh": "枝荔果",
+            "en": "Liechi Berry"
+        },
+        {
+            "zh": "龙睛果",
+            "en": "Ganlon Berry"
+        },
+        {
+            "zh": "沙鳞果",
+            "en": "Salac Berry"
+        },
+        {
+            "zh": "龙火果",
+            "en": "Petaya Berry"
+        },
+        {
+            "zh": "杏仔果",
+            "en": "Apicot Berry"
+        },
+        {
+            "zh": "兰萨果",
+            "en": "Lansat Berry"
+        },
+        {
+            "zh": "星桃果",
+            "en": "Starf Berry"
+        },
+        {
+            "zh": "奇秘果",
+            "en": "Micle Berry"
+        },
+        {
+            "zh": "谜芝果",
+            "en": "Enigma Berry"
+        },
+        {
+            "zh": "巧可果",
+            "en": "Occa Berry"
+        },
+        {
+            "zh": "千香果",
+            "en": "Passho Berry"
+        },
+        {
+            "zh": "烛木果",
+            "en": "Wacan Berry"
+        },
+        {
+            "zh": "罗子果",
+            "en": "Rindo Berry"
+        },
+        {
+            "zh": "番荔果",
+            "en": "Yache Berry"
+        },
+        {
+            "zh": "莲蒲果",
+            "en": "Chople Berry"
+        },
+        {
+            "zh": "通通果",
+            "en": "Kebia Berry"
+        },
+        {
+            "zh": "腰木果",
+            "en": "Shuca Berry"
+        },
+        {
+            "zh": "棱瓜果",
+            "en": "Coba Berry"
+        },
+        {
+            "zh": "福禄果",
+            "en": "Payapa Berry"
+        },
+        {
+            "zh": "扁樱果",
+            "en": "Tanga Berry"
+        },
+        {
+            "zh": "草蚕果",
+            "en": "Charti Berry"
+        },
+        {
+            "zh": "佛柑果",
+            "en": "Kasib Berry"
+        },
+        {
+            "zh": "莓榴果",
+            "en": "Haban Berry"
+        },
+        {
+            "zh": "刺耳果",
+            "en": "Colbur Berry"
+        },
+        {
+            "zh": "霹霹果",
+            "en": "Babiri Berry"
+        },
+        {
+            "zh": "灯浆果",
+            "en": "Chilan Berry"
+        },
+        {
+            "zh": "洛玫果",
+            "en": "Roseli Berry"
+        },
+        {
+            "zh": "释陀果",
+            "en": "Custap Berry"
+        },
+        {
+            "zh": "嘉珍果",
+            "en": "Jaboca Berry"
+        },
+        {
+            "zh": "雾莲果",
+            "en": "Rowap Berry"
+        },
+        {
+            "zh": "亚开果",
+            "en": "Kee Berry"
+        },
+        {
+            "zh": "香罗果",
+            "en": "Maranga Berry"
+        },
+        {
+            "zh": "光粉",
+            "en": "Bright Powder"
+        },
+        {
+            "zh": "白色香草",
+            "en": "White Herb"
+        },
+        {
+            "zh": "强制锻炼器",
+            "en": "Macho Brace"
+        },
+        {
+            "zh": "学习装置",
+            "en": "Exp. Share"
+        },
+        {
+            "zh": "先制之爪",
+            "en": "Quick Claw"
+        },
+        {
+            "zh": "安抚之铃",
+            "en": "Soothe Bell"
+        },
+        {
+            "zh": "心灵香草",
+            "en": "Mental Herb"
+        },
+        {
+            "zh": "讲究头带",
+            "en": "Choice Band"
+        },
+        {
+            "zh": "王者之证",
+            "en": "King's Rock"
+        },
+        {
+            "zh": "银粉",
+            "en": "Silver Powder"
+        },
+        {
+            "zh": "护符金币",
+            "en": "Amulet Coin"
+        },
+        {
+            "zh": "洁净之符",
+            "en": "Cleanse Tag"
+        },
+        {
+            "zh": "心之水滴",
+            "en": "Soul Dew"
+        },
+        {
+            "zh": "深海之牙",
+            "en": "DeepSeaTooth"
+        },
+        {
+            "zh": "深海鳞片",
+            "en": "DeepSeaScale"
+        },
+        {
+            "zh": "烟雾球",
+            "en": "Smoke Ball"
+        },
+        {
+            "zh": "不变之石",
+            "en": "Everstone"
+        },
+        {
+            "zh": "气势头带",
+            "en": "Focus Band"
+        },
+        {
+            "zh": "幸运蛋",
+            "en": "Lucky Egg"
+        },
+        {
+            "zh": "焦点镜",
+            "en": "Scope Lens"
+        },
+        {
+            "zh": "金属膜",
+            "en": "Metal Coat"
+        },
+        {
+            "zh": "吃剩的东西",
+            "en": "Leftovers"
+        },
+        {
+            "zh": "龙之鳞片",
+            "en": "Dragon Scale"
+        },
+        {
+            "zh": "浑圆之石",
+            "en": "Oval Stone"
+        },
+        {
+            "zh": "护具",
+            "en": "Protector"
+        },
+        {
+            "zh": "电力增幅器",
+            "en": "Electirizer"
+        },
+        {
+            "zh": "熔岩增幅器",
+            "en": "Magmarizer"
+        },
+        {
+            "zh": "可疑补丁",
+            "en": "Dubious Disc"
+        },
+        {
+            "zh": "灵界之布",
+            "en": "Reaper Cloth"
+        },
+        {
+            "zh": "锐利之爪",
+            "en": "Razor Claw"
+        },
+        {
+            "zh": "锐利之牙",
+            "en": "Razor Fang"
+        },
+        {
+            "zh": "美丽鳞片",
+            "en": "Prism Scale"
+        },
+        {
+            "zh": "泡沫奶油",
+            "en": "Whipped Dream"
+        },
+        {
+            "zh": "香袋",
+            "en": "Sachet"
+        },
+        {
+            "zh": "电气球",
+            "en": "Light Ball"
+        },
+        {
+            "zh": "柔软沙子",
+            "en": "Soft Sand"
+        },
+        {
+            "zh": "硬石头",
+            "en": "Hard Stone"
+        },
+        {
+            "zh": "奇迹种子",
+            "en": "Miracle Seed"
+        },
+        {
+            "zh": "黑色眼镜",
+            "en": "Black Glasses"
+        },
+        {
+            "zh": "黑带",
+            "en": "Black Belt"
+        },
+        {
+            "zh": "磁铁",
+            "en": "Magnet"
+        },
+        {
+            "zh": "神秘水滴",
+            "en": "Mystic Water"
+        },
+        {
+            "zh": "锐利鸟嘴",
+            "en": "Sharp Beak"
+        },
+        {
+            "zh": "毒针",
+            "en": "Poison Barb"
+        },
+        {
+            "zh": "不融冰",
+            "en": "Never-MeltIce"
+        },
+        {
+            "zh": "诅咒之符",
+            "en": "Spell Tag"
+        },
+        {
+            "zh": "弯曲的汤匙",
+            "en": "Twisted Spoon"
+        },
+        {
+            "zh": "木炭",
+            "en": "Charcoal"
+        },
+        {
+            "zh": "龙之牙",
+            "en": "Dragon Fang"
+        },
+        {
+            "zh": "丝绸围巾",
+            "en": "Silk Scarf"
+        },
+        {
+            "zh": "升级数据",
+            "en": "Upgrade"
+        },
+        {
+            "zh": "贝壳之铃",
+            "en": "Shell Bell"
+        },
+        {
+            "zh": "力量护腕",
+            "en": "Power Bracer"
+        },
+        {
+            "zh": "力量腰带",
+            "en": "Power Belt"
+        },
+        {
+            "zh": "力量镜",
+            "en": "Power Lens"
+        },
+        {
+            "zh": "力量束带",
+            "en": "Power Band"
+        },
+        {
+            "zh": "力量护踝",
+            "en": "Power Anklet"
+        },
+        {
+            "zh": "力量负重",
+            "en": "Power Weight"
+        },
+        {
+            "zh": "海潮薰香",
+            "en": "Sea Incense"
+        },
+        {
+            "zh": "悠闲薰香",
+            "en": "Lax Incense"
+        },
+        {
+            "zh": "奇异薰香",
+            "en": "Odd Incense"
+        },
+        {
+            "zh": "岩石薰香",
+            "en": "Rock Incense"
+        },
+        {
+            "zh": "饱腹薰香",
+            "en": "Full Incense"
+        },
+        {
+            "zh": "涟漪薰香",
+            "en": "Wave Incense"
+        },
+        {
+            "zh": "花朵薰香",
+            "en": "Rose Incense"
+        },
+        {
+            "zh": "幸运薰香",
+            "en": "Luck Incense"
+        },
+        {
+            "zh": "洁净薰香",
+            "en": "Pure Incense"
+        },
+        {
+            "zh": "吉利拳",
+            "en": "Lucky Punch"
+        },
+        {
+            "zh": "金属粉",
+            "en": "Metal Powder"
+        },
+        {
+            "zh": "粗骨头",
+            "en": "Thick Club"
+        },
+        {
+            "zh": "大葱",
+            "en": "Leek"
+        },
+        {
+            "zh": "红色头巾",
+            "en": "Red Scarf"
+        },
+        {
+            "zh": "蓝色头巾",
+            "en": "Blue Scarf"
+        },
+        {
+            "zh": "粉色头巾",
+            "en": "Pink Scarf"
+        },
+        {
+            "zh": "绿色头巾",
+            "en": "Green Scarf"
+        },
+        {
+            "zh": "黄色头巾",
+            "en": "Yellow Scarf"
+        },
+        {
+            "zh": "音速自行车",
+            "en": "Mach Bike"
+        },
+        {
+            "zh": "代币盒",
+            "en": "Coin Case"
+        },
+        {
+            "zh": "探宝器",
+            "en": "Dowsing MCHN"
+        },
+        {
+            "zh": "破旧钓竿",
+            "en": "Old Rod"
+        },
+        {
+            "zh": "好钓竿",
+            "en": "Good Rod"
+        },
+        {
+            "zh": "厉害钓竿",
+            "en": "Super Rod"
+        },
+        {
+            "zh": "船票",
+            "en": "S.S. Ticket"
+        },
+        {
+            "zh": "华丽大赛参加证",
+            "en": "Contest Pass"
+        },
+        {
+            "zh": "吼吼鲸喷壶",
+            "en": "Wailmer Pail"
+        },
+        {
+            "zh": "得文的物品",
+            "en": "Devon Parts"
+        },
+        {
+            "zh": "集灰袋",
+            "en": "Soot Sack"
+        },
+        {
+            "zh": "地下钥匙",
+            "en": "Basement Key"
+        },
+        {
+            "zh": "越野自行车",
+            "en": "Acro Bike"
+        },
+        {
+            "zh": "宝可方块盒",
+            "en": "{POKEBLOCK} CASE"
+        },
+        {
+            "zh": "给大吾的信",
+            "en": "Letter"
+        },
+        {
+            "zh": "无限船票",
+            "en": "Eon Ticket"
+        },
+        {
+            "zh": "朱红色宝珠",
+            "en": "Red Orb"
+        },
+        {
+            "zh": "靛蓝色宝珠",
+            "en": "Blue Orb"
+        },
+        {
+            "zh": "探测器",
+            "en": "Scanner"
+        },
+        {
+            "zh": "GoGo护目镜",
+            "en": "Go-Goggles"
+        },
+        {
+            "zh": "陨石",
+            "en": "Meteorite"
+        },
+        {
+            "zh": "1号客房的钥匙",
+            "en": "Key to Room 1"
+        },
+        {
+            "zh": "2号客房的钥匙",
+            "en": "Key to Room 2"
+        },
+        {
+            "zh": "4号客房的钥匙",
+            "en": "Key to Room 4"
+        },
+        {
+            "zh": "6号客房的钥匙",
+            "en": "Key to Room 6"
+        },
+        {
+            "zh": "仓库钥匙",
+            "en": "Storage Key"
+        },
+        {
+            "zh": "得文侦测镜",
+            "en": "Devon Scope"
+        },
+        {
+            "zh": "TM01",
+            "en": "TM01"
+        },
+        {
+            "zh": "TM02",
+            "en": "TM02"
+        },
+        {
+            "zh": "TM03",
+            "en": "TM03"
+        },
+        {
+            "zh": "TM04",
+            "en": "TM04"
+        },
+        {
+            "zh": "TM05",
+            "en": "TM05"
+        },
+        {
+            "zh": "TM06",
+            "en": "TM06"
+        },
+        {
+            "zh": "TM07",
+            "en": "TM07"
+        },
+        {
+            "zh": "TM08",
+            "en": "TM08"
+        },
+        {
+            "zh": "TM09",
+            "en": "TM09"
+        },
+        {
+            "zh": "TM10",
+            "en": "TM10"
+        },
+        {
+            "zh": "TM11",
+            "en": "TM11"
+        },
+        {
+            "zh": "TM12",
+            "en": "TM12"
+        },
+        {
+            "zh": "TM13",
+            "en": "TM13"
+        },
+        {
+            "zh": "TM14",
+            "en": "TM14"
+        },
+        {
+            "zh": "TM15",
+            "en": "TM15"
+        },
+        {
+            "zh": "TM16",
+            "en": "TM16"
+        },
+        {
+            "zh": "TM17",
+            "en": "TM17"
+        },
+        {
+            "zh": "TM18",
+            "en": "TM18"
+        },
+        {
+            "zh": "TM19",
+            "en": "TM19"
+        },
+        {
+            "zh": "TM20",
+            "en": "TM20"
+        },
+        {
+            "zh": "TM21",
+            "en": "TM21"
+        },
+        {
+            "zh": "TM22",
+            "en": "TM22"
+        },
+        {
+            "zh": "TM23",
+            "en": "TM23"
+        },
+        {
+            "zh": "TM24",
+            "en": "TM24"
+        },
+        {
+            "zh": "TM25",
+            "en": "TM25"
+        },
+        {
+            "zh": "TM26",
+            "en": "TM26"
+        },
+        {
+            "zh": "TM27",
+            "en": "TM27"
+        },
+        {
+            "zh": "TM28",
+            "en": "TM28"
+        },
+        {
+            "zh": "TM29",
+            "en": "TM29"
+        },
+        {
+            "zh": "TM30",
+            "en": "TM30"
+        },
+        {
+            "zh": "TM31",
+            "en": "TM31"
+        },
+        {
+            "zh": "TM32",
+            "en": "TM32"
+        },
+        {
+            "zh": "TM33",
+            "en": "TM33"
+        },
+        {
+            "zh": "TM34",
+            "en": "TM34"
+        },
+        {
+            "zh": "TM35",
+            "en": "TM35"
+        },
+        {
+            "zh": "TM36",
+            "en": "TM36"
+        },
+        {
+            "zh": "TM37",
+            "en": "TM37"
+        },
+        {
+            "zh": "TM38",
+            "en": "TM38"
+        },
+        {
+            "zh": "TM39",
+            "en": "TM39"
+        },
+        {
+            "zh": "TM40",
+            "en": "TM40"
+        },
+        {
+            "zh": "TM41",
+            "en": "TM41"
+        },
+        {
+            "zh": "TM42",
+            "en": "TM42"
+        },
+        {
+            "zh": "TM43",
+            "en": "TM43"
+        },
+        {
+            "zh": "TM44",
+            "en": "TM44"
+        },
+        {
+            "zh": "TM45",
+            "en": "TM45"
+        },
+        {
+            "zh": "TM46",
+            "en": "TM46"
+        },
+        {
+            "zh": "TM47",
+            "en": "TM47"
+        },
+        {
+            "zh": "TM48",
+            "en": "TM48"
+        },
+        {
+            "zh": "TM49",
+            "en": "TM49"
+        },
+        {
+            "zh": "TM50",
+            "en": "TM50"
+        },
+        {
+            "zh": "HM01",
+            "en": "HM01"
+        },
+        {
+            "zh": "HM02",
+            "en": "HM02"
+        },
+        {
+            "zh": "HM03",
+            "en": "HM03"
+        },
+        {
+            "zh": "HM04",
+            "en": "HM04"
+        },
+        {
+            "zh": "HM05",
+            "en": "HM05"
+        },
+        {
+            "zh": "HM06",
+            "en": "HM06"
+        },
+        {
+            "zh": "HM07",
+            "en": "HM07"
+        },
+        {
+            "zh": "HM08",
+            "en": "HM08"
+        },
+        {
+            "zh": "包裹",
+            "en": "Parcel"
+        },
+        {
+            "zh": "宝可梦之笛",
+            "en": "Poké Flute"
+        },
+        {
+            "zh": "秘密钥匙",
+            "en": "Secret Key"
+        },
+        {
+            "zh": "兑换券",
+            "en": "Bike Voucher"
+        },
+        {
+            "zh": "金假牙",
+            "en": "Gold Teeth"
+        },
+        {
+            "zh": "秘密琥珀",
+            "en": "Old Amber"
+        },
+        {
+            "zh": "钥匙卡",
+            "en": "Card Key"
+        },
+        {
+            "zh": "电梯钥匙",
+            "en": "Lift Key"
+        },
+        {
+            "zh": "盾甲化石",
+            "en": "Armor Fossil"
+        },
+        {
+            "zh": "头盖化石",
+            "en": "Skull Fossil"
+        },
+        {
+            "zh": "贝壳化石",
+            "en": "Helix Fossil"
+        },
+        {
+            "zh": "甲壳化石",
+            "en": "Dome Fossil"
+        },
+        {
+            "zh": "根状化石",
+            "en": "Root Fossil"
+        },
+        {
+            "zh": "爪子化石",
+            "en": "Claw Fossil"
+        },
+        {
+            "zh": "背盖化石",
+            "en": "Cover Fossil"
+        },
+        {
+            "zh": "羽毛化石",
+            "en": "Plume Fossil"
+        },
+        {
+            "zh": "颚之化石",
+            "en": "Jaw Fossil"
+        },
+        {
+            "zh": "鳍之化石",
+            "en": "Sail Fossil"
+        },
+        {
+            "zh": "西尔佛检视镜",
+            "en": "Silph Scope"
+        },
+        {
+            "zh": "自行车",
+            "en": "Bicycle"
+        },
+        {
+            "zh": "城镇地图",
+            "en": "Town Map"
+        },
+        {
+            "zh": "对战搜寻器",
+            "en": "Vs. Seeker"
+        },
+        {
+            "zh": "声音记录器",
+            "en": "Fame Checker"
+        },
+        {
+            "zh": "招式学习器盒",
+            "en": "TM Case"
+        },
+        {
+            "zh": "树果袋",
+            "en": "Berry Pouch"
+        },
+        {
+            "zh": "教学电视",
+            "en": "Teachy TV"
+        },
+        {
+            "zh": "三岛通行证",
+            "en": "Tri-Pass"
+        },
+        {
+            "zh": "七岛通行证",
+            "en": "Rainbow Pass"
+        },
+        {
+            "zh": "茶",
+            "en": "Tea"
+        },
+        {
+            "zh": "神秘船票",
+            "en": "Mystic Ticket"
+        },
+        {
+            "zh": "极光船票",
+            "en": "Aurora Ticket"
+        },
+        {
+            "zh": "粉末收集瓶",
+            "en": "Powder Jar"
+        },
+        {
+            "zh": "红宝石",
+            "en": "Ruby"
+        },
+        {
+            "zh": "蓝宝石",
+            "en": "Sapphire"
+        },
+        {
+            "zh": "熔岩标志",
+            "en": "Magma Emblem"
+        },
+        {
+            "zh": "古航海图",
+            "en": "Old Sea Map"
+        },
+        {
+            "zh": "广角镜",
+            "en": "Wide Lens"
+        },
+        {
+            "zh": "力量头带",
+            "en": "Muscle Band"
+        },
+        {
+            "zh": "博识眼镜",
+            "en": "Wise Glasses"
+        },
+        {
+            "zh": "达人带",
+            "en": "Expert Belt"
+        },
+        {
+            "zh": "光之黏土",
+            "en": "Light Clay"
+        },
+        {
+            "zh": "生命宝珠",
+            "en": "Life Orb"
+        },
+        {
+            "zh": "强力香草",
+            "en": "Power Herb"
+        },
+        {
+            "zh": "剧毒宝珠",
+            "en": "Toxic Orb"
+        },
+        {
+            "zh": "火焰宝珠",
+            "en": "Flame Orb"
+        },
+        {
+            "zh": "速度粉",
+            "en": "Quick Powder"
+        },
+        {
+            "zh": "气势披带",
+            "en": "Focus Sash"
+        },
+        {
+            "zh": "对焦镜",
+            "en": "Zoom Lens"
+        },
+        {
+            "zh": "节拍器",
+            "en": "Metronome"
+        },
+        {
+            "zh": "黑色铁球",
+            "en": "Iron Ball"
+        },
+        {
+            "zh": "后攻之尾",
+            "en": "Lagging Tail"
+        },
+        {
+            "zh": "红线",
+            "en": "Destiny Knot"
+        },
+        {
+            "zh": "黑色污泥",
+            "en": "Black Sludge"
+        },
+        {
+            "zh": "冰冷岩石",
+            "en": "Icy Rock"
+        },
+        {
+            "zh": "沙沙岩石",
+            "en": "Smooth Rock"
+        },
+        {
+            "zh": "炽热岩石",
+            "en": "Heat Rock"
+        },
+        {
+            "zh": "潮湿岩石",
+            "en": "Damp Rock"
+        },
+        {
+            "zh": "紧缠钩爪",
+            "en": "Grip Claw"
+        },
+        {
+            "zh": "讲究围巾",
+            "en": "Choice Scarf"
+        },
+        {
+            "zh": "附着针",
+            "en": "Sticky Barb"
+        },
+        {
+            "zh": "美丽空壳",
+            "en": "Shed Shell"
+        },
+        {
+            "zh": "大根茎",
+            "en": "Big Root"
+        },
+        {
+            "zh": "讲究眼镜",
+            "en": "Choice Specs"
+        },
+        {
+            "zh": "楔石",
+            "en": "Odd Keystone"
+        },
+        {
+            "zh": "金刚宝珠",
+            "en": "Adamant Orb"
+        },
+        {
+            "zh": "白玉宝珠",
+            "en": "Lustrous Orb"
+        },
+        {
+            "zh": "白金宝珠",
+            "en": "Griseous Orb"
+        },
+        {
+            "zh": "葛拉西蒂亚花",
+            "en": "Gracidea"
+        },
+        {
+            "zh": "虫子存储碟",
+            "en": "Bug Memory"
+        },
+        {
+            "zh": "黑暗存储碟",
+            "en": "Dark Memory"
+        },
+        {
+            "zh": "龙存储碟",
+            "en": "Dragon Memory"
+        },
+        {
+            "zh": "电子存储碟",
+            "en": "ElectrcMemory"
+        },
+        {
+            "zh": "妖精存储碟",
+            "en": "Fairy Memory"
+        },
+        {
+            "zh": "战斗存储碟",
+            "en": "FightngMemory"
+        },
+        {
+            "zh": "火焰存储碟",
+            "en": "Fire Memory"
+        },
+        {
+            "zh": "飞翔存储碟",
+            "en": "Flying Memory"
+        },
+        {
+            "zh": "幽灵存储碟",
+            "en": "Ghost Memory"
+        },
+        {
+            "zh": "青草存储碟",
+            "en": "Grass Memory"
+        },
+        {
+            "zh": "大地存储碟",
+            "en": "Ground Memory"
+        },
+        {
+            "zh": "冰雪存储碟",
+            "en": "Ice Memory"
+        },
+        {
+            "zh": "毒存储碟",
+            "en": "Poison Memory"
+        },
+        {
+            "zh": "精神存储碟",
+            "en": "PsychicMemory"
+        },
+        {
+            "zh": "岩石存储碟",
+            "en": "Rock Memory"
+        },
+        {
+            "zh": "钢铁存储碟",
+            "en": "Steel Memory"
+        },
+        {
+            "zh": "清水存储碟",
+            "en": "Water Memory"
+        },
+        {
+            "zh": "火球石板",
+            "en": "Flame Plate"
+        },
+        {
+            "zh": "水滴石板",
+            "en": "Splash Plate"
+        },
+        {
+            "zh": "雷电石板",
+            "en": "Zap Plate"
+        },
+        {
+            "zh": "碧绿石板",
+            "en": "Meadow Plate"
+        },
+        {
+            "zh": "冰柱石板",
+            "en": "Icicle Plate"
+        },
+        {
+            "zh": "拳头石板",
+            "en": "Fist Plate"
+        },
+        {
+            "zh": "剧毒石板",
+            "en": "Toxic Plate"
+        },
+        {
+            "zh": "大地石板",
+            "en": "Earth Plate"
+        },
+        {
+            "zh": "蓝天石板",
+            "en": "Sky Plate"
+        },
+        {
+            "zh": "神奇石板",
+            "en": "Mind Plate"
+        },
+        {
+            "zh": "玉虫石板",
+            "en": "Insect Plate"
+        },
+        {
+            "zh": "岩石石板",
+            "en": "Stone Plate"
+        },
+        {
+            "zh": "妖怪石板",
+            "en": "Spooky Plate"
+        },
+        {
+            "zh": "龙之石板",
+            "en": "Draco Plate"
+        },
+        {
+            "zh": "恶颜石板",
+            "en": "Dread Plate"
+        },
+        {
+            "zh": "钢铁石板",
+            "en": "Iron Plate"
+        },
+        {
+            "zh": "进化奇石",
+            "en": "Eviolite"
+        },
+        {
+            "zh": "轻石",
+            "en": "Float Stone"
+        },
+        {
+            "zh": "凸凸头盔",
+            "en": "Rocky Helmet"
+        },
+        {
+            "zh": "气球",
+            "en": "Air Balloon"
+        },
+        {
+            "zh": "红牌",
+            "en": "Red Card"
+        },
+        {
+            "zh": "标靶",
+            "en": "Ring Target"
+        },
+        {
+            "zh": "紧绑束带",
+            "en": "Binding Band"
+        },
+        {
+            "zh": "逃脱按键",
+            "en": "Eject Button"
+        },
+        {
+            "zh": "球根",
+            "en": "Absorb Bulb"
+        },
+        {
+            "zh": "充电电池",
+            "en": "Cell Battery"
+        },
+        {
+            "zh": "光苔",
+            "en": "Luminous Moss"
+        },
+        {
+            "zh": "雪球",
+            "en": "Snowball"
+        },
+        {
+            "zh": "弱点保险",
+            "en": "WeaknssPolicy"
+        },
+        {
+            "zh": "水流卡带",
+            "en": "Douse Drive"
+        },
+        {
+            "zh": "闪电卡带",
+            "en": "Shock Drive"
+        },
+        {
+            "zh": "火焰卡带",
+            "en": "Burn Drive"
+        },
+        {
+            "zh": "冰冻卡带",
+            "en": "Chill Drive"
+        },
+        {
+            "zh": "火之宝石",
+            "en": "Fire Gem"
+        },
+        {
+            "zh": "水之宝石",
+            "en": "Water Gem"
+        },
+        {
+            "zh": "电之宝石",
+            "en": "Electric Gem"
+        },
+        {
+            "zh": "草之宝石",
+            "en": "Grass Gem"
+        },
+        {
+            "zh": "冰之宝石",
+            "en": "Ice Gem"
+        },
+        {
+            "zh": "格斗宝石",
+            "en": "Fighting Gem"
+        },
+        {
+            "zh": "毒之宝石",
+            "en": "Poison Gem"
+        },
+        {
+            "zh": "地面宝石",
+            "en": "Ground Gem"
+        },
+        {
+            "zh": "飞行宝石",
+            "en": "Flying Gem"
+        },
+        {
+            "zh": "超能力宝石",
+            "en": "Psychic Gem"
+        },
+        {
+            "zh": "虫之宝石",
+            "en": "Bug Gem"
+        },
+        {
+            "zh": "岩石宝石",
+            "en": "Rock Gem"
+        },
+        {
+            "zh": "幽灵宝石",
+            "en": "Ghost Gem"
+        },
+        {
+            "zh": "龙之宝石",
+            "en": "Dragon Gem"
+        },
+        {
+            "zh": "恶之宝石",
+            "en": "Dark Gem"
+        },
+        {
+            "zh": "钢之宝石",
+            "en": "Steel Gem"
+        },
+        {
+            "zh": "一般宝石",
+            "en": "Normal Gem"
+        },
+        {
+            "zh": "妖精宝石",
+            "en": "Fairy Gem"
+        },
+        {
+            "zh": "突击背心",
+            "en": "Assault Vest"
+        },
+        {
+            "zh": "妖精石板",
+            "en": "Pixie Plate"
+        },
+        {
+            "zh": "防尘护目镜",
+            "en": "SafetyGoggles"
+        },
+        {
+            "zh": "耿鬼进化石",
+            "en": "Gengarite"
+        },
+        {
+            "zh": "沙奈朵进化石",
+            "en": "Gardevoirite"
+        },
+        {
+            "zh": "电龙进化石",
+            "en": "Ampharosite"
+        },
+        {
+            "zh": "妙蛙花进化石",
+            "en": "Venusaurite"
+        },
+        {
+            "zh": "喷火龙进化石X",
+            "en": "CharizarditeX"
+        },
+        {
+            "zh": "水箭龟进化石",
+            "en": "Blastoisinite"
+        },
+        {
+            "zh": "超梦进化石X",
+            "en": "Mewtwonite X"
+        },
+        {
+            "zh": "超梦进化石Y",
+            "en": "Mewtwonite Y"
+        },
+        {
+            "zh": "火焰鸡进化石",
+            "en": "Blazikenite"
+        },
+        {
+            "zh": "恰雷姆进化石",
+            "en": "Medichamite"
+        },
+        {
+            "zh": "黑鲁加进化石",
+            "en": "Houndoominite"
+        },
+        {
+            "zh": "波士可多拉进化石",
+            "en": "Aggronite"
+        },
+        {
+            "zh": "诅咒娃娃进化石",
+            "en": "Banettite"
+        },
+        {
+            "zh": "班基拉斯进化石",
+            "en": "Tyranitarite"
+        },
+        {
+            "zh": "巨钳螳螂进化石",
+            "en": "Scizorite"
+        },
+        {
+            "zh": "凯罗斯进化石",
+            "en": "Pinsirite"
+        },
+        {
+            "zh": "化石翼龙进化石",
+            "en": "Aerodactylite"
+        },
+        {
+            "zh": "路卡利欧进化石",
+            "en": "Lucarionite"
+        },
+        {
+            "zh": "暴雪王进化石",
+            "en": "Abomasite"
+        },
+        {
+            "zh": "袋兽进化石",
+            "en": "Kangaskhanite"
+        },
+        {
+            "zh": "暴鲤龙进化石",
+            "en": "Gyaradosite"
+        },
+        {
+            "zh": "阿勃梭鲁进化石",
+            "en": "Absolite"
+        },
+        {
+            "zh": "喷火龙进化石Y",
+            "en": "CharizarditeY"
+        },
+        {
+            "zh": "胡地进化石",
+            "en": "Alakazite"
+        },
+        {
+            "zh": "赫拉克罗斯进化石",
+            "en": "Heracronite"
+        },
+        {
+            "zh": "大嘴娃进化石",
+            "en": "Mawilite"
+        },
+        {
+            "zh": "雷电兽进化石",
+            "en": "Manectite"
+        },
+        {
+            "zh": "烈咬陆鲨进化石",
+            "en": "Garchompite"
+        },
+        {
+            "zh": "拉帝亚斯进化石",
+            "en": "Latiasite"
+        },
+        {
+            "zh": "拉帝欧斯进化石",
+            "en": "Latiosite"
+        },
+        {
+            "zh": "巨沼怪进化石",
+            "en": "Swampertite"
+        },
+        {
+            "zh": "蜥蜴王进化石",
+            "en": "Sceptilite"
+        },
+        {
+            "zh": "勾魂眼进化石",
+            "en": "Sablenite"
+        },
+        {
+            "zh": "七夕青鸟进化石",
+            "en": "Altarianite"
+        },
+        {
+            "zh": "艾路雷朵进化石",
+            "en": "Galladite"
+        },
+        {
+            "zh": "差不多娃娃进化石",
+            "en": "Audinite"
+        },
+        {
+            "zh": "巨金怪进化石",
+            "en": "Metagrossite"
+        },
+        {
+            "zh": "巨牙鲨进化石",
+            "en": "Sharpedonite"
+        },
+        {
+            "zh": "呆壳兽进化石",
+            "en": "Slowbronite"
+        },
+        {
+            "zh": "大钢蛇进化石",
+            "en": "Steelixite"
+        },
+        {
+            "zh": "大比鸟进化石",
+            "en": "Pidgeotite"
+        },
+        {
+            "zh": "冰鬼护进化石",
+            "en": "Glalitite"
+        },
+        {
+            "zh": "蒂安希进化石",
+            "en": "Diancite"
+        },
+        {
+            "zh": "喷火驼进化石",
+            "en": "Cameruptite"
+        },
+        {
+            "zh": "长耳兔进化石",
+            "en": "Lopunnite"
+        },
+        {
+            "zh": "暴飞龙进化石",
+            "en": "Salamencite"
+        },
+        {
+            "zh": "大针蜂进化石",
+            "en": "Beedrillite"
+        },
+        {
+            "zh": "超级手镯",
+            "en": "Mega Bracelet"
+        },
+        {
+            "zh": "部位护具",
+            "en": "ProtectvePads"
+        },
+        {
+            "zh": "大地膜",
+            "en": "TerainExtendr"
+        },
+        {
+            "zh": "电气种子",
+            "en": "Electric Seed"
+        },
+        {
+            "zh": "青草种子",
+            "en": "Grassy Seed"
+        },
+        {
+            "zh": "薄雾种子",
+            "en": "Misty Seed"
+        },
+        {
+            "zh": "精神种子",
+            "en": "Psychic Seed"
+        },
+        {
+            "zh": "胆怯球",
+            "en": "AdrenalineOrb"
+        },
+        {
+            "zh": "甜甜蜜",
+            "en": "Honey"
+        },
+        {
+            "zh": "体力之羽",
+            "en": "HealthFeather"
+        },
+        {
+            "zh": "肌力之羽",
+            "en": "MuscleFeather"
+        },
+        {
+            "zh": "抵抗之羽",
+            "en": "ResistFeather"
+        },
+        {
+            "zh": "智力之羽",
+            "en": "GeniusFeather"
+        },
+        {
+            "zh": "精神之羽",
+            "en": "CleverFeather"
+        },
+        {
+            "zh": "瞬发之羽",
+            "en": "SwiftFeather"
+        },
+        {
+            "zh": "美丽之羽",
+            "en": "PrettyFeather"
+        },
+        {
+            "zh": "闪耀护符",
+            "en": "Shiny Charm"
+        },
+        {
+            "zh": "圆形护符",
+            "en": "Oval Charm"
+        },
+        {
+            "zh": "Z手环",
+            "en": "Z-Ring"
+        },
+        {
+            "zh": "一般Z",
+            "en": "Normalium Z"
+        },
+        {
+            "zh": "格斗Z",
+            "en": "Fightinium Z"
+        },
+        {
+            "zh": "飞行Z",
+            "en": "Flyinium Z"
+        },
+        {
+            "zh": "毒Z",
+            "en": "Poisinium Z"
+        },
+        {
+            "zh": "地面Z",
+            "en": "Groundium Z"
+        },
+        {
+            "zh": "岩石Z",
+            "en": "Rockium Z"
+        },
+        {
+            "zh": "虫Z",
+            "en": "Buginium Z"
+        },
+        {
+            "zh": "幽灵Z",
+            "en": "Ghostium Z"
+        },
+        {
+            "zh": "钢Z",
+            "en": "Steelium Z"
+        },
+        {
+            "zh": "火Z",
+            "en": "Firium Z"
+        },
+        {
+            "zh": "水Z",
+            "en": "Waterium Z"
+        },
+        {
+            "zh": "草Z",
+            "en": "Grassium Z"
+        },
+        {
+            "zh": "电Z",
+            "en": "Electrium Z"
+        },
+        {
+            "zh": "超能力Z",
+            "en": "Psychium Z"
+        },
+        {
+            "zh": "冰Z",
+            "en": "Icium Z"
+        },
+        {
+            "zh": "龙Z",
+            "en": "Dragonium Z"
+        },
+        {
+            "zh": "恶Z",
+            "en": "Darkinium Z"
+        },
+        {
+            "zh": "妖精Z",
+            "en": "Fairium Z"
+        },
+        {
+            "zh": "阿罗雷Z",
+            "en": "Aloraichium Z"
+        },
+        {
+            "zh": "狙射树枭Z",
+            "en": "Decidium Z"
+        },
+        {
+            "zh": "伊布Z",
+            "en": "Eevium Z"
+        },
+        {
+            "zh": "炽焰咆哮虎Z",
+            "en": "Incinium Z"
+        },
+        {
+            "zh": "杖尾鳞甲龙Z",
+            "en": "Kommonium Z"
+        },
+        {
+            "zh": "露奈雅拉Z",
+            "en": "Lunalium Z"
+        },
+        {
+            "zh": "鬃岩狼人Z",
+            "en": "Lycanium Z"
+        },
+        {
+            "zh": "玛夏多Z",
+            "en": "Marshadium Z"
+        },
+        {
+            "zh": "梦幻Z",
+            "en": "Mewnium Z"
+        },
+        {
+            "zh": "谜拟ＱZ",
+            "en": "Mimikium Z"
+        },
+        {
+            "zh": "皮卡丘Z",
+            "en": "Pikanium Z"
+        },
+        {
+            "zh": "智皮卡Z",
+            "en": "Pikashunium Z"
+        },
+        {
+            "zh": "西狮海壬Z",
+            "en": "Primarium Z"
+        },
+        {
+            "zh": "卡比兽Z",
+            "en": "Snorlium Z"
+        },
+        {
+            "zh": "索尔迦雷欧Z",
+            "en": "Solganium Z"
+        },
+        {
+            "zh": "卡璞Z",
+            "en": "Tapunium Z"
+        },
+        {
+            "zh": "究极奈克洛Z",
+            "en": "U-Necrozium Z"
+        }
+    ]
+}

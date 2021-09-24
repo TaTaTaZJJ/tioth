@@ -37,7 +37,7 @@
 #define SECRET_BASES_COUNT 20
 #define TV_SHOWS_COUNT 25
 #define POKE_NEWS_COUNT 16
-#define PC_ITEMS_COUNT 50
+#define PC_ITEMS_COUNT 100
 #define BAG_ITEMS_COUNT 30
 #define BAG_KEYITEMS_COUNT 30
 #define BAG_POKEBALLS_COUNT 16
@@ -79,7 +79,7 @@
 #define UNION_ROOM_PARTY_SIZE       2
 
 // string lengths
-#define ITEM_NAME_LENGTH 14
+#define ITEM_NAME_LENGTH 17
 #define POKEMON_NAME_LENGTH 10
 #define PLAYER_NAME_LENGTH 7
 #define MAIL_WORDS_COUNT 9
@@ -118,5 +118,21 @@
 #define DIR_SOUTHEAST   6
 #define DIR_NORTHWEST   7
 #define DIR_NORTHEAST   8
+
+#define SIDEWAYS_STAIRS_IMPLEMENTED     TRUE
+#define POST_BATTLE_FOLLOWER_FIX        FALSE   //if you experience the follower de-syncing with the player after battle, set to TRUE
+#define SLOW_MOVEMENT_ON_STAIRS         TRUE
+#define FOLLOW_ME_IMPLEMENTED           TRUE    //for stairs movement. see ObjectMovingOnRockStairs in src/field_player_avatar.c
+
+/*=================================== 苍穹设定 ===================================*/
+// 时间相关
+#define USE_PLAYTIME_AS_LOCAL           TRUE    // 使用游戏时间计算本地时间
+#define TIME_MODIFIER                   60      // 本地时间倍数
+#define DAYS_PER_CYCLE                  336     // 本地周期天数
+#define DAYS_PER_MONTH                  28      // 本地月份天数
+#define LIMITED_TIME_EVENT_COUNT        5       // 最大限时事件数量
+#define USE_LEVEL_BALANCING_MODIFIER    TRUE    // 使用50级前的面板用50级的计算
+#define SHOW_IMPORTANT_ITEM_COUNT       TRUE    // 显示重要道具的数量
+#define USE_BAG_ITEM_LIMIT              TRUE    // 使用背包道具可持有上限
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

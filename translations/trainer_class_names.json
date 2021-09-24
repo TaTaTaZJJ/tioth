@@ -1,0 +1,335 @@
+{
+    "path": "src/data/text/trainer_class_names.h",
+    "texts": [
+        {
+            "label": "TRAINER_CLASS_PKMN_TRAINER_1",
+            "zh": "宝可梦训练家",
+            "en": "{PKMN} TRAINER"
+        },
+        {
+            "label": "TRAINER_CLASS_PKMN_TRAINER_2",
+            "zh": "宝可梦训练家",
+            "en": "{PKMN} TRAINER"
+        },
+        {
+            "label": "TRAINER_CLASS_HIKER",
+            "zh": "登山男",
+            "en": "HIKER"
+        },
+        {
+            "label": "TRAINER_CLASS_TEAM_AQUA",
+            "zh": "海洋队",
+            "en": "TEAM AQUA"
+        },
+        {
+            "label": "TRAINER_CLASS_PKMN_BREEDER",
+            "zh": "宝可梦培育家",
+            "en": "{PKMN} BREEDER"
+        },
+        {
+            "label": "TRAINER_CLASS_COOLTRAINER",
+            "zh": "精英训练家",
+            "en": "COOLTRAINER"
+        },
+        {
+            "label": "TRAINER_CLASS_BIRD_KEEPER",
+            "zh": "养鸟人",
+            "en": "BIRD KEEPER"
+        },
+        {
+            "label": "TRAINER_CLASS_COLLECTOR",
+            "zh": "宝可梦收藏家",
+            "en": "COLLECTOR"
+        },
+        {
+            "label": "TRAINER_CLASS_SWIMMER_M",
+            "zh": "泳裤小伙子",
+            "en": "SWIMMER♂"
+        },
+        {
+            "label": "TRAINER_CLASS_TEAM_MAGMA",
+            "zh": "熔岩队",
+            "en": "TEAM MAGMA"
+        },
+        {
+            "label": "TRAINER_CLASS_EXPERT",
+            "zh": "达人",
+            "en": "EXPERT"
+        },
+        {
+            "label": "TRAINER_CLASS_AQUA_ADMIN",
+            "zh": "海洋队干部",
+            "en": "AQUA ADMIN"
+        },
+        {
+            "label": "TRAINER_CLASS_BLACK_BELT",
+            "zh": "空手道王",
+            "en": "BLACK BELT"
+        },
+        {
+            "label": "TRAINER_CLASS_AQUA_LEADER",
+            "zh": "水梧桐",
+            "en": "AQUA LEADER"
+        },
+        {
+            "label": "TRAINER_CLASS_HEX_MANIAC",
+            "zh": "灵异迷",
+            "en": "HEX MANIAC"
+        },
+        {
+            "label": "TRAINER_CLASS_AROMA_LADY",
+            "zh": "香氛姐姐",
+            "en": "AROMA LADY"
+        },
+        {
+            "label": "TRAINER_CLASS_RUIN_MANIAC",
+            "zh": "遗迹迷",
+            "en": "RUIN MANIAC"
+        },
+        {
+            "label": "TRAINER_CLASS_INTERVIEWER",
+            "zh": "采访者",
+            "en": "INTERVIEWER"
+        },
+        {
+            "label": "TRAINER_CLASS_TUBER_F",
+            "zh": "泳圈男孩",
+            "en": "TUBER"
+        },
+        {
+            "label": "TRAINER_CLASS_TUBER_M",
+            "zh": "泳圈女孩",
+            "en": "TUBER"
+        },
+        {
+            "label": "TRAINER_CLASS_LADY",
+            "zh": "千金小姐",
+            "en": "LADY"
+        },
+        {
+            "label": "TRAINER_CLASS_BEAUTY",
+            "zh": "大姐姐",
+            "en": "BEAUTY"
+        },
+        {
+            "label": "TRAINER_CLASS_RICH_BOY",
+            "zh": "富家少爷",
+            "en": "RICH BOY"
+        },
+        {
+            "label": "TRAINER_CLASS_POKEMANIAC",
+            "zh": "怪兽狂",
+            "en": "POKéMANIAC"
+        },
+        {
+            "label": "TRAINER_CLASS_GUITARIST",
+            "zh": "吉他手",
+            "en": "GUITARIST"
+        },
+        {
+            "label": "TRAINER_CLASS_KINDLER",
+            "zh": "营火专家",
+            "en": "KINDLER"
+        },
+        {
+            "label": "TRAINER_CLASS_CAMPER",
+            "zh": "露营少年",
+            "en": "CAMPER"
+        },
+        {
+            "label": "TRAINER_CLASS_PICNICKER",
+            "zh": "野餐女孩",
+            "en": "PICNICKER"
+        },
+        {
+            "label": "TRAINER_CLASS_BUG_MANIAC",
+            "zh": "昆虫狂",
+            "en": "BUG MANIAC"
+        },
+        {
+            "label": "TRAINER_CLASS_PSYCHIC",
+            "zh": "超能力者",
+            "en": "PSYCHIC"
+        },
+        {
+            "label": "TRAINER_CLASS_GENTLEMAN",
+            "zh": "绅士",
+            "en": "GENTLEMAN"
+        },
+        {
+            "label": "TRAINER_CLASS_ELITE_FOUR",
+            "zh": "四天王",
+            "en": "ELITE FOUR"
+        },
+        {
+            "label": "TRAINER_CLASS_LEADER",
+            "zh": "道馆馆主",
+            "en": "LEADER"
+        },
+        {
+            "label": "TRAINER_CLASS_SCHOOL_KID",
+            "zh": "小学生",
+            "en": "SCHOOL KID"
+        },
+        {
+            "label": "TRAINER_CLASS_SR_AND_JR",
+            "zh": "学姐与学妹",
+            "en": "SR. AND JR."
+        },
+        {
+            "label": "TRAINER_CLASS_WINSTRATE",
+            "zh": "连胜家族",
+            "en": "WINSTRATE"
+        },
+        {
+            "label": "TRAINER_CLASS_POKEFAN",
+            "zh": "同好夫妇",
+            "en": "POKéFAN"
+        },
+        {
+            "label": "TRAINER_CLASS_YOUNGSTER",
+            "zh": "短裤小子",
+            "en": "YOUNGSTER"
+        },
+        {
+            "label": "TRAINER_CLASS_CHAMPION",
+            "zh": "冠军",
+            "en": "CHAMPION"
+        },
+        {
+            "label": "TRAINER_CLASS_FISHERMAN",
+            "zh": "垂钓者",
+            "en": "FISHERMAN"
+        },
+        {
+            "label": "TRAINER_CLASS_TRIATHLETE",
+            "zh": "铁人三项运动员",
+            "en": "TRIATHLETE"
+        },
+        {
+            "label": "TRAINER_CLASS_DRAGON_TAMER",
+            "zh": "驯龙师",
+            "en": "DRAGON TAMER"
+        },
+        {
+            "label": "TRAINER_CLASS_NINJA_BOY",
+            "zh": "忍者小子",
+            "en": "NINJA BOY"
+        },
+        {
+            "label": "TRAINER_CLASS_BATTLE_GIRL",
+            "zh": "对战女孩",
+            "en": "BATTLE GIRL"
+        },
+        {
+            "label": "TRAINER_CLASS_PARASOL_LADY",
+            "zh": "阳伞姐姐",
+            "en": "PARASOL LADY"
+        },
+        {
+            "label": "TRAINER_CLASS_SWIMMER_F",
+            "zh": "比基尼姐姐",
+            "en": "SWIMMER♀"
+        },
+        {
+            "label": "TRAINER_CLASS_TWINS",
+            "zh": "双胞胎",
+            "en": "TWINS"
+        },
+        {
+            "label": "TRAINER_CLASS_SAILOR",
+            "zh": "水手",
+            "en": "SAILOR"
+        },
+        {
+            "label": "TRAINER_CLASS_COOLTRAINER_2",
+            "zh": "精英训练家",
+            "en": "COOLTRAINER"
+        },
+        {
+            "label": "TRAINER_CLASS_MAGMA_ADMIN",
+            "zh": "熔岩队干部",
+            "en": "MAGMA ADMIN"
+        },
+        {
+            "label": "TRAINER_CLASS_PKMN_TRAINER_3",
+            "zh": "宝可梦训练家",
+            "en": "{PKMN} TRAINER"
+        },
+        {
+            "label": "TRAINER_CLASS_BUG_CATCHER",
+            "zh": "捕虫少年",
+            "en": "BUG CATCHER"
+        },
+        {
+            "label": "TRAINER_CLASS_PKMN_RANGER",
+            "zh": "宝可梦巡护员",
+            "en": "{PKMN} RANGER"
+        },
+        {
+            "label": "TRAINER_CLASS_MAGMA_LEADER",
+            "zh": "赤焰松",
+            "en": "MAGMA LEADER"
+        },
+        {
+            "label": "TRAINER_CLASS_LASS",
+            "zh": "迷你裙",
+            "en": "LASS"
+        },
+        {
+            "label": "TRAINER_CLASS_YOUNG_COUPLE",
+            "zh": "热恋情侣",
+            "en": "YOUNG COUPLE"
+        },
+        {
+            "label": "TRAINER_CLASS_OLD_COUPLE",
+            "zh": "金婚夫妻",
+            "en": "OLD COUPLE"
+        },
+        {
+            "label": "TRAINER_CLASS_SIS_AND_BRO",
+            "zh": "海上姐弟",
+            "en": "SIS AND BRO"
+        },
+        {
+            "label": "TRAINER_CLASS_SALON_MAIDEN",
+            "zh": "对战塔大君",
+            "en": "SALON MAIDEN"
+        },
+        {
+            "label": "TRAINER_CLASS_DOME_ACE",
+            "zh": "希尔斯",
+            "en": "DOME ACE"
+        },
+        {
+            "label": "TRAINER_CLASS_PALACE_MAVEN",
+            "zh": "宇康",
+            "en": "PALACE MAVEN"
+        },
+        {
+            "label": "TRAINER_CLASS_ARENA_TYCOON",
+            "zh": "黄瓜香",
+            "en": "ARENA TYCOON"
+        },
+        {
+            "label": "TRAINER_CLASS_FACTORY_HEAD",
+            "zh": "工厂头目",
+            "en": "FACTORY HEAD"
+        },
+        {
+            "label": "TRAINER_CLASS_PIKE_QUEEN",
+            "zh": "小蓟",
+            "en": "PIKE QUEEN"
+        },
+        {
+            "label": "TRAINER_CLASS_PYRAMID_KING",
+            "zh": "神代",
+            "en": "PYRAMID KING"
+        },
+        {
+            "label": "TRAINER_CLASS_RS_PROTAG",
+            "zh": "宝可梦训练家",
+            "en": "{PKMN} TRAINER"
+        }
+    ]
+}

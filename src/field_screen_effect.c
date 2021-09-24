@@ -17,6 +17,7 @@
 #include "link_rfu.h"
 #include "load_save.h"
 #include "main.h"
+#include "map_preview.h"
 #include "menu.h"
 #include "mirage_tower.h"
 #include "metatile_behavior.h"
@@ -28,6 +29,7 @@
 #include "start_menu.h"
 #include "task.h"
 #include "text.h"
+#include "follow_me.h"
 #include "constants/event_object_movement.h"
 #include "constants/event_objects.h"
 #include "constants/songs.h"
@@ -41,10 +43,8 @@ static void Task_ExitNonDoor(u8);
 static void Task_DoContestHallWarp(u8);
 static void FillPalBufferWhite(void);
 static void Task_ExitDoor(u8);
-static bool32 WaitForWeatherFadeIn(void);
+bool32 WaitForWeatherFadeIn(void);
 static void Task_SpinEnterWarp(u8 taskId);
-static void Task_WarpAndLoadMap(u8 taskId);
-static void Task_DoDoorWarp(u8 taskId);
 static void Task_EnableScriptAfterMusicFade(u8 taskId);
 
 // data[0] is used universally by tasks in this file as a state for switches
@@ -67,7 +67,7 @@ static void FillPalBufferWhite(void)
     CpuFastFill16(RGB_WHITE, gPlttBufferFaded, PLTT_SIZE);
 }
 
-static void FillPalBufferBlack(void)
+void FillPalBufferBlack(void)
 {
     CpuFastFill16(RGB_BLACK, gPlttBufferFaded, PLTT_SIZE);
 }
@@ -101,18 +101,26 @@ void FadeInFromBlack(void)
 
 void WarpFadeOutScreen(void)
 {
-    u8 currentMapType = GetCurrentMapType();
-    switch (GetMapPairFadeToType(currentMapType, GetDestinationWarpMapHeader()->mapType))
+    const struct MapHeader *header = GetDestinationWarpMapHeader();
+
+    if (header->regionMapSectionId != gMapHeader.regionMapSectionId && MapHasPreviewScreen(header->regionMapSectionId, MPS_TYPE_CAVE))
     {
-    case 0:
         FadeScreen(FADE_TO_BLACK, 0);
-        break;
-    case 1:
-        FadeScreen(FADE_TO_WHITE, 0);
+    }
+    else
+    {
+        switch (GetMapPairFadeToType(GetCurrentMapType(), header->mapType))
+        {
+        case 0:
+            FadeScreen(FADE_TO_BLACK, 0);
+            break;
+        case 1:
+            FadeScreen(FADE_TO_WHITE, 0);
+        }
     }
 }
 
-static void SetPlayerVisibility(bool8 visible)
+void SetPlayerVisibility(bool8 visible)
 {
     SetPlayerInvisibility(!visible);
 }
@@ -278,6 +286,9 @@ void FieldCB_DefaultWarpExit(void)
     Overworld_PlaySpecialMapMusic();
     WarpFadeInScreen();
     SetUpWarpExitTask();
+    
+    FollowMe_WarpSetEnd();
+    
     ScriptContext2_Enable();
 }
 
@@ -326,6 +337,7 @@ static void Task_ExitDoor(u8 taskId)
     switch (task->tState)
     {
     case 0:
+        HideFollower();
         SetPlayerVisibility(FALSE);
         FreezeObjectEvents();
         PlayerGetDestCoords(x, y);
@@ -355,6 +367,9 @@ static void Task_ExitDoor(u8 taskId)
     case 3:
         if (task->data[1] < 0 || gTasks[task->data[1]].isActive != TRUE)
         {
+            FollowMe_SetIndicatorToComeOutDoor();
+            FollowMe_WarpSetEnd();
+            
             UnfreezeObjectEvents();
             task->tState = 4;
         }
@@ -375,6 +390,7 @@ static void Task_ExitNonAnimDoor(u8 taskId)
     switch (task->tState)
     {
     case 0:
+        HideFollower();
         SetPlayerVisibility(FALSE);
         FreezeObjectEvents();
         PlayerGetDestCoords(x, y);
@@ -393,6 +409,9 @@ static void Task_ExitNonAnimDoor(u8 taskId)
     case 2:
         if (IsPlayerStandingStill())
         {
+            FollowMe_SetIndicatorToComeOutDoor();
+            FollowMe_WarpSetEnd();
+            
             UnfreezeObjectEvents();
             task->tState = 3;
         }
@@ -476,9 +495,9 @@ static bool32 PaletteFadeActive(void)
     return gPaletteFade.active;
 }
 
-static bool32 WaitForWeatherFadeIn(void)
+bool32 WaitForWeatherFadeIn(void)
 {
-    if (IsWeatherNotFadingIn() == TRUE)
+    if (IsWeatherNotFadingIn() == TRUE && ForestMapPreviewScreenIsRunning())
         return TRUE;
     else
         return FALSE;
@@ -646,7 +665,7 @@ void ReturnFromLinkRoom(void)
     CreateTask(Task_ReturnToWorldFromLinkRoom, 10);
 }
 
-static void Task_WarpAndLoadMap(u8 taskId)
+void Task_WarpAndLoadMap(u8 taskId)
 {
     struct Task *task = &gTasks[taskId];
 
@@ -677,6 +696,7 @@ static void Task_WarpAndLoadMap(u8 taskId)
     }
 }
 
+/*
 static void Task_DoDoorWarp(u8 taskId)
 {
     struct Task *task = &gTasks[taskId];
@@ -729,6 +749,7 @@ static void Task_DoDoorWarp(u8 taskId)
         break;
     }
 }
+*/
 
 static void Task_DoContestHallWarp(u8 taskId)
 {
@@ -1013,6 +1034,8 @@ static void Task_SpinEnterWarp(u8 taskId)
     case 1:
         if (WaitForWeatherFadeIn() && IsPlayerSpinEntranceActive() != TRUE)
         {
+            FollowMe_WarpSetEnd();
+            
             UnfreezeObjectEvents();
             ScriptContext2_Disable();
             DestroyTask(taskId);

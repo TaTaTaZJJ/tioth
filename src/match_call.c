@@ -1029,7 +1029,7 @@ void InitMatchCallCounters(void)
 
 static u32 GetCurrentTotalMinutes(struct Time *time)
 {
-    return time->days * 24 * 60 + time->hours * 60 + time->minutes;
+    return time->cycles * DAYS_PER_CYCLE * time->days * 24 * 60 + time->hours * 60 + time->minutes;
 }
 
 static bool32 UpdateMatchCallMinutesCounter(void)

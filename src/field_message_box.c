@@ -1,10 +1,12 @@
 #include "global.h"
 #include "menu.h"
+#include "event_data.h"
 #include "string_util.h"
 #include "task.h"
 #include "text.h"
 #include "match_call.h"
 #include "field_message_box.h"
+#include "gpu_regs.h"
 
 static EWRAM_DATA u8 sFieldMessageBoxMode = 0;
 
@@ -160,4 +162,14 @@ void StopFieldMessage(void)
 {
     DestroyTask_DrawFieldMessage();
     sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
+}
+
+void SetMessageBoxToPosition(void)
+{   
+    u16 x = VarGet(VAR_0x8000);
+    u16 y = VarGet(VAR_0x8001);
+    if (x != 0)
+        x = 240 - x;
+    SetGpuReg(REG_OFFSET_BG0VOFS, y);
+    SetGpuReg(REG_OFFSET_BG0HOFS, x);
 }

@@ -3734,6 +3734,10 @@ void CalculateMonStats(struct Pokemon *mon)
 
     SetMonData(mon, MON_DATA_LEVEL, &level);
 
+#ifdef USE_LEVEL_BALANCING_MODIFIER
+        level = 50;
+#endif
+
     if (species == SPECIES_SHEDINJA)
     {
         newMaxHP = 1;
@@ -6391,6 +6395,10 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, u
             case EVO_SPECIFIC_MAP:
                 currentMap = ((gSaveBlock1Ptr->location.mapGroup) << 8 | gSaveBlock1Ptr->location.mapNum);
                 if (currentMap == gEvolutionTable[species][i].param)
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_RANDOM_CHANCE:
+                if (gEvolutionTable[species][i].param <= level && (Random() % 10) <= 3)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }

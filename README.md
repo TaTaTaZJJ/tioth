@@ -1,31 +1,26 @@
-# Pokémon Emerald
+# 宝可梦苍穹之印痕
 
-This is a decompilation of Pokémon Emerald.
+这是基于[pret的绿宝石反编译项目](https://github.com/pret/pokeemerald)的宝可梦粉丝二次改版作品。
 
-It builds the following ROM:
+## 声明
 
-* [**pokeemerald.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=1961) `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+* 本改版故事全属虚构，如有雷同纯属巧合。
+* 本改版源码仅供学习参考，故开源公开让大家使用，但禁止用于任何的商业用途，如过通过任何沟道花费入手此作品，请尽快通过有效平台举报，本改版及其制作组将不会负责一切衍生问题。
+* 下载后请于24小时内删除。
+* 允许基于本改版为蓝本的非商业化再创作。
+* 如使用本改版再创作后发布自己作品，请在发布、宣传时醒目标注本改版名称及仓库地址。
+* 本改版和改版组成员概不对任何基于本改版再创作的作品负责。
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+## 特别感谢
 
+pret相关人员 — 绿宝石反编译项目及技术文献
 
-## See also
+DizzyEggg和rh-hideout相关人员 — 后世代战斗引擎，道具及精灵添加
 
-Other disassembly and/or decompilation projects:
-* [**Pokémon Red and Blue**](https://github.com/pret/pokered)
-* [**Pokémon Gold and Silver (Space World '97 demo)**](https://github.com/pret/pokegold-spaceworld)
-* [**Pokémon Yellow**](https://github.com/pret/pokeyellow)
-* [**Pokémon Trading Card Game**](https://github.com/pret/poketcg)
-* [**Pokémon Pinball**](https://github.com/pret/pokepinball)
-* [**Pokémon Stadium**](https://github.com/pret/pokestadium)
-* [**Pokémon Gold and Silver**](https://github.com/pret/pokegold)
-* [**Pokémon Crystal**](https://github.com/pret/pokecrystal)
-* [**Pokémon Ruby and Sapphire**](https://github.com/pret/pokeruby)
-* [**Pokémon Pinball: Ruby & Sapphire**](https://github.com/pret/pokepinballrs)
-* [**Pokémon FireRed and LeafGreen**](https://github.com/pret/pokefirered)
-* [**Pokémon Mystery Dungeon: Red Rescue Team**](https://github.com/pret/pmd-red)
+ghoulslash — 部分游戏功能及体验优化改动
 
+Xhyzi — 昼夜功能源码
 
-## Contacts
+porymap相关人员 — porymap
 
-You can find us on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://kiwiirc.com/client/irc.freenode.net/?#pret).
+poryscript相关人员 — poryscript

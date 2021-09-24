@@ -72,9 +72,33 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_RayquazaSpotlight         @ FLDEFF_RAYQUAZA_SPOTLIGHT
 	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
 	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
+	.4byte gFieldEffectScript_DotDotDotIcon				@ FLDEFF_DOTDOTDOT_ICON
+	.4byte gFieldEffectScript_AngryIcon					@ FLDEFF_ANGRY_ICON
+	.4byte gFieldEffectScript_SweatIcon					@ FLDEFF_SWEAT_ICON
+	.4byte gFieldEffectScript_ExclamationMark2Icon		@ FLDEFF_EXCLAMATION_MARK_2_ICON
+	.4byte gFieldEffectScript_BulbIcon					@ FLDEFF_BULB_ICON
+	.4byte gFieldEffectScript_SpeechlessIcon			@ FLDEFF_SPEECHLESS_ICON
+	.4byte gFieldEffectScript_MusicIcon					@ FLDEFF_MUSIC_ICON
+	.4byte gFieldEffectScript_CircleIcon				@ FLDEFF_CIRCLE_ICON
+	.4byte gFieldEffectScript_SleepyIcon				@ FLDEFF_SLEEPY_ICON
+	.4byte gFieldEffectScript_CrossIcon					@ FLDEFF_CROSS_ICON
+	.4byte gFieldEffectScript_StarIcon					@ FLDEFF_STAR_ICON
+	.4byte gFieldEffectScript_FunnnyIcon				@ FLDEFF_FUNNY_ICON
+	.4byte gFieldEffectScript_VommitIcon				@ FLDEFF_VOMMIT_ICON
+	.4byte gFieldEffectScript_SmileIcon					@ FLDEFF_SMILE_ICON
+	.4byte gFieldEffectScript_FacePalmIcon				@ FLDEFF_FACE_PALM_ICON
+	.4byte gFieldEffectScript_BombedIcon				@ FLDEFF_BOMBED_ICON
+	.4byte gFieldEffectScript_DogeIcon					@ FLDEFF_DOGE_ICON
+	.4byte gFieldEffectScript_EvilIcon					@ FLDEFF_EVIL_ICON
+	.4byte gFieldEffectScript_Sweat2Icon				@ FLDEFF_SWEAT_2_ICON
+	.4byte gFieldEffectScript_SkullIcon					@ FLDEFF_SKULL_ICON
+	.4byte gFieldEffectScript_SwordIcon					@ FLDEFF_SWORD_ICON
+	.4byte gFieldEffectScript_CreeperIcon				@ FLDEFF_CREEPER_ICON
+	.4byte gFieldEffectScript_SpitBloodIcon				@ FLDEFF_SPIT_BLOOD_ICON
+	.4byte gFieldEffectScript_InterestingIcon			@ FLDEFF_INTERESTING_ICON
 
 gFieldEffectScript_ExclamationMarkIcon1::
-	field_eff_callnative FldEff_ExclamationMarkIcon
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_ExclamationMarkIcon
 	field_eff_end
 
 gFieldEffectScript_UseCutOnTallGrass::
@@ -207,7 +231,7 @@ gFieldEffectScript_FlyIn::
 	field_eff_end
 
 gFieldEffectScript_QuestionMarkIcon::
-	field_eff_callnative FldEff_QuestionMarkIcon
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_QuestionMarkIcon
 	field_eff_end
 
 gFieldEffectScript_FeetInFlowingWater::
@@ -260,7 +284,7 @@ gFieldEffectScript_Pokeball::
 	field_eff_end
 
 gFieldEffectScript_HeartIcon::
-	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect0, FldEff_HeartIcon
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_HeartIcon
 	field_eff_end
 
 gFieldEffectScript_Nop47::
@@ -342,4 +366,100 @@ gFieldEffectScript_DestroyDeoxysRock::
 
 gFieldEffectScript_MoveDeoxysRock::
 	field_eff_callnative FldEff_MoveDeoxysRock
+	field_eff_end
+
+gFieldEffectScript_DotDotDotIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_DotDotDotIcon
+	field_eff_end
+
+gFieldEffectScript_AngryIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_AngryIcon
+	field_eff_end
+
+gFieldEffectScript_SweatIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SweatIcon
+	field_eff_end
+
+gFieldEffectScript_ExclamationMark2Icon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_ExclamationMark2Icon
+	field_eff_end
+
+gFieldEffectScript_BulbIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_BulbIcon
+	field_eff_end
+
+gFieldEffectScript_SpeechlessIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SpeechlessIcon
+	field_eff_end
+
+gFieldEffectScript_MusicIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_MusicIcon
+	field_eff_end
+
+gFieldEffectScript_CircleIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_CircleIcon
+	field_eff_end
+
+gFieldEffectScript_SleepyIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SleepyIcon
+	field_eff_end
+
+gFieldEffectScript_CrossIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_CrossIcon
+	field_eff_end
+
+gFieldEffectScript_StarIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_StarIcon
+	field_eff_end
+
+gFieldEffectScript_FunnnyIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_FunnnyIcon
+	field_eff_end
+
+gFieldEffectScript_VommitIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_VommitIcon
+	field_eff_end
+
+gFieldEffectScript_SmileIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SmileIcon
+	field_eff_end
+
+gFieldEffectScript_FacePalmIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_FacePalmIcon
+	field_eff_end
+
+gFieldEffectScript_BombedIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_BombedIcon
+	field_eff_end
+
+gFieldEffectScript_DogeIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_DogeIcon
+	field_eff_end
+
+gFieldEffectScript_EvilIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_EvilIcon
+	field_eff_end
+
+gFieldEffectScript_Sweat2Icon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_Sweat2Icon
+	field_eff_end
+
+gFieldEffectScript_SkullIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SkullIcon
+	field_eff_end
+
+gFieldEffectScript_SwordIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SwordIcon
+	field_eff_end
+
+gFieldEffectScript_CreeperIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_CreeperIcon
+	field_eff_end
+
+gFieldEffectScript_SpitBloodIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_SpitBloodIcon
+	field_eff_end
+
+gFieldEffectScript_InterestingIcon::
+	field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEmotion, FldEff_InterestingIcon
 	field_eff_end

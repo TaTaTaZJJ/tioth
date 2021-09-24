@@ -1,0 +1,130 @@
+{
+    "path": "src/data/text/nature_names.h",
+    "texts": [
+        {
+            "label": "sHardyNatureName",
+            "zh": "勤奋",
+            "en": "Hardy"
+        },
+        {
+            "label": "sLonelyNatureName",
+            "zh": "怕寂寞",
+            "en": "Lonely"
+        },
+        {
+            "label": "sBraveNatureName",
+            "zh": "勇敢",
+            "en": "Brave"
+        },
+        {
+            "label": "sAdamantNatureName",
+            "zh": "固执",
+            "en": "Adamant"
+        },
+        {
+            "label": "sNaughtyNatureName",
+            "zh": "顽皮",
+            "en": "Naughty"
+        },
+        {
+            "label": "sBoldNatureName",
+            "zh": "大胆",
+            "en": "Bold"
+        },
+        {
+            "label": "sDocileNatureName",
+            "zh": "坦率",
+            "en": "Docile"
+        },
+        {
+            "label": "sRelaxedNatureName",
+            "zh": "悠闲",
+            "en": "Relaxed"
+        },
+        {
+            "label": "sImpishNatureName",
+            "zh": "淘气",
+            "en": "Impish"
+        },
+        {
+            "label": "sLaxNatureName",
+            "zh": "乐天",
+            "en": "Lax"
+        },
+        {
+            "label": "sTimidNatureName",
+            "zh": "胆小",
+            "en": "Timid"
+        },
+        {
+            "label": "sHastyNatureName",
+            "zh": "急躁",
+            "en": "Hasty"
+        },
+        {
+            "label": "sSeriousNatureName",
+            "zh": "认真",
+            "en": "Serious"
+        },
+        {
+            "label": "sJollyNatureName",
+            "zh": "爽朗",
+            "en": "Jolly"
+        },
+        {
+            "label": "sNaiveNatureName",
+            "zh": "天真",
+            "en": "Naive"
+        },
+        {
+            "label": "sModestNatureName",
+            "zh": "内敛",
+            "en": "Modest"
+        },
+        {
+            "label": "sMildNatureName",
+            "zh": "慢吞吞",
+            "en": "Mild"
+        },
+        {
+            "label": "sQuietNatureName",
+            "zh": "冷静",
+            "en": "Quiet"
+        },
+        {
+            "label": "sBashfulNatureName",
+            "zh": "害羞",
+            "en": "Bashful"
+        },
+        {
+            "label": "sRashNatureName",
+            "zh": "马虎",
+            "en": "Rash"
+        },
+        {
+            "label": "sCalmNatureName",
+            "zh": "温和",
+            "en": "Calm"
+        },
+        {
+            "label": "sGentleNatureName",
+            "zh": "温顺",
+            "en": "Gentle"
+        },
+        {
+            "label": "sSassyNatureName",
+            "zh": "自大",
+            "en": "Sassy"
+        },
+        {
+            "label": "sCarefulNatureName",
+            "zh": "慎重",
+            "en": "Careful"
+        },
+        {
+            "label": "sQuirkyNatureName",
+            "zh": "浮躁",
+            "en": "Quirky"
+        }
+    ]
+}

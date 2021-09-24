@@ -4,7 +4,7 @@ script TestAddMoneywithVar {
     lock
     setvar(VAR_0x8000, 999)
     addmoneywithvar(VAR_0x8000,0)
-    msgbox("设置变数8000值为999\n测试钱包值增加变数8000值。")
+    msgbox("设置变数8000值为999\n测试钱包值增加变数8000值。",MSGBOX_SIGN_IRON)
     release
 }
 
@@ -12,7 +12,7 @@ script TestSubMoneywithVar {
     lock
     setvar(VAR_0x8000, 999)
     removemoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为999\n测试钱包值减少变数8000值。")
+    msgbox("设置变数8000值为999\n测试钱包值减少变数8000值。",MSGBOX_SIGN_IRON)
     release
 }
 
@@ -20,7 +20,7 @@ script TestMultMoneywithVar {
     lock
     setvar(VAR_0x8000, 3)
     multiplymoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为3\n测试钱包值乘以变数8000值。")
+    msgbox("设置变数8000值为3\n测试钱包值乘以变数8000值。",MSGBOX_SIGN_IRON)
     release
 }
 
@@ -28,20 +28,318 @@ script TestCheckMoneywithVar {
     lock
     setvar(VAR_0x8000, 2999)
     checkmoneywithvar(VAR_0x8000, 0)
-    msgbox("设置变数8000值为2999\n测试钱包高于变数8000值。")
+    msgbox("设置变数8000值为2999\n测试钱包高于变数8000值。",MSGBOX_SIGN_IRON)
     if (var(VAR_RESULT) == TRUE) {
-        msgbox("钱包值高于变数8000值")
+        msgbox("钱包值高于变数8000值",MSGBOX_SIGN_IRON)
     } else {
-        msgbox("钱包值低于变数8000值")
+        msgbox("钱包值低于变数8000值",MSGBOX_SIGN_IRON)
     }
     release
 }
 
 script Test2v2TrainerBattle {
-    msgbox("测试双打。")
+    msgbox("测试双打。",MSGBOX_SIGN_IRON)
     closemessage
     givemon(SPECIES_CYNDAQUIL,100,0)
     givemon(SPECIES_CYNDAQUIL,100,0)
     givemon(SPECIES_CYNDAQUIL,100,0)
     multi_fixed_2_vs_2(TRAINER_WALLACE, "冠军", TRAINER_SIDNEY, "天王", TRAINER_RICK, TRAINER_BACK_PIC_RED)
+}
+
+script TestFollowMeTalk {
+    msgbox("测试跟随对话。")
+    closemessage
+}
+
+script TestFollowMe {
+    lock
+    faceplayer
+    loadword(0, TestFollowMeTalk)
+    setfollower(1, 0x100)
+    release
+}
+
+script TestSetScript {
+    lock
+    cleartimeevent(0)
+    msgbox("这是10分钟前设置的事件。\n(现实10秒)")
+    closemessage
+    release
+    end
+}
+
+script TestSetScript2 {
+    lock
+    cleartimeevent(1)
+    msgbox("这是20分钟前设置的事件。\n(现实20秒)")
+    closemessage
+    release
+    end
+}
+
+script TestTimeEvent {
+    lock
+    settimeevent(0, 0, 0, 10, TestSetScript)
+    settimeevent(1, 0, 0, 20, TestSetScript2)
+    end
+}
+
+script TestEmotion {
+    lock
+    msgbox("测试表情。")
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement1)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement2)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement3)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement4)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement5)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement6)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement7)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement8)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement9)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement10)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement11)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement12)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement13)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement14)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement15)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement16)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement17)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement18)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement19)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement20)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement21)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement22)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement23)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement24)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement25)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement26)
+    waitmovement(0)
+    delay(60)
+    playse(SE_PIN)
+    applymovement(2, TestEmotionMovement27)
+    waitmovement(0)
+    delay(60)
+    closemessage
+    release
+    end
+}
+
+movement TestEmotionMovement1 {    
+    emote_exclamation_mark
+}
+
+movement TestEmotionMovement2 {    
+    emote_question_mark
+}
+
+movement TestEmotionMovement3 {    
+    emote_heart
+}
+
+movement TestEmotionMovement4 {    
+    emote_dot_dot_dot
+}
+
+movement TestEmotionMovement5 {    
+    emote_angry
+}
+
+movement TestEmotionMovement6 {    
+    emote_sweat
+}
+
+movement TestEmotionMovement7 {    
+    emote_exclamation_mark_2
+}
+
+movement TestEmotionMovement8 {    
+    emote_bulb
+}
+
+movement TestEmotionMovement9 {    
+    emote_speechless
+}
+
+movement TestEmotionMovement10 {    
+    emote_music
+}
+
+movement TestEmotionMovement11 {    
+    emote_circle
+}
+
+movement TestEmotionMovement12 {    
+    emote_sleepy
+}
+
+movement TestEmotionMovement13 {    
+    emote_cross
+}
+
+movement TestEmotionMovement14 {    
+    emote_star
+}
+
+movement TestEmotionMovement15 {    
+    emote_funny
+}
+
+movement TestEmotionMovement16 {    
+    emote_vommit
+}
+
+movement TestEmotionMovement17 {    
+    emote_smile
+}
+
+movement TestEmotionMovement18 {    
+    emote_face_palm
+}
+
+movement TestEmotionMovement19 {    
+    emote_bombed
+}
+
+movement TestEmotionMovement20 {    
+    emote_doge
+}
+
+movement TestEmotionMovement21 {    
+    emote_evil
+}
+
+movement TestEmotionMovement22 {    
+    emote_sweat_2
+}
+
+movement TestEmotionMovement23 {    
+    emote_skull
+}
+
+movement TestEmotionMovement24 {    
+    emote_sword
+}
+
+movement TestEmotionMovement25 {    
+    emote_creeper
+}
+
+movement TestEmotionMovement26 {    
+    emote_spit_blood
+}
+
+movement TestEmotionMovement27 {    
+    emote_interesting
+}
+
+script TestMugshot {
+    mugshot(MUGSHOT_TEST)
+    usedialog(LEFT_ARROW)
+    msgbox("测试头像对话左")
+    usedialog(LEFT_BUBBLE)
+    msgbox("测试头像思考左")
+    mugshot(MUGSHOT_TEST2, RIGHT)
+    usedialog(RIGHT_ARROW)
+    msgbox("测试头像对话右")
+    usedialog(RIGHT_BUBBLE)
+    msgbox("测试头像思考右")
+    clearmughot(RIGHT)
+    usedialog(NORMAL)
+    msgbox("测试选项框", MSGBOX_YESNO)
+    closemessage
+    end
+}
+
+script TestWoodenPlate {
+    msgbox("木制路标", MSGBOX_SIGN_WOODEN)
+}
+
+script TestIronPlate {
+    msgbox("铁制路标", MSGBOX_SIGN_IRON)
+}
+
+script TestRadioTextbox {
+    setvar(VAR_DIALOG_STYLE, MSGBOX_STYLE_RADIO)
+    msgbox("收音机对话框", MSGBOX_NPC)
+    setvar(VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT)
+}
+
+script TestNewMugshot {
+    giveitem(ITEM_MIRROR_OF_MIND,1)
 }

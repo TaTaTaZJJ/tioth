@@ -148,3 +148,7 @@
 	.include "src/faraway_island.o"
 	.include "src/trainer_hill.o"
 	.include "src/rayquaza_scene.o"
+    .include "src/dns.o"
+    .include "src/mugshot.o"
+	.include "src/map_preview.o"
+	.include "src/tioth_specials.o"

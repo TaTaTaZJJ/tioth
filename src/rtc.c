@@ -8,6 +8,7 @@ static u16 sErrorStatus;
 static struct SiiRtcInfo sRtc;
 static u8 sProbeResult;
 static u16 sSavedIme;
+static u8 gLastRtcSecond;
 
 // iwram common
 struct Time gLocalTime;
@@ -289,8 +290,14 @@ void RtcCalcTimeDifference(struct SiiRtcInfo *rtc, struct Time *result, struct T
 
 void RtcCalcLocalTime(void)
 {
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    struct Time gameTime;
+    GameTimeGetInfo(&gameTime);
+    CalcTimeDifference(&gLocalTime, &gSaveBlock2Ptr->localTimeOffset,  &gameTime);
+    #else
     RtcGetInfo(&sRtc);
     RtcCalcTimeDifference(&sRtc, &gLocalTime, &gSaveBlock2Ptr->localTimeOffset);
+    #endif
 }
 
 void RtcInitLocalTimeOffset(s32 hour, s32 minute)
@@ -300,12 +307,23 @@ void RtcInitLocalTimeOffset(s32 hour, s32 minute)
 
 void RtcCalcLocalTimeOffset(s32 days, s32 hours, s32 minutes, s32 seconds)
 {
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    struct Time gameTime;
+    #endif
+
+    gLocalTime.cycles = 0; //处理周期
     gLocalTime.days = days;
     gLocalTime.hours = hours;
     gLocalTime.minutes = minutes;
     gLocalTime.seconds = seconds;
+
+    #ifdef USE_PLAYTIME_AS_LOCAL
+    GameTimeGetInfo(&gameTime);
+    CalcTimeDifference(&gSaveBlock2Ptr->localTimeOffset, &gLocalTime, &gameTime);
+    #else
     RtcGetInfo(&sRtc);
     RtcCalcTimeDifference(&sRtc, &gSaveBlock2Ptr->localTimeOffset, &gLocalTime);
+    #endif
 }
 
 void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2)
@@ -314,6 +332,7 @@ void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2)
     result->minutes = t2->minutes - t1->minutes;
     result->hours = t2->hours - t1->hours;
     result->days = t2->days - t1->days;
+    result->cycles = t2->cycles - t1->cycles; //处理周期
 
     if (result->seconds < 0)
     {
@@ -332,6 +351,12 @@ void CalcTimeDifference(struct Time *result, struct Time *t1, struct Time *t2)
         result->hours += 24;
         --result->days;
     }
+
+    if (result->days < 0) //处理周期
+    {
+        result->days += DAYS_PER_CYCLE;
+        --result->cycles;
+    }
 }
 
 u32 RtcGetMinuteCount(void)
@@ -343,4 +368,67 @@ u32 RtcGetMinuteCount(void)
 u32 RtcGetLocalDayCount(void)
 {
     return RtcGetDayCount(&sRtc);
+}
+
+// 从本地时间计算当前月份
+// 0-11 = 正月-十二月
+u8 GetLocalCurrentMonth(void)
+{
+    RtcCalcLocalTime();
+    return (gLocalTime.cycles * DAYS_PER_CYCLE + gLocalTime.days) % DAYS_PER_MONTH;
+}
+
+// 真实时间每秒的变化
+u8 RtcSecondChange(void)
+{   
+    u8 currentRtcSecond;
+    RtcGetInfo(&sRtc);
+    currentRtcSecond = ConvertBcdToBinary(sRtc.second);
+    if (gLastRtcSecond != currentRtcSecond) {
+        gLastRtcSecond = currentRtcSecond;
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+// 从游戏时间计算一个本地时间
+void GameTimeGetInfo(struct Time *gameTime)
+{
+    // 按照苍穹的时间设定处理的
+    // 每个月固定天数
+    // 每个周期固定天数，不存在闰年
+    int cycles = 0;
+    int days = 0;
+    int hours = gSaveBlock2Ptr->playTimeHours * TIME_MODIFIER;
+    int minutes = gSaveBlock2Ptr->playTimeMinutes * TIME_MODIFIER;
+    int seconds = gSaveBlock2Ptr->playTimeSeconds * TIME_MODIFIER;
+
+    if (seconds >= 60)
+    {
+        minutes += seconds / 60;
+        seconds %= 60;
+    }
+    if (minutes >= 60)
+    {
+        hours += minutes / 60;
+        minutes %= 60;
+    }
+    if (hours >= 24)
+    {
+        days += hours / 24;
+        hours %= 24;
+    }
+    if (days >= DAYS_PER_CYCLE)
+    {
+        cycles += days / DAYS_PER_CYCLE;
+        days %= DAYS_PER_CYCLE;
+    }
+    gameTime->cycles = cycles;
+    gameTime->days = days;
+    gameTime->hours = hours;
+    gameTime->minutes = minutes;
+    gameTime->seconds = seconds;
 }

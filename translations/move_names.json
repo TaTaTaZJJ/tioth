@@ -1,0 +1,3780 @@
+{
+    "path": "src/data/text/move_names.h",
+    "texts": [
+        {
+            "label": "MOVE_NONE",
+            "zh": "-",
+            "en": "-"
+        },
+        {
+            "label": "MOVE_POUND",
+            "zh": "拍击",
+            "en": "Pound"
+        },
+        {
+            "label": "MOVE_KARATE_CHOP",
+            "zh": "空手劈",
+            "en": "Karate Chop"
+        },
+        {
+            "label": "MOVE_DOUBLE_SLAP",
+            "zh": "连环巴掌",
+            "en": "Double Slap"
+        },
+        {
+            "label": "MOVE_COMET_PUNCH",
+            "zh": "连续拳",
+            "en": "Comet Punch"
+        },
+        {
+            "label": "MOVE_MEGA_PUNCH",
+            "zh": "百万吨重拳",
+            "en": "Mega Punch"
+        },
+        {
+            "label": "MOVE_PAY_DAY",
+            "zh": "聚宝功",
+            "en": "Pay Day"
+        },
+        {
+            "label": "MOVE_FIRE_PUNCH",
+            "zh": "火焰拳",
+            "en": "Fire Punch"
+        },
+        {
+            "label": "MOVE_ICE_PUNCH",
+            "zh": "冰冻拳",
+            "en": "Ice Punch"
+        },
+        {
+            "label": "MOVE_THUNDER_PUNCH",
+            "zh": "雷电拳",
+            "en": "ThunderPunch"
+        },
+        {
+            "label": "MOVE_SCRATCH",
+            "zh": "抓",
+            "en": "Scratch"
+        },
+        {
+            "label": "MOVE_VISE_GRIP",
+            "zh": "夹住",
+            "en": "Vise Grip"
+        },
+        {
+            "label": "MOVE_GUILLOTINE",
+            "zh": "断头钳",
+            "en": "Guillotine"
+        },
+        {
+            "label": "MOVE_RAZOR_WIND",
+            "zh": "旋风刀",
+            "en": "Razor Wind"
+        },
+        {
+            "label": "MOVE_SWORDS_DANCE",
+            "zh": "剑舞",
+            "en": "Swords Dance"
+        },
+        {
+            "label": "MOVE_CUT",
+            "zh": "居合斩",
+            "en": "Cut"
+        },
+        {
+            "label": "MOVE_GUST",
+            "zh": "起风",
+            "en": "Gust"
+        },
+        {
+            "label": "MOVE_WING_ATTACK",
+            "zh": "翅膀攻击",
+            "en": "Wing Attack"
+        },
+        {
+            "label": "MOVE_WHIRLWIND",
+            "zh": "吹飞",
+            "en": "Whirlwind"
+        },
+        {
+            "label": "MOVE_FLY",
+            "zh": "飞翔",
+            "en": "Fly"
+        },
+        {
+            "label": "MOVE_BIND",
+            "zh": "绑紧",
+            "en": "Bind"
+        },
+        {
+            "label": "MOVE_SLAM",
+            "zh": "摔打",
+            "en": "Slam"
+        },
+        {
+            "label": "MOVE_VINE_WHIP",
+            "zh": "藤鞭",
+            "en": "Vine Whip"
+        },
+        {
+            "label": "MOVE_STOMP",
+            "zh": "踩踏",
+            "en": "Stomp"
+        },
+        {
+            "label": "MOVE_DOUBLE_KICK",
+            "zh": "二连踢",
+            "en": "Double Kick"
+        },
+        {
+            "label": "MOVE_MEGA_KICK",
+            "zh": "百万吨重踢",
+            "en": "Mega Kick"
+        },
+        {
+            "label": "MOVE_JUMP_KICK",
+            "zh": "飞踢",
+            "en": "Jump Kick"
+        },
+        {
+            "label": "MOVE_ROLLING_KICK",
+            "zh": "回旋踢",
+            "en": "Rolling Kick"
+        },
+        {
+            "label": "MOVE_SAND_ATTACK",
+            "zh": "泼沙",
+            "en": "Sand Attack"
+        },
+        {
+            "label": "MOVE_HEADBUTT",
+            "zh": "头锤",
+            "en": "Headbutt"
+        },
+        {
+            "label": "MOVE_HORN_ATTACK",
+            "zh": "角撞",
+            "en": "Horn Attack"
+        },
+        {
+            "label": "MOVE_FURY_ATTACK",
+            "zh": "乱击",
+            "en": "Fury Attack"
+        },
+        {
+            "label": "MOVE_HORN_DRILL",
+            "zh": "角钻",
+            "en": "Horn Drill"
+        },
+        {
+            "label": "MOVE_TACKLE",
+            "zh": "撞击",
+            "en": "Tackle"
+        },
+        {
+            "label": "MOVE_BODY_SLAM",
+            "zh": "泰山压顶",
+            "en": "Body Slam"
+        },
+        {
+            "label": "MOVE_WRAP",
+            "zh": "紧束",
+            "en": "Wrap"
+        },
+        {
+            "label": "MOVE_TAKE_DOWN",
+            "zh": "猛撞",
+            "en": "Take Down"
+        },
+        {
+            "label": "MOVE_THRASH",
+            "zh": "大闹一番",
+            "en": "Thrash"
+        },
+        {
+            "label": "MOVE_DOUBLE_EDGE",
+            "zh": "舍身冲撞",
+            "en": "Double-Edge"
+        },
+        {
+            "label": "MOVE_TAIL_WHIP",
+            "zh": "摇尾巴",
+            "en": "Tail Whip"
+        },
+        {
+            "label": "MOVE_POISON_STING",
+            "zh": "毒针",
+            "en": "Poison Sting"
+        },
+        {
+            "label": "MOVE_TWINEEDLE",
+            "zh": "双针",
+            "en": "Twineedle"
+        },
+        {
+            "label": "MOVE_PIN_MISSILE",
+            "zh": "飞弹针",
+            "en": "Pin Missile"
+        },
+        {
+            "label": "MOVE_LEER",
+            "zh": "瞪眼",
+            "en": "Leer"
+        },
+        {
+            "label": "MOVE_BITE",
+            "zh": "咬住",
+            "en": "Bite"
+        },
+        {
+            "label": "MOVE_GROWL",
+            "zh": "叫声",
+            "en": "Growl"
+        },
+        {
+            "label": "MOVE_ROAR",
+            "zh": "吼叫",
+            "en": "Roar"
+        },
+        {
+            "label": "MOVE_SING",
+            "zh": "唱歌",
+            "en": "Sing"
+        },
+        {
+            "label": "MOVE_SUPERSONIC",
+            "zh": "超音波",
+            "en": "Supersonic"
+        },
+        {
+            "label": "MOVE_SONIC_BOOM",
+            "zh": "音爆",
+            "en": "Sonic Boom"
+        },
+        {
+            "label": "MOVE_DISABLE",
+            "zh": "定身法",
+            "en": "Disable"
+        },
+        {
+            "label": "MOVE_ACID",
+            "zh": "溶解液",
+            "en": "Acid"
+        },
+        {
+            "label": "MOVE_EMBER",
+            "zh": "火花",
+            "en": "Ember"
+        },
+        {
+            "label": "MOVE_FLAMETHROWER",
+            "zh": "喷射火焰",
+            "en": "Flamethrower"
+        },
+        {
+            "label": "MOVE_MIST",
+            "zh": "白雾",
+            "en": "Mist"
+        },
+        {
+            "label": "MOVE_WATER_GUN",
+            "zh": "水枪",
+            "en": "Water Gun"
+        },
+        {
+            "label": "MOVE_HYDRO_PUMP",
+            "zh": "水炮",
+            "en": "Hydro Pump"
+        },
+        {
+            "label": "MOVE_SURF",
+            "zh": "冲浪",
+            "en": "Surf"
+        },
+        {
+            "label": "MOVE_ICE_BEAM",
+            "zh": "冰冻光束",
+            "en": "Ice Beam"
+        },
+        {
+            "label": "MOVE_BLIZZARD",
+            "zh": "暴风雪",
+            "en": "Blizzard"
+        },
+        {
+            "label": "MOVE_PSYBEAM",
+            "zh": "幻象光线",
+            "en": "Psybeam"
+        },
+        {
+            "label": "MOVE_BUBBLE_BEAM",
+            "zh": "泡沫光线",
+            "en": "Bubble Beam"
+        },
+        {
+            "label": "MOVE_AURORA_BEAM",
+            "zh": "极光束",
+            "en": "Aurora Beam"
+        },
+        {
+            "label": "MOVE_HYPER_BEAM",
+            "zh": "破坏光线",
+            "en": "Hyper Beam"
+        },
+        {
+            "label": "MOVE_PECK",
+            "zh": "啄",
+            "en": "Peck"
+        },
+        {
+            "label": "MOVE_DRILL_PECK",
+            "zh": "啄钻",
+            "en": "Drill Peck"
+        },
+        {
+            "label": "MOVE_SUBMISSION",
+            "zh": "地狱翻滚",
+            "en": "Submission"
+        },
+        {
+            "label": "MOVE_LOW_KICK",
+            "zh": "踢倒",
+            "en": "Low Kick"
+        },
+        {
+            "label": "MOVE_COUNTER",
+            "zh": "双倍奉还",
+            "en": "Counter"
+        },
+        {
+            "label": "MOVE_SEISMIC_TOSS",
+            "zh": "地球上投",
+            "en": "Seismic Toss"
+        },
+        {
+            "label": "MOVE_STRENGTH",
+            "zh": "怪力",
+            "en": "Strength"
+        },
+        {
+            "label": "MOVE_ABSORB",
+            "zh": "吸取",
+            "en": "Absorb"
+        },
+        {
+            "label": "MOVE_MEGA_DRAIN",
+            "zh": "超级吸取",
+            "en": "Mega Drain"
+        },
+        {
+            "label": "MOVE_LEECH_SEED",
+            "zh": "寄生种子",
+            "en": "Leech Seed"
+        },
+        {
+            "label": "MOVE_GROWTH",
+            "zh": "生长",
+            "en": "Growth"
+        },
+        {
+            "label": "MOVE_RAZOR_LEAF",
+            "zh": "飞叶快刀",
+            "en": "Razor Leaf"
+        },
+        {
+            "label": "MOVE_SOLAR_BEAM",
+            "zh": "日光束",
+            "en": "Solar Beam"
+        },
+        {
+            "label": "MOVE_POISON_POWDER",
+            "zh": "毒粉",
+            "en": "PoisonPowder"
+        },
+        {
+            "label": "MOVE_STUN_SPORE",
+            "zh": "麻痹粉",
+            "en": "Stun Spore"
+        },
+        {
+            "label": "MOVE_SLEEP_POWDER",
+            "zh": "催眠粉",
+            "en": "Sleep Powder"
+        },
+        {
+            "label": "MOVE_PETAL_DANCE",
+            "zh": "花瓣舞",
+            "en": "Petal Dance"
+        },
+        {
+            "label": "MOVE_STRING_SHOT",
+            "zh": "吐丝",
+            "en": "String Shot"
+        },
+        {
+            "label": "MOVE_DRAGON_RAGE",
+            "zh": "龙之怒",
+            "en": "Dragon Rage"
+        },
+        {
+            "label": "MOVE_FIRE_SPIN",
+            "zh": "火焰旋涡",
+            "en": "Fire Spin"
+        },
+        {
+            "label": "MOVE_THUNDER_SHOCK",
+            "zh": "电击",
+            "en": "ThunderShock"
+        },
+        {
+            "label": "MOVE_THUNDERBOLT",
+            "zh": "十万伏特",
+            "en": "Thunderbolt"
+        },
+        {
+            "label": "MOVE_THUNDER_WAVE",
+            "zh": "电磁波",
+            "en": "Thunder Wave"
+        },
+        {
+            "label": "MOVE_THUNDER",
+            "zh": "打雷",
+            "en": "Thunder"
+        },
+        {
+            "label": "MOVE_ROCK_THROW",
+            "zh": "落石",
+            "en": "Rock Throw"
+        },
+        {
+            "label": "MOVE_EARTHQUAKE",
+            "zh": "地震",
+            "en": "Earthquake"
+        },
+        {
+            "label": "MOVE_FISSURE",
+            "zh": "地裂",
+            "en": "Fissure"
+        },
+        {
+            "label": "MOVE_DIG",
+            "zh": "挖洞",
+            "en": "Dig"
+        },
+        {
+            "label": "MOVE_TOXIC",
+            "zh": "剧毒",
+            "en": "Toxic"
+        },
+        {
+            "label": "MOVE_CONFUSION",
+            "zh": "念力",
+            "en": "Confusion"
+        },
+        {
+            "label": "MOVE_PSYCHIC",
+            "zh": "精神强念",
+            "en": "Psychic"
+        },
+        {
+            "label": "MOVE_HYPNOSIS",
+            "zh": "催眠术",
+            "en": "Hypnosis"
+        },
+        {
+            "label": "MOVE_MEDITATE",
+            "zh": "瑜伽姿势",
+            "en": "Meditate"
+        },
+        {
+            "label": "MOVE_AGILITY",
+            "zh": "高速移动",
+            "en": "Agility"
+        },
+        {
+            "label": "MOVE_QUICK_ATTACK",
+            "zh": "电光一闪",
+            "en": "Quick Attack"
+        },
+        {
+            "label": "MOVE_RAGE",
+            "zh": "愤怒",
+            "en": "Rage"
+        },
+        {
+            "label": "MOVE_TELEPORT",
+            "zh": "瞬间移动",
+            "en": "Teleport"
+        },
+        {
+            "label": "MOVE_NIGHT_SHADE",
+            "zh": "黑夜魔影",
+            "en": "Night Shade"
+        },
+        {
+            "label": "MOVE_MIMIC",
+            "zh": "模仿",
+            "en": "Mimic"
+        },
+        {
+            "label": "MOVE_SCREECH",
+            "zh": "刺耳声",
+            "en": "Screech"
+        },
+        {
+            "label": "MOVE_DOUBLE_TEAM",
+            "zh": "影子分身",
+            "en": "Double Team"
+        },
+        {
+            "label": "MOVE_RECOVER",
+            "zh": "自我再生",
+            "en": "Recover"
+        },
+        {
+            "label": "MOVE_HARDEN",
+            "zh": "变硬",
+            "en": "Harden"
+        },
+        {
+            "label": "MOVE_MINIMIZE",
+            "zh": "变小",
+            "en": "Minimize"
+        },
+        {
+            "label": "MOVE_SMOKESCREEN",
+            "zh": "烟幕",
+            "en": "Smokescreen"
+        },
+        {
+            "label": "MOVE_CONFUSE_RAY",
+            "zh": "奇异之光",
+            "en": "Confuse Ray"
+        },
+        {
+            "label": "MOVE_WITHDRAW",
+            "zh": "缩入壳中",
+            "en": "Withdraw"
+        },
+        {
+            "label": "MOVE_DEFENSE_CURL",
+            "zh": "变圆",
+            "en": "Defense Curl"
+        },
+        {
+            "label": "MOVE_BARRIER",
+            "zh": "屏障",
+            "en": "Barrier"
+        },
+        {
+            "label": "MOVE_LIGHT_SCREEN",
+            "zh": "光墙",
+            "en": "Light Screen"
+        },
+        {
+            "label": "MOVE_HAZE",
+            "zh": "黑雾",
+            "en": "Haze"
+        },
+        {
+            "label": "MOVE_REFLECT",
+            "zh": "反射壁",
+            "en": "Reflect"
+        },
+        {
+            "label": "MOVE_FOCUS_ENERGY",
+            "zh": "聚气",
+            "en": "Focus Energy"
+        },
+        {
+            "label": "MOVE_BIDE",
+            "zh": "忍耐",
+            "en": "Bide"
+        },
+        {
+            "label": "MOVE_METRONOME",
+            "zh": "挥指",
+            "en": "Metronome"
+        },
+        {
+            "label": "MOVE_MIRROR_MOVE",
+            "zh": "鹦鹉学舌",
+            "en": "Mirror Move"
+        },
+        {
+            "label": "MOVE_SELF_DESTRUCT",
+            "zh": "自爆",
+            "en": "SelfDestruct"
+        },
+        {
+            "label": "MOVE_EGG_BOMB",
+            "zh": "炸蛋",
+            "en": "Egg Bomb"
+        },
+        {
+            "label": "MOVE_LICK",
+            "zh": "舌舔",
+            "en": "Lick"
+        },
+        {
+            "label": "MOVE_SMOG",
+            "zh": "浊雾",
+            "en": "Smog"
+        },
+        {
+            "label": "MOVE_SLUDGE",
+            "zh": "污泥攻击",
+            "en": "Sludge"
+        },
+        {
+            "label": "MOVE_BONE_CLUB",
+            "zh": "骨棒",
+            "en": "Bone Club"
+        },
+        {
+            "label": "MOVE_FIRE_BLAST",
+            "zh": "大字爆炎",
+            "en": "Fire Blast"
+        },
+        {
+            "label": "MOVE_WATERFALL",
+            "zh": "攀瀑",
+            "en": "Waterfall"
+        },
+        {
+            "label": "MOVE_CLAMP",
+            "zh": "贝壳夹击",
+            "en": "Clamp"
+        },
+        {
+            "label": "MOVE_SWIFT",
+            "zh": "高速星星",
+            "en": "Swift"
+        },
+        {
+            "label": "MOVE_SKULL_BASH",
+            "zh": "火箭头锤",
+            "en": "Skull Bash"
+        },
+        {
+            "label": "MOVE_SPIKE_CANNON",
+            "zh": "尖刺加农炮",
+            "en": "Spike Cannon"
+        },
+        {
+            "label": "MOVE_CONSTRICT",
+            "zh": "缠绕",
+            "en": "Constrict"
+        },
+        {
+            "label": "MOVE_AMNESIA",
+            "zh": "瞬间失忆",
+            "en": "Amnesia"
+        },
+        {
+            "label": "MOVE_KINESIS",
+            "zh": "折弯汤匙",
+            "en": "Kinesis"
+        },
+        {
+            "label": "MOVE_SOFT_BOILED",
+            "zh": "生蛋",
+            "en": "Soft-Boiled"
+        },
+        {
+            "label": "MOVE_HIGH_JUMP_KICK",
+            "zh": "飞膝踢",
+            "en": "HighJumpKick"
+        },
+        {
+            "label": "MOVE_GLARE",
+            "zh": "大蛇瞪眼",
+            "en": "Glare"
+        },
+        {
+            "label": "MOVE_DREAM_EATER",
+            "zh": "食梦",
+            "en": "Dream Eater"
+        },
+        {
+            "label": "MOVE_POISON_GAS",
+            "zh": "毒瓦斯",
+            "en": "Poison Gas"
+        },
+        {
+            "label": "MOVE_BARRAGE",
+            "zh": "投球",
+            "en": "Barrage"
+        },
+        {
+            "label": "MOVE_LEECH_LIFE",
+            "zh": "吸血",
+            "en": "Leech Life"
+        },
+        {
+            "label": "MOVE_LOVELY_KISS",
+            "zh": "恶魔之吻",
+            "en": "Lovely Kiss"
+        },
+        {
+            "label": "MOVE_SKY_ATTACK",
+            "zh": "神鸟猛击",
+            "en": "Sky Attack"
+        },
+        {
+            "label": "MOVE_TRANSFORM",
+            "zh": "变身",
+            "en": "Transform"
+        },
+        {
+            "label": "MOVE_BUBBLE",
+            "zh": "泡沫",
+            "en": "Bubble"
+        },
+        {
+            "label": "MOVE_DIZZY_PUNCH",
+            "zh": "迷昏拳",
+            "en": "Dizzy Punch"
+        },
+        {
+            "label": "MOVE_SPORE",
+            "zh": "蘑菇孢子",
+            "en": "Spore"
+        },
+        {
+            "label": "MOVE_FLASH",
+            "zh": "闪光",
+            "en": "Flash"
+        },
+        {
+            "label": "MOVE_PSYWAVE",
+            "zh": "精神波",
+            "en": "Psywave"
+        },
+        {
+            "label": "MOVE_SPLASH",
+            "zh": "跃起",
+            "en": "Splash"
+        },
+        {
+            "label": "MOVE_ACID_ARMOR",
+            "zh": "溶化",
+            "en": "Acid Armor"
+        },
+        {
+            "label": "MOVE_CRABHAMMER",
+            "zh": "蟹钳锤",
+            "en": "Crabhammer"
+        },
+        {
+            "label": "MOVE_EXPLOSION",
+            "zh": "大爆炸",
+            "en": "Explosion"
+        },
+        {
+            "label": "MOVE_FURY_SWIPES",
+            "zh": "乱抓",
+            "en": "Fury Swipes"
+        },
+        {
+            "label": "MOVE_BONEMERANG",
+            "zh": "骨头回力镖",
+            "en": "Bonemerang"
+        },
+        {
+            "label": "MOVE_REST",
+            "zh": "睡觉",
+            "en": "Rest"
+        },
+        {
+            "label": "MOVE_ROCK_SLIDE",
+            "zh": "岩崩",
+            "en": "Rock Slide"
+        },
+        {
+            "label": "MOVE_HYPER_FANG",
+            "zh": "必杀门牙",
+            "en": "Hyper Fang"
+        },
+        {
+            "label": "MOVE_SHARPEN",
+            "zh": "棱角化",
+            "en": "Sharpen"
+        },
+        {
+            "label": "MOVE_CONVERSION",
+            "zh": "纹理",
+            "en": "Conversion"
+        },
+        {
+            "label": "MOVE_TRI_ATTACK",
+            "zh": "三重攻击",
+            "en": "Tri Attack"
+        },
+        {
+            "label": "MOVE_SUPER_FANG",
+            "zh": "愤怒门牙",
+            "en": "Super Fang"
+        },
+        {
+            "label": "MOVE_SLASH",
+            "zh": "劈开",
+            "en": "Slash"
+        },
+        {
+            "label": "MOVE_SUBSTITUTE",
+            "zh": "替身",
+            "en": "Substitute"
+        },
+        {
+            "label": "MOVE_STRUGGLE",
+            "zh": "挣扎",
+            "en": "Struggle"
+        },
+        {
+            "label": "MOVE_SKETCH",
+            "zh": "写生",
+            "en": "Sketch"
+        },
+        {
+            "label": "MOVE_TRIPLE_KICK",
+            "zh": "三连踢",
+            "en": "Triple Kick"
+        },
+        {
+            "label": "MOVE_THIEF",
+            "zh": "小偷",
+            "en": "Thief"
+        },
+        {
+            "label": "MOVE_SPIDER_WEB",
+            "zh": "蛛网",
+            "en": "Spider Web"
+        },
+        {
+            "label": "MOVE_MIND_READER",
+            "zh": "心之眼",
+            "en": "Mind Reader"
+        },
+        {
+            "label": "MOVE_NIGHTMARE",
+            "zh": "恶梦",
+            "en": "Nightmare"
+        },
+        {
+            "label": "MOVE_FLAME_WHEEL",
+            "zh": "火焰轮",
+            "en": "Flame Wheel"
+        },
+        {
+            "label": "MOVE_SNORE",
+            "zh": "打鼾",
+            "en": "Snore"
+        },
+        {
+            "label": "MOVE_CURSE",
+            "zh": "诅咒",
+            "en": "Curse"
+        },
+        {
+            "label": "MOVE_FLAIL",
+            "zh": "抓狂",
+            "en": "Flail"
+        },
+        {
+            "label": "MOVE_CONVERSION_2",
+            "zh": "纹理 2",
+            "en": "Conversion 2"
+        },
+        {
+            "label": "MOVE_AEROBLAST",
+            "zh": "气旋攻击",
+            "en": "Aeroblast"
+        },
+        {
+            "label": "MOVE_COTTON_SPORE",
+            "zh": "棉孢子",
+            "en": "Cotton Spore"
+        },
+        {
+            "label": "MOVE_REVERSAL",
+            "zh": "起死回生",
+            "en": "Reversal"
+        },
+        {
+            "label": "MOVE_SPITE",
+            "zh": "怨恨",
+            "en": "Spite"
+        },
+        {
+            "label": "MOVE_POWDER_SNOW",
+            "zh": "细雪",
+            "en": "Powder Snow"
+        },
+        {
+            "label": "MOVE_PROTECT",
+            "zh": "守住",
+            "en": "Protect"
+        },
+        {
+            "label": "MOVE_MACH_PUNCH",
+            "zh": "音速拳",
+            "en": "Mach Punch"
+        },
+        {
+            "label": "MOVE_SCARY_FACE",
+            "zh": "鬼面",
+            "en": "Scary Face"
+        },
+        {
+            "label": "MOVE_FEINT_ATTACK",
+            "zh": "出奇一击",
+            "en": "Feint Attack"
+        },
+        {
+            "label": "MOVE_SWEET_KISS",
+            "zh": "天使之吻",
+            "en": "Sweet Kiss"
+        },
+        {
+            "label": "MOVE_BELLY_DRUM",
+            "zh": "腹鼓",
+            "en": "Belly Drum"
+        },
+        {
+            "label": "MOVE_SLUDGE_BOMB",
+            "zh": "污泥炸弹",
+            "en": "Sludge Bomb"
+        },
+        {
+            "label": "MOVE_MUD_SLAP",
+            "zh": "掷泥",
+            "en": "Mud-Slap"
+        },
+        {
+            "label": "MOVE_OCTAZOOKA",
+            "zh": "章鱼桶炮",
+            "en": "Octazooka"
+        },
+        {
+            "label": "MOVE_SPIKES",
+            "zh": "撒菱",
+            "en": "Spikes"
+        },
+        {
+            "label": "MOVE_ZAP_CANNON",
+            "zh": "电磁炮",
+            "en": "Zap Cannon"
+        },
+        {
+            "label": "MOVE_FORESIGHT",
+            "zh": "识破",
+            "en": "Foresight"
+        },
+        {
+            "label": "MOVE_DESTINY_BOND",
+            "zh": "同命",
+            "en": "Destiny Bond"
+        },
+        {
+            "label": "MOVE_PERISH_SONG",
+            "zh": "识破",
+            "en": "Perish Song"
+        },
+        {
+            "label": "MOVE_ICY_WIND",
+            "zh": "冰冻之风",
+            "en": "Icy Wind"
+        },
+        {
+            "label": "MOVE_DETECT",
+            "zh": "看穿",
+            "en": "Detect"
+        },
+        {
+            "label": "MOVE_BONE_RUSH",
+            "zh": "骨棒乱打",
+            "en": "Bone Rush"
+        },
+        {
+            "label": "MOVE_LOCK_ON",
+            "zh": "锁定",
+            "en": "Lock-On"
+        },
+        {
+            "label": "MOVE_OUTRAGE",
+            "zh": "逆鳞",
+            "en": "Outrage"
+        },
+        {
+            "label": "MOVE_SANDSTORM",
+            "zh": "沙暴",
+            "en": "Sandstorm"
+        },
+        {
+            "label": "MOVE_GIGA_DRAIN",
+            "zh": "终极吸取",
+            "en": "Giga Drain"
+        },
+        {
+            "label": "MOVE_ENDURE",
+            "zh": "挺住",
+            "en": "Endure"
+        },
+        {
+            "label": "MOVE_CHARM",
+            "zh": "撒娇",
+            "en": "Charm"
+        },
+        {
+            "label": "MOVE_ROLLOUT",
+            "zh": "滚动",
+            "en": "Rollout"
+        },
+        {
+            "label": "MOVE_FALSE_SWIPE",
+            "zh": "点到为止",
+            "en": "False Swipe"
+        },
+        {
+            "label": "MOVE_SWAGGER",
+            "zh": "虚张声势",
+            "en": "Swagger"
+        },
+        {
+            "label": "MOVE_MILK_DRINK",
+            "zh": "喝牛奶",
+            "en": "Milk Drink"
+        },
+        {
+            "label": "MOVE_SPARK",
+            "zh": "电光",
+            "en": "Spark"
+        },
+        {
+            "label": "MOVE_FURY_CUTTER",
+            "zh": "连斩",
+            "en": "Fury Cutter"
+        },
+        {
+            "label": "MOVE_STEEL_WING",
+            "zh": "钢翼",
+            "en": "Steel Wing"
+        },
+        {
+            "label": "MOVE_MEAN_LOOK",
+            "zh": "黑色目光",
+            "en": "Mean Look"
+        },
+        {
+            "label": "MOVE_ATTRACT",
+            "zh": "迷人",
+            "en": "Attract"
+        },
+        {
+            "label": "MOVE_SLEEP_TALK",
+            "zh": "梦话",
+            "en": "Sleep Talk"
+        },
+        {
+            "label": "MOVE_HEAL_BELL",
+            "zh": "治愈铃声",
+            "en": "Heal Bell"
+        },
+        {
+            "label": "MOVE_RETURN",
+            "zh": "报恩",
+            "en": "Return"
+        },
+        {
+            "label": "MOVE_PRESENT",
+            "zh": "礼物",
+            "en": "Present"
+        },
+        {
+            "label": "MOVE_FRUSTRATION",
+            "zh": "迁怒",
+            "en": "Frustration"
+        },
+        {
+            "label": "MOVE_SAFEGUARD",
+            "zh": "神秘守护",
+            "en": "Safeguard"
+        },
+        {
+            "label": "MOVE_PAIN_SPLIT",
+            "zh": "分担痛苦",
+            "en": "Pain Split"
+        },
+        {
+            "label": "MOVE_SACRED_FIRE",
+            "zh": "神圣之火",
+            "en": "Sacred Fire"
+        },
+        {
+            "label": "MOVE_MAGNITUDE",
+            "zh": "震级",
+            "en": "Magnitude"
+        },
+        {
+            "label": "MOVE_DYNAMIC_PUNCH",
+            "zh": "爆裂拳",
+            "en": "DynamicPunch"
+        },
+        {
+            "label": "MOVE_MEGAHORN",
+            "zh": "超级角击",
+            "en": "Megahorn"
+        },
+        {
+            "label": "MOVE_DRAGON_BREATH",
+            "zh": "龙息",
+            "en": "DragonBreath"
+        },
+        {
+            "label": "MOVE_BATON_PASS",
+            "zh": "接棒",
+            "en": "Baton Pass"
+        },
+        {
+            "label": "MOVE_ENCORE",
+            "zh": "再来一次",
+            "en": "Encore"
+        },
+        {
+            "label": "MOVE_PURSUIT",
+            "zh": "追打",
+            "en": "Pursuit"
+        },
+        {
+            "label": "MOVE_RAPID_SPIN",
+            "zh": "高速旋转",
+            "en": "Rapid Spin"
+        },
+        {
+            "label": "MOVE_SWEET_SCENT",
+            "zh": "甜甜香气",
+            "en": "Sweet Scent"
+        },
+        {
+            "label": "MOVE_IRON_TAIL",
+            "zh": "铁尾",
+            "en": "Iron Tail"
+        },
+        {
+            "label": "MOVE_METAL_CLAW",
+            "zh": "金属爪",
+            "en": "Metal Claw"
+        },
+        {
+            "label": "MOVE_VITAL_THROW",
+            "zh": "借力摔",
+            "en": "Vital Throw"
+        },
+        {
+            "label": "MOVE_MORNING_SUN",
+            "zh": "晨光",
+            "en": "Morning Sun"
+        },
+        {
+            "label": "MOVE_SYNTHESIS",
+            "zh": "光合作用",
+            "en": "Synthesis"
+        },
+        {
+            "label": "MOVE_MOONLIGHT",
+            "zh": "月光",
+            "en": "Moonlight"
+        },
+        {
+            "label": "MOVE_HIDDEN_POWER",
+            "zh": "觉醒力量",
+            "en": "Hidden Power"
+        },
+        {
+            "label": "MOVE_CROSS_CHOP",
+            "zh": "十字劈",
+            "en": "Cross Chop"
+        },
+        {
+            "label": "MOVE_TWISTER",
+            "zh": "龙卷风",
+            "en": "Twister"
+        },
+        {
+            "label": "MOVE_RAIN_DANCE",
+            "zh": "求雨",
+            "en": "Rain Dance"
+        },
+        {
+            "label": "MOVE_SUNNY_DAY",
+            "zh": "大晴天",
+            "en": "Sunny Day"
+        },
+        {
+            "label": "MOVE_CRUNCH",
+            "zh": "咬碎",
+            "en": "Crunch"
+        },
+        {
+            "label": "MOVE_MIRROR_COAT",
+            "zh": "镜面反射",
+            "en": "Mirror Coat"
+        },
+        {
+            "label": "MOVE_PSYCH_UP",
+            "zh": "自我暗示",
+            "en": "Psych Up"
+        },
+        {
+            "label": "MOVE_EXTREME_SPEED",
+            "zh": "神速",
+            "en": "ExtremeSpeed"
+        },
+        {
+            "label": "MOVE_ANCIENT_POWER",
+            "zh": "原始之力",
+            "en": "AncientPower"
+        },
+        {
+            "label": "MOVE_SHADOW_BALL",
+            "zh": "暗影球",
+            "en": "Shadow Ball"
+        },
+        {
+            "label": "MOVE_FUTURE_SIGHT",
+            "zh": "预知未来",
+            "en": "Future Sight"
+        },
+        {
+            "label": "MOVE_ROCK_SMASH",
+            "zh": "碎岩",
+            "en": "Rock Smash"
+        },
+        {
+            "label": "MOVE_WHIRLPOOL",
+            "zh": "潮旋",
+            "en": "Whirlpool"
+        },
+        {
+            "label": "MOVE_BEAT_UP",
+            "zh": "围攻",
+            "en": "Beat Up"
+        },
+        {
+            "label": "MOVE_FAKE_OUT",
+            "zh": "击掌奇袭",
+            "en": "Fake Out"
+        },
+        {
+            "label": "MOVE_UPROAR",
+            "zh": "吵闹",
+            "en": "Uproar"
+        },
+        {
+            "label": "MOVE_STOCKPILE",
+            "zh": "蓄力",
+            "en": "Stockpile"
+        },
+        {
+            "label": "MOVE_SPIT_UP",
+            "zh": "喷出",
+            "en": "Spit Up"
+        },
+        {
+            "label": "MOVE_SWALLOW",
+            "zh": "吞下",
+            "en": "Swallow"
+        },
+        {
+            "label": "MOVE_HEAT_WAVE",
+            "zh": "热风",
+            "en": "Heat Wave"
+        },
+        {
+            "label": "MOVE_HAIL",
+            "zh": "冰雹",
+            "en": "Hail"
+        },
+        {
+            "label": "MOVE_TORMENT",
+            "zh": "无理取闹",
+            "en": "Torment"
+        },
+        {
+            "label": "MOVE_FLATTER",
+            "zh": "吹捧",
+            "en": "Flatter"
+        },
+        {
+            "label": "MOVE_WILL_O_WISP",
+            "zh": "鬼火",
+            "en": "Will-o-Wisp"
+        },
+        {
+            "label": "MOVE_MEMENTO",
+            "zh": "临别礼物",
+            "en": "Memento"
+        },
+        {
+            "label": "MOVE_FACADE",
+            "zh": "硬撑",
+            "en": "Facade"
+        },
+        {
+            "label": "MOVE_FOCUS_PUNCH",
+            "zh": "真气拳",
+            "en": "Focus Punch"
+        },
+        {
+            "label": "MOVE_SMELLING_SALTS",
+            "zh": "清醒",
+            "en": "SmellngSalts"
+        },
+        {
+            "label": "MOVE_FOLLOW_ME",
+            "zh": "看我嘛",
+            "en": "Follow Me"
+        },
+        {
+            "label": "MOVE_NATURE_POWER",
+            "zh": "自然之力",
+            "en": "Nature Power"
+        },
+        {
+            "label": "MOVE_CHARGE",
+            "zh": "充电",
+            "en": "Charge"
+        },
+        {
+            "label": "MOVE_TAUNT",
+            "zh": "挑衅",
+            "en": "Taunt"
+        },
+        {
+            "label": "MOVE_HELPING_HAND",
+            "zh": "帮助",
+            "en": "Helping Hand"
+        },
+        {
+            "label": "MOVE_TRICK",
+            "zh": "戏法",
+            "en": "Trick"
+        },
+        {
+            "label": "MOVE_ROLE_PLAY",
+            "zh": "扮演",
+            "en": "Role Play"
+        },
+        {
+            "label": "MOVE_WISH",
+            "zh": "祈愿",
+            "en": "Wish"
+        },
+        {
+            "label": "MOVE_ASSIST",
+            "zh": "借助",
+            "en": "Assist"
+        },
+        {
+            "label": "MOVE_INGRAIN",
+            "zh": "扎根",
+            "en": "Ingrain"
+        },
+        {
+            "label": "MOVE_SUPERPOWER",
+            "zh": "蛮力",
+            "en": "Superpower"
+        },
+        {
+            "label": "MOVE_MAGIC_COAT",
+            "zh": "魔法反射",
+            "en": "Magic Coat"
+        },
+        {
+            "label": "MOVE_RECYCLE",
+            "zh": "回收利用",
+            "en": "Recycle"
+        },
+        {
+            "label": "MOVE_REVENGE",
+            "zh": "报复",
+            "en": "Revenge"
+        },
+        {
+            "label": "MOVE_BRICK_BREAK",
+            "zh": "劈瓦",
+            "en": "Brick Break"
+        },
+        {
+            "label": "MOVE_YAWN",
+            "zh": "哈欠",
+            "en": "Yawn"
+        },
+        {
+            "label": "MOVE_KNOCK_OFF",
+            "zh": "拍落",
+            "en": "Knock Off"
+        },
+        {
+            "label": "MOVE_ENDEAVOR",
+            "zh": "蛮干",
+            "en": "Endeavor"
+        },
+        {
+            "label": "MOVE_ERUPTION",
+            "zh": "喷火",
+            "en": "Eruption"
+        },
+        {
+            "label": "MOVE_SKILL_SWAP",
+            "zh": "特性互换",
+            "en": "Skill Swap"
+        },
+        {
+            "label": "MOVE_IMPRISON",
+            "zh": "封印",
+            "en": "Imprison"
+        },
+        {
+            "label": "MOVE_REFRESH",
+            "zh": "焕然一新",
+            "en": "Refresh"
+        },
+        {
+            "label": "MOVE_GRUDGE",
+            "zh": "怨念",
+            "en": "Grudge"
+        },
+        {
+            "label": "MOVE_SNATCH",
+            "zh": "抢夺",
+            "en": "Snatch"
+        },
+        {
+            "label": "MOVE_SECRET_POWER",
+            "zh": "秘密之力",
+            "en": "Secret Power"
+        },
+        {
+            "label": "MOVE_DIVE",
+            "zh": "潜水",
+            "en": "Dive"
+        },
+        {
+            "label": "MOVE_ARM_THRUST",
+            "zh": "猛推",
+            "en": "Arm Thrust"
+        },
+        {
+            "label": "MOVE_CAMOUFLAGE",
+            "zh": "保护色",
+            "en": "Camouflage"
+        },
+        {
+            "label": "MOVE_TAIL_GLOW",
+            "zh": "萤火",
+            "en": "Tail Glow"
+        },
+        {
+            "label": "MOVE_LUSTER_PURGE",
+            "zh": "洁净光芒",
+            "en": "Luster Purge"
+        },
+        {
+            "label": "MOVE_MIST_BALL",
+            "zh": "薄雾球",
+            "en": "Mist Ball"
+        },
+        {
+            "label": "MOVE_FEATHER_DANCE",
+            "zh": "羽毛舞",
+            "en": "FeatherDance"
+        },
+        {
+            "label": "MOVE_TEETER_DANCE",
+            "zh": "摇晃舞",
+            "en": "Teeter Dance"
+        },
+        {
+            "label": "MOVE_BLAZE_KICK",
+            "zh": "火焰踢",
+            "en": "Blaze Kick"
+        },
+        {
+            "label": "MOVE_MUD_SPORT",
+            "zh": "玩泥巴",
+            "en": "Mud Sport"
+        },
+        {
+            "label": "MOVE_ICE_BALL",
+            "zh": "冰球",
+            "en": "Ice Ball"
+        },
+        {
+            "label": "MOVE_NEEDLE_ARM",
+            "zh": "尖刺臂",
+            "en": "Needle Arm"
+        },
+        {
+            "label": "MOVE_SLACK_OFF",
+            "zh": "偷懒",
+            "en": "Slack Off"
+        },
+        {
+            "label": "MOVE_HYPER_VOICE",
+            "zh": "巨声",
+            "en": "Hyper Voice"
+        },
+        {
+            "label": "MOVE_POISON_FANG",
+            "zh": "剧毒牙",
+            "en": "Poison Fang"
+        },
+        {
+            "label": "MOVE_CRUSH_CLAW",
+            "zh": "撕裂爪",
+            "en": "Crush Claw"
+        },
+        {
+            "label": "MOVE_BLAST_BURN",
+            "zh": "爆炸烈焰",
+            "en": "Blast Burn"
+        },
+        {
+            "label": "MOVE_HYDRO_CANNON",
+            "zh": "加农水炮",
+            "en": "Hydro Cannon"
+        },
+        {
+            "label": "MOVE_METEOR_MASH",
+            "zh": "彗星拳",
+            "en": "Meteor Mash"
+        },
+        {
+            "label": "MOVE_ASTONISH",
+            "zh": "惊吓",
+            "en": "Astonish"
+        },
+        {
+            "label": "MOVE_WEATHER_BALL",
+            "zh": "气象球",
+            "en": "Weather Ball"
+        },
+        {
+            "label": "MOVE_AROMATHERAPY",
+            "zh": "芳香治疗",
+            "en": "Aromatherapy"
+        },
+        {
+            "label": "MOVE_FAKE_TEARS",
+            "zh": "假哭",
+            "en": "Fake Tears"
+        },
+        {
+            "label": "MOVE_AIR_CUTTER",
+            "zh": "空气利刃",
+            "en": "Air Cutter"
+        },
+        {
+            "label": "MOVE_OVERHEAT",
+            "zh": "过热",
+            "en": "Overheat"
+        },
+        {
+            "label": "MOVE_ODOR_SLEUTH",
+            "zh": "气味侦测",
+            "en": "Odor Sleuth"
+        },
+        {
+            "label": "MOVE_ROCK_TOMB",
+            "zh": "岩石封锁",
+            "en": "Rock Tomb"
+        },
+        {
+            "label": "MOVE_SILVER_WIND",
+            "zh": "银色旋风",
+            "en": "Silver Wind"
+        },
+        {
+            "label": "MOVE_METAL_SOUND",
+            "zh": "金属音",
+            "en": "Metal Sound"
+        },
+        {
+            "label": "MOVE_GRASS_WHISTLE",
+            "zh": "草笛",
+            "en": "GrassWhistle"
+        },
+        {
+            "label": "MOVE_TICKLE",
+            "zh": "挠痒",
+            "en": "Tickle"
+        },
+        {
+            "label": "MOVE_COSMIC_POWER",
+            "zh": "宇宙力量",
+            "en": "Cosmic Power"
+        },
+        {
+            "label": "MOVE_WATER_SPOUT",
+            "zh": "喷水",
+            "en": "Water Spout"
+        },
+        {
+            "label": "MOVE_SIGNAL_BEAM",
+            "zh": "信号光束",
+            "en": "Signal Beam"
+        },
+        {
+            "label": "MOVE_SHADOW_PUNCH",
+            "zh": "暗影拳",
+            "en": "Shadow Punch"
+        },
+        {
+            "label": "MOVE_EXTRASENSORY",
+            "zh": "神通力",
+            "en": "Extrasensory"
+        },
+        {
+            "label": "MOVE_SKY_UPPERCUT",
+            "zh": "冲天拳",
+            "en": "Sky Uppercut"
+        },
+        {
+            "label": "MOVE_SAND_TOMB",
+            "zh": "流沙地狱",
+            "en": "Sand Tomb"
+        },
+        {
+            "label": "MOVE_SHEER_COLD",
+            "zh": "绝对零度",
+            "en": "Sheer Cold"
+        },
+        {
+            "label": "MOVE_MUDDY_WATER",
+            "zh": "浊流",
+            "en": "Muddy Water"
+        },
+        {
+            "label": "MOVE_BULLET_SEED",
+            "zh": "种子机关枪",
+            "en": "Bullet Seed"
+        },
+        {
+            "label": "MOVE_AERIAL_ACE",
+            "zh": "燕返",
+            "en": "Aerial Ace"
+        },
+        {
+            "label": "MOVE_ICICLE_SPEAR",
+            "zh": "冰锥",
+            "en": "Icicle Spear"
+        },
+        {
+            "label": "MOVE_IRON_DEFENSE",
+            "zh": "铁壁",
+            "en": "Iron Defense"
+        },
+        {
+            "label": "MOVE_BLOCK",
+            "zh": "挡路",
+            "en": "Block"
+        },
+        {
+            "label": "MOVE_HOWL",
+            "zh": "长嚎",
+            "en": "Howl"
+        },
+        {
+            "label": "MOVE_DRAGON_CLAW",
+            "zh": "龙爪",
+            "en": "Dragon Claw"
+        },
+        {
+            "label": "MOVE_FRENZY_PLANT",
+            "zh": "疯狂植物",
+            "en": "Frenzy Plant"
+        },
+        {
+            "label": "MOVE_BULK_UP",
+            "zh": "健美",
+            "en": "Bulk Up"
+        },
+        {
+            "label": "MOVE_BOUNCE",
+            "zh": "弹跳",
+            "en": "Bounce"
+        },
+        {
+            "label": "MOVE_MUD_SHOT",
+            "zh": "泥巴射击",
+            "en": "Mud Shot"
+        },
+        {
+            "label": "MOVE_POISON_TAIL",
+            "zh": "毒尾",
+            "en": "Poison Tail"
+        },
+        {
+            "label": "MOVE_COVET",
+            "zh": "渴望",
+            "en": "Covet"
+        },
+        {
+            "label": "MOVE_VOLT_TACKLE",
+            "zh": "伏特攻击",
+            "en": "Volt Tackle"
+        },
+        {
+            "label": "MOVE_MAGICAL_LEAF",
+            "zh": "魔法叶",
+            "en": "Magical Leaf"
+        },
+        {
+            "label": "MOVE_WATER_SPORT",
+            "zh": "玩水",
+            "en": "Water Sport"
+        },
+        {
+            "label": "MOVE_CALM_MIND",
+            "zh": "冥想",
+            "en": "Calm Mind"
+        },
+        {
+            "label": "MOVE_LEAF_BLADE",
+            "zh": "叶刃",
+            "en": "Leaf Blade"
+        },
+        {
+            "label": "MOVE_DRAGON_DANCE",
+            "zh": "龙之舞",
+            "en": "Dragon Dance"
+        },
+        {
+            "label": "MOVE_ROCK_BLAST",
+            "zh": "岩石爆击",
+            "en": "Rock Blast"
+        },
+        {
+            "label": "MOVE_SHOCK_WAVE",
+            "zh": "电击波",
+            "en": "Shock Wave"
+        },
+        {
+            "label": "MOVE_WATER_PULSE",
+            "zh": "水之波动",
+            "en": "Water Pulse"
+        },
+        {
+            "label": "MOVE_DOOM_DESIRE",
+            "zh": "破灭之愿",
+            "en": "Doom Desire"
+        },
+        {
+            "label": "MOVE_PSYCHO_BOOST",
+            "zh": "精神突进",
+            "en": "Psycho Boost"
+        },
+        {
+            "label": "MOVE_ROOST",
+            "zh": "羽栖",
+            "en": "Roost"
+        },
+        {
+            "label": "MOVE_GRAVITY",
+            "zh": "重力",
+            "en": "Gravity"
+        },
+        {
+            "label": "MOVE_MIRACLE_EYE",
+            "zh": "奇迹之眼",
+            "en": "Miracle Eye"
+        },
+        {
+            "label": "MOVE_WAKE_UP_SLAP",
+            "zh": "唤醒巴掌",
+            "en": "Wake-Up Slap"
+        },
+        {
+            "label": "MOVE_HAMMER_ARM",
+            "zh": "臂锤",
+            "en": "Hammer Arm"
+        },
+        {
+            "label": "MOVE_GYRO_BALL",
+            "zh": "陀螺球",
+            "en": "Gyro Ball"
+        },
+        {
+            "label": "MOVE_HEALING_WISH",
+            "zh": "治愈之愿",
+            "en": "Healing Wish"
+        },
+        {
+            "label": "MOVE_BRINE",
+            "zh": "盐水",
+            "en": "Brine"
+        },
+        {
+            "label": "MOVE_NATURAL_GIFT",
+            "zh": "自然之恩",
+            "en": "Natural Gift"
+        },
+        {
+            "label": "MOVE_FEINT",
+            "zh": "佯攻",
+            "en": "Feint"
+        },
+        {
+            "label": "MOVE_PLUCK",
+            "zh": "啄食",
+            "en": "Pluck"
+        },
+        {
+            "label": "MOVE_TAILWIND",
+            "zh": "顺风",
+            "en": "Tailwind"
+        },
+        {
+            "label": "MOVE_ACUPRESSURE",
+            "zh": "点穴",
+            "en": "Acupressure"
+        },
+        {
+            "label": "MOVE_METAL_BURST",
+            "zh": "金属爆炸",
+            "en": "Metal Burst"
+        },
+        {
+            "label": "MOVE_U_TURN",
+            "zh": "急速折返",
+            "en": "U-turn"
+        },
+        {
+            "label": "MOVE_CLOSE_COMBAT",
+            "zh": "近身战",
+            "en": "Close Combat"
+        },
+        {
+            "label": "MOVE_PAYBACK",
+            "zh": "以牙还牙",
+            "en": "Payback"
+        },
+        {
+            "label": "MOVE_ASSURANCE",
+            "zh": "恶意追击",
+            "en": "Assurance"
+        },
+        {
+            "label": "MOVE_EMBARGO",
+            "zh": "查封",
+            "en": "Embargo"
+        },
+        {
+            "label": "MOVE_FLING",
+            "zh": "投掷",
+            "en": "Fling"
+        },
+        {
+            "label": "MOVE_PSYCHO_SHIFT",
+            "zh": "精神转移",
+            "en": "Psycho Shift"
+        },
+        {
+            "label": "MOVE_TRUMP_CARD",
+            "zh": "王牌",
+            "en": "Trump Card"
+        },
+        {
+            "label": "MOVE_HEAL_BLOCK",
+            "zh": "回复封锁",
+            "en": "Heal Block"
+        },
+        {
+            "label": "MOVE_WRING_OUT",
+            "zh": "绞紧",
+            "en": "Wring Out"
+        },
+        {
+            "label": "MOVE_POWER_TRICK",
+            "zh": "力量戏法",
+            "en": "Power Trick"
+        },
+        {
+            "label": "MOVE_GASTRO_ACID",
+            "zh": "胃液",
+            "en": "Gastro Acid"
+        },
+        {
+            "label": "MOVE_LUCKY_CHANT",
+            "zh": "幸运咒语",
+            "en": "Lucky Chant"
+        },
+        {
+            "label": "MOVE_ME_FIRST",
+            "zh": "抢先一步",
+            "en": "Me First"
+        },
+        {
+            "label": "MOVE_COPYCAT",
+            "zh": "仿效",
+            "en": "Copycat"
+        },
+        {
+            "label": "MOVE_POWER_SWAP",
+            "zh": "力量互换",
+            "en": "Power Swap"
+        },
+        {
+            "label": "MOVE_GUARD_SWAP",
+            "zh": "防守互换",
+            "en": "Guard Swap"
+        },
+        {
+            "label": "MOVE_PUNISHMENT",
+            "zh": "惩罚",
+            "en": "Punishment"
+        },
+        {
+            "label": "MOVE_LAST_RESORT",
+            "zh": "珍藏",
+            "en": "Last Resort"
+        },
+        {
+            "label": "MOVE_WORRY_SEED",
+            "zh": "烦恼种子",
+            "en": "Worry Seed"
+        },
+        {
+            "label": "MOVE_SUCKER_PUNCH",
+            "zh": "突袭",
+            "en": "Sucker Punch"
+        },
+        {
+            "label": "MOVE_TOXIC_SPIKES",
+            "zh": "毒菱",
+            "en": "Toxic Spikes"
+        },
+        {
+            "label": "MOVE_HEART_SWAP",
+            "zh": "心灵互换",
+            "en": "Heart Swap"
+        },
+        {
+            "label": "MOVE_AQUA_RING",
+            "zh": "水流环",
+            "en": "Aqua Ring"
+        },
+        {
+            "label": "MOVE_MAGNET_RISE",
+            "zh": "电磁飘浮",
+            "en": "Magnet Rise"
+        },
+        {
+            "label": "MOVE_FLARE_BLITZ",
+            "zh": "闪焰冲锋",
+            "en": "Flare Blitz"
+        },
+        {
+            "label": "MOVE_FORCE_PALM",
+            "zh": "发劲",
+            "en": "Force Palm"
+        },
+        {
+            "label": "MOVE_AURA_SPHERE",
+            "zh": "波导弹",
+            "en": "Aura Sphere"
+        },
+        {
+            "label": "MOVE_ROCK_POLISH",
+            "zh": "岩石打磨",
+            "en": "Rock Polish"
+        },
+        {
+            "label": "MOVE_POISON_JAB",
+            "zh": "毒击",
+            "en": "Poison Jab"
+        },
+        {
+            "label": "MOVE_DARK_PULSE",
+            "zh": "恶之波动",
+            "en": "Dark Pulse"
+        },
+        {
+            "label": "MOVE_NIGHT_SLASH",
+            "zh": "暗袭要害",
+            "en": "Night Slash"
+        },
+        {
+            "label": "MOVE_AQUA_TAIL",
+            "zh": "水流尾",
+            "en": "Aqua Tail"
+        },
+        {
+            "label": "MOVE_SEED_BOMB",
+            "zh": "种子炸弹",
+            "en": "Seed Bomb"
+        },
+        {
+            "label": "MOVE_AIR_SLASH",
+            "zh": "空气斩",
+            "en": "Air Slash"
+        },
+        {
+            "label": "MOVE_X_SCISSOR",
+            "zh": "十字剪",
+            "en": "X-Scissor"
+        },
+        {
+            "label": "MOVE_BUG_BUZZ",
+            "zh": "虫鸣",
+            "en": "Bug Buzz"
+        },
+        {
+            "label": "MOVE_DRAGON_PULSE",
+            "zh": "龙之波动",
+            "en": "Dragon Pulse"
+        },
+        {
+            "label": "MOVE_DRAGON_RUSH",
+            "zh": "龙之俯冲",
+            "en": "Dragon Rush"
+        },
+        {
+            "label": "MOVE_POWER_GEM",
+            "zh": "力量宝石",
+            "en": "Power Gem"
+        },
+        {
+            "label": "MOVE_DRAIN_PUNCH",
+            "zh": "吸取拳",
+            "en": "Drain Punch"
+        },
+        {
+            "label": "MOVE_VACUUM_WAVE",
+            "zh": "真空波",
+            "en": "Vacuum Wave"
+        },
+        {
+            "label": "MOVE_FOCUS_BLAST",
+            "zh": "真气弹",
+            "en": "Focus Blast"
+        },
+        {
+            "label": "MOVE_ENERGY_BALL",
+            "zh": "能量球",
+            "en": "Energy Ball"
+        },
+        {
+            "label": "MOVE_BRAVE_BIRD",
+            "zh": "勇鸟猛攻",
+            "en": "Brave Bird"
+        },
+        {
+            "label": "MOVE_EARTH_POWER",
+            "zh": "大地之力",
+            "en": "Earth Power"
+        },
+        {
+            "label": "MOVE_SWITCHEROO",
+            "zh": "掉包",
+            "en": "Switcheroo"
+        },
+        {
+            "label": "MOVE_GIGA_IMPACT",
+            "zh": "终极冲击",
+            "en": "Giga Impact"
+        },
+        {
+            "label": "MOVE_NASTY_PLOT",
+            "zh": "诡计",
+            "en": "Nasty Plot"
+        },
+        {
+            "label": "MOVE_BULLET_PUNCH",
+            "zh": "子弹拳",
+            "en": "Bullet Punch"
+        },
+        {
+            "label": "MOVE_AVALANCHE",
+            "zh": "雪崩",
+            "en": "Avalanche"
+        },
+        {
+            "label": "MOVE_ICE_SHARD",
+            "zh": "冰砾",
+            "en": "Ice Shard"
+        },
+        {
+            "label": "MOVE_SHADOW_CLAW",
+            "zh": "暗影爪",
+            "en": "Shadow Claw"
+        },
+        {
+            "label": "MOVE_THUNDER_FANG",
+            "zh": "雷电牙",
+            "en": "Thunder Fang"
+        },
+        {
+            "label": "MOVE_ICE_FANG",
+            "zh": "冰冻牙",
+            "en": "Ice Fang"
+        },
+        {
+            "label": "MOVE_FIRE_FANG",
+            "zh": "火焰牙",
+            "en": "Fire Fang"
+        },
+        {
+            "label": "MOVE_SHADOW_SNEAK",
+            "zh": "影子偷袭",
+            "en": "Shadow Sneak"
+        },
+        {
+            "label": "MOVE_MUD_BOMB",
+            "zh": "泥巴炸弹",
+            "en": "Mud Bomb"
+        },
+        {
+            "label": "MOVE_PSYCHO_CUT",
+            "zh": "精神利刃",
+            "en": "Psycho Cut"
+        },
+        {
+            "label": "MOVE_ZEN_HEADBUTT",
+            "zh": "意念头锤",
+            "en": "Zen Headbutt"
+        },
+        {
+            "label": "MOVE_MIRROR_SHOT",
+            "zh": "镜光射击",
+            "en": "Mirror Shot"
+        },
+        {
+            "label": "MOVE_FLASH_CANNON",
+            "zh": "加农光炮",
+            "en": "Flash Cannon"
+        },
+        {
+            "label": "MOVE_ROCK_CLIMB",
+            "zh": "攀岩",
+            "en": "Rock Climb"
+        },
+        {
+            "label": "MOVE_DEFOG",
+            "zh": "清除浓雾",
+            "en": "Defog"
+        },
+        {
+            "label": "MOVE_TRICK_ROOM",
+            "zh": "戏法空间",
+            "en": "Trick Room"
+        },
+        {
+            "label": "MOVE_DRACO_METEOR",
+            "zh": "流星群",
+            "en": "Draco Meteor"
+        },
+        {
+            "label": "MOVE_DISCHARGE",
+            "zh": "放电",
+            "en": "Discharge"
+        },
+        {
+            "label": "MOVE_LAVA_PLUME",
+            "zh": "喷烟",
+            "en": "Lava Plume"
+        },
+        {
+            "label": "MOVE_LEAF_STORM",
+            "zh": "飞叶风暴",
+            "en": "Leaf Storm"
+        },
+        {
+            "label": "MOVE_POWER_WHIP",
+            "zh": "强力鞭打",
+            "en": "Power Whip"
+        },
+        {
+            "label": "MOVE_ROCK_WRECKER",
+            "zh": "岩石炮",
+            "en": "Rock Wrecker"
+        },
+        {
+            "label": "MOVE_CROSS_POISON",
+            "zh": "十字毒刃",
+            "en": "Cross Poison"
+        },
+        {
+            "label": "MOVE_GUNK_SHOT",
+            "zh": "垃圾射击",
+            "en": "Gunk Shot"
+        },
+        {
+            "label": "MOVE_IRON_HEAD",
+            "zh": "铁头",
+            "en": "Iron Head"
+        },
+        {
+            "label": "MOVE_MAGNET_BOMB",
+            "zh": "磁铁炸弹",
+            "en": "Magnet Bomb"
+        },
+        {
+            "label": "MOVE_STONE_EDGE",
+            "zh": "尖石攻击",
+            "en": "Stone Edge"
+        },
+        {
+            "label": "MOVE_CAPTIVATE",
+            "zh": "诱惑",
+            "en": "Captivate"
+        },
+        {
+            "label": "MOVE_STEALTH_ROCK",
+            "zh": "隐形岩",
+            "en": "Stealth Rock"
+        },
+        {
+            "label": "MOVE_GRASS_KNOT",
+            "zh": "Grass Knot",
+            "en": "Grass Knot"
+        },
+        {
+            "label": "MOVE_CHATTER",
+            "zh": "喋喋不休",
+            "en": "Chatter"
+        },
+        {
+            "label": "MOVE_JUDGMENT",
+            "zh": "制裁光砾",
+            "en": "Judgment"
+        },
+        {
+            "label": "MOVE_BUG_BITE",
+            "zh": "虫咬",
+            "en": "Bug Bite"
+        },
+        {
+            "label": "MOVE_CHARGE_BEAM",
+            "zh": "充电光束",
+            "en": "Charge Beam"
+        },
+        {
+            "label": "MOVE_WOOD_HAMMER",
+            "zh": "木槌",
+            "en": "Wood Hammer"
+        },
+        {
+            "label": "MOVE_AQUA_JET",
+            "zh": "水流喷射",
+            "en": "Aqua Jet"
+        },
+        {
+            "label": "MOVE_ATTACK_ORDER",
+            "zh": "攻击指令",
+            "en": "Attack Order"
+        },
+        {
+            "label": "MOVE_DEFEND_ORDER",
+            "zh": "防御指令",
+            "en": "Defend Order"
+        },
+        {
+            "label": "MOVE_HEAL_ORDER",
+            "zh": "回复指令",
+            "en": "Heal Order"
+        },
+        {
+            "label": "MOVE_HEAD_SMASH",
+            "zh": "双刃头锤",
+            "en": "Head Smash"
+        },
+        {
+            "label": "MOVE_DOUBLE_HIT",
+            "zh": "二连击",
+            "en": "Double Hit"
+        },
+        {
+            "label": "MOVE_ROAR_OF_TIME",
+            "zh": "时光咆哮",
+            "en": "Roar of Time"
+        },
+        {
+            "label": "MOVE_SPACIAL_REND",
+            "zh": "亚空裂斩",
+            "en": "Spacial Rend"
+        },
+        {
+            "label": "MOVE_LUNAR_DANCE",
+            "zh": "新月舞",
+            "en": "Lunar Dance"
+        },
+        {
+            "label": "MOVE_CRUSH_GRIP",
+            "zh": "捏碎",
+            "en": "Crush Grip"
+        },
+        {
+            "label": "MOVE_MAGMA_STORM",
+            "zh": "熔岩风暴",
+            "en": "Magma Storm"
+        },
+        {
+            "label": "MOVE_DARK_VOID",
+            "zh": "暗黑洞",
+            "en": "Dark Void"
+        },
+        {
+            "label": "MOVE_SEED_FLARE",
+            "zh": "种子闪光",
+            "en": "Seed Flare"
+        },
+        {
+            "label": "MOVE_OMINOUS_WIND",
+            "zh": "奇异之风",
+            "en": "Ominous Wind"
+        },
+        {
+            "label": "MOVE_SHADOW_FORCE",
+            "zh": "暗影潜袭",
+            "en": "Shadow Force"
+        },
+        {
+            "label": "MOVE_HONE_CLAWS",
+            "zh": "磨爪",
+            "en": "Hone Claws"
+        },
+        {
+            "label": "MOVE_WIDE_GUARD",
+            "zh": "广域防守",
+            "en": "Wide Guard"
+        },
+        {
+            "label": "MOVE_GUARD_SPLIT",
+            "zh": "防守平分",
+            "en": "Guard Split"
+        },
+        {
+            "label": "MOVE_POWER_SPLIT",
+            "zh": "力量平分",
+            "en": "Power Split"
+        },
+        {
+            "label": "MOVE_WONDER_ROOM",
+            "zh": "奇妙空间",
+            "en": "Wonder Room"
+        },
+        {
+            "label": "MOVE_PSYSHOCK",
+            "zh": "精神冲击",
+            "en": "Psyshock"
+        },
+        {
+            "label": "MOVE_VENOSHOCK",
+            "zh": "毒液冲击",
+            "en": "Venoshock"
+        },
+        {
+            "label": "MOVE_AUTOTOMIZE",
+            "zh": "身体轻量化",
+            "en": "Autotomize"
+        },
+        {
+            "label": "MOVE_RAGE_POWDER",
+            "zh": "愤怒粉",
+            "en": "Rage Powder"
+        },
+        {
+            "label": "MOVE_TELEKINESIS",
+            "zh": "意念移物",
+            "en": "Telekinesis"
+        },
+        {
+            "label": "MOVE_MAGIC_ROOM",
+            "zh": "魔法空间",
+            "en": "Magic Room"
+        },
+        {
+            "label": "MOVE_SMACK_DOWN",
+            "zh": "击落",
+            "en": "Smack Down"
+        },
+        {
+            "label": "MOVE_STORM_THROW",
+            "zh": "山岚摔",
+            "en": "Storm Throw"
+        },
+        {
+            "label": "MOVE_FLAME_BURST",
+            "zh": "烈焰溅射",
+            "en": "Flame Burst"
+        },
+        {
+            "label": "MOVE_SLUDGE_WAVE",
+            "zh": "污泥波",
+            "en": "Sludge Wave"
+        },
+        {
+            "label": "MOVE_QUIVER_DANCE",
+            "zh": "蝶舞",
+            "en": "Quiver Dance"
+        },
+        {
+            "label": "MOVE_HEAVY_SLAM",
+            "zh": "重磅冲撞",
+            "en": "Heavy Slam"
+        },
+        {
+            "label": "MOVE_SYNCHRONOISE",
+            "zh": "同步干扰",
+            "en": "Synchronoise"
+        },
+        {
+            "label": "MOVE_ELECTRO_BALL",
+            "zh": "电球",
+            "en": "Electro Ball"
+        },
+        {
+            "label": "MOVE_SOAK",
+            "zh": "浸水",
+            "en": "Soak"
+        },
+        {
+            "label": "MOVE_FLAME_CHARGE",
+            "zh": "蓄能焰袭",
+            "en": "Flame Charge"
+        },
+        {
+            "label": "MOVE_COIL",
+            "zh": "盘蜷",
+            "en": "Coil"
+        },
+        {
+            "label": "MOVE_LOW_SWEEP",
+            "zh": "下盘踢",
+            "en": "Low Sweep"
+        },
+        {
+            "label": "MOVE_ACID_SPRAY",
+            "zh": "酸液炸弹",
+            "en": "Acid Spray"
+        },
+        {
+            "label": "MOVE_FOUL_PLAY",
+            "zh": "欺诈",
+            "en": "Foul Play"
+        },
+        {
+            "label": "MOVE_SIMPLE_BEAM",
+            "zh": "单纯光束",
+            "en": "Simple Beam"
+        },
+        {
+            "label": "MOVE_ENTRAINMENT",
+            "zh": "找伙伴",
+            "en": "Entrainment"
+        },
+        {
+            "label": "MOVE_AFTER_YOU",
+            "zh": "您先请",
+            "en": "After You"
+        },
+        {
+            "label": "MOVE_ROUND",
+            "zh": "轮唱",
+            "en": "Round"
+        },
+        {
+            "label": "MOVE_ECHOED_VOICE",
+            "zh": "回声",
+            "en": "Echoed Voice"
+        },
+        {
+            "label": "MOVE_CHIP_AWAY",
+            "zh": "逐步击破",
+            "en": "Chip Away"
+        },
+        {
+            "label": "MOVE_CLEAR_SMOG",
+            "zh": "清除之烟",
+            "en": "Clear Smog"
+        },
+        {
+            "label": "MOVE_STORED_POWER",
+            "zh": "辅助力量",
+            "en": "Stored Power"
+        },
+        {
+            "label": "MOVE_QUICK_GUARD",
+            "zh": "快速防守",
+            "en": "Quick Guard"
+        },
+        {
+            "label": "MOVE_ALLY_SWITCH",
+            "zh": "交换场地",
+            "en": "Ally Switch"
+        },
+        {
+            "label": "MOVE_SCALD",
+            "zh": "热水",
+            "en": "Scald"
+        },
+        {
+            "label": "MOVE_SHELL_SMASH",
+            "zh": "破壳",
+            "en": "Shell Smash"
+        },
+        {
+            "label": "MOVE_HEAL_PULSE",
+            "zh": "治愈波动",
+            "en": "Heal Pulse"
+        },
+        {
+            "label": "MOVE_HEX",
+            "zh": "祸不单行",
+            "en": "Hex"
+        },
+        {
+            "label": "MOVE_SKY_DROP",
+            "zh": "自由落体",
+            "en": "Sky Drop"
+        },
+        {
+            "label": "MOVE_SHIFT_GEAR",
+            "zh": "换挡",
+            "en": "Shift Gear"
+        },
+        {
+            "label": "MOVE_CIRCLE_THROW",
+            "zh": "巴投",
+            "en": "Circle Throw"
+        },
+        {
+            "label": "MOVE_INCINERATE",
+            "zh": "烧尽",
+            "en": "Incinerate"
+        },
+        {
+            "label": "MOVE_QUASH",
+            "zh": "延后",
+            "en": "Quash"
+        },
+        {
+            "label": "MOVE_ACROBATICS",
+            "zh": "杂技",
+            "en": "Acrobatics"
+        },
+        {
+            "label": "MOVE_REFLECT_TYPE",
+            "zh": "镜面属性",
+            "en": "Reflect Type"
+        },
+        {
+            "label": "MOVE_RETALIATE",
+            "zh": "报仇",
+            "en": "Retaliate"
+        },
+        {
+            "label": "MOVE_FINAL_GAMBIT",
+            "zh": "搏命",
+            "en": "Final Gambit"
+        },
+        {
+            "label": "MOVE_BESTOW",
+            "zh": "传递礼物",
+            "en": "Bestow"
+        },
+        {
+            "label": "MOVE_INFERNO",
+            "zh": "炼狱",
+            "en": "Inferno"
+        },
+        {
+            "label": "MOVE_WATER_PLEDGE",
+            "zh": "水之誓约",
+            "en": "Water Pledge"
+        },
+        {
+            "label": "MOVE_FIRE_PLEDGE",
+            "zh": "火之誓约",
+            "en": "Fire Pledge"
+        },
+        {
+            "label": "MOVE_GRASS_PLEDGE",
+            "zh": "草之誓约",
+            "en": "Grass Pledge"
+        },
+        {
+            "label": "MOVE_VOLT_SWITCH",
+            "zh": "伏特替换",
+            "en": "Volt Switch"
+        },
+        {
+            "label": "MOVE_STRUGGLE_BUG",
+            "zh": "虫之抵抗",
+            "en": "Struggle Bug"
+        },
+        {
+            "label": "MOVE_BULLDOZE",
+            "zh": "重踏",
+            "en": "Bulldoze"
+        },
+        {
+            "label": "MOVE_FROST_BREATH",
+            "zh": "冰息",
+            "en": "Frost Breath"
+        },
+        {
+            "label": "MOVE_DRAGON_TAIL",
+            "zh": "龙尾",
+            "en": "Dragon Tail"
+        },
+        {
+            "label": "MOVE_WORK_UP",
+            "zh": "自我激励",
+            "en": "Work Up"
+        },
+        {
+            "label": "MOVE_ELECTROWEB",
+            "zh": "电网",
+            "en": "Electroweb"
+        },
+        {
+            "label": "MOVE_WILD_CHARGE",
+            "zh": "疯狂伏特",
+            "en": "Wild Charge"
+        },
+        {
+            "label": "MOVE_DRILL_RUN",
+            "zh": "直冲钻",
+            "en": "Drill Run"
+        },
+        {
+            "label": "MOVE_DUAL_CHOP",
+            "zh": "二连劈",
+            "en": "Dual Chop"
+        },
+        {
+            "label": "MOVE_HEART_STAMP",
+            "zh": "爱心印章",
+            "en": "Heart Stamp"
+        },
+        {
+            "label": "MOVE_HORN_LEECH",
+            "zh": "木角",
+            "en": "Horn Leech"
+        },
+        {
+            "label": "MOVE_SACRED_SWORD",
+            "zh": "圣剑",
+            "en": "Sacred Sword"
+        },
+        {
+            "label": "MOVE_RAZOR_SHELL",
+            "zh": "贝壳刃",
+            "en": "Razor Shell"
+        },
+        {
+            "label": "MOVE_HEAT_CRASH",
+            "zh": "高温重压",
+            "en": "Heat Crash"
+        },
+        {
+            "label": "MOVE_LEAF_TORNADO",
+            "zh": "青草搅拌器",
+            "en": "Leaf Tornado"
+        },
+        {
+            "label": "MOVE_STEAMROLLER",
+            "zh": "疯狂滚压",
+            "en": "Steamroller"
+        },
+        {
+            "label": "MOVE_COTTON_GUARD",
+            "zh": "棉花防守",
+            "en": "Cotton Guard"
+        },
+        {
+            "label": "MOVE_NIGHT_DAZE",
+            "zh": "暗黑爆破",
+            "en": "Night Daze"
+        },
+        {
+            "label": "MOVE_PSYSTRIKE",
+            "zh": "精神击破",
+            "en": "Psystrike"
+        },
+        {
+            "label": "MOVE_TAIL_SLAP",
+            "zh": "扫尾拍打",
+            "en": "Tail Slap"
+        },
+        {
+            "label": "MOVE_HURRICANE",
+            "zh": "暴风",
+            "en": "Hurricane"
+        },
+        {
+            "label": "MOVE_HEAD_CHARGE",
+            "zh": "爆炸头突击",
+            "en": "Head Charge"
+        },
+        {
+            "label": "MOVE_GEAR_GRIND",
+            "zh": "齿轮飞盘",
+            "en": "Gear Grind"
+        },
+        {
+            "label": "MOVE_SEARING_SHOT",
+            "zh": "火焰弹",
+            "en": "Searing Shot"
+        },
+        {
+            "label": "MOVE_TECHNO_BLAST",
+            "zh": "高科技光炮",
+            "en": "Techno Blast"
+        },
+        {
+            "label": "MOVE_RELIC_SONG",
+            "zh": "古老之歌",
+            "en": "Relic Song"
+        },
+        {
+            "label": "MOVE_SECRET_SWORD",
+            "zh": "神秘之剑",
+            "en": "Secret Sword"
+        },
+        {
+            "label": "MOVE_GLACIATE",
+            "zh": "冰封世界",
+            "en": "Glaciate"
+        },
+        {
+            "label": "MOVE_BOLT_STRIKE",
+            "zh": "雷击",
+            "en": "Bolt Strike"
+        },
+        {
+            "label": "MOVE_BLUE_FLARE",
+            "zh": "青焰",
+            "en": "Blue Flare"
+        },
+        {
+            "label": "MOVE_FIERY_DANCE",
+            "zh": "火之舞",
+            "en": "Fiery Dance"
+        },
+        {
+            "label": "MOVE_FREEZE_SHOCK",
+            "zh": "冰冻伏特",
+            "en": "Freeze Shock"
+        },
+        {
+            "label": "MOVE_ICE_BURN",
+            "zh": "极寒冷焰",
+            "en": "Ice Burn"
+        },
+        {
+            "label": "MOVE_SNARL",
+            "zh": "大声咆哮",
+            "en": "Snarl"
+        },
+        {
+            "label": "MOVE_ICICLE_CRASH",
+            "zh": "冰柱坠击",
+            "en": "Icicle Crash"
+        },
+        {
+            "label": "MOVE_V_CREATE",
+            "zh": "V热焰",
+            "en": "V-create"
+        },
+        {
+            "label": "MOVE_FUSION_FLARE",
+            "zh": "交错火焰",
+            "en": "Fusion Flare"
+        },
+        {
+            "label": "MOVE_FUSION_BOLT",
+            "zh": "交错闪电",
+            "en": "Fusion Bolt"
+        },
+        {
+            "label": "MOVE_FLYING_PRESS",
+            "zh": "飞身重压",
+            "en": "Flying Press"
+        },
+        {
+            "label": "MOVE_MAT_BLOCK",
+            "zh": "掀榻榻米",
+            "en": "Mat Block"
+        },
+        {
+            "label": "MOVE_BELCH",
+            "zh": "打嗝",
+            "en": "Belch"
+        },
+        {
+            "label": "MOVE_ROTOTILLER",
+            "zh": "耕地",
+            "en": "Rototiller"
+        },
+        {
+            "label": "MOVE_STICKY_WEB",
+            "zh": "黏黏网",
+            "en": "Sticky Web"
+        },
+        {
+            "label": "MOVE_FELL_STINGER",
+            "zh": "致命针刺",
+            "en": "Fell Stinger"
+        },
+        {
+            "label": "MOVE_PHANTOM_FORCE",
+            "zh": "潜灵奇袭",
+            "en": "PhantomForce"
+        },
+        {
+            "label": "MOVE_TRICK_OR_TREAT",
+            "zh": "万圣夜",
+            "en": "TrickOrTreat"
+        },
+        {
+            "label": "MOVE_NOBLE_ROAR",
+            "zh": "战吼",
+            "en": "Noble Roar"
+        },
+        {
+            "label": "MOVE_ION_DELUGE",
+            "zh": "等离子浴",
+            "en": "Ion Deluge"
+        },
+        {
+            "label": "MOVE_PARABOLIC_CHARGE",
+            "zh": "抛物面充电",
+            "en": "ParabolcChrg"
+        },
+        {
+            "label": "MOVE_FORESTS_CURSE",
+            "zh": "森林诅咒",
+            "en": "Forest'sCurs"
+        },
+        {
+            "label": "MOVE_PETAL_BLIZZARD",
+            "zh": "落英缤纷",
+            "en": "PetalBlizzrd"
+        },
+        {
+            "label": "MOVE_FREEZE_DRY",
+            "zh": "冷冻干燥",
+            "en": "Freeze-Dry"
+        },
+        {
+            "label": "MOVE_DISARMING_VOICE",
+            "zh": "魅惑之声",
+            "en": "DisrmngVoice"
+        },
+        {
+            "label": "MOVE_PARTING_SHOT",
+            "zh": "抛下狠话",
+            "en": "Parting Shot"
+        },
+        {
+            "label": "MOVE_TOPSY_TURVY",
+            "zh": "颠倒",
+            "en": "Topsy-Turvy"
+        },
+        {
+            "label": "MOVE_DRAINING_KISS",
+            "zh": "吸取之吻",
+            "en": "DrainingKiss"
+        },
+        {
+            "label": "MOVE_CRAFTY_SHIELD",
+            "zh": "戏法防守",
+            "en": "CraftyShield"
+        },
+        {
+            "label": "MOVE_FLOWER_SHIELD",
+            "zh": "鲜花防守",
+            "en": "FlowerShield"
+        },
+        {
+            "label": "MOVE_GRASSY_TERRAIN",
+            "zh": "青草场地",
+            "en": "GrssyTerrain"
+        },
+        {
+            "label": "MOVE_MISTY_TERRAIN",
+            "zh": "薄雾场地",
+            "en": "MistyTerrain"
+        },
+        {
+            "label": "MOVE_ELECTRIFY",
+            "zh": "输电",
+            "en": "Electrify"
+        },
+        {
+            "label": "MOVE_PLAY_ROUGH",
+            "zh": "嬉闹",
+            "en": "Play Rough"
+        },
+        {
+            "label": "MOVE_FAIRY_WIND",
+            "zh": "妖精之风",
+            "en": "Fairy Wind"
+        },
+        {
+            "label": "MOVE_MOONBLAST",
+            "zh": "月亮之力",
+            "en": "Moonblast"
+        },
+        {
+            "label": "MOVE_BOOMBURST",
+            "zh": "爆音波",
+            "en": "Boomburst"
+        },
+        {
+            "label": "MOVE_FAIRY_LOCK",
+            "zh": "妖精之锁",
+            "en": "Fairy Lock"
+        },
+        {
+            "label": "MOVE_KINGS_SHIELD",
+            "zh": "王者盾牌",
+            "en": "King'sShield"
+        },
+        {
+            "label": "MOVE_PLAY_NICE",
+            "zh": "和睦相处",
+            "en": "Play Nice"
+        },
+        {
+            "label": "MOVE_CONFIDE",
+            "zh": "密语",
+            "en": "Confide"
+        },
+        {
+            "label": "MOVE_DIAMOND_STORM",
+            "zh": "钻石风暴",
+            "en": "DiamondStorm"
+        },
+        {
+            "label": "MOVE_STEAM_ERUPTION",
+            "zh": "蒸汽爆炸",
+            "en": "SteamErption"
+        },
+        {
+            "label": "MOVE_HYPERSPACE_HOLE",
+            "zh": "异次元洞",
+            "en": "HyprspceHole"
+        },
+        {
+            "label": "MOVE_WATER_SHURIKEN",
+            "zh": "飞手里剑",
+            "en": "WatrShuriken"
+        },
+        {
+            "label": "MOVE_MYSTICAL_FIRE",
+            "zh": "魔法火焰",
+            "en": "MysticalFire"
+        },
+        {
+            "label": "MOVE_SPIKY_SHIELD",
+            "zh": "尖刺防守",
+            "en": "Spiky Shield"
+        },
+        {
+            "label": "MOVE_AROMATIC_MIST",
+            "zh": "芳香薄雾",
+            "en": "AromaticMist"
+        },
+        {
+            "label": "MOVE_EERIE_IMPULSE",
+            "zh": "怪异电波",
+            "en": "EerieImpulse"
+        },
+        {
+            "label": "MOVE_VENOM_DRENCH",
+            "zh": "毒液陷阱",
+            "en": "Venom Drench"
+        },
+        {
+            "label": "MOVE_POWDER",
+            "zh": "Powder",
+            "en": "Powder"
+        },
+        {
+            "label": "MOVE_GEOMANCY",
+            "zh": "大地掌控",
+            "en": "Geomancy"
+        },
+        {
+            "label": "MOVE_MAGNETIC_FLUX",
+            "zh": "磁场操控",
+            "en": "MagneticFlux"
+        },
+        {
+            "label": "MOVE_HAPPY_HOUR",
+            "zh": "欢乐时光",
+            "en": "Happy Hour"
+        },
+        {
+            "label": "MOVE_ELECTRIC_TERRAIN",
+            "zh": "电气场地",
+            "en": "ElctrcTrrain"
+        },
+        {
+            "label": "MOVE_DAZZLING_GLEAM",
+            "zh": "魔法闪耀",
+            "en": "DazzlngGleam"
+        },
+        {
+            "label": "MOVE_CELEBRATE",
+            "zh": "庆祝",
+            "en": "Celebrate"
+        },
+        {
+            "label": "MOVE_HOLD_HANDS",
+            "zh": "牵手",
+            "en": "Hold Hands"
+        },
+        {
+            "label": "MOVE_BABY_DOLL_EYES",
+            "zh": "圆瞳",
+            "en": "BabyDollEyes"
+        },
+        {
+            "label": "MOVE_NUZZLE",
+            "zh": "蹭蹭脸颊",
+            "en": "Nuzzle"
+        },
+        {
+            "label": "MOVE_HOLD_BACK",
+            "zh": "手下留情",
+            "en": "Hold Back"
+        },
+        {
+            "label": "MOVE_INFESTATION",
+            "zh": "死缠烂打",
+            "en": "Infestation"
+        },
+        {
+            "label": "MOVE_POWER_UP_PUNCH",
+            "zh": "增强拳",
+            "en": "PowerUpPunch"
+        },
+        {
+            "label": "MOVE_OBLIVION_WING",
+            "zh": "死亡之翼",
+            "en": "OblivionWing"
+        },
+        {
+            "label": "MOVE_THOUSAND_ARROWS",
+            "zh": "千箭齐发",
+            "en": "ThousndArrws"
+        },
+        {
+            "label": "MOVE_THOUSAND_WAVES",
+            "zh": "千波激荡",
+            "en": "ThousndWaves"
+        },
+        {
+            "label": "MOVE_LANDS_WRATH",
+            "zh": "大地神力",
+            "en": "Land's Wrath"
+        },
+        {
+            "label": "MOVE_LIGHT_OF_RUIN",
+            "zh": "破灭之光",
+            "en": "LightOfRuin"
+        },
+        {
+            "label": "MOVE_ORIGIN_PULSE",
+            "zh": "根源波动",
+            "en": "Origin Pulse"
+        },
+        {
+            "label": "MOVE_PRECIPICE_BLADES",
+            "zh": "断崖之剑",
+            "en": "PrcipceBldes"
+        },
+        {
+            "label": "MOVE_DRAGON_ASCENT",
+            "zh": "画龙点睛",
+            "en": "DragonAscent"
+        },
+        {
+            "label": "MOVE_HYPERSPACE_FURY",
+            "zh": "异次元猛攻",
+            "en": "HyprspceFury"
+        },
+        {
+            "label": "MOVE_SHORE_UP",
+            "zh": "集沙",
+            "en": "Shore Up"
+        },
+        {
+            "label": "MOVE_FIRST_IMPRESSION",
+            "zh": "迎头一击",
+            "en": "FrstImpressn"
+        },
+        {
+            "label": "MOVE_BANEFUL_BUNKER",
+            "zh": "碉堡",
+            "en": "BanefulBunkr"
+        },
+        {
+            "label": "MOVE_SPIRIT_SHACKLE",
+            "zh": "缝影",
+            "en": "SpiritShackl"
+        },
+        {
+            "label": "MOVE_DARKEST_LARIAT",
+            "zh": "DD金勾臂",
+            "en": "DarkstLariat"
+        },
+        {
+            "label": "MOVE_SPARKLING_ARIA",
+            "zh": "泡影的咏叹调",
+            "en": "SparklngAria"
+        },
+        {
+            "label": "MOVE_ICE_HAMMER",
+            "zh": "冰锤",
+            "en": "Ice Hammer"
+        },
+        {
+            "label": "MOVE_FLORAL_HEALING",
+            "zh": "花疗",
+            "en": "FloralHealng"
+        },
+        {
+            "label": "MOVE_HIGH_HORSEPOWER",
+            "zh": "十万马力",
+            "en": "HighHorsepwr"
+        },
+        {
+            "label": "MOVE_STRENGTH_SAP",
+            "zh": "吸取力量",
+            "en": "Strength Sap"
+        },
+        {
+            "label": "MOVE_SOLAR_BLADE",
+            "zh": "日光刃",
+            "en": "Solar Blade"
+        },
+        {
+            "label": "MOVE_LEAFAGE",
+            "zh": "树叶",
+            "en": "Leafage"
+        },
+        {
+            "label": "MOVE_SPOTLIGHT",
+            "zh": "聚光灯",
+            "en": "Spotlight"
+        },
+        {
+            "label": "MOVE_TOXIC_THREAD",
+            "zh": "毒丝",
+            "en": "Toxic Thread"
+        },
+        {
+            "label": "MOVE_LASER_FOCUS",
+            "zh": "磨砺",
+            "en": "Laser Focus"
+        },
+        {
+            "label": "MOVE_GEAR_UP",
+            "zh": "辅助齿轮",
+            "en": "Gear Up"
+        },
+        {
+            "label": "MOVE_THROAT_CHOP",
+            "zh": "地狱突刺",
+            "en": "Throat Chop"
+        },
+        {
+            "label": "MOVE_POLLEN_PUFF",
+            "zh": "花粉团",
+            "en": "Pollen Puff"
+        },
+        {
+            "label": "MOVE_ANCHOR_SHOT",
+            "zh": "掷锚",
+            "en": "Anchor Shot"
+        },
+        {
+            "label": "MOVE_PSYCHIC_TERRAIN",
+            "zh": "精神场地",
+            "en": "PsychcTrrain"
+        },
+        {
+            "label": "MOVE_LUNGE",
+            "zh": "猛扑",
+            "en": "Lunge"
+        },
+        {
+            "label": "MOVE_FIRE_LASH",
+            "zh": "火焰鞭",
+            "en": "Fire Lash"
+        },
+        {
+            "label": "MOVE_POWER_TRIP",
+            "zh": "嚣张",
+            "en": "Power Trip"
+        },
+        {
+            "label": "MOVE_BURN_UP",
+            "zh": "燃尽",
+            "en": "Burn Up"
+        },
+        {
+            "label": "MOVE_SPEED_SWAP",
+            "zh": "速度互换",
+            "en": "Speed Swap"
+        },
+        {
+            "label": "MOVE_SMART_STRIKE",
+            "zh": "修长之角",
+            "en": "Smart Strike"
+        },
+        {
+            "label": "MOVE_PURIFY",
+            "zh": "净化",
+            "en": "Purify"
+        },
+        {
+            "label": "MOVE_REVELATION_DANCE",
+            "zh": "觉醒之舞",
+            "en": "RvlationDnce"
+        },
+        {
+            "label": "MOVE_CORE_ENFORCER",
+            "zh": "核心惩罚者",
+            "en": "CoreEnforcer"
+        },
+        {
+            "label": "MOVE_TROP_KICK",
+            "zh": "热带踢",
+            "en": "Trop Kick"
+        },
+        {
+            "label": "MOVE_INSTRUCT",
+            "zh": "号令",
+            "en": "Instruct"
+        },
+        {
+            "label": "MOVE_BEAK_BLAST",
+            "zh": "鸟嘴加农炮",
+            "en": "Beak Blast"
+        },
+        {
+            "label": "MOVE_CLANGING_SCALES",
+            "zh": "鳞片噪音",
+            "en": "ClngngScales"
+        },
+        {
+            "label": "MOVE_DRAGON_HAMMER",
+            "zh": "龙锤",
+            "en": "DragonHammer"
+        },
+        {
+            "label": "MOVE_BRUTAL_SWING",
+            "zh": "狂舞挥打",
+            "en": "Brutal Swing"
+        },
+        {
+            "label": "MOVE_AURORA_VEIL",
+            "zh": "极光幕",
+            "en": "Aurora Veil"
+        },
+        {
+            "label": "MOVE_SHELL_TRAP",
+            "zh": "陷阱甲壳",
+            "en": "Shell Trap"
+        },
+        {
+            "label": "MOVE_FLEUR_CANNON",
+            "zh": "花朵加农炮",
+            "en": "Fleur Cannon"
+        },
+        {
+            "label": "MOVE_PSYCHIC_FANGS",
+            "zh": "精神之牙",
+            "en": "PsychicFangs"
+        },
+        {
+            "label": "MOVE_STOMPING_TANTRUM",
+            "zh": "跺脚",
+            "en": "StmpngTantrm"
+        },
+        {
+            "label": "MOVE_SHADOW_BONE",
+            "zh": "暗影之骨",
+            "en": "Shadow Bone"
+        },
+        {
+            "label": "MOVE_ACCELEROCK",
+            "zh": "冲岩",
+            "en": "Accelerock"
+        },
+        {
+            "label": "MOVE_LIQUIDATION",
+            "zh": "水流裂破",
+            "en": "Liquidation"
+        },
+        {
+            "label": "MOVE_PRISMATIC_LASER",
+            "zh": "棱镜镭射",
+            "en": "PrsmaticLasr"
+        },
+        {
+            "label": "MOVE_SPECTRAL_THIEF",
+            "zh": "暗影偷盗",
+            "en": "SpectrlThief"
+        },
+        {
+            "label": "MOVE_SUNSTEEL_STRIKE",
+            "zh": "流星闪冲",
+            "en": "SnsteelStrke"
+        },
+        {
+            "label": "MOVE_MOONGEIST_BEAM",
+            "zh": "暗影之光",
+            "en": "MoongestBeam"
+        },
+        {
+            "label": "MOVE_TEARFUL_LOOK",
+            "zh": "泪眼汪汪",
+            "en": "Tearful Look"
+        },
+        {
+            "label": "MOVE_ZING_ZAP",
+            "zh": "麻麻刺刺",
+            "en": "Zing Zap"
+        },
+        {
+            "label": "MOVE_NATURES_MADNESS",
+            "zh": "自然之怒",
+            "en": "Natur'sMadns"
+        },
+        {
+            "label": "MOVE_MULTI_ATTACK",
+            "zh": "多属性攻击",
+            "en": "Multi-Attack"
+        },
+        {
+            "label": "MOVE_MIND_BLOWN",
+            "zh": "惊爆大头",
+            "en": "Mind Blown"
+        },
+        {
+            "label": "MOVE_PLASMA_FISTS",
+            "zh": "等离子闪电拳",
+            "en": "Plasma Fists"
+        },
+        {
+            "label": "MOVE_PHOTON_GEYSER",
+            "zh": "光子喷涌",
+            "en": "PhotonGeyser"
+        },
+        {
+            "label": "MOVE_ZIPPY_ZAP",
+            "zh": "电电加速",
+            "en": "Zippy Zap"
+        },
+        {
+            "label": "MOVE_SPLISHY_SPLASH",
+            "zh": "滔滔冲浪",
+            "en": "SplishySplsh"
+        },
+        {
+            "label": "MOVE_FLOATY_FALL",
+            "zh": "飘飘坠落",
+            "en": "Floaty Fall"
+        },
+        {
+            "label": "MOVE_PIKA_PAPOW",
+            "zh": "闪闪雷光",
+            "en": "Pika Papow"
+        },
+        {
+            "label": "MOVE_BOUNCY_BUBBLE",
+            "zh": "活活气泡",
+            "en": "BouncyBubble"
+        },
+        {
+            "label": "MOVE_BUZZY_BUZZ",
+            "zh": "麻麻电击",
+            "en": "Buzzy Buzz"
+        },
+        {
+            "label": "MOVE_SIZZLY_SLIDE",
+            "zh": "熊熊火爆",
+            "en": "Sizzly Slide"
+        },
+        {
+            "label": "MOVE_GLITZY_GLOW",
+            "zh": "哗哗气场",
+            "en": "Glitzy Glow"
+        },
+        {
+            "label": "MOVE_BADDY_BAD",
+            "zh": "坏坏领域",
+            "en": "Baddy Bad"
+        },
+        {
+            "label": "MOVE_SAPPY_SEED",
+            "zh": "茁茁轰炸",
+            "en": "Sappy Seed"
+        },
+        {
+            "label": "MOVE_FREEZY_FROST",
+            "zh": "冰冰霜冻",
+            "en": "Freezy Frost"
+        },
+        {
+            "label": "MOVE_SPARKLY_SWIRL",
+            "zh": "亮亮风暴",
+            "en": "SparklySwirl"
+        },
+        {
+            "label": "MOVE_VEEVEE_VOLLEY",
+            "zh": "砰砰击破",
+            "en": "VeeveeVolley"
+        },
+        {
+            "label": "MOVE_DOUBLE_IRON_BASH",
+            "zh": "钢拳双击",
+            "en": "DublIronBash"
+        },
+        {
+            "label": "MOVE_DYNAMAX_CANNON",
+            "zh": "极巨炮",
+            "en": "DynamxCannon"
+        },
+        {
+            "label": "MOVE_SNIPE_SHOT",
+            "zh": "狙击",
+            "en": "Snipe Shot"
+        },
+        {
+            "label": "MOVE_JAW_LOCK",
+            "zh": "紧咬不放",
+            "en": "Jaw Lock"
+        },
+        {
+            "label": "MOVE_STUFF_CHEEKS",
+            "zh": "大快朵颐",
+            "en": "Stuff Cheeks"
+        },
+        {
+            "label": "MOVE_NO_RETREAT",
+            "zh": "背水一战",
+            "en": "No Retreat"
+        },
+        {
+            "label": "MOVE_TAR_SHOT",
+            "zh": "沥青射击",
+            "en": "Tar Shot"
+        },
+        {
+            "label": "MOVE_MAGIC_POWDER",
+            "zh": "魔法粉",
+            "en": "Magic Powder"
+        },
+        {
+            "label": "MOVE_DRAGON_DARTS",
+            "zh": "龙箭",
+            "en": "Dragon Darts"
+        },
+        {
+            "label": "MOVE_TEATIME",
+            "zh": "茶会",
+            "en": "Teatime"
+        },
+        {
+            "label": "MOVE_OCTOLOCK",
+            "zh": "蛸固",
+            "en": "Octolock"
+        },
+        {
+            "label": "MOVE_BOLT_BEAK",
+            "zh": "电喙",
+            "en": "Bolt Beak"
+        },
+        {
+            "label": "MOVE_FISHIOUS_REND",
+            "zh": "鳃咬",
+            "en": "FishiousRend"
+        },
+        {
+            "label": "MOVE_COURT_CHANGE",
+            "zh": "换场",
+            "en": "Court Change"
+        },
+        {
+            "label": "MOVE_CLANGOROUS_SOUL",
+            "zh": "魂舞烈音爆",
+            "en": "ClngrousSoul"
+        },
+        {
+            "label": "MOVE_BODY_PRESS",
+            "zh": "扑击",
+            "en": "Body Press"
+        },
+        {
+            "label": "MOVE_DECORATE",
+            "zh": "装饰",
+            "en": "Decorate"
+        },
+        {
+            "label": "MOVE_DRUM_BEATING",
+            "zh": "鼓击",
+            "en": "Drum Beating"
+        },
+        {
+            "label": "MOVE_SNAP_TRAP",
+            "zh": "捕兽夹",
+            "en": "Snap Trap"
+        },
+        {
+            "label": "MOVE_PYRO_BALL",
+            "zh": "火焰球",
+            "en": "Pyro Ball"
+        },
+        {
+            "label": "MOVE_BEHEMOTH_BLADE",
+            "zh": "巨兽斩",
+            "en": "BehemthBlade"
+        },
+        {
+            "label": "MOVE_BEHEMOTH_BASH",
+            "zh": "巨兽弹",
+            "en": "BehemothBash"
+        },
+        {
+            "label": "MOVE_AURA_WHEEL",
+            "zh": "气场轮",
+            "en": "Aura Wheel"
+        },
+        {
+            "label": "MOVE_BREAKING_SWIPE",
+            "zh": "广域破坏",
+            "en": "BreakngSwipe"
+        },
+        {
+            "label": "MOVE_BRANCH_POKE",
+            "zh": "木枝突刺",
+            "en": "Branch Poke"
+        },
+        {
+            "label": "MOVE_OVERDRIVE",
+            "zh": "破音",
+            "en": "Overdrive"
+        },
+        {
+            "label": "MOVE_APPLE_ACID",
+            "zh": "苹果酸",
+            "en": "Apple Acid"
+        },
+        {
+            "label": "MOVE_GRAV_APPLE",
+            "zh": "万有引力",
+            "en": "Grav Apple"
+        },
+        {
+            "label": "MOVE_SPIRIT_BREAK",
+            "zh": "灵魂冲击",
+            "en": "Spirit Break"
+        },
+        {
+            "label": "MOVE_STRANGE_STEAM",
+            "zh": "神奇蒸汽",
+            "en": "StrangeSteam"
+        },
+        {
+            "label": "MOVE_LIFE_DEW",
+            "zh": "生命水滴",
+            "en": "Life Dew"
+        },
+        {
+            "label": "MOVE_OBSTRUCT",
+            "zh": "拦堵",
+            "en": "Obstruct"
+        },
+        {
+            "label": "MOVE_FALSE_SURRENDER",
+            "zh": "假跪真撞",
+            "en": "FalsSurrendr"
+        },
+        {
+            "label": "MOVE_METEOR_ASSAULT",
+            "zh": "流星突击",
+            "en": "MeteorAssalt"
+        },
+        {
+            "label": "MOVE_ETERNABEAM",
+            "zh": "无极光束",
+            "en": "Eternabeam"
+        },
+        {
+            "label": "MOVE_STEEL_BEAM",
+            "zh": "铁蹄光线",
+            "en": "Steel Beam"
+        },
+        {
+            "label": "MOVE_EXPANDING_FORCE",
+            "zh": "广域战力",
+            "en": "ExpandngForc"
+        },
+        {
+            "label": "MOVE_STEEL_ROLLER",
+            "zh": "铁滚轮",
+            "en": "Steel Roller"
+        },
+        {
+            "label": "MOVE_SCALE_SHOT",
+            "zh": "鳞射",
+            "en": "Scale Shot"
+        },
+        {
+            "label": "MOVE_METEOR_BEAM",
+            "zh": "流星光束",
+            "en": "Meteor Beam"
+        },
+        {
+            "label": "MOVE_SHELL_SIDE_ARM",
+            "zh": "臂贝武器",
+            "en": "ShellSideArm"
+        },
+        {
+            "label": "MOVE_MISTY_EXPLOSION",
+            "zh": "薄雾炸裂",
+            "en": "MstyExplsion"
+        },
+        {
+            "label": "MOVE_GRASSY_GLIDE",
+            "zh": "青草滑梯",
+            "en": "Grassy Glide"
+        },
+        {
+            "label": "MOVE_RISING_VOLTAGE",
+            "zh": "青草滑梯",
+            "en": "RisngVoltage"
+        },
+        {
+            "label": "MOVE_TERRAIN_PULSE",
+            "zh": "大地波动",
+            "en": "TerrainPulse"
+        },
+        {
+            "label": "MOVE_SKITTER_SMACK",
+            "zh": "爬击",
+            "en": "SkitterSmack"
+        },
+        {
+            "label": "MOVE_BURNING_JEALOUSY",
+            "zh": "妒火",
+            "en": "BrningJelosy"
+        },
+        {
+            "label": "MOVE_LASH_OUT",
+            "zh": "泄愤",
+            "en": "Lash Out"
+        },
+        {
+            "label": "MOVE_POLTERGEIST",
+            "zh": "灵骚",
+            "en": "Poltergeist"
+        },
+        {
+            "label": "MOVE_CORROSIVE_GAS",
+            "zh": "腐蚀气体",
+            "en": "CorrosiveGas"
+        },
+        {
+            "label": "MOVE_COACHING",
+            "zh": "指导",
+            "en": "Coaching"
+        },
+        {
+            "label": "MOVE_FLIP_TURN",
+            "zh": "快速折返",
+            "en": "Flip Turn"
+        },
+        {
+            "label": "MOVE_TRIPLE_AXEL",
+            "zh": "三旋击",
+            "en": "Triple Axel"
+        },
+        {
+            "label": "MOVE_DUAL_WINGBEAT",
+            "zh": "双翼",
+            "en": "DualWingbeat"
+        },
+        {
+            "label": "MOVE_SCORCHING_SANDS",
+            "zh": "热沙大地",
+            "en": "ScorchngSnds"
+        },
+        {
+            "label": "MOVE_JUNGLE_HEALING",
+            "zh": "丛林治疗",
+            "en": "JungleHealng"
+        },
+        {
+            "label": "MOVE_WICKED_BLOW",
+            "zh": "暗冥强击",
+            "en": "Wicked Blow"
+        },
+        {
+            "label": "MOVE_SURGING_STRIKES",
+            "zh": "水流连打",
+            "en": "SurgngStrkes"
+        },
+        {
+            "label": "MOVE_THUNDER_CAGE",
+            "zh": "雷电囚笼",
+            "en": "Thunder Cage"
+        },
+        {
+            "label": "MOVE_DRAGON_ENERGY",
+            "zh": "巨龙威能",
+            "en": "DragonEnergy"
+        },
+        {
+            "label": "MOVE_FREEZING_GLARE",
+            "zh": "冰冷视线",
+            "en": "FreezngGlare"
+        },
+        {
+            "label": "MOVE_FIERY_WRATH",
+            "zh": "怒火中烧",
+            "en": "Fiery Wrath"
+        },
+        {
+            "label": "MOVE_THUNDEROUS_KICK",
+            "zh": "雷鸣蹴击",
+            "en": "ThnderusKick"
+        },
+        {
+            "label": "MOVE_GLACIAL_LANCE",
+            "zh": "雪矛",
+            "en": "GlacialLance"
+        },
+        {
+            "label": "MOVE_ASTRAL_BARRAGE",
+            "zh": "星碎",
+            "en": "AstrlBarrage"
+        },
+        {
+            "label": "MOVE_EERIE_SPELL",
+            "zh": "诡异咒语",
+            "en": "Eerie Spell"
+        }
+    ]
+}

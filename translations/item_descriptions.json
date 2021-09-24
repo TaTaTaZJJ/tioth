@@ -1,0 +1,3010 @@
+{
+    "path": "src/data/text/item_descriptions.h",
+    "texts": [
+        {
+            "label": "sMasterBallDesc",
+            "zh": "必定能捉到野生宝\\n可梦的，性能最好\\n的球。",
+            "en": "The best Ball that\\ncatches a Pokémon\\nwithout fail."
+        },
+        {
+            "label": "sUltraBallDesc",
+            "zh": "比起超级球来更容\\n易捉到宝可梦的，\\n性能非常不错的球。",
+            "en": "A better Ball with\\na higher catch rate\\nthan a Great Ball."
+        },
+        {
+            "label": "sGreatBallDesc",
+            "zh": "比起精灵球来更容\\n易捉到宝可梦的，\\n性能还算不错的球。",
+            "en": "A good Ball with a\\nhigher catch rate\\nthan a Poké Ball."
+        },
+        {
+            "label": "sPokeBallDesc",
+            "zh": "用于投向野生宝可\\n梦并将其捕捉的球\\n。它是胶囊样式的。",
+            "en": "A tool used for\\ncatching wild\\nPokémon."
+        },
+        {
+            "label": "sSafariBallDesc",
+            "zh": "曾在狩猎地带被使\\n用。是一种特殊的\\n球。",
+            "en": "A special Ball that\\nis used only in the\\nSafari Zone."
+        },
+        {
+            "label": "sNetBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n水属性和虫属性的\\n宝可梦。",
+            "en": "A Ball that works\\nwell on Water- and\\nBug-type Pokémon."
+        },
+        {
+            "label": "sDiveBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n生活在水世界里的\\n宝可梦。",
+            "en": "A Ball that works\\nbetter on Pokémon\\non the ocean floor."
+        },
+        {
+            "label": "sNestBallDesc",
+            "zh": "有点与众不同的球\\n。捕捉的野生宝可\\n梦越弱，就会越容\\n易捕捉。",
+            "en": "A Ball that works\\nbetter on weaker\\nPokémon."
+        },
+        {
+            "label": "sRepeatBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n以前曾捉到过的宝\\n可梦。",
+            "en": "A Ball that works\\nbetter on Pokémon\\ncaught before."
+        },
+        {
+            "label": "sTimerBallDesc",
+            "zh": "有点与众不同的球\\n。回合数花费得越\\n多，宝可梦就会越\\n容易捕捉。",
+            "en": "A Ball that gains\\npower in battles\\ntaking many turns."
+        },
+        {
+            "label": "sLuxuryBallDesc",
+            "zh": "住着十分惬意的球\\n。捉到的野生宝可\\n梦会变得容易和训\\n练家亲密。",
+            "en": "A cozy Ball that\\nmakes Pokémon\\nmore friendly."
+        },
+        {
+            "label": "sPremierBallDesc",
+            "zh": "住着十分惬意的球\\n。捉到的野生宝可\\n梦会变得容易和训\\n练家亲密。",
+            "en": "A rare Ball made\\nin commemoration\\nof some event."
+        },
+        {
+            "label": "sLevelBallDesc",
+            "zh": "有点与众不同的球\\n。要捕捉的宝可梦\\n比自己宝可梦的等\\n级越低，就会越容\\n易捕捉。",
+            "en": "A Ball that works\\nwell on lower\\nlevel Pokémon."
+        },
+        {
+            "label": "sLureBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n用钓竿钓上来的宝\\n可梦。",
+            "en": "A Ball that works\\nwell on fished\\nup Pokémon."
+        },
+        {
+            "label": "sMoonBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n使用月之石进化的\\n宝可梦。",
+            "en": "A Ball that works\\nwell on Moon\\nStone users."
+        },
+        {
+            "label": "sFriendBallDesc",
+            "zh": "有点与众不同的球\\n。捉到的野生宝可\\n梦会立刻变得和训\\n练家亲密起来。",
+            "en": "A Ball that makes\\na Pokémon friendly\\nwhen caught."
+        },
+        {
+            "label": "sLoveBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n和自己宝可梦性别\\n不同的宝可梦。",
+            "en": "Works well on\\nPokémon of the\\nopposite gender."
+        },
+        {
+            "label": "sHeavyBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n身体沉重的宝可梦\\n。",
+            "en": "Works well on\\nvery heavy\\nPokémon."
+        },
+        {
+            "label": "sFastBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地捕捉\\n逃跑速度很快的宝\\n可梦。",
+            "en": "Works well on\\nvery fast\\nPokémon."
+        },
+        {
+            "label": "sHealBallDesc",
+            "zh": "有点温柔的球。能\\n回复捉到的宝可梦\\n的HP并治愈异常\\n状态。",
+            "en": "A remedial Ball\\nthat restores\\ncaught Pokémon."
+        },
+        {
+            "label": "sQuickBallDesc",
+            "zh": "有点与众不同的球\\n。如果战斗开始后\\n立刻使用，就能很\\n容易地捉到宝可梦\\n。",
+            "en": "Works well if\\nused on the\\nfirst turn."
+        },
+        {
+            "label": "sDuskBallDesc",
+            "zh": "有点与众不同的球\\n。能很容易地在夜\\n晚或洞窟等阴暗的\\n地方捕捉宝可梦。",
+            "en": "Works well if\\nused in a\\ndark place."
+        },
+        {
+            "label": "sCherishBallDesc",
+            "zh": "相当珍贵的球。特\\n制出来的某种纪念\\n品。",
+            "en": "A rare Ball made\\nin commemoration\\nof some event."
+        },
+        {
+            "label": "sSportBallDesc",
+            "zh": "曾在城都地区的捕\\n虫大赛上使用的特\\n殊的球。",
+            "en": "A special Ball used\\nin the Bug-Catching\\nContest."
+        },
+        {
+            "label": "sParkBallDesc",
+            "zh": "在伙伴公园里使用\\n的特殊的球。",
+            "en": "A special Ball for\\nthe Pal Park."
+        },
+        {
+            "label": "sDreamBallDesc",
+            "zh": "在连入之森中，不\\n知何时出现在包包\\n里的梦中球。能捉\\n到任何宝可梦。",
+            "en": "A Poké Ball used in\\nthe Entree Forest.\\nIt doesn't fail."
+        },
+        {
+            "label": "sBeastBallDesc",
+            "zh": "为捕捉究极异兽而\\n制作的特殊精灵球\\n。很难捕捉究极异\\n兽之外的宝可梦。",
+            "en": "A Ball designed to\\ncatch Ultra Beasts."
+        },
+        {
+            "label": "sPotionDesc",
+            "zh": "喷雾式伤药。能让\\n1只宝可梦回复2\\n0HP。",
+            "en": "Restores the HP of\\na Pokémon by\\n20 points."
+        },
+        {
+            "label": "sAntidoteDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的中\\n毒状态。",
+            "en": "Heals a poisoned\\nPokémon."
+        },
+        {
+            "label": "sBurnHealDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的灼\\n伤状态。",
+            "en": "Heals Pokémon\\nof a burn."
+        },
+        {
+            "label": "sIceHealDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的冰\\n冻状态。",
+            "en": "Defrosts a frozen\\nPokémon."
+        },
+        {
+            "label": "sAwakeningDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的睡\\n眠状态。",
+            "en": "Awakens a sleeping\\nPokémon."
+        },
+        {
+            "label": "sParalyzeHealDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的麻\\n痹状态。",
+            "en": "Heals a paralyzed\\nPokémon."
+        },
+        {
+            "label": "sFullRestoreDesc",
+            "zh": "能回复1只宝可梦\\n的所有HP并治愈\\n所有异常状态。",
+            "en": "Fully restores the\\nHP and status of a\\nPokémon."
+        },
+        {
+            "label": "sMaxPotionDesc",
+            "zh": "喷雾式伤药。能让\\n1只宝可梦回复所\\n有HP。",
+            "en": "Fully restores the\\nHP of a Pokémon."
+        },
+        {
+            "label": "sHyperPotionDesc",
+            "zh": "喷雾式伤药。能让\\n1只宝可梦回复1\\n20HP。",
+            "en": "Restores the HP of\\na Pokémon by\\n120 points."
+        },
+        {
+            "label": "sSuperPotionDesc",
+            "zh": "喷雾式伤药。能让\\n1只宝可梦回复6\\n0HP。",
+            "en": "Restores the HP of\\na Pokémon by\\n60 points."
+        },
+        {
+            "label": "sFullHealDesc",
+            "zh": "喷雾式药水。能治\\n愈1只宝可梦的所\\n有异常状态。",
+            "en": "Heals all the\\nstatus problems of\\none Pokémon."
+        },
+        {
+            "label": "sReviveDesc",
+            "zh": "能让1只陷入濒死\\n的宝可梦重获生机\\n，并回复一半HP\\n。",
+            "en": "Revives a fainted\\nPokémon with half\\nits HP."
+        },
+        {
+            "label": "sMaxReviveDesc",
+            "zh": "能让1只陷入濒死\\n的宝可梦重获生机\\n，并回复所有HP\\n。",
+            "en": "Revives a fainted\\nPokémon with all\\nits HP."
+        },
+        {
+            "label": "sFreshWaterDesc",
+            "zh": "富含矿物质的水。\\n能让1只宝可梦回\\n复30HP。",
+            "en": "A mineral water\\nthat restores HP\\nby 30 points."
+        },
+        {
+            "label": "sSodaPopDesc",
+            "zh": "翻腾着气泡的汽水\\n。能让1只宝可梦\\n回复50HP。",
+            "en": "A fizzy soda drink\\nthat restores HP\\nby 50 points."
+        },
+        {
+            "label": "sLemonadeDesc",
+            "zh": "非常香甜的牛奶。\\n能让1只宝可梦回\\n复70HP。",
+            "en": "A very sweet drink\\nthat restores HP\\nby 70 points."
+        },
+        {
+            "label": "sMoomooMilkDesc",
+            "zh": "营养百分百的牛奶\\n。能让1只宝可梦\\n回复100HP。",
+            "en": "A nutritious milk\\nthat restores HP\\nby 100 points."
+        },
+        {
+            "label": "sEnergyPowderDesc",
+            "zh": "非常苦的药粉。能\\n让1只宝可梦回复\\n60HP。",
+            "en": "A bitter powder\\nthat restores HP\\nby 60 points."
+        },
+        {
+            "label": "sEnergyRootDesc",
+            "zh": "非常苦的根。能让\\n1只宝可梦回复1\\n20HP。",
+            "en": "A bitter root\\nthat restores HP\\nby 120 points."
+        },
+        {
+            "label": "sHealPowderDesc",
+            "zh": "非常苦的药粉。能\\n治愈1只宝可梦的\\n所有异常状态。",
+            "en": "A bitter powder\\nthat heals all\\nstatus problems."
+        },
+        {
+            "label": "sRevivalHerbDesc",
+            "zh": "非常苦的药草。能\\n让1只濒死的宝可\\n梦回复所有HP。",
+            "en": "A very bitter herb\\nthat revives a\\nfainted Pokémon."
+        },
+        {
+            "label": "sEtherDesc",
+            "zh": "能让宝可梦学会的\\n其中1个招式回复\\n10PP。",
+            "en": "Restores the PP\\nof a selected move\\nby 10."
+        },
+        {
+            "label": "sMaxEtherDesc",
+            "zh": "能让宝可梦学会的\\n其中1个招式回复\\n所有PP。",
+            "en": "Fully restores the\\nPP of a selected\\nmove."
+        },
+        {
+            "label": "sElixirDesc",
+            "zh": "能让宝可梦学会的\\n4个招式各回复1\\n0PP。",
+            "en": "Restores the PP\\nof all moves by 10."
+        },
+        {
+            "label": "sMaxElixirDesc",
+            "zh": "能让宝可梦学会的\\n4个招式回复所有\\nPP。",
+            "en": "Fully restores the\\nPP of a Pokémon's\\nmoves."
+        },
+        {
+            "label": "sLavaCookieDesc",
+            "zh": "釜炎特产的仙贝。\\n能治愈1只宝可梦\\n的所有异常状态。",
+            "en": "A local specialty\\nthat heals all\\nstatus problems."
+        },
+        {
+            "label": "sBlueFluteDesc",
+            "zh": "以蓝色玻璃制成的\\n哨子。可以治愈睡\\n眠状态。",
+            "en": "A glass flute that\\nawakens sleeping\\nPokémon."
+        },
+        {
+            "label": "sYellowFluteDesc",
+            "zh": "以黄色玻璃制成的\\n哨子。可以治愈混\\n乱状态。",
+            "en": "A glass flute that\\nsnaps Pokémon\\nout of confusion."
+        },
+        {
+            "label": "sRedFluteDesc",
+            "zh": "以红色玻璃制成的\\n哨子。可以治愈着\\n迷状态。",
+            "en": "A glass flute that\\nsnaps Pokémon\\nout of attraction."
+        },
+        {
+            "label": "sBlackFluteDesc",
+            "zh": "以黑色玻璃制成的\\n哨子。在使用的地\\n方更容易遇到强大\\n的宝可梦。",
+            "en": "A glass flute that\\nkeeps away wild\\nPokémon."
+        },
+        {
+            "label": "sWhiteFluteDesc",
+            "zh": "以白色玻璃制成的\\n哨子。在使用的地\\n方更容易遇到弱小\\n的宝可梦。",
+            "en": "A glass flute that\\nlures wild Pokémon."
+        },
+        {
+            "label": "sBerryJuiceDesc",
+            "zh": "100%树果果汁\\n。能让1只宝可梦\\n回复20HP。",
+            "en": "A 100% pure juice\\nthat restores HP\\nby 20 points."
+        },
+        {
+            "label": "sSweetHeartDesc",
+            "zh": "非常甜腻的巧克力\\n。能让1只宝可梦\\n回复20HP。",
+            "en": "A sweet chocolate\\nthat restores HP\\nby 20 points."
+        },
+        {
+            "label": "sBigMalasadaDesc",
+            "zh": "阿罗拉特产的油炸\\n面包。能治愈1只\\n宝可梦的所有异常\\n状态。",
+            "en": "Heals all the\\nstatus problems of\\none Pokémon."
+        },
+        {
+            "label": "sOldGateauDesc",
+            "zh": "百代不为人知的特\\n产。能治愈1只宝\\n可梦的所有异常状\\n态。",
+            "en": "Heals all the\\nstatus problems of\\none Pokémon."
+        },
+        {
+            "label": "sSacredAshDesc",
+            "zh": "能让陷入濒死的全\\n部宝可梦回复所有\\nHP。",
+            "en": "Fully revives and\\nrestores all\\nfainted Pokémon."
+        },
+        {
+            "label": "sShoalSaltDesc",
+            "zh": "在浅滩洞穴这地方\\n找到的海盐。",
+            "en": "Salt obtained from\\ndeep inside the\\nShoal Cave."
+        },
+        {
+            "label": "sShoalShellDesc",
+            "zh": "在浅滩洞穴这地方\\n找到的贝壳。",
+            "en": "A seashell found\\ndeep inside the\\nShoal Cave."
+        },
+        {
+            "label": "sRedShardDesc",
+            "zh": "红色的小碎片。好\\n像是以前制作的某\\n道具的一部分。",
+            "en": "A shard from an\\nancient item. Can\\nbe sold cheaply."
+        },
+        {
+            "label": "sBlueShardDesc",
+            "zh": "蓝色的小碎片。好\\n像是以前制作的某\\n道具的一部分。",
+            "en": "A shard from an\\nancient item. Can\\nbe sold cheaply."
+        },
+        {
+            "label": "sYellowShardDesc",
+            "zh": "黄色的小碎片。好\\n像是以前制作的某\\n道具的一部分。",
+            "en": "A shard from an\\nancient item. Can\\nbe sold cheaply."
+        },
+        {
+            "label": "sGreenShardDesc",
+            "zh": "绿色的小碎片。好\\n像是以前制作的某\\n道具的一部分。",
+            "en": "A shard from an\\nancient item. Can\\nbe sold cheaply."
+        },
+        {
+            "label": "sHPUpDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的HP的基础点\\n数。",
+            "en": "Raises the base HP\\nof one Pokémon."
+        },
+        {
+            "label": "sProteinDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的攻击的基础点\\n数。",
+            "en": "Raises the base\\nAttack stat of one\\nPokémon."
+        },
+        {
+            "label": "sIronDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的防御的基础点\\n数。",
+            "en": "Raises the base\\nDefense stat of\\none Pokémon."
+        },
+        {
+            "label": "sCarbosDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的速度的基础点\\n数。",
+            "en": "Raises the base\\nSpeed stat of one\\nPokémon."
+        },
+        {
+            "label": "sCalciumDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的特攻的基础点\\n数。",
+            "en": "Raises the base\\nSp. Atk stat of one\\nPokémon."
+        },
+        {
+            "label": "sRareCandyDesc",
+            "zh": "宝可梦的等级提高\\n1。",
+            "en": "Raises the level\\nof a Pokémon by\\none."
+        },
+        {
+            "label": "sPPUpDesc",
+            "zh": "能让宝可梦学会的\\n其中1个招式的P\\nP最大值少量提高",
+            "en": "Raises the maximum\\nPP of a selected\\nmove."
+        },
+        {
+            "label": "sZincDesc",
+            "zh": "宝可梦的营养饮料\\n。能提高1只宝可\\n梦的特防的基础点\\n数。",
+            "en": "Raises the base\\nSp. Def stat of one\\nPokémon."
+        },
+        {
+            "label": "sPPMaxDesc",
+            "zh": "能将宝可梦学会的\\n其中1个招式的P\\nP最大值提至最高\\n。",
+            "en": "Raises the PP of a\\nmove to its maximum\\npoints."
+        },
+        {
+            "label": "sGuardSpecDesc",
+            "zh": "在战斗中，5回合\\n内不让我方能力降\\n低的道具。",
+            "en": "Prevents stat\\nreduction when\\nused in battle."
+        },
+        {
+            "label": "sDireHitDesc",
+            "zh": "击中要害的几率会\\n大幅提高。只能使\\n用1次。离场后，\\n效果便会消失。",
+            "en": "Raises the\\ncritical-hit ratio\\nduring one battle."
+        },
+        {
+            "label": "sXAttackDesc",
+            "zh": "大幅提高战斗中宝\\n可梦攻击的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises the stat\\nAttack during one\\nbattle."
+        },
+        {
+            "label": "sXDefendDesc",
+            "zh": "大幅提高战斗中宝\\n可梦防御的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises the stat\\nDefense during one\\nbattle."
+        },
+        {
+            "label": "sXSpeedDesc",
+            "zh": "大幅提高战斗中宝\\n可梦速度的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises the stat\\nSpeed during one\\nbattle."
+        },
+        {
+            "label": "sXAccuracyDesc",
+            "zh": "大幅提高战斗中宝\\n可梦命中的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises accuracy\\nof attack moves\\nduring one battle."
+        },
+        {
+            "label": "sXSpecialAttackDesc",
+            "zh": "大幅提高战斗中宝\\n可梦特攻的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises the stat\\nSp. Atk during one\\nbattle."
+        },
+        {
+            "label": "sXSpecialDefenseDesc",
+            "zh": "大幅提高战斗中宝\\n可梦特防的道具。\\n离场后，效果便会\\n消失。",
+            "en": "Raises the stat\\nSp. Def during one\\nbattle."
+        },
+        {
+            "label": "sPokeDollDesc",
+            "zh": "能吸引宝可梦注意\\n的道具。在和野生\\n宝可梦的战斗中绝\\n对可以逃走。",
+            "en": "Use to flee from\\nany battle with\\na wild Pokémon."
+        },
+        {
+            "label": "sFluffyTailDesc",
+            "zh": "能吸引宝可梦注意\\n的道具。在和野生\\n宝可梦的战斗中绝\\n对可以逃走。",
+            "en": "Use to flee from\\nany battle with\\na wild Pokémon."
+        },
+        {
+            "label": "sSuperRepelDesc",
+            "zh": "弱小的野生宝可梦\\n将完全不会出现。\\n效果比除虫喷雾更\\n持久。",
+            "en": "Repels weak wild\\nPokémon for 200\\nsteps."
+        },
+        {
+            "label": "sMaxRepelDesc",
+            "zh": "弱小的野生宝可梦\\n将完全不会出现。\\n效果比白银喷雾更\\n持久。",
+            "en": "Repels weak wild\\nPokémon for 250\\nsteps."
+        },
+        {
+            "label": "sAbilityCapsuleDesc",
+            "zh": "使用后会改变宝可\\n梦的特性。",
+            "en": "Switches a Poké-\\nmon's ability."
+        },
+        {
+            "label": "sEscapeRopeDesc",
+            "zh": "结实的长绳。可以\\n从洞窟或迷宫中脱\\n身。",
+            "en": "Use to escape\\ninstantly from a\\ncave or a dungeon."
+        },
+        {
+            "label": "sRepelDesc",
+            "zh": "使用后，在较短的\\n一段时间内，弱小\\n的野生宝可梦将完\\n全不会出现。",
+            "en": "Repels weak wild\\nPokémon for 100\\nsteps."
+        },
+        {
+            "label": "sSunStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像太阳一样赤红\\n。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sMoonStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像夜空一样乌黑\\n。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sFireStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。看上去是橙黄色\\n的。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sThunderStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。有着闪电般的花\\n纹。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sWaterStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。看上去是澄蓝色\\n的。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sLeafStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。有着叶子般的花\\n纹。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sDawnStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像眼眸一般光彩\\n动人。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sDuskStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像黑夜一般漆黑\\n。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sShinyStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像光芒一样耀眼\\n。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sIceStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。有着雪花般的花\\n纹。",
+            "en": "Makes certain\\nspecies of Pokémon\\nevolve."
+        },
+        {
+            "label": "sRedApricornDesc",
+            "zh": "红色的球果。有种\\n刺鼻的气味。",
+            "en": "A red apricorn.\\nIt assails your\\nnostrils."
+        },
+        {
+            "label": "sBlueApricornDesc",
+            "zh": "蓝色的球果。略有\\n一股青草的香味。",
+            "en": "A blue apricorn.\\nIt smells a bit\\nlike grass."
+        },
+        {
+            "label": "sYellowApricornDesc",
+            "zh": "黄色的球果。有种\\n清爽的香味。",
+            "en": "A yellow apricorn.\\nIt has an invigor-\\nating scent."
+        },
+        {
+            "label": "sGreenApricornDesc",
+            "zh": "绿色的球果。有种\\n焦香的香味，非常\\n神奇。",
+            "en": "A green apricorn.\\nIt has a strange,\\naromatic scent."
+        },
+        {
+            "label": "sPinkApricornDesc",
+            "zh": "粉红色的球果。有\\n种甜甜的，好闻的\\n香味。",
+            "en": "A pink apricorn.\\nIt has a nice,\\nsweet scent."
+        },
+        {
+            "label": "sWhiteApricornDesc",
+            "zh": "白色的球果。没有\\n任何气味。",
+            "en": "A white apricorn.\\nIt doesn't smell\\nlike anything."
+        },
+        {
+            "label": "sBlackApricornDesc",
+            "zh": "黑色的球果。有种\\n无法形容的气味。",
+            "en": "A black apricorn.\\nIt has an inde-\\nscribable scent."
+        },
+        {
+            "label": "sTinyMushroomDesc",
+            "zh": "珍稀的小蘑菇。在\\n一些爱好者中有着\\n相当高的人气。",
+            "en": "A plain mushroom\\nthat would sell\\nat a cheap price."
+        },
+        {
+            "label": "sBigMushroomDesc",
+            "zh": "珍稀的大蘑菇。在\\n一些爱好者中有着\\n非常高的人气。",
+            "en": "A rare mushroom\\nthat would sell at a\\nhigh price."
+        },
+        {
+            "label": "sPearlDesc",
+            "zh": "散发着美丽银辉且\\n有点小的珍珠。可\\n以在商店低价出售\\n。",
+            "en": "A pretty pearl\\nthat would sell at a\\ncheap price."
+        },
+        {
+            "label": "sBigPearlDesc",
+            "zh": "散发着美丽银辉且\\n相当大颗的珍珠。\\n可以在商店高价出\\n售。",
+            "en": "A lovely large pearl\\nthat would sell at a\\nhigh price."
+        },
+        {
+            "label": "sStardustDesc",
+            "zh": "手感细腻且十分美\\n丽的红色沙子。可\\n以在商店低价出售\\n。",
+            "en": "Beautiful red sand.\\nCan be sold at a\\nhigh price."
+        },
+        {
+            "label": "sStarPieceDesc",
+            "zh": "闪着红光且十分美\\n丽的宝石碎片。可\\n以在商店高价出售\\n。",
+            "en": "A red gem shard.\\nIt would sell for a\\nvery high price."
+        },
+        {
+            "label": "sNuggetDesc",
+            "zh": "闪着金光，以纯金\\n制成的珠子。可以\\n在商店高价出售。",
+            "en": "A nugget of pure\\ngold. Can be sold at\\na high price."
+        },
+        {
+            "label": "sHeartScaleDesc",
+            "zh": "有着美丽心形外形\\n且非常珍稀的鳞片\\n。有些人收到会很\\n高兴。",
+            "en": "A lovely scale.\\nIt is coveted by\\ncollectors."
+        },
+        {
+            "label": "sRedNectarDesc",
+            "zh": "在乌拉乌拉花园里\\n获得的花蜜。可以\\n改变特定宝可梦的\\n样子。",
+            "en": "Flower nectar that\\nchanges the form\\nof certain Pokémon."
+        },
+        {
+            "label": "sYellowNectarDesc",
+            "zh": "在美乐美乐花园里\\n获得的花蜜。可以\\n改变特定宝可梦的\\n样子。",
+            "en": "Flower nectar that\\nchanges the form\\nof certain Pokémon."
+        },
+        {
+            "label": "sPinkNectarDesc",
+            "zh": "在皇家大道的花园\\n里获得的花蜜。可\\n以改变特定宝可梦\\n的样子。",
+            "en": "Flower nectar that\\nchanges the form\\nof certain Pokémon."
+        },
+        {
+            "label": "sPurpleNectarDesc",
+            "zh": "在波尼花园里获得\\n的花蜜。可以改变\\n特定宝可梦的样子\\n。",
+            "en": "Flower nectar that\\nchanges the form\\nof certain Pokémon."
+        },
+        {
+            "label": "sRareBoneDesc",
+            "zh": "在宝可梦考古学上\\n非常贵重的骨头。\\n可以在商店高价出\\n售。",
+            "en": "A very rare bone.\\nIt can be sold at\\na high price."
+        },
+        {
+            "label": "sOrangeMailDesc",
+            "zh": "印有蛇纹熊的信纸\\n，可以让宝可梦携\\n带。",
+            "en": "A Zigzagoon-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sHarborMailDesc",
+            "zh": "印有长翅鸥的信纸\\n，可以让宝可梦携\\n带。",
+            "en": "A Wingull-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sGlitterMailDesc",
+            "zh": "印有皮卡丘的信纸\\n，可以让宝可梦携\\n带。",
+            "en": "A Pikachu-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sMechMailDesc",
+            "zh": "印有小磁怪的信纸\\n，可以让\\n宝可梦携\\n带。",
+            "en": "A Magnemite-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sWoodMailDesc",
+            "zh": "印有懒人獭的信纸\\n，可以让\\n宝可梦携\\n带。",
+            "en": "A Slakoth-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sWaveMailDesc",
+            "zh": "印有吼吼鲸的信纸\\n，可以让\\n宝可梦携\\n带。",
+            "en": "A Wailmer-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sBeadMailDesc",
+            "zh": "一张能显示持有者\\n的图像的信纸，可\\n以让宝可梦携带。",
+            "en": "Mail featuring a\\nsketch of the\\nholding Pokémon."
+        },
+        {
+            "label": "sShadowMailDesc",
+            "zh": "印有夜巡灵的信纸\\n，可以让宝可梦携\\n带。",
+            "en": "A Duskull-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sTropicMailDesc",
+            "zh": "印有美丽花的信纸\\n，可以让宝可梦携\\n带。",
+            "en": "A Bellossom-print\\nMail to be held by\\na Pokémon."
+        },
+        {
+            "label": "sDreamMailDesc",
+            "zh": "一张能显示持有者\\n的图像的信纸，可\\n以让宝可梦携带。",
+            "en": "Mail featuring a\\nsketch of the\\nholding Pokémon."
+        },
+        {
+            "label": "sFabMailDesc",
+            "zh": "一张华丽的信纸，\\n可以让宝可梦携带\\n。",
+            "en": "A gorgeous-print\\nMail to be held\\nby a Pokémon."
+        },
+        {
+            "label": "sRetroMailDesc",
+            "zh": "印有三种宝可梦的\\n信纸，可以让宝可\\n梦携带。",
+            "en": "Mail featuring the\\ndrawings of three\\nPokémon."
+        },
+        {
+            "label": "sCheriBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈麻痹。",
+            "en": "A hold item that\\nheals paralysis\\nin battle."
+        },
+        {
+            "label": "sChestoBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈睡眠。",
+            "en": "A hold item that\\nawakens Pokémon\\nin battle."
+        },
+        {
+            "label": "sPechaBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈中毒。",
+            "en": "A hold item that\\nheals poisoning\\nin battle."
+        },
+        {
+            "label": "sRawstBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈灼伤。",
+            "en": "A hold item that\\nheals a burn in\\nbattle."
+        },
+        {
+            "label": "sAspearBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈冰冻。",
+            "en": "A hold item that\\ndefrosts Pokémon\\nin battle."
+        },
+        {
+            "label": "sLeppaBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以回复10PP\\n。",
+            "en": "A hold item that\\nrestores 10 PP in\\nbattle."
+        },
+        {
+            "label": "sOranBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以回复10HP\\n。",
+            "en": "A hold item that\\nrestores 10 HP in\\nbattle."
+        },
+        {
+            "label": "sPersimBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈混乱。",
+            "en": "A hold item that\\nheals confusion\\nin battle."
+        },
+        {
+            "label": "sLumBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以治愈所有异常\\n状态。",
+            "en": "A hold item that\\nheals any status\\nproblem in battle."
+        },
+        {
+            "label": "sSitrusBerryDesc",
+            "zh": "让宝可梦携带后，\\n可以回复少量HP\\n。",
+            "en": "A hold item that\\nrestores 30 HP in\\nbattle."
+        },
+        {
+            "label": "sFigyBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时可以回复H\\nP。如果讨厌这味\\n道就会混乱。",
+            "en": "A hold item that\\nrestores HP but\\nmay confuse."
+        },
+        {
+            "label": "sWikiBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时可以回复H\\nP。如果讨厌这味\\n道就会混乱。",
+            "en": "A hold item that\\nrestores HP but\\nmay confuse."
+        },
+        {
+            "label": "sMagoBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时可以回复H\\nP。如果讨厌这味\\n道就会混乱。",
+            "en": "A hold item that\\nrestores HP but\\nmay confuse."
+        },
+        {
+            "label": "sAguavBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时可以回复H\\nP。如果讨厌这味\\n道就会混乱。",
+            "en": "A hold item that\\nrestores HP but\\nmay confuse."
+        },
+        {
+            "label": "sIapapaBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时可以回复H\\nP。如果讨厌这味\\n道就会混乱。",
+            "en": "A hold item that\\nrestores HP but\\nmay confuse."
+        },
+        {
+            "label": "sRazzBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨强\\n壮。黄色的果实尝\\n起来是酸的。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Razz."
+        },
+        {
+            "label": "sBlukBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨美\\n丽。蓝色的果实尝\\n起来是涩的。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Bluk."
+        },
+        {
+            "label": "sNanabBerryDesc",
+            "zh": "捕捉宝可梦时，把\\n这树果交给宝可梦\\n就能稍微平复一下\\n对方的情绪。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Nanab."
+        },
+        {
+            "label": "sWepearBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨聪\\n明。绿色的果实尝\\n起来是苦的。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Wepear."
+        },
+        {
+            "label": "sPinapBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨强\\n壮。黄色的果实尝\\n起来是酸的。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Pinap."
+        },
+        {
+            "label": "sPomegBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但HP的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase HP."
+        },
+        {
+            "label": "sKelpsyBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但攻击的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase Attack."
+        },
+        {
+            "label": "sQualotBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但防御的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase Defense."
+        },
+        {
+            "label": "sHondewBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但特攻的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase Sp. Atk."
+        },
+        {
+            "label": "sGrepaBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但特防的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase Sp. Def."
+        },
+        {
+            "label": "sTamatoBerryDesc",
+            "zh": "如果把它交给宝可\\n梦，宝可梦就会变\\n得非常容易和训练\\n家亲密，但速度的\\n基础点数会降低。",
+            "en": "Makes a Pokémon\\nfriendly but lowers\\nbase Speed."
+        },
+        {
+            "label": "sCornnBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨美\\n丽。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Cornn."
+        },
+        {
+            "label": "sMagostBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨可\\n爱。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Magost."
+        },
+        {
+            "label": "sRabutaBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨聪\\n明。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Rabuta."
+        },
+        {
+            "label": "sNomelBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨强\\n壮。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Nomel."
+        },
+        {
+            "label": "sSpelonBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨可\\n爱。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Spelon."
+        },
+        {
+            "label": "sPamtreBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨美\\n丽。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Pamtre."
+        },
+        {
+            "label": "sWatmelBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨聪\\n明。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Watmel."
+        },
+        {
+            "label": "sDurinBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨聪\\n明。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Durin."
+        },
+        {
+            "label": "sBelueBerryDesc",
+            "zh": "用于制作宝可方块\\n，制作出来的宝可\\n方块可用来打磨美\\n丽。在其他地区很\\n少见的树果。",
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow Belue."
+        },
+        {
+            "label": "sLiechiBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，自己的攻\\n击就会提高。",
+            "en": "A hold item that\\nraises Attack in\\na pinch."
+        },
+        {
+            "label": "sGanlonBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，自己的防\\n御就会提高。",
+            "en": "A hold item that\\nraises Defense in\\na pinch."
+        },
+        {
+            "label": "sSalacBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，自己的速\\n度就会提高。",
+            "en": "A hold item that\\nraises Speed in\\na pinch."
+        },
+        {
+            "label": "sPetayaBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，自己的特\\n攻就会提高。",
+            "en": "A hold item that\\nraises Sp. Atk in\\na pinch."
+        },
+        {
+            "label": "sApicotBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，自己的特\\n防就会提高。",
+            "en": "A hold item that\\nraises Sp. Def in\\na pinch."
+        },
+        {
+            "label": "sLansatBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，攻击会变\\n得容易击中要害。",
+            "en": "A hold item that\\nups the critical-\\nhit rate in a pinch."
+        },
+        {
+            "label": "sStarfBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，某一项能\\n力就会大幅提高。",
+            "en": "A hold item that\\nsharply boosts a\\nstat in a pinch."
+        },
+        {
+            "label": "sMicleBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，招式的命\\n中率仅会提高1次\\n。",
+            "en": "When held, it ups\\nthe Accuracy of a\\nmove in a pinch."
+        },
+        {
+            "label": "sEnigmaBerryDesc",
+            "zh": "宝可方块的材料。\\n种在土里会长出\\n神秘的果实", 
+            "en": "{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow a mystery."
+        },
+        {
+            "label": "sOccaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n火属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Fire\\nmove if weak to it."
+        },
+        {
+            "label": "sPasshoBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n水属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Water\\nmove if weak to it."
+        },
+        {
+            "label": "sWacanBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n电属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Electric\\nmove if weak to it."
+        },
+        {
+            "label": "sRindoBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n草属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Grass\\nmove if weak to it."
+        },
+        {
+            "label": "sYacheBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n冰属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Ice\\nmove if weak to it."
+        },
+        {
+            "label": "sChopleBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n格斗属性招式攻击\\n时，能令其威力减\\n弱。",
+            "en": "A hold item that\\nweakens a Fighting\\nmove if weak to it."
+        },
+        {
+            "label": "sKebiaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n毒属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Poison\\nmove if weak to it."
+        },
+        {
+            "label": "sShucaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n地面属性招式攻击\\n时，能令其威力减\\n弱。",
+            "en": "A hold item that\\nweakens a Ground\\nmove if weak to it."
+        },
+        {
+            "label": "sCobaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n飞行属性招式攻击\\n时，能令其威力减\\n弱。",
+            "en": "A hold item that\\nweakens a Flying\\nmove if weak to it."
+        },
+        {
+            "label": "sPayapaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n超能力属性招式攻\\n击时，能令其威力\\n减弱。",
+            "en": "A hold item that\\nweakens a Psychic\\nmove if weak to it."
+        },
+        {
+            "label": "sTangaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n虫属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Bug\\nmove if weak to it."
+        },
+        {
+            "label": "sChartiBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n岩石属性招式攻击\\n时，能令其威力减\\n弱。",
+            "en": "A hold item that\\nweakens a Rock\\nmove if weak to it."
+        },
+        {
+            "label": "sKasibBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n幽灵属性招式攻击\\n时，能令其威力减\\n弱。",
+            "en": "A hold item that\\nweakens a Ghost\\nmove if weak to it."
+        },
+        {
+            "label": "sHabanBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n龙属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Dragon\\nmove if weak to it."
+        },
+        {
+            "label": "sColburBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n恶属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Dark\\nmove if weak to it."
+        },
+        {
+            "label": "sBabiriBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到效果绝佳的\\n钢属性招式攻击时\\n，能令其威力减弱\\n。",
+            "en": "A hold item that\\nweakens a Steel\\nmove if weak to it."
+        },
+        {
+            "label": "sChilanBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到一般属性招\\n式攻击时，能令其\\n威力减弱。",
+            "en": "A hold item that\\nweakens a Normal\\nmove."
+        },
+        {
+            "label": "sRoseliBerryDesc",
+            "zh": "如果宝可梦携带了\\n它，可以在对战中\\n降低妖精属性招式\\n效果绝佳的效果。",
+            "en": "A hold item that\\nweakens a Fairy\\nmove if weak to it."
+        },
+        {
+            "label": "sCustapBerryDesc",
+            "zh": "让宝可梦携带后，\\n危机时，行动仅会\\n变快1次。",
+            "en": "It allows a Pokémon\\nin a pinch to move\\nfirst just once."
+        },
+        {
+            "label": "sJabocaBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到物理招式攻\\n击时，能给予对手\\n伤害。",
+            "en": "If hit by a physical\\nmove, it will hurt\\nthe attacker a bit."
+        },
+        {
+            "label": "sRowapBerryDesc",
+            "zh": "让宝可梦携带后，\\n在受到特殊招式攻\\n击时，能给予对手\\n伤害。",
+            "en": "If hit by a special\\nmove, it will hurt\\nthe attacker a bit."
+        },
+        {
+            "label": "sKeeBerryDesc",
+            "zh": "如果宝可梦携带了\\n它，可以在对战中\\n受到物理招式攻击\\n时，防御提升1级\\n。",
+            "en": "If hit by a physical\\nmove, it raises the\\nDefense a bit."
+        },
+        {
+            "label": "sMarangaBerryDesc",
+            "zh": "如果宝可梦携带了\\n它，可以在对战中\\n受到特殊招式攻击\\n时，特防提升1级\\n。",
+            "en": "If hit by a special\\nmove, it raises the\\nSp. Def. a bit."
+        },
+        {
+            "label": "sBrightPowderDesc",
+            "zh": "闪闪发光的粉末。\\n携带后，光芒会迷\\n惑对手，从而使其\\n招式变得不容易命\\n中。",
+            "en": "A hold item that\\ncasts a glare to\\nreduce accuracy."
+        },
+        {
+            "label": "sWhiteHerbDesc",
+            "zh": "当携带它的宝可梦\\n能力降低时，仅能\\n回到之前的状态1\\n次。",
+            "en": "A hold item that\\nrestores any\\nlowered stat."
+        },
+        {
+            "label": "sMachoBraceDesc",
+            "zh": "又硬又重的锻炼器\\n。虽然携带后速度\\n会降低，但会比平\\n时更容易茁壮成长\\n。",
+            "en": "A hold item that\\npromotes growth,\\nbut reduces Speed."
+        },
+        {
+            "label": "sExpShareDesc",
+            "zh": "打开开关后，能让\\n同行的所有宝可梦\\n获得经验值的装置\\n。",
+            "en": "A hold item that\\ngets Exp. points\\nfrom battles."
+        },
+        {
+            "label": "sQuickClawDesc",
+            "zh": "又轻又尖锐的爪子\\n。携带后，有时能\\n比对手先一步行动\\n。",
+            "en": "A hold item that\\noccasionally allows\\nthe first strike."
+        },
+        {
+            "label": "sSootheBellDesc",
+            "zh": "音色悦耳的铃铛。\\n携带它的宝可梦会\\n受到安抚，变得容\\n易和训练家亲密。",
+            "en": "A hold item that\\ncalms spirits and\\nfosters friendship."
+        },
+        {
+            "label": "sMentalHerbDesc",
+            "zh": "当携带它的宝可梦\\n无法自由使出招式\\n时，仅会回复1次\\n。",
+            "en": "A hold item that\\nsnaps Pokémon out\\nof infatuation."
+        },
+        {
+            "label": "sChoiceBandDesc",
+            "zh": "有点讲究的头带。\\n虽然携带后攻击会\\n提高，但只能使出\\n相同的招式。",
+            "en": "Raises a move's\\npower, but permits\\nonly that move."
+        },
+        {
+            "label": "sKingsRockDesc",
+            "zh": "携带后进行攻击，\\n在造成伤害时，有\\n时会让对手畏缩。",
+            "en": "A hold item that\\nmay cause flinching\\nwhen the foe is hit."
+        },
+        {
+            "label": "sSilverPowderDesc",
+            "zh": "散发着银色光辉的\\n粉末。携带后，虫\\n属性的招式威力就\\n会提高。",
+            "en": "A hold item that\\nraises the power of\\nBug-type moves."
+        },
+        {
+            "label": "sAmuletCoinDesc",
+            "zh": "只要携带它的宝可\\n梦在战斗时出场一\\n次，就能获得2倍\\n金钱。",
+            "en": "Doubles money in\\nbattle if the\\nholder takes part."
+        },
+        {
+            "label": "sCleanseTagDesc",
+            "zh": "让排在最前面的宝\\n可梦携带后，野生\\n宝可梦就会不容易\\n出现。",
+            "en": "A hold item that\\nhelps repel wild\\nPokémon."
+        },
+        {
+            "label": "sSoulDewDesc",
+            "zh": "让拉帝欧斯或拉帝\\n亚斯携带后，超能\\n力和龙属性的招式\\n威力就会提高的神\\n奇珠子。",
+            "en": "Hold item: raises\\nSp. Atk & Sp. Def of\\nLatios & Latias."
+        },
+        {
+            "label": "sDeepSeaToothDesc",
+            "zh": "让珍珠贝携带后，\\n特攻就会提高的牙\\n齿。散发着闪亮的\\n银光。",
+            "en": "A hold item that\\nraises the Sp. Atk\\nof Clamperl."
+        },
+        {
+            "label": "sDeepSeaScaleDesc",
+            "zh": "让珍珠贝携带后，\\n特防就会提高的鳞\\n片。散发着淡淡的\\n粉红色光芒。",
+            "en": "A hold item that\\nraises the Sp. Def\\nof Clamperl."
+        },
+        {
+            "label": "sSmokeBallDesc",
+            "zh": "携带它的宝可梦在\\n和野生宝可梦的战\\n斗中绝对可以逃走\\n。",
+            "en": "A hold item that\\nassures fleeing\\nfrom wild Pokémon."
+        },
+        {
+            "label": "sEverstoneDesc",
+            "zh": "宝可梦在此期间不\\n会进化的神奇石头\\n。",
+            "en": "A wondrous hold\\nitem that prevents\\nevolution."
+        },
+        {
+            "label": "sFocusBandDesc",
+            "zh": "携带后，即便受到\\n可能会导致濒死的\\n招式，有时也能仅\\n以1HP撑过去。",
+            "en": "A hold item that\\noccasionally\\nprevents fainting."
+        },
+        {
+            "label": "sLuckyEggDesc",
+            "zh": "满载着幸福的蛋。\\n携带它的宝可梦获\\n得的经验值会少量\\n增加。",
+            "en": "A hold item that\\nboosts Exp. points\\nearned in battle."
+        },
+        {
+            "label": "sScopeLensDesc",
+            "zh": "能看见弱点的镜片\\n。携带它的宝可梦\\n的招式会变得容易\\n击中要害。",
+            "en": "A hold item that\\nimproves the\\ncritical-hit rate."
+        },
+        {
+            "label": "sMetalCoatDesc",
+            "zh": "特殊的金属膜。携\\n带后，钢属性的招\\n式威力就会提高。",
+            "en": "A hold item that\\nraises the power of\\nSteel-type moves."
+        },
+        {
+            "label": "sLeftoversDesc",
+            "zh": "携带后，宝可梦的\\nHP会在战斗期间\\n缓缓回复。",
+            "en": "A hold item that\\ngradually restores\\nHP in battle."
+        },
+        {
+            "label": "sDragonScaleDesc",
+            "zh": "又硬又坚固的鳞片\\n。龙属性宝可梦有\\n时会携带它。",
+            "en": "A strange scale\\nheld by Dragon-\\ntype Pokémon."
+        },
+        {
+            "label": "sOvalStoneDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇石头\\n。像珠子一般圆润\\n。",
+            "en": "Makes a certain\\nPokémon evolve. It's\\nshaped like an egg."
+        },
+        {
+            "label": "sProtectorDesc",
+            "zh": "某种护具。非常坚\\n硬而且沉重。某种\\n宝可梦很喜欢它。",
+            "en": "Loved by a certain\\nPokémon. It's stiff\\nand heavy."
+        },
+        {
+            "label": "sElectirizerDesc",
+            "zh": "积蓄着庞大电气力\\n量的箱子。某种宝\\n可梦很喜欢它。",
+            "en": "Loved by a certain\\nPokémon. It's full\\nof electric energy."
+        },
+        {
+            "label": "sMagmarizerDesc",
+            "zh": "积蓄着庞大熔岩能\\n量的箱子。某种宝\\n可梦很喜欢它。",
+            "en": "Loved by a certain\\nPokémon. It's full\\nof magma energy."
+        },
+        {
+            "label": "sDubiousDiscDesc",
+            "zh": "内部储存了奇怪信\\n息的透明机器。制\\n造者不明。",
+            "en": "A transparent device\\noverflowing with\\ndubious data."
+        },
+        {
+            "label": "sReaperClothDesc",
+            "zh": "蕴含着惊人强大灵\\n力的布。某种宝可\\n梦很喜欢它。",
+            "en": "Loved by a certain\\nPokémon. Imbued with\\nspiritual energy."
+        },
+        {
+            "label": "sRazorClawDesc",
+            "zh": "尖锐的爪子。携带\\n后，招式会变得容\\n易击中要害。",
+            "en": "A hooked claw that\\nups the holder's\\ncritical-hit ratio."
+        },
+        {
+            "label": "sRazorFangDesc",
+            "zh": "携带后，在给予伤\\n害时，有时会让对\\n手畏缩。",
+            "en": "A hold item that\\nmay cause flinching\\nwhen the foe is hit."
+        },
+        {
+            "label": "sPrismScaleDesc",
+            "zh": "能让某些特定宝可\\n梦进化的神奇鳞片\\n。散发着虹色光辉\\n。",
+            "en": "A mysterious scale\\nthat evolves certain\\nPokémon. It shines."
+        },
+        {
+            "label": "sWhippedDreamDesc",
+            "zh": "软软起着泡的，稍\\n微有点甜的奶油。\\n某种宝可梦很喜欢\\n它。",
+            "en": "A soft and sweet\\ntreat loved by\\na certain Pokémon."
+        },
+        {
+            "label": "sSachetDesc",
+            "zh": "装着散发微浓香气\\n的香料的袋子。某\\n种宝可梦很喜欢它\\n。",
+            "en": "A sachet filled with\\nperfumes loved by\\na certain Pokémon."
+        },
+        {
+            "label": "sLightBallDesc",
+            "zh": "让皮卡丘携带后，\\n攻击和特攻的威力\\n就会提高的神奇之\\n球。",
+            "en": "A hold item that\\nraises the Atk and\\nSp. Atk of Pikachu."
+        },
+        {
+            "label": "sSoftSandDesc",
+            "zh": "手感细腻的沙子。\\n携带后，地面属性\\n的招式威力就会提\\n高。",
+            "en": "A hold item that\\nraises the power of\\nGround-type moves."
+        },
+        {
+            "label": "sHardStoneDesc",
+            "zh": "绝对不会裂开的石\\n头。携带后，岩石\\n属性的招式威力就\\n会提高。",
+            "en": "A hold item that\\nraises the power of\\nRock-type moves."
+        },
+        {
+            "label": "sMiracleSeedDesc",
+            "zh": "孕育生命的种子。\\n携带后，草属性的\\n招式威力就会提高\\n。",
+            "en": "A hold item that\\nraises the power of\\nGrass-type moves."
+        },
+        {
+            "label": "sBlackGlassesDesc",
+            "zh": "看上去很奇怪的眼\\n镜。携带后，恶属\\n性的招式威力就会\\n提高。",
+            "en": "A hold item that\\nraises the power of\\nDark-type moves."
+        },
+        {
+            "label": "sBlackBeltDesc",
+            "zh": "能振作精神的带子\\n。携带后，格斗属\\n性的招式威力就会\\n提高。",
+            "en": "A hold item that\\nboosts Fighting-\\ntype moves."
+        },
+        {
+            "label": "sMagnetDesc",
+            "zh": "强力的磁铁。携带\\n后，电属性的招式\\n威力就会提高。",
+            "en": "A hold item that\\nboosts Electric-\\ntype moves."
+        },
+        {
+            "label": "sMysticWaterDesc",
+            "zh": "水滴形状的宝石。\\n携带后，水属性的\\n招式威力就会提高\\n。",
+            "en": "A hold item that\\nraises the power of\\nWater-type moves."
+        },
+        {
+            "label": "sSharpBeakDesc",
+            "zh": "又长又尖的鸟嘴。\\n携带后，飞行属性\\n的招式威力就会提\\n高。",
+            "en": "A hold item that\\nraises the power of\\nFlying-type moves."
+        },
+        {
+            "label": "sPoisonBarbDesc",
+            "zh": "有毒的小针。携带\\n后，毒属性的招式\\n威力就会提高。",
+            "en": "A hold item that\\nraises the power of\\nPoison-type moves."
+        },
+        {
+            "label": "sNeverMeltIceDesc",
+            "zh": "能隔绝热量的冰。\\n携带后，冰属性的\\n招式威力就会提高\\n。",
+            "en": "A hold item that\\nraises the power of\\nIce-type moves."
+        },
+        {
+            "label": "sSpellTagDesc",
+            "zh": "古怪可怕的咒符。\\n携带后，幽灵属性\\n的招式威力就会提\\n高。",
+            "en": "A hold item that\\nraises the power of\\nGhost-type moves."
+        },
+        {
+            "label": "sTwistedSpoonDesc",
+            "zh": "注入了念力的汤匙\\n。携带后，超能力\\n属性的招式威力就\\n会提高。",
+            "en": "A hold item that\\nboosts Psychic-\\ntype moves."
+        },
+        {
+            "label": "sCharcoalDesc",
+            "zh": "焚烧用的燃料。携\\n带后，火属性的招\\n式威力就会提高。",
+            "en": "A hold item that\\nraises the power of\\nFire-type moves."
+        },
+        {
+            "label": "sDragonFangDesc",
+            "zh": "坚硬锐利的牙齿。\\n携带后，龙属性的\\n招式威力就会提高\\n。",
+            "en": "A hold item that\\nraises the power of\\nDragon-type moves."
+        },
+        {
+            "label": "sSilkScarfDesc",
+            "zh": "一个携带后可以提\\n高普通属性攻击技\\n能的道具。",
+            "en": "A hold item that\\nraises the power of\\nNormal-type moves."
+        },
+        {
+            "label": "sUpGradeDesc",
+            "zh": "内部储存了各种信\\n息的透明机器。西\\n尔佛公司制造。",
+            "en": "A peculiar box made\\nby Silph Co."
+        },
+        {
+            "label": "sShellBellDesc",
+            "zh": "当携带它的宝可梦\\n攻击对手并造成伤\\n害时，能回复少量\\nHP。",
+            "en": "A hold item that\\nrestores HP upon\\nstriking the foe."
+        },
+        {
+            "label": "sPowerBracerDesc",
+            "zh": "虽然携带后速度会\\n降低，但宝可梦的\\n攻击会比平时成长\\n得更高。",
+            "en": "A hold item that\\npromotes Atk gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sPowerBeltDesc",
+            "zh": "虽然携带后速度会\\n低，但宝可梦的防\\n御会比平时成长得\\n更高。",
+            "en": "A hold item that\\npromotes Def gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sPowerLensDesc",
+            "zh": "虽然携带后速度会\\n降低，但宝可梦的\\n特攻会比平时成长\\n得更高。",
+            "en": "Hold item that pro-\\nmotes Sp. Atk gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sPowerBandDesc",
+            "zh": "虽然携带后速度会\\n降低，但宝可梦的\\n特防会比平时成长\\n得更高。",
+            "en": "Hold item that pro-\\nmotes Sp. Def gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sPowerAnkletDesc",
+            "zh": "虽然携带后速度会\\n降低，但宝可梦的\\n速度会比平时成长\\n得更高。",
+            "en": "A hold item that\\npromotes Spd gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sPowerWeightDesc",
+            "zh": "虽然携带后速度会\\n降低，但宝可梦的\\nHP会比平时成长\\n得更高。",
+            "en": "A hold item that\\npromotes HP gain,\\nbut reduces Speed."
+        },
+        {
+            "label": "sSeaIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，水属\\n性的招式威力就会\\n提高。",
+            "en": "A hold item that\\nslightly boosts\\nWater-type moves."
+        },
+        {
+            "label": "sLaxIncenseDesc",
+            "zh": "携带后，薰香的神\\n奇香气会迷惑对手\\n，其招式会变得不\\n容易命中。",
+            "en": "A hold item that\\nslightly lowers the\\nfoe's accuracy."
+        },
+        {
+            "label": "sOddIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，超能\\n力属性的招式威力\\n就会提高。",
+            "en": "A hold item that\\nboosts Psychic-\\ntype moves."
+        },
+        {
+            "label": "sRockIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，岩石\\n属性的招式威力就\\n会提高。",
+            "en": "A hold item that\\nraises the power of\\nRock-type moves."
+        },
+        {
+            "label": "sFullIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，宝可\\n梦的行动会比平时\\n更加迟缓。",
+            "en": "A held item that\\nmakes the holder\\nmove slower."
+        },
+        {
+            "label": "sWaveIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，水属\\n性的招式威力就会\\n提高。",
+            "en": "A hold item that\\nslightly boosts\\nWater-type moves."
+        },
+        {
+            "label": "sRoseIncenseDesc",
+            "zh": "有着神奇香气的薰\\n香。携带后，草属\\n的招式威力就会提\\n高。",
+            "en": "A hold item that\\nraises the power of\\nGrass-type moves."
+        },
+        {
+            "label": "sLuckIncenseDesc",
+            "zh": "只要携带它的宝可\\n梦在战斗时出场一\\n次，就能获得2倍\\n金钱。",
+            "en": "Doubles money in\\nbattle if the\\nholder takes part."
+        },
+        {
+            "label": "sPureIncenseDesc",
+            "zh": "让排在最前面的宝\\n可梦携带后，野生\\n宝可梦就会不容易\\n出现。",
+            "en": "A hold item that\\nhelps repel wild\\nPokémon."
+        },
+        {
+            "label": "sLuckyPunchDesc",
+            "zh": "能带来幸运的拳套\\n。让吉利蛋携带后\\n，招式会变得容易\\n击中要害。",
+            "en": "A hold item that\\nraises Chansey's\\ncritical-hit rate."
+        },
+        {
+            "label": "sMetalPowderDesc",
+            "zh": "让百变怪携带后，\\n防御就会提的神奇\\n粉末。非常细腻坚\\n硬。",
+            "en": "A hold item that\\nraises Ditto's\\nDefense."
+        },
+        {
+            "label": "sThickClubDesc",
+            "zh": "某种坚硬的骨头。\\n让卡拉卡拉或嘎啦\\n嘎啦携带后，攻击\\n就会提高。",
+            "en": "A hold item that \\nraises Cubone or\\nMarowak's Attack."
+        },
+        {
+            "label": "sStickDesc",
+            "zh": "非常长且坚硬的茎\\n。让大葱鸭携带后\\n，招式会变得容易\\n击中要害。",
+            "en": "A hold item that\\nraises Farfetch'd's\\ncritical-hit ratio."
+        },
+        {
+            "label": "sRedScarfDesc",
+            "zh": "携带它去参加华丽\\n大赛的宝可梦会比\\n平时看上去更加帅\\n气。",
+            "en": "A hold item that\\nraises Cool in\\nContests."
+        },
+        {
+            "label": "sBlueScarfDesc",
+            "zh": "携带它去参加华丽\\n大赛的宝可梦会比\\n平时看上去更加美\\n丽。",
+            "en": "A hold item that\\nraises Beauty in\\nContests."
+        },
+        {
+            "label": "sPinkScarfDesc",
+            "zh": "携带它去参加华丽\\n大赛的宝可梦会比\\n平时看上去更加可\\n爱。",
+            "en": "A hold item that\\nraises Cute in\\nContests."
+        },
+        {
+            "label": "sGreenScarfDesc",
+            "zh": "携带它去参加华丽\\n大赛的宝可梦会\\n比平时看上去更加聪\\n明。",
+            "en": "A hold item that\\nraises Smart in\\nContests."
+        },
+        {
+            "label": "sYellowScarfDesc",
+            "zh": "携带它去参加华丽\\n大赛的宝可梦会比\\n平时看上去更加强\\n壮。",
+            "en": "A hold item that\\nraises Tough in\\nContests."
+        },
+        {
+            "label": "sMachBikeDesc",
+            "zh": "能以2倍以上的速\\n度移动的折叠式自\\n行车。",
+            "en": "A folding bicycle\\nthat doubles your\\nspeed or better."
+        },
+        {
+            "label": "sCoinCaseDesc",
+            "zh": "可以存放代币的盒\\n子。最多能放入9\\n999枚在游戏城\\n获得的代币。",
+            "en": "A case that holds\\nup to 9,999 Coins."
+        },
+        {
+            "label": "sItemfinderDesc",
+            "zh": "会对看不见的道具\\n起反应，并发出声\\n音告诉你。",
+            "en": "A device that\\nsignals an invisible\\nitem by sound."
+        },
+        {
+            "label": "sOldRodDesc",
+            "zh": "又破又旧的钓竿。\\n在有水的地方使用\\n的话，可以钓到宝\\n可梦。",
+            "en": "Use by any body of\\nwater to fish for\\nwild Pokémon."
+        },
+        {
+            "label": "sGoodRodDesc",
+            "zh": "不错的新钓竿。在\\n有水的地方使用的\\n话，可以钓到宝可\\n梦。",
+            "en": "A decent fishing\\nrod for catching\\nwild Pokémon."
+        },
+        {
+            "label": "sSuperRodDesc",
+            "zh": "最新的厉害钓竿。\\n在有水的地方使用\\n的话，可以钓到宝\\n可梦。",
+            "en": "The best fishing\\nrod for catching\\nwild Pokémon."
+        },
+        {
+            "label": "sSSTicketDesc",
+            "zh": "乘坐高速船时所需\\n的船票。上面绘有\\n船的图案。",
+            "en": "The ticket required\\nfor sailing on a\\nferry."
+        },
+        {
+            "label": "sContestPassDesc",
+            "zh": "拿着它就可以参加\\n宝可梦华丽大赛。\\n上面印有纪念奖章\\n。",
+            "en": "The pass required\\nfor entering\\nPokémon Contests."
+        },
+        {
+            "label": "sWailmerPailDesc",
+            "zh": "浇水的道具。能让\\n埋在土壤里的树果\\n快快长大。",
+            "en": "A tool used for\\nwatering Berries\\nand plants."
+        },
+        {
+            "label": "sDevonGoodsDesc",
+            "zh": "此物品里面放着的\\n是得文制造的某种\\n零件。",
+            "en": "A package that\\ncontains Devon's\\nmachine parts."
+        },
+        {
+            "label": "sSootSackDesc",
+            "zh": "将堆积起来的火山\\n灰收集起来的袋子\\n。",
+            "en": "A sack used to\\ngather and hold\\nvolcanic ash."
+        },
+        {
+            "label": "sBasementKeyDesc",
+            "zh": "用来打开地道大门\\n的钥匙。",
+            "en": "The key for New\\nMauville beneath\\nMauville City."
+        },
+        {
+            "label": "sAcroBikeDesc",
+            "zh": "能做出跳跃或抬前\\n轮动作的折叠式自\\n行车。",
+            "en": "A folding bicycle\\ncapable of jumps\\nand wheelies."
+        },
+        {
+            "label": "sPokeblockCaseDesc",
+            "zh": "可以用来放置用树\\n果混合器制造的宝\\n可方块的盒子。",
+            "en": "A case for holding\\nPokéblocks made with\\na Berry Blender."
+        },
+        {
+            "label": "sLetterDesc",
+            "zh": "从阿克罗玛博士那\\n里得到的信，需要\\n交给4号道路的阿\\n戴克。",
+            "en": "A letter to Steven\\nfrom the President\\nof the Devon Corp."
+        },
+        {
+            "label": "sEonTicketDesc",
+            "zh": "前往南方孤岛时需\\n要的船票。上面印\\n着岛屿的图片。",
+            "en": "The ticket for a\\nferry to a distant\\nsouthern island."
+        },
+        {
+            "label": "sRedOrbDesc",
+            "zh": "散发着红色光辉的\\n宝珠。据说蕴含着\\n超古代的力量。",
+            "en": "A red, glowing orb\\nsaid to contain an\\nancient power."
+        },
+        {
+            "label": "sBlueOrbDesc",
+            "zh": "散发着蓝色光辉的\\n宝珠。据说蕴含着\\n超古代的力量。",
+            "en": "A blue, glowing orb\\nsaid to contain an\\nancient power."
+        },
+        {
+            "label": "sScannerDesc",
+            "zh": "在弃船中找到的道\\n具。",
+            "en": "A device found\\ninside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sGoGogglesDesc",
+            "zh": "能在沙漠的沙暴中\\n保护眼睛的出色护\\n目镜。",
+            "en": "Nifty goggles that\\nprotect eyes from\\ndesert sandstorms."
+        },
+        {
+            "label": "sMeteoriteDesc",
+            "zh": "原本是落入流星瀑\\n布里的陨石。是在\\n烟囱山获得的。",
+            "en": "A meteorite found\\nat Meteor Falls."
+        },
+        {
+            "label": "sRoom1KeyDesc",
+            "zh": "进入弃船的房间时\\n所需的钥匙。",
+            "en": "A key that opens a\\ndoor inside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sRoom2KeyDesc",
+            "zh": "进入弃船的房间时\\n所需的钥匙。",
+            "en": "A key that opens a\\ndoor inside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sRoom4KeyDesc",
+            "zh": "进入弃船的房间时\\n所需的钥匙。",
+            "en": "A key that opens a\\ndoor inside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sRoom6KeyDesc",
+            "zh": "进入弃船的房间时\\n所需的钥匙。",
+            "en": "A key that opens a\\ndoor inside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sStorageKeyDesc",
+            "zh": "进入弃船的仓库时\\n所需的钥匙。",
+            "en": "The key to the\\nstorage inside the\\nAbandoned Ship."
+        },
+        {
+            "label": "sRootFossilDesc",
+            "zh": "很久以前栖息在海\\n里的古代宝可梦的\\n化石。好像是根的\\n一部分。",
+            "en": "A fossil of an\\nancient, seafloor-\\ndwelling Pokémon."
+        },
+        {
+            "label": "sClawFossilDesc",
+            "zh": "很久以前栖息在海\\n里的古代宝可梦的\\n化石。好像是爪子\\n的一部分。",
+            "en": "A fossil of an\\nancient, seafloor-\\ndwelling Pokémon."
+        },
+        {
+            "label": "sDevonScopeDesc",
+            "zh": "会对看不见的宝可\\n梦起反应，并发出\\n声音的得文特制产\\n品。",
+            "en": "A device by Devon\\nthat signals any\\nunseeable Pokémon."
+        },
+        {
+            "label": "sTM01Desc",
+            "zh": "集中精神出拳。在\\n招式使出前若受到\\n攻击则会失败。",
+            "en": "Powerful, but makes\\nthe user flinch if\\nhit by the foe."
+        },
+        {
+            "label": "sTM02Desc",
+            "zh": "用尖锐的巨爪劈开\\n对手进行攻击。",
+            "en": "Hooks and slashes\\nthe foe with long,\\nsharp claws."
+        },
+        {
+            "label": "sTM03Desc",
+            "zh": "用水的震动攻击对\\n手。有时会使对手\\n混乱。",
+            "en": "Generates an\\nultrasonic wave\\nthat may confuse."
+        },
+        {
+            "label": "sTM04Desc",
+            "zh": "静心凝神，从而提\\n高自己的特攻和特\\n防。",
+            "en": "Raises Sp. Atk and\\nSp. Def by focusing\\nthe mind."
+        },
+        {
+            "label": "sTM05Desc",
+            "zh": "放走对手，强制拉\\n后备宝可梦上场。\\n如果对手为野生宝\\n可梦，战斗将直接\\n结束。",
+            "en": "A savage roar that\\nmakes the foe flee \\nto end the battle."
+        },
+        {
+            "label": "sTM06Desc",
+            "zh": "让对手陷入剧毒状\\n态。随着回合的推\\n进，中毒伤害会增\\n加。",
+            "en": "Poisons the foe\\nwith a toxin that\\ngradually worsens."
+        },
+        {
+            "label": "sTM07Desc",
+            "zh": "在5回合内一直降\\n冰雹，除冰属性的\\n宝可梦以外，给予\\n全体宝可梦伤害。",
+            "en": "Creates a hailstorm\\nthat damages all\\ntypes except Ice."
+        },
+        {
+            "label": "sTM08Desc",
+            "zh": "使出全身力气绷紧\\n肌肉，从而提高自\\n己的攻击和防御。",
+            "en": "Bulks up the body\\nto boost both\\nAttack & Defense."
+        },
+        {
+            "label": "sTM09Desc",
+            "zh": "向对手猛烈地发射\\n种子进行攻击。连\\n续攻击2～5次。",
+            "en": "Shoots 2 to 5 seeds\\nin a row to strike\\nthe foe."
+        },
+        {
+            "label": "sTM10Desc",
+            "zh": "招式的属性会随着\\n使用此招式的宝可\\n梦而改变。",
+            "en": "The attack power\\nvaries among\\ndifferent Pokémon."
+        },
+        {
+            "label": "sTM11Desc",
+            "zh": "在5回合内阳光变\\n得强烈，从而提高\\n火属性的招式威力\\n。水属性的招式威\\n力则降低。",
+            "en": "Raises the power of\\nFire-type moves\\nfor 5 turns."
+        },
+        {
+            "label": "sTM12Desc",
+            "zh": "使对手愤怒。在3\\n回合内让对手只能\\n使出给予伤害的招\\n式。",
+            "en": "Enrages the foe so\\nit can only use\\nattack moves."
+        },
+        {
+            "label": "sTM13Desc",
+            "zh": "向对手发射冰冻光\\n束进行攻击。有时\\n会让对手陷入冰冻\\n状态。",
+            "en": "Fires an icy cold\\nbeam that may\\nfreeze the foe."
+        },
+        {
+            "label": "sTM14Desc",
+            "zh": "将猛烈的暴风雪刮\\n向对手进行攻击。\\n有时会让对手陷入\\n冰冻状态。",
+            "en": "A brutal snow-and-\\nwind attack that\\nmay freeze the foe."
+        },
+        {
+            "label": "sTM15Desc",
+            "zh": "向对手发射强烈的\\n光线进行攻击。下\\n一回合自己将无法\\n动弹。",
+            "en": "Powerful, but needs\\nrecharging the\\nnext turn."
+        },
+        {
+            "label": "sTM16Desc",
+            "zh": "在5回合内使用神\\n奇的墙，减弱从对\\n手那受到的特殊攻\\n击的伤害。",
+            "en": "Creates a wall of\\nlight that lowers\\nSp. Atk damage."
+        },
+        {
+            "label": "sTM17Desc",
+            "zh": "完全抵挡对手的攻\\n击。连续使出则容\\n易失败。",
+            "en": "Negates all damage,\\nbut may fail if used\\nin succession."
+        },
+        {
+            "label": "sTM18Desc",
+            "zh": "在5回合内一直降\\n雨，从而提高水属\\n性的招式威力。火\\n属性的招式威力则\\n降低。",
+            "en": "Raises the power of\\nWater-type moves\\nfor 5 turns."
+        },
+        {
+            "label": "sTM19Desc",
+            "zh": "吸取对手的养分进\\n行攻击。可以回复\\n给予对手伤害的一\\n半HP。",
+            "en": "Recovers half the\\nHP of the damage \\nthis move inflicts."
+        },
+        {
+            "label": "sTM20Desc",
+            "zh": "在5回合内被神奇\\n的力量守护，从而\\n不会陷入异常状态\\n。",
+            "en": "Prevents status\\nabnormality with a\\nmystical power."
+        },
+        {
+            "label": "sTM21Desc",
+            "zh": "为了发泄不满而全\\n力攻击对手。亲密\\n度越低，威力越大\\n。",
+            "en": "The less the user\\nlikes you, the more\\npowerful this move."
+        },
+        {
+            "label": "sTM22Desc",
+            "zh": "第1回合收集满满\\n的日光，第2回合\\n发射光束进行攻击\\n。",
+            "en": "Absorbs sunlight in\\nthe 1st turn, then\\nattacks next turn."
+        },
+        {
+            "label": "sTM23Desc",
+            "zh": "使用坚硬的尾巴摔\\n打对手进行攻击。\\n有时会降低对手的\\n防御。",
+            "en": "Slams the foe with\\na hard tail. It may\\nlower Defense."
+        },
+        {
+            "label": "sTM24Desc",
+            "zh": "向对手发出强力电\\n击进行攻击。有时\\n会让对手陷入麻痹\\n状态。",
+            "en": "A powerful electric\\nattack that may\\ncause paralysis."
+        },
+        {
+            "label": "sTM25Desc",
+            "zh": "向对手劈下暴雷进\\n行攻击。有时会让\\n对手陷入麻痹状态\\n。",
+            "en": "Strikes the foe\\nwith a thunderbolt.\\nIt may paralyze."
+        },
+        {
+            "label": "sTM26Desc",
+            "zh": "利用地震的冲击，\\n攻击自己周围所有\\n的宝可梦。",
+            "en": "Causes a quake\\nthat has no effect\\non flying foes."
+        },
+        {
+            "label": "sTM27Desc",
+            "zh": "为了训练家而全力\\n攻击对手。亲密度\\n越高，威力越大。",
+            "en": "The more the user\\nlikes you, the more\\npowerful this move."
+        },
+        {
+            "label": "sTM28Desc",
+            "zh": "第1回合钻入，第\\n2回合攻击对手\\n。",
+            "en": "Digs underground\\nthe 1st turn, then\\nstrikes next turn."
+        },
+        {
+            "label": "sTM29Desc",
+            "zh": "向对手发送强大的\\n念力进行攻击。有\\n时会降低对手的特\\n防。",
+            "en": "A powerful psychic\\nattack that may\\nlower Sp. Def."
+        },
+        {
+            "label": "sTM30Desc",
+            "zh": "投掷一团黑影进行\\n攻击。有时会降低\\n对手的特防。",
+            "en": "Hurls a dark lump\\nat the foe. It may\\nlower Sp. Def."
+        },
+        {
+            "label": "sTM31Desc",
+            "zh": "将手刀猛烈地挥下\\n攻击对手。还可以\\n破坏光墙和反射壁\\n等。",
+            "en": "Destroys barriers\\nlike Light Screen\\nand causes damage."
+        },
+        {
+            "label": "sTM32Desc",
+            "zh": "通过快速移动来制\\n造分身，扰乱对手\\n，从而提高闪避率\\n。",
+            "en": "Creates illusory\\ncopies to enhance\\nelusiveness."
+        },
+        {
+            "label": "sTM33Desc",
+            "zh": "在5回合内使用神\\n奇的墙，减弱从对\\n手那受到的物理攻\\n击的伤害。",
+            "en": "Creates a wall of\\nlight that weakens\\nphysical attacks."
+        },
+        {
+            "label": "sTM34Desc",
+            "zh": "向对手快速发出电\\n击。攻击必定会命\\n中。",
+            "en": "Zaps the foe with a\\njolt of electricity\\nthat never misses."
+        },
+        {
+            "label": "sTM35Desc",
+            "zh": "向对手发射烈焰进\\n行攻击。有时会让\\n对手陷入灼伤状态\\n。",
+            "en": "Looses a stream of\\nfire that may burn\\nthe foe."
+        },
+        {
+            "label": "sTM36Desc",
+            "zh": "用污泥投掷对手进\\n行攻击。有时会让\\n对手陷入中毒状态\\n。",
+            "en": "Hurls sludge at the\\nfoe. It may poison\\nthe foe."
+        },
+        {
+            "label": "sTM37Desc",
+            "zh": "在5回合内扬起沙\\n暴，除岩石、地面\\n和钢属性以外的宝\\n可梦，都会受到伤\\n害。岩石属性的特\\n防还会提高。",
+            "en": "Causes a sandstorm\\nthat hits the foe\\nover several turns."
+        },
+        {
+            "label": "sTM38Desc",
+            "zh": "用大字形状的火焰\\n烧尽对手。有时会\\n让对手陷入灼伤状\\n态。",
+            "en": "A powerful fire\\nattack that may\\nburn the foe."
+        },
+        {
+            "label": "sTM39Desc",
+            "zh": "投掷岩石进行攻击\\n。封住对手的行动\\n，从而降低速度。",
+            "en": "Stops the foe from\\nmoving with rocks.\\nMay lower Speed."
+        },
+        {
+            "label": "sTM40Desc",
+            "zh": "以敏捷的动作戏弄\\n对手后进行切斩。\\n攻击必定会命中。",
+            "en": "An extremely fast\\nattack that can't\\nbe avoided."
+        },
+        {
+            "label": "sTM41Desc",
+            "zh": "向对手无理取闹，\\n令其不能连续2次\\n使出相同招式。",
+            "en": "Prevents the foe\\nfrom using the same\\nmove in a row."
+        },
+        {
+            "label": "sTM42Desc",
+            "zh": "当自己处于中毒、\\n麻痹、灼伤状态时\\n，向对手使出此招\\n式的话，威力会变\\n成2倍。",
+            "en": "Raises Attack when\\npoisoned, burned,\\nor paralyzed."
+        },
+        {
+            "label": "sTM43Desc",
+            "zh": "根据使用场所不同\\n，该招式的追加效\\n果也会有所变化。",
+            "en": "Adds an effect to\\nattack depending\\non the location."
+        },
+        {
+            "label": "sTM44Desc",
+            "zh": "连续睡上2回合。\\n回复自己的全部H\\nP以及治愈所有异\\n常状态。",
+            "en": "The user sleeps for\\n2 turns to restore\\nhealth and status."
+        },
+        {
+            "label": "sTM45Desc",
+            "zh": "♂诱惑♀或♀诱惑\\n♂，让对手着迷。\\n对手将很难使出招\\n式。",
+            "en": "Makes it tough to\\nattack a foe of the\\nopposite gender."
+        },
+        {
+            "label": "sTM46Desc",
+            "zh": "攻击的同时盗取道\\n具。当自己携带道\\n具时，不会去盗取\\n。",
+            "en": "While attacking,\\nit may steal the\\nfoe's held item."
+        },
+        {
+            "label": "sTM47Desc",
+            "zh": "用坚硬的翅膀敲打\\n对手进行攻击。有\\n时会提高自己的防\\n御。",
+            "en": "Spreads hard-\\nedged wings and\\nslams into the foe."
+        },
+        {
+            "label": "sTM48Desc",
+            "zh": "利用超能力互换自\\n己和对手的特性。",
+            "en": "Switches abilities\\nwith the foe on the\\nturn this is used."
+        },
+        {
+            "label": "sTM49Desc",
+            "zh": "将对手打算使用的\\n回复招式或能力变\\n化招式夺为己用。",
+            "en": "Steals the effects\\nof the move the foe\\nis trying to use."
+        },
+        {
+            "label": "sTM50Desc",
+            "zh": "使出全部力量攻击\\n对手。使用之后会\\n因为反作用力，自\\n己的特攻大幅降低\\n。",
+            "en": "Enables full-power\\nattack, but sharply\\nlowers Sp. Atk."
+        },
+        {
+            "label": "sHM01Desc",
+            "zh": "用镰刀或爪子等切\\n斩对手进行攻击。",
+            "en": "Attacks the foe\\nwith sharp blades\\nor claws."
+        },
+        {
+            "label": "sHM02Desc",
+            "zh": "第1回合飞上天空\\n，第2回合攻击对\\n手。",
+            "en": "Flies up on the\\nfirst turn, then\\nattacks next turn."
+        },
+        {
+            "label": "sHM03Desc",
+            "zh": "利用大浪攻击自己\\n周围所有的宝可梦\\n。",
+            "en": "Creates a huge\\nwave, then crashes\\nit down on the foe."
+        },
+        {
+            "label": "sHM04Desc",
+            "zh": "使出浑身力气殴打\\n对手进行攻击。",
+            "en": "Builds enormous\\npower, then slams\\nthe foe."
+        },
+        {
+            "label": "sHM05Desc",
+            "zh": "使出耀眼光芒，从\\n而降低对手的命中\\n率。",
+            "en": "Looses a powerful\\nblast of light that\\nreduces accuracy."
+        },
+        {
+            "label": "sHM06Desc",
+            "zh": "用拳头进行攻击。\\n有时会降低对手的\\n防御。",
+            "en": "A rock-crushingly\\ntough attack that\\nmay lower Defense."
+        },
+        {
+            "label": "sHM07Desc",
+            "zh": "以惊人的气势扑向\\n对手。有时会使对\\n手畏缩。",
+            "en": "Attacks the foe\\nwith enough power\\nto climb waterfalls."
+        },
+        {
+            "label": "sHM08Desc",
+            "zh": "第1回合潜入，第\\n2回合浮上来进行\\n攻击。",
+            "en": "Dives underwater\\nthe 1st turn, then\\nattacks next turn."
+        },
+        {
+            "label": "sOaksParcelDesc",
+            "zh": "这是常青市的友好\\n商店托付给你的包\\n裹。需要将它交给\\n大木博士。",
+            "en": "A parcel for Prof.\\nOak from a Pokémon\\nMart's clerk."
+        },
+        {
+            "label": "sPokeFluteDesc",
+            "zh": "能吹出让睡着的宝\\n可梦都会情不自禁\\n醒来的美妙音色的\\n笛子。",
+            "en": "A sweet-sounding\\nflute that awakens\\nPokémon."
+        },
+        {
+            "label": "sSecretKeyDesc",
+            "zh": "能打开红莲岛上那\\n座宝可梦道馆的钥\\n匙。周身都以红色\\n装饰。",
+            "en": "The key to the\\nCinnabar Island\\nGym's entrance."
+        },
+        {
+            "label": "sBikeVoucherDesc",
+            "zh": "给华蓝市的奇迹自\\n行车店就能交换得\\n到自行车。",
+            "en": "A voucher for\\nobtaining a bicycle\\nfrom the Bike Shop."
+        },
+        {
+            "label": "sGoldTeethDesc",
+            "zh": "狩猎地带的园长遗\\n失的金假牙。装上\\n它后，笑起来十分\\n耀眼。",
+            "en": "Gold dentures lost\\nby the Safari\\nZone's Warden."
+        },
+        {
+            "label": "sOldAmberDesc",
+            "zh": "封存着古代宝可梦\\n遗传基因的琥珀，\\n透着点红色。",
+            "en": "A stone containing\\nthe genes of an\\nancient Pokémon."
+        },
+        {
+            "label": "sCardKeyDesc",
+            "zh": "用来打开位于金黄\\n市的西尔佛公司总\\n部大厦门锁的卡片\\n式钥匙。",
+            "en": "A card-type door\\nkey used in Silph\\nCo's office."
+        },
+        {
+            "label": "sLiftKeyDesc",
+            "zh": "一把用来打开火箭\\n队藏身处的电梯钥\\n匙。",
+            "en": "An elevator key\\nused in Team\\nRocket's Hideout."
+        },
+        {
+            "label": "sArmorFossilDesc",
+            "zh": "带有火箭队标志的\\n钥匙。能启动位于\\n火箭队基地的电梯\\n。",
+            "en": "A piece of a\\nprehistoric Poké-\\nmon's head."
+        },
+        {
+            "label": "sSkullFossilDesc",
+            "zh": "很久以前生活在地\\n上的古代宝可梦的\\n化石。好像是头部\\n的一部分。",
+            "en": "A piece of a\\nprehistoric Poké-\\nmon's head."
+        },
+        {
+            "label": "sHelixFossilDesc",
+            "zh": "很久以前栖息在海\\n里的古代宝可梦的\\n化石。好像是贝壳\\n的一部分。",
+            "en": "A piece of an\\nancient marine\\nPokémon's seashell."
+        },
+        {
+            "label": "sDomeFossilDesc",
+            "zh": "很久以前栖息在海\\n里的古代宝可梦的\\n化石。好像是甲壳\\n的一部分。",
+            "en": "A piece of an\\nancient marine\\nPokémon's shell."
+        },
+        {
+            "label": "sCoverFossilDesc",
+            "zh": "很久以前栖息在海\\n里的古代宝可梦的\\n化石。好像是后背\\n的一部分。",
+            "en": "A piece of a\\nprehistoric Poké-\\nmon's back."
+        },
+        {
+            "label": "sPlumeFossilDesc",
+            "zh": "据说是鸟宝可梦的\\n祖先，古代宝可梦\\n的化石。好像是翅\\n膀的一部分。",
+            "en": "A piece of a\\nprehistoric Poké-\\nmon's wing."
+        },
+        {
+            "label": "sJawFossilDesc",
+            "zh": "很久以前生活在地\\n上的古代宝可梦的\\n化石。好像是很大\\n的颚的一部分。",
+            "en": "A piece of a prehis-\\ntoric Pokémon's\\nlarge jaw."
+        },
+        {
+            "label": "sSailFossilDesc",
+            "zh": "很久以前生活在地\\n上的古代宝可梦的\\n化石。好像是头鳍\\n的一部分。",
+            "en": "A piece of a prehis-\\ntoric Pokémon's\\nskin sail."
+        },
+        {
+            "label": "sSilphScopeDesc",
+            "zh": "西尔佛公司制造的\\n透视镜。可以看见\\n人眼无法看见的东\\n西。",
+            "en": "Silph Co's scope\\nmakes unseeable\\nPokémon visible."
+        },
+        {
+            "label": "sBicycleDesc",
+            "zh": "能比跑步鞋跑得还\\n快的折叠式自行车\\n。",
+            "en": "A folding bicycle\\nthat is faster than\\nthe Running Shoes."
+        },
+        {
+            "label": "sTownMapDesc",
+            "zh": "可以随时轻松查看\\n的便利地图。也能\\n清楚自己的位置。",
+            "en": "Can be viewed\\nanytime. Shows your\\npresent location."
+        },
+        {
+            "label": "sVSSeekerDesc",
+            "zh": "会告诉你想对战的\\n训练家在哪里的机\\n器。走路就能给电\\n池充电。",
+            "en": "A rechargeable unit\\nthat flags battle-\\nready Trainers."
+        },
+        {
+            "label": "sFameCheckerDesc",
+            "zh": "可以重复查看打听\\n到的有名人物的东\\n西。",
+            "en": "Stores information\\non famous people\\nfor instant recall."
+        },
+        {
+            "label": "sTMCaseDesc",
+            "zh": "用来存放招式学习\\n器的盒子，放在包\\n包的重要物品口袋\\n里。",
+            "en": "A convenient case \\nthat holds TMs and\\nHMs."
+        },
+        {
+            "label": "sBerryPouchDesc",
+            "zh": "将树果收集起来的\\n袋子，放在包包的\\n重要物品口袋里。",
+            "en": "A convenient\\ncontainer that\\nholds Berries."
+        },
+        {
+            "label": "sTeachyTVDesc",
+            "zh": "可以收看对新手训\\n练家有帮助的节目\\n的电视",
+            "en": "A TV set tuned to\\nan advice program\\nfor Trainers."
+        },
+        {
+            "label": "sTriPassDesc",
+            "zh": "能够在第1岛，第\\n2岛和第3岛之间\\n用渡船移动的通行\\n证。上面印着三座\\n岛。",
+            "en": "A pass for ferries\\nbetween One, Two,\\nand Three Island."
+        },
+        {
+            "label": "sRainbowPassDesc",
+            "zh": "能够在枯叶市和七\\n之岛之间用渡船移\\n动的通行证。上面\\n印着彩虹的图片。",
+            "en": "For ferries serving\\nVermilion and the\\nSevii Islands."
+        },
+        {
+            "label": "sTeaDesc",
+            "zh": "老奶奶泡的散发清\\n香的茶。十分解渴\\n。",
+            "en": "A thirst-quenching\\ntea prepared by an\\nold lady."
+        },
+        {
+            "label": "sMysticTicketDesc",
+            "zh": "前往肚脐岩时必要\\n的船票。神秘地发\\n着光。",
+            "en": "A ticket required\\nto board the ship\\nto Navel Rock."
+        },
+        {
+            "label": "sAuroraTicketDesc",
+            "zh": "前往诞生之岛时必\\n要的船票。美丽地\\n散发着光芒。",
+            "en": "A ticket required\\nto board the ship\\nto Birth Island."
+        },
+        {
+            "label": "sPowderJarDesc",
+            "zh": "能收纳树果碾碎器\\n制作出的树果粉末\\n的保存用瓶子",
+            "en": "Stores Berry\\nPowder made using\\na Berry Crusher."
+        },
+        {
+            "label": "sRubyDesc",
+            "zh": "散发着红色光辉的\\n非常漂亮的宝石。\\n热情的象征。",
+            "en": "An exquisite, red-\\nglowing gem that\\nsymbolizes passion."
+        },
+        {
+            "label": "sSapphireDesc",
+            "zh": "散发着蓝色光辉的\\n非常漂亮的宝石。\\n真诚的象征。",
+            "en": "A brilliant blue gem\\nthat symbolizes\\nhonesty."
+        },
+        {
+            "label": "sMagmaEmblemDesc",
+            "zh": "与熔岩队的标志形\\n状相同的徽章模样\\n的东西。",
+            "en": "A medal-like item in\\nthe same shape as\\nTeam Magma's mark."
+        },
+        {
+            "label": "sOldSeaMapDesc",
+            "zh": "记录着前往某座岛\\n屿的路线的一张古\\n老的航海图。",
+            "en": "A faded sea chart\\nthat shows the way\\nto a certain island."
+        },
+        {
+            "label": "sWideLensDesc",
+            "zh": "能放大观看物体的\\n镜片。携带后，招\\n式的命中率就会少\\n量提高。",
+            "en": "A magnifying lens\\nthat boosts the\\naccuracy of moves."
+        },
+        {
+            "label": "sMuscleBandDesc",
+            "zh": "力如泉涌的头带。\\n携带后，物理招式\\n的威力就会少量提\\n高。",
+            "en": "A headband that\\nboosts the power of\\nphysical moves."
+        },
+        {
+            "label": "sWiseGlassesDesc",
+            "zh": "装着很厚镜片的眼\\n镜。携带后，特殊\\n招式的威力就会少\\n量提高。",
+            "en": "A pair of glasses\\nthat ups the power\\nof special moves."
+        },
+        {
+            "label": "sExpertBeltDesc",
+            "zh": "用惯了的黑色带子\\n。携带后，效果绝\\n佳时的招式威力就\\n会少量提高。",
+            "en": "A belt that boosts\\nthe power of super\\neffective moves."
+        },
+        {
+            "label": "sLightClayDesc",
+            "zh": "当携带它的宝可梦\\n使出光墙或反射壁\\n时，效果会比平时\\n持续得更长。",
+            "en": "Extends the length\\nof barrier moves\\nused by the holder."
+        },
+        {
+            "label": "sLifeOrbDesc",
+            "zh": "携带后，虽然每次\\n攻击时HP少量减\\n少，但招式的威力\\n会提高。",
+            "en": "Boosts the power of\\nmoves at the cost\\nof some HP per turn."
+        },
+        {
+            "label": "sPowerHerbDesc",
+            "zh": "携带它的宝可梦仅\\n有1次机会可以在\\n第1回合使出需要\\n蓄力的招式。",
+            "en": "Allows immediate\\nuse of a move that\\ncharges first."
+        },
+        {
+            "label": "sToxicOrbDesc",
+            "zh": "触碰后会放出毒的\\n神奇宝珠。携带后\\n，在战斗时会变成\\n剧毒状态。",
+            "en": "A bizarre orb that\\nbadly poisons the\\nholder in battle."
+        },
+        {
+            "label": "sFlameOrbDesc",
+            "zh": "触碰后会放出热量\\n的神奇宝珠。携带\\n后，在战斗时会变\\n成灼伤状态。",
+            "en": "A bizarre orb that\\ninflicts a burn on\\nholder in battle."
+        },
+        {
+            "label": "sQuickPowderDesc",
+            "zh": "让百变怪携带后，\\n速度就会提高的神\\n奇粉末。非常细腻\\n坚硬。",
+            "en": "An item to be held\\nby Ditto. This odd\\npowder boosts Speed."
+        },
+        {
+            "label": "sFocusSashDesc",
+            "zh": "携带后，在HP全\\n满时，即便受到可\\n能会导致濒死的招\\n式，也能仅以1H\\nP撑过去1次。",
+            "en": "If the holder has\\nfull HP, it endures\\nKO hits with 1 HP."
+        },
+        {
+            "label": "sZoomLensDesc",
+            "zh": "当携带它的宝可梦\\n比对手行动迟缓时\\n，招式会变得容易\\n命中。",
+            "en": "If the holder moves\\nafter the foe, it'll\\nboost accuracy."
+        },
+        {
+            "label": "sMetronomeDesc",
+            "zh": "携带后，连续使出\\n相同招式时，威力\\n就会提高。不再使\\n出相同招式时，威\\n力就会复原。",
+            "en": "A held item that\\nboosts a move used\\nconsecutively."
+        },
+        {
+            "label": "sIronBallDesc",
+            "zh": "携带后，速度会降\\n低。飞行属性以及\\n飘浮宝可梦会被地\\n面招式击中。",
+            "en": "Cuts Speed and lets\\nFlying-types be hit\\nby Ground moves."
+        },
+        {
+            "label": "sLaggingTailDesc",
+            "zh": "非常沉重的某种尾\\n巴。携带后，行动\\n会比平时更加迟缓\\n。",
+            "en": "A held item that\\nmakes the holder\\nmove slower."
+        },
+        {
+            "label": "sDestinyKnotDesc",
+            "zh": "长长的鲜红色细线\\n。携带后，在自己\\n着迷时能让对手也\\n着迷。",
+            "en": "If the holder falls\\nin love, the foe\\ndoes too."
+        },
+        {
+            "label": "sBlackSludgeDesc",
+            "zh": "携带后，毒属性的\\n宝可梦会缓缓回复\\nHP。其他属性的\\n话，HP则会减少\\n。",
+            "en": "Gradually restores\\nHP of Poison-types.\\nDamages others."
+        },
+        {
+            "label": "sIcyRockDesc",
+            "zh": "携带它的宝可梦使\\n出冰雹的话，冰雹\\n的时间就会比平时\\n更长。",
+            "en": "Extends the length\\nof the move Hail\\nused by the holder."
+        },
+        {
+            "label": "sSmoothRockDesc",
+            "zh": "携带它的宝可梦使\\n出沙暴的话，沙暴\\n的时间就会比平时\\n更长。",
+            "en": "Extends the length\\nof Sandstorm if\\nused by the holder."
+        },
+        {
+            "label": "sHeatRockDesc",
+            "zh": "携带它的宝可梦使\\n出大晴天的话，晴\\n天的时间就会比平\\n时更长。",
+            "en": "Extends the length\\nof Sunny Day if\\nused by the holder."
+        },
+        {
+            "label": "sDampRockDesc",
+            "zh": "携带它的宝可梦使\\n出求雨的话，下雨\\n的时间就会比平时\\n更长。",
+            "en": "Extends the length\\nof Rain Dance if\\nused by the holder."
+        },
+        {
+            "label": "sGripClawDesc",
+            "zh": "携带后，绑紧以及\\n紧束等会持续造成\\n伤害的招式的回合\\n数会增加。",
+            "en": "Makes binding moves\\nused by the holder\\ngo on for 7 turns."
+        },
+        {
+            "label": "sChoiceScarfDesc",
+            "zh": "有点讲究的围巾。\\n虽然携带后速度会\\n提高，但只能使出\\n相同的招式。",
+            "en": "Boosts Speed, but\\nallows the use of\\nonly one move."
+        },
+        {
+            "label": "sStickyBarbDesc",
+            "zh": "携带后，每回合都\\n会受到伤害。有时\\n也会附着到碰到自\\n己的对手身上。",
+            "en": "Damages the holder\\neach turn. May latch\\non to foes."
+        },
+        {
+            "label": "sShedShellDesc",
+            "zh": "结实坚硬的空壳。\\n携带它的宝可梦必\\n定可以和后备的宝\\n可梦进行替换。",
+            "en": "Enables the holder\\nto switch out of\\nbattle without fail."
+        },
+        {
+            "label": "sBigRootDesc",
+            "zh": "携带后，吸取HP\\n的招式可以比平时\\n更多地回复自己的\\nHP。",
+            "en": "A held item that\\nboosts the power of\\nHP-stealing moves."
+        },
+        {
+            "label": "sChoiceSpecsDesc",
+            "zh": "有点讲究的眼镜。\\n虽然携带后特攻会\\n提高，但只能使出\\n相同的招式。",
+            "en": "Boosts Sp. Atk, but\\nallows the use of\\nonly one move."
+        },
+        {
+            "label": "sOddKeystoneDesc",
+            "zh": "没有它，石之塔就\\n会崩塌的重要石头\\n。有时能从石头里\\n听到声音。",
+            "en": "Voices can be heard\\nfrom this odd stone\\noccasionally."
+        },
+        {
+            "label": "sAdamantOrbDesc",
+            "zh": "让帝牙卢卡携带的\\n话，龙和钢属性的\\n招式威力就会提高\\n。散发着光辉的宝\\n珠。",
+            "en": "Boosts the power of\\nDialga's Dragon and\\nSteel-type moves."
+        },
+        {
+            "label": "sLustrousOrbDesc",
+            "zh": "让帕路奇亚携带的\\n话，龙和水属性的\\n招式威力就会提高\\n。散发着美丽光辉\\n的宝珠。",
+            "en": "Boosts the power of\\nPalkia's Dragon and\\nWater-type moves."
+        },
+        {
+            "label": "sGriseousOrbDesc",
+            "zh": "让骑拉帝纳携带的\\n话，龙和幽灵属性\\n的招式威力就会提\\n高。散发着光辉的\\n宝珠。",
+            "en": "Powers up Giratina's\\nDragon and Ghost-\\ntype moves."
+        },
+        {
+            "label": "sGracideaDesc",
+            "zh": "在生日或纪念日等\\n日子里，为了表达\\n感激之情，有时会\\n将其扎成花束送出\\n。",
+            "en": "Bouquets made with\\nit are offered as a\\ntoken of gratitude."
+        },
+        {
+            "label": "sBugMemoryDesc",
+            "zh": "装有虫属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Bug\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sDarkMemoryDesc",
+            "zh": "装有恶属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Dark\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sDragonMemoryDesc",
+            "zh": "装有龙属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Dragon\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sElectricMemoryDesc",
+            "zh": "装有电属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Electric\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sFairyMemoryDesc",
+            "zh": "装有妖精属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Fairy\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sFightingMemoryDesc",
+            "zh": "装有格斗属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Fighting\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sFireMemoryDesc",
+            "zh": "装有火属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Fire\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sFlyingMemoryDesc",
+            "zh": "装有飞行属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Flying\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sGhostMemoryDesc",
+            "zh": "装有幽灵属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Ghost\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sGrassMemoryDesc",
+            "zh": "装有草属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Grass\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sGroundMemoryDesc",
+            "zh": "装有地面属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Ground\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sIceMemoryDesc",
+            "zh": "装有冰属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Ice\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sPoisonMemoryDesc",
+            "zh": "装有毒属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Poison\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sPsychicMemoryDesc",
+            "zh": "装有超能力属性数\\n据的存储碟。特定\\n宝可梦携带后，属\\n性就会发生变化。",
+            "en": "A disc with Psychic\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sRockMemoryDesc",
+            "zh": "装有岩石属性数据\\n的存储碟。特定宝\\n可梦携带后，属性\\n就会发生变化。",
+            "en": "A disc with Rock\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sSteelMemoryDesc",
+            "zh": "装有钢属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Steel\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sWaterMemoryDesc",
+            "zh": "装有水属性数据的\\n存储碟。特定宝可\\n梦携带后，属性就\\n会发生变化。",
+            "en": "A disc with Water\\ntype data. It swaps\\nSilvally's type."
+        },
+        {
+            "label": "sFlamePlateDesc",
+            "zh": "火属性的石板。携\\n带后，火属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nFire-type moves."
+        },
+        {
+            "label": "sSplashPlateDesc",
+            "zh": "水属性的石板。携\\n带后，水属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nWater-type moves."
+        },
+        {
+            "label": "sZapPlateDesc",
+            "zh": "电属性的石板。携\\n带后，电属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of Elec-\\ntric-type moves."
+        },
+        {
+            "label": "sMeadowPlateDesc",
+            "zh": "草属性的石板。携\\n带后，草属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nGrass-type moves."
+        },
+        {
+            "label": "sIciclePlateDesc",
+            "zh": "冰属性的石板。携\\n带后，冰属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nIce-type moves."
+        },
+        {
+            "label": "sFistPlateDesc",
+            "zh": "格斗属性的石板。\\n携带后，格斗属性\\n的招式威力就会增\\n强。",
+            "en": "A tablet that ups\\nthe power of Fight-\\ning-type moves."
+        },
+        {
+            "label": "sToxicPlateDesc",
+            "zh": "毒属性的石板。携\\n带后，毒属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nPoison-type moves."
+        },
+        {
+            "label": "sEarthPlateDesc",
+            "zh": "地面属性的石板。\\n携带后，地面属性\\n的招式威力就会增\\n强。",
+            "en": "A tablet that ups\\nthe power of\\nGround-type moves."
+        },
+        {
+            "label": "sSkyPlateDesc",
+            "zh": "飞行属性的石板。\\n携带后，飞行属性\\n的招式威力就会增\\n强。",
+            "en": "A tablet that ups\\nthe power of\\nFlying-type moves."
+        },
+        {
+            "label": "sMindPlateDesc",
+            "zh": "超能力属性的石\\n板。携带后，超能\\n力属性的招式威力\\n就会增强。",
+            "en": "A tablet that ups\\nthe power of Psy\\nchic-type moves."
+        },
+        {
+            "label": "sInsectPlateDesc",
+            "zh": "虫属性的石板。携\\n带后，虫属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nBug-type moves."
+        },
+        {
+            "label": "sStonePlateDesc",
+            "zh": "岩石属性的石板。\\n携带后，岩石属性\\n的招式威力就会增\\n强。",
+            "en": "A tablet that ups\\nthe power of\\nRock-type moves."
+        },
+        {
+            "label": "sSpookyPlateDesc",
+            "zh": "幽灵属性的石板。\\n携带后，幽灵属性\\n的招式威力就会增\\n强。",
+            "en": "A tablet that ups\\nthe power of\\nGhost-type moves."
+        },
+        {
+            "label": "sDracoPlateDesc",
+            "zh": "龙属性的石板。携\\n带后，龙属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nDragon-type moves."
+        },
+        {
+            "label": "sDreadPlateDesc",
+            "zh": "恶属性的石板。携\\n带后，恶属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nDark-type moves."
+        },
+        {
+            "label": "sIronPlateDesc",
+            "zh": "钢属性的石板。携\\n带后，钢属性的招\\n式威力就会增强。",
+            "en": "A tablet that ups\\nthe power of\\nSteel-type moves."
+        },
+        {
+            "label": "sEvioliteDesc",
+            "zh": "进化的神奇石块。\\n携带后，还能进化\\n的宝可梦的防御和\\n特防就会提高。",
+            "en": "Raises the Def and\\nSp. Def of Pokémon\\nthat can evolve."
+        },
+        {
+            "label": "sFloatStoneDesc",
+            "zh": "非常轻的石头。携\\n带后，宝可梦的体\\n重会变轻。",
+            "en": "It's so light that\\nwhen held, it halves\\na Pokémon's weight."
+        },
+        {
+            "label": "sRockyHelmetDesc",
+            "zh": "让宝可梦携带后，\\n在受到打击招式攻\\n击时，能给予对手\\n伤害。",
+            "en": "Hurts the foe if\\nthey touch its\\nholder."
+        },
+        {
+            "label": "sAirBalloonDesc",
+            "zh": "让宝可梦携带后，\\n宝可梦会浮在空中\\n。受到攻击就会破\\n裂。",
+            "en": "Elevates the holder\\nin the air. If hit,\\nthis item will burst."
+        },
+        {
+            "label": "sRedCardDesc",
+            "zh": "有着神奇力量的卡\\n片。携带后，能让\\n使用了招式的对手\\n退场。",
+            "en": "Switches out the\\nfoe if they hit the\\nholder."
+        },
+        {
+            "label": "sRingTargetDesc",
+            "zh": "原本因宝可梦的属\\n性相克关系而无效\\n的招式现在会变得\\n能够击中自己。",
+            "en": "Moves that wouldn't\\nhave effect will\\nland on its holder."
+        },
+        {
+            "label": "sBindingBandDesc",
+            "zh": "能增强绑紧招式的\\n束带。携带后，绑\\n紧招式的威力会变\\n强。",
+            "en": "Increases the\\npower of binding\\nmoves when held."
+        },
+        {
+            "label": "sEjectButtonDesc",
+            "zh": "携带它的宝可梦如\\n果受到招式攻击，\\n就能逃脱战斗，并\\n和同行的其他宝可\\n梦进行替换。",
+            "en": "Switches out the\\nuser if they're hit\\nby the foe."
+        },
+        {
+            "label": "sAbsorbBulbDesc",
+            "zh": "一次性使用的球根\\n。携带它的宝可梦\\n如果受到水属性招\\n式的攻击，特攻就\\n会提高。",
+            "en": "Raises Sp. Atk if\\nthe holder is hit by\\na Water-type move."
+        },
+        {
+            "label": "sCellBatteryDesc",
+            "zh": "一次性使用的充电\\n电池。携带它的宝\\n可梦如果受到电属\\n性招式的攻击，攻\\n击就会提高。",
+            "en": "Raises Atk if the\\nholder is hit by an\\nElectric-type move."
+        },
+        {
+            "label": "sLuminousMossDesc",
+            "zh": "一次性使用的光苔\\n。携带它的宝可梦\\n如果受到水属性招\\n式攻击，特防就会\\n提高。",
+            "en": "Raises Sp. Def if\\nthe holder is hit by\\na Water-type move."
+        },
+        {
+            "label": "sSnowballDesc",
+            "zh": "一次性使用的雪球\\n。携带它的宝可梦\\n如果受到冰属性招\\n式攻击，攻击就会\\n提高。",
+            "en": "Raises Atk if its\\nholder is hit by an\\nIce-type move."
+        },
+        {
+            "label": "sWeaknessPolicyDesc",
+            "zh": "被针对弱点时，攻\\n击和特攻就会大幅\\n提高。",
+            "en": "If hit by a Super\\nEffective move, ups\\nAtk and Sp. Atk."
+        },
+        {
+            "label": "sDouseDriveDesc",
+            "zh": "这是让盖诺赛克特\\n携带的卡带。携带\\n后，高科技光炮这\\n招式就会变为水属\\n性。",
+            "en": "Changes Genesect's\\nTechno Blast to\\nWater-type."
+        },
+        {
+            "label": "sShockDriveDesc",
+            "zh": "这是让盖诺赛克特\\n携带的卡带。携带\\n后，高科技光炮这\\n招式就会变为电属\\n性。",
+            "en": "Changes Genesect's\\nTechno Blast to\\nElectric-type."
+        },
+        {
+            "label": "sBurnDriveDesc",
+            "zh": "这是让盖诺赛克特\\n携带的卡带。携带\\n后，高科技光炮这\\n招式就会变为火属\\n性。",
+            "en": "Changes Genesect's\\nTechno Blast to\\nFire-type."
+        },
+        {
+            "label": "sChillDriveDesc",
+            "zh": "这是让盖诺赛克特\\n携带的卡带。携带\\n后，高科技光炮这\\n招式就会变为冰属\\n性。",
+            "en": "Changes Genesect's\\nTechno Blast to\\nIce-type."
+        },
+        {
+            "label": "sFireGemDesc",
+            "zh": "火属性的宝石。携\\n带后，火属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Fire\\nType moves."
+        },
+        {
+            "label": "sWaterGemDesc",
+            "zh": "水属性的宝石。携\\n带后，水属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Water\\nType moves."
+        },
+        {
+            "label": "sElectricGemDesc",
+            "zh": "电属性的宝石。携\\n带后，电属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Electric\\nType moves."
+        },
+        {
+            "label": "sGrassGemDesc",
+            "zh": "草属性的宝石。携\\n带后，草属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Grass\\nType moves."
+        },
+        {
+            "label": "sIceGemDesc",
+            "zh": "冰属性的宝石。携\\n带后，冰属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Ice\\nType moves."
+        },
+        {
+            "label": "sFightingGemDesc",
+            "zh": "格斗属性的宝石。\\n携带后，格斗属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Fighting\\nType moves."
+        },
+        {
+            "label": "sPoisonGemDesc",
+            "zh": "毒属性的宝石。携\\n带后，毒属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Poison\\nType moves."
+        },
+        {
+            "label": "sGroundGemDesc",
+            "zh": "地面属性的宝石。\\n携带后，地面属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Ground\\nType moves."
+        },
+        {
+            "label": "sFlyingGemDesc",
+            "zh": "飞行属性的宝石。\\n携带后，飞行属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Flying\\nType moves."
+        },
+        {
+            "label": "sPsychicGemDesc",
+            "zh": "超能力属性的宝石\\n。携带后，超能力\\n属性的招式威力\\n仅会增强1次。",
+            "en": "Increases the\\npower of Psychic\\nType moves."
+        },
+        {
+            "label": "sBugGemDesc",
+            "zh": "虫属性的宝石。携\\n带后，虫属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Bug\\nType moves."
+        },
+        {
+            "label": "sRockGemDesc",
+            "zh": "岩石属性的宝石。\\n携带后，岩石属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Rock\\nType moves."
+        },
+        {
+            "label": "sGhostGemDesc",
+            "zh": "幽灵属性的宝石。\\n携带后，幽灵属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Ghost\\nType moves."
+        },
+        {
+            "label": "sDragonGemDesc",
+            "zh": "龙属性的宝石。携\\n带后，龙属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Dragon\\nType moves."
+        },
+        {
+            "label": "sDarkGemDesc",
+            "zh": "恶属性的宝石。携\\n带后，恶属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Dark\\nType moves."
+        },
+        {
+            "label": "sSteelGemDesc",
+            "zh": "钢属性的宝石。携\\n带后，钢属性的招\\n式威力仅会增强1\\n次。",
+            "en": "Increases the\\npower of Steel\\nType moves."
+        },
+        {
+            "label": "sNormalGemDesc",
+            "zh": "一般属性的宝石。\\n携带后，一般属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Normal\\nType moves."
+        },
+        {
+            "label": "sFairyGemDesc",
+            "zh": "妖精属性的宝石。\\n携带后，妖精属性\\n的招式威力仅会增\\n强1次。",
+            "en": "Increases the\\npower of Fairy\\nType moves."
+        },
+        {
+            "label": "sAssaultVestDesc",
+            "zh": "会变得富有攻击性\\n的背心。虽然携带\\n后特防会提高，但\\n会无法使出变化招\\n式。",
+            "en": "Raises Sp. Def but\\nprevents the use\\nof status moves."
+        },
+        {
+            "label": "sPixiePlateDesc",
+            "zh": "妖精属性的石板。\\n携带后，妖精属性\\n的招式威力就会增\\n强。",
+            "en": "A stone tablet that\\nboosts the power of\\nFairy-type moves."
+        },
+        {
+            "label": "sSafetyGogglesDesc",
+            "zh": "不单是天气造成的\\n伤害，就连粉末类\\n招式的效果也能防\\n御的护目镜。",
+            "en": "Protect from\\nweather damage and\\npowder moves."
+        },
+        {
+            "label": "sGengariteDesc",
+            "zh": "让耿鬼携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nGengar to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sGardevoiriteDesc",
+            "zh": "让沙奈朵携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nGardevoir to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAmpharositeDesc",
+            "zh": "让电龙带后，在战\\n斗时就能进行超级\\n进化的一种神奇超\\n级石。",
+            "en": "This stone enables\\nAmpharos to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sVenusauriteDesc",
+            "zh": "让妙蛙花携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nVenusaur to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sCharizarditeDesc",
+            "zh": "让喷火龙携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nCharizard to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sBlastoisiniteDesc",
+            "zh": "让水箭龟携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nBlastoise to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sMewtwoniteDesc",
+            "zh": "让超梦携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nMewtwo to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sBlazikeniteDesc",
+            "zh": "让火焰鸡携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nBlaziken to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sMedichamiteDesc",
+            "zh": "让恰雷姆携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nMedicham to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sHoundoominiteDesc",
+            "zh": "让黑鲁加携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nHoundoom to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAggroniteDesc",
+            "zh": "让波士可多拉携带\\n后，在战斗时就能\\n进行超级进化的一\\n种神奇超级石。",
+            "en": "This stone enables\\nAggron to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sBanettiteDesc",
+            "zh": "让诅咒娃娃携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nBanette to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sTyranitariteDesc",
+            "zh": "让班基拉斯携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nTyranitar to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sScizoriteDesc",
+            "zh": "让巨钳螳螂携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nScizor to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sPinsiriteDesc",
+            "zh": "让凯罗斯携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nPinsir to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAerodactyliteDesc",
+            "zh": "让化石翼龙携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nAerodactyl to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sLucarioniteDesc",
+            "zh": "让路卡利欧携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nLucario to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAbomasiteDesc",
+            "zh": "让暴雪王携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nAbomasnow to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sKangaskhaniteDesc",
+            "zh": "让袋兽携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nKangaskhan to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sGyaradositeDesc",
+            "zh": "让暴鲤龙携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nGyarados to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAbsoliteDesc",
+            "zh": "让阿勃梭鲁携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nAbsol to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAlakaziteDesc",
+            "zh": "让胡地携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nAlakazam to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sHeracroniteDesc",
+            "zh": "让赫拉克罗斯携带\\n后，在战斗时就能\\n进行超级进化的一\\n种神奇超级石。",
+            "en": "This stone enables\\nHeracross to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sMawiliteDesc",
+            "zh": "让大嘴娃携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nMawile to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sManectiteDesc",
+            "zh": "让雷电兽携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nManectric to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sGarchompiteDesc",
+            "zh": "让烈咬陆鲨携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nGarchomp to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sLatiasiteDesc",
+            "zh": "让拉帝亚斯携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nLatias to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sLatiositeDesc",
+            "zh": "让拉帝欧斯携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nLatios to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSwampertiteDesc",
+            "zh": "让巨沼怪携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSwampert to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSceptiliteDesc",
+            "zh": "让蜥蜴王携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSceptile to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSableniteDesc",
+            "zh": "让勾魂眼携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSableye to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAltarianiteDesc",
+            "zh": "让七夕青鸟携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nAltaria to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sGalladiteDesc",
+            "zh": "让艾路雷朵携带后\\n，在战斗时就能进\\n行超级进化的一种\\n神奇超级石。",
+            "en": "This stone enables\\nGallade to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sAudiniteDesc",
+            "zh": "让差不多娃娃携带\\n后，在战斗时就能\\n进行超级进化的一\\n种神奇超级石。",
+            "en": "This stone enables\\nAudino to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sMetagrossiteDesc",
+            "zh": "让巨金怪携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nMetagross to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSharpedoniteDesc",
+            "zh": "让巨牙鲨携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSharpedo to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSlowbroniteDesc",
+            "zh": "让呆壳兽携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSlowbro to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSteelixiteDesc",
+            "zh": "让大钢蛇携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nSteelix to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sPidgeotiteDesc",
+            "zh": "让大比鸟携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nPidgeot to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sGlalititeDesc",
+            "zh": "让冰鬼护携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nGlalie to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sDianciteDesc",
+            "zh": "让蒂安希携带后，\\n在战斗时就能进行\\n超级进化的一种神\\n奇超级石。",
+            "en": "This stone enables\\nDiancie to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sCameruptiteDesc",
+            "zh": "喷火驼携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nCamerupt to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sLopunniteDesc",
+            "zh": "长耳兔携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nLopunny to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sSalamenciteDesc",
+            "zh": "暴飞龙携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nSalamence to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sBeedrilliteDesc",
+            "zh": "大针蜂携带后，在\\n战斗时就能进行超\\n级进化的一种神奇\\n超级石。",
+            "en": "This stone enables\\nBeedrill to Mega\\nEvolve in battle."
+        },
+        {
+            "label": "sMegaBraceletDesc",
+            "zh": "蕴藏着未知力量的\\n手镯。能让携带着\\n超级石战斗的宝可\\n梦进行超级进化。",
+            "en": "Enables {PKMN} holding\\ntheir Mega Stone to\\nMega Evolve."
+        },
+        {
+            "label": "sProtectPadsDesc",
+            "zh": "不会受到触碰攻击\\n对手时本应受到的\\n效果。",
+            "en": "Guard the holder\\nfrom contact move\\neffects."
+        },
+        {
+            "label": "sTerrainExtenderDesc",
+            "zh": "当携带它的宝可梦\\n利用招式或特性展\\n开场地时，场地的\\n持续时间会比平时\\n更长。",
+            "en": "Extends the length\\nof the active\\nbattle terrain."
+        },
+        {
+            "label": "sElectricSeedDesc",
+            "zh": "让宝可梦携带后，\\n在电气场地上使用\\n，防御就会提高。",
+            "en": "Boosts Defense on\\nElectric Terrain,\\nbut only one time."
+        },
+        {
+            "label": "sGrassySeedDesc",
+            "zh": "让宝可梦携带后，\\n在青草场地上使用\\n，防御就会提高。",
+            "en": "Boosts Defense on\\nGrassy Terrain,\\nbut only one time."
+        },
+        {
+            "label": "sMistySeedDesc",
+            "zh": "让宝可梦携带后，\\n在薄雾场地上使用\\n，特防就会提高。",
+            "en": "Boosts Sp. Def. on\\nMisty Terrain,\\nbut only one time."
+        },
+        {
+            "label": "sPsychicSeedDesc",
+            "zh": "让宝可梦携带后，\\n在精神场地上使用\\n，特防就会提高。",
+            "en": "Boosts Sp. Def. on\\nPsychic Terrain,\\nbut only one time."
+        },
+        {
+            "label": "sAdrenalineOrbDesc",
+            "zh": "使用后会容易呼唤\\n伙伴，但使用后会\\n消失。携带后，在\\n受到威吓时速度会\\n提高。",
+            "en": "Boosts Speed if the\\nuser is intimidated,\\nbut only one time."
+        },
+        {
+            "label": "sHoneyDesc",
+            "zh": "在草丛或洞窟等地\\n方使用后，被甜甜\\n香气吸引的野生宝\\n可梦就会出现。",
+            "en": "Sweet honey that\\nattracts wild\\nPokémon when used."
+        },
+        {
+            "label": "sHealthFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的HP的基\\n础点数。",
+            "en": "An item that raises\\nthe base HP of\\na Pokémon."
+        },
+        {
+            "label": "sMuscleFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的攻击的基\\n础点数。",
+            "en": "An item that raises\\nthe base Attack of\\na Pokémon."
+        },
+        {
+            "label": "sResistFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的防御的基\\n础点数。",
+            "en": "An item that raises\\nthe base Defense\\nof a Pokémon."
+        },
+        {
+            "label": "sGeniusFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的特攻的基\\n础点数。",
+            "en": "An item that raises\\nthe base Sp. Atk.\\nof a Pokémon."
+        },
+        {
+            "label": "sCleverFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的特防的基\\n础点数。",
+            "en": "An item that raises\\nthe base Sp. Def.\\nof a Pokémon."
+        },
+        {
+            "label": "sSwiftFeatherDesc",
+            "zh": "用于宝可梦的道具\\n。能稍微提高1只\\n宝可梦的速度的基\\n础点数。",
+            "en": "An item that raises\\nthe base Speed of\\na Pokémon."
+        },
+        {
+            "label": "sPrettyFeatherDesc",
+            "zh": "仅仅只是漂亮，没\\n有任何效果，极其\\n普通的羽毛。",
+            "en": "A beautiful yet\\nplain feather that\\ndoes nothing."
+        },
+        {
+            "label": "sShinyCharmDesc",
+            "zh": "拥有它之后，据说\\n会更容易遇见发光\\n宝可梦的神奇闪光\\n护符。",
+            "en": "A charm that will\\nraise the chance\\nof Shiny Pokémon."
+        },
+        {
+            "label": "sOvalCharmDesc",
+            "zh": "拥有它之后，在寄\\n放屋里会更容易找\\n到蛋的神奇浑圆护\\n符。",
+            "en": "Raises the chance\\nof finding eggs\\nat the daycare."
+        },
+        {
+            "label": "sZRingDesc",
+            "zh": "通过使用训练家的\\n气力和体力来让宝\\n可梦释放出Z力量\\n的神奇手环。",
+            "en": "A strange ring\\nthat enables\\nZ-Move usage."
+        },
+        {
+            "label": "sNormaliumZDesc",
+            "zh": "Z力量的结晶。会\\n将一般属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Normal-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sFightiniumZDesc",
+            "zh": "Z力量的结晶。会\\n将格斗属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Fighting-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sFlyiniumZDesc",
+            "zh": "Z力量的结晶。会\\n将飞行属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Flying-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sPoisoniumZDesc",
+            "zh": "Z力量的结晶。会\\n将毒属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Poison-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sGroundiumZDesc",
+            "zh": "Z力量的结晶。会\\n将地面属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Ground-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sRockiumZDesc",
+            "zh": "Z力量的结晶。会\\n将岩石属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Rock-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sBuginiumZDesc",
+            "zh": "Z力量的结晶。会\\n将虫属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Bug-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sGhostiumZDesc",
+            "zh": "Z力量的结晶。会\\n将幽灵属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Ghost-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sSteeliumZDesc",
+            "zh": "Z力量的结晶。会\\n将钢属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Steel-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sFiriumZDesc",
+            "zh": "Z力量的结晶。会\\n将火属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Fire-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sWateriumZDesc",
+            "zh": "Z力量的结晶。会\\n将水属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Water-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sGrassiumZDesc",
+            "zh": "Z力量的结晶。会\\n将草属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Grass-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sElectriumZDesc",
+            "zh": "Z力量的结晶。会\\n将电属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Electric-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sPsychiumZDesc",
+            "zh": "Z力量的结晶。会\\n将超能力属性的招\\n式升级成Z招式。",
+            "en": "Upgrade Psychic-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sIciumZDesc",
+            "zh": "Z力量的结晶。会\\n将冰属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Ice-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sDragoniumZDesc",
+            "zh": "Z力量的结晶。会\\n将龙属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Dragon-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sDarkiniumZDesc",
+            "zh": "Z力量的结晶。会\\n将恶属性的招式升\\n级成Z招式。",
+            "en": "Upgrade Dark-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sFairiumZDesc",
+            "zh": "Z力量的结晶。会\\n将妖精属性的招式\\n升级成Z招式。",
+            "en": "Upgrade Fairy-\\ntype moves into\\nZ-Moves."
+        },
+        {
+            "label": "sAloraichiumZDesc",
+            "zh": "Z力量的结晶。会\\n将阿罗拉地区雷丘\\n的十万伏特升级成\\nZ招式。",
+            "en": "Upgrade Alolan\\nRaichu's Thunder-\\nbolt into a Z-Move."
+        },
+        {
+            "label": "sDecidiumZDesc",
+            "zh": "Z力量的结晶。会\\n将狙射树枭的缝影\\n升级成Z招式。",
+            "en": "Upgrade Decidu-\\neye's Spirit Sha-\\nckle into a Z-Move."
+        },
+        {
+            "label": "sEeviumZDesc",
+            "zh": "Z力量的结晶。会\\n将伊布的珍藏升级\\n成Z招式。",
+            "en": "Upgrade Eevee's\\nLast Resort\\ninto a Z-Move."
+        },
+        {
+            "label": "sInciniumZDesc",
+            "zh": "Z力量的结晶。会\\n将炽焰咆哮虎的D\\nD金勾臂升级成Z\\n招式。",
+            "en": "Upgrade Incine-\\nroar's Darkest La-\\nriat into a Z-Move."
+        },
+        {
+            "label": "sKommoniumZDesc",
+            "zh": "Z力量的结晶。会\\n将杖尾鳞甲龙的鳞\\n片噪音升级成Z招\\n式。",
+            "en": "Upgrade Kommo-o's\\nClanging Scales\\ninto a Z-Move."
+        },
+        {
+            "label": "sLunaliumZDesc",
+            "zh": "Z力量的结晶。会\\n将露奈雅拉的暗影\\n之光升级成Z招式\\n。",
+            "en": "Upgrade Lunala's\\nMoongeist Beam\\ninto a Z-Move."
+        },
+        {
+            "label": "sLycaniumZDesc",
+            "zh": "Z力量的结晶。会\\n将鬃岩狼人的尖石\\n攻击升级成Z招式\\n。",
+            "en": "Upgrade Lycanroc's\\nStone Edge\\ninto a Z-Move."
+        },
+        {
+            "label": "sMarshadiumZDesc",
+            "zh": "Z力量的结晶。会\\n将玛夏多的暗影偷\\n盗升级成Z招式。",
+            "en": "Upgrade Marsha-\\ndow's Spectral Thi-\\nef into a Z-Move."
+        },
+        {
+            "label": "sMewniumZDesc",
+            "zh": "Z力量的结晶。会\\n将梦幻的精神强念\\n升级成Z招式。",
+            "en": "Upgrade Mew's\\nPsychic into\\na Z-Move."
+        },
+        {
+            "label": "sMimikiumZDesc",
+            "zh": "Z力量的结晶。会\\n将谜拟Ｑ的嬉闹升\\n级成Z招式。",
+            "en": "Upgrade Mimikyu's\\nPlay Rough\\ninto a Z-Move."
+        },
+        {
+            "label": "sPikaniumZDesc",
+            "zh": "Z力量的结晶。会\\n将皮卡丘的伏特攻\\n击升级成Z招式。",
+            "en": "Upgrade Pikachu's\\nVolt Tackle\\ninto a Z-Move."
+        },
+        {
+            "label": "sPikashuniumZDesc",
+            "zh": "Z力量的结晶。会\\n将戴着帽子的皮卡\\n丘的十万伏特升级\\n成Z招式。",
+            "en": "Upgrade Pikachu w/\\na cap's Thunderbolt\\ninto a Z-Move."
+        },
+        {
+            "label": "sPrimariumZDesc",
+            "zh": "Z力量的结晶。会\\n将西狮海壬的泡影\\n的咏叹调升级成Z\\n招式。",
+            "en": "Upgrade Primarina's\\nSparkling Aria\\ninto a Z-Move."
+        },
+        {
+            "label": "sSnorliumZDesc",
+            "zh": "Z力量的结晶。会\\n将卡比兽的终极冲\\n击升级成Z招式。",
+            "en": "Upgrade Snorlax's\\nGiga Impact\\ninto a Z-Move."
+        },
+        {
+            "label": "sSolganiumZDesc",
+            "zh": "Z力量的结晶。会\\n将索尔迦雷欧的流\\n星闪冲升级成Z招\\n式。",
+            "en": "Upgrade Solgaleo's\\nSunsteel Strike\\ninto a Z-Move."
+        },
+        {
+            "label": "sTapuniumZDesc",
+            "zh": "Z力量的结晶。会\\n将卡璞们的自然之\\n怒升级成Z招式。",
+            "en": "Upgrade the tapu's\\nNature's Madness\\ninto a Z-Move."
+        },
+        {
+            "label": "sUltranecroziumZDesc",
+            "zh": "Z力量的结晶。会\\n将奈克洛兹玛的光\\n子喷涌升级成Z招\\n式。",
+            "en": "A crystal to turn\\nfused Necrozma\\ninto a new form."
+        }
+    ]
+}
