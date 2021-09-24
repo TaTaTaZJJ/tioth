@@ -82,6 +82,7 @@ static const u8 sText_TargetFainted[] = _("{B_DEF_NAME_WITH_PREFIX}\n倒下了�
 static const u8 sText_PlayerGotMoney[] = _("{B_PLAYER_NAME}收到了\n{B_BUFF1}元作为奖励！\p");
 static const u8 sText_PlayerGotItem[] = _("{B_PLAYER_NAME}收到了作为奖励的\n{B_BUFF2}！\p");
 static const u8 sText_PlayerGotItem2[] = _("{B_PLAYER_NAME}收到了作为奖励的\n{B_BUFF2}和{B_BUFF3}！\p");
+static const u8 sText_PlayerGotLootItem[] = _("{B_PLAYER_NAME}从野生的\n{B_BUFF1}获得了{B_BUFF2}！\p");
 static const u8 sText_PlayerWhiteout[] = _("{B_PLAYER_NAME}\n已经没有可用的宝可梦了！\p");
 static const u8 sText_PlayerWhiteout2[] = _("{B_PLAYER_NAME}被击败了！{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PreventsEscape[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}用{B_SCR_ACTIVE_ABILITY}\n阻止逃跑！\p");
@@ -1260,6 +1261,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_SCREENCLEANERENTERS - 12] = sText_ScreenCleanerActivates,
     [STRINGID_PLAYERGOTITEM - 12] = sText_PlayerGotItem,
     [STRINGID_PLAYERGOTITEM2 - 12] = sText_PlayerGotItem2,
+    [STRINGID_PLAYERGOTLOOTITEM - 12] = sText_PlayerGotLootItem,
 };
 
 const u16 gTerrainStringIds[] =

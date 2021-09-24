@@ -1,6 +1,7 @@
 #include "global.h"
 #include "tioth_specials.h"
 #include "overworld.h"
+#include "random.h"
 #include "script.h"
 #include "field_screen_effect.h"
 #include "field_player_avatar.h"
@@ -8,6 +9,7 @@
 #include "string_util.h"
 #include "constants/game_stat.h"
 #include "constants/maps.h"
+#include "constants/items.h"
 
 EWRAM_DATA u8 playerFacingAtBeforeWarp = DIR_NONE; // 记录玩家转移前的面向
 EWRAM_DATA bool8 insideDreamWorld = FALSE;
@@ -20,10 +22,31 @@ struct DreamWorld
     s8 mapNum2;
 };
 
+struct PokemonLoot {
+    u16 item1;
+    u16 item2;
+};
+
 // 对应梦世界地图的表格
 static const struct DreamWorld sDreamWorlds[] = {
     {MAP_GROUP(SPAWN_PLACE), MAP_NUM(SPAWN_PLACE), MAP_GROUP(SPAWN_PLACE_MIRROR), MAP_NUM(SPAWN_PLACE_MIRROR)},
     {-1, -1, -1, -1}, //结束判定点
+};
+
+// 特定的掉落道具
+static const struct PokemonLoot sPokemonLoots[NUM_SPECIES] =
+{
+    [SPECIES_BULBASAUR] = {.item1 = ITEM_MAX_ELIXIR},
+};
+
+#define RANDOM_LOOT_COUNT  3
+
+// 通用掉落道具
+static const u16 sRandomLoot[RANDOM_LOOT_COUNT] =
+{
+    ITEM_NUGGET,
+    ITEM_POTION,
+    ITEM_RARE_CANDY,
 };
 
 // 切换性别
@@ -193,4 +216,25 @@ void GetWildPokemonBeatensCount(void)
 void GetTrainerBeatensCount(void)
 {
     ConvertIntToDecimalStringN(gStringVar2, GetGameStat(GAME_STAT_TRAINER_BEATENS), STR_CONV_MODE_LEFT_ALIGN, 5);
+}
+
+
+// 计算掉落道具
+u16 GetPokemonLootItem(u16 speciesId)
+{
+    u16 item1 = sPokemonLoots[speciesId].item1;
+    u16 item2 = sPokemonLoots[speciesId].item2;
+    s32 rand = Random() % 100;
+
+    if (item1 != ITEM_NONE && item2 != ITEM_NONE && item1 == item2)
+        return item1;
+    if (item1 == ITEM_NONE)
+        item1 = sRandomLoot[rand % RANDOM_LOOT_COUNT]; // 添补通用道具
+    if (item2 == ITEM_NONE)
+        item2 = sRandomLoot[rand % RANDOM_LOOT_COUNT]; // 添补通用道具
+    if (rand < 50)
+        return item1; // 50%概率获得
+    if (rand >= 95)
+        return item2; // 5%概率获得
+    return ITEM_NONE;
 }

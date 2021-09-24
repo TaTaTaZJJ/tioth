@@ -32,6 +32,7 @@
 #include "money.h"
 #include "bg.h"
 #include "string_util.h"
+#include "tioth_specials.h"
 #include "pokemon_icon.h"
 #include "m4a.h"
 #include "mail.h"
@@ -529,7 +530,7 @@ static void Cmd_trygetintimidatetarget(void);
 static void Cmd_switchoutabilities(void);
 static void Cmd_jumpifhasnohp(void);
 static void Cmd_getsecretpowereffect(void);
-static void Cmd_pickup(void);
+static void Cmd_tiothspecial(void);
 static void Cmd_docastformchangeanimation(void);
 static void Cmd_trycastformdatachange(void);
 static void Cmd_settypebasedhalvers(void);
@@ -788,7 +789,7 @@ void (* const gBattleScriptingCommandsTable[])(void) =
     Cmd_switchoutabilities,                      //0xE2
     Cmd_jumpifhasnohp,                           //0xE3
     Cmd_getsecretpowereffect,                    //0xE4
-    Cmd_pickup,                                  //0xE5
+    Cmd_tiothspecial,                                //0xE5
     Cmd_docastformchangeanimation,               //0xE6
     Cmd_trycastformdatachange,                   //0xE7
     Cmd_settypebasedhalvers,                     //0xE8
@@ -6344,32 +6345,6 @@ static void Cmd_getmoneyreward(void)
     AddMoney(&gSaveBlock1Ptr->money, moneyReward);
     PREPARE_WORD_NUMBER_BUFFER(gBattleTextBuff1, 5, moneyReward);
 
-    // 奖励道具
-    gRewardItemCount = 0;
-    item = GetTrainerLootItemToGive(gTrainerBattleOpponent_A);
-    if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) //道具加入背包成功时记录道具名字
-    {
-        PREPARE_ITEM_BUFFER(gBattleTextBuff2, item);
-        gRewardItemCount++;
-    }
-
-    if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) //双打
-    {    
-        item = GetTrainerLootItemToGive(gTrainerBattleOpponent_B);
-        if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) 
-        {   
-            if (gRewardItemCount == 0)
-            {
-                PREPARE_ITEM_BUFFER(gBattleTextBuff2, item); //当训练师1不给道具时
-            }
-            else
-            {
-                PREPARE_ITEM_BUFFER(gBattleTextBuff3, item);
-            }
-            gRewardItemCount++;
-        }
-    }
-
     gBattlescriptCurrInstr++;
 }
 
@@ -11729,108 +11704,169 @@ static void Cmd_getsecretpowereffect(void)
     gBattlescriptCurrInstr++;
 }
 
-static void Cmd_pickup(void)
+static void Cmd_tiothspecial(void) // 原先是pickup
 {
+    struct Pokemon *mon;
     s32 i;
-    u16 species, heldItem;
-    u16 ability;
-    u8 lvlDivBy10;
+    u16 species, item, ability;
+    u8 lvlDivBy10; 
+    u8 count = 0;
 
-    if (InBattlePike())
+    switch (gBattlescriptCurrInstr[2])
     {
-
-    }
-    else if (InBattlePyramid())
-    {
-        for (i = 0; i < PARTY_SIZE; i++)
+    case TIOTH_SPECIAL_PICKUP: // 原版的pickup内容
+        if (InBattlePike())
         {
-            species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
-            heldItem = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
 
-            if (GetMonData(&gPlayerParty[i], MON_DATA_ABILITY_NUM))
-                ability = gBaseStats[species].abilities[1];
-            else
-                ability = gBaseStats[species].abilities[0];
-
-            if (ability == ABILITY_PICKUP
-                && species != 0
-                && species != SPECIES_EGG
-                && heldItem == ITEM_NONE
-                && (Random() % 10) == 0)
-            {
-                heldItem = GetBattlePyramidPickupItemId();
-                SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &heldItem);
-            }
-            #if (defined ITEM_HONEY)
-            else if (ability == ABILITY_HONEY_GATHER
-                && species != 0
-                && species != SPECIES_EGG
-                && heldItem == ITEM_NONE)
-            {
-                if ((lvlDivBy10 + 1 ) * 5 > Random() % 100)
-                {
-                    heldItem = ITEM_HONEY;
-                    SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &heldItem);
-                }
-            }
-            #endif
         }
-    }
-    else
-    {
-        for (i = 0; i < PARTY_SIZE; i++)
+        else if (InBattlePyramid())
         {
-            species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
-            heldItem = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
-            lvlDivBy10 = (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL)-1) / 10; //Moving this here makes it easier to add in abilities like Honey Gather
-            if (lvlDivBy10 > 9)
-                lvlDivBy10 = 9;
-
-            if (GetMonData(&gPlayerParty[i], MON_DATA_ABILITY_NUM))
-                ability = gBaseStats[species].abilities[1];
-            else
-                ability = gBaseStats[species].abilities[0];
-
-            if (ability == ABILITY_PICKUP
-                && species != 0
-                && species != SPECIES_EGG
-                && heldItem == ITEM_NONE
-                && (Random() % 10) == 0)
+            for (i = 0; i < PARTY_SIZE; i++)
             {
-                s32 j;
-                s32 rand = Random() % 100;
+                species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
+                item = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
 
-                for (j = 0; j < (int)ARRAY_COUNT(sPickupProbabilities); j++)
+                if (GetMonData(&gPlayerParty[i], MON_DATA_ABILITY_NUM))
+                    ability = gBaseStats[species].abilities[1];
+                else
+                    ability = gBaseStats[species].abilities[0];
+
+                if (ability == ABILITY_PICKUP
+                    && species != 0
+                    && species != SPECIES_EGG
+                    && item == ITEM_NONE
+                    && (Random() % 10) == 0)
                 {
-                    if (sPickupProbabilities[j] > rand)
+                    item = GetBattlePyramidPickupItemId();
+                    SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &item);
+                }
+                #if (defined ITEM_HONEY)
+                else if (ability == ABILITY_HONEY_GATHER
+                    && species != 0
+                    && species != SPECIES_EGG
+                    && item == ITEM_NONE)
+                {
+                    if ((lvlDivBy10 + 1 ) * 5 > Random() % 100)
                     {
-                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sPickupItems[lvlDivBy10 + j]);
-                        break;
-                    }
-                    else if (rand == 99 || rand == 98)
-                    {
-                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sRarePickupItems[lvlDivBy10 + (99 - rand)]);
-                        break;
+                        item = ITEM_HONEY;
+                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &item);
                     }
                 }
+                #endif
             }
-            #if (defined ITEM_HONEY)
-            else if (ability == ABILITY_HONEY_GATHER
-                && species != 0
-                && species != SPECIES_EGG
-                && heldItem == ITEM_NONE)
-            {
-                if ((lvlDivBy10 + 1 ) * 5 > Random() % 100)
-                {
-                    heldItem = ITEM_HONEY;
-                    SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &heldItem);
-                }
-            }
-            #endif
         }
-    }
+        else
+        {
+            for (i = 0; i < PARTY_SIZE; i++)
+            {
+                species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
+                item = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
+                lvlDivBy10 = (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL)-1) / 10; //Moving this here makes it easier to add in abilities like Honey Gather
+                if (lvlDivBy10 > 9)
+                    lvlDivBy10 = 9;
 
-    gBattlescriptCurrInstr++;
+                if (GetMonData(&gPlayerParty[i], MON_DATA_ABILITY_NUM))
+                    ability = gBaseStats[species].abilities[1];
+                else
+                    ability = gBaseStats[species].abilities[0];
+
+                if (ability == ABILITY_PICKUP
+                    && species != 0
+                    && species != SPECIES_EGG
+                    && item == ITEM_NONE
+                    && (Random() % 10) == 0)
+                {
+                    s32 j;
+                    s32 rand = Random() % 100;
+
+                    for (j = 0; j < (int)ARRAY_COUNT(sPickupProbabilities); j++)
+                    {
+                        if (sPickupProbabilities[j] > rand)
+                        {
+                            SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sPickupItems[lvlDivBy10 + j]);
+                            break;
+                        }
+                        else if (rand == 99 || rand == 98)
+                        {
+                            SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sRarePickupItems[lvlDivBy10 + (99 - rand)]);
+                            break;
+                        }
+                    }
+                }
+                #if (defined ITEM_HONEY)
+                else if (ability == ABILITY_HONEY_GATHER
+                    && species != 0
+                    && species != SPECIES_EGG
+                    && item == ITEM_NONE)
+                {
+                    if ((lvlDivBy10 + 1 ) * 5 > Random() % 100)
+                    {
+                        item = ITEM_HONEY;
+                        SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &item);
+                    }
+                }
+                #endif
+            }
+        }
+        break;
+    case TIOTH_SPECIAL_LOOT_ITEM: // 掉落道具
+        gBattlerFainted = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
+        if (GetBattlerSide(gBattlerFainted) == B_SIDE_OPPONENT && !(gBattleTypeFlags &
+            ( BATTLE_TYPE_LINK
+            | BATTLE_TYPE_LEGENDARY
+            | BATTLE_TYPE_TRAINER
+            | BATTLE_TYPE_PIKE
+            | BATTLE_TYPE_SAFARI)))
+        {
+            species = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerFainted]], MON_DATA_SPECIES2);
+            item = GetPokemonLootItem(species);
+            if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE)
+            {
+                PREPARE_SPECIES_BUFFER(gBattleTextBuff1, species);
+                PREPARE_ITEM_BUFFER(gBattleTextBuff2, item);
+                PrepareStringBattle(STRINGID_PLAYERGOTLOOTITEM, gBattlerAttacker);
+                gBattleCommunication[MSG_DISPLAY] = 1;
+            }
+        }
+        break;
+    case TIOTH_SPECIAL_TRAINER_REWARD_ITEM: // 奖励道具
+        item = GetTrainerLootItemToGive(gTrainerBattleOpponent_A);
+        if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) //道具加入背包成功时记录道具名字
+        {
+            PREPARE_ITEM_BUFFER(gBattleTextBuff2, item);
+            count++;
+        }
+
+        if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) //双打
+        {    
+            item = GetTrainerLootItemToGive(gTrainerBattleOpponent_B);
+            if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) 
+            {   
+                if (count == 0)
+                {
+                    PREPARE_ITEM_BUFFER(gBattleTextBuff2, item); //当训练师1不给道具时
+                }
+                else
+                {
+                    PREPARE_ITEM_BUFFER(gBattleTextBuff3, item);
+                }
+                count++;
+            }
+        }
+
+        if (count == 1)
+        {
+            PrepareStringBattle(STRINGID_PLAYERGOTITEM, gBattlerAttacker);
+            gBattleCommunication[MSG_DISPLAY] = 1;
+        }
+        else if (count == 2)
+        {
+            PrepareStringBattle(STRINGID_PLAYERGOTITEM2, gBattlerAttacker);
+            gBattleCommunication[MSG_DISPLAY] = 1;
+        }
+        break;
+    }
+    gBattlescriptCurrInstr+=3;
 }
 
 static void Cmd_docastformchangeanimation(void)
