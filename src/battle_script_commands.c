@@ -6347,7 +6347,7 @@ static void Cmd_getmoneyreward(void)
     // 奖励道具
     gRewardItemCount = 0;
     item = GetTrainerLootItemToGive(gTrainerBattleOpponent_A);
-    if (AddBagItem(item, 1) == TRUE) //道具加入背包成功时记录道具名字
+    if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) //道具加入背包成功时记录道具名字
     {
         PREPARE_ITEM_BUFFER(gBattleTextBuff2, item);
         gRewardItemCount++;
@@ -6356,7 +6356,7 @@ static void Cmd_getmoneyreward(void)
     if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) //双打
     {    
         item = GetTrainerLootItemToGive(gTrainerBattleOpponent_B);
-        if (AddBagItem(item, 1) == TRUE) 
+        if (item != ITEM_NONE && AddBagItem(item, 1) == TRUE) 
         {   
             if (gRewardItemCount == 0)
             {
