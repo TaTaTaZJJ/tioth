@@ -1748,43 +1748,43 @@
 
 
 	@ If check is 0x00, this command adds variable amount to the player's money.
-	.macro addmoneywithvar variable:req, check:req
+	.macro addmoneywithvar variable:req
 	.byte 0xe7
 	.2byte \variable
-	.byte \check
+	.byte 0
 	.endm
 
 	@ If check is 0x00, this command subtracts variable amount from the player's money.
-	.macro removemoneywithvar variable:req, check:req
+	.macro removemoneywithvar variable:req
 	.byte 0xe8
 	.2byte \variable
-	.byte \check
+	.byte 0
 	.endm
 
 	@ If check is 0x00, this command will check if the player has money >= variable amount; VAR_RESULT is set to TRUE if the player
 	@ has enough money, or FALSE if they do not.
-	.macro checkmoneywithvar variable:req, check:req
+	.macro checkmoneywithvar variable:req
 	.byte 0xe9
 	.2byte \variable
-	.byte \check
+	.byte 0
 	.endm
 
 	@ If check is 0x00, this command multiples the player's money  with variable amount.
-	.macro multiplymoneywithvar variable:req, check:req
+	.macro multiplymoneywithvar variable:req
 	.byte 0xea
 	.2byte \variable
-	.byte \check
+	.byte 0
 	.endm
 
 	@ Changes the value of destination by multiplying value to it. Overflow is not prevented (0xFFFF + 1 = 0x0000).
-	.macro multiplyvar destination:req, value:req
+	.macro multvar destination:req, value:req
 	.byte 0xeb
 	.2byte \destination
 	.2byte \value
 	.endm
 
 	@ Changes the value of destination by dividing value to it. Overflow is not prevented (0x0000 - 1 = 0xFFFF).
-	.macro dividevar destination:req, value:req
+	.macro divvar destination:req, value:req
 	.byte 0xec
 	.2byte \destination
 	.2byte \value
@@ -1801,6 +1801,26 @@
 	.2byte \destination
 	.2byte \source
 	.byte \operation
+	.endm
+
+	@ 变数A值 + 变数B值, 返回在变数A
+	.macro addvars var_a:req, var_b:req
+	mathvar \var_a, \var_b, MATH_ADD
+	.endm
+
+	@ 变数A值 - 变数B值, 返回在变数A
+	.macro subvars var_a:req, var_b:req
+	mathvar \var_a, \var_b, MATH_SUB
+	.endm
+
+	@ 变数A值 * 变数B值, 返回在变数A
+	.macro multvars var_a:req, var_b:req
+	mathvar \var_a, \var_b, MATH_MULTIPLY
+	.endm
+
+	@ 变数A值 * 变数B值, 返回在变数A， 余数在变数B
+	.macro divvars var_a:req, var_b:req
+	mathvar \var_a, \var_b, MATH_DIVIDE
 	.endm
 
 	LEFT = 0
