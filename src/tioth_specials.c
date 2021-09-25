@@ -36,13 +36,13 @@ static const struct DreamWorld sDreamWorlds[] = {
 // 特定的掉落道具
 static const struct PokemonLoot sPokemonLoots[NUM_SPECIES] =
 {
-    [SPECIES_BULBASAUR] = {.item1 = ITEM_MAX_ELIXIR},
+    [SPECIES_BULBASAUR] = {.item1 = ITEM_LEAF_STONE},
 };
 
-#define RANDOM_LOOT_COUNT  3
+#define GENERAL_LOOTS_COUNT  3
 
 // 通用掉落道具
-static const u16 sRandomLoot[RANDOM_LOOT_COUNT] =
+static const u16 sGeneralLoots[GENERAL_LOOTS_COUNT] =
 {
     ITEM_NUGGET,
     ITEM_POTION,
@@ -229,9 +229,9 @@ u16 GetPokemonLootItem(u16 speciesId)
     if (item1 != ITEM_NONE && item2 != ITEM_NONE && item1 == item2)
         return item1;
     if (item1 == ITEM_NONE)
-        item1 = sRandomLoot[rand % RANDOM_LOOT_COUNT]; // 添补通用道具
+        item1 = sGeneralLoots[rand % GENERAL_LOOTS_COUNT]; // 添补通用道具
     if (item2 == ITEM_NONE)
-        item2 = sRandomLoot[rand % RANDOM_LOOT_COUNT]; // 添补通用道具
+        item2 = sGeneralLoots[rand % GENERAL_LOOTS_COUNT]; // 添补通用道具
     if (rand < 50)
         return item1; // 50%概率获得
     if (rand >= 95)
