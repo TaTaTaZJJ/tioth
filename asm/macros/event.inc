@@ -2078,3 +2078,15 @@
     setvar VAR_0x8000, \slot
     callnative ClearTimeEvent 
 	.endm
+
+	.macro startwildhunting species:req targetCount:req map:req
+    setvar VAR_0x8000, \species
+    setvar VAR_0x8001, \targetCount
+    setvar VAR_0x8002, \map >> 8
+    setvar VAR_0x8003, \map & 0xFF
+    callnative CreateWildHuntingQuest 
+	.endm
+
+	.macro endwildhunting
+    callnative ClearWildHuntingQuest 
+	.endm

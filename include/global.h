@@ -187,6 +187,15 @@ struct LimitedTimeEvent // 限时事件，当游戏时间达到结束时间，�
     /*0x05*/ const u8* script; //事件脚本
 };
 
+struct WildHuntingQuest // 野生狩猎委托
+{   
+    /*0x00*/ u16 species;
+    /*0x02*/ u16 targetCount;
+    /*0x04*/ u16 completedCount;
+    /*0x06*/ u8 mapGroup;
+    /*0x07*/ u8 mapNum;
+};
+
 struct Pokedex
 {
     /*0x00*/ u8 order;
@@ -1085,6 +1094,7 @@ struct SaveBlock1
     /*0x3???*/ struct SaveTrainerHill trainerHill;
     /*0x3???*/ struct WaldaPhrase waldaPhrase;
     /*0x3???*/ struct LimitedTimeEvent limitedTimeEvent[LIMITED_TIME_EVENT_COUNT];
+    /*0x3???*/ struct WildHuntingQuest wildHutingQuest;
     // sizeof: 0x3???
 };
 

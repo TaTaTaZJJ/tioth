@@ -22,7 +22,8 @@ struct DreamWorld
     s8 mapNum2;
 };
 
-struct PokemonLoot {
+struct PokemonLoot
+{
     u16 item1;
     u16 item2;
 };
@@ -35,18 +36,18 @@ static const struct DreamWorld sDreamWorlds[] = {
 
 // 特定的掉落道具
 static const struct PokemonLoot sPokemonLoots[NUM_SPECIES] =
-{
-    [SPECIES_BULBASAUR] = {.item1 = ITEM_LEAF_STONE},
+    {
+        [SPECIES_BULBASAUR] = {.item1 = ITEM_LEAF_STONE},
 };
 
-#define GENERAL_LOOTS_COUNT  3
+#define GENERAL_LOOTS_COUNT 3
 
 // 通用掉落道具
 static const u16 sGeneralLoots[GENERAL_LOOTS_COUNT] =
-{
-    ITEM_NUGGET,
-    ITEM_POTION,
-    ITEM_RARE_CANDY,
+    {
+        ITEM_NUGGET,
+        ITEM_POTION,
+        ITEM_RARE_CANDY,
 };
 
 // 切换性别
@@ -172,7 +173,7 @@ void SetTimeEvent(void)
     script = (const u8 *)ReadWord(0);
 
     if (slot < LIMITED_TIME_EVENT_COUNT)
-    {   
+    {
         //算出脚本触发时机
         playTimeSeconds += gSaveBlock2Ptr->playTimeSeconds;
         playTimeMinutes += gSaveBlock2Ptr->playTimeMinutes;
@@ -203,7 +204,7 @@ void ClearTimeEvent(void)
 {
     u8 slot = VarGet(VAR_0x8000);
     if (slot < LIMITED_TIME_EVENT_COUNT)
-    {   
+    {
         gSaveBlock1Ptr->limitedTimeEvent[slot].script = 0;
     }
 }
@@ -217,7 +218,6 @@ void GetTrainerBeatensCount(void)
 {
     ConvertIntToDecimalStringN(gStringVar2, GetGameStat(GAME_STAT_TRAINER_BEATENS), STR_CONV_MODE_LEFT_ALIGN, 5);
 }
-
 
 // 计算掉落道具
 u16 GetPokemonLootItem(u16 speciesId)
@@ -237,4 +237,43 @@ u16 GetPokemonLootItem(u16 speciesId)
     if (rand >= 95)
         return item2; // 5%概率获得
     return ITEM_NONE;
+}
+
+void CreateWildHuntingQuest(void)
+{
+    u16 species = VarGet(VAR_0x8000);
+    u16 targetCount = VarGet(VAR_0x8001);
+    u16 mapGroup = VarGet(VAR_0x8002);
+    u16 mapNum = VarGet(VAR_0x8003);
+
+    gSaveBlock1Ptr->wildHutingQuest.completedCount = 0;
+    gSaveBlock1Ptr->wildHutingQuest.species = species;
+    gSaveBlock1Ptr->wildHutingQuest.targetCount = targetCount;
+    gSaveBlock1Ptr->wildHutingQuest.mapGroup = mapGroup;
+    gSaveBlock1Ptr->wildHutingQuest.mapNum = mapNum;
+}
+
+void ClearWildHuntingQuest(void)
+{
+    gSaveBlock1Ptr->wildHutingQuest.species = SPECIES_NONE;
+}
+
+bool8 IsWildHuntingQuestActived(void)
+{
+    return gSaveBlock1Ptr->wildHutingQuest.species != SPECIES_NONE;
+}
+
+bool8 IsWildHuntingQuestCompleted(void)
+{
+    return IsWildHuntingQuestActived() == TRUE && gSaveBlock1Ptr->wildHutingQuest.completedCount == gSaveBlock1Ptr->wildHutingQuest.targetCount;
+}
+
+u16 GetWildHuntingTargetCount(void)
+{
+    return IsWildHuntingQuestActived() ? gSaveBlock1Ptr->wildHutingQuest.targetCount : 0;
+}
+
+u16 GetWildHuntingCompletedCount(void)
+{
+    return IsWildHuntingQuestActived() ? gSaveBlock1Ptr->wildHutingQuest.completedCount : 0;
 }

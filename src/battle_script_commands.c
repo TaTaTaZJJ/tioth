@@ -3704,8 +3704,6 @@ static void Cmd_getexp(void)
         }
         else
         {   
-            if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
-                IncrementGameStat(GAME_STAT_WILD_POKEMON_BEATENS);
             gBattleScripting.getexpState++;
             gBattleStruct->givenExpMons |= gBitTable[gBattlerPartyIndexes[gBattlerFainted]];
         }
@@ -11863,6 +11861,25 @@ static void Cmd_tiothspecial(void) // 原先是pickup
         {
             PrepareStringBattle(STRINGID_PLAYERGOTITEM2, gBattlerAttacker);
             gBattleCommunication[MSG_DISPLAY] = 1;
+        }
+        break;
+    case TIOTH_SPECIAL_WILD_BEATEN_COUNT:
+        gBattlerFainted = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
+        if (GetBattlerSide(gBattlerFainted) == B_SIDE_OPPONENT && !(gBattleTypeFlags &
+            ( BATTLE_TYPE_LINK
+            | BATTLE_TYPE_TRAINER
+            | BATTLE_TYPE_PIKE
+            | BATTLE_TYPE_SAFARI)))
+        {
+            species = GetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerFainted]], MON_DATA_SPECIES2);
+            if (gSaveBlock1Ptr->wildHutingQuest.species == species
+                && gSaveBlock1Ptr->wildHutingQuest.mapGroup == gSaveBlock1Ptr->location.mapGroup
+                && gSaveBlock1Ptr->wildHutingQuest.mapNum == gSaveBlock1Ptr->location.mapNum
+                && gSaveBlock1Ptr->wildHutingQuest.completedCount < gSaveBlock1Ptr->wildHutingQuest.targetCount)
+            {
+                gSaveBlock1Ptr->wildHutingQuest.completedCount++;
+            }
+            IncrementGameStat(GAME_STAT_WILD_POKEMON_BEATENS);
         }
         break;
     }

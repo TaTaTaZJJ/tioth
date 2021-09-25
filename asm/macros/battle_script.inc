@@ -1907,3 +1907,7 @@
 	.macro trygivetrainerrewarditem
 	tiothspecial 0, TIOTH_SPECIAL_TRAINER_REWARD_ITEM
 	.endm
+
+	.macro trywildbeatencount battler:req
+	tiothspecial \battler, TIOTH_SPECIAL_WILD_BEATEN_COUNT
+	.endm

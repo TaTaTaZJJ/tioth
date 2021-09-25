@@ -178,6 +178,7 @@
 #define TIOTH_SPECIAL_PICKUP                    1
 #define TIOTH_SPECIAL_LOOT_ITEM                 2
 #define TIOTH_SPECIAL_TRAINER_REWARD_ITEM       3
+#define TIOTH_SPECIAL_WILD_BEATEN_COUNT         4
 
 // Cmd_manipulatedamage
 #define DMG_CHANGE_SIGN            0
