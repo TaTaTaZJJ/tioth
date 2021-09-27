@@ -2110,3 +2110,10 @@
 	.macro endwildhunting
     callnative ClearWildHuntingQuest 
 	.endm
+
+	HP    = 0
+	ATK   = 1
+	DEF   = 2
+	SPEED = 3
+	SPATK = 4
+	SPDEF = 5

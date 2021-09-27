@@ -1,6 +1,7 @@
 #include "global.h"
 #include "tioth_specials.h"
 #include "overworld.h"
+#include "pokemon.h"
 #include "random.h"
 #include "script.h"
 #include "field_screen_effect.h"
@@ -276,4 +277,26 @@ u16 GetWildHuntingTargetCount(void)
 u16 GetWildHuntingCompletedCount(void)
 {
     return IsWildHuntingQuestActived() ? gSaveBlock1Ptr->wildHutingQuest.completedCount : 0;
+}
+
+void setMonIVFullStat(void)
+{
+    u8 slotId = VarGet(VAR_0x8000);
+    u8 field = VarGet(VAR_0x8001);
+    u32 data = 31;
+    field += MON_DATA_HP_IV;
+    if (field > MON_DATA_SPDEF_IV || slotId >= PARTY_SIZE)
+        return;
+    SetMonData(&gPlayerParty[slotId], field, &data);
+}
+
+void setMonEVFullStat(void)
+{
+    u8 slotId = VarGet(VAR_0x8000);
+    u8 field = VarGet(VAR_0x8001);
+    u32 data = 31;
+    field += MON_DATA_HP_EV;
+    if (field > MON_DATA_SPDEF_EV || slotId >= PARTY_SIZE)
+        return;
+    SetMonData(&gPlayerParty[slotId], field, &data);
 }
