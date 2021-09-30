@@ -27,4 +27,30 @@ u8 GetCurrentApproachingTrainerObjectEventId(void);
 u8 GetChosenApproachingTrainerObjectEventId(u8 arrayId);
 void PlayerFaceTrainerAfterBattle(void);
 
+//新表情
+u8 FldEff_DotDotDotIcon(void);
+u8 FldEff_AngryIcon(void);
+u8 FldEff_SweatIcon(void);
+u8 FldEff_ExclamationMark2Icon(void);
+u8 FldEff_BulbIcon(void);
+u8 FldEff_SpeechlessIcon(void);
+u8 FldEff_MusicIcon(void);
+u8 FldEff_CircleIcon(void);
+u8 FldEff_SleepyIcon(void);
+u8 FldEff_CrossIcon(void);
+u8 FldEff_StarIcon(void);
+u8 FldEff_FunnnyIcon(void);
+u8 FldEff_VommitIcon(void);
+u8 FldEff_SmileIcon(void);
+u8 FldEff_FacePalmIcon(void);
+u8 FldEff_BombedIcon(void);
+u8 FldEff_DogeIcon(void);
+u8 FldEff_EvilIcon(void);
+u8 FldEff_Sweat2Icon(void);
+u8 FldEff_SkullIcon(void);
+u8 FldEff_SwordIcon(void);
+u8 FldEff_CreeperIcon(void);
+u8 FldEff_SpitBloodIcon(void);
+u8 FldEff_InterestingIcon(void);
+
 #endif // GUARD_TRAINER_SEE_H

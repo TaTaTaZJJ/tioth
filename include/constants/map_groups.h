@@ -6,7 +6,8 @@
 //
 
 // gMapGroup_Test
-#define MAP_SPAWN_PLACE (0 | (0 << 8))
+#define MAP_SPAWN_PLACE        (0 | (0 << 8))
+#define MAP_SPAWN_PLACE_MIRROR (1 | (0 << 8))
 
 // TiothMapGroup_Indoor
 #define MAP_TIOTH_MAP_INDOOR0 (0 | (1 << 8))

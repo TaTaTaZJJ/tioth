@@ -1,0 +1,489 @@
+{
+    "path": "src/data/decoration/header.h",
+    "texts": [
+        {
+            "en": "SMALL DESK",
+            "zh": "小型桌子"
+        },
+        {
+            "en": "SMALL DESK",
+            "zh": "小型桌子"
+        },
+        {
+            "en": "POKéMON DESK",
+            "zh": "精灵球桌子"
+        },
+        {
+            "en": "HEAVY DESK",
+            "zh": "沉重桌子"
+        },
+        {
+            "en": "RAGGED DESK",
+            "zh": "粗糙桌子"
+        },
+        {
+            "en": "COMFORT DESK",
+            "zh": "松软桌子"
+        },
+        {
+            "en": "PRETTY DESK",
+            "zh": "漂亮桌子"
+        },
+        {
+            "en": "BRICK DESK",
+            "zh": "砖块桌子"
+        },
+        {
+            "en": "CAMP DESK",
+            "zh": "露营桌子"
+        },
+        {
+            "en": "HARD DESK",
+            "zh": "坚硬桌子"
+        },
+        {
+            "en": "SMALL CHAIR",
+            "zh": "小型椅子"
+        },
+        {
+            "en": "POKéMON CHAIR",
+            "zh": "精灵球椅子"
+        },
+        {
+            "en": "HEAVY CHAIR",
+            "zh": "沉重椅子"
+        },
+        {
+            "en": "PRETTY CHAIR",
+            "zh": "漂亮椅子"
+        },
+        {
+            "en": "COMFORT CHAIR",
+            "zh": "松软椅子"
+        },
+        {
+            "en": "RAGGED CHAIR",
+            "zh": "粗糙椅子"
+        },
+        {
+            "en": "BRICK CHAIR",
+            "zh": "砖块椅子"
+        },
+        {
+            "en": "CAMP CHAIR",
+            "zh": "露营椅子"
+        },
+        {
+            "en": "HARD CHAIR",
+            "zh": "坚硬椅子"
+        },
+        {
+            "en": "RED PLANT",
+            "zh": "鲜红盆栽"
+        },
+        {
+            "en": "TROPICAL PLANT",
+            "zh": "南国盆栽"
+        },
+        {
+            "en": "PRETTY FLOWERS",
+            "zh": "可爱的花"
+        },
+        {
+            "en": "COLORFUL PLANT",
+            "zh": "鲜艳盆栽"
+        },
+        {
+            "en": "BIG PLANT",
+            "zh": "大盆栽"
+        },
+        {
+            "en": "GORGEOUS PLANT",
+            "zh": "高大盆栽盆栽"
+        },
+        {
+            "en": "RED BRICK",
+            "zh": "红色砖块"
+        },
+        {
+            "en": "YELLOW BRICK",
+            "zh": "黄色砖块"
+        },
+        {
+            "en": "BLUE BRICK",
+            "zh": "蓝色砖块"
+        },
+        {
+            "en": "RED BALLOON",
+            "zh": "红色气球"
+        },
+        {
+            "en": "BLUE BALLOON",
+            "zh": "蓝色气球"
+        },
+        {
+            "en": "YELLOW BALLOON",
+            "zh": "黄色气球"
+        },
+        {
+            "en": "RED TENT",
+            "zh": "红色帐篷"
+        },
+        {
+            "en": "BLUE TENT",
+            "zh": "蓝色帐篷"
+        },
+        {
+            "en": "SOLID BOARD",
+            "zh": "结实木板"
+        },
+        {
+            "en": "SLIDE",
+            "zh": "溜滑梯"
+        },
+        {
+            "en": "FENCE LENGTH",
+            "zh": "纵栅栏"
+        },
+        {
+            "en": "FENCE WIDTH",
+            "zh": "横栅栏"
+        },
+        {
+            "en": "TIRE",
+            "zh": "轮胎"
+        },
+        {
+            "en": "STAND",
+            "zh": "基座"
+        },
+        {
+            "en": "MUD BALL",
+            "zh": "泥巴丸子"
+        },
+        {
+            "en": "BREAKABLE DOOR",
+            "zh": "可以打破的门"
+        },
+        {
+            "en": "SAND ORNAMENT",
+            "zh": "砂子的装饰品"
+        },
+        {
+            "en": "SILVER SHIELD",
+            "zh": "银牌"
+        },
+        {
+            "en": "GOLD SHIELD",
+            "zh": "金牌"
+        },
+        {
+            "en": "GLASS ORNAMENT",
+            "zh": "玻璃工艺品"
+        },
+        {
+            "en": "TV",
+            "zh": "电视机"
+        },
+        {
+            "en": "ROUND TV",
+            "zh": "圆形电视机"
+        },
+        {
+            "en": "CUTE TV",
+            "zh": "可爱电视机"
+        },
+        {
+            "en": "GLITTER MAT",
+            "zh": "闪亮地毯"
+        },
+        {
+            "en": "JUMP MAT",
+            "zh": "跳跃地毯"
+        },
+        {
+            "en": "SPIN MAT",
+            "zh": "旋转地毯"
+        },
+        {
+            "en": "C Low NOTE MAT",
+            "zh": "低Ｃ音符地毯"
+        },
+        {
+            "en": "D NOTE MAT",
+            "zh": "Ｄ音符地毯"
+        },
+        {
+            "en": "E NOTE MAT",
+            "zh": "Ｅ音符地毯"
+        },
+        {
+            "en": "F NOTE MAT",
+            "zh": "Ｆ音符地毯"
+        },
+        {
+            "en": "G NOTE MAT",
+            "zh": "Ｇ音符地毯"
+        },
+        {
+            "en": "A NOTE MAT",
+            "zh": "Ａ音符地毯"
+        },
+        {
+            "en": "B NOTE MAT",
+            "zh": "Ｂ音符地毯"
+        },
+        {
+            "en": "C High NOTE MAT",
+            "zh": "高Ｃ音符地毯"
+        },
+        {
+            "en": "SURF MAT",
+            "zh": "冲浪地毯"
+        },
+        {
+            "en": "THUNDER MAT",
+            "zh": "打雷地毯"
+        },
+        {
+            "en": "FIRE BLAST MAT",
+            "zh": "大字爆炎地毯"
+        },
+        {
+            "en": "POWDER SNOW MAT",
+            "zh": "细雪地毯"
+        },
+        {
+            "en": "ATTRACT MAT",
+            "zh": "迷人地毯"
+        },
+        {
+            "en": "FISSURE MAT",
+            "zh": "地裂地毯"
+        },
+        {
+            "en": "SPIKES MAT",
+            "zh": "撒菱地毯"
+        },
+        {
+            "en": "BALL POSTER",
+            "zh": "精灵球海报"
+        },
+        {
+            "en": "GREEN POSTER",
+            "zh": "绿色海报"
+        },
+        {
+            "en": "RED POSTER",
+            "zh": "红色海报"
+        },
+        {
+            "en": "BLUE POSTER",
+            "zh": "水色海报"
+        },
+        {
+            "en": "CUTE POSTER",
+            "zh": "可爱海报"
+        },
+        {
+            "en": "PIKA POSTER",
+            "zh": "皮卡皮卡海报"
+        },
+        {
+            "en": "LONG POSTER",
+            "zh": "长的海报"
+        },
+        {
+            "en": "SEA POSTER",
+            "zh": "大海海报"
+        },
+        {
+            "en": "SKY POSTER",
+            "zh": "天空海报"
+        },
+        {
+            "en": "KISS POSTER",
+            "zh": "飞吻海报"
+        },
+        {
+            "en": "PICHU DOLL",
+            "zh": "皮丘布偶"
+        },
+        {
+            "en": "PIKACHU DOLL",
+            "zh": "皮卡丘布偶L"
+        },
+        {
+            "en": "MARILL DOLL",
+            "zh": "玛力露布偶"
+        },
+        {
+            "en": "TOGEPI DOLL",
+            "zh": "波克比布偶"
+        },
+        {
+            "en": "CYNDAQUIL DOLL",
+            "zh": "火球鼠布偶"
+        },
+        {
+            "en": "CHIKORITA DOLL",
+            "zh": "菊草叶布偶"
+        },
+        {
+            "en": "TOTODILE DOLL",
+            "zh": "小锯鳄布偶"
+        },
+        {
+            "en": "JIGGLYPUFF DOLL",
+            "zh": "胖丁布偶"
+        },
+        {
+            "en": "MEOWTH DOLL",
+            "zh": "喵喵布偶"
+        },
+        {
+            "en": "CLEFAIRY DOLL",
+            "zh": "皮皮布偶"
+        },
+        {
+            "en": "DITTO DOLL",
+            "zh": "百变怪布偶"
+        },
+        {
+            "en": "SMOOCHUM DOLL",
+            "zh": "迷唇娃布偶"
+        },
+        {
+            "en": "TREECKO DOLL",
+            "zh": "木守宫布偶"
+        },
+        {
+            "en": "TORCHIC DOLL",
+            "zh": "火稚鸡布偶"
+        },
+        {
+            "en": "MUDKIP DOLL",
+            "zh": "水跃鱼布偶"
+        },
+        {
+            "en": "DUSKULL DOLL",
+            "zh": "夜巡灵布偶"
+        },
+        {
+            "en": "WYNAUT DOLL",
+            "zh": "小果然布偶"
+        },
+        {
+            "en": "BALTOY DOLL",
+            "zh": "天秤偶布偶"
+        },
+        {
+            "en": "KECLEON DOLL",
+            "zh": "变隐龙布偶"
+        },
+        {
+            "en": "AZURILL DOLL",
+            "zh": "露力丽布偶"
+        },
+        {
+            "en": "SKITTY DOLL",
+            "zh": "向尾喵布偶"
+        },
+        {
+            "en": "SWABLU DOLL",
+            "zh": "青绵鸟布偶"
+        },
+        {
+            "en": "GULPIN DOLL",
+            "zh": "溶食兽布偶"
+        },
+        {
+            "en": "LOTAD DOLL",
+            "zh": "莲叶童子布偶"
+        },
+        {
+            "en": "SEEDOT DOLL",
+            "zh": "橡实果布偶"
+        },
+        {
+            "en": "PIKA CUSHION",
+            "zh": "皮卡丘垫子"
+        },
+        {
+            "en": "ROUND CUSHION",
+            "zh": "圆形垫子"
+        },
+        {
+            "en": "KISS CUSHION",
+            "zh": "亲吻垫子"
+        },
+        {
+            "en": "ZIGZAG CUSHION",
+            "zh": "蛇纹熊垫子"
+        },
+        {
+            "en": "SPIN CUSHION",
+            "zh": "团团转垫子"
+        },
+        {
+            "en": "DIAMOND CUSHION",
+            "zh": "钻石垫子"
+        },
+        {
+            "en": "BALL CUSHION",
+            "zh": "精灵球垫子"
+        },
+        {
+            "en": "GRASS CUSHION",
+            "zh": "草垫子"
+        },
+        {
+            "en": "FIRE CUSHION",
+            "zh": "火垫子"
+        },
+        {
+            "en": "WATER CUSHION",
+            "zh": "水垫子"
+        },
+        {
+            "en": "SNORLAX DOLL",
+            "zh": "卡比兽布偶"
+        },
+        {
+            "en": "RHYDON DOLL",
+            "zh": "钻角犀兽布偶"
+        },
+        {
+            "en": "LAPRAS DOLL",
+            "zh": "拉普拉斯布偶"
+        },
+        {
+            "en": "VENUSAUR DOLL",
+            "zh": "妙蛙花布偶"
+        },
+        {
+            "en": "CHARIZARD DOLL",
+            "zh": "喷火龙布偶"
+        },
+        {
+            "en": "BLASTOISE DOLL",
+            "zh": "水箭龟布偶"
+        },
+        {
+            "en": "WAILMER DOLL",
+            "zh": "吼吼鲸布偶"
+        },
+        {
+            "en": "REGIROCK DOLL",
+            "zh": "雷吉洛克布偶"
+        },
+        {
+            "en": "REGICE DOLL",
+            "zh": "雷吉艾斯布偶"
+        },
+        {
+            "en": "REGISTEEL DOLL",
+            "zh": "雷吉斯奇鲁布偶"
+        }
+    ]
+}

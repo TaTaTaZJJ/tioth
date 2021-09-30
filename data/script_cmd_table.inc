@@ -238,6 +238,8 @@ gScriptCmdTable::
 	.4byte ScrCmd_multiplyvar               @ 0xeb
 	.4byte ScrCmd_dividevar                 @ 0xec
 	.4byte ScrCmd_mathvar                   @ 0xed
+	.4byte ScrCmd_mugshot                   @ 0xee
+	.4byte ScrCmd_clearmugshot              @ 0xef
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop

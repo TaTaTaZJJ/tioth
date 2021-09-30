@@ -127,5 +127,35 @@
 	create_movement_action fly_up
 	create_movement_action fly_down
 
+	create_movement_action run_down_slow
+	create_movement_action run_up_slow
+	create_movement_action run_left_slow
+	create_movement_action run_right_slow
+
+	create_movement_action emote_dot_dot_dot
+	create_movement_action emote_angry
+	create_movement_action emote_sweat
+	create_movement_action emote_exclamation_mark_2
+	create_movement_action emote_bulb
+	create_movement_action emote_speechless
+	create_movement_action emote_music
+	create_movement_action emote_circle
+	create_movement_action emote_sleepy
+	create_movement_action emote_cross
+	create_movement_action emote_star
+	create_movement_action emote_funny
+	create_movement_action emote_vommit
+	create_movement_action emote_smile
+	create_movement_action emote_face_palm
+	create_movement_action emote_bombed
+	create_movement_action emote_doge
+	create_movement_action emote_evil
+	create_movement_action emote_sweat_2
+	create_movement_action emote_skull
+	create_movement_action emote_sword
+	create_movement_action emote_creeper
+	create_movement_action emote_spit_blood
+	create_movement_action emote_interesting
+	
 	enum_start 0xfe
 	create_movement_action step_end

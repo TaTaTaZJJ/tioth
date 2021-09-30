@@ -1,0 +1,3676 @@
+{
+    "path": "src/data/text/move_descriptions.h",
+    "texts": [
+        {
+            "label": "sPoundDescription",
+            "zh": "使用长长的尾巴或手等\\n拍打对手进行攻击。",
+            "en": "Pounds the foe withforelegs or tail."
+        },
+        {
+            "label": "sKarateChopDescription",
+            "zh": "用手刀攻击对方，\\n要害命中率高。",
+            "en": "A chopping attack with ahigh critical-hit ratio."
+        },
+        {
+            "label": "sDoubleSlapDescription",
+            "zh": "用回旋掌击对方，\\n能攻击2至5次。",
+            "en": "Repeatedly slaps the foe2 to 5 times."
+        },
+        {
+            "label": "sCometPunchDescription",
+            "zh": "连续殴打对方，\\n能攻击2至5次。",
+            "en": "Repeatedly punches the foe2 to 5 times."
+        },
+        {
+            "label": "sMegaPunchDescription",
+            "zh": "用聚集了高能量的\\n拳头打击对方。",
+            "en": "A strong punch thrown withincredible power."
+        },
+        {
+            "label": "sPayDayDescription",
+            "zh": "用金币扔对方，战斗结束后\\n能得到额外的金钱。",
+            "en": "Throws coins at the foe.Money is recovered after."
+        },
+        {
+            "label": "sFirePunchDescription",
+            "zh": "聚集了火焰的拳击，\\n可能使对方烧伤。",
+            "en": "A fiery punch that may burnthe foe."
+        },
+        {
+            "label": "sIcePunchDescription",
+            "zh": "聚集了冷气的拳击，\\n可能使对方冰冻。",
+            "en": "An icy punch that mayfreeze the foe."
+        },
+        {
+            "label": "sThunderPunchDescription",
+            "zh": "聚集了电光的拳击，\\n可能使对方麻痹。",
+            "en": "An electrified punch thatmay paralyze the foe."
+        },
+        {
+            "label": "sScratchDescription",
+            "zh": "用尖锐的爪子抓对方。",
+            "en": "Scratches the foe withsharp claws."
+        },
+        {
+            "label": "sViseGripDescription",
+            "zh": "用巨大的夹子夹对方。",
+            "en": "Grips the foe with large andpowerful pincers."
+        },
+        {
+            "label": "sGuillotineDescription",
+            "zh": "用巨大的夹子夹对方，\\n使其无法战斗。",
+            "en": "A powerful pincer attackthat may cause fainting."
+        },
+        {
+            "label": "sRazorWindDescription",
+            "zh": "这一回合制造一个风之刀阵，\\n下一回合攻击。",
+            "en": "A 2-turn move that strikesthe foe on the 2nd turn."
+        },
+        {
+            "label": "sSwordsDanceDescription",
+            "zh": "跳战斗之舞，\\n大幅提升攻击力。",
+            "en": "A fighting dance thatsharply raises Attack."
+        },
+        {
+            "label": "sCutDescription",
+            "zh": "用尖锐的刀爪或\\n爪子砍击对方。",
+            "en": "Cuts the foe with sharpscythes, claws, etc."
+        },
+        {
+            "label": "sGustDescription",
+            "zh": "用翅膀制造强风来攻击对方。",
+            "en": "Strikes the foe with a gustof wind whipped up by wings."
+        },
+        {
+            "label": "sWingAttackDescription",
+            "zh": "张开巨大的翅膀冲击对方。",
+            "en": "Strikes the foe with wingsspread wide."
+        },
+        {
+            "label": "sWhirlwindDescription",
+            "zh": "用强风吹走对方，\\n从而结束战斗。",
+            "en": "Blows away the foe withwind and ends the battle."
+        },
+        {
+            "label": "sFlyDescription",
+            "zh": "这一回合飞上天，\\n下一回合攻击。",
+            "en": "Flies up on the first turn,then strikes the next turn."
+        },
+        {
+            "label": "sBindDescription",
+            "zh": "2至5回合内，用长长的身体\\n或者藤蔓捆住对方。",
+            "en": "Binds and squeezes the foefor 2 to 5 turns."
+        },
+        {
+            "label": "sSlamDescription",
+            "zh": "用长长的尾巴或藤蔓打击对方。",
+            "en": "Slams the foe with a longtail, vine, etc."
+        },
+        {
+            "label": "sVineWhipDescription",
+            "zh": "用像鞭子一样细长的藤蔓\\n打击对方。",
+            "en": "Strikes the foe withslender, whiplike vines."
+        },
+        {
+            "label": "sStompDescription",
+            "zh": "用巨大的脚掌踩对方，\\n可能使其害怕。",
+            "en": "Stomps the enemy with a bigfoot. May cause flinching."
+        },
+        {
+            "label": "sDoubleKickDescription",
+            "zh": "用双脚连续交替地攻击对方。",
+            "en": "A double-kicking attackthat strikes the foe twice."
+        },
+        {
+            "label": "sMegaKickDescription",
+            "zh": "用充满力量的一脚踢飞对方。",
+            "en": "An extremely powerful kickwith intense force."
+        },
+        {
+            "label": "sJumpKickDescription",
+            "zh": "用跳跃的架势飞踢对方，\\n如未命中，自己会受伤害。",
+            "en": "A strong jumping kick. Maymiss and hurt the kicker."
+        },
+        {
+            "label": "sRollingKickDescription",
+            "zh": "快速回旋身体后顺势踢出去。",
+            "en": "A fast kick delivered froma rapid spin."
+        },
+        {
+            "label": "sSandAttackDescription",
+            "zh": "向对方脸上泼沙子降低其命中\\n率。",
+            "en": "Reduces the foe's accuracyby hurling sand in its face."
+        },
+        {
+            "label": "sHeadbuttDescription",
+            "zh": "用头撞击对方，\\n可能使其害怕。",
+            "en": "A ramming attack that maycause flinching."
+        },
+        {
+            "label": "sHornAttackDescription",
+            "zh": "用尖角刺对方。",
+            "en": "Jabs the foe with sharphorns."
+        },
+        {
+            "label": "sFuryAttackDescription",
+            "zh": "用尖角连续攻击2至5次。",
+            "en": "Jabs the foe 2 to 5 timeswith sharp horns, etc."
+        },
+        {
+            "label": "sHornDrillDescription",
+            "zh": "让角像钻头一样转动，\\n使对方无法战斗。",
+            "en": "A one-hit KO attack thatuses a horn like a drill."
+        },
+        {
+            "label": "sTackleDescription",
+            "zh": "用整个身体撞击对方。",
+            "en": "Charges the foe with a full-body tackle."
+        },
+        {
+            "label": "sBodySlamDescription",
+            "zh": "把对方压在身下，\\n可能使其麻痹。",
+            "en": "A full-body slam that maycause paralysis."
+        },
+        {
+            "label": "sWrapDescription",
+            "zh": "2至5回合内，用长长的身体\\n或藤蔓捆住对方。",
+            "en": "Wraps and squeezes the foe2 to 5 times with vines, etc."
+        },
+        {
+            "label": "sTakeDownDescription",
+            "zh": "猛烈撞击对方，\\n自己也受到伤害。",
+            "en": "A reckless charge attackthat also hurts the user."
+        },
+        {
+            "label": "sThrashDescription",
+            "zh": "2至3回合持续狂暴，\\n之后会混乱。",
+            "en": "A rampage of 2 to 3 turnsthat confuses the user."
+        },
+        {
+            "label": "sDoubleEdgeDescription",
+            "zh": "拼命地猛烈撞击对方，\\n自己也会受到反弹伤害。",
+            "en": "A life-risking tackle thatalso hurts the user."
+        },
+        {
+            "label": "sTailWhipDescription",
+            "zh": "向对方摇尾巴使其大意，\\n从而降低其防御。",
+            "en": "Wags the tail to lower thefoe's Defense."
+        },
+        {
+            "label": "sPoisonStingDescription",
+            "zh": "用有毒的针或角刺对方，\\n可能使其中毒。",
+            "en": "A toxic attack with barbs,etc., that may poison."
+        },
+        {
+            "label": "sTwineedleDescription",
+            "zh": "用双手上的针连续2次刺对方。",
+            "en": "Stingers on the forelegsjab the foe twice."
+        },
+        {
+            "label": "sPinMissileDescription",
+            "zh": "连续2至5次向对方放射\\n尖利的针刺。",
+            "en": "Sharp pins are fired tostrike 2 to 5 times."
+        },
+        {
+            "label": "sLeerDescription",
+            "zh": "瞪对方使其害怕，\\n从而降低其防御。",
+            "en": "Frightens the foe with aleer to lower Defense."
+        },
+        {
+            "label": "sBiteDescription",
+            "zh": "用尖利的牙齿咬对方，\\n可能使其害怕。",
+            "en": "Bites with vicious fangs.May cause flinching."
+        },
+        {
+            "label": "sGrowlDescription",
+            "zh": "可爱地向对方叫唤使其大意，\\n从而降低其攻击。",
+            "en": "Growls cutely to reduce thefoe's Attack."
+        },
+        {
+            "label": "sRoarDescription",
+            "zh": "大声吼叫让对方逃跑，\\n从而结束战斗。",
+            "en": "Makes the foe flee to endthe battle."
+        },
+        {
+            "label": "sSingDescription",
+            "zh": "用悠扬的歌声让对方睡眠。",
+            "en": "A soothing song lulls thefoe into a deep slumber."
+        },
+        {
+            "label": "sSupersonicDescription",
+            "zh": "发出怪音波让对方混乱。",
+            "en": "Emits bizarre sound wavesthat may confuse the foe."
+        },
+        {
+            "label": "sSonicBoomDescription",
+            "zh": "用冲击波攻击对方，\\n损伤对方20点HP。",
+            "en": "Launches shock waves thatalways inflict 20 HP damage."
+        },
+        {
+            "label": "sDisableDescription",
+            "zh": "用超能力封锁对方的行动\\n一回合。",
+            "en": "Psychically disables one ofthe foe's moves."
+        },
+        {
+            "label": "sAcidDescription",
+            "zh": "用强酸溶化对方的皮肤，\\n可能降低其防御。",
+            "en": "Sprays a hide-melting acid.May lower Defense."
+        },
+        {
+            "label": "sEmberDescription",
+            "zh": "用小型火焰攻击，\\n可能使对方烧伤。",
+            "en": "A weak fire attack that mayinflict a burn."
+        },
+        {
+            "label": "sFlamethrowerDescription",
+            "zh": "用大型火焰攻击，\\n可能使对方烧伤。",
+            "en": "A powerful fire attack thatmay inflict a burn."
+        },
+        {
+            "label": "sMistDescription",
+            "zh": "用白雾覆盖全身，\\n防止自己的能力被对方降低。",
+            "en": "Creates a mist that stopsreduction of abilities."
+        },
+        {
+            "label": "sWaterGunDescription",
+            "zh": "喷射水流攻击。",
+            "en": "Squirts water to attackthe foe."
+        },
+        {
+            "label": "sHydroPumpDescription",
+            "zh": "喷射强力的水柱攻击对方。",
+            "en": "Blasts water at high powerto strike the foe."
+        },
+        {
+            "label": "sSurfDescription",
+            "zh": "制造一堵水墙，\\n以惊人的气势冲向对方。",
+            "en": "Creates a huge wave, thencrashes it down on the foe."
+        },
+        {
+            "label": "sIceBeamDescription",
+            "zh": "发射冷气攻击，\\n可能使对方冰冻。",
+            "en": "Blasts the foe with an icybeam that may freeze it."
+        },
+        {
+            "label": "sBlizzardDescription",
+            "zh": "用狂风暴雪攻击，\\n可能使对方冰冻。",
+            "en": "Hits the foe with an icystorm that may freeze it."
+        },
+        {
+            "label": "sPsybeamDescription",
+            "zh": "发射神秘的闪光让对方混乱。",
+            "en": "Fires a peculiar ray thatmay confuse the foe."
+        },
+        {
+            "label": "sBubbleBeamDescription",
+            "zh": "把泡沫以惊人气势喷射出去，\\n可能降低对方速度。",
+            "en": "Forcefully sprays bubblesthat may lower Speed."
+        },
+        {
+            "label": "sAuroraBeamDescription",
+            "zh": "发出七彩的光芒，\\n可能降低对方攻击。",
+            "en": "Fires a rainbow-coloredbeam that may lower Attack."
+        },
+        {
+            "label": "sHyperBeamDescription",
+            "zh": "给予对方很大的伤害，\\n但下一回合会无法动弹。",
+            "en": "Powerful, but leaves theuser immobile the next turn."
+        },
+        {
+            "label": "sPeckDescription",
+            "zh": "用喙啄对方。",
+            "en": "Attacks the foe with ajabbing beak, etc."
+        },
+        {
+            "label": "sDrillPeckDescription",
+            "zh": "以喙为轴心旋转身体\\n向对方突进。",
+            "en": "A corkscrewing attack withthe beak acting as a drill."
+        },
+        {
+            "label": "sSubmissionDescription",
+            "zh": "使用这个技能时自己也会\\n因撞击地面受到伤害。",
+            "en": "A reckless body slam thatalso hurts the user."
+        },
+        {
+            "label": "sLowKickDescription",
+            "zh": "体重越重的宝可梦受到的\\n伤害越大。",
+            "en": "A kick that inflicts moredamage on heavier foes."
+        },
+        {
+            "label": "sCounterDescription",
+            "zh": "把对方给予自己的\\n攻击伤害加倍奉还。",
+            "en": "Retaliates any physical hitwith double the power."
+        },
+        {
+            "label": "sSeismicTossDescription",
+            "zh": "用地球引力把对方扔出去，\\n伤害HP等于自己等级。",
+            "en": "Inflicts damage identicalto the user's level."
+        },
+        {
+            "label": "sStrengthDescription",
+            "zh": "全身聚集惊人的力量，\\n一齐发射出去。",
+            "en": "Builds enormous power,then slams the foe."
+        },
+        {
+            "label": "sAbsorbDescription",
+            "zh": "给予对方伤害的一半会\\n转化为自己的HP。",
+            "en": "An attack that absorbshalf the damage inflicted."
+        },
+        {
+            "label": "sMegaDrainDescription",
+            "zh": "给予对方伤害的一半会\\n转化为自己的HP。",
+            "en": "An attack that absorbshalf the damage inflicted."
+        },
+        {
+            "label": "sLeechSeedDescription",
+            "zh": "在对方身上种种子，\\n每一回合都能吸收其HP。",
+            "en": "Plants a seed on the foe tosteal HP on every turn."
+        },
+        {
+            "label": "sGrowthDescription",
+            "zh": "使身体急速成长，\\n提升特攻。",
+            "en": "Forces the body to growand heightens Sp. Atk."
+        },
+        {
+            "label": "sRazorLeafDescription",
+            "zh": "用叶子飞斩对方，\\n容易命中要害。",
+            "en": "Cuts the enemy with leaves.High critical-hit ratio."
+        },
+        {
+            "label": "sSolarBeamDescription",
+            "zh": "这一回合聚集光线，\\n下一回合攻击。",
+            "en": "Absorbs light in one turn,then attacks next turn."
+        },
+        {
+            "label": "sPoisonPowderDescription",
+            "zh": "撒下毒粉，让对方中毒。",
+            "en": "Scatters a toxic powderthat may poison the foe."
+        },
+        {
+            "label": "sStunSporeDescription",
+            "zh": "撒下具有麻痹作用的粉末，\\n让对方麻痹。",
+            "en": "Scatters a powder that mayparalyze the foe."
+        },
+        {
+            "label": "sSleepPowderDescription",
+            "zh": "撒下具有催眠作用的粉末，\\n让对方睡眠。",
+            "en": "Scatters a powder that maycause the foe to sleep."
+        },
+        {
+            "label": "sPetalDanceDescription",
+            "zh": "2至3回合持续狂暴，\\n之后会混乱。",
+            "en": "A rampage of 2 to 3 turnsthat confuses the user."
+        },
+        {
+            "label": "sStringShotDescription",
+            "zh": "用丝把对方卷起来降低其速度。",
+            "en": "Binds the foe with stringto reduce its Speed."
+        },
+        {
+            "label": "sDragonRageDescription",
+            "zh": "用冲击波打击对方，\\n固定伤害40点HP。",
+            "en": "Launches shock waves thatalways inflict 40 HP damage."
+        },
+        {
+            "label": "sFireSpinDescription",
+            "zh": "2至5回合内用火焰包围对方。",
+            "en": "Traps the foe in a ring offire for 2 to 5 turns."
+        },
+        {
+            "label": "sThunderShockDescription",
+            "zh": "电击对方，可能使其麻痹。",
+            "en": "An electrical attack thatmay paralyze the foe."
+        },
+        {
+            "label": "sThunderboltDescription",
+            "zh": "强烈电击对方，可能使其麻痹",
+            "en": "A strong electrical attackthat may paralyze the foe."
+        },
+        {
+            "label": "sThunderWaveDescription",
+            "zh": "用微弱的电力使对方麻痹。",
+            "en": "A weak jolt of electricitythat paralyzes the foe."
+        },
+        {
+            "label": "sThunderDescription",
+            "zh": "召唤雷电轰向对方，\\n可能使其麻痹。",
+            "en": "A lightning attack that maycause paralysis."
+        },
+        {
+            "label": "sRockThrowDescription",
+            "zh": "用小石头扔对方。",
+            "en": "Throws small rocks tostrike the foe."
+        },
+        {
+            "label": "sEarthquakeDescription",
+            "zh": "震动地面，对飞行系外的\\n所有场上宝可梦造成伤害。",
+            "en": "A powerful quake, but hasno effect on flying foes."
+        },
+        {
+            "label": "sFissureDescription",
+            "zh": "让大地裂开一条缝并吞没对方，\\n使其无法战斗。",
+            "en": "A one-hit KO move thatdrops the foe in a fissure."
+        },
+        {
+            "label": "sDigDescription",
+            "zh": "这一回合钻入地下，\\n下一回合攻击。",
+            "en": "Digs underground the firstturn and strikes next turn."
+        },
+        {
+            "label": "sToxicDescription",
+            "zh": "强烈的毒素，给予对方的伤害\\n会一点点增加。",
+            "en": "Poisons the foe with anintensifying toxin."
+        },
+        {
+            "label": "sConfusionDescription",
+            "zh": "用超能力攻击，\\n可能使对方混乱。",
+            "en": "A psychic attack that maycause confusion."
+        },
+        {
+            "label": "sPsychicDescription",
+            "zh": "用强烈的念力攻击对方，\\n可能降低其特防。",
+            "en": "A powerful psychic attackthat may lower Sp. Def."
+        },
+        {
+            "label": "sHypnosisDescription",
+            "zh": "给对方心理暗示，\\n使其陷入深深的睡眠中。",
+            "en": "A hypnotizing move thatmay induce sleep."
+        },
+        {
+            "label": "sMeditateDescription",
+            "zh": "瑜伽姿势，能唤醒体内\\n沉睡的力量，提升攻击。",
+            "en": "Meditates in a peacefulfashion to raise Attack."
+        },
+        {
+            "label": "sAgilityDescription",
+            "zh": "放松使身体变轻，\\n大幅提升速度。",
+            "en": "Relaxes the body to sharplyboost Speed."
+        },
+        {
+            "label": "sQuickAttackDescription",
+            "zh": "用电光火石般的速度\\n先发制人地攻击。",
+            "en": "An extremely fast attackthat always strikes first."
+        },
+        {
+            "label": "sRageDescription",
+            "zh": "每次被攻击后能增加怒气，\\n使攻击节节上升。",
+            "en": "Raises the user's Attackevery time it is hit."
+        },
+        {
+            "label": "sTeleportDescription",
+            "zh": "用超能力使自己从战斗中逃脱。",
+            "en": "A psychic move for fleeingfrom battle instantly."
+        },
+        {
+            "label": "sNightShadeDescription",
+            "zh": "给予对方恐怖的幻觉攻击，\\n伤害等于自己等级。",
+            "en": "Inflicts damage identicalto the user's level."
+        },
+        {
+            "label": "sMimicDescription",
+            "zh": "能把对方的技能暂时占为己有。",
+            "en": "Copies a move used by thefoe during one battle."
+        },
+        {
+            "label": "sScreechDescription",
+            "zh": "发出噪音，让对方的防御\\n大幅降低。",
+            "en": "Emits a screech to sharplyreduce the foe's Defense."
+        },
+        {
+            "label": "sDoubleTeamDescription",
+            "zh": "用分身迷惑对方，提高回避率。",
+            "en": "Creates illusory copies toraise evasiveness."
+        },
+        {
+            "label": "sRecoverDescription",
+            "zh": "恢复一半的HP。",
+            "en": "Recovers up to half theuser's maximum HP."
+        },
+        {
+            "label": "sHardenDescription",
+            "zh": "利用全身力量使自己变硬，\\n增加防御。",
+            "en": "Stiffens the body's muscles to raise Defense."
+        },
+        {
+            "label": "sMinimizeDescription",
+            "zh": "缩小身体，提高回避率。",
+            "en": "Minimizes the user's sizeto raise evasiveness."
+        },
+        {
+            "label": "sSmokescreenDescription",
+            "zh": "用烟雾降低对方命中率。",
+            "en": "Lowers the foe's accuracyusing smoke, ink, etc."
+        },
+        {
+            "label": "sConfuseRayDescription",
+            "zh": "用怪异的光线迷惑对方，\\n使其混乱。",
+            "en": "A sinister ray thatconfuses the foe."
+        },
+        {
+            "label": "sWithdrawDescription",
+            "zh": "钻进坚硬的贝壳里增加防御。",
+            "en": "Withdraws the body into itshard shell to raise Defense."
+        },
+        {
+            "label": "sDefenseCurlDescription",
+            "zh": "蜷缩身子隐藏弱点增加防御。",
+            "en": "Curls up to conceal weakspots and raise Defense."
+        },
+        {
+            "label": "sBarrierDescription",
+            "zh": "在面前制造一堵墙，\\n大幅提升防御。",
+            "en": "Creates a barrier thatsharply raises Defense."
+        },
+        {
+            "label": "sLightScreenDescription",
+            "zh": "制造一堵闪光的墙壁，\\n减弱特攻的伤害。",
+            "en": "Creates a wall of light thatlowers Sp. Atk damage."
+        },
+        {
+            "label": "sHazeDescription",
+            "zh": "被黑色的雾气包围，\\n恢复被降低的能力。",
+            "en": "Creates a black haze thateliminates all stat changes."
+        },
+        {
+            "label": "sReflectDescription",
+            "zh": "制造一堵墙，\\n减弱物理攻击伤害。",
+            "en": "Creates a wall of light thatweakens physical attacks."
+        },
+        {
+            "label": "sFocusEnergyDescription",
+            "zh": "攻击时集中精神，\\n提高要害命中率。",
+            "en": "Focuses power to raise thecritical-hit ratio."
+        },
+        {
+            "label": "sBideDescription",
+            "zh": "受2回合的攻击后加倍奉还\\n所受到的伤害。",
+            "en": "Endures attack for 2turns to retaliate double."
+        },
+        {
+            "label": "sMetronomeDescription",
+            "zh": "挥动手指刺激大脑，\\n就能随机使出各种技能。",
+            "en": "Waggles a finger to use anyPokémon move at random."
+        },
+        {
+            "label": "sMirrorMoveDescription",
+            "zh": "用对方的绝招攻击对方。",
+            "en": "Counters the foe's attackwith the same move."
+        },
+        {
+            "label": "sSelfDestructDescription",
+            "zh": "给予对方巨大的伤害，\\n但之后会无法战斗。",
+            "en": "Inflicts severe damage butmakes the user faint."
+        },
+        {
+            "label": "sEggBombDescription",
+            "zh": "肆意向对方乱扔鸡蛋。",
+            "en": "An egg is forcibly hurled atthe foe."
+        },
+        {
+            "label": "sLickDescription",
+            "zh": "用长长的舌头来回舔对方，\\n可能使其麻痹。",
+            "en": "Licks with a long tongue toinjure. May also paralyze."
+        },
+        {
+            "label": "sSmogDescription",
+            "zh": "用废气瓦斯攻击，\\n可能使对方中毒。",
+            "en": "An exhaust-gas attackthat may also poison."
+        },
+        {
+            "label": "sSludgeDescription",
+            "zh": "用烂泥扔对方，可能使其中毒。",
+            "en": "Sludge is hurled to inflictdamage. May also poison."
+        },
+        {
+            "label": "sBoneClubDescription",
+            "zh": "用手里拿着的骨头攻击对方。",
+            "en": "Clubs the foe with a bone.May cause flinching."
+        },
+        {
+            "label": "sFireBlastDescription",
+            "zh": "让火焰以大字形突进，\\n并焚毁一切，可能使对方烧伤。",
+            "en": "Incinerates everything itstrikes. May cause a burn."
+        },
+        {
+            "label": "sWaterfallDescription",
+            "zh": "用像逆瀑布而上的气势\\n攻击对方。",
+            "en": "Charges the foe with speedto climb waterfalls."
+        },
+        {
+            "label": "sClampDescription",
+            "zh": "2至5回合内用贝壳夹住对方。",
+            "en": "Traps and squeezes thefoe for 2 to 5 turns."
+        },
+        {
+            "label": "sSwiftDescription",
+            "zh": "向对方发射无数无法躲避的\\n星星射线。",
+            "en": "Sprays star-shaped raysthat never miss."
+        },
+        {
+            "label": "sSkullBashDescription",
+            "zh": "这一回合先把脑袋缩进去，\\n下一回合攻击。",
+            "en": "Tucks in the head, thenattacks on the next turn."
+        },
+        {
+            "label": "sSpikeCannonDescription",
+            "zh": "用尖锐的针连续攻击\\n2至5回合。",
+            "en": "Launches sharp spikes thatstrike 2 to 5 times."
+        },
+        {
+            "label": "sConstrictDescription",
+            "zh": "捆住对方并攻击，其\\n可能降低速度。",
+            "en": "Constricts to inflict pain.May lower Speed."
+        },
+        {
+            "label": "sAmnesiaDescription",
+            "zh": "暂时忘记一些事物从而\\n大幅提升特防。",
+            "en": "Forgets about somethingand sharply raises Sp. Def."
+        },
+        {
+            "label": "sKinesisDescription",
+            "zh": "让对方的眼睛对准勺子，\\n能降低其命中率。",
+            "en": "Distracts the foe.May lower accuracy."
+        },
+        {
+            "label": "sSoftBoiledDescription",
+            "zh": "恢复一半HP。",
+            "en": "Recovers up to half theuser's maximum HP."
+        },
+        {
+            "label": "sHighJumpKickDescription",
+            "zh": "跳起来用膝盖踢对方，\\n如未打中自己会受到伤害。",
+            "en": "A jumping knee kick. If itmisses, the user is hurt."
+        },
+        {
+            "label": "sGlareDescription",
+            "zh": "威吓对手，\\n使其害怕而导致麻痹。",
+            "en": "Intimidates and frightensthe foe into paralysis."
+        },
+        {
+            "label": "sDreamEaterDescription",
+            "zh": "给予被催眠的对方伤害，\\n一半伤害值转化为自身HP。",
+            "en": "Takes one half the damageinflicted on a sleeping foe."
+        },
+        {
+            "label": "sPoisonGasDescription",
+            "zh": "向对方喷射毒气，使其中毒。",
+            "en": "Envelops the foe in a toxicgas that may poison."
+        },
+        {
+            "label": "sBarrageDescription",
+            "zh": "向对方扔圆球，\\n连续攻击2至5回合。",
+            "en": "Hurls round objects at thefoe 2 to 5 times."
+        },
+        {
+            "label": "sLeechLifeDescription",
+            "zh": "给予对方的伤害一半会\\n转化为自身HP。",
+            "en": "An attack that steals halfthe damage inflicted."
+        },
+        {
+            "label": "sLovelyKissDescription",
+            "zh": "用恐怖的表情亲吻对方，\\n使其睡眠。",
+            "en": "Demands a kiss with a scaryface that induces sleep."
+        },
+        {
+            "label": "sSkyAttackDescription",
+            "zh": "这一回合找出对方弱点，\\n下一回合攻击。",
+            "en": "Searches out weak spots,then strikes the next turn."
+        },
+        {
+            "label": "sTransformDescription",
+            "zh": "变得和对方完全一样。",
+            "en": "Alters the user's cells tobecome a copy of the foe."
+        },
+        {
+            "label": "sBubbleDescription",
+            "zh": "吹泡泡攻击，\\n可能降低对方速度。",
+            "en": "An attack using bubbles.May lower the foe's Speed."
+        },
+        {
+            "label": "sDizzyPunchDescription",
+            "zh": "用有节奏的拳击攻击对方，\\n可能使其混乱。",
+            "en": "A rhythmic punch that mayconfuse the foe."
+        },
+        {
+            "label": "sSporeDescription",
+            "zh": "撒播有催眠效果的孢子，使对\\n方睡眠。",
+            "en": "Scatters a cloud of sporesthat always induce sleep."
+        },
+        {
+            "label": "sFlashDescription",
+            "zh": "用强光使对方目眩，\\n降低其命中率。",
+            "en": "Looses a powerful blast oflight that cuts accuracy."
+        },
+        {
+            "label": "sPsywaveDescription",
+            "zh": "用神奇的念力波攻击对方，\\n每次的威力都不同。",
+            "en": "Attacks with a psychicwave of varying intensity."
+        },
+        {
+            "label": "sSplashDescription",
+            "zh": "只是一味地跳跃…\\n没有什么效果。",
+            "en": "It's just a splash...Has no effect whatsoever."
+        },
+        {
+            "label": "sAcidArmorDescription",
+            "zh": "使身体成液态，\\n大幅提升防御。",
+            "en": "Liquifies the user's bodyto sharply raise Defense."
+        },
+        {
+            "label": "sCrabhammerDescription",
+            "zh": "用钳子敲打对方，\\n要害命中率高。",
+            "en": "Hammers with a pincer. Has ahigh critical-hit ratio."
+        },
+        {
+            "label": "sExplosionDescription",
+            "zh": "给对方巨大的伤害，\\n但之后会无法战斗。",
+            "en": "Inflicts severe damage butmakes the user faint."
+        },
+        {
+            "label": "sFurySwipesDescription",
+            "zh": "用尖锐的镰爪或爪子，\\n连续2至5回合抓对方。",
+            "en": "Rakes the foe with sharpclaws, etc., 2 to 5 times."
+        },
+        {
+            "label": "sBonemerangDescription",
+            "zh": "扔出能回旋的骨头，\\n连续攻击对方2次。",
+            "en": "Throws a bone boomerangthat strikes twice."
+        },
+        {
+            "label": "sRestDescription",
+            "zh": "睡眠2回合，\\n恢复所有HP和异常。",
+            "en": "The user sleeps for 2 turns,restoring HP and status."
+        },
+        {
+            "label": "sRockSlideDescription",
+            "zh": "用大石头扔对方，\\n可能使其害怕。",
+            "en": "Large boulders are hurled.May cause flinching."
+        },
+        {
+            "label": "sHyperFangDescription",
+            "zh": "用尖利的门牙攻击对方，\\n可能使其害怕。",
+            "en": "Attacks with sharp fangs.May cause flinching."
+        },
+        {
+            "label": "sSharpenDescription",
+            "zh": "使自己变得锐利起来，\\n提升攻击。",
+            "en": "Reduces the polygon countand raises Attack."
+        },
+        {
+            "label": "sConversionDescription",
+            "zh": "用学会的绝招的属性来\\n更换自己的属性。",
+            "en": "Changes the user's typeinto a known move's type."
+        },
+        {
+            "label": "sTriAttackDescription",
+            "zh": "用3种光线聚合起来攻击对方。",
+            "en": "Fires three types of beamsat the same time."
+        },
+        {
+            "label": "sSuperFangDescription",
+            "zh": "用尖利的门牙攻击，\\n使对方的当前HP减少一半。",
+            "en": "Attacks with sharp fangsand cuts half the foe's HP."
+        },
+        {
+            "label": "sSlashDescription",
+            "zh": "用尖利的爪子攻击对方，\\n要害命中率高。",
+            "en": "Slashes with claws, etc. Hasa high critical-hit ratio."
+        },
+        {
+            "label": "sSubstituteDescription",
+            "zh": "用最大HP的4分之1\\n制造一个分身。",
+            "en": "Creates a decoy using 1/4of the user's maximum HP."
+        },
+        {
+            "label": "sStruggleDescription",
+            "zh": "没有技能点数时使用的技能，\\n自己会受到一些伤害。",
+            "en": "Used only if all PP are gone.Also hurts the user a little."
+        },
+        {
+            "label": "sSketchDescription",
+            "zh": "能学会对方的技能。",
+            "en": "Copies the foe's last movepermanently."
+        },
+        {
+            "label": "sTripleKickDescription",
+            "zh": "连续攻击对方3次，\\n每命中一次伤害都会增加。",
+            "en": "Kicks the foe 3 times in arow with rising intensity."
+        },
+        {
+            "label": "sThiefDescription",
+            "zh": "攻击时趁机窃取\\n对方携带的道具。",
+            "en": "While attacking, it maysteal the foe's held item."
+        },
+        {
+            "label": "sSpiderWebDescription",
+            "zh": "用黏糊糊的丝捆住对方，\\n使其无法逃脱。",
+            "en": "Ensnares the foe to stop itfrom fleeing or switching."
+        },
+        {
+            "label": "sMindReaderDescription",
+            "zh": "用心感觉对方的动向，\\n下一回合攻击绝对命中。",
+            "en": "Senses the foe's action toensure the next move's hit."
+        },
+        {
+            "label": "sNightmareDescription",
+            "zh": "对方睡眠时，每一回合减少\\n其4分之1的HP。",
+            "en": "Inflicts 1/4 damage on asleeping foe every turn."
+        },
+        {
+            "label": "sFlameWheelDescription",
+            "zh": "用火焰包裹全身后撞击对方，\\n可能使其烧伤。",
+            "en": "A fiery charge attack thatmay inflict a burn."
+        },
+        {
+            "label": "sSnoreDescription",
+            "zh": "睡眠时发出巨大的呼噜声\\n攻击对方。",
+            "en": "A loud attack that can beused only while asleep."
+        },
+        {
+            "label": "sCurseDescription",
+            "zh": "幽灵系宝可梦使用该技能\\n的效果和其他属性不同。",
+            "en": "A move that functionsdifferently for GHOSTS."
+        },
+        {
+            "label": "sFlailDescription",
+            "zh": "自身HP越少，\\n给予对方的伤害越大。",
+            "en": "Inflicts more damage whenthe user's HP is down."
+        },
+        {
+            "label": "sConversion2Description",
+            "zh": "将自身属性变换为\\n最后击中自己的技能的属性。",
+            "en": "Makes the user resistantto the last attack's type."
+        },
+        {
+            "label": "sAeroblastDescription",
+            "zh": "发射真空波攻击，\\n容易命中要害。",
+            "en": "Launches a vacuumed blast.High critical-hit ratio."
+        },
+        {
+            "label": "sCottonSporeDescription",
+            "zh": "用孢子扰乱对方，\\n大幅降低其速度。",
+            "en": "Spores cling to the foe,sharply reducing Speed."
+        },
+        {
+            "label": "sReversalDescription",
+            "zh": "自身HP越少给予\\n对方的伤害越大。",
+            "en": "Inflicts more damage whenthe user's HP is down."
+        },
+        {
+            "label": "sSpiteDescription",
+            "zh": "怨恨对方的绝招，\\n降低其技能点数。",
+            "en": "Spitefully cuts the PPof the foe's last move."
+        },
+        {
+            "label": "sPowderSnowDescription",
+            "zh": "用狂风暴雪攻击，\\n可能使对方冰冻。",
+            "en": "Blasts the foe with a snowygust. May cause freezing."
+        },
+        {
+            "label": "sProtectDescription",
+            "zh": "能躲避下一回合的攻击，\\n但连续使用会失败。",
+            "en": "Evades attack, but may failif used in succession."
+        },
+        {
+            "label": "sMachPunchDescription",
+            "zh": "快速出拳先发制人地攻击。",
+            "en": "A punch is thrown at wickedspeed to strike first."
+        },
+        {
+            "label": "sScaryFaceDescription",
+            "zh": "用恐怖的表情使对方害怕，\\n大幅降低其速度。",
+            "en": "Frightens with a scary faceto sharply reduce Speed."
+        },
+        {
+            "label": "sFeintAttackDescription",
+            "zh": "使对方大意后慢慢接近，\\n使出其无法躲避的一击。",
+            "en": "Draws the foe close, thenstrikes without fail."
+        },
+        {
+            "label": "sSweetKissDescription",
+            "zh": "用可爱的表情强吻对方，\\n使其混乱。",
+            "en": "Demands a kiss with a cutelook. May cause confusion."
+        },
+        {
+            "label": "sBellyDrumDescription",
+            "zh": "降低自身HP，\\n把攻击提升到最大。",
+            "en": "Maximizes Attack whilesacrificing HP."
+        },
+        {
+            "label": "sSludgeBombDescription",
+            "zh": "用烂泥扔对方，可能使其中毒。",
+            "en": "Sludge is hurled to inflictdamage. May also poison."
+        },
+        {
+            "label": "sMudSlapDescription",
+            "zh": "把泥土踢到对方脸上，\\n降低其命中率。",
+            "en": "Hurls mud in the foe's faceto reduce its accuracy."
+        },
+        {
+            "label": "sOctazookaDescription",
+            "zh": "用烟雾弹扔对方，\\n降低其命中率。",
+            "en": "Fires a lump of ink todamage and cut accuracy."
+        },
+        {
+            "label": "sSpikesDescription",
+            "zh": "在对方场上洒下铁菱，\\n在交换时扎上上场对手。",
+            "en": "Sets spikes that hurt a foe switching in."
+        },
+        {
+            "label": "sZapCannonDescription",
+            "zh": "命中率低但伤害很大，\\n打中了绝对使对方麻痹。",
+            "en": "Powerful and sure to causeparalysis, but inaccurate."
+        },
+        {
+            "label": "sForesightDescription",
+            "zh": "提高自身命中率。",
+            "en": "Negates the foe's effortsto heighten evasiveness."
+        },
+        {
+            "label": "sDestinyBondDescription",
+            "zh": "使用这个技能，自己被打倒后\\n对方也无法战斗。",
+            "en": "If the user faints, the foeis also made to faint."
+        },
+        {
+            "label": "sPerishSongDescription",
+            "zh": "听歌3回合后对方会陷入濒死。",
+            "en": "Any Pokémon hearing thissong faints in 3 turns."
+        },
+        {
+            "label": "sIcyWindDescription",
+            "zh": "用超强的冷气攻击，\\n可能降低对方速度。",
+            "en": "A chilling attack thatlowers the foe's Speed."
+        },
+        {
+            "label": "sDetectDescription",
+            "zh": "能躲避攻击，\\n但连续使用会失败。",
+            "en": "Evades attack, but may failif used in succession."
+        },
+        {
+            "label": "sBoneRushDescription",
+            "zh": "用手中的骨头棒\\n连续攻击对方2至5回合。",
+            "en": "Strikes the foe with a bonein hand 2 to 5 times."
+        },
+        {
+            "label": "sLockOnDescription",
+            "zh": "这一回合瞄准对方，\\n下一回合绝对命中。",
+            "en": "Locks on to the foe toensure the next move hits."
+        },
+        {
+            "label": "sOutrageDescription",
+            "zh": "2至3回合持续狂暴，\\n之后会混乱。",
+            "en": "A rampage of 2 to 3 turnsthat confuses the user."
+        },
+        {
+            "label": "sSandstormDescription",
+            "zh": "召唤沙风暴，\\n每一回合都给予对方伤害。",
+            "en": "Causes a sandstorm thatrages for several turns."
+        },
+        {
+            "label": "sGigaDrainDescription",
+            "zh": "造成对方伤害的一半\\n会转化为自身HP。",
+            "en": "An attack that steals halfthe damage inflicted."
+        },
+        {
+            "label": "sEndureDescription",
+            "zh": "这一回合受再重的伤害，\\nHP也会剩下1点。",
+            "en": "Endures any attack for1 turn, leaving at least 1HP."
+        },
+        {
+            "label": "sCharmDescription",
+            "zh": "向对方撒娇使其大意，\\n从而大幅降低其攻击。",
+            "en": "Charms the foe and sharplyreduces its Attack."
+        },
+        {
+            "label": "sRolloutDescription",
+            "zh": "5回合内攻击对方，\\n每击中一次威力就会提升。",
+            "en": "An attack lasting 5 turnswith rising intensity."
+        },
+        {
+            "label": "sFalseSwipeDescription",
+            "zh": "一击使对方至少剩1点HP。",
+            "en": "An attack that leaves thefoe with at least 1 HP."
+        },
+        {
+            "label": "sSwaggerDescription",
+            "zh": "使对方生气从而混乱，\\n但会大幅提升对方攻击。",
+            "en": "Confuses the foe, but alsosharply raises Attack."
+        },
+        {
+            "label": "sMilkDrinkDescription",
+            "zh": "恢复一半的HP。",
+            "en": "Recovers up to half theuser's maximum HP."
+        },
+        {
+            "label": "sSparkDescription",
+            "zh": "包裹着电光冲击对方，\\n可能使其麻痹。",
+            "en": "An electrified tackle thatmay paralyze the foe."
+        },
+        {
+            "label": "sFuryCutterDescription",
+            "zh": "每击中一次威力就会增强。",
+            "en": "An attack that intensifieson each successive hit."
+        },
+        {
+            "label": "sSteelWingDescription",
+            "zh": "用坚硬巨大的翅膀撞击对方。",
+            "en": "Strikes the foe with hardwings spread wide."
+        },
+        {
+            "label": "sMeanLookDescription",
+            "zh": "一直盯着对方，使其无法逃跑。",
+            "en": "Fixes the foe with a meanlook that prevents escape."
+        },
+        {
+            "label": "sAttractDescription",
+            "zh": "对异性使用这个技能，\\n会使对方难以出招。",
+            "en": "Makes the opposite genderless likely to attack."
+        },
+        {
+            "label": "sSleepTalkDescription",
+            "zh": "睡眠时使用的技能，\\n随机使用一个自己的技能。",
+            "en": "Uses an available moverandomly while asleep."
+        },
+        {
+            "label": "sHealBellDescription",
+            "zh": "听到美妙的铃声，\\n解除所有异常。",
+            "en": "Chimes soothingly to healall status abnormalities."
+        },
+        {
+            "label": "sReturnDescription",
+            "zh": "为了报答训练师，\\n会全力攻击对方。",
+            "en": "An attack that increasesin power with friendship."
+        },
+        {
+            "label": "sPresentDescription",
+            "zh": "送对方一个炸弹，\\n偶尔会恢复对方HP。",
+            "en": "A gift in the form of abomb. May restore HP."
+        },
+        {
+            "label": "sFrustrationDescription",
+            "zh": "自己受的伤害全部爆发出来，\\n给对方致命一击。",
+            "en": "An attack that is strongerif the Trainer is disliked."
+        },
+        {
+            "label": "sSafeguardDescription",
+            "zh": "用神奇的力量保护自己\\n不陷入异常状态。",
+            "en": "A mystical force preventsall status problems."
+        },
+        {
+            "label": "sPainSplitDescription",
+            "zh": "和对方平分HP。",
+            "en": "Adds the user and foe's HP,then shares them equally."
+        },
+        {
+            "label": "sSacredFireDescription",
+            "zh": "用神秘的火焰攻击，\\n可能使对方烧伤。",
+            "en": "A mystical fire attack thatmay inflict a burn."
+        },
+        {
+            "label": "sMagnitudeDescription",
+            "zh": "震动地面攻击，\\n伤害会随机改变。",
+            "en": "A ground-shaking attackof random intensity."
+        },
+        {
+            "label": "sDynamicPunchDescription",
+            "zh": "威力大却命中率低，\\n但命中后必使对方混乱。",
+            "en": "Powerful and sure to causeconfusion, but inaccurate."
+        },
+        {
+            "label": "sMegahornDescription",
+            "zh": "用角以惊人的气势攻击对方。",
+            "en": "A brutal ramming attackusing out-thrust horns."
+        },
+        {
+            "label": "sDragonBreathDescription",
+            "zh": "从口中吐出强烈的气息\\n攻击对方。",
+            "en": "Strikes the foe with anincredible blast of breath."
+        },
+        {
+            "label": "sBatonPassDescription",
+            "zh": "交换宝可梦时能保留\\n其原来的追加效果。",
+            "en": "Switches out the user whilekeeping effects in play."
+        },
+        {
+            "label": "sEncoreDescription",
+            "zh": "使对方在之后的2至6回合内，\\n使出这一回合用的绝招。",
+            "en": "Makes the foe repeat itslast move over 2 to 6 turns."
+        },
+        {
+            "label": "sPursuitDescription",
+            "zh": "在对方换宝可梦时使用，\\n会给对方造成巨大伤害。",
+            "en": "Inflicts bad damage if usedon a foe switching out."
+        },
+        {
+            "label": "sRapidSpinDescription",
+            "zh": "让身体快速回旋来攻击对方。",
+            "en": "Spins the body at highspeed to strike the foe."
+        },
+        {
+            "label": "sSweetScentDescription",
+            "zh": "用香气分散对方注意力，\\n降低其回避率。",
+            "en": "Allures the foe to reduceevasiveness."
+        },
+        {
+            "label": "sIronTailDescription",
+            "zh": "用坚硬的尾巴攻击，\\n可能降低对方防御。",
+            "en": "Attacks with a rock-hardtail. May lower Defense."
+        },
+        {
+            "label": "sMetalClawDescription",
+            "zh": "用坚硬的爪子攻击，\\n可能提升攻击。",
+            "en": "A claw attack that mayraise the user's Attack."
+        },
+        {
+            "label": "sVitalThrowDescription",
+            "zh": "虽然后发制人，\\n但绝对命中对方。",
+            "en": "Makes the user's move last,but it never misses."
+        },
+        {
+            "label": "sMorningSunDescription",
+            "zh": "恢复HP，\\n恢复量随天气情况变化。",
+            "en": "Restores HP. The amountvaries with the weather."
+        },
+        {
+            "label": "sSynthesisDescription",
+            "zh": "恢复HP，\\n恢复量随天气情况变化。",
+            "en": "Restores HP. The amountvaries with the weather."
+        },
+        {
+            "label": "sMoonlightDescription",
+            "zh": "恢复HP，\\n恢复量随天气情况变化。",
+            "en": "Restores HP. The amountvaries with the weather."
+        },
+        {
+            "label": "sHiddenPowerDescription",
+            "zh": "给予的伤害随对方宝可梦的\\n种类而变化。",
+            "en": "The effectiveness varieswith the user."
+        },
+        {
+            "label": "sCrossChopDescription",
+            "zh": "用双手刀攻击，要害命中率高。",
+            "en": "A double-chopping attack.High critical-hit ratio."
+        },
+        {
+            "label": "sTwisterDescription",
+            "zh": "制造狂风攻击。",
+            "en": "Whips up a vicious twisterto tear at the foe."
+        },
+        {
+            "label": "sRainDanceDescription",
+            "zh": "5回合内\\n水系的技能威力上升。",
+            "en": "Boosts the power of Water-type moves for 5 turns."
+        },
+        {
+            "label": "sSunnyDayDescription",
+            "zh": "5回合内\\n炎系的技能威力上升。",
+            "en": "Boosts the power of Fire-type moves for 5 turns."
+        },
+        {
+            "label": "sCrunchDescription",
+            "zh": "用尖利的牙齿咬对方，\\n可能降低其特防。",
+            "en": "Crunches with sharp fangs.May lower Defense."
+        },
+        {
+            "label": "sMirrorCoatDescription",
+            "zh": "加倍奉还对方给予的\\n特殊攻击伤害。",
+            "en": "Counters the foe's specialattack at double the power."
+        },
+        {
+            "label": "sPsychUpDescription",
+            "zh": "把对方身上的辅助效果\\n转移到自己身上。",
+            "en": "Copies the foe's effect(s)and gives to the user."
+        },
+        {
+            "label": "sExtremeSpeedDescription",
+            "zh": "快速移动，强力攻击对方。",
+            "en": "An extremely fast andpowerful attack."
+        },
+        {
+            "label": "sAncientPowerDescription",
+            "zh": "唤醒原始力量攻击，\\n可能提升所有能力。",
+            "en": "An attack that may raiseall stats."
+        },
+        {
+            "label": "sShadowBallDescription",
+            "zh": "用黑色球状物扔对方，\\n可能降低其特防。",
+            "en": "Hurls a black blob that maylower the foe's Sp. Def."
+        },
+        {
+            "label": "sFutureSightDescription",
+            "zh": "提升精神力，2回合后攻击。",
+            "en": "Heightens inner power tostrike 2 turns later."
+        },
+        {
+            "label": "sRockSmashDescription",
+            "zh": "用粉碎岩石的气势攻击，\\n可能降低对方防御。",
+            "en": "A rock-crushing attackthat may lower Defense."
+        },
+        {
+            "label": "sWhirlpoolDescription",
+            "zh": "2至5回合内用旋涡封锁对方。",
+            "en": "Traps and hurts the foe ina whirlpool for 2 to 5 turns."
+        },
+        {
+            "label": "sBeatUpDescription",
+            "zh": "召唤队中健康的\\n同伴加入攻击。",
+            "en": "Summons party Pokémon tojoin in the attack."
+        },
+        {
+            "label": "sFakeOutDescription",
+            "zh": "先发制人使对方害怕，\\n只限第一回合使用。",
+            "en": "A 1st-turn, 1st-strike movethat causes flinching."
+        },
+        {
+            "label": "sUproarDescription",
+            "zh": "2至5回合内发出噪音，\\n双方都无法睡着。",
+            "en": "Causes an uproar for 2 to 5turns and prevents sleep."
+        },
+        {
+            "label": "sStockpileDescription",
+            "zh": "最大能蓄力3次。",
+            "en": "Charges up power for up to3 turns."
+        },
+        {
+            "label": "sSpitUpDescription",
+            "zh": "把积蓄的力量吐出来，\\n数量不同伤害也不同。",
+            "en": "Releases stockpiled power(the more the better)."
+        },
+        {
+            "label": "sSwallowDescription",
+            "zh": "吞入积蓄的力量，能回复HP。",
+            "en": "Absorbs stockpiled powerand restores HP."
+        },
+        {
+            "label": "sHeatWaveDescription",
+            "zh": "用灼热的气息吹向对方，\\n可能使其烧伤。",
+            "en": "Exhales a hot breath on thefoe. May inflict a burn."
+        },
+        {
+            "label": "sHailDescription",
+            "zh": "撒下冰雹，每一回合都\\n给予对方伤害。",
+            "en": "Summons a hailstorm thatstrikes every turn."
+        },
+        {
+            "label": "sTormentDescription",
+            "zh": "挑衅对方，\\n使其不出相同的绝招。",
+            "en": "Torments the foe and stopssuccessive use of a move."
+        },
+        {
+            "label": "sFlatterDescription",
+            "zh": "拍马屁使对方混乱，\\n但会提升其特攻。",
+            "en": "Confuses the foe, butraises its Sp. Atk."
+        },
+        {
+            "label": "sWillOWispDescription",
+            "zh": "用鬼火烧伤对方。",
+            "en": "Inflicts a burn on the foewith intense fire."
+        },
+        {
+            "label": "sMementoDescription",
+            "zh": "以自己无法战斗为代价，\\n降低对方能力。",
+            "en": "The user faints and lowersthe foe's abilities."
+        },
+        {
+            "label": "sFacadeDescription",
+            "zh": "中毒、麻痹、烧伤时\\n技能威力会上升。",
+            "en": "Boosts Attack when burned,paralyzed, or poisoned."
+        },
+        {
+            "label": "sFocusPunchDescription",
+            "zh": "威力很强的易会心技能，\\n但蓄力时被攻击会害怕。",
+            "en": "A powerful loyalty attack.The user flinches if hit."
+        },
+        {
+            "label": "sSmellingSaltsDescription",
+            "zh": "给予麻痹的对方巨大伤害，\\n同时解除其麻痹。",
+            "en": "Powerful against paralyzedfoes, but also heals them."
+        },
+        {
+            "label": "sFollowMeDescription",
+            "zh": "使对方注意自己，\\n接受全部的攻击。",
+            "en": "Draws attention to makefoes attack only the user."
+        },
+        {
+            "label": "sNaturePowerDescription",
+            "zh": "借助自然的力量攻击，\\n地点不同，出的绝招也不同。",
+            "en": "The type of attack variesdepending on the location."
+        },
+        {
+            "label": "sChargeDescription",
+            "zh": "蓄电，使下次发出的\\n电系技能变强。",
+            "en": "Charges power to boost theelectric move used next."
+        },
+        {
+            "label": "sTauntDescription",
+            "zh": "让对方生气，\\n使其只能发出物理攻击。",
+            "en": "Taunts the foe into onlyusing attack moves."
+        },
+        {
+            "label": "sHelpingHandDescription",
+            "zh": "提升战友的技能威力。",
+            "en": "Boosts the power of therecipient's moves."
+        },
+        {
+            "label": "sTrickDescription",
+            "zh": "交换双方携带的道具。",
+            "en": "Tricks the foe into tradingheld items."
+        },
+        {
+            "label": "sRolePlayDescription",
+            "zh": "模仿对手，\\n并复制它的特性。",
+            "en": "Mimics the target andcopies its special ability."
+        },
+        {
+            "label": "sWishDescription",
+            "zh": "诚心祈祷恢复HP但需要时间。",
+            "en": "A wish that restores HP.It takes time to work."
+        },
+        {
+            "label": "sAssistDescription",
+            "zh": "用战友的宝可梦的技能攻击，\\n随机出绝招。",
+            "en": "Attacks randomly with oneof the partner's moves."
+        },
+        {
+            "label": "sIngrainDescription",
+            "zh": "生长根系一点点恢复HP，\\n无法交换。",
+            "en": "Lays roots that restore HP.The user can't switch out."
+        },
+        {
+            "label": "sSuperpowerDescription",
+            "zh": "能发挥无穷的力量，\\n但疲惫后能力会降低。",
+            "en": "Boosts strength sharply,but lowers abilities."
+        },
+        {
+            "label": "sMagicCoatDescription",
+            "zh": "把特殊技能造成的效果\\n完全放到对方身上。",
+            "en": "Reflects special effectsback to the attacker."
+        },
+        {
+            "label": "sRecycleDescription",
+            "zh": "用过的消耗道具能再度使用。",
+            "en": "Recycles a used item forone more use."
+        },
+        {
+            "label": "sRevengeDescription",
+            "zh": "被对方攻击时威力会上升。",
+            "en": "An attack that gains powerif injured by the foe."
+        },
+        {
+            "label": "sBrickBreakDescription",
+            "zh": "打破反射盾和光之壁\\n等屏障来给予对方伤害。",
+            "en": "Destroys barriers such asREFLECT and causes damage."
+        },
+        {
+            "label": "sYawnDescription",
+            "zh": "打哈欠使对方困倦，\\n下一回合不下场便会睡着。",
+            "en": "Lulls the foe into yawning,then sleeping next turn."
+        },
+        {
+            "label": "sKnockOffDescription",
+            "zh": "打落对方的道具，\\n使其无法使用。",
+            "en": "Knocks down the foe's helditem to prevent its use."
+        },
+        {
+            "label": "sEndeavorDescription",
+            "zh": "自身HP比对方越少伤害越大。",
+            "en": "Gains power if the user's HPis lower than the foe's HP."
+        },
+        {
+            "label": "sEruptionDescription",
+            "zh": "自身HP越多伤害越大。",
+            "en": "The higher the user's HP,the more damage caused."
+        },
+        {
+            "label": "sSkillSwapDescription",
+            "zh": "能交换双方特性。",
+            "en": "The user swaps specialabilities with the target."
+        },
+        {
+            "label": "sImprisonDescription",
+            "zh": "自己学会的技能对方无法使用。",
+            "en": "Prevents foes from usingmoves known by the user."
+        },
+        {
+            "label": "sRefreshDescription",
+            "zh": "恢复中毒、麻痹、烧伤状态。",
+            "en": "Heals poisoning, paralysis,or a burn."
+        },
+        {
+            "label": "sGrudgeDescription",
+            "zh": "被对方某技能击中而倒下时\\n那个技能的PP值变为0。",
+            "en": "If the user faints, deletesall PP of foe's last move."
+        },
+        {
+            "label": "sSnatchDescription",
+            "zh": "把对方要用的技能\\n抢过来自己用。",
+            "en": "Steals the effects of themove the target uses next."
+        },
+        {
+            "label": "sSecretPowerDescription",
+            "zh": "能唤醒神秘力量，\\n场地不同追加效果不同。",
+            "en": "An attack with effectsthat vary by location."
+        },
+        {
+            "label": "sDiveDescription",
+            "zh": "这一回合钻入水中\\n下一回合攻击。",
+            "en": "Dives underwater the firstturn and strikes next turn."
+        },
+        {
+            "label": "sArmThrustDescription",
+            "zh": "2至5回合连续重击对方。",
+            "en": "Straight-arm punches thatstrike the foe 2 to 5 times."
+        },
+        {
+            "label": "sCamouflageDescription",
+            "zh": "宝可梦的属性随场地变化。",
+            "en": "Alters the Pokémon's typedepending on the location."
+        },
+        {
+            "label": "sTailGlowDescription",
+            "zh": "闪闪发光，\\n能大幅提升特攻。",
+            "en": "Flashes a light that sharplyraises Sp. Atk."
+        },
+        {
+            "label": "sLusterPurgeDescription",
+            "zh": "发射耀眼的光线攻击，\\n可能降低对方的特防。",
+            "en": "Attacks with a burst oflight. May lower Sp. Def."
+        },
+        {
+            "label": "sMistBallDescription",
+            "zh": "用羽毛之风掀起攻击，\\n可能降低对方的特攻。",
+            "en": "Attacks with a flurry ofdown. May lower Sp. Atk."
+        },
+        {
+            "label": "sFeatherDanceDescription",
+            "zh": "挥洒羽毛完全缠住对方，\\n大幅降低攻击。",
+            "en": "Envelops the foe with downto sharply reduce Attack."
+        },
+        {
+            "label": "sTeeterDanceDescription",
+            "zh": "使自己以外所有在场\\n宝可梦陷入混乱。",
+            "en": "Confuses all Pokémon onthe scene."
+        },
+        {
+            "label": "sBlazeKickDescription",
+            "zh": "使出容易命中要害的踢技，\\n偶尔会烧伤对手。",
+            "en": "A kick with a high critical-hit ratio. May cause a burn."
+        },
+        {
+            "label": "sMudSportDescription",
+            "zh": "向场地上扔泥，\\n降低电系攻击伤害。",
+            "en": "Covers the user in mud toraise electrical resistance."
+        },
+        {
+            "label": "sIceBallDescription",
+            "zh": "5回合内攻击对方，\\n每击中一次伤害增加一次。",
+            "en": "A 5-turn attack that gainspower on successive hits."
+        },
+        {
+            "label": "sNeedleArmDescription",
+            "zh": "满是尖刺的双手揍对方，\\n可能使其害怕。",
+            "en": "Attacks with thorny arms.May cause flinching."
+        },
+        {
+            "label": "sSlackOffDescription",
+            "zh": "恢复一半的HP。",
+            "en": "Slacks off and restoreshalf the maximum HP."
+        },
+        {
+            "label": "sHyperVoiceDescription",
+            "zh": "用强烈的声音震动空气\\n来伤害对方。",
+            "en": "A loud attack that usessound waves to injure."
+        },
+        {
+            "label": "sPoisonFangDescription",
+            "zh": "用尖利的牙齿攻击，\\n偶尔会使对方身中剧毒。",
+            "en": "A sharp-fanged attack.May badly poison the foe."
+        },
+        {
+            "label": "sCrushClawDescription",
+            "zh": "用尖利的爪子斩对方，\\n可能降低其防御。",
+            "en": "Tears at the foe with sharpclaws. May lower Defense."
+        },
+        {
+            "label": "sBlastBurnDescription",
+            "zh": "给予对方巨大的伤害，\\n但下一回合会无法动弹。",
+            "en": "Powerful, but leaves theuser immobile the next turn."
+        },
+        {
+            "label": "sHydroCannonDescription",
+            "zh": "给予对方巨大的伤害，\\n但下一回合会无法动弹。",
+            "en": "Powerful, but leaves theuser immobile the next turn."
+        },
+        {
+            "label": "sMeteorMashDescription",
+            "zh": "发出彗星一般的拳击，\\n可能提升攻击。",
+            "en": "Fires a meteor-like punch.May raise Attack."
+        },
+        {
+            "label": "sAstonishDescription",
+            "zh": "惊吓对方，可能使其害怕。",
+            "en": "An attack that may shockthe foe into flinching."
+        },
+        {
+            "label": "sWeatherBallDescription",
+            "zh": "属性和威力随天气而变化。",
+            "en": "The move's type and powerchange with the weather."
+        },
+        {
+            "label": "sAromatherapyDescription",
+            "zh": "发出沁人心脾的香气，\\n解除所有异常状态。",
+            "en": "Heals all status problemswith a soothing scent."
+        },
+        {
+            "label": "sFakeTearsDescription",
+            "zh": "假装哭泣使对方为难，\\n大幅降低其特防。",
+            "en": "Feigns crying to sharplylower the foe's Sp. Def."
+        },
+        {
+            "label": "sAirCutterDescription",
+            "zh": "用强风攻击对方，\\n要害命中率高。",
+            "en": "Hacks with razorlike wind.High critical-hit ratio."
+        },
+        {
+            "label": "sOverheatDescription",
+            "zh": "发出充满力量的一击，\\n但之后特攻会大幅降低。",
+            "en": "Allows a full-power attack,but sharply lowers Sp. Atk."
+        },
+        {
+            "label": "sOdorSleuthDescription",
+            "zh": "提高自身命中率。",
+            "en": "Negates the foe's effortsto heighten evasiveness."
+        },
+        {
+            "label": "sRockTombDescription",
+            "zh": "用岩石封锁对方行动，\\n降低其速度。",
+            "en": "Stops the foe from movingwith rocks and cuts Speed."
+        },
+        {
+            "label": "sSilverWindDescription",
+            "zh": "用卷着鳞粉的风攻击，\\n可能提升自己全部能力。",
+            "en": "A powdery attack that mayraise abilities."
+        },
+        {
+            "label": "sMetalSoundDescription",
+            "zh": "发出讨厌的声音，\\n大幅降低对方的特防。",
+            "en": "Emits a horrible screechthat sharply lowers Sp. Def."
+        },
+        {
+            "label": "sGrassWhistleDescription",
+            "zh": "用草之笛吹出悦耳音色，\\n使对方深深沉睡。",
+            "en": "Lulls the foe into sleepwith a pleasant melody."
+        },
+        {
+            "label": "sTickleDescription",
+            "zh": "使对方不禁偷笑，\\n降低其攻击和防御。",
+            "en": "Makes the foe laugh tolower Attack and Defense."
+        },
+        {
+            "label": "sCosmicPowerDescription",
+            "zh": "使用神秘的力量\\n提升防御和特防。",
+            "en": "Raises Defense and Sp. Defwith a mystic power."
+        },
+        {
+            "label": "sWaterSpoutDescription",
+            "zh": "自身HP越多伤害越大。",
+            "en": "Inflicts more damage if theuser's HP is high."
+        },
+        {
+            "label": "sSignalBeamDescription",
+            "zh": "发射神秘的闪光使对方混乱。",
+            "en": "A strange beam attack thatmay confuse the foe."
+        },
+        {
+            "label": "sShadowPunchDescription",
+            "zh": "把黑暗力量混合到拳头上\\n攻击绝对命中对方。",
+            "en": "An unavoidable punch thatis thrown from shadows."
+        },
+        {
+            "label": "sExtrasensoryDescription",
+            "zh": "用神秘的力量攻击，\\n可能使对方害怕。",
+            "en": "Attacks with a peculiarpower. May cause flinching."
+        },
+        {
+            "label": "sSkyUppercutDescription",
+            "zh": "给对方一记\\n直挂天际的上勾拳。",
+            "en": "An uppercut thrown as ifleaping into the sky."
+        },
+        {
+            "label": "sSandTombDescription",
+            "zh": "2至5回合内\\n用旋涡封锁对方。",
+            "en": "Traps and hurts the foe inquicksand for 2 to 5 turns."
+        },
+        {
+            "label": "sSheerColdDescription",
+            "zh": "用绝对零度攻击，\\n命中则一击必杀。",
+            "en": "A chilling attack thatcauses fainting if it hits."
+        },
+        {
+            "label": "sMuddyWaterDescription",
+            "zh": "用泥水攻击，\\n偶尔降低对方命中率。",
+            "en": "Attacks with muddy water.May lower accuracy."
+        },
+        {
+            "label": "sBulletSeedDescription",
+            "zh": "2至5回合\\n连续发射种子攻击。",
+            "en": "Shoots 2 to 5 seeds in a rowto strike the foe."
+        },
+        {
+            "label": "sAerialAceDescription",
+            "zh": "用速度玩弄对方，\\n使其无法躲避发出的攻击。",
+            "en": "An extremely speedy andunavoidable attack."
+        },
+        {
+            "label": "sIcicleSpearDescription",
+            "zh": "2至5回合\\n连续发射冰柱攻击。",
+            "en": "Attacks the foe by firing2 to 5 icicles in a row."
+        },
+        {
+            "label": "sIronDefenseDescription",
+            "zh": "使身体表面坚硬，\\n大幅提升防御。",
+            "en": "Hardens the body's surfaceto sharply raise Defense."
+        },
+        {
+            "label": "sBlockDescription",
+            "zh": "堵住对方的退路，\\n使其无法逃脱。",
+            "en": "Blocks the foe's way toprevent escape."
+        },
+        {
+            "label": "sHowlDescription",
+            "zh": "用吼叫提升攻击力。",
+            "en": "Howls to raise the spiritand boosts Attack."
+        },
+        {
+            "label": "sDragonClawDescription",
+            "zh": "用尖锐的爪子攻击敌人。",
+            "en": "Slashes the foe with sharpclaws."
+        },
+        {
+            "label": "sFrenzyPlantDescription",
+            "zh": "给予对方巨大的伤害，\\n但下一回合会无法动弹。",
+            "en": "Powerful, but leaves theuser immobile the next turn."
+        },
+        {
+            "label": "sBulkUpDescription",
+            "zh": "锻炼身体提升攻击和防御。",
+            "en": "Bulks up the body to boostboth Attack and Defense."
+        },
+        {
+            "label": "sBounceDescription",
+            "zh": "这回合跳起来，下回合落\\n下时攻击，偶尔使对方麻痹。",
+            "en": "Bounces up, then down thenext turn. May paralyze."
+        },
+        {
+            "label": "sMudShotDescription",
+            "zh": "向对方扔泥土，\\n能降低其速度。",
+            "en": "Hurls mud at the foe andreduces Speed."
+        },
+        {
+            "label": "sPoisonTailDescription",
+            "zh": "偶尔会使对方中毒，也能提高\\n要害命中率。",
+            "en": "Has a high critical-hitratio. May also poison."
+        },
+        {
+            "label": "sCovetDescription",
+            "zh": "向对方撒娇的同时把对方\\n的道具占为己有。",
+            "en": "Cutely begs to obtain anitem held by the foe."
+        },
+        {
+            "label": "sVoltTackleDescription",
+            "zh": "拼命撞击对方，\\n自己也会受一些伤害。",
+            "en": "A life-risking tackle thatslightly hurts the user."
+        },
+        {
+            "label": "sMagicalLeafDescription",
+            "zh": "用绝对无法躲开的\\n神奇叶子攻击。",
+            "en": "Attacks with a strange leafthat cannot be evaded."
+        },
+        {
+            "label": "sWaterSportDescription",
+            "zh": "向场上洒水，\\n降低炎系宝可梦的威力。",
+            "en": "The user becomes soaked toraise resistance to fire."
+        },
+        {
+            "label": "sCalmMindDescription",
+            "zh": "集中所有精神力，\\n提升特攻和特防。",
+            "en": "Raises Sp. Atk and Sp. Defby focusing the mind."
+        },
+        {
+            "label": "sLeafBladeDescription",
+            "zh": "用锋利的叶子斩对方，\\n容易命中要害。",
+            "en": "Slashes with a sharp leaf.High critical-hit ratio."
+        },
+        {
+            "label": "sDragonDanceDescription",
+            "zh": "跳神秘的舞蹈，\\n提升攻击与速度。",
+            "en": "A mystical dance that upsAttack and Speed."
+        },
+        {
+            "label": "sRockBlastDescription",
+            "zh": "连续2至5回合\\n向对方扔石头。",
+            "en": "Hurls boulders at the foe2 to 5 times in a row."
+        },
+        {
+            "label": "sShockWaveDescription",
+            "zh": "快速发出电击，\\n绝对命中。",
+            "en": "A fast and unavoidableelectric attack."
+        },
+        {
+            "label": "sWaterPulseDescription",
+            "zh": "用超声波攻击，\\n使对方混乱。",
+            "en": "Attacks with ultrasonicwaves. May confuse the foe."
+        },
+        {
+            "label": "sDoomDesireDescription",
+            "zh": "撒下耀眼的光芒，\\n2回合后攻击。",
+            "en": "Summons strong sunlight toattack 2 turns later."
+        },
+        {
+            "label": "sPsychoBoostDescription",
+            "zh": "发出充满力量的一击，\\n但之后特攻会大幅降低。",
+            "en": "Allows a full-power attack,but sharply lowers Sp. Atk."
+        },
+        {
+            "label": "sROOSTDescription",
+            "zh": "降到地面休息，\\n回复一半的HP。",
+            "en": "Restores the user's HP byhalf of its max HP."
+        },
+        {
+            "label": "sGRAVITYDescription",
+            "zh": "在5回合内重力失效。\\n空中的招式无法使用。",
+            "en": "Gravity is intensifiednegating levitation."
+        },
+        {
+            "label": "sMIRACLE_EYEDescription",
+            "zh": "使恶属性和闪避高的对手\\n变得容易命中。",
+            "en": "Negate evasiveness andDark-type's immunities."
+        },
+        {
+            "label": "sWAKE_UP_SLAPDescription",
+            "zh": "对睡眠的对手较大的伤害\\n并将其打醒。",
+            "en": "Powerful against sleepingfoes, but also heals them."
+        },
+        {
+            "label": "sHAMMER_ARMDescription",
+            "zh": "挥舞强力的拳头攻击对手，\\n降低自身速度。",
+            "en": "A swinging fist attackthat also lowers Speed."
+        },
+        {
+            "label": "sGYRO_BALLDescription",
+            "zh": "让身体高速旋转并撞击对手。\\n速度比对手越慢，威力越大。",
+            "en": "A high-speed spin that doesmore damage to faster foes."
+        },
+        {
+            "label": "sHEALING_WISHDescription",
+            "zh": "濒死后，治愈后备上场的宝\\n可梦异常状态以及回复HP。",
+            "en": "The user faints to heal upthe recipient."
+        },
+        {
+            "label":
+"sBRINEDescription",
+            "zh": "当对手的HP负伤到一半左右\\n时，招式威力会变成2倍。",
+            "en": "Does double damage to foeswith half HP."
+        },
+        {
+            "label": "sNATURAL_GIFTDescription",
+            "zh": "根据携带的树果，\\n招式属性和威力会改变。",
+            "en": "The effectiveness varieswith the held Berry."
+        },
+        {
+            "label": "sFEINTDescription",
+            "zh": "使正在使用守住或看穿等招\\n式的对手。解除其守护效果。",
+            "en": "An attack that hits foesusing moves like Protect."
+        },
+        {
+            "label": "sPLUCKDescription",
+            "zh": "用喙进行攻击。能食用对手\\n携带的树果并获得效果。",
+            "en": "Eats the foe's held Berrygaining its effect."
+        },
+        {
+            "label": "sTAILWINDDescription",
+            "zh": "刮起猛烈的旋风，在4回合内\\n提高我方全员的速度。",
+            "en": "Whips up a turbulent breezethat raises Speed."
+        },
+        {
+            "label": "sACUPRESSUREDescription",
+            "zh": "通过点穴让身体舒筋活络。\\n大幅提高某1项能力。",
+            "en": "The user sharply raisesone of its stats."
+        },
+        {
+            "label": "sMETAL_BURSTDescription",
+            "zh": "使出招式前，将最后受到的\\n招式的伤害大力返还给对手。",
+            "en": "Retaliates any hit withgreater power."
+        },
+        {
+            "label": "sU_TURNDescription",
+            "zh": "在攻击之后急速返回，\\n和后备宝可梦进行替换。",
+            "en": "Does damage then switchesout the user."
+        },
+        {
+            "label": "sCLOSE_COMBATDescription",
+            "zh": "放弃守护，向对手突击。\\n自己的防御和特防会降低。",
+            "en": "A strong attack but lowersthe defensive stats."
+        },
+        {
+            "label": "sPAYBACKDescription",
+            "zh": "蓄力攻击。如在对手之后攻\\n击，招式的威力会变成2倍。",
+            "en": "An attack that gains powerif the user moves last."
+        },
+        {
+            "label": "sASSURANCEDescription",
+            "zh": "如果此回合内对手已经受到\\n伤害，招式威力会变成2倍。",
+            "en": "An attack that gains powerif the foe has been hurt."
+        },
+        {
+            "label": "sEMBARGODescription",
+            "zh": "让对手在5回合内不能对其\\n使用道具和携带道具。",
+            "en": "Prevents the foe fromusing any items."
+        },
+        {
+            "label": "sFLINGDescription",
+            "zh": "快速投掷携带的道具攻击。\\n道具不同，威力效果会改变。",
+            "en": "The effectiveness varieswith the held item."
+        },
+        {
+            "label": "sPSYCHO_SHIFTDescription",
+            "zh": "用超能力施以暗示，将自己\\n受到的异常状态转移给对手。",
+            "en": "Transfers status problemsto the foe."
+        },
+        {
+            "label": "sTRUMP_CARDDescription",
+            "zh": "王牌招式的剩余PP越少，\\n招式的威力越大。",
+            "en": "The less PP the move hasthe more damage it does."
+        },
+        {
+            "label": "sHEAL_BLOCKDescription",
+            "zh": "在5回合内无法通过招式、\\n特性或携带的道具来回复HP。",
+            "en": "Prevents the foe fromrecovering any HP."
+        },
+        {
+            "label": "sWRING_OUTDescription",
+            "zh": "用力勒紧对手进行攻击。\\n对手的HP越多，威力越大。",
+            "en": "The higher the foe's HPthe more damage caused."
+        },
+        {
+            "label": "sPOWER_TRICKDescription",
+            "zh": "利用超能力交换自己的\\n攻击和防御的力量。",
+            "en": "The user swaps its Attackand Defense stats."
+        },
+        {
+            "label": "sGASTRO_ACIDDescription",
+            "zh": "将胃液吐向对手。沾上后\\n会消除对手的特性效果。",
+            "en": "Stomach acid suppressesthe foe's ability."
+        },
+        {
+            "label": "sLUCKY_CHANTDescription",
+            "zh": "向天许愿，从而在5回合内\\n不会被对手的攻击打中要害。",
+            "en": "Prevents the foe fromlanding critical hits."
+        },
+        {
+            "label": "sME_FIRSTDescription",
+            "zh": "抢先使出对手的招式并提高\\n威力。如不先使出则会失败。",
+            "en": "Executes the foe's attackwith greater power."
+        },
+        {
+            "label": "sCOPYCATDescription",
+            "zh": "模仿对手刚才的招式，\\n如果对手还没出招则会失败。",
+            "en": "The user mimics the lastmove used by a foe."
+        },
+        {
+            "label": "sPOWER_SWAPDescription",
+            "zh": "利用超能力互换自己和对手\\n的攻击以及特攻的能力变化。",
+            "en": "Swaps changes to Attackand Sp. Atk with the foe."
+        },
+        {
+            "label": "sGUARD_SWAPDescription",
+            "zh": "利用超能力互换自己和对手\\n的防御以及特防的能力变化。",
+            "en": "Swaps changes to Defenseand Sp. Def with the foe."
+        },
+        {
+            "label": "sPUNISHMENTDescription",
+            "zh": "根据能力变化，对手提高的\\n力量越大，招式的威力越大。",
+            "en": "Does more damage if thefoe has powered up."
+        },
+        {
+            "label": "sLAST_RESORTDescription",
+            "zh": "已学会的招式全部使用过后，\\n才能开始使出珍藏的招式。",
+            "en": "Can only be used if everyother move has been used."
+        },
+        {
+            "label": "sWORRY_SEEDDescription",
+            "zh": "心神不宁的种子。使对手不能\\n入眠，并将特性变成不眠。",
+            "en": "Plants a seed on the foegiving it Insomnia."
+        },
+        {
+            "label": "sSUCKER_PUNCHDescription",
+            "zh": "比对手先攻击。对手的招式\\n如果不是攻击招式则会失败。",
+            "en": "Strikes first if the foeis preparing an attack."
+        },
+        {
+            "label": "sTOXIC_SPIKESDescription",
+            "zh": "在对手的脚下撒毒菱。使对手\\n替换出场的宝可梦中毒。",
+            "en": "Sets spikes that poison afoe switching in."
+        },
+        {
+            "label": "sHEART_SWAPDescription",
+            "zh": "利用超能力互换自己\\n和对手之间的能力变化。",
+            "en": "Swaps any stat changeswith the foe."
+        },
+        {
+            "label": "sAQUA_RINGDescription",
+            "zh": "在自己身体的周围覆盖用水\\n制造的幕。每回合回复HP。",
+            "en": "Forms a veil of waterthat restores HP."
+        },
+        {
+            "label": "sMAGNET_RISEDescription",
+            "zh": "利用电气产生磁力浮在空中。\\n在5回合内可以飘浮。",
+            "en": "The user levitates withelectromagnetism."
+        },
+        {
+            "label": "sFLARE_BLITZDescription",
+            "zh": "火焰身躯撞向对手。自己\\n会受伤。对手可能被灼伤。",
+            "en": "A charge that may burn thefoe. Also hurts the user."
+        },
+        {
+            "label": "sFORCE_PALMDescription",
+            "zh": "向对手发出冲击波进行攻击。\\n有时会让对手陷入麻痹状态。",
+            "en": "A shock wave attack thatmay paralyze the foe."
+        },
+        {
+            "label": "sAURA_SPHEREDescription",
+            "zh": "产生波导之力向对手发出。\\n攻击必定会命中。",
+            "en": "Attacks with an aura blastthat cannot be evaded."
+        },
+        {
+            "label": "sROCK_POLISHDescription",
+            "zh": "打磨身体，减少空气阻力。\\n可以大幅提高自己的速度。",
+            "en": "Polishes the body tosharply raise Speed."
+        },
+        {
+            "label": "sPOISON_JABDescription",
+            "zh": "用带毒的触手或手臂刺对手。\\n有时会让对手陷入中毒状态。",
+            "en": "A stabbing attack thatmay poison the foe."
+        },
+        {
+            "label": "sDARK_PULSEDescription",
+            "zh": "从体内发出充满恶意的恐怖\\n气场。有时会使对手畏缩。",
+            "en": "Attacks with a horribleaura. May cause flinching."
+        },
+        {
+            "label": "sNIGHT_SLASHDescription",
+            "zh": "抓住瞬间的空隙切斩对手。\\n容易击中要害。",
+            "en": "Hits as soon as possible.High critical-hit ratio."
+        },
+        {
+            "label": "sAQUA_TAILDescription",
+            "zh": "如惊涛骇浪般挥动大尾巴\\n攻击对手。",
+            "en": "The user swings its taillike a wave to attack."
+        },
+        {
+            "label": "sSEED_BOMBDescription",
+            "zh": "将外壳坚硬的大种子，\\n从上方砸下攻击对手。",
+            "en": "A barrage of hard seedsis fired at the foe."
+        },
+        {
+            "label": "sAIR_SLASHDescription",
+            "zh": "用连天空也能劈开的空气之\\n刃进行攻击。对手可嫩畏缩。",
+            "en": "Attacks with a blade ofair. May cause flinching."
+        },
+        {
+            "label": "sX_SCISSORDescription",
+            "zh": "将镰刀或爪子像剪刀般地\\n交叉，顺势劈开对手。",
+            "en": "Slashes the foe with crossedscythes, claws, etc."
+        },
+        {
+            "label": "sBUG_BUZZDescription",
+            "zh": "利用振动发出音波进行攻击。\\n有时会降低对手的特防。",
+            "en": "A damaging sound wave thatmay lower Sp. Def."
+        },
+        {
+            "label": "sDRAGON_PULSEDescription",
+            "zh": "从大大的口中掀起冲击波\\n攻击对手。",
+            "en": "Generates a shock wave todamage the foe."
+        },
+        {
+            "label": "sDRAGON_RUSHDescription",
+            "zh": "释放出骇人的杀气威慑，\\n撞击对手。对手可能畏缩。",
+            "en": "Tackles the foe with menace.May cause flinching."
+        },
+        {
+            "label": "sPOWER_GEMDescription",
+            "zh": "发射如宝石般闪耀的光芒\\n攻击对手。",
+            "en": "Attacks with rays of lightthat sparkle like diamonds."
+        },
+        {
+            "label": "sVACUUM_WAVEDescription",
+            "zh": "挥动拳头，掀起真空波。\\n必定能够先制攻击。",
+            "en": "Whirls its fists to senda wave that strikes first."
+        },
+        {
+            "label": "sFOCUS_BLASTDescription",
+            "zh": "提高气势，释放出全部力量。\\n有时会降低对手的特防。",
+            "en": "Attacks at full power.May lower Sp. Def."
+        },
+        {
+            "label": "sENERGY_BALLDescription",
+            "zh": "发射从自然收集的生命力量。\\n有时会降低对手的特防。",
+            "en": "Draws power from nature toattack. May lower Sp. Def."
+        },
+        {
+            "label": "sBRAVE_BIRDDescription",
+            "zh": "收拢翅膀，通过低空飞行\\n突击对手。自己也会受伤害。",
+            "en": "A low altitude charge thatalso hurts the user."
+        },
+        {
+            "label": "sEARTH_POWERDescription",
+            "zh": "向对手脚下释放出大地之力。\\n有时会降低对手的特防。",
+            "en": "Makes the ground erupt withpower. May lower Sp. Def."
+        },
+        {
+            "label": "sSWITCHEROODescription",
+            "zh": "用一闪而过的速度交换\\n自己和对手的持有物。",
+            "en": "Swaps items with the foefaster than the eye can see."
+        },
+        {
+            "label": "sNASTY_PLOTDescription",
+            "zh": "谋划诡计，激活头脑。\\n大幅提高自己的特攻。",
+            "en": "Thinks bad thoughts tosharply boost Sp. Atk."
+        },
+        {
+            "label": "sBULLET_PUNCHDescription",
+            "zh": "使出如子弹般快速而坚硬的\\n拳头。必定能够先制攻击。",
+            "en": "Punches as fast as a bul-let. It always hits first."
+        },
+        {
+            "label": "sICE_SHARDDescription",
+            "zh": "瞬间制作冰块，快速地扔向\\n对手。必定能够先制攻击。",
+            "en": "Hurls a chunk of ice thatalways strike first."
+        },
+        {
+            "label": "sSHADOW_CLAWDescription",
+            "zh": "以影子做成的锐爪，\\n劈开对手。容易击中要害。",
+            "en": "Strikes with a shadow claw.High critical-hit ratio."
+        },
+        {
+            "label": "sTHUNDER_FANGDescription",
+            "zh": "用蓄满电流的牙齿咬住对手。\\n对手可能畏缩或陷入麻痹。",
+            "en": "May cause flinching orleave the foe paralyzed."
+        },
+        {
+            "label": "sICE_FANGDescription",
+            "zh": "用藏有冷气的牙齿咬住对手。\\n对手可能畏缩或陷入冰冻。",
+            "en": "May cause flinching orleave the foe frozen."
+        },
+        {
+            "label": "sFIRE_FANGDescription",
+            "zh": "用覆盖火焰的牙齿咬住对手。\\n对手可能畏缩或陷入灼伤。",
+            "en": "May cause flinching orleave the foe with a burn."
+        },
+        {
+            "label": "sSHADOW_SNEAKDescription",
+            "zh": "伸长影子，从对手背后攻击。\\n必定能够先制攻击。",
+            "en": "Extends the user's shadowto strike first."
+        },
+        {
+            "label": "sMUD_BOMBDescription",
+            "zh": "发射坚硬的泥弹攻击对手。\\n有时会降低对手的命中率。",
+            "en": "Throws a blob of mud todamage and cut accuracy."
+        },
+        {
+            "label": "sPSYCHO_CUTDescription",
+            "zh": "用实体化的心之利刃\\n劈开对手。容易击中要害。",
+            "en": "Tears with psychic blades.High critical-hit ratio."
+        },
+        {
+            "label": "sZEN_HEADBUTTDescription",
+            "zh": "将思念的力量集中在前额进\\n行攻击。有时会使对手畏缩。",
+            "en": "Hits with a strong head-butt. May cause flinching."
+        },
+        {
+            "label": "sMIRROR_SHOTDescription",
+            "zh": "抛光身体，释放闪光之力。\\n可能降低对手命中率。",
+            "en": "Emits a flash of energy todamage and cut accuracy."
+        },
+        {
+            "label": "sFLASH_CANNONDescription",
+            "zh": "将身体的光芒聚集在一点释\\n放出去。可能降低对手特防。",
+            "en": "Releases a blast of lightthat may lower Sp. Def."
+        },
+        {
+            "label": "sROCK_CLIMBDescription",
+            "zh": "用尽全力扑向对手进行攻击。\\n有时会使对手混乱。",
+            "en": "A charging attack that mayconfuse the foe."
+        },
+        {
+            "label": "sDEFOGDescription",
+            "zh": "吹开对手的反射壁或光墙等。\\n也会降低对手的闪避率。",
+            "en": "Removes obstacles andlowers evasion."
+        },
+        {
+            "label": "sTRICK_ROOMDescription",
+            "zh": "制造出离奇的空间。5回合内\\n速度慢的宝可梦先行动。",
+            "en": "Slower Pokémon get to movefirst for 5 turns."
+        },
+        {
+            "label": "sDRACO_METEORDescription",
+            "zh": "从天空中向对手落下陨石。\\n自己的特攻会大幅降低。",
+            "en": "Casts comets onto the foe.Harshly lowers the Sp. Atk."
+        },
+        {
+            "label": "sDISCHARGEDescription",
+            "zh": "用耀眼的电击攻击周围所有\\n宝可梦。可能还会陷入麻痹。",
+            "en": "Zaps the foes with electri-city. May paralyze them."
+        },
+        {
+            "label": "sPOWER_WHIPDescription",
+            "zh": "激烈地挥舞青藤或触手\\n摔打对手进行攻击。",
+            "en": "Violently lashes the foewith vines or tentacles."
+        },
+        {
+            "label": "sCROSS_POISONDescription",
+            "zh": "用毒刃劈开对手。对手可能\\n陷入中毒，也容易击中要害。",
+            "en": "A slash that may poison afoe and do critical damage."
+        },
+        {
+            "label": "sGUNK_SHOTDescription",
+            "zh": "用肮脏的垃圾撞向对手。\\n对手可能陷入中毒状态。",
+            "en": "Shoots filthy garbage atthe foe. May also poison."
+        },
+        {
+            "label": "sIRON_HEADDescription",
+            "zh": "用钢铁般坚硬的头部攻击。\\n有时会使对手畏缩。",
+            "en": "Slams the foe with a hardhead. May cause flinching."
+        },
+        {
+            "label": "sMAGNET_BOMBDescription",
+            "zh": "发射吸住对手的钢铁炸弹。\\n攻击必定会命中。",
+            "en": "Launches a magnet thatstrikes without fail."
+        },
+        {
+            "label": "sSTONE_EDGEDescription",
+            "zh": "用尖尖的岩石刺入对手攻击。\\n容易击中要害。",
+            "en": "Stabs the foe with stones.High critical-hit ratio."
+        },
+        {
+            "label": "sCAPTIVATEDescription",
+            "zh": "诱惑异性，\\n从而大幅降低对手的特攻。",
+            "en": "Makes the opposite gendersharply reduce its Sp. Atk."
+        },
+        {
+            "label": "sSTEALTH_ROCKDescription",
+            "zh": "无数岩石悬浮在对手的周围，\\n对替换出场的对手给予伤害。",
+            "en": "Sets floating stones thathurt a foe switching in."
+        },
+        {
+            "label": "sGRASS_KNOTDescription",
+            "zh": "用草缠住并绊倒对手。\\n对手越重，威力越大。",
+            "en": "A snare attack that doesmore damage to heavier foes."
+        },
+        {
+            "label": "sCHATTERDescription",
+            "zh": "用喋喋不休的音波攻击对手。\\n使对手混乱。",
+            "en": "Attacks with a sound wavethat causes confusion."
+        },
+        {
+            "label": "sJUDGMENTDescription",
+            "zh": "向对手放出无数的光弹。根据\\n自己携带的石板改变属性。",
+            "en": "The type varies with thekind of Plate held."
+        },
+        {
+            "label": "sCHARGE_BEAMDescription",
+            "zh": "蓄满电流发射电击光束。\\n有时会提高自己的特攻。",
+            "en": "Fires a beam of electricity.May raise Sp. Atk."
+        },
+        {
+            "label": "sWOOD_HAMMERDescription",
+            "zh": "用坚硬的躯体撞击对手。\\n自己也会受到不小的伤害。",
+            "en": "Slams the body into a foeThe user gets hurt too."
+        },
+        {
+            "label": "sAQUA_JETDescription",
+            "zh": "以迅雷不及掩耳之势扑向\\n对手。必定能够先制攻击。",
+            "en": "Strikes first by dashingat the foe at a high speed."
+        },
+        {
+            "label": "sATTACK_ORDERDescription",
+            "zh": "召唤手下朝对手发起攻击。\\n容易击中要害。",
+            "en": "Underlings pummel the foe.High critical-hit ratio."
+        },
+        {
+            "label": "sDEFEND_ORDERDescription",
+            "zh": "召唤手下附在自己的身体上。\\n可以提高自己的防御和特防。",
+            "en": "Raises Defense and Sp. Defwith a living shield."
+        },
+        {
+            "label": "sHEAL_ORDERDescription",
+            "zh": "召唤手下疗伤。\\n回复自己最大HP的一半。",
+            "en": "The user's underlings showup to heal half its max HP."
+        },
+        {
+            "label": "sHEAD_SMASHDescription",
+            "zh": "使出浑身力气进行头锤攻击。\\n自己也会受到非常大的伤害。",
+            "en": "A life-risking headbutt thatseriously hurts the user."
+        },
+        {
+            "label": "sDOUBLE_HITDescription",
+            "zh": "使用尾巴等拍打对手攻击。\\n连续2次给予伤害。",
+            "en": "Slams the foe with a tailetc. Strikes twice."
+        },
+        {
+            "label": "sROAR_OF_TIMEDescription",
+            "zh": "用扭曲时间的力量攻击对手。\\n下一回合自己将无法动弹。",
+            "en": "Powerful, but leaves theuser immobile the next turn."
+        },
+        {
+            "label": "sSPACIAL_RENDDescription",
+            "zh": "将对手周围的空间撕裂并\\n给予伤害。容易击中要害。",
+            "en": "Tears the foe, and space.High critical-hit ratio."
+        },
+        {
+            "label": "sMAGMA_STORMDescription",
+            "zh": "将对手困在燃烧的火焰中，\\n在2~5回合内进行攻击。",
+            "en": "Traps the foe in a vortexof fire for 2 to 5 turns."
+        },
+        {
+            "label": "sDARK_VOIDDescription",
+            "zh": "将对手强制拖入黑暗的世界，\\n从而让对手陷入睡眠状态。",
+            "en": "Drags the foe into totaldarkness, inducing Sleep."
+        },
+        {
+            "label": "sSEED_FLAREDescription",
+            "zh": "从身体里产生冲击波。\\n有时会大幅降低对手的特防。",
+            "en": "Generates a shock wave thatsharply reduces Sp. Def."
+        },
+        {
+            "label": "sOMINOUS_WINDDescription",
+            "zh": "用毛骨悚然的暴风攻击对手。\\n有时会提高自己的全部能力。",
+            "en": "A repulsive attack that mayraise all stats."
+        },
+        {
+            "label": "sSHADOW_FORCEDescription",
+            "zh": "第1回合消失，下回合攻击。\\n即使对手正受保护也能击中。",
+            "en": "Vanishes on the first turnthen strikes the next turn."
+        },
+        {
+            "label": "sHONE_CLAWSDescription",
+            "zh": "将爪子磨得更加锋利。\\n提高自己的攻击和命中率。",
+            "en": "Sharpens its claws to raiseAttack and Accuracy."
+        },
+        {
+            "label": "sWIDE_GUARDDescription",
+            "zh": "在1回合内防住击打我方全员\\n的攻击。",
+            "en": "Evades wide-ranging attacksfor one turn."
+        },
+        {
+            "label": "sGUARD_SPLITDescription",
+            "zh": "将自己和对手的防御和特防\\n相加，再进行平分。",
+            "en": "Averages changes to Defenseand Sp. Def with the foe."
+        },
+        {
+            "label": "sPOWER_SPLITDescription",
+            "zh": "将自己和对手的攻击和特攻\\n相加，再进行平分。",
+            "en": "Averages changes to Attackand Sp. Atk with the foe."
+        },
+        {
+            "label": "sWONDER_ROOMDescription",
+            "zh": "制造出离奇的空间。5回合内\\n互换所有宝可梦的防御特防。",
+            "en": "Defense and Sp. Def statsare swapped for 5 turns."
+        },
+        {
+            "label": "sPSYSHOCKDescription",
+            "zh": "将神奇的念波实体化攻击。\\n给予物理伤害。",
+            "en": "Attacks with a psychic wavethat does physical damage."
+        },
+        {
+            "label": "sTAIL_SLAPDescription",
+            "zh": "用坚硬的尾巴拍打对手攻击。\\n连续攻击2~5次。",
+            "en": "Strikes the foe with itstail 2 to 5 times."
+        },
+        {
+            "label": "sVENOSHOCKDescription",
+            "zh": "将特殊的毒液泼向对手。\\n对中毒的对手威力会变2倍。",
+            "en": "Does double damage if thefoe is poisoned."
+        },
+        {
+            "label": "sAUTOTOMIZEDescription",
+            "zh": "大幅提高自己的速度，\\n同时体重也会变轻。",
+            "en": "Sheds additional weight tosharply boost Speed."
+        },
+        {
+            "label": "sRAGE_POWDERDescription",
+            "zh": "用特殊的粉末吸引对手注意。\\n使对手的攻击全部指向自己。",
+            "en": "Scatters powder to makefoes attack only the user."
+        },
+        {
+            "label": "sTELEKINESISDescription",
+            "zh": "利用超能力使对手浮起来。\\n3回合内更容易打中对手。",
+            "en": "Makes the foe float. It iseasier to hit for 3 turns."
+        },
+        {
+            "label": "sMAGIC_ROOMDescription",
+            "zh": "制造出离奇的空间。5回合内\\n所有携带道具的效果都消失。",
+            "en": "Hold items lose theireffects for 5 turns."
+        },
+        {
+            "label": "sSMACK_DOWNDescription",
+            "zh": "扔石头或炮弹攻击飞行对手。\\n对手会被击落，掉到地面。",
+            "en": "Throws a rock to knock thefoe down to the ground."
+        },
+        {
+            "label": "sSTORM_THROWDescription",
+            "zh": "向对手使出强烈的一击。\\n攻击必定会击中要害。",
+            "en": "This attack always resultsin a critical hit."
+        },
+        {
+            "label": "sFLAME_BURSTDescription",
+            "zh": "爆裂的火焰如果击中对手。\\n火焰还会飞溅到旁边的对手。",
+            "en": "A bursting flame that doesdamage to all foes."
+        },
+        {
+            "label": "sSLUDGE_WAVEDescription",
+            "zh": "用污泥波攻击自己周围所有\\n宝可梦。可能还会陷入中毒。",
+            "en": "Swamps the foe with a waveof sludge. May also poison."
+        },
+        {
+            "label": "sQUIVER_DANCEDescription",
+            "zh": "轻巧地跳起神秘美丽的舞蹈。\\n提高自己的特攻、特防、速度。",
+            "en": "Dances to raise Sp. AtkSp. Def and Speed."
+        },
+        {
+            "label": "sHEAVY_SLAMDescription",
+            "zh": "用沉重的身体撞向对手攻击。\\n自己比对手越重，威力越大。",
+            "en": "Does more damage if theuser outweighs the foe."
+        },
+        {
+            "label": "sSYNCHRONOISEDescription",
+            "zh": "用电波对周围所有和自己\\n属性相同的宝可梦给予伤害。",
+            "en": "An odd shock wave that onlydamages same-type foes."
+        },
+        {
+            "label": "sELECTRO_BALLDescription",
+            "zh": "用电气团撞向对手。自己\\n比对手速度越快，威力越大。",
+            "en": "Hurls an orb that does moredamage to slower foes."
+        },
+        {
+            "label": "sSOAKDescription",
+            "zh": "将大量的水泼向对手，\\n从而使其变成水属性。",
+            "en": "Sprays water at the foemaking it Water-type."
+        },
+        {
+            "label": "sFLAME_CHARGEDescription",
+            "zh": "让火焰覆盖全身，攻击对手。\\n积蓄力量并提高自己的速度。",
+            "en": "Attacks in a cloak offlames. Raises Speed."
+        },
+        {
+            "label": "sCOILDescription",
+            "zh": "盘蜷着集中精神。提高自己\\n的攻击、防御和命中率。",
+            "en": "Coils up to raise AttackDefense and Accuracy."
+        },
+        {
+            "label": "sLOW_SWEEPDescription",
+            "zh": "以敏捷的动作瞄准对手的脚\\n进行攻击。降低对手的速度。",
+            "en": "Attacks the foe's legslowering its Speed."
+        },
+        {
+            "label": "sACID_SPRAYDescription",
+            "zh": "喷出能溶化对手的液体攻击。\\n大幅降低对手的特防。",
+            "en": "Sprays a hide-melting acid.Sharply reduces Sp. Def."
+        },
+        {
+            "label": "sFOUL_PLAYDescription",
+            "zh": "利用对手的力量进行攻击。\\n对手攻击越高，伤害越大。",
+            "en": "The higher the foe's Attackthe more damage caused."
+        },
+        {
+            "label": "sSIMPLE_BEAMDescription",
+            "zh": "向对手发送谜之念波。\\n对手特性会变为单纯。",
+            "en": "A beam that changes thefoe's ability to Simple."
+        },
+        {
+            "label": "sENTRAINMENTDescription",
+            "zh": "用神奇的节奏跳舞。\\n使对手特性变成和自己一样。",
+            "en": "Makes the foe mimic theuser, gaining its ability."
+        },
+        {
+            "label": "sAFTER_YOUDescription",
+            "zh": "支援我方或对手的行动，\\n使其紧接着此招式之后行动。",
+            "en": "Helps out the foe, lettingit move next."
+        },
+        {
+            "label": "sROUNDDescription",
+            "zh": "用歌声攻击对手。\\n同伴可接着轮唱，威力更高。",
+            "en": "A song that inflicts damage.Others can join in too."
+        },
+        {
+            "label": "sECHOED_VOICEDescription",
+            "zh": "用回声攻击对手。每回合都有\\n宝可梦接着使用，威力更高。",
+            "en": "Does more damage every turnit is used."
+        },
+        {
+            "label": "sCHIP_AWAYDescription",
+            "zh": "看准机会稳步攻击。\\n无视对手的能力变化。",
+            "en": "Strikes through the foe'sstat changes."
+        },
+        {
+            "label": "sCLEAR_SMOGDescription",
+            "zh": "向对手投掷特殊的泥块攻击。\\n使其能力变回原点。",
+            "en": "Attacks with white haze thateliminates all stat changes."
+        },
+        {
+            "label": "sSTORED_POWERDescription",
+            "zh": "用蓄积起来的力量攻击对手。\\n提升得能力越多，威力越大。",
+            "en": "The higher the user's statsthe more damage caused."
+        },
+        {
+            "label": "sQUICK_GUARDDescription",
+            "zh": "守护自己和同伴，\\n以防对手的先制攻击。",
+            "en": "Evades priority attacksfor one turn."
+        },
+        {
+            "label": "sALLY_SWITCHDescription",
+            "zh": "用神奇的力量瞬间移动，\\n互换自己和同伴所在的位置。",
+            "en": "The user switches placeswith its partner."
+        },
+        {
+            "label": "sSCALDDescription",
+            "zh": "喷射煮得翻滚的开水攻击。\\n有时会让对手陷入灼伤状态。",
+            "en": "Shoots boiling water at thefoe. May inflict a burn."
+        },
+        {
+            "label": "sSHELL_SMASHDescription",
+            "zh": "破壳降低自己的防御和特防，\\n大幅提高攻击、特攻和速度。",
+            "en": "Raises offensive stats, butlowers defensive stats."
+        },
+        {
+            "label": "sHEAL_PULSEDescription",
+            "zh": "放出治愈波动，\\n回复对手最大HP的一半。",
+            "en": "Recovers up to half thetarget's maximum HP."
+        },
+        {
+            "label": "sHEXDescription",
+            "zh": "对处于异常状态的对手\\n给予较大的伤害。",
+            "en": "Does double damage if thefoe has a status problem."
+        },
+        {
+            "label": "sSKY_DROPDescription",
+            "zh": "第1回合将对手带到空中\\n不能动弹，下回合将其摔下。",
+            "en": "Takes the foe into the skythen drops it the next turn."
+        },
+        {
+            "label": "sSHIFT_GEARDescription",
+            "zh": "转动齿轮，提高自己的攻击，\\n还会大幅提高速度。",
+            "en": "Rotates its gears to raiseAttack and Speed."
+        },
+        {
+            "label": "sCIRCLE_THROWDescription",
+            "zh": "扔飞对手，后备宝可梦上场。\\n如在野外，战斗将直接结束。",
+            "en": "Knocks the foe away to endthe battle."
+        },
+        {
+            "label": "sINCINERATEDescription",
+            "zh": "用火焰攻击对手。\\n对手携带的树果等会烧掉。",
+            "en": "Burns up Berries and Gemspreventing their use."
+        },
+        {
+            "label": "sQUASHDescription",
+            "zh": "压制对手，\\n从而将其行动顺序放到最后。",
+            "en": "Suppresses the foe, makingit move last."
+        },
+        {
+            "label": "sACROBATICSDescription",
+            "zh": "轻巧地攻击对手。自己没有\\n携带道具时，给予较大伤害。",
+            "en": "Does double damage if theuser has no item."
+        },
+        {
+            "label": "sREFLECT_TYPEDescription",
+            "zh": "反射对手的属性，\\n让自己也变成一样的属性。",
+            "en": "The user reflects the foe'stype, copying it."
+        },
+        {
+            "label": "sRETALIATEDescription",
+            "zh": "为倒下的同伴报仇。如果\\n上回合同伴倒下，威力提高。",
+            "en": "An attack that does moredamage if an ally fainted."
+        },
+        {
+            "label": "sFINAL_GAMBITDescription",
+            "zh": "自己陷入濒死，给予对手\\n和自己目前HP等量的伤害。",
+            "en": "The user faints to damagethe foe equal to its HP."
+        },
+        {
+            "label": "sBESTOWDescription",
+            "zh": "当对手未携带道具时，\\n将自己携带的道具交给对手。",
+            "en": "The user gives its helditem to the foe."
+        },
+        {
+            "label": "sINFERNODescription",
+            "zh": "用烈焰包裹住对手进行攻击。\\n让对手陷入灼伤状态。",
+            "en": "Powerful and sure to inflicta burn, but inaccurate."
+        },
+        {
+            "label": "sWATER_PLEDGEDescription",
+            "zh": "水柱攻击。如果和火组合，\\n威力更高，天空中出现彩虹。",
+            "en": "Attacks with a column ofwater. May make a rainbow."
+        },
+        {
+            "label": "sFIRE_PLEDGEDescription",
+            "zh": "火柱攻击。如果和草组合，\\n威力更高，周围会变成火海。",
+            "en": "Attacks with a column offire. May burn the grass."
+        },
+        {
+            "label": "sGRASS_PLEDGEDescription",
+            "zh": "草柱攻击。如果和水组合，\\n威力更高，周围会变成湿地。",
+            "en": "Attacks with a column ofgrass. May create a swamp."
+        },
+        {
+            "label": "sSTRUGGLE_BUGDescription",
+            "zh": "抵抗并攻击对手。\\n降低对手的特攻。",
+            "en": "Resisting, the user attacksthe foe. Lowers Sp. Atk."
+        },
+        {
+            "label": "sBULLDOZEDescription",
+            "zh": "踩踏地面并攻击周围所有的\\n宝可梦。降低对方的速度。",
+            "en": "Stomps down on the ground.Lowers Speed."
+        },
+        {
+            "label": "sWORK_UPDescription",
+            "zh": "激励自己，\\n从而提高攻击和特攻。",
+            "en": "The user is roused.Ups Attack and Sp. Atk."
+        },
+        {
+            "label": "sELECTROWEBDescription",
+            "zh": "用电网捉住对手进行攻击。\\n降低对手的速度。",
+            "en": "Snares the foe with anelectric net. Lowers Speed."
+        },
+        {
+            "label": "sWILD_CHARGEDescription",
+            "zh": "让电流覆盖全身撞向对手。\\n自己也会受到少许伤害。",
+            "en": "An electrical tackle thatalso hurts the user."
+        },
+        {
+            "label": "sDRILL_RUNDescription",
+            "zh": "一边旋转身体一边撞击对手。\\n容易击中要害。",
+            "en": "Spins its body like a drill.High critical-hit ratio."
+        },
+        {
+            "label": "sDUAL_CHOPDescription",
+            "zh": "用身体坚硬的部分拍打对手。\\n连续2次给予伤害。",
+            "en": "Attacks with brutal hitsthat strike twice."
+        },
+        {
+            "label": "sHEART_STAMPDescription",
+            "zh": "乘机给出强烈的一击。\\n有时会使对手畏缩。",
+            "en": "A sudden blow after a cuteact. May cause flinching."
+        },
+        {
+            "label": "sRAZOR_SHELLDescription",
+            "zh": "用锋利的贝壳切斩对手攻击。\\n有时会降低对手的防御。",
+            "en": "Tears at the foe with sharpshells. May lower Defense."
+        },
+        {
+            "label": "sLEAF_TORNADODescription",
+            "zh": "用锋利的叶片包裹住对手。\\n有时会降低对手的命中率。",
+            "en": "Circles the foe with leavesto damage and cut accuracy."
+        },
+        {
+            "label": "sSTEAMROLLERDescription",
+            "zh": "旋转揉成团的身体压扁对手。\\n有时会使对手畏缩。",
+            "en": "Crushes the foe with itsbody. May cause flinching."
+        },
+        {
+            "label": "sCOTTON_GUARDDescription",
+            "zh": "用绒毛包裹住自己的身体。\\n巨幅提高自己的防御。",
+            "en": "Wraps its body in cotton.Drastically raises Defense."
+        },
+        {
+            "label": "sNIGHT_DAZEDescription",
+            "zh": "放出黑暗的冲击波攻击对手。\\n有时会降低对手的命中率。",
+            "en": "Looses a pitch-black shockwave. May lower accuracy."
+        },
+        {
+            "label": "sHURRICANEDescription",
+            "zh": "用强烈的风席卷对手攻击。\\n有时会使对手混乱。",
+            "en": "Traps the foe in a fiercewind. May cause confusion."
+        },
+        {
+            "label": "sHEAD_CHARGEDescription",
+            "zh": "用厉害的爆炸头猛撞向对手。\\n自己也会受到少许伤害。",
+            "en": "A charge using guard hair.It hurts the user a little."
+        },
+        {
+            "label": "sGEAR_GRINDDescription",
+            "zh": "向对手投掷钢铁齿轮攻击。\\n连续2次给予伤害。",
+            "en": "Throws two steel gearsthat strike twice."
+        },
+        {
+            "label": "sTECHNO_BLASTDescription",
+            "zh": "向对手放出光弹。\\n根据携带的卡带改变属性。",
+            "en": "The type varies with thekind of Drive held."
+        },
+        {
+            "label": "sRELIC_SONGDescription",
+            "zh": "用古老之歌，打动对手内心。\\n有时会让对手陷入睡眠状态。",
+            "en": "Attacks with an ancientsong. May induce sleep."
+        },
+        {
+            "label": "sSECRET_SWORDDescription",
+            "zh": "用长角切斩对手进行攻击。\\n神奇的力量将给予物理伤害。",
+            "en": "Cuts with a long horn thatdoes physical damage."
+        },
+        {
+            "label": "sGLACIATEDescription",
+            "zh": "将冰冻的冷气吹向对手。\\n会降低对手的速度。",
+            "en": "Blows very cold air at thefoe. It lowers their Speed."
+        },
+        {
+            "label": "sBOLT_STRIKEDescription",
+            "zh": "电流覆盖全身后猛撞向对手。\\n对手可能陷入麻痹。",
+            "en": "Strikes with a great amountof lightning. May paralyze."
+        },
+        {
+            "label": "sBLUE_FLAREDescription",
+            "zh": "用激烈的青焰包裹住对手。\\n有时会让对手陷入灼伤状态。",
+            "en": "Engulfs the foe in a blueflame. May inflict a burn."
+        },
+        {
+            "label": "sFIERY_DANCEDescription",
+            "zh": "火焰覆盖全身后振翅攻击。\\n有时会提高自己的特攻。",
+            "en": "Dances cloaked in flames.May raise Sp. Atk."
+        },
+        {
+            "label": "sFREEZE_SHOCKDescription",
+            "zh": "在第2回合用覆盖电流的冰块\\n攻击。对手可能陷入麻痹。",
+            "en": "A powerful 2-turn move thatmay paralyze the foe."
+        },
+        {
+            "label": "sICE_BURNDescription",
+            "zh": "在第2回合用强烈的冷气包裹\\n住对手。对手可能陷入灼伤。",
+            "en": "A powerful 2-turn move thatmay inflict a burn."
+        },
+        {
+            "label": "sSNARLDescription",
+            "zh": "没完没了地大声斥责，\\n从而降低对手的特攻。",
+            "en": "Yells and rants at the foelowering its Sp. Atk."
+        },
+        {
+            "label": "sICICLE_CRASHDescription",
+            "zh": "用大冰柱激烈地撞向对手。\\n有时会使对手畏缩。",
+            "en": "Drops large icicles on thefoe. May cause flinching."
+        },
+        {
+            "label": "sV_CREATEDescription",
+            "zh": "用灼热的火焰舍身撞击对手。\\n防御、特防和速度会降低。",
+            "en": "Very powerful, but lowersDefense, Sp. Def and Speed."
+        },
+        {
+            "label": "sFUSION_FLAREDescription",
+            "zh": "释放出巨大的火焰。受到\\n巨大闪电影响时，威力提高。",
+            "en": "Summons a fireball. Workswell with a thunderbolt."
+        },
+        {
+            "label": "sFUSION_BOLTDescription",
+            "zh": "释放出巨大的闪电。受到\\n巨大火焰影响时，威力提高。",
+            "en": "Summons a thunderbolt.Works well with a fireball."
+        },
+        {
+            "label": "sFLYING_PRESSDescription",
+            "zh": "从空中俯冲向对手。此招式\\n同时带有格斗和飞行属性。",
+            "en": "This attack does Fightingand Flying-type damage."
+        },
+        {
+            "label": "sMAT_BLOCKDescription",
+            "zh": "自己和同伴免受招式伤害。\\n变化招式无法防住。",
+            "en": "Evades damaging movesfor one turn."
+        },
+        {
+            "label": "sBELCHDescription",
+            "zh": "朝着对手打嗝，并给予伤害。\\n如果不吃树果则无法使出。",
+            "en": "Lets out a loud belch.Must eat a Berry to use it."
+        },
+        {
+            "label": "sROTOTILLERDescription",
+            "zh": "翻耕土地，提高草属性\\n宝可梦的攻击和特攻。",
+            "en": "Ups the Attack and Sp. Atkof Grass-type Pokémon."
+        },
+        {
+            "label": "sSTICKY_WEBDescription",
+            "zh": "在对手周围围上黏黏的网，\\n降低替换出场的对手的速度。",
+            "en": "Weaves a sticky net thatslows foes switching in."
+        },
+        {
+            "label": "sFELL_STINGERDescription",
+            "zh": "如果使用此招式打倒对手，\\n攻击会巨幅提高。",
+            "en": "If it knocks out a foethe Attack stat is raised."
+        },
+        {
+            "label": "sTRICK_OR_TREATDescription",
+            "zh": "邀请对手参加万圣夜。\\n使对手被追加幽灵属性。",
+            "en": "Goes trick-or-treatingmaking the foe Ghost-type."
+        },
+        {
+            "label": "sNOBLE_ROARDescription",
+            "zh": "发出战吼威吓对手，\\n从而降低对手的攻击和特攻。",
+            "en": "Intimidates the foe, to cutAttack and Sp. Atk."
+        },
+        {
+            "label": "sION_DELUGEDescription",
+            "zh": "将带电粒子扩散开来，\\n使一般属性招式变成电属性。",
+            "en": "Electrifies Normal-typemoves with charged atoms."
+        },
+        {
+            "label": "sPARABOLIC_CHARGEDescription",
+            "zh": "给周围全体宝可梦造成伤害。\\n可以回复给予伤害的一半HP。",
+            "en": "Damages adjacent Pokémon andheals up by half of it."
+        },
+        {
+            "label": "sFORESTS_CURSEDescription",
+            "zh": "向对手施加森林诅咒。\\n被诅咒的对手会追加草属性。",
+            "en": "Puts a curse on the foemaking the foe Grass-type."
+        },
+        {
+            "label": "sPETAL_BLIZZARDDescription",
+            "zh": "猛烈地刮起飞雪般的落花，\\n攻击周围所有的宝可梦。",
+            "en": "Stirs up a violent stormof petals to attack."
+        },
+        {
+            "label": "sFREEZE_DRYDescription",
+            "zh": "冷冻对手并可能使对手冰冻。\\n对水属性宝可梦效果绝佳。",
+            "en": "Super effective on Water-types. May cause freezing."
+        },
+        {
+            "label": "sDISARMING_VOICEDescription",
+            "zh": "给予对手精神上的伤害。\\n攻击必定会命中。",
+            "en": "Lets out a charming crythat cannot be evaded."
+        },
+        {
+            "label": "sPARTING_SHOTDescription",
+            "zh": "威吓对手降低攻击和特攻后，\\n和后备宝可梦进行替换。",
+            "en": "Lowers the foe's Attack andSp. Atk, then switches out."
+        },
+        {
+            "label": "sTOPSY_TURVYDescription",
+            "zh": "颠倒对手身上的能力变化，\\n变成和原来相反的状态。",
+            "en": "Swaps all stat changes thataffect the target."
+        },
+        {
+            "label": "sDRAINING_KISSDescription",
+            "zh": "用一个吻吸取对手的HP。\\n回复伤害的一半以上的HP。",
+            "en": "An attack that absorbs overhalf the damage inflicted."
+        },
+        {
+            "label": "sCRAFTY_SHIELDDescription",
+            "zh": "防住攻击我方的变化招式。\\n但无法防住伤害招式的攻击。",
+            "en": "Evades status moves forone turn."
+        },
+        {
+            "label": "sFLOWER_SHIELDDescription",
+            "zh": "使用神奇的力量提高在场的\\n所有草属性宝可梦的防御。",
+            "en": "Raises the Defense ofGrass-type Pokémon."
+        },
+        {
+            "label": "sGRASSY_TERRAINDescription",
+            "zh": "5回合青草场地。在地面上每\\n回合都能回复。草威力提高。",
+            "en": "The ground turns to grassfor 5 turns. Restores HP."
+        },
+        {
+            "label": "sMISTY_TERRAINDescription",
+            "zh": "5回合内地面上的宝可梦不会\\n陷入异常。龙招式伤害减半。",
+            "en": "Covers the ground with mistfor 5 turns. Blocks status."
+        },
+        {
+            "label": "sELECTRIFYDescription",
+            "zh": "如果在对手使出招式前输电，\\n该回合对手的招式变电属性。",
+            "en": "Electrifies the foe, makingits next move Electric-type."
+        },
+        {
+            "label": "sPLAY_ROUGHDescription",
+            "zh": "与对手嬉闹并攻击。\\n有时会降低对手的攻击。",
+            "en": "Plays rough with the foe.May lower Attack."
+        },
+        {
+            "label": "sFAIRY_WINDDescription",
+            "zh": "刮起妖精之风，\\n吹向对手进行攻击。",
+            "en": "Stirs up a fairy wind tostrike the foe."
+        },
+        {
+            "label": "sMOONBLASTDescription",
+            "zh": "借用月亮的力量攻击对手。\\n有时会降低对手的特攻。",
+            "en": "Attacks with the power ofthe moon. May lower Sp. Atk."
+        },
+        {
+            "label": "sBOOMBURSTDescription",
+            "zh": "震耳的爆炸声产生破坏力，\\n攻击自己周围所有的宝可梦。",
+            "en": "Attacks everything with adestructive sound wave."
+        },
+        {
+            "label": "sFAIRY_LOCKDescription",
+            "zh": "通过封锁，下一回合\\n所有的宝可梦都无法逃走。",
+            "en": "Locks down the battlefieldpreventing escape next turn."
+        },
+        {
+            "label": "sKINGS_SHIELDDescription",
+            "zh": "防住攻击，并变为防御姿态。\\n降低接触到的对手的攻击。",
+            "en": "Evades damage, and sharplyreduces Attack if struck."
+        },
+        {
+            "label": "sPLAY_NICEDescription",
+            "zh": "使对手失去战斗的气力，\\n从而降低对手的攻击。",
+            "en": "Befriend the foe, loweringits Attack without fail."
+        },
+        {
+            "label": "sCONFIDEDescription",
+            "zh": "和对手进行密语，使其失去集\\n中力，从而降低对手的特攻。",
+            "en": "Shares a secret with thefoe, lowering Sp. Atk."
+        },
+        {
+            "label": "sDIAMOND_STORMDescription",
+            "zh": "掀起钻石风暴给予伤害。\\n有时会大幅提高自己的防御。",
+            "en": "Whips up a storm ofdiamonds. May up Defense."
+        },
+        {
+            "label": "sSTEAM_ERUPTIONDescription",
+            "zh": "将滚烫的蒸汽喷向对手。\\n有时会让对手灼伤。",
+            "en": "Immerses the foe in heatedsteam. May inflict a burn."
+        },
+        {
+            "label": "sHYPERSPACE_HOLEDescription",
+            "zh": "突然出现在对手的侧面攻击。\\n还能无视守住和看穿等招式。",
+            "en": "Uses a warp hole to attack.Can't be evaded."
+        },
+        {
+            "label": "sWATER_SHURIKENDescription",
+            "zh": "用手里剑连续攻击2~5次。\\n必定能够先制攻击。",
+            "en": "Throws 2 to 5 stars thatare sure to strike first."
+        },
+        {
+            "label": "sMYSTICAL_FIREDescription",
+            "zh": "从口中喷出灼热的火焰攻击。\\n降低对手的特攻。",
+            "en": "Breathes a special, hotfire. May lower Sp. Atk."
+        },
+        {
+            "label": "sSPIKY_SHIELDDescription",
+            "zh": "防住对手攻击的同时，\\n接触到自己的对手会受伤。",
+            "en": "Evades attack, and damagesthe foe if struck."
+        },
+        {
+            "label": "sAROMATIC_MISTDescription",
+            "zh": "通过神奇的芳香，\\n提高我方宝可梦的特防。",
+            "en": "Raises the Sp. Def of apartner Pokémon."
+        },
+        {
+            "label": "sEERIE_IMPULSEDescription",
+            "zh": "从身体放射出怪异电波，\\n大幅降低对手特攻。",
+            "en": "Exposes the foe to a pulsethat sharply cuts Sp. Atk."
+        },
+        {
+            "label": "sVENOM_DRENCHDescription",
+            "zh": "将毒液泼向对手。已中毒的对\\n手，攻击、特攻和速度降低。",
+            "en": "Lowers the Attack, Sp. Atkand Speed of a poisoned foe."
+        },
+        {
+            "label": "sPOWDERDescription",
+            "zh": "被撒到粉尘的对手用火招式，\\n则会爆炸并给予伤害。",
+            "en": "Damages the foe if it usesa Fire-type move."
+        },
+        {
+            "label": "sGEOMANCYDescription",
+            "zh": "第1回合吸收能量，下回合\\n大幅提高特攻、特防和速度。",
+            "en": "Raises Sp. Atk, Sp. Def andSpeed on the 2nd turn."
+        },
+        {
+            "label": "sMAGNETIC_FLUXDescription",
+            "zh": "提高特性为正电和负电\\n的宝可梦的防御和特防。",
+            "en": "Boosts the defenses ofthose with Plus or Minus."
+        },
+        {
+            "label": "sHAPPY_HOURDescription",
+            "zh": "如果使用欢乐时光，\\n战斗后得到的钱会翻倍。",
+            "en": "Doubles the amount ofPrize Money received."
+        },
+        {
+            "label": "sELECTRIC_TERRAINDescription",
+            "zh": "5回合电气场地。在地面上宝\\n可梦无法入眠。电威力提高。",
+            "en": "Electrifies the ground for5 turns. Prevents sleep."
+        },
+        {
+            "label": "sDAZZLING_GLEAMDescription",
+            "zh": "向对手发射强光，\\n并给予伤害。",
+            "en": "Damages foes by emittinga bright flash."
+        },
+        {
+            "label": "sCELEBRATEDescription",
+            "zh": "宝可梦为十分开心的你庆祝。",
+            "en": "Congratulates you on yourspecial day."
+        },
+        {
+            "label": "sHOLD_HANDSDescription",
+            "zh": "我方宝可梦之间牵手。\\n能带来非常幸福的心情。",
+            "en": "The user and ally hold handsmaking them happy."
+        },
+        {
+            "label": "sBABYDOLL_EYESDescription",
+            "zh": "用圆瞳凝视对手降低其攻击。\\n必定能够先制攻击。",
+            "en": "Lowers the foe's Attackbefore it can move."
+        },
+        {
+            "label": "sNUZZLEDescription",
+            "zh": "将带电的脸颊蹭蹭对手。\\n让对手陷入麻痹状态。",
+            "en": "Rubs its cheecks againstthe foe, paralyzing it."
+        },
+        {
+            "label": "sINFESTATIONDescription",
+            "zh": "在2~5回合内死缠烂打攻击。\\n在此期间对手将无法逃走。",
+            "en": "The foe is infested andattacked for 2 to 5 turns."
+        },
+        {
+            "label": "sPOWER_UP_PUNCHDescription",
+            "zh": "反复击打对手后拳头变硬。\\n打中对手攻击就会提高。",
+            "en": "A hard punch that raisesthe user's Attack."
+        },
+        {
+            "label": "sTHOUSAND_ARROWSDescription",
+            "zh": "可以击中浮在空中的宝可梦。\\n对手被击落后，会掉到地面。",
+            "en": "Can hit Flying foes, thenknocks them to the ground."
+        },
+        {
+            "label": "sTHOUSAND_WAVESDescription",
+            "zh": "从地面掀起波浪进行攻击。\\n被掀入波浪后，将无法逃走。",
+            "en": "Those hit by the wave canno longer escape."
+        },
+        {
+            "label": "sLANDS_WRATHDescription",
+            "zh": "聚集大地的力量，\\n将此力量集中攻击对手。",
+            "en": "Gathers the energy of theland to attack every foe."
+        },
+        {
+            "label": "sLIGHT_OF_RUINDescription",
+            "zh": "用永恒之花的力量发射光线。\\n自己也会受到不小的伤害。",
+            "en": "Fires a great beam of lightthat also hurts the user."
+        },
+        {
+            "label": "sORIGIN_PULSEDescription",
+            "zh": "用无数青白色且闪耀的光线\\n攻击对手。",
+            "en": "Beams of glowing blue lightblast both foes."
+        },
+        {
+            "label": "sPRECIPICE_BLADESDescription",
+            "zh": "将大地的力量变化为利刃\\n攻击对手。",
+            "en": "Fearsome blades of stoneattack both foes."
+        },
+        {
+            "label": "sLAVA_PLUMEDescription",
+            "zh": "用熊熊烈火攻击周围所有的\\n宝可梦。可能会陷入灼伤。",
+            "en": "Scarlet flames torcheverything around the user."
+        },
+        {
+            "label": "sLEAF_STORMDescription",
+            "zh": "用尖尖的叶片卷起风暴。\\n但自己的特攻会大幅降低。",
+            "en": "Whips up a storm of leaves.Harshly lowers the Sp. Atk."
+        },
+        {
+            "label": "sSHORE_UPDescription",
+            "zh": "回复自己最大HP的一半。\\n在沙暴中回复得更多。",
+            "en": "Restores the user's HP.More HP in a sandstorm."
+        },
+        {
+            "label": "sFIRST_IMPRESSIONDescription",
+            "zh": "威力很高，但只有在刚出场时\\n使出才能成功。",
+            "en": "Hits hard and first.Only works first turn."
+        },
+        {
+            "label": "sBANEFUL_BUNKERDescription",
+            "zh": "防住对手攻击的同时，\\n让接触到自己的对手中毒。",
+            "en": "Protects user and poisonsfoes on contact."
+        },
+        {
+            "label": "sSPIRIT_SHACKLEDescription",
+            "zh": "攻击的同时，缝住对手影子，\\n使其无法逃走。",
+            "en": "After being hit, foes canno longer escape."
+        },
+        {
+            "label": "sDARKEST_LARIATDescription",
+            "zh": "不受到对手能力变化影响，\\n给予对手伤害。",
+            "en": "Swings the arms to strikeIt ignores stat changes."
+        },
+        {
+            "label": "sSPARKLING_ARIADescription",
+            "zh": "受到这招式攻击的对手\\n身上的灼伤状态将会痊愈。",
+            "en": "Sings with bubbles. Curesburns on contact."
+        },
+        {
+            "label": "sICE_HAMMERDescription",
+            "zh": "挥舞强力而沉重的拳头。\\n但自己的速度会降低。",
+            "en": "Swings the fist to strike.Lowers the user's Speed."
+        },
+        {
+            "label": "sFLORAL_HEALINGDescription",
+            "zh": "回复对手最大HP的一半。\\n在青草场地时，效果会提高。",
+            "en": "Restores an ally's HP.Heals more on grass."
+        },
+        {
+            "label": "sHIGH_HORSEPOWERDescription",
+            "zh": "使出全身力量，猛攻对手。",
+            "en": "Slams hard into the foe withits entire body."
+        },
+        {
+            "label": "sSTRENGTH_SAPDescription",
+            "zh": "回复和对手攻击力相同数值\\n的HP，降低对手的攻击。",
+            "en": "Saps the foe's Attack toheal HP, then drops Attack."
+        },
+        {
+            "label": "sSOLAR_BLADEDescription",
+            "zh": "在第1回合储存日光的能量，\\n下回合使出高威力攻击。",
+            "en": "Charges first turn, thenchops with a blade of light."
+        },
+        {
+            "label": "sLEAFAGEDescription",
+            "zh": "将叶片打向对手，进行攻击。",
+            "en": "Attacks with a flurry ofsmall leaves."
+        },
+        {
+            "label": "sSPOTLIGHTDescription",
+            "zh": "给宝可梦打上聚光灯，\\n该回合只能瞄准该宝可梦。",
+            "en": "Makes the foe attack thespotlighted Pokémon."
+        },
+        {
+            "label": "sTOXIC_THREADDescription",
+            "zh": "将有毒的丝吐向对手。\\n使其中毒，并降低对手速度。",
+            "en": "Attacks with a thread thatpoisons and drops Speed."
+        },
+        {
+            "label": "sLASER_FOCUSDescription",
+            "zh": "集中精神，\\n下次攻击必定会击中要害。",
+            "en": "Guarantees the next movewill be a critical hit."
+        },
+        {
+            "label": "sGEAR_UPDescription",
+            "zh": "启动齿轮，提高特性为正电\\n和负电宝可梦的攻击和特攻。",
+            "en": "Boosts the attacks ofthose with Plus or Minus."
+        },
+        {
+            "label": "sTHROAT_CHOPDescription",
+            "zh": "对手受到地狱般的痛苦，2回\\n合内，无法使出声音类招式。",
+            "en": "Chops the throat to disablesound moves for a while."
+        },
+        {
+            "label": "sPOLLEN_PUFFDescription",
+            "zh": "对敌人使用是会爆炸的团子。\\n对我方使用则会给予回复。",
+            "en": "Explodes on foes, butrestores ally's HP."
+        },
+        {
+            "label": "sANCHOR_SHOTDescription",
+            "zh": "将锚缠住对手进行攻击。\\n使对手无法逃走。",
+            "en": "Strangles the foe with achain. The foe can't flinch."
+        },
+        {
+            "label": "sPSYCHIC_TERRAINDescription",
+            "zh": "5回合内在地面上不会被先制\\n招式攻击。超能力威力提高。",
+            "en": "The ground turns weird for5 turns. Blocks priority."
+        },
+        {
+            "label": "sLUNGEDescription",
+            "zh": "全力猛扑对手进行攻击。\\n从而降低对手的攻击。",
+            "en": "Lunges at the foe to lowerits Attack stat."
+        },
+        {
+            "label": "sFIRE_LASHDescription",
+            "zh": "用燃烧的鞭子抽打对手。\\n受到攻击的对手防御会降低。",
+            "en": "Whips the foe with firelowering its Defense."
+        },
+        {
+            "label": "sPOWER_TRIPDescription",
+            "zh": "耀武扬威地攻击对手，自己\\n的能力提高越多，威力越大。",
+            "en": "It hits harder the morestat boosts the user has."
+        },
+        {
+            "label": "sBURN_UPDescription",
+            "zh": "全身燃烧起火焰攻击对手。\\n但自己的火属性将会消失。",
+            "en": "Burns out the user fullyremoving the Fire type."
+        },
+        {
+            "label": "sSPEED_SWAPDescription",
+            "zh": "将对手和自己的速度\\n进行互换。",
+            "en": "Swaps user's Speed withthe target's."
+        },
+        {
+            "label": "sSMART_STRIKEDescription",
+            "zh": "用尖尖的角刺入对手攻击。\\n攻击必定会命中。",
+            "en": "Hits with an accuratehorn that never misses."
+        },
+        {
+            "label": "sPURIFYDescription",
+            "zh": "治愈对手的异常状态。\\n治愈后可以回复自己的HP。",
+            "en": "Cures the foe's statusto restore HP."
+        },
+        {
+            "label": "sREVELATION_DANCEDescription",
+            "zh": "全力跳舞进行攻击。此招式\\n属性变得和自己属性相同。",
+            "en": "Dances with mystical power.Matches user's first type."
+        },
+        {
+            "label": "sCORE_ENFORCERDescription",
+            "zh": "使出后能够消除已经在该回\\n合使出招式的对手的特性。",
+            "en": "Hits with a ray thatnullifies the foe's ability."
+        },
+        {
+            "label": "sTROP_KICKDescription",
+            "zh": "向对手使出南国的火热脚踢。\\n从而降低对手的攻击。",
+            "en": "An intense kick from thetropics. Lowers Attack."
+        },
+        {
+            "label": "sINSTRUCTDescription",
+            "zh": "向对手下达指示，\\n让其再次使出刚才的招式。",
+            "en": "Orders the target to useits last move again."
+        },
+        {
+            "label": "sBEAK_BLASTDescription",
+            "zh": "先加热鸟嘴后再进行攻击。\\n触碰加热时的鸟嘴会被灼伤。",
+            "en": "Heats up beak to attack.Burns foe on contact."
+        },
+        {
+            "label": "sCLANGING_SCALESDescription",
+            "zh": "摩擦鳞片发出响亮声音攻击。\\n攻击后自己的防御会降低。",
+            "en": "Makes a big noise withits scales. Drops Defense."
+        },
+        {
+            "label": "sDRAGON_HAMMERDescription",
+            "zh": "将身体当作锤子，\\n向对手发动袭击，给予伤害。",
+            "en": "Swings its whole bodylike a hammer to damage."
+        },
+        {
+            "label": "sBRUTAL_SWINGDescription",
+            "zh": "用自己的身体狂舞挥打，\\n给予对手伤害。",
+            "en": "Violently swings aroundto hurt everyone nearby."
+        },
+        {
+            "label": "sAURORA_VEILDescription",
+            "zh": "在5回合内，减弱物理和特殊\\n的伤害。仅冰雹时才能使出。",
+            "en": "Weakens all attacks, butonly usable with hail."
+        },
+        {
+            "label": "sSHELL_TRAPDescription",
+            "zh": "设下陷阱，若该回合中受到\\n物理攻击，会爆炸炸伤对手。",
+            "en": "Sets a shell trap thatdamages on contact."
+        },
+        {
+            "label": "sFLEUR_CANNONDescription",
+            "zh": "放出强力光束后，\\n自己的特攻会大幅降低。",
+            "en": "A strong ray that harshlylowers Sp. Attack."
+        },
+        {
+            "label": "sPSYCHIC_FANGSDescription",
+            "zh": "利用精神力量咬住对手攻击。\\n还可以破坏光墙和反射壁等。",
+            "en": "Chomps with psychic fangs.Destroys any barriers."
+        },
+        {
+            "label": "sSTOMPING_TANTRUMDescription",
+            "zh": "化悔恨为力量进行攻击。\\n如上回合没打中，威力翻倍。",
+            "en": "Stomps around angrily.Stronger after a failure."
+        },
+        {
+            "label": "sSHADOW_BONEDescription",
+            "zh": "用附有灵魂的骨头殴打对手。\\n有时会降低对手的防御。",
+            "en": "Strikes with a hauntedbone. Might drop Defense."
+        },
+        {
+            "label": "sACCELEROCKDescription",
+            "zh": "透过敏捷的动作撞击对手，\\n一定能先发制人进行攻击。",
+            "en": "Hits with a high-speedrock that always goes first."
+        },
+        {
+            "label": "sLIQUIDATIONDescription",
+            "zh": "用水之力量撞向对手攻击。\\n有时会降低对手的防御。",
+            "en": "Slams the foe with water.Can lower Defense."
+        },
+        {
+            "label": "sPRISMATIC_LASERDescription",
+            "zh": "用棱镜的力量发射强烈光线。\\n下一回合自己将无法动弹。",
+            "en": "A high power laser thatforces recharge next turn."
+        },
+        {
+            "label": "sSPECTRAL_THIEFDescription",
+            "zh": "潜入对手的影子进行攻击。\\n会夺取对手的能力提升。",
+            "en": "Steals the target's statboosts, then attacks."
+        },
+        {
+            "label": "sSUNSTEEL_STRIKEDescription",
+            "zh": "以流星般的气势猛撞对手，\\n无视对手的特性并进行攻击。",
+            "en": "A sun-fueled strike thatignores abilities."
+        },
+        {
+            "label": "sMOONGEIST_BEAMDescription",
+            "zh": "放出奇异的光线攻击对手，\\n无视对手的特性进行攻击。",
+            "en": "A moon-powered beam thatignores abilities."
+        },
+        {
+            "label": "sTEARFUL_LOOKDescription",
+            "zh": "泪眼汪汪，让对手丧失斗志。\\n从而降低对手的攻击和特攻。",
+            "en": "The user tears up, droppingAttack and Sp. Attack."
+        },
+        {
+            "label": "sZING_ZAPDescription",
+            "zh": "撞向对手，并发出强电。\\n有时会使对手畏缩。",
+            "en": "An electrified impact thatcan cause flinching."
+        },
+        {
+            "label": "sNATURES_MADNESSDescription",
+            "zh": "向对手发泄自然之怒，\\n使对手的HP减半。",
+            "en": "Halves the foe's HP withthe power of nature."
+        },
+        {
+            "label": "sMULTI_ATTACKDescription",
+            "zh": "盖高能量撞向对手进行攻击。\\n根据存储碟不同，属性不同。",
+            "en": "An attack that changeswith Memories."
+        },
+        {
+            "label": "sMIND_BLOWNDescription",
+            "zh": "让自己的头爆炸，来攻击\\n周围的一切。自己会受伤。",
+            "en": "It explodes the user's headto damage everything around."
+        },
+        {
+            "label": "sPLASMA_FISTSDescription",
+            "zh": "用覆盖着电流的拳头攻击。\\n使一般属性招式变成电属性。",
+            "en": "Hits with electrical fists.Normal moves become Electric."
+        },
+        {
+            "label": "sPHOTON_GEYSERDescription",
+            "zh": "比较自己的攻击和特攻，\\n用数值较高的一项给予伤害。",
+            "en": "User's highest attack statdetermines its category."
+        },
+        {
+            "label": "sZIPPY_ZAPDescription",
+            "zh": "迅猛无比的电击。先制攻击，\\n能击中对方的要害。",
+            "en": "Electric bursts always gofirst and land a critical hit."
+        },
+        {
+            "label": "sSPLISHY_SPLASHDescription",
+            "zh": "巨浪中注入电能后冲撞对手。\\n有时会让对手陷入麻痹状态。",
+            "en": "A huge electrified wave thatmay paralyze the foe."
+        },
+        {
+            "label": "sFLOATY_FALLDescription",
+            "zh": "飘浮起来后猛地俯冲下去。\\n有时会使对手畏缩。",
+            "en": "Floats in air and dives atangle. May cause flinching."
+        },
+        {
+            "label": "sPIKA_PAPOWDescription",
+            "zh": "越喜欢训练家威力就越强。\\n攻击必定会命中。",
+            "en": "Pikachu's love increases itspower. It never misses."
+        },
+        {
+            "label": "sBUZZY_BUZZDescription",
+            "zh": "放出电击攻击对手。\\n让对手陷入麻痹状态。",
+            "en": "Shoots a jolt of electricitythat always paralyzes."
+        },
+        {
+            "label": "sSIZZLY_SLIDEDescription",
+            "zh": "用燃烧的身体猛烈地冲撞。\\n让对手陷入灼伤状态。",
+            "en": "User cloaked in fire charges.Leaves the foe with a burn."
+        },
+        {
+            "label": "sGLITZY_GLOWDescription",
+            "zh": "利用念力强攻。制造一道能\\n减弱对手特殊攻击的墙壁。",
+            "en": "Telekinetic force that setswall, lowering Sp. Atk damage."
+        },
+        {
+            "label": "sBADDY_BADDescription",
+            "zh": "恶行恶相地攻击。制造一道\\n能减弱对手物理攻击的墙壁。",
+            "en": "Acting badly, attacks. Setswall, lowering Attack damage."
+        },
+        {
+            "label": "sSAPPY_SEEDDescription",
+            "zh": "巨大的藤蔓播撒种子攻击。\\n种子每回合都会吸取对手HP。",
+            "en": "Giant stalk scatters seedsthat drain HP every turn."
+        },
+        {
+            "label": "sFREEZY_FROSTDescription",
+            "zh": "利用冰冷的黑雾结晶攻击。\\n使全体宝可梦能力变回原点。",
+            "en": "Crystal from cold haze hits.Eliminates all stat changes."
+        },
+        {
+            "label": "sSPARKLY_SWIRLDescription",
+            "zh": "芬芳刺鼻的龙卷风吞噬对方。并治愈我方宝可梦异常状态。",
+            "en": "Wrap foe with whirlwind ofscent. Heals party's status."
+        },
+        {
+            "label": "sVEEVEE_VOLLEYDescription",
+            "zh": "越喜欢训练家冲撞威力越强。\\n攻击必定会命中。",
+            "en": "Eevee's love increases itspower. It never misses."
+        },
+        {
+            "label": "sDOUBLE_IRON_BASHDescription",
+            "zh": "高速旋转连续2次打击对手。\\n有时会使对手畏缩。",
+            "en": "The user spins and hits withits arms. May cause flinch."
+        },
+        {
+            "label": "sDYNAMAX_CANNONDescription",
+            "zh": "从核心放出光束进行攻击。",
+            "en": "Fires a strong beam. Deals2x damage to Dynamaxed foes."
+        },
+        {
+            "label": "sSNIPE_SHOTDescription",
+            "zh": "无视对手招式或特性的吸引\\n效果。可向选定的对手攻击。",
+            "en": "The user ignores effectsthat draw in moves."
+        },
+        {
+            "label": "sJAW_LOCKDescription",
+            "zh": "使双方无法替换宝可梦。\\n其中一方退场才解除效果。",
+            "en": "Prevents the user andthe target from escaping."
+        },
+        {
+            "label": "sSTUFF_CHEEKSDescription",
+            "zh": "吃掉携带的树果，\\n大幅提高防御。",
+            "en": "Consumes the user's Berry,then sharply raises Def."
+        },
+        {
+            "label": "sNO_RETREATDescription",
+            "zh": "提高自己的所有能力，\\n但无法替换或逃走。",
+            "en": "Raises all of the user'sstats but prevents escape."
+        },
+        {
+            "label": "sTAR_SHOTDescription",
+            "zh": "降低对手的速度，\\n并且使对手的弱点变为火。",
+            "en": "Lowers the foe's Speed andmakes it weak to Fire."
+        },
+        {
+            "label": "sMAGIC_POWDERDescription",
+            "zh": "向对手喷洒魔法粉，\\n使对手变为超能力属性。",
+            "en": "Magic powder changes thetarget into a Psychic-type."
+        },
+        {
+            "label": "sDRAGON_DARTSDescription",
+            "zh": "进行2次攻击。如2只宝可梦，\\n则对它们各进行1次攻击。",
+            "en": "The user attacks twice. Twotargets are hit once each."
+        },
+        {
+            "label": "sTEATIMEDescription",
+            "zh": "场上的所有宝可梦都会\\n吃掉自己携带的树果。",
+            "en": "All Pokémon have teatimeand eat their Berries."
+        },
+        {
+            "label": "sOCTOLOCKDescription",
+            "zh": "让对手无法逃走。被固定后，\\n每回合都会降低防御和特防。",
+            "en": "Traps the foe to lower Defand Sp. Def fall each turn."
+        },
+        {
+            "label": "sBOLT_BEAKDescription",
+            "zh": "用带电的喙啄刺对手。\\n如先出手，招式威力变2倍。",
+            "en": "Double power if the usermoves before the target."
+        },
+        {
+            "label": "sFISHIOUS_RENDDescription",
+            "zh": "用坚硬的腮咬住对手。\\n如先出手，招式威力变2倍。",
+            "en": "Double power if the usermoves before the target."
+        },
+        {
+            "label": "sCOURT_CHANGEDescription",
+            "zh": "用神奇的力量交换双方的\\n场地效果。",
+            "en": "The user swaps effects oneither side of the field."
+        },
+        {
+            "label": "sCLANGOROUS_SOULDescription",
+            "zh": "削减少许自己的HP，\\n使所有能力都提高。",
+            "en": "The user uses some of itsHP to raise all its stats."
+        },
+        {
+            "label": "sBODY_PRESSDescription",
+            "zh": "用身体撞向对手进行攻击。\\n防御越高，伤害就越高。",
+            "en": "Does more damage thehigher the user's Def."
+        },
+        {
+            "label": "sDECORATEDescription",
+            "zh": "通过装饰，\\n大幅提高对方的攻击和特攻。",
+            "en": "The user sharply raisesthe target's Atk and Sp.Atk"
+        },
+        {
+            "label": "sDRUM_BEATINGDescription",
+            "zh": "用鼓点来控制鼓的根部攻击，\\n从而降低对手的速度。",
+            "en": "Plays a drum to attack.The foe's Speed is lowered."
+        },
+        {
+            "label": "sSNAP_TRAPDescription",
+            "zh": "使用捕兽夹，在4~5回合内，\\n夹住对手进行攻击。",
+            "en": "Snares the target in a snaptrap for four to five turns."
+        },
+        {
+            "label": "sPYRO_BALLDescription",
+            "zh": "形成火球攻击对手。\\n有时会使对手陷入灼伤状态。",
+            "en": "Launches a fiery ball at thetarget. It may cause a burn."
+        },
+        {
+            "label": "sBEHEMOTH_BLADEDescription",
+            "zh": "变身为巨大的剑，挥斩对手。",
+            "en": "Strikes as a sword. It deals2x damage to Dynamaxed foes."
+        },
+        {
+            "label": "sBEHEMOTH_BASHDescription",
+            "zh": "变身为巨大的盾，撞击对手。",
+            "en": "Attacks as a sheild. Deals2x damage to Dynamaxed foes."
+        },
+        {
+            "label": "sAURA_WHEELDescription",
+            "zh": "用颊囊里的能量攻击，自身\\n速度提高，属性随样子改变。",
+            "en": "Raises Speed to attack. TheType is based on its form."
+        },
+        {
+            "label": "sBREAKING_SWIPEDescription",
+            "zh": "用坚韧的尾巴猛扫对手攻击，\\n从而降低对手的攻击。",
+            "en": "Swings its tail to attack.Lowers the Atk of those hit."
+        },
+        {
+            "label": "sBRANCH_POKEDescription",
+            "zh": "使用尖锐的树枝刺向对手\\n进行攻击。",
+            "en": "The user pokes the targetwith a pointed branch."
+        },
+        {
+            "label": "sOVERDRIVEDescription",
+            "zh": "奏响吉他和贝斯，\\n释放出剧烈震动攻击对手。",
+            "en": "The user twangs its guitar,causing strong vibrations."
+        },
+        {
+            "label": "sAPPLE_ACIDDescription",
+            "zh": "使用酸性液体进行攻击。\\n降低对手的特防。",
+            "en": "Attacks with tart apple acidto lower the foe's Sp. Def."
+        },
+        {
+            "label": "sGRAV_APPLEDescription",
+            "zh": "从高处落下苹果造成伤害。\\n可降低对手的防御。",
+            "en": "Drops an apple from above.Lowers the foe's Defense."
+        },
+        {
+            "label": "sSPIRIT_BREAKDescription",
+            "zh": "让对手一蹶不振的气势攻击。\\n会降低对手的特攻。",
+            "en": "Attacks with spirit-breakingforce. Lowers Sp. Atk."
+        },
+        {
+            "label": "sSTRANGE_STEAMDescription",
+            "zh": "喷出烟雾攻击对手。\\n有时会使对手混乱。",
+            "en": "Emits a strange steam topotentially confuse the foe."
+        },
+        {
+            "label": "sLIFE_DEWDescription",
+            "zh": "喷洒出神奇的水，\\n回复自己和场上同伴的HP。",
+            "en": "Scatters water to restorethe HP of itself and allies."
+        },
+        {
+            "label": "sOBSTRUCTDescription",
+            "zh": "完全抵挡攻击。连续使用易\\n失败。触碰后防御大幅降低。",
+            "en": "Protects itself, harshlylowering Def on contact."
+        },
+        {
+            "label": "sFALSE_SURRENDERDescription",
+            "zh": "用凌乱的头发进行突刺。\\n攻击必定会命中。",
+            "en": "Bows to stab the foewith hair. It never misses."
+        },
+        {
+            "label": "sMETEOR_ASSAULTDescription",
+            "zh": "大力挥舞粗壮的茎进行攻击。\\n下一回合自己将无法动弹。",
+            "en": "Attacks with a thick leek.The user must then rest."
+        },
+        {
+            "label": "sETERNABEAMDescription",
+            "zh": "发动的最强攻击。\\n下一回合自己将无法动弹。",
+            "en": "Eternatus' strongest move.The user rests next turn."
+        },
+        {
+            "label": "sSTEEL_BEAMDescription",
+            "zh": "钢铁化为光束激烈地发射。\\n自己也会受到伤害。",
+            "en": "Fires a beam of steel fromits body. It hurts the user."
+        },
+        {
+            "label": "sEXPANDING_FORCEDescription",
+            "zh": "用精神力量对所有对手攻击。\\n在精神场地上威力提高。",
+            "en": "Power goes up and damagesall foes on Psychic Terrain."
+        },
+        {
+            "label": "sSTEEL_ROLLERDescription",
+            "zh": "在破坏场地的同时攻击对手。\\n如没任何场地存在，会失败。",
+            "en": "Destroys terrain. Fails ifground isn't terrain."
+        },
+        {
+            "label": "sSCALE_SHOTDescription",
+            "zh": "发射鳞片2~5次连续攻击。\\n速度会提高但防御会降低。",
+            "en": "Shoots scales 2 to 5 times.Ups Speed, lowers defense."
+        },
+        {
+            "label": "sMETEOR_BEAMDescription",
+            "zh": "第1回合聚集宇宙之力提高\\n特攻，第2回合攻击对手。",
+            "en": "A 2-turn move that raisesSp. Attack before attacking."
+        },
+        {
+            "label": "sSHELL_SIDE_ARMDescription",
+            "zh": "用物理或特殊能造成较高伤\\n害的方式攻击。可能会中毒。",
+            "en": "Uses higher of physical andspecial damage. May poison."
+        },
+        {
+            "label": "sMISTY_EXPLOSIONDescription",
+            "zh": "濒死后对周围宝可梦攻击。\\n在薄雾场地上威力提高。",
+            "en": "Hit everything and faint.Powers up on Misty Terrain."
+        },
+        {
+            "label": "sGRASSY_GLIDEDescription",
+            "zh": "在地面上滑行般地攻击对手。\\n在青草场地上必定先制攻击。",
+            "en": "Gliding on ground, hits. Goesfirst on Grassy Terrain."
+        },
+        {
+            "label": "sRISING_VOLTAGEDescription",
+            "zh": "电击攻击。当对手处于电气\\n场地上时，招式威力变2倍。",
+            "en": "This move's power doubleswhen on Electric Terrain."
+        },
+        {
+            "label": "sTERRAIN_PULSEDescription",
+            "zh": "借助场地的力量进行攻击。\\n场地不同，属性和威力不同。",
+            "en": "Type and power changesdepending on the terrain."
+        },
+        {
+            "label": "sSKITTER_SMACKDescription",
+            "zh": "从对手背后爬近后进行攻击。\\n会降低对手的特攻。",
+            "en": "User skitters behind foe toattack. Lowers foe's Sp. Atk."
+        },
+        {
+            "label": "sBURNING_JEALOUSYDescription",
+            "zh": "用嫉妒的能量攻击对手。\\n如该回合能力提高会被灼伤。",
+            "en": "Foes that have stats uppedduring the turn get burned."
+        },
+        {
+            "label": "sLASH_OUTDescription",
+            "zh": "恼怒地攻击对手。该回合\\n如能力被降低，威力变2倍。",
+            "en": "If stats lowered during thisturn, power is doubled."
+        },
+        {
+            "label": "sPOLTERGEISTDescription",
+            "zh": "操纵对手的持有物进行攻击。\\n当对手没携带道具时会失败。",
+            "en": "Control foe's item to attack.Fails if foe has no item."
+        },
+        {
+            "label": "sCORROSIVE_GASDescription",
+            "zh": "用强酸气体包裹周围宝可梦，\\n并融化其所携带的道具。",
+            "en": "Highly acidic gas melts itemsheld by surrounding Pokémon."
+        },
+        {
+            "label": "sCOACHINGDescription",
+            "zh": "通过进行正确合理的指导，\\n提高我方全员的攻击和防御。",
+            "en": "Properly coaches allies toup their Attack and Defense."
+        },
+        {
+            "label": "sFLIP_TURNDescription",
+            "zh": "在攻击之后急速返回，\\n和后备宝可梦进行替换。",
+            "en": "Attacks and rushes back toswitch with a party Pokémon."
+        },
+        {
+            "label": "sTRIPLE_AXELDescription",
+            "zh": "连续3次踢对手进行攻击。\\n每次踢中，威力都会提高。",
+            "en": "A 3-kick attack that getsmore powerful with each hit."
+        },
+        {
+            "label": "sDUAL_WINGBEATDescription",
+            "zh": "将翅膀撞向对手进行攻击。\\n连续2次给予伤害。",
+            "en": "User slams the target withwings and hits twice in a row."
+        },
+        {
+            "label": "sSCORCHING_SANDSDescription",
+            "zh": "将滚烫的沙子砸向对手。\\n有时会让对手陷入灼伤状态。",
+            "en": "Throws scorching sand atthe target. May leave a burn."
+        },
+        {
+            "label": "sJUNGLE_HEALINGDescription",
+            "zh": "与丛林融为一体，回复\\n自己和同伴的HP和状态。",
+            "en": "Heals HP and status ofitself and allies in battle."
+        },
+        {
+            "label": "sWICKED_BLOWDescription",
+            "zh": "恶之流派的猛烈一击。\\n必定会击中要害。",
+            "en": "Mastering the Dark style,strikes with a critical hit."
+        },
+        {
+            "label": "sSURGING_STRIKESDescription",
+            "zh": "水之流派的流水般3次连击。\\n必定会击中要害。",
+            "en": "Mastering the Water style,strikes with 3 critical hits."
+        },
+        {
+            "label": "sTHUNDER_CAGEDescription",
+            "zh": "将对手困在电流的囚笼中，\\n在2~5回合内进行攻击。",
+            "en": "Traps the foe in a cage ofelectricity for 2 to 5 turns."
+        },
+        {
+            "label": "sDRAGON_ENERGYDescription",
+            "zh": "把生命力转换为力量攻击。\\nHP越少招式的威力越小。",
+            "en": "The higher the user's HPthe more damage caused."
+        },
+        {
+            "label": "sFREEZING_GLAREDescription",
+            "zh": "从双眼发射精神力量攻击。\\n有时会让对手陷入冰冻状态。",
+            "en": "Shoots psychic power fromthe eyes. May freeze the foe."
+        },
+        {
+            "label": "sFIERY_WRATHDescription",
+            "zh": "愤怒化为火焰般的气场攻击。\\n有时会使对手畏缩。",
+            "en": "An attack fueled by yourwrath. May cause flinching."
+        },
+        {
+            "label": "sTHUNDEROUS_KICKDescription",
+            "zh": "戏耍对手的同时使出脚踢。\\n可降低对手的防御。",
+            "en": "Uses a lightning-like kickto hit. Lowers foe's Defense."
+        },
+        {
+            "label": "sGLACIAL_LANCEDescription",
+            "zh": "向对手投掷掀起暴风雪的\\n冰矛进行攻击。",
+            "en": "Strikes by hurling a blizzard-cloaked icicle lance at a foe."
+        },
+        {
+            "label": "sASTRAL_BARRAGEDescription",
+            "zh": "用大量的小灵体向对手\\n发起攻击。",
+            "en": "Strikes by sending a frightfulamount of ghosts at a foe."
+        },
+        {
+            "label": "sEERIE_SPELLDescription",
+            "zh": "用强大的精神力量攻击。\\n对手最后用的招式减少3PP。",
+            "en": "Attacks with psychic power.Foe's last move has 3 PP cut."
+        },
+        {
+            "label": "sNotDoneYetDescription",
+            "zh": "技能效果未实装。",
+            "en": "Not done yet."
+        }
+    ]
+}

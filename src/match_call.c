@@ -124,7 +124,7 @@ struct BattleFrontierStreakInfo
 static EWRAM_DATA struct MatchCallState sMatchCallState = {0};
 static EWRAM_DATA struct BattleFrontierStreakInfo sBattleFrontierStreakInfo = {0};
 
-static u32 GetCurrentTotalMinutes(struct LocalTime *);
+static u32 GetCurrentTotalMinutes(struct Time *);
 static u32 GetNumRegisteredNPCs(void);
 static u32 GetActiveMatchCallTrainerId(u32);
 static int GetTrainerMatchCallId(int);
@@ -1027,7 +1027,7 @@ void InitMatchCallCounters(void)
     sMatchCallState.stepCounter = 0;
 }
 
-static u32 GetCurrentTotalMinutes(struct LocalTime *time)
+static u32 GetCurrentTotalMinutes(struct Time *time)
 {
     return time->cycles * DAYS_PER_CYCLE * time->days * 24 * 60 + time->hours * 60 + time->minutes;
 }

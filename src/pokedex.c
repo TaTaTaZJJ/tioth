@@ -3547,8 +3547,13 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
+#ifdef CHINESE
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
+        PrintInfoScreenText(gText_CryOf, 82, 33);
+#else
         PrintInfoScreenText(gText_CryOf, 82, 33);
         PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
+#endif
         gMain.state++;
         break;
     case 5:

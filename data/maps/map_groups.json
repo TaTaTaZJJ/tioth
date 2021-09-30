@@ -40,7 +40,8 @@
     "gMapGroup_IndoorRoute124"
   ],
   "gMapGroup_Test": [
-    "SpawnPlace"
+    "SpawnPlace",
+    "SpawnPlaceMirror"
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",

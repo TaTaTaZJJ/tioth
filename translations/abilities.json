@@ -1,0 +1,2625 @@
+{
+    "path": "src/data/text/abilities.h",
+    "texts": [
+        {
+            "label": "sNoneDescription",
+            "zh": "无特性效果。",
+            "en": "No special ability."
+        },
+        {
+            "label": "sStenchDescription",
+            "zh": "遇到野生宝可梦的几率会减少。",
+            "en": "May cause a foe to flinch."
+        },
+        {
+            "label": "sDrizzleDescription",
+            "zh": "出场时，\\n会将天气变为下雨。",
+            "en": "Summons rain in battle."
+        },
+        {
+            "label": "sSpeedBoostDescription",
+            "zh": "每回合提升速度。",
+            "en": "Gradually boosts Speed."
+        },
+        {
+            "label": "sBattleArmorDescription",
+            "zh": "被坚硬的甲壳守护，\\n不会被击中要害。",
+            "en": "Blocks critical hits."
+        },
+        {
+            "label": "sSturdyDescription",
+            "zh": "不会被一击打倒。",
+            "en": "Negates 1-hit KO attacks."
+        },
+        {
+            "label": "sDampDescription",
+            "zh": "把周围都弄湿，\\n无法使用自爆招式。",
+            "en": "Prevents self-destruction."
+        },
+        {
+            "label": "sLimberDescription",
+            "zh": "因为身体柔软，\\n免疫麻痹状态。",
+            "en": "Prevents paralysis."
+        },
+        {
+            "label": "sSandVeilDescription",
+            "zh": "在沙暴的时候，\\n闪避率会提高。",
+            "en": "Ups evasion in a sandstorm."
+        },
+        {
+            "label": "sStaticDescription",
+            "zh": "身上带有静电，\\n有时会让对手麻痹。",
+            "en": "Paralyzes on contact."
+        },
+        {
+            "label": "sVoltAbsorbDescription",
+            "zh": "受电系招式攻击时，\\n回复自身。",
+            "en": "Turns electricity into HP."
+        },
+        {
+            "label": "sWaterAbsorbDescription",
+            "zh": "受水系招式攻击时，\\n回复自身。",
+            "en": "Changes water into HP."
+        },
+        {
+            "label": "sObliviousDescription",
+            "zh": "因为感觉迟钝，\\n免疫着迷和挑衅。",
+            "en": "Prevents attraction."
+        },
+        {
+            "label": "sCloudNineDescription",
+            "zh": "任何天气的影响\\n都会消失。",
+            "en": "Negates weather effects."
+        },
+        {
+            "label": "sCompoundEyesDescription",
+            "zh": "因为拥有复眼，\\n招式的命中率提高。",
+            "en": "Raises accuracy."
+        },
+        {
+            "label": "sInsomniaDescription",
+            "zh": "因为是不睡觉体质，\\n免疫睡眠状态。",
+            "en": "Prevents sleep."
+        },
+        {
+            "label": "sColorChangeDescription",
+            "zh": "自己的属性会变为\\n对手招式的属性。",
+            "en": "Changes type to foe's move."
+        },
+        {
+            "label": "sImmunityDescription",
+            "zh": "因为拥有免疫能力，\\n不会变为中毒状态。",
+            "en": "Prevents poisoning."
+        },
+        {
+            "label": "sFlashFireDescription",
+            "zh": "受火系招式攻击时，\\n火系威力提升。",
+            "en": "Powers up if hit by fire."
+        },
+        {
+            "label": "sShieldDustDescription",
+            "zh": "不会受到招式的\\n追加效果影响。",
+            "en": "Prevents added effects."
+        },
+        {
+            "label": "sOwnTempoDescription",
+            "zh": "因为我行我素，\\n不会变为混乱状态。",
+            "en": "Prevents confusion."
+        },
+        {
+            "label": "sSuctionCupsDescription",
+            "zh": "替换宝可梦的招式\\n和道具无效。",
+            "en": "Firmly anchors the body."
+        },
+        {
+            "label": "sIntimidateDescription",
+            "zh": "出场时威吓对手，\\n降低对手的攻击。",
+            "en": "Lowers the foe's Attack."
+        },
+        {
+            "label": "sShadowTagDescription",
+            "zh": "踩住对手的影子\\n使其无法逃走。",
+            "en": "Prevents the foe's escape."
+        },
+        {
+            "label": "sRoughSkinDescription",
+            "zh": "受到攻击时，\\n弄伤接触的对手。",
+            "en": "Hurts to touch."
+        },
+        {
+            "label": "sWonderGuardDescription",
+            "zh": "只有效果绝佳的招式\\n才能击中。",
+            "en": "“Supereffective” hits."
+        },
+        {
+            "label": "sLevitateDescription",
+            "zh": "不会受到地面属性\\n招式的攻击。",
+            "en": "Not hit by Ground attacks."
+        },
+        {
+            "label": "sEffectSporeDescription",
+            "zh": "受到攻击时，\\n给予对手异常状态。",
+            "en": "Leaves spores on contact."
+        },
+        {
+            "label": "sSynchronizeDescription",
+            "zh": "将自己的状态传染给\\n对手。",
+            "en": "Passes on status problems."
+        },
+        {
+            "label": "sClearBodyDescription",
+            "zh": "不会因为对手的招式\\n或特性而降低能力。",
+            "en": "Prevents ability reduction."
+        },
+        {
+            "label": "sNaturalCureDescription",
+            "zh": "回到同行队伍后，\\n异常状态会被治愈。",
+            "en": "Heals upon switching out."
+        },
+        {
+            "label": "sLightningRodDescription",
+            "zh": "受电系招式攻击时，\\n提升特攻。",
+            "en": "Draws electrical moves."
+        },
+        {
+            "label": "sSereneGraceDescription",
+            "zh": "招式的追加效果容易\\n出现。",
+            "en": "Promotes added effects."
+        },
+        {
+            "label": "sSwiftSwimDescription",
+            "zh": "下雨天气时，\\n速度会提高。",
+            "en": "Raises Speed in rain."
+        },
+        {
+            "label": "sChlorophyllDescription",
+            "zh": "晴朗天气时，\\n速度会提高。",
+            "en": "Raises Speed in sunshine."
+        },
+        {
+            "label": "sIlluminateDescription",
+            "zh": "通过让周围变亮，\\n容易遇到野生宝可梦。",
+            "en": "Encounter rate increases."
+        },
+        {
+            "label": "sTraceDescription",
+            "zh": "复制对手的特性，\\n变为与之相同的特性。",
+            "en": "Copies special ability."
+        },
+        {
+            "label": "sHugePowerDescription",
+            "zh": "物理攻击的威力翻倍",
+            "en": "Raises Attack."
+        },
+        {
+            "label": "sPoisonPointDescription",
+            "zh": "有时会让接触到自己\\n的对手变为中毒状态。",
+            "en": "Poisons foe on contact."
+        },
+        {
+            "label": "sInnerFocusDescription",
+            "zh": "通过锻炼精神，\\n不会畏缩。",
+            "en": "Prevents flinching."
+        },
+        {
+            "label": "sMagmaArmorDescription",
+            "zh": "将熔岩覆盖在身上，\\n不会变为冰冻状态。",
+            "en": "Prevents freezing."
+        },
+        {
+            "label": "sWaterVeilDescription",
+            "zh": "将水幕裹在身上，\\n不会变为灼伤状态。",
+            "en": "Prevents burns."
+        },
+        {
+            "label": "sMagnetPullDescription",
+            "zh": "磁力吸住钢系宝可梦，\\n使其无法逃走。",
+            "en": "Traps Steel-type Pokémon."
+        },
+        {
+            "label": "sSoundproofDescription",
+            "zh": "通过屏蔽声音，\\n不受声音招式的攻击。",
+            "en": "Avoids sound-based moves."
+        },
+        {
+            "label": "sRainDishDescription",
+            "zh": "下雨天气时，\\n会缓缓回复HP。",
+            "en": "Slight HP recovery in rain."
+        },
+        {
+            "label": "sSandStreamDescription",
+            "zh": "出场时，\\n会把天气变为沙暴",
+            "en": "Summons a sandstorm."
+        },
+        {
+            "label": "sPressureDescription",
+            "zh": "给予对手压迫感，\\n大量减少招式的PP。",
+            "en": "Raises foe's PP usage."
+        },
+        {
+            "label": "sThickFatDescription",
+            "zh": "火属性和冰属性的\\n招式伤害减半。",
+            "en": "Heat-and-cold protection."
+        },
+        {
+            "label": "sEarlyBirdDescription",
+            "zh": "即使变为睡眠状态，\\n也能提早醒来。",
+            "en": "Awakens quickly from sleep."
+        },
+        {
+            "label": "sFlameBodyDescription",
+            "zh": "有时会让接触到自己\\n的对手变为灼伤状态。",
+            "en": "Burns the foe on contact."
+        },
+        {
+            "label": "sRunAwayDescription",
+            "zh": "一定能从野生宝可梦\\n那儿逃走。",
+            "en": "Makes escaping easier."
+        },
+        {
+            "label": "sKeenEyeDescription",
+            "zh": "多亏了锐利的目光，\\n命中率不会被降低。",
+            "en": "Prevents loss of accuracy."
+        },
+        {
+            "label": "sHyperCutterDescription",
+            "zh": "不会被对手降低攻击。",
+            "en": "Prevents Attack reduction."
+        },
+        {
+            "label": "sPickupDescription",
+            "zh": "有时会捡来道具。",
+            "en": "May pick up items."
+        },
+        {
+            "label": "sTruantDescription",
+            "zh": "如果使出招式，\\n下一回合就会休息。",
+            "en": "Moves only every two turns."
+        },
+        {
+            "label": "sHustleDescription",
+            "zh": "自己的攻击变高，\\n但命中率会降低。",
+            "en": "Trades accuracy for power."
+        },
+        {
+            "label": "sCuteCharmDescription",
+            "zh": "有时会让接触到自己\\n的对手着迷。",
+            "en": "Infatuates on contact."
+        },
+        {
+            "label": "sPlusDescription",
+            "zh": "存在电极的宝可梦，\\n会让自己特攻提高。",
+            "en": "Powers up with Minus."
+        },
+        {
+            "label": "sMinusDescription",
+            "zh": "存在电极的宝可梦，\\n会让自己特攻提高。",
+            "en": "Powers up with Plus."
+        },
+        {
+            "label": "sForecastDescription",
+            "zh": "受天气的影响，\\n改变形态",
+            "en": "Changes with the weather."
+        },
+        {
+            "label": "sStickyHoldDescription",
+            "zh": "不会被对手夺走道具。",
+            "en": "Prevents item theft."
+        },
+        {
+            "label": "sShedSkinDescription",
+            "zh": "通过蜕去身上的皮，\\n有时会治愈异常状态。",
+            "en": "Heals the body by shedding."
+        },
+        {
+            "label": "sGutsDescription",
+            "zh": "如果变为异常状态，\\n攻击会提高。",
+            "en": "Ups Attack if suffering."
+        },
+        {
+            "label": "sMarvelScaleDescription",
+            "zh": "如果变为异常状态，\\n防御会提高。",
+            "en": "Ups Defense if suffering."
+        },
+        {
+            "label": "sLiquidOozeDescription",
+            "zh": "对自身使用吸收类\\n技能会损失HP。",
+            "en": "Draining causes injury."
+        },
+        {
+            "label": "sOvergrowDescription",
+            "zh": "体力不足时提升草系\\n技能威力。",
+            "en": "Ups Grass moves in a pinch."
+        },
+        {
+            "label": "sBlazeDescription",
+            "zh": "体力不足时提升火系\\n技能威力。",
+            "en": "Ups Fire moves in a pinch."
+        },
+        {
+            "label": "sTorrentDescription",
+            "zh": "体力不足时提升水系\\n技能威力。",
+            "en": "Ups Water moves in a pinch."
+        },
+        {
+            "label": "sSwarmDescription",
+            "zh": "体力不足时提升虫系\\n技能威力。",
+            "en": "Ups Bug moves in a pinch."
+        },
+        {
+            "label": "sRockHeadDescription",
+            "zh": "受反作用力的招式，\\nHP也不会减少。",
+            "en": "Prevents recoil damage."
+        },
+        {
+            "label": "sDroughtDescription",
+            "zh": "出场时，\\n会将天气变为晴朗。",
+            "en": "Summons sunlight in battle."
+        },
+        {
+            "label": "sArenaTrapDescription",
+            "zh": "对手无法逃走。",
+            "en": "Prevents fleeing."
+        },
+        {
+            "label": "sVitalSpiritDescription",
+            "zh": "通过激发出干劲，\\n不会变为睡眠状态。",
+            "en": "Prevents sleep."
+        },
+        {
+            "label": "sWhiteSmokeDescription",
+            "zh": "被白色烟雾保护着，\\n不会被对手降低能力。",
+            "en": "Prevents ability reduction."
+        },
+        {
+            "label": "sPurePowerDescription",
+            "zh": "物理攻击的威力翻倍。",
+            "en": "Raises Attack."
+        },
+        {
+            "label": "sShellArmorDescription",
+            "zh": "被坚硬的壳保护着，\\n不会被击中要害。",
+            "en": "Blocks critical hits."
+        },
+        {
+            "label": "sAirLockDescription",
+            "zh": "所有天气的影响消失。",
+            "en": "Negates weather effects."
+        },
+        {
+            "label": "sTangledFeetDescription",
+            "zh": "在混乱状态时，\\n闪避率会提高",
+            "en": "Ups evasion if confused."
+        },
+        {
+            "label": "sMotorDriveDescription",
+            "zh": "受电系招式攻击时，\\n提升速度。",
+            "en": "Electricity raises Speed."
+        },
+        {
+            "label": "sRivalryDescription",
+            "zh": "面对异性变弱，\\n面对同性变强。",
+            "en": "Powers up against rivals."
+        },
+        {
+            "label": "sSteadfastDescription",
+            "zh": "每次畏缩时，\\n速度也会提高。",
+            "en": "Flinching raises Speed."
+        },
+        {
+            "label": "sSnowCloakDescription",
+            "zh": "冰雹天气时，\\n闪避率会提高。",
+            "en": "Ups evasion in Hail."
+        },
+        {
+            "label": "sGluttonyDescription",
+            "zh": "能更早的吃下树果。",
+            "en": "Eats Berries early."
+        },
+        {
+            "label": "sAngerPointDescription",
+            "zh": "要害被击中时，\\n攻击力变为最大",
+            "en": "Critical hits raise Attack."
+        },
+        {
+            "label": "sUnburdenDescription",
+            "zh": "失去持有道具时，\\n速度会提高。",
+            "en": "Using a hold item ups Speed."
+        },
+        {
+            "label": "sHeatproofDescription",
+            "zh": "火属性招式威力减半。",
+            "en": "Heat and burn protection."
+        },
+        {
+            "label": "sSimpleDescription",
+            "zh": "能力变化会变为\\n平时的2倍。",
+            "en": "Prone to wild stat changes."
+        },
+        {
+            "label": "sDrySkinDescription",
+            "zh": "雨天时恢复HP，\\n晴天时HP减少",
+            "en": "Prefers moisture to heat."
+        },
+        {
+            "label": "sDownloadDescription",
+            "zh": "根据对手能力相应地\\n提高攻击或特攻。",
+            "en": "Adjusts power favorably."
+        },
+        {
+            "label": "sIronFistDescription",
+            "zh": "拳类招式的威力提高。",
+            "en": "Boosts punching moves."
+        },
+        {
+            "label": "sPoisonHealDescription",
+            "zh": "中毒状态下，\\n每回合恢复HP。",
+            "en": "Restores HP if poisoned."
+        },
+        {
+            "label": "sAdaptabilityDescription",
+            "zh": "与自身同属性的\\n招式威力会提高。",
+            "en": "Boosts same type attacks."
+        },
+        {
+            "label": "sSkillLinkDescription",
+            "zh": "如果使用连续招式，\\n总是能使出5次。",
+            "en": "Multi-hit moves hit 5 times."
+        },
+        {
+            "label": "sHydrationDescription",
+            "zh": "下雨天气时，\\n异常状态会治愈。",
+            "en": "Cures status in rain."
+        },
+        {
+            "label": "sSolarPowerDescription",
+            "zh": "晴天时，特攻会提高，\\n而每回合HP会减少。",
+            "en": "Powers up in sunshine."
+        },
+        {
+            "label": "sQuickFeetDescription",
+            "zh": "变为异常状态时，\\n速度会提高。",
+            "en": "Ups Speed if suffering."
+        },
+        {
+            "label": "sNormalizeDescription",
+            "zh": "技能变为一般属性。\\n威力会少量提高。",
+            "en": "Moves become Normal-type."
+        },
+        {
+            "label": "sSniperDescription",
+            "zh": "击中要害时，\\n威力会变得更强。",
+            "en": "Boosts critical hits."
+        },
+        {
+            "label": "sMagicGuardDescription",
+            "zh": "不会受到攻击以外的\\n伤害。",
+            "en": "Only damaged by attacks."
+        },
+        {
+            "label": "sNoGuardDescription",
+            "zh": "双方使出的招式\\n都必定会击中。",
+            "en": "Ensures that all moves hit."
+        },
+        {
+            "label": "sStallDescription",
+            "zh": "招式顺序必定会变为\\n最后。",
+            "en": "Always moves last."
+        },
+        {
+            "label": "sTechnicianDescription",
+            "zh": "攻击时可以将低威力\\n招式的威力提高。",
+            "en": "Boosts weaker moves."
+        },
+        {
+            "label": "sLeafGuardDescription",
+            "zh": "晴朗天气时，\\n不会变为异常状态。",
+            "en": "Blocks status in sunshine."
+        },
+        {
+            "label": "sKlutzDescription",
+            "zh": "无法使用持有的道具。",
+            "en": "Can't use hold items."
+        },
+        {
+            "label": "sMoldBreakerDescription",
+            "zh": "不受对手特性的干扰，\\n向对手使出招式。",
+            "en": "Moves hit through abilities."
+        },
+        {
+            "label": "sSuperLuckDescription",
+            "zh": "攻击容易击中要害。",
+            "en": "Critical hits land often."
+        },
+        {
+            "label": "sAftermathDescription",
+            "zh": "变为濒死时，会对接触\\n到自己的对手造成伤害。",
+            "en": "Fainting damages the foe."
+        },
+        {
+            "label": "sAnticipationDescription",
+            "zh": "可以察觉到对手拥有\\n的危险招式。",
+            "en": "Senses dangerous moves."
+        },
+        {
+            "label": "sForewarnDescription",
+            "zh": "出场时，只读取对手\\n拥有的招式。",
+            "en": "Determines a foe's move."
+        },
+        {
+            "label": "sUnawareDescription",
+            "zh": "无视对手能力的变化，\\n进行攻击。",
+            "en": "Ignores stat changes."
+        },
+        {
+            "label": "sTintedLensDescription",
+            "zh": "将效果不好的招式\\n以通常的威力使出。",
+            "en": "Ups “not very effective”."
+        },
+        {
+            "label": "sFilterDescription",
+            "zh": "受效果绝佳的攻击时\\n可以减弱其威力",
+            "en": "Weakens “supereffective”."
+        },
+        {
+            "label": "sSlowStartDescription",
+            "zh": "在5回合内，\\n攻击和速度减半。",
+            "en": "Takes a while to get going."
+        },
+        {
+            "label": "sScrappyDescription",
+            "zh": "可以击中鬼属性\\n宝可梦。",
+            "en": "Hits Ghost-type Pokémon."
+        },
+        {
+            "label": "sStormDrainDescription",
+            "zh": "吸收水属性招式，\\n并恢复HP。",
+            "en": "Draws in Water moves."
+        },
+        {
+            "label": "sIceBodyDescription",
+            "zh": "冰雹天气时，\\n会缓缓回复HP。",
+            "en": "Slight HP recovery in Hail."
+        },
+        {
+            "label": "sSnowWarningDescription",
+            "zh": "出场时，\\n会将天气变为冰雹。",
+            "en": "Summons a hailstorm."
+        },
+        {
+            "label": "sHoneyGatherDescription",
+            "zh": "战斗结束时，\\n有时会捡来甜甜蜜。",
+            "en": "May gather Honey."
+        },
+        {
+            "label": "sFriskDescription",
+            "zh": "出场时，\\n察觉对手的持有物。",
+            "en": "Checks a foe's item."
+        },
+        {
+            "label": "sRecklessDescription",
+            "zh": "反作用力受伤的招式，\\n其威力会提高。",
+            "en": "Boosts moves with recoil."
+        },
+        {
+            "label": "sMultitypeDescription",
+            "zh": "自己的属性会根据\\n持有的石板而改变。",
+            "en": "Changes type to its Plate."
+        },
+        {
+            "label": "sFlowerGiftDescription",
+            "zh": "晴朗天气时，自己与\\n同伴攻击和特防提高。",
+            "en": "Transforms in sunshine."
+        },
+        {
+            "label": "sBadDreamsDescription",
+            "zh": "每回合给予睡眠状态\\n的对手伤害。",
+            "en": "Damages sleeping Pokémon."
+        },
+        {
+            "label": "sPickpocketDescription",
+            "zh": "盗取接触到自己的\\n对手的道具。",
+            "en": "Steals the foe's held item."
+        },
+        {
+            "label": "sSheerForceDescription",
+            "zh": "招式追加效果消失，\\n并且威力提升。",
+            "en": "Trades effects for power."
+        },
+        {
+            "label": "sContraryDescription",
+            "zh": "逆转能力的变化。",
+            "en": "Inverts stat changes."
+        },
+        {
+            "label": "sUnnerveDescription",
+            "zh": "让对手紧张，\\n使其无法食用树果。",
+            "en": "Foes can't eat Berries."
+        },
+        {
+            "label": "sDefiantDescription",
+            "zh": "能力被降低时，\\n攻击会大幅提高。",
+            "en": "Lowered stats up Attack."
+        },
+        {
+            "label": "sDefeatistDescription",
+            "zh": "HP减半时，\\n攻击和特攻会减半。",
+            "en": "Gives up at half HP."
+        },
+        {
+            "label": "sCursedBodyDescription",
+            "zh": "有时会把对手的招式\\n变为定身法状态",
+            "en": "Disables moves on contact."
+        },
+        {
+            "label": "sHealerDescription",
+            "zh": "有时会治愈异常状态\\n的同伴。",
+            "en": "Heals partner Pokémon."
+        },
+        {
+            "label": "sFriendGuardDescription",
+            "zh": "减少我方的伤害。",
+            "en": "Lowers damage to partner."
+        },
+        {
+            "label": "sWeakArmorDescription",
+            "zh": "受物理招式伤害，\\n防御降低，速度提高。",
+            "en": "Its stats change when hit."
+        },
+        {
+            "label": "sHeavyMetalDescription",
+            "zh": "自身的重量翻倍。",
+            "en": "Doubles weight."
+        },
+        {
+            "label": "sLightMetalDescription",
+            "zh": "自身的重量会减半。",
+            "en": "Halves weight."
+        },
+        {
+            "label": "sMultiscaleDescription",
+            "zh": "HP全满时，\\n受到的伤害会变少。",
+            "en": "Halves damage at full HP."
+        },
+        {
+            "label": "sToxicBoostDescription",
+            "zh": "变为中毒状态时，\\n物理招式威力提高。",
+            "en": "Ups Attack if poisoned."
+        },
+        {
+            "label": "sFlareBoostDescription",
+            "zh": "变为灼伤状态时，\\n特殊招式威力提高。",
+            "en": "Ups Sp. Atk if burned."
+        },
+        {
+            "label": "sHarvestDescription",
+            "zh": "多次制作出已被使用\\n掉的树果。",
+            "en": "May recycle a used Berry."
+        },
+        {
+            "label": "sTelepathyDescription",
+            "zh": "读取我方的攻击，\\n并闪避其招式伤害。",
+            "en": "Can't be damaged by an ally."
+        },
+        {
+            "label": "sMoodyDescription",
+            "zh": "某项能力大幅提高，\\n而某项会降低。",
+            "en": "Stats change gradually."
+        },
+        {
+            "label": "sOvercoatDescription",
+            "zh": "不受沙暴或冰雹伤害。\\n不受粉末类招式攻击。",
+            "en": "Blocks weather and powder."
+        },
+        {
+            "label": "sBigPecksDescription",
+            "zh": "不会受到防御降低\\n的效果。",
+            "en": "Prevents Defense loss."
+        },
+        {
+            "label": "sSandRushDescription",
+            "zh": "沙暴天气时，\\n速度会提高。",
+            "en": "Ups Speed in a sandstorm."
+        },
+        {
+            "label": "sWonderSkinDescription",
+            "zh": "成为不易受到变化\\n招式攻击的身体。",
+            "en": "May avoid status problems."
+        },
+        {
+            "label": "sAnalyticDescription",
+            "zh": "如果在最后使出招式，\\n招式的威力会提高。",
+            "en": "Moving last boosts power."
+        },
+        {
+            "label": "sIllusionDescription",
+            "zh": "假扮成同行队伍中的\\n最后一个宝可梦出场。",
+            "en": "Appears as a partner."
+        },
+        {
+            "label": "sImposterDescription",
+            "zh": "变身为当前面对的\\n宝可梦。",
+            "en": "Transforms into the foe."
+        },
+        {
+            "label": "sInfiltratorDescription",
+            "zh": "可以穿透对手的壁障\\n或替身进行攻击。",
+            "en": "Passes through barriers."
+        },
+        {
+            "label": "sMummyDescription",
+            "zh": "被对手接触到后，\\n会将对手变为木乃伊。",
+            "en": "Spreads with contact."
+        },
+        {
+            "label": "sMoxieDescription",
+            "zh": "如果打倒对手，\\n攻击会提高。",
+            "en": "KOs raise Attack."
+        },
+        {
+            "label": "sJustifiedDescription",
+            "zh": "受恶属性招式攻击，\\n攻击会提高",
+            "en": "Dark hits raise Attack."
+        },
+        {
+            "label": "sRattledDescription",
+            "zh": "受恶，幽灵和虫属性\\n攻击会速度提高。",
+            "en": "Raises Speed when scared."
+        },
+        {
+            "label": "sMagicBounceDescription",
+            "zh": "不受对手变化招式\\n影响并将其反弹。",
+            "en": "Reflects status moves."
+        },
+        {
+            "label": "sSapSipperDescription",
+            "zh": "受到草属性招式攻击\\n时提高攻击。",
+            "en": "Grass increases Attack."
+        },
+        {
+            "label": "sPranksterDescription",
+            "zh": "可以率先使出变化招\\n式。",
+            "en": "Status moves go first."
+        },
+        {
+            "label": "sSandForceDescription",
+            "zh": "沙暴下岩石，地面和\\n钢属性招式威力提高。",
+            "en": "Powers up in a sandstorm."
+        },
+        {
+            "label": "sZenModeDescription",
+            "zh": "hp变为一半以下时，\\n样子会改变。",
+            "en": "Transforms at half HP."
+        },
+        {
+            "label": "sVictoryStarDescription",
+            "zh": "自己和同伴的命中率\\n会提高。",
+            "en": "Raises party accuracy."
+        },
+        {
+            "label": "sAromaVeilDescription",
+            "zh": "可以防住向自己和同\\n伴发出的心灵攻击。",
+            "en": "Prevents limiting of moves."
+        },
+        {
+            "label": "sFlowerVeilDescription",
+            "zh": "我方草属性宝可梦不会\\n进入异常状态。",
+            "en": "Protects Grass-types."
+        },
+        {
+            "label": "sCheekPouchDescription",
+            "zh": "无论是哪种树果，食\\n用后，hp都会回复。",
+            "en": "Eating Berries restores HP."
+        },
+        {
+            "label": "sProteanDescription",
+            "zh": "变为与自己使出的\\n招式相同的属性。",
+            "en": "Changes type to used move."
+        },
+        {
+            "label": "sFurCoatDescription",
+            "zh": "对手给予的物理招式\\n的伤害会减半。",
+            "en": "Raises Defense."
+        },
+        {
+            "label": "sBulletproofDescription",
+            "zh": "可以防住对手的球和\\n弹类招式。",
+            "en": "Avoids some projectiles."
+        },
+        {
+            "label": "sCompetitiveDescription",
+            "zh": "如果能力被降低，特\\n攻就会大幅提高。",
+            "en": "Lowered stats up Sp. Atk."
+        },
+        {
+            "label": "sStrongJawDescription",
+            "zh": "啃咬类招式的威力会\\n提高。",
+            "en": "Boosts biting moves."
+        },
+        {
+            "label": "sRefrigerateDescription",
+            "zh": "一般属性招式变为冰\\n属性且威力提高。",
+            "en": "Normal moves become Ice."
+        },
+        {
+            "label": "sSweetVeilDescription",
+            "zh": "我方的宝可梦不会变\\n为睡眠状态。",
+            "en": "Prevents party from sleep."
+        },
+        {
+            "label": "sStanceChangeDescription",
+            "zh": "战斗中会转变形态",
+            "en": "Transforms as it battles."
+        },
+        {
+            "label": "sGaleWingsDescription",
+            "zh": "hp全满时，飞行属性\\n的招式可以率先使出。",
+            "en": "Flying moves go first."
+        },
+        {
+            "label": "sMegaLauncherDescription",
+            "zh": "波动和波导类招式的\\n威力会提高。",
+            "en": "Boosts pulse moves."
+        },
+        {
+            "label": "sGrassPeltDescription",
+            "zh": "在青草场地时，防御\\n会提高。",
+            "en": "Ups Defense in grass."
+        },
+        {
+            "label": "sSymbiosisDescription",
+            "zh": "同伴使用道具时会把\\n自己的道具传给同伴。",
+            "en": "Passes its item to an ally."
+        },
+        {
+            "label": "sToughClawsDescription",
+            "zh": "接触到对手的招式威力会提高。",
+            "en": "Boosts contact moves."
+        },
+        {
+            "label": "sPixilateDescription",
+            "zh": "一般属性招式变为妖\\n精属性且威力提高。",
+            "en": "Normal moves become Fairy."
+        },
+        {
+            "label": "sGooeyDescription",
+            "zh": "降低用攻击接触到自\\n己的对手的速度。",
+            "en": "Lowers Speed on contact."
+        },
+        {
+            "label": "sAerilateDescription",
+            "zh": "一般属性招式变为飞\\n行属性且威力提高。",
+            "en": "Normal moves become Flying."
+        },
+        {
+            "label": "sParentalBondDescription",
+            "zh": "亲子俩可以合计攻击\\n2次。",
+            "en": "Moves hit twice."
+        },
+        {
+            "label": "sDarkAuraDescription",
+            "zh": "全体的恶属性招式变\\n强。",
+            "en": "Boosts Dark moves."
+        },
+        {
+            "label": "sFairyAuraDescription",
+            "zh": "全体的妖精属性招式变\\n强。",
+            "en": "Boosts Fairy moves."
+        },
+        {
+            "label": "sAuraBreakDescription",
+            "zh": "让气场的效果发生逆\\n转，降低威力。",
+            "en": "Reverse aura abilities."
+        },
+        {
+            "label": "sPrimordialSeaDescription",
+            "zh": "变为不会受到火属性\\n攻击的天气。",
+            "en": "Summons heavy rain."
+        },
+        {
+            "label": "sDesolateLandDescription",
+            "zh": "变为不会受到水属性\\n攻击的天气。",
+            "en": "Summons intense sunlight."
+        },
+        {
+            "label": "sDeltaStreamDescription",
+            "zh": "变为令飞行属性的弱\\n点消失的天气。",
+            "en": "Summons strong winds."
+        },
+        {
+            "label": "sStaminaDescription",
+            "zh": "受到攻击时，防御会\\n提高。",
+            "en": "Boosts Defense when hit."
+        },
+        {
+            "label": "sWimpOutDescription",
+            "zh": "hp变为一半时，会\\n退回同行队伍中。",
+            "en": "Flees at half HP."
+        },
+        {
+            "label": "sWaterCompactionDescription",
+            "zh": "受到水属性的招式攻\\n击时防御会大幅提高。",
+            "en": "Water boosts Defense."
+        },
+        {
+            "label": "sMercilessDescription",
+            "zh": "攻击中毒状态的对手\\n时，必定会击中要害。",
+            "en": "Criticals poisoned foes."
+        },
+        {
+            "label": "sShieldsDownDescription",
+            "zh": "hp变为一半时，壳会\\n坏掉，变得有攻击性。",
+            "en": "Shell breaks at half HP."
+        },
+        {
+            "label": "sStakeoutDescription",
+            "zh": "可以对替换出场的对\\n手以2倍伤害攻击。",
+            "en": "Stronger as foes switch in."
+        },
+        {
+            "label": "sWaterBubbleDescription",
+            "zh": "降低火属性招式的威\\n力，不会灼伤。",
+            "en": "Guards from fire and burns."
+        },
+        {
+            "label": "sSteelworkerDescription",
+            "zh": "钢属性的招式威力会\\n提高。",
+            "en": "Powers up Steel moves."
+        },
+        {
+            "label": "sBerserkDescription",
+            "zh": "因对手的攻击hp变为\\n一半时，特攻会提高。",
+            "en": "Boosts Sp. Atk at low HP."
+        },
+        {
+            "label": "sSlushRushDescription",
+            "zh": "冰雹天气时，速度会\\n提高。",
+            "en": "Raises Speed in hail."
+        },
+        {
+            "label": "sLongReachDescription",
+            "zh": "可以不接触对手就使\\n出所有的招式。",
+            "en": "Never makes contact."
+        },
+        {
+            "label": "sLiquidVoiceDescription",
+            "zh": "所有的声音的招式都\\n变为水属性。",
+            "en": "Makes sound moves Water."
+        },
+        {
+            "label": "sTriageDescription",
+            "zh": "可以率先使出回复招\\n式。",
+            "en": "Healing moves go first."
+        },
+        {
+            "label": "sGalvanizeDescription",
+            "zh": "一般属性招式变为电\\n属性且威力提高。",
+            "en": "Normal moves turn Electric."
+        },
+        {
+            "label": "sSurgeSurferDescription",
+            "zh": "电气场地时，速度会\\n变为2倍。",
+            "en": "Faster on electricity."
+        },
+        {
+            "label": "sSchoolingDescription",
+            "zh": "hp多的时候会聚起来\\n变强。hp变少群体分离。",
+            "en": "Forms a school when strong."
+        },
+        {
+            "label": "sDisguiseDescription",
+            "zh": "通过画皮覆盖住身\\n体，可以防住1次攻击。",
+            "en": "Decoy protects it once."
+        },
+        {
+            "label": "sBattleBondDescription",
+            "zh": "打倒对手后进行牵绊\\n变身",
+            "en": "Changes form after a KO."
+        },
+        {
+            "label": "sPowerConstructDescription",
+            "zh": "hp变为一半时变为\\n完全体形态。",
+            "en": "Cells aid it when weakened."
+        },
+        {
+            "label": "sCorrosionDescription",
+            "zh": "可以使钢和毒属性宝\\n可梦也陷入中毒状态。",
+            "en": "Poisons any type."
+        },
+        {
+            "label": "sComatoseDescription",
+            "zh": "总是半梦半醒的状\\n态，绝对不会醒来。",
+            "en": "Always drowsing."
+        },
+        {
+            "label": "sQueenlyMajestyDescription",
+            "zh": "使对手无法对我方使\\n出先制招式。",
+            "en": "Protects from priority."
+        },
+        {
+            "label": "sInnardsOutDescription",
+            "zh": "被对手打倒时，会给\\n予hp剩余量的伤害",
+            "en": "Hurts foe when defeated."
+        },
+        {
+            "label": "sDancerDescription",
+            "zh": "有谁使出跳舞招式\\n时，自己也能接着使出。",
+            "en": "Dances along with others."
+        },
+        {
+            "label": "sBatteryDescription",
+            "zh": "会提高我方的特殊招\\n式的威力。",
+            "en": "Boosts ally's Sp. Atk."
+        },
+        {
+            "label": "sFluffyDescription",
+            "zh": "接触类招式伤害减半\\n火属性招式伤害翻倍。",
+            "en": "Tougher but flammable."
+        },
+        {
+            "label": "sSoulHeartDescription",
+            "zh": "宝可梦每次变为濒死\\n状态时，特攻会提高。",
+            "en": "KOs raise Sp. Atk."
+        },
+        {
+            "label": "sTanglingHairDescription",
+            "zh": "对用攻击接触到自己\\n的对手，会降低速度。",
+            "en": "Contact lowers Speed."
+        },
+        {
+            "label": "sReceiverDescription",
+            "zh": "继承被打倒的同伴的\\n特性。",
+            "en": "Copies ally's ability."
+        },
+        {
+            "label": "sBeastBoostDescription",
+            "zh": "打倒对手时，自己最\\n高的那项能力会提高。",
+            "en": "KOs boost best stat."
+        },
+        {
+            "label": "sRKSSystemDescription",
+            "zh": "根据持有的存储碟，\\n自己的属性会改变。",
+            "en": "Memories change its type."
+        },
+        {
+            "label": "sElectricSurgeDescription",
+            "zh": "出场时，会布下电气\\n场地。",
+            "en": "Field becomes Electric."
+        },
+        {
+            "label": "sPsychicSurgeDescription",
+            "zh": "出场时，会布下精神\\n场地。",
+            "en": "Field becomes weird."
+        },
+        {
+            "label": "sMistySurgeDescription",
+            "zh": "出场时，会布下薄雾\\n场地。",
+            "en": "Field becomes misty."
+        },
+        {
+            "label": "sGrassySurgeDescription",
+            "zh": "出场时，会布下青草\\n场地。",
+            "en": "Field becomes grassy."
+        },
+        {
+            "label": "sFullMetalBodyDescription",
+            "zh": "不会因为对手的招式\\n或特性而被降低能力。",
+            "en": "Prevents stat reduction."
+        },
+        {
+            "label": "sNeuroforceDescription",
+            "zh": "效果绝佳的攻击，威\\n力会变得更强。",
+            "en": "Ups “supereffective”."
+        },
+        {
+            "label": "sIntrepidSwordDescription",
+            "zh": "出场时，攻击会提高。",
+            "en": "Ups Attack on entry."
+        },
+        {
+            "label": "sDauntlessShieldDescription",
+            "zh": "出场时，防御会提高。",
+            "en": "Ups Defense on entry."
+        },
+        {
+            "label": "sLiberoDescription",
+            "zh": "变为与自己使出的招\\n式相同的属性。",
+            "en": "Changes type to move's."
+        },
+        {
+            "label": "sBallFetchDescription",
+            "zh": "没有携带道具时会拾\\n取捕捉失败的精灵球。",
+            "en": "Fetches failed Poké Ball."
+        },
+        {
+            "label": "sCottonDownDescription",
+            "zh": "受攻击后降低除自己\\n外所有宝可梦的速度。",
+            "en": "Lower Speed of all when hit."
+        },
+        {
+            "label": "sPropellerTailDescription",
+            "zh": "能无视具有吸引对手\\n招式效果的影响。",
+            "en": "Ignores foe's redirection."
+        },
+        {
+            "label": "sMirrorArmorDescription",
+            "zh": "只反弹自己受到的能\\n力降低效果。",
+            "en": "Reflect stat decreases."
+        },
+        {
+            "label": "sGulpMissileDescription",
+            "zh": "叼来猎物时若受到伤\\n害，会吐出猎物攻击。",
+            "en": "If hit, spits prey from sea."
+        },
+        {
+            "label": "sStalwartDescription",
+            "zh": "能无视具有吸引对手\\n招式效果的影响。",
+            "en": "Ignores foe's redirection."
+        },
+        {
+            "label": "sSteamEngineDescription",
+            "zh": "受到水或火属性招式\\n攻击时速度巨幅提高。",
+            "en": "Fire or Water hits up Speed."
+        },
+        {
+            "label": "sPunkRockDescription",
+            "zh": "声音招式威力提高，\\n受声音招式伤害减半。",
+            "en": "Ups and resists sound."
+        },
+        {
+            "label": "sSandSpitDescription",
+            "zh": "受到攻击时，会刮起\\n沙暴。",
+            "en": "Creates a sandstorm if hit."
+        },
+        {
+            "label": "sIceScalesDescription",
+            "zh": "受到的特殊攻击伤害\\n减半。",
+            "en": "Halves special damage."
+        },
+        {
+            "label": "sRipenDescription",
+            "zh": "使树果成熟，效果变\\n为2倍。",
+            "en": "Doubles effect of Berries."
+        },
+        {
+            "label": "sIceFaceDescription",
+            "zh": "头部的冰会代替自己\\n承受物理攻击。",
+            "en": "Take a free hit. Hail renews."
+        },
+        {
+            "label": "sPowerSpotDescription",
+            "zh": "只要处在相邻位置，\\n招式的威力就会提高。",
+            "en": "Powers up ally moves."
+        },
+        {
+            "label": "sMimicryDescription",
+            "zh": "宝可梦的属性会根据\\n场地的状态而变化。",
+            "en": "Changes type on terrain."
+        },
+        {
+            "label": "sScreenCleanerDescription",
+            "zh": "出场时，双方的墙类\\n效果消失。",
+            "en": "Removes walls of light."
+        },
+        {
+            "label": "sSteelySpiritDescription",
+            "zh": "我方的钢属性攻击威\\n力会提高。",
+            "en": "Boosts ally's Steel moves."
+        },
+        {
+            "label": "sPerishBodyDescription",
+            "zh": "受接触招式攻击时3\\n回合后变为濒死状态。",
+            "en": "Foe faints in 3 turns if hit."
+        },
+        {
+            "label": "sWanderingSpiritDescription",
+            "zh": "与使用接触攻击自己\\n的宝可梦互换特性。",
+            "en": "Trade abilities on contact."
+        },
+        {
+            "label": "sGorillaTacticsDescription",
+            "zh": "攻击提高，但只能使\\n出一开始所选的招式。",
+            "en": "Ups Attack and locks move."
+        },
+        {
+            "label": "sNeutralizingGasDescription",
+            "zh": "场上所有宝可梦的特\\n性效果都会无法生效。",
+            "en": "All Abilities are nullified."
+        },
+        {
+            "label": "sPastelVeilDescription",
+            "zh": "自己和同伴都不会陷\\n入中毒的异常状态。",
+            "en": "Protects team from poison."
+        },
+        {
+            "label": "sHungerSwitchDescription",
+            "zh": "每回合结束时会改变\\n样子。",
+            "en": "Changes form each turn."
+        },
+        {
+            "label": "sQuickDrawDescription",
+            "zh": "有时能比对手先一步\\n行动。",
+            "en": "Moves first occasionally."
+        },
+        {
+            "label": "sUnseenFistDescription",
+            "zh": "使出接触招式时可以\\n无视守护效果。",
+            "en": "Contact evades protection."
+        },
+        {
+            "label": "sCuriousMedicineDescription",
+            "zh": "出场时将我方的能力\\n变化复原。",
+            "en": "Remove ally's stat changes."
+        },
+        {
+            "label": "sTransistorDescription",
+            "zh": "电属性的招式威力\\n会提高。",
+            "en": "Ups Electric-type moves."
+        },
+        {
+            "label": "sDragonsMawDescription",
+            "zh": "龙属性的招式威力\\n会提高。",
+            "en": "Ups Dragon-type moves."
+        },
+        {
+            "label": "sChillingNeighDescription",
+            "zh": "打倒对手时会\\n提高攻击。",
+            "en": "KOs boost Attack stat."
+        },
+        {
+            "label": "sGrimNeighDescription",
+            "zh": "打倒对手时会\\n提高特攻。",
+            "en": "KOs boost Sp. Atk stat."
+        },
+        {
+            "label": "sAsOneIceRiderDescription",
+            "zh": "兼备紧张感和苍白\\n嘶鸣这两种特性。",
+            "en": "Unnerve and Chilling Neigh."
+        },
+        {
+            "label": "sAsOneShadowRiderDescription",
+            "zh": "兼备紧张感和漆黑\\n嘶鸣这两种特性。",
+            "en": "Unnerve and Grim Neigh."
+        },
+        {
+            "label": "ABILITY_NONE",
+            "zh": "-------",
+            "en": "-------"
+        },
+        {
+            "label": "ABILITY_STENCH",
+            "zh": "恶臭",
+            "en": "Stench"
+        },
+        {
+            "label": "ABILITY_DRIZZLE",
+            "zh": "降雨",
+            "en": "Drizzle"
+        },
+        {
+            "label": "ABILITY_SPEED_BOOST",
+            "zh": "加速",
+            "en": "Speed Boost"
+        },
+        {
+            "label": "ABILITY_BATTLE_ARMOR",
+            "zh": "战斗盔甲",
+            "en": "Battle Armor"
+        },
+        {
+            "label": "ABILITY_STURDY",
+            "zh": "结实",
+            "en": "Sturdy"
+        },
+        {
+            "label": "ABILITY_DAMP",
+            "zh": "湿气",
+            "en": "Damp"
+        },
+        {
+            "label": "ABILITY_LIMBER",
+            "zh": "柔软",
+            "en": "Limber"
+        },
+        {
+            "label": "ABILITY_SAND_VEIL",
+            "zh": "沙隐",
+            "en": "Sand Veil"
+        },
+        {
+            "label": "ABILITY_STATIC",
+            "zh": "静电",
+            "en": "Static"
+        },
+        {
+            "label": "ABILITY_VOLT_ABSORB",
+            "zh": "蓄电",
+            "en": "Volt Absorb"
+        },
+        {
+            "label": "ABILITY_WATER_ABSORB",
+            "zh": "储水",
+            "en": "Water Absorb"
+        },
+        {
+            "label": "ABILITY_OBLIVIOUS",
+            "zh": "迟钝",
+            "en": "Oblivious"
+        },
+        {
+            "label": "ABILITY_CLOUD_NINE",
+            "zh": "无关天气",
+            "en": "Cloud Nine"
+        },
+        {
+            "label": "ABILITY_COMPOUND_EYES",
+            "zh": "复眼",
+            "en": "CompoundEyes"
+        },
+        {
+            "label": "ABILITY_INSOMNIA",
+            "zh": "不眠",
+            "en": "Insomnia"
+        },
+        {
+            "label": "ABILITY_COLOR_CHANGE",
+            "zh": "变色",
+            "en": "Color Change"
+        },
+        {
+            "label": "ABILITY_IMMUNITY",
+            "zh": "免疫",
+            "en": "Immunity"
+        },
+        {
+            "label": "ABILITY_FLASH_FIRE",
+            "zh": "引火",
+            "en": "Flash Fire"
+        },
+        {
+            "label": "ABILITY_SHIELD_DUST",
+            "zh": "鳞粉",
+            "en": "Shield Dust"
+        },
+        {
+            "label": "ABILITY_OWN_TEMPO",
+            "zh": "我行我素",
+            "en": "Own Tempo"
+        },
+        {
+            "label": "ABILITY_SUCTION_CUPS",
+            "zh": "吸盘",
+            "en": "Suction Cups"
+        },
+        {
+            "label": "ABILITY_INTIMIDATE",
+            "zh": "威吓",
+            "en": "Intimidate"
+        },
+        {
+            "label": "ABILITY_SHADOW_TAG",
+            "zh": "踩影",
+            "en": "Shadow Tag"
+        },
+        {
+            "label": "ABILITY_ROUGH_SKIN",
+            "zh": "粗糙皮肤",
+            "en": "Rough Skin"
+        },
+        {
+            "label": "ABILITY_WONDER_GUARD",
+            "zh": "神奇守护",
+            "en": "Wonder Guard"
+        },
+        {
+            "label": "ABILITY_LEVITATE",
+            "zh": "漂浮",
+            "en": "Levitate"
+        },
+        {
+            "label": "ABILITY_EFFECT_SPORE",
+            "zh": "孢子",
+            "en": "Effect Spore"
+        },
+        {
+            "label": "ABILITY_SYNCHRONIZE",
+            "zh": "同步",
+            "en": "Synchronize"
+        },
+        {
+            "label": "ABILITY_CLEAR_BODY",
+            "zh": "恒净之躯",
+            "en": "Clear Body"
+        },
+        {
+            "label": "ABILITY_NATURAL_CURE",
+            "zh": "自然回复",
+            "en": "Natural Cure"
+        },
+        {
+            "label": "ABILITY_LIGHTNING_ROD",
+            "zh": "避雷针",
+            "en": "LightningRod"
+        },
+        {
+            "label": "ABILITY_SERENE_GRACE",
+            "zh": "天恩",
+            "en": "Serene Grace"
+        },
+        {
+            "label": "ABILITY_SWIFT_SWIM",
+            "zh": "悠游自如",
+            "en": "Swift Swim"
+        },
+        {
+            "label": "ABILITY_CHLOROPHYLL",
+            "zh": "叶绿素",
+            "en": "Chlorophyll"
+        },
+        {
+            "label": "ABILITY_ILLUMINATE",
+            "zh": "发光",
+            "en": "Illuminate"
+        },
+        {
+            "label": "ABILITY_TRACE",
+            "zh": "复制",
+            "en": "Trace"
+        },
+        {
+            "label": "ABILITY_HUGE_POWER",
+            "zh": "大力士",
+            "en": "Huge Power"
+        },
+        {
+            "label": "ABILITY_POISON_POINT",
+            "zh": "毒刺",
+            "en": "Poison Point"
+        },
+        {
+            "label": "ABILITY_INNER_FOCUS",
+            "zh": "精神力",
+            "en": "Inner Focus"
+        },
+        {
+            "label": "ABILITY_MAGMA_ARMOR",
+            "zh": "熔岩铠甲",
+            "en": "Magma Armor"
+        },
+        {
+            "label": "ABILITY_WATER_VEIL",
+            "zh": "水幕",
+            "en": "Water Veil"
+        },
+        {
+            "label": "ABILITY_MAGNET_PULL",
+            "zh": "磁力",
+            "en": "Magnet Pull"
+        },
+        {
+            "label": "ABILITY_SOUNDPROOF",
+            "zh": "隔音",
+            "en": "Soundproof"
+        },
+        {
+            "label": "ABILITY_RAIN_DISH",
+            "zh": "雨盘",
+            "en": "Rain Dish"
+        },
+        {
+            "label": "ABILITY_SAND_STREAM",
+            "zh": "扬沙",
+            "en": "Sand Stream"
+        },
+        {
+            "label": "ABILITY_PRESSURE",
+            "zh": "压迫感",
+            "en": "Pressure"
+        },
+        {
+            "label": "ABILITY_THICK_FAT",
+            "zh": "厚脂肪",
+            "en": "Thick Fat"
+        },
+        {
+            "label": "ABILITY_EARLY_BIRD",
+            "zh": "早起",
+            "en": "Early Bird"
+        },
+        {
+            "label": "ABILITY_FLAME_BODY",
+            "zh": "火焰之躯",
+            "en": "Flame Body"
+        },
+        {
+            "label": "ABILITY_RUN_AWAY",
+            "zh": "逃跑",
+            "en": "Run Away"
+        },
+        {
+            "label": "ABILITY_KEEN_EYE",
+            "zh": "锐利目光",
+            "en": "Keen Eye"
+        },
+        {
+            "label": "ABILITY_HYPER_CUTTER",
+            "zh": "怪力钳",
+            "en": "Hyper Cutter"
+        },
+        {
+            "label": "ABILITY_PICKUP",
+            "zh": "捡拾",
+            "en": "Pickup"
+        },
+        {
+            "label": "ABILITY_TRUANT",
+            "zh": "懒惰",
+            "en": "Truant"
+        },
+        {
+            "label": "ABILITY_HUSTLE",
+            "zh": "活力",
+            "en": "Hustle"
+        },
+        {
+            "label": "ABILITY_CUTE_CHARM",
+            "zh": "迷人之躯",
+            "en": "Cute Charm"
+        },
+        {
+            "label": "ABILITY_PLUS",
+            "zh": "正电",
+            "en": "Plus"
+        },
+        {
+            "label": "ABILITY_MINUS",
+            "zh": "负电",
+            "en": "Minus"
+        },
+        {
+            "label": "ABILITY_FORECAST",
+            "zh": "阴晴不定",
+            "en": "Forecast"
+        },
+        {
+            "label": "ABILITY_STICKY_HOLD",
+            "zh": "黏着",
+            "en": "Sticky Hold"
+        },
+        {
+            "label": "ABILITY_SHED_SKIN",
+            "zh": "脱皮",
+            "en": "Shed Skin"
+        },
+        {
+            "label": "ABILITY_GUTS",
+            "zh": "毅力",
+            "en": "Guts"
+        },
+        {
+            "label": "ABILITY_MARVEL_SCALE",
+            "zh": "神奇鳞片",
+            "en": "Marvel Scale"
+        },
+        {
+            "label": "ABILITY_LIQUID_OOZE",
+            "zh": "污泥浆",
+            "en": "Liquid Ooze"
+        },
+        {
+            "label": "ABILITY_OVERGROW",
+            "zh": "茂盛",
+            "en": "Overgrow"
+        },
+        {
+            "label": "ABILITY_BLAZE",
+            "zh": "猛火",
+            "en": "Blaze"
+        },
+        {
+            "label": "ABILITY_TORRENT",
+            "zh": "激流",
+            "en": "Torrent"
+        },
+        {
+            "label": "ABILITY_SWARM",
+            "zh": "虫之预感",
+            "en": "Swarm"
+        },
+        {
+            "label": "ABILITY_ROCK_HEAD",
+            "zh": "坚硬脑袋",
+            "en": "Rock Head"
+        },
+        {
+            "label": "ABILITY_DROUGHT",
+            "zh": "日照",
+            "en": "Drought"
+        },
+        {
+            "label": "ABILITY_ARENA_TRAP",
+            "zh": "沙穴",
+            "en": "Arena Trap"
+        },
+        {
+            "label": "ABILITY_VITAL_SPIRIT",
+            "zh": "干劲",
+            "en": "Vital Spirit"
+        },
+        {
+            "label": "ABILITY_WHITE_SMOKE",
+            "zh": "白色烟雾",
+            "en": "White Smoke"
+        },
+        {
+            "label": "ABILITY_PURE_POWER",
+            "zh": "瑜伽之力",
+            "en": "Pure Power"
+        },
+        {
+            "label": "ABILITY_SHELL_ARMOR",
+            "zh": "硬壳盔甲",
+            "en": "Shell Armor"
+        },
+        {
+            "label": "ABILITY_AIR_LOCK",
+            "zh": "气阀",
+            "en": "Air Lock"
+        },
+        {
+            "label": "ABILITY_TANGLED_FEET",
+            "zh": "蹒跚",
+            "en": "Tangled Feet"
+        },
+        {
+            "label": "ABILITY_MOTOR_DRIVE",
+            "zh": "电气引擎",
+            "en": "Motor Drive"
+        },
+        {
+            "label": "ABILITY_RIVALRY",
+            "zh": "斗争心",
+            "en": "Rivalry"
+        },
+        {
+            "label": "ABILITY_STEADFAST",
+            "zh": "不屈之心",
+            "en": "Steadfast"
+        },
+        {
+            "label": "ABILITY_SNOW_CLOAK",
+            "zh": "雪隐",
+            "en": "Snow Cloak"
+        },
+        {
+            "label": "ABILITY_GLUTTONY",
+            "zh": "贪吃鬼",
+            "en": "Gluttony"
+        },
+        {
+            "label": "ABILITY_ANGER_POINT",
+            "zh": "愤怒穴位",
+            "en": "Anger Point"
+        },
+        {
+            "label": "ABILITY_UNBURDEN",
+            "zh": "轻装",
+            "en": "Unburden"
+        },
+        {
+            "label": "ABILITY_HEATPROOF",
+            "zh": "耐热",
+            "en": "Heatproof"
+        },
+        {
+            "label": "ABILITY_SIMPLE",
+            "zh": "单纯",
+            "en": "Simple"
+        },
+        {
+            "label": "ABILITY_DRY_SKIN",
+            "zh": "干燥皮肤",
+            "en": "Dry Skin"
+        },
+        {
+            "label": "ABILITY_DOWNLOAD",
+            "zh": "下载",
+            "en": "Download"
+        },
+        {
+            "label": "ABILITY_IRON_FIST",
+            "zh": "铁拳",
+            "en": "Iron Fist"
+        },
+        {
+            "label": "ABILITY_POISON_HEAL",
+            "zh": "毒疗",
+            "en": "Poison Heal"
+        },
+        {
+            "label": "ABILITY_ADAPTABILITY",
+            "zh": "适应力",
+            "en": "Adaptability"
+        },
+        {
+            "label": "ABILITY_SKILL_LINK",
+            "zh": "连续攻击",
+            "en": "Skill Link"
+        },
+        {
+            "label": "ABILITY_HYDRATION",
+            "zh": "湿润之躯",
+            "en": "Hydration"
+        },
+        {
+            "label": "ABILITY_SOLAR_POWER",
+            "zh": "太阳之力",
+            "en": "Solar Power"
+        },
+        {
+            "label": "ABILITY_QUICK_FEET",
+            "zh": "飞毛腿",
+            "en": "Quick Feet"
+        },
+        {
+            "label": "ABILITY_NORMALIZE",
+            "zh": "一般皮肤",
+            "en": "Normalize"
+        },
+        {
+            "label": "ABILITY_SNIPER",
+            "zh": "狙击手",
+            "en": "Sniper"
+        },
+        {
+            "label": "ABILITY_MAGIC_GUARD",
+            "zh": "魔法防守",
+            "en": "Magic Guard"
+        },
+        {
+            "label": "ABILITY_NO_GUARD",
+            "zh": "无防守",
+            "en": "No Guard"
+        },
+        {
+            "label": "ABILITY_STALL",
+            "zh": "慢出",
+            "en": "Stall"
+        },
+        {
+            "label": "ABILITY_TECHNICIAN",
+            "zh": "技术高手",
+            "en": "Technician"
+        },
+        {
+            "label": "ABILITY_LEAF_GUARD",
+            "zh": "叶子防守",
+            "en": "Leaf Guard"
+        },
+        {
+            "label": "ABILITY_KLUTZ",
+            "zh": "笨拙",
+            "en": "Klutz"
+        },
+        {
+            "label": "ABILITY_MOLD_BREAKER",
+            "zh": "破格",
+            "en": "Mold Breaker"
+        },
+        {
+            "label": "ABILITY_SUPER_LUCK",
+            "zh": "超幸运",
+            "en": "Super Luck"
+        },
+        {
+            "label": "ABILITY_AFTERMATH",
+            "zh": "引爆",
+            "en": "Aftermath"
+        },
+        {
+            "label": "ABILITY_ANTICIPATION",
+            "zh": "危险预知",
+            "en": "Anticipation"
+        },
+        {
+            "label": "ABILITY_FOREWARN",
+            "zh": "预知梦",
+            "en": "Forewarn"
+        },
+        {
+            "label": "ABILITY_UNAWARE",
+            "zh": "纯朴",
+            "en": "Unaware"
+        },
+        {
+            "label": "ABILITY_TINTED_LENS",
+            "zh": "有色眼镜",
+            "en": "Tinted Lens"
+        },
+        {
+            "label": "ABILITY_FILTER",
+            "zh": "过滤",
+            "en": "Filter"
+        },
+        {
+            "label": "ABILITY_SLOW_START",
+            "zh": "慢启动",
+            "en": "Slow Start"
+        },
+        {
+            "label": "ABILITY_SCRAPPY",
+            "zh": "胆量",
+            "en": "Scrappy"
+        },
+        {
+            "label": "ABILITY_STORM_DRAIN",
+            "zh": "引水",
+            "en": "Storm Drain"
+        },
+        {
+            "label": "ABILITY_ICE_BODY",
+            "zh": "冰冻之躯",
+            "en": "Ice Body"
+        },
+        {
+            "label": "ABILITY_SOLID_ROCK",
+            "zh": "坚硬岩石",
+            "en": "Solid Rock"
+        },
+        {
+            "label": "ABILITY_SNOW_WARNING",
+            "zh": "降雪",
+            "en": "Snow Warning"
+        },
+        {
+            "label": "ABILITY_HONEY_GATHER",
+            "zh": "采蜜",
+            "en": "Honey Gather"
+        },
+        {
+            "label": "ABILITY_FRISK",
+            "zh": "察觉",
+            "en": "Frisk"
+        },
+        {
+            "label": "ABILITY_RECKLESS",
+            "zh": "舍身",
+            "en": "Reckless"
+        },
+        {
+            "label": "ABILITY_MULTITYPE",
+            "zh": "多属性",
+            "en": "Multitype"
+        },
+        {
+            "label": "ABILITY_FLOWER_GIFT",
+            "zh": "花之礼",
+            "en": "Flower Gift"
+        },
+        {
+            "label": "ABILITY_BAD_DREAMS",
+            "zh": "梦魇",
+            "en": "Bad Dreams"
+        },
+        {
+            "label": "ABILITY_PICKPOCKET",
+            "zh": "顺手牵羊",
+            "en": "Pickpocket"
+        },
+        {
+            "label": "ABILITY_SHEER_FORCE",
+            "zh": "强行",
+            "en": "Sheer Force"
+        },
+        {
+            "label": "ABILITY_CONTRARY",
+            "zh": "唱反调",
+            "en": "Contrary"
+        },
+        {
+            "label": "ABILITY_UNNERVE",
+            "zh": "紧张感",
+            "en": "Unnerve"
+        },
+        {
+            "label": "ABILITY_DEFIANT",
+            "zh": "不服输",
+            "en": "Defiant"
+        },
+        {
+            "label": "ABILITY_DEFEATIST",
+            "zh": "软弱",
+            "en": "Defeatist"
+        },
+        {
+            "label": "ABILITY_CURSED_BODY",
+            "zh": "诅咒之躯",
+            "en": "Cursed Body"
+        },
+        {
+            "label": "ABILITY_HEALER",
+            "zh": "治愈之心",
+            "en": "Healer"
+        },
+        {
+            "label": "ABILITY_FRIEND_GUARD",
+            "zh": "友情防守",
+            "en": "Friend Guard"
+        },
+        {
+            "label": "ABILITY_WEAK_ARMOR",
+            "zh": "碎裂铠甲",
+            "en": "Weak Armor"
+        },
+        {
+            "label": "ABILITY_HEAVY_METAL",
+            "zh": "重金属",
+            "en": "Heavy Metal"
+        },
+        {
+            "label": "ABILITY_LIGHT_METAL",
+            "zh": "轻金属",
+            "en": "Light Metal"
+        },
+        {
+            "label": "ABILITY_MULTISCALE",
+            "zh": "多重鳞片",
+            "en": "Multiscale"
+        },
+        {
+            "label": "ABILITY_TOXIC_BOOST",
+            "zh": "中毒激升",
+            "en": "Toxic Boost"
+        },
+        {
+            "label": "ABILITY_FLARE_BOOST",
+            "zh": "受热激升",
+            "en": "Flare Boost"
+        },
+        {
+            "label": "ABILITY_HARVEST",
+            "zh": "收获",
+            "en": "Harvest"
+        },
+        {
+            "label": "ABILITY_TELEPATHY",
+            "zh": "心灵感应",
+            "en": "Telepathy"
+        },
+        {
+            "label": "ABILITY_MOODY",
+            "zh": "心情不定",
+            "en": "Moody"
+        },
+        {
+            "label": "ABILITY_OVERCOAT",
+            "zh": "防尘",
+            "en": "Overcoat"
+        },
+        {
+            "label": "ABILITY_POISON_TOUCH",
+            "zh": "毒手",
+            "en": "Poison Touch"
+        },
+        {
+            "label": "ABILITY_REGENERATOR",
+            "zh": "再生力",
+            "en": "Regenerator"
+        },
+        {
+            "label": "ABILITY_BIG_PECKS",
+            "zh": "健壮胸肌",
+            "en": "Big Pecks"
+        },
+        {
+            "label": "ABILITY_SAND_RUSH",
+            "zh": "泼沙",
+            "en": "Sand Rush"
+        },
+        {
+            "label": "ABILITY_WONDER_SKIN",
+            "zh": "奇迹皮肤",
+            "en": "Wonder Skin"
+        },
+        {
+            "label": "ABILITY_ANALYTIC",
+            "zh": "分析",
+            "en": "Analytic"
+        },
+        {
+            "label": "ABILITY_ILLUSION",
+            "zh": "幻觉",
+            "en": "Illusion"
+        },
+        {
+            "label": "ABILITY_IMPOSTER",
+            "zh": "变身者",
+            "en": "Imposter"
+        },
+        {
+            "label": "ABILITY_INFILTRATOR",
+            "zh": "传统",
+            "en": "Infiltrator"
+        },
+        {
+            "label": "ABILITY_MUMMY",
+            "zh": "木乃伊",
+            "en": "Mummy"
+        },
+        {
+            "label": "ABILITY_MOXIE",
+            "zh": "自信过度",
+            "en": "Moxie"
+        },
+        {
+            "label": "ABILITY_JUSTIFIED",
+            "zh": "正义之心",
+            "en": "Justified"
+        },
+        {
+            "label": "ABILITY_RATTLED",
+            "zh": "胆怯",
+            "en": "Rattled"
+        },
+        {
+            "label": "ABILITY_MAGIC_BOUNCE",
+            "zh": "魔法镜",
+            "en": "Magic Bounce"
+        },
+        {
+            "label": "ABILITY_SAP_SIPPER",
+            "zh": "食草",
+            "en": "Sap Sipper"
+        },
+        {
+            "label": "ABILITY_PRANKSTER",
+            "zh": "恶作剧之心",
+            "en": "Prankster"
+        },
+        {
+            "label": "ABILITY_SAND_FORCE",
+            "zh": "沙之力",
+            "en": "Sand Force"
+        },
+        {
+            "label": "ABILITY_IRON_BARBS",
+            "zh": "铁刺",
+            "en": "Iron Barbs"
+        },
+        {
+            "label": "ABILITY_ZEN_MODE",
+            "zh": "达摩模式",
+            "en": "Zen Mode"
+        },
+        {
+            "label": "ABILITY_VICTORY_STAR",
+            "zh": "胜利之星",
+            "en": "Victory Star"
+        },
+        {
+            "label": "ABILITY_TURBOBLAZE",
+            "zh": "涡轮火焰",
+            "en": "Turboblaze"
+        },
+        {
+            "label": "ABILITY_TERAVOLT",
+            "zh": "兆级电压",
+            "en": "Teravolt"
+        },
+        {
+            "label": "ABILITY_AROMA_VEIL",
+            "zh": "芳香幕",
+            "en": "Aroma Veil"
+        },
+        {
+            "label": "ABILITY_FLOWER_VEIL",
+            "zh": "花幕",
+            "en": "Flower Veil"
+        },
+        {
+            "label": "ABILITY_CHEEK_POUCH",
+            "zh": "颊囊",
+            "en": "Cheek Pouch"
+        },
+        {
+            "label": "ABILITY_PROTEAN",
+            "zh": "变换自如",
+            "en": "Protean"
+        },
+        {
+            "label": "ABILITY_FUR_COAT",
+            "zh": "毛皮大衣",
+            "en": "Fur Coat"
+        },
+        {
+            "label": "ABILITY_MAGICIAN",
+            "zh": "魔术师",
+            "en": "Magician"
+        },
+        {
+            "label": "ABILITY_BULLETPROOF",
+            "zh": "防弹",
+            "en": "Bulletproof"
+        },
+        {
+            "label": "ABILITY_COMPETITIVE",
+            "zh": "好胜",
+            "en": "Competitive"
+        },
+        {
+            "label": "ABILITY_STRONG_JAW",
+            "zh": "强装之颚",
+            "en": "Strong Jaw"
+        },
+        {
+            "label": "ABILITY_REFRIGERATE",
+            "zh": "冰冻皮肤",
+            "en": "Refrigerate"
+        },
+        {
+            "label": "ABILITY_SWEET_VEIL",
+            "zh": "天幕",
+            "en": "Sweet Veil"
+        },
+        {
+            "label": "ABILITY_STANCE_CHANGE",
+            "zh": "战斗切换",
+            "en": "StanceChange"
+        },
+        {
+            "label": "ABILITY_GALE_WINGS",
+            "zh": "疾风之翼",
+            "en": "Gale Wings"
+        },
+        {
+            "label": "ABILITY_MEGA_LAUNCHER",
+            "zh": "超级发射器",
+            "en": "MegaLauncher"
+        },
+        {
+            "label": "ABILITY_GRASS_PELT",
+            "zh": "草之毛皮",
+            "en": "Grass Pelt"
+        },
+        {
+            "label": "ABILITY_SYMBIOSIS",
+            "zh": "共生",
+            "en": "Symbiosis"
+        },
+        {
+            "label": "ABILITY_TOUGH_CLAWS",
+            "zh": "硬爪",
+            "en": "Tough Claws"
+        },
+        {
+            "label": "ABILITY_PIXILATE",
+            "zh": "妖精皮肤",
+            "en": "Pixilate"
+        },
+        {
+            "label": "ABILITY_GOOEY",
+            "zh": "黏滑",
+            "en": "Gooey"
+        },
+        {
+            "label": "ABILITY_AERILATE",
+            "zh": "飞行皮肤",
+            "en": "Aerilate"
+        },
+        {
+            "label": "ABILITY_PARENTAL_BOND",
+            "zh": "亲子爱",
+            "en": "ParentalBond"
+        },
+        {
+            "label": "ABILITY_DARK_AURA",
+            "zh": "暗黑气场",
+            "en": "Dark Aura"
+        },
+        {
+            "label": "ABILITY_FAIRY_AURA",
+            "zh": "妖精气场",
+            "en": "Fairy Aura"
+        },
+        {
+            "label": "ABILITY_AURA_BREAK",
+            "zh": "气场破坏",
+            "en": "Aura Break"
+        },
+        {
+            "label": "ABILITY_PRIMORDIAL_SEA",
+            "zh": "始源之海",
+            "en": "PrimrdialSea"
+        },
+        {
+            "label": "ABILITY_DESOLATE_LAND",
+            "zh": "终结之地",
+            "en": "DesolateLand"
+        },
+        {
+            "label": "ABILITY_DELTA_STREAM",
+            "zh": "德尔塔气流",
+            "en": "Delta Stream"
+        },
+        {
+            "label": "ABILITY_STAMINA",
+            "zh": "持久力",
+            "en": "Stamina"
+        },
+        {
+            "label": "ABILITY_WIMP_OUT",
+            "zh": "跃跃欲逃",
+            "en": "Wimp Out"
+        },
+        {
+            "label": "ABILITY_EMERGENCY_EXIT",
+            "zh": "危险回避",
+            "en": "EmergncyExit"
+        },
+        {
+            "label": "ABILITY_WATER_COMPACTION",
+            "zh": "遇水凝固",
+            "en": "WtrCmpaction"
+        },
+        {
+            "label": "ABILITY_MERCILESS",
+            "zh": "不仁不义",
+            "en": "Merciless"
+        },
+        {
+            "label": "ABILITY_SHIELDS_DOWN",
+            "zh": "界限盾壳",
+            "en": "Shields Down"
+        },
+        {
+            "label": "ABILITY_STAKEOUT",
+            "zh": "蹲守",
+            "en": "Stakeout"
+        },
+        {
+            "label": "ABILITY_WATER_BUBBLE",
+            "zh": "水泡",
+            "en": "Water Bubble"
+        },
+        {
+            "label": "ABILITY_STEELWORKER",
+            "zh": "钢能力者",
+            "en": "Steelworker"
+        },
+        {
+            "label": "ABILITY_BERSERK",
+            "zh": "怒火冲天",
+            "en": "Berserk"
+        },
+        {
+            "label": "ABILITY_SLUSH_RUSH",
+            "zh": "拨雪",
+            "en": "Slush Rush"
+        },
+        {
+            "label": "ABILITY_LONG_REACH",
+            "zh": "远隔",
+            "en": "Long Reach"
+        },
+        {
+            "label": "ABILITY_LIQUID_VOICE",
+            "zh": "湿润之声",
+            "en": "Liquid Voice"
+        },
+        {
+            "label": "ABILITY_TRIAGE",
+            "zh": "先行治疗",
+            "en": "Triage"
+        },
+        {
+            "label": "ABILITY_GALVANIZE",
+            "zh": "电气皮肤",
+            "en": "Galvanize"
+        },
+        {
+            "label": "ABILITY_SURGE_SURFER",
+            "zh": "冲浪之尾",
+            "en": "Surge Surfer"
+        },
+        {
+            "label": "ABILITY_SCHOOLING",
+            "zh": "鱼群",
+            "en": "Schooling"
+        },
+        {
+            "label": "ABILITY_DISGUISE",
+            "zh": "画皮",
+            "en": "Disguise"
+        },
+        {
+            "label": "ABILITY_BATTLE_BOND",
+            "zh": "牵绊之身",
+            "en": "Battle Bond"
+        },
+        {
+            "label": "ABILITY_POWER_CONSTRUCT",
+            "zh": "群聚变形",
+            "en": "PwrConstruct"
+        },
+        {
+            "label": "ABILITY_CORROSION",
+            "zh": "腐蚀",
+            "en": "Corrosion"
+        },
+        {
+            "label": "ABILITY_COMATOSE",
+            "zh": "绝对睡眠",
+            "en": "Comatose"
+        },
+        {
+            "label": "ABILITY_QUEENLY_MAJESTY",
+            "zh": "女王的尊严",
+            "en": "QueenlyMjsty"
+        },
+        {
+            "label": "ABILITY_INNARDS_OUT",
+            "zh": "飞出的内在物",
+            "en": "Innards Out"
+        },
+        {
+            "label": "ABILITY_DANCER",
+            "zh": "舞者",
+            "en": "Dancer"
+        },
+        {
+            "label": "ABILITY_BATTERY",
+            "zh": "蓄电池",
+            "en": "Battery"
+        },
+        {
+            "label": "ABILITY_FLUFFY",
+            "zh": "毛茸茸",
+            "en": "Fluffy"
+        },
+        {
+            "label": "ABILITY_DAZZLING",
+            "zh": "鲜艳之躯",
+            "en": "Dazzling"
+        },
+        {
+            "label": "ABILITY_SOUL_HEART",
+            "zh": "魂心",
+            "en": "Soul-Heart"
+        },
+        {
+            "label": "ABILITY_TANGLING_HAIR",
+            "zh": "卷发",
+            "en": "TanglingHair"
+        },
+        {
+            "label": "ABILITY_RECEIVER",
+            "zh": "接球手",
+            "en": "Receiver"
+        },
+        {
+            "label": "ABILITY_POWER_OF_ALCHEMY",
+            "zh": "化学之力",
+            "en": "PwrOfAlchemy"
+        },
+        {
+            "label": "ABILITY_BEAST_BOOST",
+            "zh": "异兽提升",
+            "en": "Beast Boost"
+        },
+        {
+            "label": "ABILITY_RKS_SYSTEM",
+            "zh": "AR系统",
+            "en": "RKS System"
+        },
+        {
+            "label": "ABILITY_ELECTRIC_SURGE",
+            "zh": "电气制造者",
+            "en": "ElectrcSurge"
+        },
+        {
+            "label": "ABILITY_PSYCHIC_SURGE",
+            "zh": "精神制造者",
+            "en": "PsychicSurge"
+        },
+        {
+            "label": "ABILITY_MISTY_SURGE",
+            "zh": "薄雾制造者",
+            "en": "Misty Surge"
+        },
+        {
+            "label": "ABILITY_GRASSY_SURGE",
+            "zh": "青草制造者",
+            "en": "Grassy Surge"
+        },
+        {
+            "label": "ABILITY_FULL_METAL_BODY",
+            "zh": "金属防护",
+            "en": "FullMetalBdy"
+        },
+        {
+            "label": "ABILITY_SHADOW_SHIELD",
+            "zh": "幻影防守",
+            "en": "ShadowShield"
+        },
+        {
+            "label": "ABILITY_PRISM_ARMOR",
+            "zh": "棱镜装甲",
+            "en": "Prism Armor"
+        },
+        {
+            "label": "ABILITY_NEUROFORCE",
+            "zh": "脑核之力",
+            "en": "Neuroforce"
+        },
+        {
+            "label": "ABILITY_INTREPID_SWORD",
+            "zh": "不挠之剑",
+            "en": "IntrepidSwrd"
+        },
+        {
+            "label": "ABILITY_DAUNTLESS_SHIELD",
+            "zh": "不屈之盾",
+            "en": "DauntlssShld"
+        },
+        {
+            "label": "ABILITY_LIBERO",
+            "zh": "自由者",
+            "en": "Libero"
+        },
+        {
+            "label": "ABILITY_BALL_FETCH",
+            "zh": "捡球",
+            "en": "Ball Fetch"
+        },
+        {
+            "label": "ABILITY_COTTON_DOWN",
+            "zh": "棉絮",
+            "en": "Cotton Down"
+        },
+        {
+            "label": "ABILITY_PROPELLER_TAIL",
+            "zh": "螺旋尾鳍",
+            "en": "PropellrTail"
+        },
+        {
+            "label": "ABILITY_MIRROR_ARMOR",
+            "zh": "镜甲",
+            "en": "Mirror Armor"
+        },
+        {
+            "label": "ABILITY_GULP_MISSILE",
+            "zh": "一口导弹",
+            "en": "Gulp Missile"
+        },
+        {
+            "label": "ABILITY_STALWART",
+            "zh": "坚毅",
+            "en": "Stalwart"
+        },
+        {
+            "label": "ABILITY_STEAM_ENGINE",
+            "zh": "蒸汽机",
+            "en": "Steam Engine"
+        },
+        {
+            "label": "ABILITY_PUNK_ROCK",
+            "zh": "庞克摇滚",
+            "en": "Punk Rock"
+        },
+        {
+            "label": "ABILITY_SAND_SPIT",
+            "zh": "吐沙",
+            "en": "Sand Spit"
+        },
+        {
+            "label": "ABILITY_ICE_SCALES",
+            "zh": "冰鳞粉",
+            "en": "Ice Scales"
+        },
+        {
+            "label": "ABILITY_RIPEN",
+            "zh": "熟成",
+            "en": "Ripen"
+        },
+        {
+            "label": "ABILITY_ICE_FACE",
+            "zh": "结冻头",
+            "en": "Ice Face"
+        },
+        {
+            "label": "ABILITY_POWER_SPOT",
+            "zh": "能量点",
+            "en": "Power Spot"
+        },
+        {
+            "label": "ABILITY_MIMICRY",
+            "zh": "拟态",
+            "en": "Mimicry"
+        },
+        {
+            "label": "ABILITY_SCREEN_CLEANER",
+            "zh": "除障",
+            "en": "ScreenCleanr"
+        },
+        {
+            "label": "ABILITY_STEELY_SPIRIT",
+            "zh": "钢之意志",
+            "en": "SteelySpirit"
+        },
+        {
+            "label": "ABILITY_PERISH_BODY",
+            "zh": "灭亡之躯",
+            "en": "Perish Body"
+        },
+        {
+            "label": "ABILITY_WANDERING_SPIRIT",
+            "zh": "游魂",
+            "en": "WandrngSprit"
+        },
+        {
+            "label": "ABILITY_GORILLA_TACTICS",
+            "zh": "一猩一意",
+            "en": "GorillaTacti"
+        },
+        {
+            "label": "ABILITY_NEUTRALIZING_GAS",
+            "zh": "化学气体",
+            "en": "NeutrlzngGas"
+        },
+        {
+            "label": "ABILITY_PASTEL_VEIL",
+            "zh": "粉彩护幕",
+            "en": "Pastel Veil"
+        },
+        {
+            "label": "ABILITY_HUNGER_SWITCH",
+            "zh": "饱了又饿",
+            "en": "HungerSwitch"
+        },
+        {
+            "label": "ABILITY_QUICK_DRAW",
+            "zh": "速击",
+            "en": "Quick Draw"
+        },
+        {
+            "label": "ABILITY_UNSEEN_FIST",
+            "zh": "无形拳",
+            "en": "Unseen Fist"
+        },
+        {
+            "label": "ABILITY_CURIOUS_MEDICINE",
+            "zh": "怪药",
+            "en": "CuriusMedicn"
+        },
+        {
+            "label": "ABILITY_TRANSISTOR",
+            "zh": "电晶体",
+            "en": "Transistor"
+        },
+        {
+            "label": "ABILITY_DRAGONS_MAW",
+            "zh": "龙颚",
+            "en": "Dragon's Maw"
+        },
+        {
+            "label": "ABILITY_CHILLING_NEIGH",
+            "zh": "苍白嘶鸣",
+            "en": "ChillngNeigh"
+        },
+        {
+            "label": "ABILITY_GRIM_NEIGH",
+            "zh": "漆黑嘶鸣",
+            "en": "Grim Neigh"
+        },
+        {
+            "label": "ABILITY_AS_ONE_ICE_RIDER",
+            "zh": "人马一体",
+            "en": "As One"
+        },
+        {
+            "label": "ABILITY_AS_ONE_SHADOW_RIDER",
+            "zh": "人马一体",
+            "en": "As One"
+        }
+    ]
+}

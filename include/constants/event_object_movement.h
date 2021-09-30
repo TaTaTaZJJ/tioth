@@ -241,6 +241,36 @@
 #define MOVEMENT_ACTION_FIGURE_8                        0x9B
 #define MOVEMENT_ACTION_FLY_UP                          0x9C
 #define MOVEMENT_ACTION_FLY_DOWN                        0x9D
+// slow running
+#define MOVEMENT_ACTION_RUN_DOWN_SLOW                   0x9E
+#define MOVEMENT_ACTION_RUN_UP_SLOW                     0x9F
+#define MOVEMENT_ACTION_RUN_LEFT_SLOW                   0xA0
+#define MOVEMENT_ACTION_RUN_RIGHT_SLOW                  0xA1
+
+#define MOVEMENT_ACTION_EMOTE_DOTDOTDOT                 0xA2
+#define MOVEMENT_ACTION_EMOTE_ANGRY                     0xA3
+#define MOVEMENT_ACTION_EMOTE_SWEAT                     0xA4
+#define MOVEMENT_ACTION_EMOTE_EXCLAMATION_MARK_2        0xA5
+#define MOVEMENT_ACTION_EMOTE_BULB                      0xA6
+#define MOVEMENT_ACTION_EMOTE_SPEECHLESS                0xA7
+#define MOVEMENT_ACTION_EMOTE_MUSIC                     0xA8
+#define MOVEMENT_ACTION_EMOTE_CIRCLE                    0xA9
+#define MOVEMENT_ACTION_EMOTE_SLEEPY                    0xAA
+#define MOVEMENT_ACTION_EMOTE_CROSS                     0xAB
+#define MOVEMENT_ACTION_EMOTE_STAR                      0xAC
+#define MOVEMENT_ACTION_EMOTE_FUNNY                     0xAD
+#define MOVEMENT_ACTION_EMOTE_VOMMIT                    0xAE
+#define MOVEMENT_ACTION_EMOTE_SMILE                     0xAF
+#define MOVEMENT_ACTION_EMOTE_FACE_PALM                 0xB0
+#define MOVEMENT_ACTION_EMOTE_BOMBED                    0xB1
+#define MOVEMENT_ACTION_EMOTE_DOGE                      0xB2
+#define MOVEMENT_ACTION_EMOTE_EVIL                      0xB3
+#define MOVEMENT_ACTION_EMOTE_SWEAT_2                   0xB4
+#define MOVEMENT_ACTION_EMOTE_SKULL                     0xB5
+#define MOVEMENT_ACTION_EMOTE_SWORD                     0xB6
+#define MOVEMENT_ACTION_EMOTE_CREEPER                   0xB7
+#define MOVEMENT_ACTION_EMOTE_SPIT_BLOOD                0xB8
+#define MOVEMENT_ACTION_EMOTE_INTERESTING               0xB9
 
 #define MOVEMENT_ACTION_STEP_END 0xFE
 #define MOVEMENT_ACTION_NONE     0xFF

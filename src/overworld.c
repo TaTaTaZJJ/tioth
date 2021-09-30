@@ -6,6 +6,7 @@
 #include "bg.h"
 #include "cable_club.h"
 #include "clock.h"
+#include "dns.h"
 #include "event_data.h"
 #include "event_object_movement.h"
 #include "event_scripts.h"
@@ -31,6 +32,7 @@
 #include "malloc.h"
 #include "m4a.h"
 #include "map_name_popup.h"
+#include "map_preview.h"
 #include "match_call.h"
 #include "menu.h"
 #include "metatile_behavior.h"
@@ -53,6 +55,7 @@
 #include "task.h"
 #include "tileset_anims.h"
 #include "time_events.h"
+#include "tioth_specials.h"
 #include "trainer_hill.h"
 #include "trainer_pokemon_sprites.h"
 #include "tv.h"
@@ -938,7 +941,8 @@ static u8 GetAdjustedInitialTransitionFlags(struct InitialPlayerAvatarState *pla
 }
 
 static u8 GetAdjustedInitialDirection(struct InitialPlayerAvatarState *playerStruct, u8 transitionFlags, u16 metatileBehavior, u8 mapType)
-{
+{   
+    u8 mirrorWorldDirection = GetDreamWorldTransitionDirection();
     if (FlagGet(FLAG_SYS_CRUISE_MODE) && mapType == MAP_TYPE_OCEAN_ROUTE)
         return DIR_EAST;
     else if (MetatileBehavior_IsDeepSouthWarp(metatileBehavior) == TRUE)
@@ -958,6 +962,8 @@ static u8 GetAdjustedInitialDirection(struct InitialPlayerAvatarState *playerStr
         return playerStruct->direction;
     else if (MetatileBehavior_IsLadder(metatileBehavior) == TRUE)
         return playerStruct->direction;
+    else if (mirrorWorldDirection != DIR_NONE)
+        return mirrorWorldDirection;
     else
         return DIR_SOUTH;
 }
@@ -1465,6 +1471,7 @@ void CB1_Overworld(void)
 
 static void OverworldBasic(void)
 {
+    DnsApplyFilters();
     ScriptContext2_RunScript();
     RunTasks();
     AnimateSprites();
@@ -1944,7 +1951,12 @@ static bool32 LoadMapInStepsLocal(u8 *state, bool32 a2)
         (*state)++;
         break;
     case 11:
-        if (gMapHeader.showMapName == TRUE && SecretBaseMapPopupEnabled() == TRUE)
+        if (GetLastUsedWarpMapSectionId() != gMapHeader.regionMapSectionId && MapHasPreviewScreen(gMapHeader.regionMapSectionId, MPS_TYPE_FOREST) == TRUE)
+        {
+            MapPreview_LoadGfx(gMapHeader.regionMapSectionId);
+            MapPreview_StartForestTransition(gMapHeader.regionMapSectionId);
+        }
+        else if (gMapHeader.showMapName == TRUE && SecretBaseMapPopupEnabled() == TRUE)
             ShowMapNamePopup();
         (*state)++;
         break;
@@ -3225,4 +3237,17 @@ static void SpriteCB_LinkPlayer(struct Sprite *sprite)
         sprite->invisible = ((sprite->data[7] & 4) >> 2);
         sprite->data[7]++;
     }
+}
+
+bool8 IsOverworld(void)
+{
+    if (gMain.callback2 == CB2_Overworld || gMain.callback2 ==CB2_OverworldBasic)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+u8 GetLastUsedWarpMapSectionId(void)
+{
+    return Overworld_GetMapHeaderByGroupAndId(gLastUsedWarp.mapGroup, gLastUsedWarp.mapNum)->regionMapSectionId;
 }

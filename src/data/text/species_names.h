@@ -777,7 +777,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_KOMALA] = _("树枕尾熊"),
     [SPECIES_TURTONATOR] = _("爆焰龟兽"),
     [SPECIES_TOGEDEMARU] = _("托戈德玛尔"),
-    [SPECIES_MIMIKYU] = _("谜拟Q"),
+    [SPECIES_MIMIKYU] = _("谜拟Ｑ"),
     [SPECIES_BRUXISH] = _("磨牙彩皮鱼"),
     [SPECIES_DRAMPA] = _("老翁龙"),
     [SPECIES_DHELMISE] = _("破破舵轮"),
@@ -1230,7 +1230,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_MINIOR_CORE_INDIGO] = _("小陨星"),
     [SPECIES_MINIOR_CORE_VIOLET] = _("小陨星"),
     // Mimikyu
-    [SPECIES_MIMIKYU_BUSTED] = _("谜拟Q"),
+    [SPECIES_MIMIKYU_BUSTED] = _("谜拟Ｑ"),
     // Necrozma
     [SPECIES_NECROZMA_DUSK_MANE] = _("奈克洛兹玛"),
     [SPECIES_NECROZMA_DAWN_WINGS] = _("奈克洛兹玛"),

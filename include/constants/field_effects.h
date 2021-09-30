@@ -69,6 +69,32 @@
 #define FLDEFF_DESTROY_DEOXYS_ROCK       65
 #define FLDEFF_MOVE_DEOXYS_ROCK          66
 
+// 新表情
+#define FLDEFF_DOTDOTDOT_ICON            67
+#define FLDEFF_ANGRY_ICON                68
+#define FLDEFF_SWEAT_ICON                69
+#define FLDEFF_EXCLAMATION_MARK_2_ICON   70
+#define FLDEFF_BULB_ICON                 71
+#define FLDEFF_SPEECHLESS_ICON           72
+#define FLDEFF_MUSIC_ICON                73
+#define FLDEFF_CIRCLE_ICON               74
+#define FLDEFF_SLEEPY_ICON               75
+#define FLDEFF_CROSS_ICON                76
+#define FLDEFF_STAR_ICON                 77
+#define FLDEFF_FUNNY_ICON                78
+#define FLDEFF_VOMMIT_ICON               79
+#define FLDEFF_SMILE_ICON                80
+#define FLDEFF_FACE_PALM_ICON            81
+#define FLDEFF_BOMBED_ICON               82
+#define FLDEFF_DOGE_ICON                 83
+#define FLDEFF_EVIL_ICON                 84
+#define FLDEFF_SWEAT_2_ICON              85
+#define FLDEFF_SKULL_ICON                86
+#define FLDEFF_SWORD_ICON                87
+#define FLDEFF_CREEPER_ICON              88
+#define FLDEFF_SPIT_BLOOD_ICON           89
+#define FLDEFF_INTERESTING_ICON          90
+
 #define FLDEFFOBJ_SHADOW_S              0
 #define FLDEFFOBJ_SHADOW_M              1
 #define FLDEFFOBJ_SHADOW_L              2
@@ -119,5 +145,6 @@
 #define FLDEFF_PAL_TAG_SMALL_SPARKLE      0x100F
 #define FLDEFF_PAL_TAG_HOF_MONITOR        0x1010
 #define FLDEFF_PAL_TAG_UNKNOWN            0x1011
+#define FLDEFF_PAL_TAG_EMOTION            0x1012
 
 #endif // GUARD_FIELD_EFFECT_CONSTANTS_H

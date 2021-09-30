@@ -4945,6 +4945,8 @@ BattleScript_FaintTarget::
 	tryactivatebeastboost BS_ATTACKER
 	tryactivategrimneigh BS_ATTACKER	@ and as one shadow rider
 	trytrainerslidefirstdownmsg BS_TARGET
+	trylootitem BS_TARGET				@ 掉落道具
+	trywildbeatencount BS_TARGET
 	return
 
 BattleScript_GiveExp::
@@ -5067,6 +5069,7 @@ BattleScript_LocalBattleWonReward::
 	getmoneyreward
 	printstring STRINGID_PLAYERGOTMONEY
 	waitmessage B_WAIT_TIME_LONG
+	trygivetrainerrewarditem
 BattleScript_PayDayMoneyAndPickUpItems::
 	givepaydaymoney
 	pickup

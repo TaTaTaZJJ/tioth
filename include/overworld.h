@@ -26,6 +26,10 @@
 
 #define SKIP_OBJECT_EVENT_LOAD  1
 
+#define QL_TINT_NONE              0 // 从火红移植的正常模式
+#define QL_TINT_GRAYSCALE         1 // 从火红移植的灰阶模式
+#define QL_TINT_SEPIA             2 // 从火红移植的红褐色色调模式
+
 struct InitialPlayerAvatarState
 {
     u8 transitionFlags;
@@ -55,6 +59,7 @@ extern u8 gFieldLinkPlayerCount;
 
 // Exported ROM declarations
 extern const struct UCoords32 gDirectionToVectors[];
+extern u8 gGlobalFieldTintMode; // 从火红移植的地图色调模式
 
 void DoWhiteOut(void);
 void Overworld_ResetStateAfterFly(void);
@@ -156,5 +161,7 @@ bool32 Overworld_RecvKeysFromLinkIsRunning(void);
 bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
+bool8 IsOverworld(void);
+u8 GetLastUsedWarpMapSectionId(void);
 
 #endif // GUARD_OVERWORLD_H

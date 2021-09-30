@@ -1175,8 +1175,10 @@
 	.byte 0xe4
 	.endm
 
-	.macro pickup
+	.macro tiothspecial battler:req, param:req
 	.byte 0xe5
+	.byte \battler
+	.byte \param
 	.endm
 
 	.macro docastformchangeanimation
@@ -1894,3 +1896,18 @@
 	1:
 	.endm
 
+	.macro pickup
+	tiothspecial 0, TIOTH_SPECIAL_PICKUP
+	.endm
+
+	.macro trylootitem battler:req
+	tiothspecial \battler, TIOTH_SPECIAL_LOOT_ITEM
+	.endm
+
+	.macro trygivetrainerrewarditem
+	tiothspecial 0, TIOTH_SPECIAL_TRAINER_REWARD_ITEM
+	.endm
+
+	.macro trywildbeatencount battler:req
+	tiothspecial \battler, TIOTH_SPECIAL_WILD_BEATEN_COUNT
+	.endm

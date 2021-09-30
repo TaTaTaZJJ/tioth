@@ -70,7 +70,7 @@ extern const struct OamData gObjectEventBaseOam_32x32;
 extern const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[];
 extern const u8 gReflectionEffectPaletteMap[];
 
-extern const u8 *const gBerryTreeObjectEventGraphicsIdTablePointers[];
+extern const u16 *const gBerryTreeObjectEventGraphicsIdTablePointers[];
 extern const struct SpriteFrameImage *const gBerryTreePicTablePointers[];
 extern const u8 *const gBerryTreePaletteSlotTablePointers[];
 
@@ -95,17 +95,17 @@ void SetSpritePosToOffsetMapCoords(s16 *, s16 *, s16, s16);
 void ObjectEventClearHeldMovement(struct ObjectEvent *);
 void ObjectEventClearHeldMovementIfActive(struct ObjectEvent *);
 void TrySpawnObjectEvents(s16, s16);
-u8 CreateObjectSprite(u8 graphicsId, u8 a1, s16 x, s16 y, u8 z, u8 direction);
+u8 CreateObjectSprite(u16 graphicsId, u8 a1, s16 x, s16 y, u8 z, u8 direction);
 u8 AddPseudoObjectEvent(u16, void (*)(struct Sprite *), s16 x, s16 y, u8 subpriority);
 u8 TrySpawnObjectEvent(u8, u8, u8);
-u8 SpawnSpecialObjectEventParameterized(u8 graphicsId, u8 movementBehavior, u8 localId, s16 x, s16 y, u8 z);
+u8 SpawnSpecialObjectEventParameterized(u16 graphicsId, u8 movementBehavior, u8 localId, s16 x, s16 y, u8 z);
 u8 SpawnSpecialObjectEvent(struct ObjectEventTemplate *);
 void SetSpritePosToMapCoords(s16, s16, s16 *, s16 *);
 void CameraObjectReset1(void);
-void ObjectEventSetGraphicsId(struct ObjectEvent *, u8 graphicsId);
+void ObjectEventSetGraphicsId(struct ObjectEvent *, u16 graphicsId);
 void ObjectEventTurn(struct ObjectEvent *, u8);
 void ObjectEventTurnByLocalIdAndMap(u8, u8, u8, u8);
-const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u8 graphicsId);
+const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId);
 void SetObjectInvisibility(u8, u8, u8, bool8);
 void FreeAndReserveObjectSpritePalettes(void);
 void SetObjectEventSpritePosByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup, s16 x, s16 y);
@@ -125,6 +125,7 @@ u8 GetWalkInPlaceFastMovementAction(u32);
 u8 GetWalkInPlaceNormalMovementAction(u32);
 u8 GetWalkInPlaceSlowMovementAction(u32);
 u8 GetCollisionAtCoords(struct ObjectEvent *, s16, s16, u32);
+u8 GetCollisionInDirection(struct ObjectEvent *objectEvent, u8 direction);
 void MoveCoords(u8, s16 *, s16 *);
 bool8 ObjectEventIsHeldMovementActive(struct ObjectEvent *);
 u8 ObjectEventClearHeldMovementIfFinished(struct ObjectEvent *);
@@ -415,11 +416,20 @@ u8 MovementType_RunInPlace_Step0(struct ObjectEvent *, struct Sprite *);
 u8 MovementType_Invisible_Step0(struct ObjectEvent *, struct Sprite *);
 u8 MovementType_Invisible_Step1(struct ObjectEvent *, struct Sprite *);
 u8 MovementType_Invisible_Step2(struct ObjectEvent *, struct Sprite *);
+
 void SetObjectEventSpriteInvisibility(u8 objectEventId, bool32 invisible);
 bool32 IsObjectEventSpriteInvisible(u8 objectEventId);
-void SetObjectEventSpriteGraphics(u8 objectEventId, u8 graphicsId);
+void SetObjectEventSpriteGraphics(u8 objectEventId, u16 graphicsId);
 void SetObjectEventSpriteAnim(u8 objectEventId, u8 animNum);
 bool32 IsObjectEventSpriteAnimating(u8 objectEventId);
+u8 GetObjectEventIdByLocalId(u8 localId);
+
+// run slow
+u8 GetPlayerRunSlowMovementAction(u32);
+//sideways stairs
+u8 GetSidewaysStairsToRightDirection(s16, s16, u8);
+u8 GetSidewaysStairsToLeftDirection(s16, s16, u8);
+u8 GetSidewaysStairsCollision(struct ObjectEvent *objectEvent, u8 dir, u8 currentBehavior, u8 nextBehavior, u8 collision);
 
 // NEW
 u16 GetMiniStepCount(u8 speed);

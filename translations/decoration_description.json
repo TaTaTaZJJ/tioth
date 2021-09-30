@@ -1,0 +1,605 @@
+{
+    "path": "src/data/decoration/description.h",
+    "texts": [
+        {
+            "label": "DecorDesc_SMALL_DESK",
+            "zh": "为一个人建造的\\n一张小桌子.",
+            "en": "A small desk built\\nfor one."
+        },
+        {
+            "label": "DecorDesc_POKEMON_DESK",
+            "zh": "一张精灵球\\n形状的小桌子.",
+            "en": "A small desk built in\\nthe shape of a POKé\\nBALL."
+        },
+        {
+            "label": "DecorDesc_HEAVY_DESK",
+            "zh": "一张钢制的大桌子。\\n可以在上面放一些\\n装饰品.",
+            "en": "A large desk made\\nof steel. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_RAGGED_DESK",
+            "zh": "一张木制的大桌子.\\n可以在上面放一些\\n装饰品.",
+            "en": "A large desk made\\nof wood. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_COMFORT_DESK",
+            "zh": "一张叶子制成的大\\n桌子.可以在上面放一些\\n装饰品.",
+            "en": "A large desk made\\nof leaves. Put some\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_PRETTY_DESK",
+            "zh": "一张巨大的玻璃书桌。\\n有许多装饰品.",
+            "en": "A huge desk made\\nof glass. Holds lots\\nof decorations."
+        },
+        {
+            "label": "DecorDesc_BRICK_DESK",
+            "zh": "一张巨大的砖砌桌子。\\n拥有许多装饰品.",
+            "en": "A huge desk made\\nof brick. Holds lots\\nof decorations."
+        },
+        {
+            "label": "DecorDesc_CAMP_DESK",
+            "zh": "一张由原木制成的\\n巨大办公桌。\\n在上面放很多装饰品.",
+            "en": "A huge desk made\\nof logs. Put lots of\\ndecorations on it."
+        },
+        {
+            "label": "DecorDesc_HARD_DESK",
+            "zh": "一张巨大的石桌。\\n拥有许多装饰品.",
+            "en": "A huge desk made\\nof rocks. Holds\\nmany decorations."
+        },
+        {
+            "label": "DecorDesc_SMALL_CHAIR",
+            "zh": "一个人用的\\n小椅子.",
+            "en": "A small chair made\\nfor one."
+        },
+        {
+            "label": "DecorDesc_POKEMON_CHAIR",
+            "zh": "一个小椅子，\\n形状像精灵球.",
+            "en": "A small chair built\\nin the shape of a\\nPOKé BALL."
+        },
+        {
+            "label": "DecorDesc_HEAVY_CHAIR",
+            "zh": "一张钢制小椅子.",
+            "en": "A small chair made\\nof steel."
+        },
+        {
+            "label": "DecorDesc_PRETTY_CHAIR",
+            "zh": "一张用青草\\n制作的椅子.",
+            "en": "A small chair made\\nof glass."
+        },
+        {
+            "label": "DecorDesc_COMFORT_CHAIR",
+            "zh": "一张用叶子\\n制作的椅子.",
+            "en": "A small chair made\\nof leaves."
+        },
+        {
+            "label": "DecorDesc_RAGGED_CHAIR",
+            "zh": "一张木制\\n小椅子.",
+            "en": "A small chair made\\nof wood."
+        },
+        {
+            "label": "DecorDesc_BRICK_CHAIR",
+            "zh": "一把砖砌的\\n小椅子.",
+            "en": "A small chair made\\nof brick."
+        },
+        {
+            "label": "DecorDesc_CAMP_CHAIR",
+            "zh": "原木做的\\n小椅子.",
+            "en": "A small chair made\\nof logs."
+        },
+        {
+            "label": "DecorDesc_HARD_CHAIR",
+            "zh": "一把石头做的\\n小椅子.",
+            "en": "A small chair made\\nof rock."
+        },
+        {
+            "label": "DecorDesc_RED_PLANT",
+            "zh": "种着鲜红花朵\\n的盆栽.",
+            "en": "A vivid red potted\\nplant."
+        },
+        {
+            "label": "DecorDesc_TROPICAL_PLANT",
+            "zh": "种着南国花朵\\n的盆栽.",
+            "en": "A flowering tropical\\nplant in a pot."
+        },
+        {
+            "label": "DecorDesc_PRETTY_FLOWERS",
+            "zh": "一盆可爱的花.",
+            "en": "A pot of cute\\nflowers."
+        },
+        {
+            "label": "DecorDesc_COLORFUL_PLANT",
+            "zh": "栽着各式\\n各样花朵\\n的大型盆栽.",
+            "en": "A large pot with\\nmany colorful\\nflowers."
+        },
+        {
+            "label": "DecorDesc_BIG_PLANT",
+            "zh": "像雨伞般树木\\n的大型盆栽.",
+            "en": "A large, umbrella-\\nshaped plant in a\\nbig pot."
+        },
+        {
+            "label": "DecorDesc_GORGEOUS_PLANT",
+            "zh": "令人印象深刻的\\n华丽盆栽.",
+            "en": "A large, impressive\\nplant in a big pot."
+        },
+        {
+            "label": "DecorDesc_RED_BRICK",
+            "zh": "红色的砖块，\\n上面可放置东西.",
+            "en": "A red-colored brick.\\nDecorations can be\\nplaced on top."
+        },
+        {
+            "label": "DecorDesc_YELLOW_BRICK",
+            "zh": "黄色的砖块，\\n上面可放置东西.",
+            "en": "A yellow-colored\\nbrick. Put some\\ndecorations on top."
+        },
+        {
+            "label": "DecorDesc_BLUE_BRICK",
+            "zh": "蓝色的砖块，\\n上面可放置东西.",
+            "en": "A blue-colored\\nbrick. Put some\\ndecorations on top."
+        },
+        {
+            "label": "DecorDesc_RED_BALLOON",
+            "zh": "装有水的红色\\n气球，踩上去\\n就会破掉.",
+            "en": "A red balloon filled\\nwith water. Bursts\\nif stepped on."
+        },
+        {
+            "label": "DecorDesc_BLUE_BALLOON",
+            "zh": "装有水的蓝色\\n气球，踩上去\\n就会破掉.",
+            "en": "A blue balloon filled\\nwith water. Bursts\\nif stepped on."
+        },
+        {
+            "label": "DecorDesc_YELLOW_BALLOON",
+            "zh": "装有水的黄色\\n气球，踩上去\\n就会破掉.",
+            "en": "A yellow balloon\\nfilled with water.\\nPops if stepped on."
+        },
+        {
+            "label": "DecorDesc_RED_TENT",
+            "zh": "大型的红色\\n帐篷，可以进入\\n里面.",
+            "en": "A large red tent.\\nYou can hide inside\\nit."
+        },
+        {
+            "label": "DecorDesc_BLUE_TENT",
+            "zh": "大型的蓝色\\n账篷，可以进入\\n里面.",
+            "en": "A large blue tent.\\nYou can hide inside\\nit."
+        },
+        {
+            "label": "DecorDesc_SOLID_BOARD",
+            "zh": "放在洞穴的上方\\n的话就可以\\n走到对面去.",
+            "en": "Place over a hole to\\ncross to the other\\nside."
+        },
+        {
+            "label": "DecorDesc_SLIDE",
+            "zh": "从台子上方\\n可以滑下来.",
+            "en": "Use to slide down\\nfrom the platform."
+        },
+        {
+            "label": "DecorDesc_FENCE_LENGTH",
+            "zh": "小型的栅栏，\\n无法加以通过.",
+            "en": "A small fence that\\nblocks passage."
+        },
+        {
+            "label": "DecorDesc_FENCE_WIDTH",
+            "zh": "小型的栅栏，\\n无法加以通过.",
+            "en": "A small fence that\\nblocks passage."
+        },
+        {
+            "label": "DecorDesc_TIRE",
+            "zh": "老旧的大型轮胎，\\n上面可放置\\n东西.",
+            "en": "An old large tire.\\nDecorations can be\\nplaced on top."
+        },
+        {
+            "label": "DecorDesc_STAND",
+            "zh": "一个带台阶的\\n大基座.",
+            "en": "A large pedestal\\nwith steps."
+        },
+        {
+            "label": "DecorDesc_MUD_BALL",
+            "zh": "圆形的泥巴丸子，\\n一踩上去就会\\n破掉.",
+            "en": "A large ball of mud.\\nCrumbles if stepped\\non."
+        },
+        {
+            "label": "DecorDesc_BREAKABLE_DOOR",
+            "zh": "可以穿越\\n通过的奇怪\\n门板.",
+            "en": "A weird door that\\npeople can walk\\nright through."
+        },
+        {
+            "label": "DecorDesc_SAND_ORNAMENT",
+            "zh": "一碰触就会\\n崩塌的摆饰\\n物品.",
+            "en": "An ornament made\\nof sand. Crumbles if\\ntouched."
+        },
+        {
+            "label": "DecorDesc_SILVER_SHIELD",
+            "zh": "在对战塔战胜\\n50人的纪念\\n奖牌.",
+            "en": "Awarded for 50\\nstraight wins at\\nthe BATTLE TOWER."
+        },
+        {
+            "label": "DecorDesc_GOLD_SHIELD",
+            "zh": "在对战塔战胜\\n100人的纪念\\n奖牌.",
+            "en": "Awarded for 100\\nstraight wins at\\nthe BATTLE TOWER."
+        },
+        {
+            "label": "DecorDesc_GLASS_ORNAMENT",
+            "zh": "以玻璃依照美术馆\\n里的知名雕刻模仿\\n制作而成的东西.",
+            "en": "A glass replica of\\na famous sculpture\\nat the ART MUSEUM."
+        },
+        {
+            "label": "DecorDesc_TV",
+            "zh": "灰色的小型\\n玩具电视机.",
+            "en": "A small, gray-\\ncolored toy TV."
+        },
+        {
+            "label": "DecorDesc_ROUND_TV",
+            "zh": "以橡实果的\\n样子所制作的\\n玩具电视机.",
+            "en": "A toy TV modeled\\nin the image of a\\nSEEDOT."
+        },
+        {
+            "label": "DecorDesc_CUTE_TV",
+            "zh": "以向尾喵的\\n样子所制作的\\n玩具电视机.",
+            "en": "A toy TV modeled\\nin the image of a\\nSKITTY."
+        },
+        {
+            "label": "DecorDesc_GLITTER_MAT",
+            "zh": "踩上去之后\\n会闪亮亮的神奇\\n地毯.",
+            "en": "An odd mat that\\nglitters if stepped\\non."
+        },
+        {
+            "label": "DecorDesc_JUMP_MAT",
+            "zh": "踩上去之后\\n会跳跃的恶作剧\\n地毯.",
+            "en": "A trick mat that\\njumps when it is\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_SPIN_MAT",
+            "zh": "踩上去之后\\n会跳跃的恶作剧\\n地毯.",
+            "en": "A trick mat that\\nspins around when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_C_LOW_NOTE_MAT",
+            "zh": "踩上去后\\n会发出低音\\n“Do”声的地毯.",
+            "en": "A mat that plays\\na low C note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_D_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“Re”声\\n的地毯.",
+            "en": "A mat that plays\\na D note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_E_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“Mi”声\\n的地毯.",
+            "en": "A mat that plays\\nan E note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_F_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“Fa”声\\n的地毯.",
+            "en": "A mat that plays\\nan F note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_G_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“So”声\\n的地毯.",
+            "en": "A mat that plays\\na G note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_A_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“La”声\\n的地毯.",
+            "en": "A mat that plays\\nan A note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_B_NOTE_MAT",
+            "zh": "踩上去后\\n会发出“Ti”声\\n的地毯.",
+            "en": "A mat that plays\\na B note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_C_HIGH_NOTE_MAT",
+            "zh": "踩上去后\\n会发出高音“Do”声\\n的地毯.",
+            "en": "A mat that plays\\na high C note when\\nstepped on."
+        },
+        {
+            "label": "DecorDesc_SURF_MAT",
+            "zh": "以冲浪形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\na SURF image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_THUNDER_MAT",
+            "zh": "以打雷形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\na THUNDER image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_FIRE_BLAST_MAT",
+            "zh": "以大字爆炎\\n形象制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\na FIRE BLAST image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_POWDER_SNOW_MAT",
+            "zh": "以细雪形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat with a POWDER\\nSNOW image design.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_ATTRACT_MAT",
+            "zh": "以迷人形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\nan ATTRACT image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_FISSURE_MAT",
+            "zh": "以地裂形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\na FISSURE image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_SPIKES_MAT",
+            "zh": "以撒菱形象\\n制作的地毯，\\n上面可放置东西.",
+            "en": "A mat designed with\\na SPIKES image.\\nPut items on top."
+        },
+        {
+            "label": "DecorDesc_BALL_POSTER",
+            "zh": "印有精灵球的\\n小张海报.",
+            "en": "A small poster\\nprinted with POKé\\nBALLS."
+        },
+        {
+            "label": "DecorDesc_GREEN_POSTER",
+            "zh": "印有木守宫的\\n小张海报.",
+            "en": "A small poster with\\na TREECKO print."
+        },
+        {
+            "label": "DecorDesc_RED_POSTER",
+            "zh": "印有火稚鸡的\\n小张海报.",
+            "en": "A small poster with\\na TORCHIC print."
+        },
+        {
+            "label": "DecorDesc_BLUE_POSTER",
+            "zh": "印有水跃鱼的\\n小张海报.",
+            "en": "A small poster with\\na MUDKIP print."
+        },
+        {
+            "label": "DecorDesc_CUTE_POSTER",
+            "zh": "印有露力丽的\\n小张海报.",
+            "en": "A small poster with\\nan AZURILL print."
+        },
+        {
+            "label": "DecorDesc_PIKA_POSTER",
+            "zh": "印有皮卡丘和皮丘\\n的大张海报.",
+            "en": "A large poster with\\na PIKACHU and\\nPICHU print."
+        },
+        {
+            "label": "DecorDesc_LONG_POSTER",
+            "zh": "印有饭匙蛇的\\n大张海报.",
+            "en": "A large poster with\\na SEVIPER print."
+        },
+        {
+            "label": "DecorDesc_SEA_POSTER",
+            "zh": "印有古空棘鱼的\\n大张海报.",
+            "en": "A large poster with\\na RELICANTH print."
+        },
+        {
+            "label": "DecorDesc_SKY_POSTER",
+            "zh": "印有长翅鸥的\\n大张海报.",
+            "en": "A large poster with\\na WINGULL print."
+        },
+        {
+            "label": "DecorDesc_KISS_POSTER",
+            "zh": "印有迷唇娃的\\n大张海报.",
+            "en": "A large poster with\\na SMOOCHUM print."
+        },
+        {
+            "label": "DecorDesc_PICHU_DOLL",
+            "zh": "皮丘的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A PICHU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_PIKACHU_DOLL",
+            "zh": "皮卡丘的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A PIKACHU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MARILL_DOLL",
+            "zh": "玛力露的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A MARILL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TOGEPI_DOLL",
+            "zh": "波克比的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A TOGEPI doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CYNDAQUIL_DOLL",
+            "zh": "火球鼠的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A CYNDAQUIL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CHIKORITA_DOLL",
+            "zh": "菊草叶的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A CHIKORITA doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TOTODILE_DOLL",
+            "zh": "小锯鳄的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A TOTODILE doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_JIGGLYPUFF_DOLL",
+            "zh": "胖丁的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A JIGGLYPUFF doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MEOWTH_DOLL",
+            "zh": "喵喵的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A MEOWTH doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CLEFAIRY_DOLL",
+            "zh": "皮皮的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A CLEFAIRY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DITTO_DOLL",
+            "zh": "百变怪的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A DITTO doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SMOOCHUM_DOLL",
+            "zh": "迷唇娃的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SMOOCHUM doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TREECKO_DOLL",
+            "zh": "木守宫的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A TREECKO doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_TORCHIC_DOLL",
+            "zh": "火稚鸡的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A TORCHIC doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_MUDKIP_DOLL",
+            "zh": "水跃鱼的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A MUDKIP doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DUSKULL_DOLL",
+            "zh": "夜巡灵的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A DUSKULL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_WYNAUT_DOLL",
+            "zh": "小果然的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A WYNAUT doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BALTOY_DOLL",
+            "zh": "天秤偶的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A BALTOY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_KECLEON_DOLL",
+            "zh": "变隐龙的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A KECLEON doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_AZURILL_DOLL",
+            "zh": "露力丽的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "An AZURILL doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SKITTY_DOLL",
+            "zh": "向尾喵的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SKITTY doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SWABLU_DOLL",
+            "zh": "青绵鸟的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SWABLU doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_GULPIN_DOLL",
+            "zh": "溶食兽的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A GULPIN doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_LOTAD_DOLL",
+            "zh": "莲叶童子的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A LOTAD doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_SEEDOT_DOLL",
+            "zh": "橡实果的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SEEDOT doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_PIKA_CUSHION",
+            "zh": "皮卡丘的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A PIKACHU cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_ROUND_CUSHION",
+            "zh": "玛力露丽的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A MARILL cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_KISS_CUSHION",
+            "zh": "迷唇娃的垫子，\\n要放置在地毯和桌子\\n上.",
+            "en": "A SMOOCHUM\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_ZIGZAG_CUSHION",
+            "zh": "蛇纹熊的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A ZIGZAGOON\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_SPIN_CUSHION",
+            "zh": "晃晃斑的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SPINDA cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_DIAMOND_CUSHION",
+            "zh": "勾魂眼的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A SABLEYE cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BALL_CUSHION",
+            "zh": "精灵球的垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A BALL cushion.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_GRASS_CUSHION",
+            "zh": "草标志垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A grass-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_FIRE_CUSHION",
+            "zh": "火标志垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A fire-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_WATER_CUSHION",
+            "zh": "水标志垫子，\\n要放置在地毯和\\n桌子上.",
+            "en": "A water-mark\\ncushion. Place it on\\na mat or a desk."
+        },
+        {
+            "label": "DecorDesc_SNORLAX_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_RHYDON_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_LAPRAS_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_VENUSAUR_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_CHARIZARD_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_BLASTOISE_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_WAILMER_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGIROCK_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGICE_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        },
+        {
+            "label": "DecorDesc_REGISTEEL_DOLL",
+            "zh": "巨大的布偶，\\n要放置在地毯和\\n桌子上.",
+            "en": "A large doll.\\nPlace it on a mat\\nor a desk."
+        }
+    ]
+}

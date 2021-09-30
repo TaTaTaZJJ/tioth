@@ -174,6 +174,12 @@
 #define VARIOUS_TOTEM_BOOST                     103
 #define VARIOUS_TRY_ACTIVATE_GRIM_NEIGH         104
 
+// 苍穹的特殊战斗脚本处理
+#define TIOTH_SPECIAL_PICKUP                    1
+#define TIOTH_SPECIAL_LOOT_ITEM                 2
+#define TIOTH_SPECIAL_TRAINER_REWARD_ITEM       3
+#define TIOTH_SPECIAL_WILD_BEATEN_COUNT         4
+
 // Cmd_manipulatedamage
 #define DMG_CHANGE_SIGN            0
 #define DMG_RECOIL_FROM_MISS       1

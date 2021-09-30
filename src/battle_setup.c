@@ -1362,6 +1362,9 @@ static void CB2_EndTrainerBattle(void)
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         if (!InBattlePyramid() && !InTrainerHillChallenge())
         {
+            IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
+            if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
+                IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
             RegisterTrainerInMatchCall();
             SetBattledTrainersFlags();
         }
@@ -1380,6 +1383,9 @@ static void CB2_EndRematchBattle(void)
     }
     else
     {
+        IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
+        if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
+            IncrementGameStat(GAME_STAT_TRAINER_BEATENS);
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         RegisterTrainerInMatchCall();
         SetBattledTrainersFlags();

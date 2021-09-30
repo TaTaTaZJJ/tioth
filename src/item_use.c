@@ -37,6 +37,7 @@
 #include "string_util.h"
 #include "task.h"
 #include "text.h"
+#include "tioth_specials.h"
 #include "follow_me.h"
 #include "constants/event_bg.h"
 #include "constants/event_objects.h"
@@ -1156,6 +1157,25 @@ void ItemUseInBattle_EnigmaBerry(u8 taskId)
 void ItemUseOutOfBattle_CannotUse(u8 taskId)
 {
     DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+}
+
+static void ItemUseOnFieldCB_MirrorOfMind(u8 taskId)
+{
+    SwitchDreamWorld();
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_MirrorOfMind(u8 taskId)
+{
+    if (CanSwitchDreamWorld() == TRUE)
+    {
+        sItemUseOnFieldCB = ItemUseOnFieldCB_MirrorOfMind;
+        SetUpItemUseOnFieldCallback(taskId);
+    }
+    else
+    {
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+    }
 }
 
 #undef tUsingRegisteredKeyItem
