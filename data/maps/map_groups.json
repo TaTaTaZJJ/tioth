@@ -4,6 +4,7 @@
     "gMapGroup_Test",
     "TiothMapGroup_Indoor",
     "TiothMapGroup_IndoorDream",
+    "TiothMapGroup_CradleHill",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -49,6 +50,8 @@
   ],
   "TiothMapGroup_IndoorDream": [
     "TiothMap_IndoorDream0"
+  ],
+  "TiothMapGroup_CradleHill": [
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
