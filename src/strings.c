@@ -354,6 +354,7 @@ const u8 gText_ThankYouIllSendItHome[] = _("谢谢！\n我会发送到你的家�
 const u8 gText_ThanksIllSendItHome[] = _("谢谢！\n我会发送到你家里的电脑的！");
 const u8 gText_YouDontHaveMoney[] = _("抱歉，你没有足够的钱。{PAUSE_UNTIL_PRESS}");
 const u8 gText_NoMoreRoomForThis[] = _("你没有足够的空间来装下\n这个道具了。{PAUSE_UNTIL_PRESS}");
+const u8 gText_YouAlreadyHaveThis[] = _("你已经有这个道具了。{PAUSE_UNTIL_PRESS}");
 const u8 gText_SpaceForVar1Full[] = _("留给{STR_VAR_1}的空间已经满了。{PAUSE_UNTIL_PRESS}");
 const u8 gText_AnythingElseICanHelp[] = _("还有什么我可以\n帮得上忙的吗？");
 const u8 gText_CanIHelpWithAnythingElse[] = _("还有什么我能帮得上忙的吗？");

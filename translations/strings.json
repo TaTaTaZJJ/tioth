@@ -8790,6 +8790,11 @@
             "label": "gText_Berries",
             "zh": "树果",
             "en": "BERRIES"
+        },
+        {
+            "label": "gText_YouAlreadyHaveThis",
+            "zh": "你已经有这个道具了。{PAUSE_UNTIL_PRESS}",
+            "en": "You already have this item.{PAUSE_UNTIL_PRESS}"
         }
     ]
 }
