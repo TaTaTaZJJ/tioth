@@ -6,7 +6,7 @@
 #define MUGSHOT_TEST            0
 #define MUGSHOT_TEST2           1
 #define MUGSHOT_MAJO            2
-#define MUGSHOT_MAJO_NORMAl     3
+#define MUGSHOT_MAJO_NORMAL     3
 #define MUGSHOT_WAIFU_NORMAL    4
 #define MUGSHOT_END             4
 
