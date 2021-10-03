@@ -26,6 +26,10 @@ struct LoadedSaveData
  /*0x0130*/ struct ItemSlot TMsHMs[BAG_TMHM_COUNT];
  /*0x0230*/ struct ItemSlot berries[BAG_BERRIES_COUNT];
  /*0x02E8*/ struct MailStruct mail[MAIL_COUNT];
+ struct ItemSlot medicines[BAG_MEDICINES_COUNT];
+ struct ItemSlot battleItems[BAG_BATTLEITEMS_COUNT];
+ struct ItemSlot powerUps[BAG_POWERUPS_COUNT];
+ struct ItemSlot costumes[BAG_COSTUMES_COUNT];
 };
 
 // EWRAM DATA
@@ -237,6 +241,22 @@ void LoadPlayerBag(void)
     for (i = 0; i < MAIL_COUNT; i++)
         gLoadedSaveData.mail[i] = gSaveBlock1Ptr->mail[i];
 
+    // load player medicines.
+    for (i = 0; i < BAG_MEDICINES_COUNT; i++)
+        gLoadedSaveData.medicines[i] = gSaveBlock1Ptr->bagPocket_Medicines[i];
+
+    // load player battle items.
+    for (i = 0; i < BAG_BATTLEITEMS_COUNT; i++)
+        gLoadedSaveData.battleItems[i] = gSaveBlock1Ptr->bagPocket_BattleItems[i];
+
+    // load player power ups.
+    for (i = 0; i < BAG_POWERUPS_COUNT; i++)
+        gLoadedSaveData.powerUps[i] = gSaveBlock1Ptr->bagPocket_PowerUps[i];
+
+    // load player costumes.
+    for (i = 0; i < BAG_COSTUMES_COUNT; i++)
+        gLoadedSaveData.costumes[i] = gSaveBlock1Ptr->bagPocket_Costumes[i];
+
     gLastEncryptionKey = gSaveBlock2Ptr->encryptionKey;
 }
 
@@ -268,6 +288,22 @@ void SavePlayerBag(void)
     // save mail.
     for (i = 0; i < MAIL_COUNT; i++)
         gSaveBlock1Ptr->mail[i] = gLoadedSaveData.mail[i];
+
+    // save player medicines.
+    for (i = 0; i < BAG_MEDICINES_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_Medicines[i] = gLoadedSaveData.medicines[i];
+
+    // save player battle items.
+    for (i = 0; i < BAG_BATTLEITEMS_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_BattleItems[i] = gLoadedSaveData.battleItems[i];
+
+    // save player power ups.
+    for (i = 0; i < BAG_POWERUPS_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_PowerUps[i] = gLoadedSaveData.powerUps[i];
+     
+    // save player power ups.
+    for (i = 0; i < BAG_COSTUMES_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_Costumes[i] = gLoadedSaveData.costumes[i];
 
     encryptionKeyBackup = gSaveBlock2Ptr->encryptionKey;
     gSaveBlock2Ptr->encryptionKey = gLastEncryptionKey;

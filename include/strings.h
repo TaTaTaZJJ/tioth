@@ -53,6 +53,10 @@ extern const u8 gText_Key_Items[];
 extern const u8 gText_Poke_Balls[];
 extern const u8 gText_TMs_Hms[];
 extern const u8 gText_Berries2[];
+extern const u8 gText_Medicines[];
+extern const u8 gText_BattleItems[];
+extern const u8 gText_PowerUps[];
+extern const u8 gText_Costumes[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];
