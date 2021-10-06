@@ -1074,3 +1074,15 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TiothMap_IndoorDream0/scripts.inc"
 
 	.include "data/maps/SpawnPlaceMirror/scripts.inc"
+
+	.include "data/maps/ylsq_r1_chun_3_00/scripts.inc"
+
+	.include "data/maps/yslq_r2_chun_3_01/scripts.inc"
+
+	.include "data/maps/yslq_r3_chun_3_02/scripts.inc"
+
+	.include "data/maps/yslq_r4_chun_3_03/scripts.inc"
+
+	.include "data/maps/yslq_r5_chun_3_04/scripts.inc"
+
+	.include "data/maps/yslq_c1_chun_3_05/scripts.inc"

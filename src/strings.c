@@ -286,14 +286,22 @@ const u8 gText_PokeBallsPocket[] = _("精灵球");
 const u8 gText_TMHMPocket[] = _("特技&秘技");
 const u8 gText_BerriesPocket[] = _("树果");
 const u8 gText_KeyItemsPocket[] = _("重要道具");
+const u8 gText_MedicinesPocket[] = _("回复");
+const u8 gText_BattleItemsPocket[] = _("对战道具");
+const u8 gText_PowerUpsPocket[] = _("强化道具");
+const u8 gText_CostumesPocket[] = _("服装");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
     [ITEMS_POCKET] = gText_ItemsPocket,
+    [MEDICINES_POCKET] = gText_MedicinesPocket,
     [BALLS_POCKET] = gText_PokeBallsPocket,
-    [TMHM_POCKET]  = gText_TMHMPocket,
+    [BATTLEITEMS_POCKET] = gText_BattleItemsPocket,
     [BERRIES_POCKET] = gText_BerriesPocket,
-    [KEYITEMS_POCKET] = gText_KeyItemsPocket
+    [POWERUPS_POCKET] = gText_PowerUpsPocket,
+    [TMHM_POCKET]  = gText_TMHMPocket,
+    [COSTUMES_POCKET] = gText_CostumesPocket,
+    [KEYITEMS_POCKET] = gText_KeyItemsPocket,
 };
 
 const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
@@ -354,6 +362,7 @@ const u8 gText_ThankYouIllSendItHome[] = _("谢谢！\n我会发送到你的家�
 const u8 gText_ThanksIllSendItHome[] = _("谢谢！\n我会发送到你家里的电脑的！");
 const u8 gText_YouDontHaveMoney[] = _("抱歉，你没有足够的钱。{PAUSE_UNTIL_PRESS}");
 const u8 gText_NoMoreRoomForThis[] = _("你没有足够的空间来装下\n这个道具了。{PAUSE_UNTIL_PRESS}");
+const u8 gText_YouAlreadyHaveThis[] = _("你已经有这个道具了。{PAUSE_UNTIL_PRESS}");
 const u8 gText_SpaceForVar1Full[] = _("留给{STR_VAR_1}的空间已经满了。{PAUSE_UNTIL_PRESS}");
 const u8 gText_AnythingElseICanHelp[] = _("还有什么我可以\n帮得上忙的吗？");
 const u8 gText_CanIHelpWithAnythingElse[] = _("还有什么我能帮得上忙的吗？");
@@ -705,6 +714,10 @@ const u8 gText_Key_Items[] = _("重要道具");
 const u8 gText_Poke_Balls[] = _("精灵球");
 const u8 gText_TMs_Hms[] = _("技能&秘技");
 const u8 gText_Berries2[] = _("树果");
+const u8 gText_Medicines[] = _("回复");
+const u8 gText_BattleItems[] = _("对战道具");
+const u8 gText_PowerUps[] = _("强化道具");
+const u8 gText_Costumes[] = _("服装");
 const u8 gText_SomeonesPC[] = _("某人的电脑");
 const u8 gText_LanettesPC[] = _("真弓的电脑");
 const u8 gText_PlayersPC[] = _("{PLAYER}的电脑");

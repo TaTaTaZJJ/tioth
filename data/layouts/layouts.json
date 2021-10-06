@@ -4460,6 +4460,66 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SpawnPlaceMirror/border.bin",
       "blockdata_filepath": "data/layouts/SpawnPlaceMirror/map.bin"
+    },
+    {
+      "id": "LAYOUT_YLSQ_R1_CHUN_3_00",
+      "name": "ylsq_r1_chun_3_00_Layout",
+      "width": 60,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/ylsq_r1_chun_3_00/border.bin",
+      "blockdata_filepath": "data/layouts/ylsq_r1_chun_3_00/map.bin"
+    },
+    {
+      "id": "LAYOUT_YSLQ_R2_CHUN_3_01",
+      "name": "yslq_r2_chun_3_01_Layout",
+      "width": 90,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/yslq_r2_chun_3_01/border.bin",
+      "blockdata_filepath": "data/layouts/yslq_r2_chun_3_01/map.bin"
+    },
+    {
+      "id": "LAYOUT_YSLQ_R3_CHUN_3_02",
+      "name": "yslq_r3_chun_3_02_Layout",
+      "width": 60,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/yslq_r3_chun_3_02/border.bin",
+      "blockdata_filepath": "data/layouts/yslq_r3_chun_3_02/map.bin"
+    },
+    {
+      "id": "LAYOUT_YSLQ_R4_CHUN_3_03",
+      "name": "yslq_r4_chun_3_03_Layout",
+      "width": 30,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/yslq_r4_chun_3_03/border.bin",
+      "blockdata_filepath": "data/layouts/yslq_r4_chun_3_03/map.bin"
+    },
+    {
+      "id": "LAYOUT_YSLQ_R5_CHUN_3_04",
+      "name": "yslq_r5_chun_3_04_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/yslq_r5_chun_3_04/border.bin",
+      "blockdata_filepath": "data/layouts/yslq_r5_chun_3_04/map.bin"
+    },
+    {
+      "id": "LAYOUT_YSLQ_C1_CHUN_3_05",
+      "name": "yslq_c1_chun_3_05_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/yslq_c1_chun_3_05/border.bin",
+      "blockdata_filepath": "data/layouts/yslq_c1_chun_3_05/map.bin"
     }
   ]
 }

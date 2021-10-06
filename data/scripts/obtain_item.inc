@@ -17,10 +17,14 @@ EventScript_ObtainItemMessage::
 EventScript_BufferPocketNameAndTryFanfare::
 	switch VAR_RESULT
 	case POCKET_ITEMS, EventScript_BufferItemsPocket
-	case POCKET_KEY_ITEMS, EventScript_BufferKeyItemsPocket
+	case POCKET_MEDICINES, EventScript_BufferMedicinesPocket
 	case POCKET_POKE_BALLS, EventScript_BufferPokeballsPocket
-	case POCKET_TM_HM, EventScript_BufferTMHMsPocket
+	case POCKET_BATTLE_ITEMS, EventScript_BufferBattleItemsPocket
 	case POCKET_BERRIES, EventScript_BufferBerriesPocket
+	case POCKET_POWER_UPS, EventScript_BufferPowerUpsPocket
+	case POCKET_COSTUMES, EventScript_BufferCostumesPocket
+	case POCKET_TM_HM, EventScript_BufferTMHMsPocket
+	case POCKET_KEY_ITEMS, EventScript_BufferKeyItemsPocket
 	end
 
 EventScript_BufferItemsPocket::
@@ -49,6 +53,30 @@ EventScript_BufferTMHMsPocket::
 
 EventScript_BufferBerriesPocket::
 	bufferstdstring 2, STDSTRING_BERRIES
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_PlayFanfareObtainedItem
+	return
+
+EventScript_BufferMedicinesPocket::
+	bufferstdstring 2, STDSTRING_MEDICINES
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_PlayFanfareObtainedItem
+	return
+
+EventScript_BufferBattleItemsPocket::
+	bufferstdstring 2, STDSTRING_BATTLEITEMS
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_PlayFanfareObtainedItem
+	return
+
+EventScript_BufferPowerUpsPocket::
+	bufferstdstring 2, STDSTRING_POWERUPS
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_PlayFanfareObtainedItem
+	return
+
+EventScript_BufferCostumesPocket::
+	bufferstdstring 2, STDSTRING_COSTUMES
 	compare VAR_0x8007, 1
 	call_if_eq EventScript_PlayFanfareObtainedItem
 	return

@@ -8790,6 +8790,51 @@
             "label": "gText_Berries",
             "zh": "树果",
             "en": "BERRIES"
+        },
+        {
+            "label": "gText_YouAlreadyHaveThis",
+            "zh": "你已经有这个道具了。{PAUSE_UNTIL_PRESS}",
+            "en": "You already have this item.{PAUSE_UNTIL_PRESS}"
+        },
+        {
+            "label": "gText_Medicines",
+            "zh": "回复",
+            "en": "MEDICINES"
+        },
+        {
+            "label": "gText_BattleItems",
+            "zh": "对战道具",
+            "en": "BATTLE ITEMS"
+        },
+        {
+            "label": "gText_PowerUps",
+            "zh": "强化道具",
+            "en": "POWER-UPS"
+        },
+        {
+            "label": "gText_Costumes",
+            "zh": "服装",
+            "en": "COSTUMES"
+        },
+        {
+            "label": "gText_MedicinesPocket",
+            "zh": "回复",
+            "en": "MEDICINES"
+        },
+        {
+            "label": "gText_BattleItemsPocket",
+            "zh": "对战道具",
+            "en": "BATTLE ITEMS"
+        },
+        {
+            "label": "gText_PowerUpsPocket",
+            "zh": "强化道具",
+            "en": "POWER-UPS"
+        },
+        {
+            "label": "gText_CostumesPocket",
+            "zh": "服装",
+            "en": "COSTUMES"
         }
     ]
 }

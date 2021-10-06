@@ -21,17 +21,14 @@ struct Mugshot
     const u16 *palette;
 };
 
-static const u32 sMugshotImg_Test[] = INCBIN_U32("graphics/mugshots/test.4bpp.lz");
-static const u16 sMugshotPal_Test[] = INCBIN_U16("graphics/mugshots/test.gbapal");
-static const u32 sMugshotImg_Test2[] = INCBIN_U32("graphics/mugshots/test2.4bpp.lz");
-static const u16 sMugshotPal_Test2[] = INCBIN_U16("graphics/mugshots/test2.gbapal");
-static const u32 sMugshotImg_Majo[] = INCBIN_U32("graphics/mugshots/majo.4bpp.lz");
-static const u16 sMugshotPal_Majo[] = INCBIN_U16("graphics/mugshots/majo.gbapal");
+static const u32 sMugshotImg_Majo_Normal[] = INCBIN_U32("graphics/mugshots/Majo_Normal.4bpp.lz");
+static const u16 sMugshotPal_Majo_Normal[] = INCBIN_U16("graphics/mugshots/Majo_Normal.gbapal");
+static const u32 sMugshotImg_Waifu_Normal[] = INCBIN_U32("graphics/mugshots/Waifu_Normal.4bpp.lz");
+static const u16 sMugshotPal_Waifu_Normal[] = INCBIN_U16("graphics/mugshots/Waifu_Normal.gbapal");
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
-    [MUGSHOT_TEST] = {.width = 64, .height = 96, .bust = 64, .image = sMugshotImg_Test, .palette = sMugshotPal_Test},
-    [MUGSHOT_TEST2] = {.width = 64, .height = 88, .bust = 64, .image = sMugshotImg_Test2, .palette = sMugshotPal_Test2},
-    [MUGSHOT_MAJO] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo, .palette = sMugshotPal_Majo},
+    [MUGSHOT_MAJO_NORMAL] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Normal, .palette = sMugshotPal_Majo_Normal},
+    [MUGSHOT_WAIFU_NORMAL] = {.width = 88, .height = 104, .bust = 88, .image = sMugshotImg_Waifu_Normal, .palette = sMugshotPal_Waifu_Normal},
 };
 
 void ClearMugshot(bool8 right)
