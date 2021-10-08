@@ -334,7 +334,7 @@ static void SetRandomQuestionData(void)
 static u16 GetRandomAlternateMove(u8 monId)
 {
     u8 i, j;
-    u8 id;
+    u16 id;
     u8 numLearnsetMoves;
     u16 species;
     const struct LevelUpMove *learnset;
@@ -382,7 +382,7 @@ static u16 GetRandomAlternateMove(u8 monId)
                 }
                 while (!shouldUseMove);
 
-                moveId = ItemIdToBattleMoveId(ITEM_TM01 + id);
+                moveId = ItemIdToBattleMoveId(ITEM_TM_START + id);
                 shouldUseMove = TRUE;
 
                 if (numLearnsetMoves <= MAX_MON_MOVES)
