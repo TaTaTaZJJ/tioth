@@ -787,11 +787,11 @@ void ItemUseOutOfBattle_RareCandy(u8 taskId)
 }
 
 void ItemUseOutOfBattle_TMHM(u8 taskId)
-{
-    if (gSpecialVar_ItemId >= ITEM_HM01_CUT)
-        DisplayItemMessage(taskId, 1, gText_BootedUpHM, BootUpSoundTMHM); // HM
-    else
-        DisplayItemMessage(taskId, 1, gText_BootedUpTM, BootUpSoundTMHM); // TM
+{    
+    // if (gSpecialVar_ItemId >= ITEM_HM01_CUT)
+    //     DisplayItemMessage(taskId, 1, gText_BootedUpHM, BootUpSoundTMHM); // HM
+    // else
+    DisplayItemMessage(taskId, 1, gText_BootedUpTM, BootUpSoundTMHM); // TM
 }
 
 static void BootUpSoundTMHM(u8 taskId)

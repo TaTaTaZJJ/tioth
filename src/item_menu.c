@@ -905,18 +905,18 @@ static void GetItemName(s8 *dest, u16 itemId)
     {
     case TMHM_POCKET:
         StringCopy(gStringVar2, gMoveNames[ItemIdToBattleMoveId(itemId)]);
-        if (itemId >= ITEM_HM01)
-        {
-            // Get HM number
-            ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_HM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 1);
-            StringExpandPlaceholders(dest, gText_NumberItem_HM);
-        }
-        else
-        {
+        // if (itemId >= ITEM_HM01)
+        // {
+        //     // Get HM number
+        //     ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_HM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 1);
+        //     StringExpandPlaceholders(dest, gText_NumberItem_HM);
+        // }
+        // else
+        // {
             // Get TM number
-            ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_TM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_TM_START + 1, STR_CONV_MODE_LEADING_ZEROS, 3);
             StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
-        }
+        // }
         break;
     case BERRIES_POCKET:
         ConvertIntToDecimalStringN(gStringVar1, itemId - FIRST_BERRY_INDEX + 1, STR_CONV_MODE_LEADING_ZEROS, 2);
@@ -979,8 +979,8 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
         totalCount = CountTotalItemQuantityInBag(itemId);
         #endif
         // Draw HM icon
-        if (itemId >= ITEM_HM01 && itemId <= ITEM_HM08)
-            BlitBitmapToWindow(windowId, gBagMenuHMIcon_Gfx, 8, y - 1, 16, 16);
+        // if (itemId >= ITEM_HM01 && itemId <= ITEM_HM08)
+        //     BlitBitmapToWindow(windowId, gBagMenuHMIcon_Gfx, 8, y - 1, 16, 16);
 
         if (gBagPosition.pocket == BERRIES_POCKET)
         {
