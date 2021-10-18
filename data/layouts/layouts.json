@@ -4520,6 +4520,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/yslq_c1_chun_3_05/border.bin",
       "blockdata_filepath": "data/layouts/yslq_c1_chun_3_05/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCENE_A_0_2",
+      "name": "SCENE_A_0_2_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SCENE_A_0_2/border.bin",
+      "blockdata_filepath": "data/layouts/SCENE_A_0_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCENE_B_0_3",
+      "name": "SCENE_B_0_3_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SCENE_B_0_3/border.bin",
+      "blockdata_filepath": "data/layouts/SCENE_B_0_3/map.bin"
     }
   ]
 }

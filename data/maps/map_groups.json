@@ -42,7 +42,9 @@
   ],
   "gMapGroup_Test": [
     "SpawnPlace",
-    "SpawnPlaceMirror"
+    "SpawnPlaceMirror",
+    "SCENE_A_0_2",
+    "SCENE_B_0_3"
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",

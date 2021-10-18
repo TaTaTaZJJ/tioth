@@ -1086,3 +1086,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/yslq_r5_chun_3_04/scripts.inc"
 
 	.include "data/maps/yslq_c1_chun_3_05/scripts.inc"
+
+	.include "data/maps/SCENE_A_0_2/scripts.inc"
+
+	.include "data/maps/SCENE_B_0_3/scripts.inc"
