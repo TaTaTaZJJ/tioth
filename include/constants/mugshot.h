@@ -8,7 +8,8 @@
 #define MUGSHOT_MAJO            2
 #define MUGSHOT_MAJO_NORMAL     3
 #define MUGSHOT_WAIFU_NORMAL    4
-#define MUGSHOT_END             4
+#define MUGSHOT_HXYJ            5
+#define MUGSHOT_END             5
 
 #define MUGSHOT_COUNT   (MUGSHOT_END - MUGSHOT_START + 1)
 
