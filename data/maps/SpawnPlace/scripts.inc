@@ -3,7 +3,12 @@ SpawnPlace_MapScripts::
 
 
 TestAddMoneywithVar::
-	lock
+	fadescreen FADE_TO_BLACK
+	startblackcentermsg 30
+	msgbox TestAddMoneywithVar_Text_0
+	closemessage
+	endblackcentermsg
+	fadescreen FADE_FROM_BLACK
 	release
 	return
 
@@ -339,6 +344,9 @@ TestNewMugshot::
 	giveitem ITEM_MIRROR_OF_MIND, 1
 	return
 
+
+TestAddMoneywithVar_Text_0:
+	.string "测试$"
 
 Test2v2TrainerBattle_Text_0:
 	.string "测试双打。$"

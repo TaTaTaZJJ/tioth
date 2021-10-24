@@ -2117,3 +2117,17 @@
 	SPEED = 3
 	SPATK = 4
 	SPDEF = 5
+
+	.macro startblackcentermsg x=0, y=60
+	setvar VAR_0x8000, \x
+    setvar VAR_0x8001, \y
+    callnative SetMessageBoxToPosition
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_BLACK
+	.endm
+
+	.macro endblackcentermsg
+	setvar VAR_0x8000, 0
+    setvar VAR_0x8001, 0
+    callnative SetMessageBoxToPosition
+	setvar VAR_DIALOG_STYLE, MSGBOX_STYLE_DEFAULT
+	.endm

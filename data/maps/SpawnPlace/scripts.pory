@@ -1,7 +1,12 @@
 mapscripts SpawnPlace_MapScripts {}
 
 script TestAddMoneywithVar {
-    lock
+    fadescreen(FADE_TO_BLACK)
+    startblackcentermsg(30)
+    msgbox("测试")
+    closemessage
+    endblackcentermsg
+    fadescreen(FADE_FROM_BLACK)
     release
 }
 
