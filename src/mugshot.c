@@ -30,7 +30,7 @@ static const u16 sMugshotPal_hxyj_mug[] = INCBIN_U16("graphics/mugshots/hxyj_mug
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     [MUGSHOT_MAJO_NORMAL] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Normal, .palette = sMugshotPal_Majo_Normal},
-    [MUGSHOT_WAIFU_NORMAL] = {.width = 88, .height = 104, .bust = 88, .image = sMugshotImg_Waifu_Normal, .palette = sMugshotPal_Waifu_Normal},
+    [MUGSHOT_WAIFU_NORMAL] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Normal, .palette = sMugshotPal_Waifu_Normal},
     [MUGSHOT_HXYJ] = {.width = 72, .height = 104, .bust = 64, .image = sMugshotImg_hxyj_mug, .palette = sMugshotPal_hxyj_mug},
 };
 
