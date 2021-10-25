@@ -4520,6 +4520,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/yslq_c1_chun_3_05/border.bin",
       "blockdata_filepath": "data/layouts/yslq_c1_chun_3_05/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLACK_MAP",
+      "name": "BLACK_MAP_Layout",
+      "width": 1,
+      "height": 1,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BLACK_MAP/border.bin",
+      "blockdata_filepath": "data/layouts/BLACK_MAP/map.bin"
     }
   ]
 }
