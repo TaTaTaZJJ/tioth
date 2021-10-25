@@ -1,18 +1,20 @@
 mapscripts BLACK_MAP_MapScripts {
-    MAP_SCRIPT_ON_LOAD{
-        setvar(VAR_TEMP_0, 1)
-    }
     MAP_SCRIPT_ON_FRAME_TABLE[
-        VAR_TEMP_0, 1 
+        VAR_TEMP_0, 0
         {
+            //写入玩家名字
+            //写入随机的训练师ID含隐藏ID
+            //定义初始的时间
             fadescreen(FADE_TO_BLACK)
             startblackcentermsg    
-            msgbox("{COLOR WHITE}小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年\p")
+            msgbox("{COLOR WHITE}小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年")
             release
-            warp(MAP_YSLQ_R5_CHUN_3_04,0,17,14)
+            warp(MAP_YSLQ_R5_CHUN_3_04,255,17,14)
+            waitstate
             endblackcentermsg 
             fadescreen(FADE_FROM_BLACK)
-            SETVAR(VAR_TEMP_0,0)
+            warp(MAP_YSLQ_R5_CHUN_3_04,255,17,14)
+            SETVAR(VAR_TEMP_0,1)
         }
     ]
 }
