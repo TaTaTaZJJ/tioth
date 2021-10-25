@@ -7,11 +7,7 @@ mapscripts BLACK_MAP_MapScripts {
         {
             fadescreen(FADE_TO_BLACK)
             startblackcentermsg    
-            msgbox("{COLOR WHITE}{SHADOW LIGHT_GRAY}小时候，我的爷爷经常跟我讲一个故事。")
-            release  
-            msgbox("{COLOR WHITE}{SHADOW LIGHT_GRAY}那个故事，是他的父亲讲给他听的。")
-            release
-            msgbox("{COLOR WHITE}{SHADOW LIGHT_GRAY}        1910年......")
+            msgbox("{COLOR WHITE}小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年\p")
             release
             warp(MAP_YSLQ_R5_CHUN_3_04,0,17,14)
             endblackcentermsg 
