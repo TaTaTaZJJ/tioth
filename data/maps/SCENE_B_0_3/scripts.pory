@@ -1,1 +1,38 @@
-mapscripts SCENE_B_0_3_MapScripts {}
+mapscripts SCENE_B_0_3_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_MAINLINE_0x404E, 0{
+            lockall
+            mugshot(MUGSHOT_WAIFU_NORMAL) // 夜头像，左，【待改】
+            usedialog(LEFT_ARROW)
+            msgbox("夜：让大家变成那样的……就是你吗？！", 3)
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 代头像，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("代：咕……", 3)
+            usedialog(LEFT_ARROW)
+            msgbox("夜：可恶，他已经失去理智了。", 3)  
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 洛托姆，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("洛托姆：目标：迟来的勇者-代。\n根据分析，他是白夜梦游症的零号病人，\l根据发病阶段判断，\l在疫情扩散之初就已经失去理智。", 3)
+            usedialog(LEFT_ARROW)
+            msgbox("夜：明明…… 明明是这一切的罪魁祸首，\n他却比我们更加轻松……", 3)  
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 玲，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("玲：是时候了结这一切了！\n朋友们，我们上吧！", 3)
+            clearmughot(RIGHT) //关闭头像，右
+            clearmughot //关闭头像，左
+            usedialog(NORMAL)
+            fadescreen(1) //屏幕变黑
+            playbgm(MUS_B_PYRAMID, 0) // 切换音乐，【待改】
+            delay(20)
+            //对话框方案，替换色板（全黑仅文字白），上下居中，偏右（文字接近左右居中）
+            msgbox("每当故事进行到此时\p爷爷总会回避我的追问。", 3)
+            //解除上述对话框方案
+            delay(20)
+            //防止在传送时解除屏幕黑屏，writebytetooffset 0x60 0x04000001
+            //换装主角行走图，不可见
+            warpsilent(MAP_SCENE_C_0_4, 255, 1, 1) //未确定的地图
+            waitstate
+            end
+        }
+    ]
+}

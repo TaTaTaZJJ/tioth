@@ -4540,6 +4540,36 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SCENE_B_0_3/border.bin",
       "blockdata_filepath": "data/layouts/SCENE_B_0_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCENE_C_0_4",
+      "name": "SCENE_C_0_4_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SCENE_C_0_4/border.bin",
+      "blockdata_filepath": "data/layouts/SCENE_C_0_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCENE_D_0_5",
+      "name": "SCENE_D_0_5_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SCENE_D_0_5/border.bin",
+      "blockdata_filepath": "data/layouts/SCENE_D_0_5/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCENE_E_0_6",
+      "name": "SCENE_E_0_6_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SCENE_E_0_6/border.bin",
+      "blockdata_filepath": "data/layouts/SCENE_E_0_6/map.bin"
     }
   ]
 }

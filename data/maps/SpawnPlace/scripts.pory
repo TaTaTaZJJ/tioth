@@ -1,4 +1,12 @@
-mapscripts SpawnPlace_MapScripts {}
+mapscripts SpawnPlace_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_MAINLINE_0x404E, 0{
+            warpsilent(MAP_SCENE_A_0_2, 255, 1, 1)//传送地图，未确定
+            waitstate
+            end
+        }
+    ]
+}
 
 script TestAddMoneywithVar {
     lock

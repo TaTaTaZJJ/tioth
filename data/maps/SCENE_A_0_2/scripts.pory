@@ -1,1 +1,17 @@
-mapscripts SCENE_A_0_2_MapScripts {}
+mapscripts SCENE_A_0_2_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_MAINLINE_0x404E, 0{
+            //写入玩家名字
+            //写入随机的训练师ID含隐藏ID
+            //定义初始的时间
+            //设定出生房间，要求地图块能覆盖玩家，全黑的效果
+            //对话框方案，替换色板（全黑仅文字白），上下居中，偏右（文字接近左右居中）
+            msgbox("小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年", 3)
+            //解除上述对话框方案
+            delay(20)
+            warpsilent(MAP_SCENE_B_0_3, 255, 1, 1)//传送地图，未确定
+            waitstate
+            end
+        }
+    ]
+}

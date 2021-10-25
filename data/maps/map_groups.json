@@ -44,7 +44,10 @@
     "SpawnPlace",
     "SpawnPlaceMirror",
     "SCENE_A_0_2",
-    "SCENE_B_0_3"
+    "SCENE_B_0_3",
+    "SCENE_C_0_4",
+    "SCENE_D_0_5",
+    "SCENE_E_0_6"
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",

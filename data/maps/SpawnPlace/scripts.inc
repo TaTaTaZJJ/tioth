@@ -1,5 +1,15 @@
 SpawnPlace_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, SpawnPlace_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE
 	.byte 0
+
+SpawnPlace_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE:
+	map_script_2 VAR_MAINLINE_0x404E, 0, SpawnPlace_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0
+	.2byte 0
+
+SpawnPlace_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0:
+	warpsilent MAP_SCENE_A_0_2, 255, 1, 1
+	waitstate
+	end
 
 
 TestAddMoneywithVar::
