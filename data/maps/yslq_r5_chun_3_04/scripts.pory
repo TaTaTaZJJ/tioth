@@ -1,1 +1,46 @@
-mapscripts yslq_r5_chun_3_04_MapScripts {}
+mapscripts yslq_r5_chun_3_04_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE[
+        VAR_TEMP_1, 0
+        {
+            lockall
+            mugshot(MUGSHOT_WAIFU_NORMAL) // 夜头像，左，【待改】
+            usedialog(LEFT_ARROW)
+            msgbox("夜：让大家变成那样的……就是你吗？！", 3)
+            clearmughot
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 代头像，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("代：咕……", 3)
+            usedialog(LEFT_ARROW)
+            clearmughot(RIGHT)
+            mugshot(MUGSHOT_WAIFU_NORMAL) // 夜头像，左，【待改】
+            msgbox("夜：可恶，他已经失去理智了。", 3)  
+            clearmughot
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 洛托姆，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("洛托姆：目标：迟来的勇者-代。\n根据分析，他是白夜梦游症的零号病人，\l根据发病阶段判断，\l在疫情扩散之初就已经失去理智。", 3)
+            usedialog(LEFT_ARROW)
+            clearmughot(RIGHT)
+            mugshot(MUGSHOT_WAIFU_NORMAL)// 夜头像，左，【待改】
+            msgbox("夜：明明…… 明明是这一切的罪魁祸首，\n他却比我们更加轻松……", 3)  
+            clearmughot
+            mugshot(MUGSHOT_WAIFU_NORMAL, RIGHT) // 玲，右，【待改】
+            usedialog(RIGHT_ARROW)
+            msgbox("玲：是时候了结这一切了！\n朋友们，我们上吧！", 3)
+            clearmughot(RIGHT) //关闭头像，右
+            usedialog(NORMAL)
+            fadescreen(1) //屏幕变黑
+            playbgm(MUS_B_PYRAMID, 0) // 切换音乐，【待改】
+            fadescreen(FADE_TO_BLACK)
+            startblackcentermsg 
+            msgbox("{COLOR WHITE}每当故事进行到此时\p爷爷总会回避我的追问。")
+            release
+            warpsilent(MAP_TIOTH_MAP_INDOOR0, 255, 3, 3)
+            waitstate
+            endblackcentermsg 
+            fadescreen(FADE_FROM_BLACK)
+            setvar(VAR_TEMP_1,1)
+            end
+
+        } 
+    ]
+}
