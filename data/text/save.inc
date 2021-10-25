@@ -1,33 +1,21 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+    .string "要保存游戏进度吗？$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+    .string "已存在记录数据。\n覆盖原有进度吗？$"
 
 gText_SavingDontTurnOff::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+    .string "保存中…\n请不要关闭电源。$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+    .string "{PLAYER}已保存进度。$"
 
 gText_DifferentSaveFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+    .string "警告！\p检测到另一个数据\n已被保存。\p如果保存进度，另一个数据的\n冒险进度，包括物品和宝可梦，\l将会完全丢失。\p你确定要保存游戏进度\n并将原有的数据覆盖吗？$"
 
 gText_SaveError::
-	.string "Save error.\p"
-	.string "Please exchange the\n"
-	.string "backup memory.$"
+    .string "保存失败。\p请换成\n备份进度。$"
 
 gText_SavingDontTurnOffPower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+    .string "保存中…\n请不要关闭电源。$"

@@ -1,31 +1,26 @@
 gText_ObtainedTheItem::
-	.string "Obtained the {STR_VAR_2}!$"
+    .string "得到了{STR_VAR_2}！$"
 
 gText_TheBagIsFull::
-	.string "The BAG is full…$"
+    .string "背包满了…$"
 
 gText_PutItemInPocket::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} POCKET.$"
+    .string "{PLAYER}把{STR_VAR_2}放进了\n{STR_VAR_3}口袋。$"
 
 gText_PlayerFoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+    .string "{PLAYER}发现了{STR_VAR_2}！$"
 
 gText_TooBadBagIsFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+    .string "糟糕！\n背包满了…$"
 
 gText_PlayerPutItemInBag::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the BAG.$"
+    .string "{PLAYER}把{STR_VAR_2}\n放进了背包。$"
 
 gText_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+    .string "得到了{STR_VAR_2}！$"
 
 gText_NoRoomLeftForAnother::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+    .string "糟糕！没有空间再放\n一个{STR_VAR_2}了…$"
 
 gText_TheDecorWasTransferredToThePC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+    .string "{STR_VAR_2}传进了\n电脑里。$"

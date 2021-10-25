@@ -1,63 +1,54 @@
 @ Only contains a portion of the mauville_man text. The rest is in scripts/mauville_man.inc
 gText_SoPretty::
-	.string " so pretty!$"
+    .string " 非常漂亮！$"
 
 gText_SoDarling::
-	.string " so darling!$"
+    .string " 太迷人了！$"
 
 gText_SoRelaxed::
-	.string " so relaxed!$"
+    .string " 太悠闲了！$"
 
 gText_SoSunny::
-	.string " so sunny!$"
+    .string " 太愉快了！$"
 
 gText_SoDesirable::
-	.string " so desirable!$"
+    .string " 太合意的了！$"
 
 gText_SoExciting::
-	.string " so exciting!$"
+    .string " 太令人激动！$"
 
 gText_SoAmusing::
-	.string " so amusing!$"
+    .string " 太有意思了！$"
 
 gText_SoMagical::
-	.string " so magical!$"
+    .string " 太不可思议！$"
 
 gOtherText_Is::
-	.string " is$"
+    .string " 是$"
 
 gOtherText_DontYouAgree::
-	.string "\n"
-	.string "Don't you agree?$"
+    .string "\n你同意吗？$"
 
 gMauvilleManText_ISoWantToGoOnAVacation::
-	.string "I so want to go on a vacation.\n"
-	.string "Would you happen to know a nice place?$"
+    .string "我很想去旅行。\n你知道什么好去处么？$"
 
 gMauvilleManText_IBoughtCrayonsWith120Colors::
-	.string "I bought crayons with 120 colors!\n"
-	.string "Don't you think that's nice?$"
+    .string "我买了一套120色的蜡笔！\n你不觉得很棒么？$"
 
 gMauvilleManText_WouldntItBeNiceIfWeCouldFloat::
-	.string "Wouldn't it be nice if we could float\n"
-	.string "away on a cloud of bubbles?$"
+    .string "你不觉得，\n漂浮在一片泡泡云上很舒服么？$"
 
 gMauvilleManText_WhenYouWriteOnASandyBeach::
-	.string "When you write on a sandy beach,\n"
-	.string "they wash away. It makes me sad.$"
+    .string "你在沙滩上写好字，\n不久就会被冲掉的。真扫兴。$"
 
 gMauvilleManText_WhatsTheBottomOfTheSeaLike::
-	.string "What's the bottom of the sea like?\n"
-	.string "Just once I would so love to go!$"
+    .string "海底是个什么样子？\n我真想去一次，一次就好！$"
 
 gMauvilleManText_WhenYouSeeTheSettingSunDoesIt::
-	.string "When you see the setting sun, does it\n"
-	.string "make you want to go home?$"
+    .string "当你看到夕阳的时候，\n是不是会想回家？$"
 
 gMauvilleManText_LyingBackInTheGreenGrass::
-	.string "Lying back in the green grass…\n"
-	.string "Oh, it's so, so nice!$"
+    .string "往草地上这么一躺…\n哦，太，太棒了！$"
 
 gMauvilleManText_SecretBasesAreSoWonderful::
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can't you feel the excitement?$"
+    .string "秘密基地真是太棒了！\n你不觉得刺激么？$"
