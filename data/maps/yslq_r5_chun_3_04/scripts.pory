@@ -31,12 +31,11 @@ mapscripts yslq_r5_chun_3_04_MapScripts {
             fadescreen(1) //屏幕变黑
             playbgm(MUS_B_PYRAMID, 0) // 切换音乐，【待改】
             startblackcentermsg 
-            msgbox("{COLOR WHITE}每当故事进行到此时\p爷爷总会回避我的追问。")
+            msgbox("{COLOR WHITE}{SHADOW TRANSPARENT}每当故事进行到此时\p爷爷总会回避我的追问。")
             release
             warpsilent(MAP_TIOTH_MAP_INDOOR0, 255, 3, 3)
             waitstate
             endblackcentermsg 
-            fadescreen(FADE_FROM_BLACK)
             setvar(VAR_TEMP_1,1)
             end
 

@@ -41,7 +41,6 @@ yslq_r5_chun_3_04_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0:
 	warpsilent MAP_TIOTH_MAP_INDOOR0, 255, 3, 3
 	waitstate
 	endblackcentermsg
-	fadescreen FADE_FROM_BLACK
 	setvar VAR_TEMP_1, 1
 	end
 
@@ -65,4 +64,4 @@ yslq_r5_chun_3_04_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_5:
 	.string "玲：是时候了结这一切了！\n朋友们，我们上吧！$"
 
 yslq_r5_chun_3_04_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_6:
-	.string "{COLOR WHITE}每当故事进行到此时\p爷爷总会回避我的追问。$"
+	.string "{COLOR WHITE}{SHADOW TRANSPARENT}每当故事进行到此时\p爷爷总会回避我的追问。$"
