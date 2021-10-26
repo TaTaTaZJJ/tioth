@@ -2119,6 +2119,7 @@
 	SPDEF = 5
 
 	.macro startblackcentermsg x=0, y=60
+	fadescreen FADE_TO_BLACK
 	setvar VAR_0x8000, \x
     setvar VAR_0x8001, \y
     callnative SetMessageBoxToPosition
@@ -2126,6 +2127,7 @@
 	.endm
 
 	.macro endblackcentermsg
+	fadescreen FADE_FROM_BLACK 
 	setvar VAR_0x8000, 0
     setvar VAR_0x8001, 0
     callnative SetMessageBoxToPosition

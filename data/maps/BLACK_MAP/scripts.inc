@@ -21,4 +21,4 @@ BLACK_MAP_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0:
 
 
 BLACK_MAP_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_0:
-	.string "{COLOR WHITE}小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年$"
+	.string "{COLOR WHITE}{SHADOW TRANSPARENT}小时候，我的爷爷经常跟我讲一个故事。\p那个故事，是他的父亲讲给他听的。\p1910年$"
