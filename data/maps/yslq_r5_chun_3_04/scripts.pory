@@ -30,7 +30,6 @@ mapscripts yslq_r5_chun_3_04_MapScripts {
             usedialog(NORMAL)
             fadescreen(1) //屏幕变黑
             playbgm(MUS_B_PYRAMID, 0) // 切换音乐，【待改】
-            fadescreen(FADE_TO_BLACK)
             startblackcentermsg 
             msgbox("{COLOR WHITE}每当故事进行到此时\p爷爷总会回避我的追问。")
             release
