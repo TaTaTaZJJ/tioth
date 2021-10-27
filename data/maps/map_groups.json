@@ -47,7 +47,8 @@
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",
-    "TiothMap_Indoor1"
+    "TiothMap_Indoor1",
+    "POLISH_OFFICE"
   ],
   "TiothMapGroup_IndoorDream": [
     "TiothMap_IndoorDream0"

@@ -13,6 +13,7 @@
 // TiothMapGroup_Indoor
 #define MAP_TIOTH_MAP_INDOOR0 (0 | (1 << 8))
 #define MAP_TIOTH_MAP_INDOOR1 (1 | (1 << 8))
+#define MAP_POLISH_OFFICE     (2 | (1 << 8))
 
 // TiothMapGroup_IndoorDream
 #define MAP_TIOTH_MAP_INDOOR_DREAM0 (0 | (2 << 8))
