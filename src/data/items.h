@@ -66,7 +66,6 @@ const struct Item gItems[] =
         .battleUsage = ITEM_B_USE_OTHER,
         .battleUseFunc = ItemUseInBattle_PokeBall,
         .secondaryId = ITEM_POKE_BALL - FIRST_BALL,
-        .limit = 20
     },
 
     [ITEM_SAFARI_BALL] =
@@ -461,6 +460,7 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .battleUsage = ITEM_B_USE_MEDICINE,
         .battleUseFunc = ItemUseInBattle_Medicine,
+        .limit = 1
     },
 
     [ITEM_MAX_POTION] =
@@ -475,6 +475,7 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .battleUsage = ITEM_B_USE_MEDICINE,
         .battleUseFunc = ItemUseInBattle_Medicine,
+        .limit = 2
     },
 
     [ITEM_HYPER_POTION] =
@@ -516,6 +517,7 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .battleUsage = ITEM_B_USE_MEDICINE,
         .battleUseFunc = ItemUseInBattle_Medicine,
+        .limit = 2
     },
 
     [ITEM_REVIVE] =
@@ -529,6 +531,7 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .battleUsage = ITEM_B_USE_MEDICINE,
         .battleUseFunc = ItemUseInBattle_Medicine,
+        .limit = 1
     },
 
     [ITEM_MAX_REVIVE] =
