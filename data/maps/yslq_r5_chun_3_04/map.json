@@ -31,7 +31,15 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 20,
+      "elevation": 0,
+      "var": "VAR_TIOTH_MAP",
+      "var_value": "2",
+      "script": "H_H_0"
+    }
   ],
   "bg_events": [
 

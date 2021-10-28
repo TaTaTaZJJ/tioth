@@ -1088,3 +1088,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/yslq_c1_chun_3_05/scripts.inc"
 
 	.include "data/maps/BLACK_MAP/scripts.inc"
+
+	.include "data/maps/POLISH_OFFICE/scripts.inc"

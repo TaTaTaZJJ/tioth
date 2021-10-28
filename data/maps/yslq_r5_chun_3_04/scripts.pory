@@ -1,6 +1,6 @@
 mapscripts yslq_r5_chun_3_04_MapScripts {
     MAP_SCRIPT_ON_FRAME_TABLE[
-        VAR_TEMP_1, 0
+        VAR_TIOTH_MAP, 0 
         {
             lockall
             mugshot(MUGSHOT_WAIFU_NORMAL) // 夜头像，左，【待改】
@@ -33,12 +33,75 @@ mapscripts yslq_r5_chun_3_04_MapScripts {
             startblackcentermsg 
             msgbox("{COLOR WHITE}{SHADOW TRANSPARENT}每当故事进行到此时\p爷爷总会回避我的追问。")
             release
+            setvar(VAR_TIOTH_MAP,1)
+            endblackcentermsg 
+            releaseall
             warpsilent(MAP_TIOTH_MAP_INDOOR0, 255, 3, 3)
             waitstate
-            endblackcentermsg 
-            setvar(VAR_TEMP_1,1)
             end
 
         } 
     ]
+}
+
+script H_H_0 
+{
+    turnobject(255,3)//主角面朝左
+    applymovement(1, MOVE0304T1_3) 
+    waitmovement(0)
+    giveitem(ITEM_MIRROR_OF_MIND,1)//【道具待定】
+    closemessage
+    applymovement(1, MOVE0304T1_4)//小偷跑开
+    waitmovement(0)
+    removeobject(1)//消失
+    addobject(2)//警员出现
+    applymovement(2, MOVE0304T1_4)
+    waitmovement(0)
+    turnobject(2,4) //警员面朝右
+    usedialog(LEFT_ARROW)
+    mugshot(MUGSHOT_WAIFU_NORMAL) // 小悠头像，左，【待改】
+    msgbox("警员：呼，呼——\n你，有看到，一个训练家吗？", 3)
+    clearmughot //关闭头像，左
+    applymovement(255, MOVE0304T1_5)//主角点点点
+    waitmovement(0)
+    delay(60)
+    mugshot(MUGSHOT_WAIFU_NORMAL) // 小悠头像，左，【待改】
+    msgbox("警员：什么训练家？\n你是在跟我装傻吗？\l等等，\l你说刚有人塞给你一个东西？\l拿出来我看看！",3)
+    clearmughot //关闭头像，左
+    //显示伤药图片，按键继续对话
+    mugshot(MUGSHOT_WAIFU_NORMAL) // 小悠头像，左，【待改】
+    msgbox("警员：你手上居然有训练家的小玩意儿！\n那你可得跟我走一趟了。\l你可以在路上好好想想怎么\l解释这些违法小玩意儿的获取渠道！",3)
+    clearmughot //关闭头像，左
+    special(SpawnCameraObject)//分离镜头与主角
+    applymovement(2, MOVE0304T1_6)
+    applymovement(255, MOVE0304T1_7)
+    waitmovement(0)
+    special(RemoveCameraObject)//取消分离
+    setvar(VAR_TIOTH_MAP, 3)
+    warpsilent(MAP_POLISH_OFFICE, 255, 10, 10)
+    waitstate
+    end
+}
+
+movement MOVE0304T1_3 {
+    walk_fast_up
+    face_right
+    delay_16
+    lock_facing_direction
+    walk_fast_right
+    walk_fast_left
+    unlock_facing_direction
+}
+movement MOVE0304T1_4 {
+    walk_fast_up *6
+}
+movement MOVE0304T1_5 {
+    emote_dot_dot_dot
+}
+movement MOVE0304T1_6 {
+    walk_up *7
+}
+movement MOVE0304T1_7 {
+    walk_left
+    walk_up *6
 }

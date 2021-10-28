@@ -4530,6 +4530,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/BLACK_MAP/border.bin",
       "blockdata_filepath": "data/layouts/BLACK_MAP/map.bin"
+    },
+    {
+      "id": "LAYOUT_POLISH_OFFICE",
+      "name": "POLISH_OFFICE_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/POLISH_OFFICE/border.bin",
+      "blockdata_filepath": "data/layouts/POLISH_OFFICE/map.bin"
     }
   ]
 }
