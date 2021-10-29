@@ -7,9 +7,19 @@
 #define MUGSHOT_TEST2           1
 #define MUGSHOT_MAJO            2
 #define MUGSHOT_MAJO_NORMAL     3
-#define MUGSHOT_WAIFU_NORMAL    4
-#define MUGSHOT_HXYJ            5
-#define MUGSHOT_END             5
+#define MUGSHOT_MAJO_HAPPY      4
+#define MUGSHOT_MAJO_LOOKNPC    5
+#define MUGSHOT_MAJO_WINKING    6
+#define MUGSHOT_MAJO_POKERFACE  7
+#define MUGSHOT_MAJO_CONFUSE    8
+#define MUGSHOT_MAJO_SUPRISE    9
+#define MUGSHOT_MAJO_CRY        10
+#define MUGSHOT_WAIFU_NORMAL    11
+#define MUGSHOT_WAIFU_LOOKNPC   12
+#define MUGSHOT_WAIFU_THUGLIFE  13
+#define MUGSHOT_HXYJ            14
+
+#define MUGSHOT_END             14
 
 #define MUGSHOT_COUNT   (MUGSHOT_END - MUGSHOT_START + 1)
 

@@ -21,16 +21,49 @@ struct Mugshot
     const u16 *palette;
 };
 
+//Majo
 static const u32 sMugshotImg_Majo_Normal[] = INCBIN_U32("graphics/mugshots/Majo_Normal.4bpp.lz");
 static const u16 sMugshotPal_Majo_Normal[] = INCBIN_U16("graphics/mugshots/Majo_Normal.gbapal");
+static const u32 sMugshotImg_Majo_Happy[] = INCBIN_U32("graphics/mugshots/Majo_Happy.4bpp.lz");
+static const u16 sMugshotPal_Majo_Happy[] = INCBIN_U16("graphics/mugshots/Majo_Happy.gbapal");
+static const u32 sMugshotImg_Majo_LookNPC[] = INCBIN_U32("graphics/mugshots/Majo_LookNPC.4bpp.lz");
+static const u16 sMugshotPal_Majo_LookNPC[] = INCBIN_U16("graphics/mugshots/Majo_LookNPC.gbapal");
+static const u32 sMugshotImg_Majo_Winking[] = INCBIN_U32("graphics/mugshots/Majo_Winking.4bpp.lz");
+static const u16 sMugshotPal_Majo_Winking[] = INCBIN_U16("graphics/mugshots/Majo_Winking.gbapal");
+static const u32 sMugshotImg_Majo_Pokerface[] = INCBIN_U32("graphics/mugshots/Majo_Pokerface.4bpp.lz");
+static const u16 sMugshotPal_Majo_Pokerface[] = INCBIN_U16("graphics/mugshots/Majo_Pokerface.gbapal");
+static const u32 sMugshotImg_Majo_Confuse[] = INCBIN_U32("graphics/mugshots/Majo_Confuse.4bpp.lz");
+static const u16 sMugshotPal_Majo_Confuse[] = INCBIN_U16("graphics/mugshots/Majo_Confuse.gbapal");
+static const u32 sMugshotImg_Majo_Suprise[] = INCBIN_U32("graphics/mugshots/Majo_Suprise.4bpp.lz");
+static const u16 sMugshotPal_Majo_Suprise[] = INCBIN_U16("graphics/mugshots/Majo_Suprise.gbapal");
+static const u32 sMugshotImg_Majo_Cry[] = INCBIN_U32("graphics/mugshots/Majo_Cry.4bpp.lz");
+static const u16 sMugshotPal_Majo_Cry[] = INCBIN_U16("graphics/mugshots/Majo_Cry.gbapal");
+//Waifu
 static const u32 sMugshotImg_Waifu_Normal[] = INCBIN_U32("graphics/mugshots/Waifu_Normal.4bpp.lz");
 static const u16 sMugshotPal_Waifu_Normal[] = INCBIN_U16("graphics/mugshots/Waifu_Normal.gbapal");
+static const u32 sMugshotImg_Waifu_LookNPC[] = INCBIN_U32("graphics/mugshots/Waifu_LookNPC.4bpp.lz");
+static const u16 sMugshotPal_Waifu_LookNPC[] = INCBIN_U16("graphics/mugshots/Waifu_LookNPC.gbapal");
+static const u32 sMugshotImg_Waifu_Thuglife[] = INCBIN_U32("graphics/mugshots/Waifu_Thuglife.4bpp.lz");
+static const u16 sMugshotPal_Waifu_Thuglife[] = INCBIN_U16("graphics/mugshots/Waifu_Thuglife.gbapal");
+//Cameo
 static const u32 sMugshotImg_hxyj_mug[] = INCBIN_U32("graphics/mugshots/hxyj_mug.4bpp.lz");
 static const u16 sMugshotPal_hxyj_mug[] = INCBIN_U16("graphics/mugshots/hxyj_mug.gbapal");
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
+    //Majo
     [MUGSHOT_MAJO_NORMAL] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Normal, .palette = sMugshotPal_Majo_Normal},
+    [MUGSHOT_MAJO_HAPPY] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Happy, .palette = sMugshotPal_Majo_Happy},
+    [MUGSHOT_MAJO_LOOKNPC] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_LookNPC, .palette = sMugshotPal_Majo_LookNPC},
+    [MUGSHOT_MAJO_WINKING] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Winking, .palette = sMugshotPal_Majo_Winking},
+    [MUGSHOT_MAJO_POKERFACE] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Pokerface, .palette = sMugshotPal_Majo_Pokerface},
+    [MUGSHOT_MAJO_CONFUSE] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Confuse, .palette = sMugshotPal_Majo_Confuse},
+    [MUGSHOT_MAJO_SUPRISE] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Suprise, .palette = sMugshotPal_Majo_Suprise},
+    [MUGSHOT_MAJO_CRY] = {.width = 96, .height = 104, .bust = 64, .image = sMugshotImg_Majo_Cry, .palette = sMugshotPal_Majo_Cry},
+    //Waifu
     [MUGSHOT_WAIFU_NORMAL] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Normal, .palette = sMugshotPal_Waifu_Normal},
+    [MUGSHOT_WAIFU_LOOKNPC] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_LookNPC, .palette = sMugshotPal_Waifu_LookNPC},
+    [MUGSHOT_WAIFU_THUGLIFE] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Thuglife, .palette = sMugshotPal_Waifu_Thuglife},
+    //Cameo
     [MUGSHOT_HXYJ] = {.width = 72, .height = 104, .bust = 64, .image = sMugshotImg_hxyj_mug, .palette = sMugshotPal_hxyj_mug},
 };
 
