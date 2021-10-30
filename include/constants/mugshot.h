@@ -14,9 +14,11 @@
 #define MUGSHOT_WAIFU_NORMAL    9
 #define MUGSHOT_WAIFU_LOOKNPC   10
 #define MUGSHOT_WAIFU_THUGLIFE  11
-#define MUGSHOT_HXYJ            12
+#define MUGSHOT_WAIFU_ANGER     12
+#define MUGSHOT_WAIFU_RELAX     13
+#define MUGSHOT_HXYJ            14
 
-#define MUGSHOT_END             12
+#define MUGSHOT_END             14
 
 #define MUGSHOT_COUNT   (MUGSHOT_END - MUGSHOT_START + 1)
 
