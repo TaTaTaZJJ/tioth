@@ -24,7 +24,6 @@ const struct Item gItems[] =
         .battleUsage = ITEM_B_USE_OTHER,
         .battleUseFunc = ItemUseInBattle_PokeBall,
         .secondaryId = ITEM_MASTER_BALL - FIRST_BALL,
-        .limit = 1
     },
 
     [ITEM_ULTRA_BALL] =
@@ -38,7 +37,7 @@ const struct Item gItems[] =
         .battleUsage = ITEM_B_USE_OTHER,
         .battleUseFunc = ItemUseInBattle_PokeBall,
         .secondaryId = ITEM_ULTRA_BALL - FIRST_BALL,
-        .limit = 5
+        .limit = 10
     },
 
     [ITEM_GREAT_BALL] =
@@ -52,7 +51,7 @@ const struct Item gItems[] =
         .battleUsage = ITEM_B_USE_OTHER,
         .battleUseFunc = ItemUseInBattle_PokeBall,
         .secondaryId = ITEM_GREAT_BALL - FIRST_BALL,
-        .limit = 10
+        .limit = 20
     },
 
     [ITEM_POKE_BALL] =
