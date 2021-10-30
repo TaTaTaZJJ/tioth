@@ -306,12 +306,12 @@ TestEmotionMovement27:
 	step_end
 
 TestMugshot::
-	mugshot MUGSHOT_TEST
+	mugshot MUGSHOT_MAJO_CRY
 	usedialog LEFT_ARROW
 	msgbox TestMugshot_Text_0
 	usedialog LEFT_BUBBLE
 	msgbox TestMugshot_Text_1
-	mugshot MUGSHOT_TEST2, RIGHT
+	mugshot MUGSHOT_WAIFU_THUGLIFE, RIGHT
 	usedialog RIGHT_ARROW
 	msgbox TestMugshot_Text_2
 	usedialog RIGHT_BUBBLE

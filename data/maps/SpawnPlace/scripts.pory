@@ -297,12 +297,12 @@ movement TestEmotionMovement27 {
 }
 
 script TestMugshot {
-    mugshot(MUGSHOT_TEST)
+    mugshot(MUGSHOT_MAJO_CRY)
     usedialog(LEFT_ARROW)
     msgbox("测试头像对话左")
     usedialog(LEFT_BUBBLE)
     msgbox("测试头像思考左")
-    mugshot(MUGSHOT_TEST2, RIGHT)
+    mugshot(MUGSHOT_WAIFU_THUGLIFE, RIGHT)
     usedialog(RIGHT_ARROW)
     msgbox("测试头像对话右")
     usedialog(RIGHT_BUBBLE)
