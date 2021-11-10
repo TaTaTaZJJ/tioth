@@ -52,20 +52,11 @@ POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0:
 	mugshot MUGSHOT_WAIFU_NORMAL
 	msgbox POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_5, 3
 	clearmughot
-	applymovement 3, MOVE0304M1_4
-	applymovement 255, MOVE0304M1_5
-	waitmovement 0
 	call W0304_11
 	opendoor 3, 5
 	waitdooranim
-	applymovement 3, MOVE0304M1_11
-	applymovement 255, MOVE0304M1_12
-	waitmovement 0
 	setdoorclosed 3, 5
 	waitdooranim
-	applymovement 3, MOVE0304M1_6
-	applymovement 255, MOVE0304M1_6
-	waitmovement 0
 	mugshot MUGSHOT_WAIFU_NORMAL
 	msgbox POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_6, 3
 	clearmughot
@@ -251,6 +242,13 @@ W0304_11::
 	return
 
 
+getpokemonnpc::
+	msgbox getpokemonnpc_Text_0
+	givemon SPECIES_TIOTHCHARLEN, 5, ITEM_NONE
+	release
+	end
+
+
 POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_0:
 	.string "警员：啧，\n没想到是个冒牌的训练家，\l这年头这么多人出来逞英雄吗？$"
 
@@ -274,3 +272,6 @@ POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_6:
 
 POLISH_OFFICE_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_7:
 	.string "警员：记得先敲门，\n确认主人是否在家，不要贸然行动。$"
+
+getpokemonnpc_Text_0:
+	.string "以获得精灵$"

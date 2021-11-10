@@ -50153,9 +50153,10 @@ static const u16 sCalyrexTMLearnset[] =
     TM(TM279_BODY_PRESS),
     0xFFFF
 };
-
+//tioth
 static const u16  sTiothCharlenTMlearnset[]={
     TM(TM001_MEGA_PUNCH),
+    TM(TM003_SWORDS_DANCE),
     TM(TM005_MEGA_KICK),
     TM(TM006_TOXIC),
     TM(TM008_BODY_SLAM),
@@ -50213,6 +50214,7 @@ static const u16  sTiothCharlenTMlearnset[]={
     TM(TM149_ROUND),
     TM(TM150_ECHOED_VOICE),
     TM(TM151_ALLY_SWITCH),
+    TM(TM165_SNARL),
     TM(TM169_DAZZLING_GLEAM),
     TM(TM170_CONFIDE),
     TM(TM178_HELPING_HAND),
@@ -50227,6 +50229,7 @@ static const u16  sTiothCharlenTMlearnset[]={
     TM(TM223_MISTY_TERRAIN),
     TM(TM225_PSYCHIC_TERRAIN),
     TM(TM226_MYSTICAL_FIRE),
+    TM(TM238_BATON_PASS),
     TM(TM239_ENCORE),
     TM(TM241_FUTURE_SIGHT),
     TM(TM246_HYPER_VOICE),
@@ -51443,5 +51446,6 @@ const u16 *const gTMHMLearnsets[] =
     [SPECIES_ZARUDE_DADA] = sZarudeTMLearnset,
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexTMLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexTMLearnset,
+    //TIOTH
     [SPECIES_TIOTHCHARLEN] = sTiothCharlenTMlearnset,
 };
