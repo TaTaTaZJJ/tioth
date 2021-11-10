@@ -8434,6 +8434,12 @@ static const union AnimCmd sAnim_CALYREX_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Tiothcharlen_1[] = 
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_VENUSAUR_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -13948,6 +13954,11 @@ static const union AnimCmd *const sAnims_CALYREX[] ={
     sAnim_CALYREX_1,
 };
 
+static const union AnimCmd *const sAnims_Tiothcharlen[] = {
+    sAnim_GeneralFrame0,
+    sAnim_Tiothcharlen_1,
+};
+
 static const union AnimCmd *const sAnims_VENUSAUR_MEGA[] ={
     sAnim_GeneralFrame0,
     sAnim_VENUSAUR_MEGA_1,
@@ -15788,6 +15799,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD_FULL(ZARUDE_DADA, sAnims_ZARUDE),
     ANIM_CMD_FULL(CALYREX_ICE_RIDER, sAnims_CALYREX),
     ANIM_CMD_FULL(CALYREX_SHADOW_RIDER, sAnims_CALYREX),
+    ANIM_CMD_FULL(TIOTHCHARLEN,sAnims_Tiothcharlen),
     ANIM_CMD(EGG),
 };
 

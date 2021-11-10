@@ -33943,4 +33943,28 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+    //tioth
+    [SPECIES_TIOTHCHARLEN] = 
+    {
+        .baseHP        = 68,
+        .baseAttack    = 65,
+        .baseDefense   = 65,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 115,
+        .type1 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
+        .catchRate = 45,
+        .expYield = 233,
+        .evYield_SpAttack  = 3,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 35,
+        .growthRate = GROWTH_SLOW,
+        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .eggGroup2 = EGG_GROUP_AMORPHOUS,
+        .abilities = {ABILITY_SYNCHRONIZE, ABILITY_TRACE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_WHITE,
+        .noFlip = FALSE,
+    }
 };

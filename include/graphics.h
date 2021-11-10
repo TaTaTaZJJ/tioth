@@ -1199,6 +1199,14 @@ extern const u32 gMonFrontPic_UrshifuRapidStrikeStyle[];
 extern const u32 gMonFrontPic_ZarudeDada[];
 extern const u32 gMonFrontPic_CalyrexIceRider[];
 extern const u32 gMonFrontPic_CalyrexShadowRider[];
+//tioth pokemon gracfich
+extern const u32 gMonFrontPic_Tiothcharlen[]; 
+extern const u32 gMonPalette_Tiothcharlen[]; 
+extern const u32 gMonBackPic_Tiothcharlen[]; 
+extern const u32 gMonShinyPalette_Tiothcharlen[]; 
+extern const u8 gMonIcon_Tiothcharlen[]; 
+extern const u8 gMonFootprint_Tiothcharlen[]; 
+//EGG
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
