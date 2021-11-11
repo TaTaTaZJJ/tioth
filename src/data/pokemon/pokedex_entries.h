@@ -9790,6 +9790,17 @@ const struct PokedexEntry gPokedexEntries[] =
                         .trainerScale = 256,
                         .trainerOffset = 0,
                 },
-
+                //TIOTH
+        [NATIONAL_DEX_TIOTHCHARLEN] =
+                {
+                        .categoryName = _("被遗弃"),
+                        .height = 16,
+                        .weight = 484,
+                        .description = gTiothCharlenPokedexText,
+                        .pokemonScale = 256,
+                        .pokemonOffset = 0,
+                        .trainerScale = 256,
+                        .trainerOffset = 0,
+                },
 
 };

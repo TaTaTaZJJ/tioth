@@ -47,20 +47,20 @@ mapscripts POLISH_OFFICE_MapScripts {
             mugshot(MUGSHOT_WAIFU_NORMAL) // 小悠头像，左，【待改】
             msgbox("警员：没有规矩，不成方圆。\n还是说你想被以无家可归罪继续关禁闭？\l现在闭上嘴跟我来！", 3)
             clearmughot //关闭头像，左
-            applymovement(3, MOVE0304M1_4)
-            applymovement(255, MOVE0304M1_5)
-            waitmovement(0)
+            //applymovement(3, MOVE0304M1_4)
+            //applymovement(255, MOVE0304M1_5)
+            //waitmovement(0)
             call(W0304_11)
             opendoor(3, 5)
             waitdooranim
-            applymovement(3, MOVE0304M1_11)
-            applymovement(255, MOVE0304M1_12)
-            waitmovement(0)
+            //applymovement(3, MOVE0304M1_11)
+            //applymovement(255, MOVE0304M1_12)
+           // waitmovement(0)
             setdoorclosed(3, 5)
             waitdooranim
-            applymovement(3, MOVE0304M1_6)
-            applymovement(255, MOVE0304M1_6)
-            waitmovement(0)
+            //applymovement(3, MOVE0304M1_6)
+            //applymovement(255, MOVE0304M1_6)
+            //waitmovement(0)
             mugshot(MUGSHOT_WAIFU_NORMAL) // 小悠头像，左，【待改】
             msgbox("警员：就是这里。\n这里的户主是个女巫。\l你没听错，就是那些中世纪遗留的\l陈腐的幻象主义唯心者！\l但我还没有证据证明她是一个训练家，\l而你的任务就是去弄明白这一点。\l交给你了，我在警局等你汇报。", 3)
             clearmughot //关闭头像，左
@@ -200,4 +200,12 @@ script W0304_11{
     setmetatile(5, 5, 109, 1)
     special(DrawWholeMapView)
     return
+}
+
+script  getpokemonnpc
+ {
+    msgbox("以获得精灵")   
+    givemon (SPECIES_TIOTHCHARLEN,5,ITEM_NONE)
+    release
+    end
 }

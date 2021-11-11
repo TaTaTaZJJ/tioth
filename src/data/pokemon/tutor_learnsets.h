@@ -10595,4 +10595,22 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SNORE)
                                             | TUTOR(MOVE_SUBSTITUTE)
                                             | TUTOR(MOVE_SWIFT)),
+    [SPECIES_TIOTHCHARLEN] = TUTOR_LEARNSET(TUTOR(MOVE_BODY_SLAM)
+                                            | TUTOR(MOVE_DEFENSE_CURL)
+                                            | TUTOR(MOVE_DOUBLE_EDGE)
+                                            | TUTOR(MOVE_DREAM_EATER)
+                                            | TUTOR(MOVE_ENDURE)
+                                            | TUTOR(MOVE_FIRE_PUNCH)
+                                            | TUTOR(MOVE_ICE_PUNCH)
+                                            | TUTOR(MOVE_ICY_WIND)
+                                            | TUTOR(MOVE_MIMIC)
+                                            | TUTOR(MOVE_MUD_SLAP)
+                                            | TUTOR(MOVE_PSYCH_UP)
+                                            | TUTOR(MOVE_SLEEP_TALK)
+                                            | TUTOR(MOVE_SNORE)
+                                            | TUTOR(MOVE_SUBSTITUTE)
+                                            | TUTOR(MOVE_SWAGGER)
+                                            | TUTOR(MOVE_SWIFT)
+                                            | TUTOR(MOVE_THUNDER_PUNCH)
+                                            | TUTOR(MOVE_THUNDER_WAVE)),
 };
