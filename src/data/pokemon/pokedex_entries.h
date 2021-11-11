@@ -9793,7 +9793,7 @@ const struct PokedexEntry gPokedexEntries[] =
                 //TIOTH
         [NATIONAL_DEX_TIOTHCHARLEN] =
                 {
-                        .categoryName = _("新精灵"),
+                        .categoryName = _("被遗弃"),
                         .height = 16,
                         .weight = 484,
                         .description = gTiothCharlenPokedexText,
