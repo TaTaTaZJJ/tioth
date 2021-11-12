@@ -25390,6 +25390,30 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
+     //tioth
+    [SPECIES_TIOTHCHARLEN] = 
+    {
+        .baseHP        = 1,
+        .baseAttack    = 127,
+        .baseDefense   = 61,
+        .baseSpeed     = 113,
+        .baseSpAttack  = 163,
+        .baseSpDefense = 53,
+        .type1 = TYPE_GHOST,
+        .type2 = TYPE_DARK,
+        .catchRate = 0,
+        .expYield = 233,
+        .evYield_SpAttack  = 3,
+        .genderRatio = MON_MALE,
+        .eggCycles = 120,
+        .friendship = 35,
+        .growthRate = GROWTH_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        .abilities = {ABILITY_WONDER_GUARD, ABILITY_NONE},
+        .bodyColor = BODY_COLOR_PURPLE,
+        .noFlip = FALSE,
+    }
 
     [SPECIES_VENUSAUR_MEGA] =
     {
@@ -33943,28 +33967,4 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
-    //tioth
-    [SPECIES_TIOTHCHARLEN] = 
-    {
-        .baseHP        = 1,
-        .baseAttack    = 127,
-        .baseDefense   = 61,
-        .baseSpeed     = 113,
-        .baseSpAttack  = 163,
-        .baseSpDefense = 53,
-        .type1 = TYPE_GHOST,
-        .type2 = TYPE_DARK,
-        .catchRate = 0,
-        .expYield = 233,
-        .evYield_SpAttack  = 3,
-        .genderRatio = MON_MALE,
-        .eggCycles = 120,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
-        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_WONDER_GUARD, ABILITY_NONE},
-        .bodyColor = BODY_COLOR_PURPLE,
-        .noFlip = FALSE,
-    }
 };

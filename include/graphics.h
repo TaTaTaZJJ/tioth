@@ -962,6 +962,8 @@ extern const u32 gMonFrontPic_Regidrago[];
 extern const u32 gMonFrontPic_Glastrier[];
 extern const u32 gMonFrontPic_Spectrier[];
 extern const u32 gMonFrontPic_Calyrex[];
+//Tioth
+extern const u32 gMonFrontPic_TiothCharlen[];
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
 extern const u32 gMonFrontPic_CharizardMegaY[];
@@ -1199,14 +1201,6 @@ extern const u32 gMonFrontPic_UrshifuRapidStrikeStyle[];
 extern const u32 gMonFrontPic_ZarudeDada[];
 extern const u32 gMonFrontPic_CalyrexIceRider[];
 extern const u32 gMonFrontPic_CalyrexShadowRider[];
-//tioth pokemon gracfich
-extern const u32 gMonFrontPic_Tiothcharlen[]; 
-extern const u32 gMonPalette_Tiothcharlen[]; 
-extern const u32 gMonBackPic_Tiothcharlen[]; 
-extern const u32 gMonShinyPalette_Tiothcharlen[]; 
-extern const u8 gMonIcon_Tiothcharlen[]; 
-extern const u8 gMonFootprint_Tiothcharlen[]; 
-//EGG
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2110,6 +2104,8 @@ extern const u32 gMonBackPic_Regidrago[];
 extern const u32 gMonBackPic_Glastrier[];
 extern const u32 gMonBackPic_Spectrier[];
 extern const u32 gMonBackPic_Calyrex[];
+//Tioth
+extern const u32 gMonBackPic_TiothCharlen[];
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
 extern const u32 gMonBackPic_CharizardMegaY[];
@@ -3248,6 +3244,8 @@ extern const u32 gMonPalette_Regidrago[];
 extern const u32 gMonPalette_Glastrier[];
 extern const u32 gMonPalette_Spectrier[];
 extern const u32 gMonPalette_Calyrex[];
+//Tioth
+extern const u32 gMonPalette_TiothCharlen[];
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
 extern const u32 gMonPalette_CharizardMegaY[];
@@ -4413,6 +4411,8 @@ extern const u32 gMonShinyPalette_Regidrago[];
 extern const u32 gMonShinyPalette_Glastrier[];
 extern const u32 gMonShinyPalette_Spectrier[];
 extern const u32 gMonShinyPalette_Calyrex[];
+//Tioth
+extern const u32 gMonShinyPalette_TiothCharlen[];
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
 extern const u32 gMonShinyPalette_CharizardMegaY[];
@@ -5570,6 +5570,8 @@ extern const u8 gMonIcon_Eternatus[];
 //extern const u8 gMonIcon_Glastrier[];
 //extern const u8 gMonIcon_Spectrier[];
 //extern const u8 gMonIcon_Calyrex[];
+//Tioth
+extern const u8 gMonIcon_TiothCharlen[];
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
 extern const u8 gMonIcon_CharizardMegaY[];
@@ -6473,6 +6475,8 @@ extern const u8 gMonFootprint_Kyurem[];
 extern const u8 gMonFootprint_Keldeo[];
 extern const u8 gMonFootprint_Meloetta[];
 extern const u8 gMonFootprint_Genesect[];
+//Tioth
+extern const u8 gMonFootprint_TiothCharlen[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];

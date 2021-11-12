@@ -4496,6 +4496,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x68,
         .y_offset = 2,
     },
+    // Tioth
+    [SPECIES_TIOTHCHARLEN] = 
+    {
+        .size = 0x78,
+        .y_offset - 0,
+    },
     // Megas
     [SPECIES_VENUSAUR_MEGA] =
     {
@@ -6100,10 +6106,6 @@ const struct MonCoords gMonFrontPicCoords[] =
     {
         .size = 0x88,
         .y_offset = 0,
-    },
-    [SPECIES_TIOTHCHARLEN] = {
-        .size = 0x78,
-        .y_offset - 0,
     },
     // Egg
     [SPECIES_EGG] =

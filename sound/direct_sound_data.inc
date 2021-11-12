@@ -3978,6 +3978,11 @@ Cry_Spectrier::
 Cry_Calyrex::
 	.incbin "sound/direct_sound_samples/cries/uncomp_calyrex.bin"
 
+//Tioth
+	.align 2
+Cry_Charlen::
+	.incbin "sound/direct_sound_samples/cries/uncomp_charlen.bin"
+
 	.align 2
 Cry_VenusaurMega::
 	.incbin "sound/direct_sound_samples/cries/uncomp_mega_venusaur.bin"
