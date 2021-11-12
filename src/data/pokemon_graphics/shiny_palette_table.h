@@ -898,9 +898,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(REGIDRAGO, gMonShinyPalette_Regidrago),
     SPECIES_SHINY_PAL(GLASTRIER, gMonShinyPalette_Glastrier),
     SPECIES_SHINY_PAL(SPECTRIER, gMonShinyPalette_Spectrier),
-    SPECIES_SHINY_PAL(CALYREX, gMonShinyPalette_Calyrex),SHINY_
-    //Tioth
-    SPECIES_SHINY_PAL(TIOTHCHARLEN , gMonShinyPalette_Tiothcharlen),
+    SPECIES_SHINY_PAL(CALYREX, gMonShinyPalette_Calyrex),
 
     SPECIES_SHINY_PAL(VENUSAUR_MEGA, gMonShinyPalette_VenusaurMega),
     SPECIES_SHINY_PAL(CHARIZARD_MEGA_X, gMonShinyPalette_CharizardMegaX),
@@ -1273,7 +1271,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
 
     SPECIES_SHINY_PAL(CALYREX_ICE_RIDER, gMonShinyPalette_CalyrexIceRider),
     SPECIES_SHINY_PAL(CALYREX_SHADOW_RIDER, gMonShinyPalette_CalyrexShadowRider),
-
+    SPECIES_PAL(TIOTHCHARLEN , gMonShinyPalette_Tiothcharlen),
     SPECIES_SHINY_PAL(EGG, gMonPalette_Egg),
 };
 

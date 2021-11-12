@@ -898,8 +898,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_GLASTRIER] = _("雪暴马"),
     [SPECIES_SPECTRIER] = _("灵幽马"),
     [SPECIES_CALYREX] = _("蕾冠王"),
-    //Tioth
-    [SPECIES_TIOTHCHARLEN] = _("查伦"),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("妙蛙花"),
@@ -1276,4 +1274,5 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = _("蕾冠王"),
     [SPECIES_CALYREX_SHADOW_RIDER] = _("蕾冠王"),
+    [SPECIES_TIOTHCHARLEN] = _("查伦"),
 };

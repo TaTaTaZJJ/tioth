@@ -898,8 +898,6 @@ gCryTable::
 	cry_uncomp Cry_Glastrier
 	cry_uncomp Cry_Spectrier
 	cry_uncomp Cry_Calyrex
-	@Tioth
-	cry Cry_Charlen
 	@ Megas
 	cry_uncomp Cry_VenusaurMega
 	cry_uncomp Cry_CharizardMegaX
@@ -2174,8 +2172,6 @@ gCryTable2::
 	cry2_uncomp Cry_Glastrier
 	cry2_uncomp Cry_Spectrier
 	cry2_uncomp Cry_Calyrex
-	@Tioth
-	cry2 Cry_Charlen
 	@ Megas
 	cry2_uncomp Cry_VenusaurMega
 	cry2_uncomp Cry_CharizardMegaX

@@ -50153,7 +50153,6 @@ static const u16 sCalyrexTMLearnset[] =
     TM(TM279_BODY_PRESS),
     0xFFFF
 };
-
 //tioth
 static const u16  sTiothCharlenTMlearnset[]={
     TM(TM001_MEGA_PUNCH),
@@ -50238,7 +50237,6 @@ static const u16  sTiothCharlenTMlearnset[]={
     TM(TM269_STORED_POWER),
     0xFFFF
 };
-
 const u16 *const gTMHMLearnsets[] =
 {
     [SPECIES_NONE] = sDummyTMLearnset,
@@ -51140,10 +51138,6 @@ const u16 *const gTMHMLearnsets[] =
     [SPECIES_GLASTRIER] = sGlastrierTMLearnset,
     [SPECIES_SPECTRIER] = sSpectrierTMLearnset,
     [SPECIES_CALYREX] = sCalyrexTMLearnset,
-    
-    //Tioth
-    [SPECIES_CHARLEN] = sCharlenTMLearnset,
-
     [SPECIES_VENUSAUR_MEGA] = sVenusaurTMLearnset,
     [SPECIES_CHARIZARD_MEGA_X] = sCharizardTMLearnset,
     [SPECIES_CHARIZARD_MEGA_Y] = sCharizardTMLearnset,
@@ -51452,4 +51446,6 @@ const u16 *const gTMHMLearnsets[] =
     [SPECIES_ZARUDE_DADA] = sZarudeTMLearnset,
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexTMLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexTMLearnset,
+    //TIOTH
+    [SPECIES_TIOTHCHARLEN] = sTiothCharlenTMlearnset,
 };

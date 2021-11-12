@@ -109,7 +109,6 @@ const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_CHANSEY,
     NATIONAL_DEX_CHARIZARD,
     NATIONAL_DEX_CHARJABUG,
-    NATIONAL_DEX_CHARLEN,
     NATIONAL_DEX_CHARMANDER,
     NATIONAL_DEX_CHARMELEON,
     NATIONAL_DEX_CHATOT,
@@ -924,6 +923,8 @@ const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_ZUBAT,
     NATIONAL_DEX_ZWEILOUS,
     NATIONAL_DEX_ZYGARDE,
+    //tioth
+    NATIONAL_DEX_TIOTHCHARLEN,
 };
 
 const u16 gPokedexOrder_Weight[] =
@@ -1587,8 +1588,6 @@ const u16 gPokedexOrder_Weight[] =
     NATIONAL_DEX_ALAKAZAM,
     NATIONAL_DEX_HITMONTOP,
     NATIONAL_DEX_GARDEVOIR,
-    //Tioth
-    NATIONAL_DEX_TIOTHCHARLEN,
     NATIONAL_DEX_KELDEO,
     NATIONAL_DEX_GRANBULL,
     //NATIONAL_DEX_ABSOL, // Mega
@@ -1969,6 +1968,8 @@ const u16 gPokedexOrder_Weight[] =
     //NATIONAL_DEX_GROUDON, // Primal
     NATIONAL_DEX_COSMOEM,
     NATIONAL_DEX_CELESTEELA,
+    //tioth
+    NATIONAL_DEX_TIOTHCHARLEN,
 };
 
 const u16 gPokedexOrder_Height[] =
@@ -2763,8 +2764,6 @@ const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_ZAPDOS,
     //NATIONAL_DEX_ZAPDOS, // Galarian Form
     NATIONAL_DEX_NOCTOWL,
-    //Tioth
-    NATIONAL_DEX_CHARLEN,
     NATIONAL_DEX_GARDEVOIR,
     //NATIONAL_DEX_GARDEVOIR, // Mega
     NATIONAL_DEX_DUSCLOPS,
@@ -3044,4 +3043,6 @@ const u16 gPokedexOrder_Height[] =
     NATIONAL_DEX_WAILORD,
 
     NATIONAL_DEX_ETERNATUS,
+    //tioth
+    NATIONAL_DEX_TIOTHCHARLEN,
 };

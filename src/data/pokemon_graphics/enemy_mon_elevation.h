@@ -110,8 +110,6 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_CORVISQUIRE] = 6,
     [SPECIES_DRAGAPULT] = 3,
     [SPECIES_FROSMOTH] = 3,
-    // Tioth
-    [SPECIES_CHARLEN] = １,
     // Megas
     [SPECIES_LATIAS_MEGA] = 8,
     [SPECIES_LATIOS_MEGA] = 8,
@@ -134,5 +132,4 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_GIRATINA_ORIGIN] = 7,
     [SPECIES_THUNDURUS_THERIAN] = 7,
     [SPECIES_ETERNATUS_ETERNAMAX] = 4,
-    
 };
