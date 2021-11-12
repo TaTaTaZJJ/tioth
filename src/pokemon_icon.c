@@ -1234,8 +1234,15 @@ const u8 *const gMonIconTable[] =
     [SPECIES_ZARUDE_DADA] = gMonIcon_QuestionMark,//gMonIcon_ZarudeDada,
     [SPECIES_CALYREX_ICE_RIDER] = gMonIcon_QuestionMark,//gMonIcon_CalyrexIceRider,
     [SPECIES_CALYREX_SHADOW_RIDER] = gMonIcon_QuestionMark,//gMonIcon_CalyrexShadowRider,
-    [SPECIES_TIOTHCHARLEN] = gMonIcon_Tiothcharlen,
+    
     [SPECIES_EGG] = gMonIcon_Egg,
+
+//--------------------苍穹精灵小图标修改点1--------------------
+//查伦（范例）
+    [SPECIES_TIOTHCHARLEN] = gMonIcon_Tiothcharlen,
+//XX精灵
+
+//---------------结束----------------------
 };
 
 const u8 *const gMonIconTableFemale[] =
@@ -2416,8 +2423,13 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_ZARUDE_DADA] = 0,
     [SPECIES_CALYREX_ICE_RIDER] = 0,
     [SPECIES_CALYREX_SHADOW_RIDER] = 0,
-    [SPECIES_TIOTHCHARLEN] = 1,
     [SPECIES_EGG] = 1,
+//--------------苍穹精灵小图标修改点2----------------
+//查伦（范例）
+    [SPECIES_TIOTHCHARLEN] = 1, //TODO 添加素材
+//XX精灵
+
+//------------------结束-----------------------
 };
 
 const u8 gMonIconPaletteIndicesFemale[] =

@@ -900,9 +900,14 @@
 #define SPECIES_GLASTRIER 896
 #define SPECIES_SPECTRIER 897
 #define SPECIES_CALYREX 898
+//--------------苍穹精灵编号--------------------
+//查伦（范例）
 #define SPECIES_TIOTHCHARLEN 899
+//XX精灵（从900开始）
 
+//额外定义内容：需要将Species_后的部分改为被定义的最后一个精灵。基于范例，目前为查伦。
 #define FORMS_START SPECIES_TIOTHCHARLEN
+//-----------------结束-------------------
 
 // Megas
 #define SPECIES_VENUSAUR_MEGA                FORMS_START + 1

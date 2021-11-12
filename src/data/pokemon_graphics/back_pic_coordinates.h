@@ -6100,15 +6100,21 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_TIOTHCHARLEN] = 
-    {
-        .size = 0x67,
-        .y_offset = 4,
-    },
     // Egg
     [SPECIES_EGG] =
     {
         .size = 0x36,
         .y_offset = 10,
     },
+
+//-----------------苍穹背面图地址------------------
+//查伦（范例）
+    [SPECIES_TIOTHCHARLEN] = 
+    {
+        .size = 0x67,
+        .y_offset = 4,
+    },
+//XX精灵
+
+//------------------结束-----------------
 };

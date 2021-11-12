@@ -1274,6 +1274,14 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(TIOTHCHARLEN, gMonBackPic_Tiothcharlen),
 
     SPECIES_SPRITE(EGG, gMonFrontPic_Egg),
+//------------------苍穹精灵背面图定义表格--------------
+//查伦（范例）
+    SPECIES_SPRITE(TIOTHCHARLEN, gMonBackPic_Tiothcharlen),
+
+//XX精灵
+
+//------------------结束--------------
+
 };
 
 const struct CompressedSpriteSheet gMonBackPicTableFemale[] =

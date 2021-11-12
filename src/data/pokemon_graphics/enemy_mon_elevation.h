@@ -132,4 +132,12 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_GIRATINA_ORIGIN] = 7,
     [SPECIES_THUNDURUS_THERIAN] = 7,
     [SPECIES_ETERNATUS_ETERNAMAX] = 4,
+
+    // -----------苍穹精灵漂浮位置------------
+    //查伦（范例）
+    //[SPECIES_TIOTHCHARLON] = 1,
+
+    //XX精灵
+    
+    //----------------结束-----------------
 };

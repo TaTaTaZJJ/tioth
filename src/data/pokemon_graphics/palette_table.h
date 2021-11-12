@@ -1271,8 +1271,14 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
 
     SPECIES_PAL(CALYREX_ICE_RIDER, gMonPalette_CalyrexIceRider),
     SPECIES_PAL(CALYREX_SHADOW_RIDER, gMonPalette_CalyrexShadowRider),
-    SPECIES_PAL(TIOTHCHARLEN , gMonPalette_Tiothcharlen),
+
     SPECIES_PAL(EGG, gMonPalette_Egg),
+//-----------------------苍穹精灵色板--------------------------
+//查伦（范例）
+    SPECIES_PAL(TIOTHCHARLEN , gMonPalette_Tiothcharlen),
+//XX精灵
+
+//-----------------------结束------------------------
 };
 
 const struct CompressedSpritePalette gMonPaletteTableFemale[] =
