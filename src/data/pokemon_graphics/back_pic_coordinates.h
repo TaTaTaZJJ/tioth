@@ -6103,7 +6103,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_TIOTHCHARLEN] = 
     {
         .size = 0x67,
-        .y_offset - 6,
+        .y_offset = 4,
     },
     // Egg
     [SPECIES_EGG] =
