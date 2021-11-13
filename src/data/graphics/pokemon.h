@@ -6413,8 +6413,8 @@ const u8 gMonFootprint_Genesect[] = INCBIN_U8("graphics/pokemon/genesect/footpri
 //查伦（范例）
 const u32 gMonFrontPic_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/front.4bpp.lz");
 const u32 gMonBackPic_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/back.4bpp.lz");
-const u32 gMonPalette_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/normal.gbapal.lz");
-const u32 gMonShinyPalette_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/normal.gbapal.lz"); //TODO 素材添加
+const u32 gMonPalette_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/front.gbapal.lz");
+const u32 gMonShinyPalette_Tiothcharlen[] = INCBIN_U32("graphics/pokemon/Tioth_Charlen/back.gbapal.lz");
 const u8 gMonIcon_Tiothcharlen[] = INCBIN_U8("graphics/pokemon/gardevoir/icon.4bpp"); //TODO 素材添加
 const u8 gMonFootprint_Tiothcharlen[] = INCBIN_U8("graphics/pokemon/gardevoir/footprint.1bpp");
 
