@@ -1272,6 +1272,11 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderLevelUpLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderLevelUpLearnset,
-    //tioth
+
+    //-------------苍穹精灵升级学习指针----------------
+    //查伦（范例）
     [SPECIES_TIOTHCHARLEN] = sTiothCharlenLevelUpLearnset,
+    //XX精灵
+
+    //-------------结束--------------
 };

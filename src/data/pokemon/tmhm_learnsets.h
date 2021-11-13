@@ -50153,7 +50153,8 @@ static const u16 sCalyrexTMLearnset[] =
     TM(TM279_BODY_PRESS),
     0xFFFF
 };
-//tioth
+//----------------苍穹精灵TM修改点1-------------------
+//查伦（范例）
 static const u16  sTiothCharlenTMlearnset[]={
     TM(TM001_MEGA_PUNCH),
     TM(TM003_SWORDS_DANCE),
@@ -50235,8 +50236,12 @@ static const u16  sTiothCharlenTMlearnset[]={
     TM(TM246_HYPER_VOICE),
     TM(TM262_ZEN_HEADBUTT),
     TM(TM269_STORED_POWER),
-    0xFFFF
+    0xFFFF //不要动，保持一样
 };
+//XX精灵
+
+//------------------------结束-----------------------
+
 const u16 *const gTMHMLearnsets[] =
 {
     [SPECIES_NONE] = sDummyTMLearnset,
@@ -51446,6 +51451,11 @@ const u16 *const gTMHMLearnsets[] =
     [SPECIES_ZARUDE_DADA] = sZarudeTMLearnset,
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexTMLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexTMLearnset,
-    //TIOTH
+
+    //--------------苍穹精灵TM修改点2--------------------
+    //查伦（范例）
     [SPECIES_TIOTHCHARLEN] = sTiothCharlenTMlearnset,
+    //XX精灵
+
+    //------------------结束---------------------
 };

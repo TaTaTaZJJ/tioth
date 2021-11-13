@@ -1,8 +1,5 @@
 const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 {
-    [SPECIES_BULBASAUR]             = {{EVO_LEVEL, 16, SPECIES_IVYSAUR}},
-    [SPECIES_IVYSAUR]               = {{EVO_LEVEL, 32, SPECIES_VENUSAUR}},
-    [SPECIES_VENUSAUR]              = {{EVO_MEGA_EVOLUTION, ITEM_VENUSAURITE, SPECIES_VENUSAUR_MEGA}},
     [SPECIES_CHARMANDER]            = {{EVO_LEVEL, 16, SPECIES_CHARMELEON}},
     [SPECIES_CHARMELEON]            = {{EVO_LEVEL, 36, SPECIES_CHARIZARD}},
     [SPECIES_CHARIZARD]             = {{EVO_MEGA_EVOLUTION, ITEM_CHARIZARDITE_X, SPECIES_CHARIZARD_MEGA_X},
@@ -21,8 +18,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_RATTATA]               = {{EVO_LEVEL, 20, SPECIES_RATICATE}},
     [SPECIES_SPEAROW]               = {{EVO_LEVEL, 20, SPECIES_FEAROW}},
     [SPECIES_EKANS]                 = {{EVO_LEVEL, 22, SPECIES_ARBOK}},
-    [SPECIES_PIKACHU]               = {{EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                       {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU_ALOLAN}},
+
     [SPECIES_SANDSHREW]             = {{EVO_LEVEL, 22, SPECIES_SANDSLASH}},
     [SPECIES_NIDORAN_F]             = {{EVO_LEVEL, 16, SPECIES_NIDORINA}},
     [SPECIES_NIDORINA]              = {{EVO_ITEM, ITEM_MOON_STONE, SPECIES_NIDOQUEEN}},
@@ -44,8 +40,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_MANKEY]                = {{EVO_LEVEL, 28, SPECIES_PRIMEAPE}},
     [SPECIES_GROWLITHE]             = {{EVO_ITEM, ITEM_FIRE_STONE, SPECIES_ARCANINE}},
     [SPECIES_POLIWAG]               = {{EVO_LEVEL, 25, SPECIES_POLIWHIRL}},
-    [SPECIES_POLIWHIRL]             = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH},
-                                       {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}},
+
     [SPECIES_ABRA]                  = {{EVO_LEVEL, 16, SPECIES_KADABRA}},
     [SPECIES_KADABRA]               = {{EVO_TRADE, 0, SPECIES_ALAKAZAM}},
     [SPECIES_ALAKAZAM]              = {{EVO_MEGA_EVOLUTION, ITEM_ALAKAZITE, SPECIES_ALAKAZAM_MEGA}},
@@ -61,8 +56,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_SLOWKING}},
     [SPECIES_SLOWBRO]               = {{EVO_MEGA_EVOLUTION, ITEM_SLOWBRONITE, SPECIES_SLOWBRO_MEGA}},
     [SPECIES_MAGNEMITE]             = {{EVO_LEVEL, 30, SPECIES_MAGNETON}},
-    [SPECIES_MAGNETON]              = {{EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAGNEZONE},
-                                       {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}},
+
     [SPECIES_DODUO]                 = {{EVO_LEVEL, 31, SPECIES_DODRIO}},
     [SPECIES_SEEL]                  = {{EVO_LEVEL, 34, SPECIES_DEWGONG}},
     [SPECIES_GRIMER]                = {{EVO_LEVEL, 38, SPECIES_MUK}},
@@ -95,16 +89,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_PINSIR]                = {{EVO_MEGA_EVOLUTION, ITEM_PINSIRITE, SPECIES_PINSIR_MEGA}},
     [SPECIES_MAGIKARP]              = {{EVO_LEVEL, 20, SPECIES_GYARADOS}},
     [SPECIES_GYARADOS]              = {{EVO_MEGA_EVOLUTION, ITEM_GYARADOSITE, SPECIES_GYARADOS_MEGA}},
-    [SPECIES_EEVEE]                 = {{EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_JOLTEON},
-                                       {EVO_ITEM, ITEM_WATER_STONE, SPECIES_VAPOREON},
-                                       {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON},
-                                       {EVO_FRIENDSHIP_DAY, 0, SPECIES_ESPEON},
-                                       {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_UMBREON},
-                                       {EVO_SPECIFIC_MAP, MAP_PETALBURG_WOODS, SPECIES_LEAFEON},
-                                       {EVO_ITEM, ITEM_LEAF_STONE, SPECIES_LEAFEON},
-                                       {EVO_SPECIFIC_MAP, MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM, SPECIES_GLACEON},
-                                       {EVO_ITEM, ITEM_ICE_STONE, SPECIES_GLACEON},
-                                       {EVO_MOVE_TYPE, TYPE_FAIRY, SPECIES_SYLVEON}},
+
     [SPECIES_PORYGON]               = {{EVO_TRADE_ITEM, ITEM_UP_GRADE, SPECIES_PORYGON2}},
     [SPECIES_OMANYTE]               = {{EVO_LEVEL, 40, SPECIES_OMASTAR}},
     [SPECIES_KABUTO]                = {{EVO_LEVEL, 40, SPECIES_KABUTOPS}},
@@ -158,9 +143,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_HOUNDOOM]              = {{EVO_MEGA_EVOLUTION, ITEM_HOUNDOOMINITE, SPECIES_HOUNDOOM_MEGA}},
     [SPECIES_PHANPY]                = {{EVO_LEVEL, 25, SPECIES_DONPHAN}},
     [SPECIES_PORYGON2]              = {{EVO_TRADE_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}},
-    [SPECIES_TYROGUE]               = {{EVO_LEVEL_ATK_LT_DEF, 20, SPECIES_HITMONCHAN},
-                                       {EVO_LEVEL_ATK_GT_DEF, 20, SPECIES_HITMONLEE},
-                                       {EVO_LEVEL_ATK_EQ_DEF, 20, SPECIES_HITMONTOP}},
+
     [SPECIES_SMOOCHUM]              = {{EVO_LEVEL, 30, SPECIES_JYNX}},
     [SPECIES_ELEKID]                = {{EVO_LEVEL, 30, SPECIES_ELECTABUZZ}},
     [SPECIES_MAGBY]                 = {{EVO_LEVEL, 30, SPECIES_MAGMAR}},
@@ -186,8 +169,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_LOMBRE]                = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_LUDICOLO}},
     [SPECIES_SEEDOT]                = {{EVO_LEVEL, 14, SPECIES_NUZLEAF}},
     [SPECIES_NUZLEAF]               = {{EVO_ITEM, ITEM_LEAF_STONE, SPECIES_SHIFTRY}},
-    [SPECIES_NINCADA]               = {{EVO_LEVEL_NINJASK, 20, SPECIES_NINJASK},
-                                       {EVO_LEVEL_SHEDINJA, 20, SPECIES_SHEDINJA}},
+
     [SPECIES_TAILLOW]               = {{EVO_LEVEL, 22, SPECIES_SWELLOW}},
     [SPECIES_SHROOMISH]             = {{EVO_LEVEL, 23, SPECIES_BRELOOM}},
     [SPECIES_WINGULL]               = {{EVO_LEVEL, 25, SPECIES_PELIPPER}},
@@ -243,8 +225,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_LILEEP]                = {{EVO_LEVEL, 40, SPECIES_CRADILY}},
     [SPECIES_ANORITH]               = {{EVO_LEVEL, 40, SPECIES_ARMALDO}},
     [SPECIES_RALTS]                 = {{EVO_LEVEL, 20, SPECIES_KIRLIA}},
-    [SPECIES_KIRLIA]                = {{EVO_LEVEL, 30, SPECIES_GARDEVOIR},
-                                       {EVO_ITEM_MALE, ITEM_DAWN_STONE, SPECIES_GALLADE}},
+
     [SPECIES_GARDEVOIR]             = {{EVO_MEGA_EVOLUTION, ITEM_GARDEVOIRITE, SPECIES_GARDEVOIR_MEGA}},
     [SPECIES_BAGON]                 = {{EVO_LEVEL, 30, SPECIES_SHELGON}},
     [SPECIES_SHELGON]               = {{EVO_LEVEL, 50, SPECIES_SALAMENCE}},
@@ -272,8 +253,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_BUDEW]                 = {{EVO_FRIENDSHIP, 0, SPECIES_ROSELIA}},
     [SPECIES_CRANIDOS]              = {{EVO_LEVEL, 30, SPECIES_RAMPARDOS}},
     [SPECIES_SHIELDON]              = {{EVO_LEVEL, 30, SPECIES_BASTIODON}},
-    [SPECIES_BURMY]                 = {{EVO_LEVEL_FEMALE, 20, SPECIES_WORMADAM},
-                                       {EVO_LEVEL_MALE, 20, SPECIES_MOTHIM}},
+
     [SPECIES_COMBEE]                = {{EVO_LEVEL_FEMALE, 21, SPECIES_VESPIQUEN}},
     [SPECIES_BUIZEL]                = {{EVO_LEVEL, 26, SPECIES_FLOATZEL}},
     [SPECIES_CHERUBI]               = {{EVO_LEVEL, 25, SPECIES_CHERRIM}},
@@ -287,7 +267,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_BRONZOR]               = {{EVO_LEVEL, 35, SPECIES_BRONZONG}},
     [SPECIES_BONSLY]                = {{EVO_MOVE, MOVE_MIMIC, SPECIES_SUDOWOODO}},
     [SPECIES_MIME_JR]               = {{EVO_MOVE, MOVE_MIMIC, SPECIES_MR_MIME}},
-    [SPECIES_HAPPINY]               = {{EVO_ITEM_HOLD_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY}},
+    
     [SPECIES_GIBLE]                 = {{EVO_LEVEL, 24, SPECIES_GABITE}},
     [SPECIES_GABITE]                = {{EVO_LEVEL, 48, SPECIES_GARCHOMP}},
     [SPECIES_GARCHOMP]              = {{EVO_MEGA_EVOLUTION, ITEM_GARCHOMPITE, SPECIES_GARCHOMP_MEGA}},
@@ -298,7 +278,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_SKORUPI]               = {{EVO_LEVEL, 40, SPECIES_DRAPION}},
     [SPECIES_CROAGUNK]              = {{EVO_LEVEL, 37, SPECIES_TOXICROAK}},
     [SPECIES_FINNEON]               = {{EVO_LEVEL, 31, SPECIES_LUMINEON}},
-    [SPECIES_MANTYKE]               = {{EVO_SPECIFIC_MON_IN_PARTY, SPECIES_REMORAID, SPECIES_MANTINE}},
+    
     [SPECIES_SNOVER]                = {{EVO_LEVEL, 40, SPECIES_ABOMASNOW}},
     [SPECIES_ABOMASNOW]             = {{EVO_MEGA_EVOLUTION, ITEM_ABOMASITE, SPECIES_ABOMASNOW_MEGA}},
     [SPECIES_GALLADE]               = {{EVO_MEGA_EVOLUTION, ITEM_GALLADITE, SPECIES_GALLADE_MEGA}},
@@ -368,7 +348,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_AXEW]                  = {{EVO_LEVEL, 38, SPECIES_FRAXURE}},
     [SPECIES_FRAXURE]               = {{EVO_LEVEL, 48, SPECIES_HAXORUS}},
     [SPECIES_CUBCHOO]               = {{EVO_LEVEL, 37, SPECIES_BEARTIC}},
-    [SPECIES_SHELMET]               = {{EVO_TRADE_SPECIFIC_MON, SPECIES_KARRABLAST, SPECIES_ACCELGOR}},
+
     [SPECIES_MIENFOO]               = {{EVO_LEVEL, 50, SPECIES_MIENSHAO}},
     [SPECIES_GOLETT]                = {{EVO_LEVEL, 43, SPECIES_GOLURK}},
     [SPECIES_PAWNIARD]              = {{EVO_LEVEL, 52, SPECIES_BISHARP}},
@@ -407,7 +387,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_TYRUNT]                = {{EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM}},
     [SPECIES_AMAURA]                = {{EVO_LEVEL_NIGHT, 39, SPECIES_AURORUS}},
     [SPECIES_GOOMY]                 = {{EVO_LEVEL, 40, SPECIES_SLIGGOO}},
-    [SPECIES_SLIGGOO]               = {{EVO_LEVEL_RAIN, 50, SPECIES_GOODRA}},
+
     [SPECIES_PHANTUMP]              = {{EVO_TRADE, 0, SPECIES_TREVENANT}},
     [SPECIES_PUMPKABOO]             = {{EVO_TRADE, 0, SPECIES_GOURGEIST}},
     [SPECIES_BERGMITE]              = {{EVO_LEVEL, 37, SPECIES_AVALUGG}},
@@ -427,8 +407,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_VIKAVOLT}},
     [SPECIES_CRABRAWLER]            = {{EVO_SPECIFIC_MAP, MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM, SPECIES_CRABOMINABLE}},
     [SPECIES_CUTIEFLY]              = {{EVO_LEVEL, 25, SPECIES_RIBOMBEE}},
-    [SPECIES_ROCKRUFF]              = {{EVO_LEVEL_DAY, 25, SPECIES_LYCANROC},
-                                       {EVO_LEVEL_NIGHT, 25, SPECIES_LYCANROC_MIDNIGHT}},
     [SPECIES_MAREANIE]              = {{EVO_LEVEL, 38, SPECIES_TOXAPEX}},
     [SPECIES_MUDBRAY]               = {{EVO_LEVEL, 30, SPECIES_MUDSDALE}},
     [SPECIES_DEWPIDER]              = {{EVO_LEVEL, 22, SPECIES_ARAQUANID}},
@@ -472,7 +450,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_TOXEL]                 = {{EVO_LEVEL, 30, SPECIES_TOXTRICITY},
                                        {EVO_LEVEL, 30, SPECIES_TOXTRICITY_LOW_KEY}},
     [SPECIES_SIZZLIPEDE]            = {{EVO_LEVEL, 28, SPECIES_CENTISKORCH}},
-    [SPECIES_CLOBBOPUS]             = {{EVO_MOVE, MOVE_TAUNT, SPECIES_GRAPPLOCT}},
+    
     [SPECIES_SINISTEA]              = {{EVO_ITEM, ITEM_NONE, SPECIES_POLTEAGEIST}},
     [SPECIES_HATENNA]               = {{EVO_LEVEL, 32, SPECIES_HATTREM}},
     [SPECIES_HATTREM]               = {{EVO_LEVEL, 42, SPECIES_HATTERENE}},
@@ -528,9 +506,68 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_FLOETTE_ORANGE_FLOWER] = {{EVO_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES_ORANGE_FLOWER}},
     [SPECIES_FLOETTE_BLUE_FLOWER]   = {{EVO_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES_BLUE_FLOWER}},
     [SPECIES_FLOETTE_WHITE_FLOWER]  = {{EVO_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES_WHITE_FLOWER}},
-    [SPECIES_PUMPKABOO_SMALL]       = {{EVO_TRADE, 0, SPECIES_GOURGEIST_SMALL}},
+
+   
+    [SPECIES_SINISTEA_ANTIQUE]      = {{EVO_ITEM, ITEM_NONE, SPECIES_POLTEAGEIST_ANTIQUE}},
+    //--------------------苍穹进化链添加位置----------------------
+    //妙蛙种子一家（升级进化范例）
+    [SPECIES_BULBASAUR]             = {{EVO_LEVEL, 16, SPECIES_IVYSAUR}}, //等级进化，等级，进化后形态
+    [SPECIES_IVYSAUR]               = {{EVO_LEVEL, 32, SPECIES_VENUSAUR}},//等级进化，等级，进化后形态
+    [SPECIES_VENUSAUR]              = {{EVO_MEGA_EVOLUTION, ITEM_VENUSAURITE, SPECIES_VENUSAUR_MEGA}},// mega进化，指定mega石，进化后形态
+    //皮卡丘（道具进化范例）
+    [SPECIES_PIKACHU]               = {//{EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
+                                       {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU_ALOLAN}}, //道具进化，指定道具，进化后形态（阿罗拉状态，原版雷丘按计划删除）
+    //蚊香君（分支进化范例，交换进化范例）
+    [SPECIES_POLIWHIRL]             = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH}, //道具进化，指定道具，进化后形态
+                                       {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}}, //携带道具交换进化，携带道具，进化后形态
+    //伊布（亲密度进化范例，地图升级范例，学会某属性招式范例）
+    [SPECIES_EEVEE]                 = {{EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_JOLTEON},
+                                       {EVO_ITEM, ITEM_WATER_STONE, SPECIES_VAPOREON},
+                                       {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON},
+                                       {EVO_FRIENDSHIP_DAY, 158, SPECIES_ESPEON}, //亲密度进化（白天），亲密度值，进化后形态，仅判断亲密度（不判断昼夜）即不写后面的 _DAY或者 _NIGHT
+                                       {EVO_FRIENDSHIP_NIGHT, 158, SPECIES_UMBREON},//亲密度进化（夜晚），亲密度值，进化后形态
+                                       {EVO_SPECIFIC_MAP, MAP_PETALBURG_WOODS, SPECIES_LEAFEON},//地图中升级进化，指定地图，进化后形态（地图升级进化仅1张地图）
+                                       {EVO_ITEM, ITEM_LEAF_STONE, SPECIES_LEAFEON},
+                                       {EVO_SPECIFIC_MAP, MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM, SPECIES_GLACEON},//地图中升级进化，指定地图，进化后形态
+                                       {EVO_ITEM, ITEM_ICE_STONE, SPECIES_GLACEON},
+                                       {EVO_MOVE_TYPE, TYPE_FAIRY, SPECIES_SYLVEON}},//学会某属性招式后升级，指定属性（妖精），进化后形态
+    //岩狗狗（判断时间和等级的进化范例，按原版区分为普通和我行我素版两只）
+    [SPECIES_ROCKRUFF]              = {{EVO_LEVEL_DAY, 25, SPECIES_LYCANROC},//白天进化，等级，进化后形态
+                                       {EVO_LEVEL_NIGHT, 25, SPECIES_LYCANROC_MIDNIGHT}},//晚上进化，等级，进化后形态
+     [SPECIES_ROCKRUFF_OWN_TEMPO]    = {{EVO_LEVEL_DUSK, 25, SPECIES_LYCANROC_DUSK}},//黄昏进化，等级，进化后形态
+    //南瓜精（仅交换进化范例，不用携带道具，只判断等级）
+    [SPECIES_PUMPKABOO_SMALL]       = {{EVO_TRADE, 0, SPECIES_GOURGEIST_SMALL}},//交换进化，等级，进化后形态
     [SPECIES_PUMPKABOO_LARGE]       = {{EVO_TRADE, 0, SPECIES_GOURGEIST_LARGE}},
     [SPECIES_PUMPKABOO_SUPER]       = {{EVO_TRADE, 0, SPECIES_GOURGEIST_SUPER}},
-    [SPECIES_ROCKRUFF_OWN_TEMPO]    = {{EVO_LEVEL_DUSK, 25, SPECIES_LYCANROC_DUSK}},
-    [SPECIES_SINISTEA_ANTIQUE]      = {{EVO_ITEM, ITEM_NONE, SPECIES_POLTEAGEIST_ANTIQUE}},
+    //拳拳蛸（学会指定技能后进化范例）
+    [SPECIES_CLOBBOPUS]             = {{EVO_MOVE, MOVE_TAUNT, SPECIES_GRAPPLOCT}},//学会指定技能后升级，指定技能，进化后形态
+    //三合一磁怪（多条件进化范例，地区进化范例。多条件进化指满足任一条件均可进化为自爆磁怪）
+    [SPECIES_MAGNETON]              = {{EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAGNEZONE},//地区进化，指定地区，进化后样子（地区可能有多张地图）
+                                       {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}},
+    //黏美儿（天气进化范例，目前应该仅有这只怪判断天气，如果要新增新的天气进化方式需要改程序）                                   
+    [SPECIES_SLIGGOO]               = {{EVO_LEVEL_RAIN, 50, SPECIES_GOODRA}},
+    //土居忍者（特殊进化方式，该系统可以保留并用在原创上）
+    [SPECIES_NINCADA]               = {{EVO_LEVEL_NINJASK, 20, SPECIES_NINJASK},
+                                       {EVO_LEVEL_SHEDINJA, 20, SPECIES_SHEDINJA}},
+    //奇鲁莉安（性别+道具进化方式）
+    [SPECIES_KIRLIA]                = {{EVO_LEVEL, 30, SPECIES_GARDEVOIR},
+                                       {EVO_ITEM_MALE, ITEM_DAWN_STONE, SPECIES_GALLADE}},//雄性道具进化（雌性改成FEMALE，雪童子有雌性进化），道具，进化后形态
+    //结草儿（性别+升级范例）
+    [SPECIES_BURMY]                 = {{EVO_LEVEL_FEMALE, 20, SPECIES_WORMADAM},
+                                       {EVO_LEVEL_MALE, 20, SPECIES_MOTHIM}},
+    //小嘴蜗（与指定精灵交换进化范例）
+    [SPECIES_SHELMET]               = {{EVO_TRADE_SPECIFIC_MON, SPECIES_KARRABLAST, SPECIES_ACCELGOR}}, //与指定精灵交换进化，指定精灵，进化后形态
+    //小福蛋（时间+携带道具进化，白天是DAY，晚上是NIGHT）
+    [SPECIES_HAPPINY]               = {{EVO_ITEM_HOLD_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY}},
+    //无畏小子（判断努力值，仅有的进化）
+    [SPECIES_TYROGUE]               = {{EVO_LEVEL_ATK_LT_DEF, 20, SPECIES_HITMONCHAN},
+                                       {EVO_LEVEL_ATK_GT_DEF, 20, SPECIES_HITMONLEE},
+                                       {EVO_LEVEL_ATK_EQ_DEF, 20, SPECIES_HITMONTOP}},
+    //小球飞鱼（同行进化范例）
+    [SPECIES_MANTYKE]               = {{EVO_SPECIFIC_MON_IN_PARTY, SPECIES_REMORAID, SPECIES_MANTINE}}, //队里有特定精灵进化，指定同行的精灵，进化后形态                                  
+    //XX精灵
+
+    //-----------------------结束-------------------------------
+
+
 };

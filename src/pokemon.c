@@ -1211,7 +1211,12 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     SPECIES_TO_NATIONAL(GLASTRIER),
     SPECIES_TO_NATIONAL(SPECTRIER),
     SPECIES_TO_NATIONAL(CALYREX),
+    //-----------------苍穹全国图鉴添加------------------
+    //查伦（范例）
     SPECIES_TO_NATIONAL(TIOTHCHARLEN),
+    //XX精灵
+
+    //-----------------结束--------------------
 
     // Megas
     [SPECIES_VENUSAUR_MEGA - 1] = NATIONAL_DEX_VENUSAUR,

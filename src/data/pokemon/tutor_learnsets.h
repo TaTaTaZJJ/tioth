@@ -10595,6 +10595,9 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SNORE)
                                             | TUTOR(MOVE_SUBSTITUTE)
                                             | TUTOR(MOVE_SWIFT)),
+
+//--------------------------苍穹精灵教授招式表-------------------------------
+//查伦（范例）
     [SPECIES_TIOTHCHARLEN] = TUTOR_LEARNSET(TUTOR(MOVE_BODY_SLAM)
                                             | TUTOR(MOVE_DEFENSE_CURL)
                                             | TUTOR(MOVE_DOUBLE_EDGE)
@@ -10613,4 +10616,7 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SWIFT)
                                             | TUTOR(MOVE_THUNDER_PUNCH)
                                             | TUTOR(MOVE_THUNDER_WAVE)),
+//XX精灵
+
+//----------------------------结束-------------------------------
 };

@@ -19247,7 +19247,8 @@ static const struct LevelUpMove sCalyrexShadowRiderLevelUpLearnset[] = {
     LEVEL_UP_MOVE(88, MOVE_FUTURE_SIGHT),
     LEVEL_UP_END
 };
-//tioth
+//-----------------苍穹精灵升级招式表----------------
+//查伦（范例）
 static const struct LevelUpMove sTiothCharlenLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HEAL_PULSE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
@@ -19277,4 +19278,7 @@ static const struct LevelUpMove sTiothCharlenLevelUpLearnset[] = {
     LEVEL_UP_MOVE(60, MOVE_TOPSY_TURVY),
     LEVEL_UP_MOVE(62, MOVE_REFLECT_TYPE),
     LEVEL_UP_END
+//XX精灵
+
+//-------------------结束---------------------
 };

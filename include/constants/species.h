@@ -900,7 +900,7 @@
 #define SPECIES_GLASTRIER 896
 #define SPECIES_SPECTRIER 897
 #define SPECIES_CALYREX 898
-//--------------苍穹精灵编号--------------------
+//--------------苍穹精灵编号临时修改位置1--------------------
 //查伦（范例）
 #define SPECIES_TIOTHCHARLEN 899
 //XX精灵（从900开始）
@@ -2257,9 +2257,16 @@
 #define NATIONAL_DEX_GLASTRIER 896
 #define NATIONAL_DEX_SPECTRIER 897
 #define NATIONAL_DEX_CALYREX 898
-#define NATIONAL_DEX_TIOTHCHARLEN 899
 
+//---------------苍穹精灵编号临时修改位置2---------------------
+//查伦（范例）
+#define NATIONAL_DEX_TIOTHCHARLEN 899
+//XX精灵
+
+//额外修改，与上一步相同，需要将下方末尾替换成最后一个精灵名字
 #define NATIONAL_DEX_COUNT NATIONAL_DEX_TIOTHCHARLEN
+//---------------------结束----------------------
+
 #define POKEMON_SLOTS_NUMBER (NATIONAL_DEX_COUNT + 1)
 
 // Hoenn Dex(ORAS) Index Defines

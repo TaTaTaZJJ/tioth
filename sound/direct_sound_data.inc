@@ -4305,7 +4305,14 @@ Cry_CalyrexIceRider::
 	.align 2
 Cry_CalyrexShadowRider::
 	.incbin "sound/direct_sound_samples/cries/uncomp_calyrex_shadow_rider.bin"
+@ --------------苍穹精灵叫声------------------
+@ 查伦（范例）
+	.align 2
+Cry_TiothCharlen::
+	.incbin "sound/direct_sound_samples/cries/gardevoir.bin"
+@ XX精灵
 
+@ ----------------结束-------------------------
 	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"

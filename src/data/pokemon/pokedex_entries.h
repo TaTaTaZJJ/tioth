@@ -9790,17 +9790,21 @@ const struct PokedexEntry gPokedexEntries[] =
                         .trainerScale = 256,
                         .trainerOffset = 0,
                 },
-                //TIOTH
+//---------------------苍穹精灵图鉴信息位置----------------------
+//查伦（范例）
         [NATIONAL_DEX_TIOTHCHARLEN] =
                 {
                         .categoryName = _("被遗弃"),
-                        .height = 16,
-                        .weight = 484,
-                        .description = gTiothCharlenPokedexText,
-                        .pokemonScale = 256,
-                        .pokemonOffset = 0,
-                        .trainerScale = 256,
-                        .trainerOffset = 0,
+                        .height = 16, //身高
+                        .weight = 484, //体重
+                        .description = gTiothCharlenPokedexText, //图鉴描述文本
+                        .pokemonScale = 256, //宝可梦大小，正常大小256
+                        .pokemonOffset = 0, //位置（可能有些精灵会浮空？需要调整这个）
+                        .trainerScale = 256, //训练师大小比对，正常大小为256，类似吼鲸王这类巨大的就需要把训练师调小来对比
+                        .trainerOffset = 0, //训练师位置
                 },
+//XX精灵
+
+//-----------------------------结束-----------------------------
 
 };
