@@ -1275,7 +1275,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     
 //---------------苍穹闪光色板--------------
 //查伦（范例）
-    SPECIES_SHINY_PAL(TIOTHCHARLEN , gMonShinyPalette_Tiothcharlen),
+    SPECIES_SHINY_PAL(TIOTHCHARLEN, gMonShinyPalette_Tiothcharlen),
 //XX精灵
 
 //------------结束--------------
