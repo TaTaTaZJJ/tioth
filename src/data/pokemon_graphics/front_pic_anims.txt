@@ -1,4 +1,5 @@
-﻿static const union AnimCmd sAnim_test_1[] = 
+﻿//备份全精灵一帧+缩减代码
+static const union AnimCmd sAnim_test_1[] = 
 {
     ANIMCMD_FRAME(0),
     ANIMCMD_END,
