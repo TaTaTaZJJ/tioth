@@ -371,6 +371,8 @@
 #define EVO_TRADE_SPECIFIC_MON            31     // Pokémon is traded for a specified Pokémon
 #define EVO_SPECIFIC_MAP                  32     // Pokémon levels up on specified map
 #define EVO_RANDOM_CHANCE                 33     // Pokémon levels up, having chance to proceed branch
+#define EVO_LEVEL_STEEL_TYPE_MON_IN_PARTY 34     //钢系同行进化
+#define EVO_LEVEL_SANDSTORM               35     //沙暴天气进化
 
 #define EVOS_PER_MON 10
 
