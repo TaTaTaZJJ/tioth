@@ -57,9 +57,11 @@ static const u32 sMugshotImg_Waifu_Speechless[] = INCBIN_U32("graphics/mugshots/
 static const u16 sMugshotPal_Waifu_Speechless[] = INCBIN_U16("graphics/mugshots/Waifu_Speechless.gbapal");
 static const u32 sMugshotImg_Waifu_Stareyes[] = INCBIN_U32("graphics/mugshots/Waifu_Stareyes.4bpp.lz");
 static const u16 sMugshotPal_Waifu_Stareyes[] = INCBIN_U16("graphics/mugshots/Waifu_Stareyes.gbapal");
-//Cameo
+//Misc
 static const u32 sMugshotImg_hxyj_mug[] = INCBIN_U32("graphics/mugshots/hxyj_mug.4bpp.lz");
 static const u16 sMugshotPal_hxyj_mug[] = INCBIN_U16("graphics/mugshots/hxyj_mug.gbapal");
+static const u32 sMugshotImg_Brendan_Mug[] = INCBIN_U32("graphics/mugshots/Brendan_Mug.4bpp.lz");
+static const u16 sMugshotPal_Brendan_Mug[] = INCBIN_U16("graphics/mugshots/Brendan_Mug.gbapal");
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     //Majo
@@ -81,8 +83,9 @@ static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     [MUGSHOT_WAIFU_SANITY0] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Sanity0, .palette = sMugshotPal_Waifu_Sanity0},
     [MUGSHOT_WAIFU_SPEECHLESS] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Speechless, .palette = sMugshotPal_Waifu_Speechless},
     [MUGSHOT_WAIFU_STAREYES] = {.width = 80, .height = 80, .bust = 80, .image = sMugshotImg_Waifu_Stareyes, .palette = sMugshotPal_Waifu_Stareyes},
-    //Cameo
+    //Misc
     [MUGSHOT_HXYJ] = {.width = 72, .height = 104, .bust = 64, .image = sMugshotImg_hxyj_mug, .palette = sMugshotPal_hxyj_mug},
+    [MUGSHOT_BRENDAN] = {.width = 64, .height = 80, .bust = 64, .image = sMugshotImg_Brendan_Mug, .palette = sMugshotPal_Brendan_Mug},
 };
 
 void ClearMugshot(bool8 right)
