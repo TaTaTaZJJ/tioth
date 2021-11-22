@@ -62,6 +62,8 @@ static const u32 sMugshotImg_hxyj_mug[] = INCBIN_U32("graphics/mugshots/hxyj_mug
 static const u16 sMugshotPal_hxyj_mug[] = INCBIN_U16("graphics/mugshots/hxyj_mug.gbapal");
 static const u32 sMugshotImg_Brendan_Mug[] = INCBIN_U32("graphics/mugshots/Brendan_Mug.4bpp.lz");
 static const u16 sMugshotPal_Brendan_Mug[] = INCBIN_U16("graphics/mugshots/Brendan_Mug.gbapal");
+static const u32 sMugshotImg_Oldman1_Mug[] = INCBIN_U32("graphics/mugshots/Oldman1_Mug.4bpp.lz");
+static const u16 sMugshotPal_Oldman1_Mug[] = INCBIN_U16("graphics/mugshots/Oldman1_Mug.gbapal");
 
 static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     //Majo
@@ -86,6 +88,7 @@ static const struct Mugshot sMugshots[MUGSHOT_COUNT] = {
     //Misc
     [MUGSHOT_HXYJ] = {.width = 72, .height = 104, .bust = 64, .image = sMugshotImg_hxyj_mug, .palette = sMugshotPal_hxyj_mug},
     [MUGSHOT_BRENDAN] = {.width = 64, .height = 80, .bust = 64, .image = sMugshotImg_Brendan_Mug, .palette = sMugshotPal_Brendan_Mug},
+    [MUGSHOT_OLDMAN1] = {.width = 72, .height = 80, .bust = 72, .image = sMugshotImg_Oldman1_Mug, .palette = sMugshotPal_Oldman1_Mug},
 };
 
 void ClearMugshot(bool8 right)
