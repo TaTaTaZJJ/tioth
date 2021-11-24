@@ -967,6 +967,11 @@
             "en": "Powers up Steel moves."
         },
         {
+            "label": "sGrassworkerDescription",
+            "zh": "草属性的招式威力会\\n提高。",
+            "en": "Powers up Grass moves."
+        },
+        {
             "label": "sBerserkDescription",
             "zh": "因对手的攻击hp变为\\n一半时，特攻会提高。",
             "en": "Boosts Sp. Atk at low HP."
@@ -2285,6 +2290,11 @@
             "label": "ABILITY_STEELWORKER",
             "zh": "钢能力者",
             "en": "Steelworker"
+        },
+        {
+            "label": "ABILITY_GRASSWORKER",
+            "zh": "丛林呼啸",
+            "en": "Jungle Snarler"
         },
         {
             "label": "ABILITY_BERSERK",

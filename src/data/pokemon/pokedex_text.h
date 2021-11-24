@@ -888,4 +888,10 @@ const u8 gDrakloakPokedexText[]=_("飞行速度为每小时200公里.\n与多龙
 const u8 gDragapultPokedexText[]=_("它角里的多龙梅西亚似乎\n满心期待着能被以\n音速发射出去.");
 const u8 gZacianPokedexText[]=_("被称为妖精王之剑，让敌友\n都对其敬畏不已.能以一剑\n将之拿下超极巨化宝可梦.");
 const u8 gZamazentaPokedexText[]=_("被称为格斗王之盾，受到人\n们的畏惧与尊崇.能轻易抵\n消超极巨化宝可梦的攻击.");
+
+//-------------苍穹图鉴描述位置------------
+//查伦（范例）
 const u8 gTiothCharlenPokedexText[]=_("似乎曾遭到遗弃的沙奈朵，\n被悲伤与黑暗的寒意\n萦绕着.");
+//XX精灵
+
+//----------------结束--------------

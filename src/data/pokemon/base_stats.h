@@ -33943,28 +33943,39 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
-    //tioth
+    //--------------------苍穹精灵基础属性录入------------------
+    //查伦（范例）
     [SPECIES_TIOTHCHARLEN] = 
     {
-        .baseHP        = 1,
-        .baseAttack    = 127,
-        .baseDefense   = 61,
-        .baseSpeed     = 113,
-        .baseSpAttack  = 163,
-        .baseSpDefense = 53,
-        .type1 = TYPE_GHOST,
-        .type2 = TYPE_DARK,
-        .catchRate = 0,
-        .expYield = 233,
-        .evYield_SpAttack  = 3,
-        .genderRatio = MON_MALE,
-        .eggCycles = 120,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
-        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_WONDER_GUARD, ABILITY_NONE},
-        .bodyColor = BODY_COLOR_PURPLE,
-        .noFlip = FALSE,
+        .baseHP        = 1, //HP
+        .baseAttack    = 127, //物攻
+        .baseDefense   = 61, //物防
+        .baseSpeed     = 113, //速度
+        .baseSpAttack  = 163, //特攻
+        .baseSpDefense = 53, //特防
+        .type1 = TYPE_GHOST, //属性1
+        .type2 = TYPE_DARK, //属性2
+        .catchRate = 0, //捕获率
+        .expYield = 233, //经验
+        .evYield_HP        = 0, //努力HP
+        .evYield_Attack    = 0, //努力物攻
+        .evYield_Defense   = 0, //努力物防
+        .evYield_Speed     = 0, //努力速度
+        .evYield_SpAttack  = 3, //努力特攻
+        .evYield_SpDefense = 0, //努力特防
+        .item1 = ITEM_NONE, //野生携带道具1
+        .item2 = ITEM_NONE, //野生携带道具2
+        .genderRatio = MON_MALE, //性别
+        .eggCycles = 120, //孵化步数
+        .friendship = 35, //捕获时初始友谊
+        .growthRate = GROWTH_SLOW, //经验成长率
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED, //蛋组1
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED, //蛋组2
+        .abilities = {ABILITY_WONDER_GUARD, ABILITY_NONE}, //特性
+        .bodyColor = BODY_COLOR_PURPLE, //身体颜色
+        .noFlip = FALSE, //不允许翻转？待确认
     }
+    //XX精灵
+
+    //------------------结束-----------------------------
 };

@@ -1252,8 +1252,7 @@ gCryTable::
 	cry_uncomp Cry_Alcremie
 	cry_uncomp Cry_Alcremie
 	cry_uncomp Cry_Alcremie
-	@ Eiscue
-	cry_uncomp Cry_EiscueNoiceFace
+
 	@ Indeedee
 	cry_uncomp Cry_IndeedeeFemale
 	@ Morpeko
@@ -1271,6 +1270,15 @@ gCryTable::
 	@ Calyrex
 	cry_uncomp Cry_CalyrexIceRider
 	cry_uncomp Cry_CalyrexShadowRider
+
+	@--------------苍穹精灵叫声表格1----------------
+	@查伦（范例，已压缩音频）
+	cry Cry_TiothCharlen
+	@冰砌鹅（范例2，未压缩音频）
+	cry_uncomp Cry_EiscueNoiceFace
+	@XX精灵
+
+	@---------------结束-------------------------
 
 	.align 2
 gCryTable2::
@@ -2526,8 +2534,6 @@ gCryTable2::
 	cry2_uncomp Cry_Alcremie
 	cry2_uncomp Cry_Alcremie
 	cry2_uncomp Cry_Alcremie
-	@ Eiscue
-	cry2_uncomp Cry_EiscueNoiceFace
 	@ Indeedee
 	cry2_uncomp Cry_IndeedeeFemale
 	@ Morpeko
@@ -2545,3 +2551,11 @@ gCryTable2::
 	@ Calyrex
 	cry2_uncomp Cry_CalyrexIceRider
 	cry2_uncomp Cry_CalyrexShadowRider
+	@--------------苍穹精灵叫声表格2----------------
+	@查伦（范例，已压缩音频）
+	cry2 Cry_TiothCharlen
+	@冰砌鹅（范例2，未压缩音频）
+	cry2_uncomp Cry_EiscueNoiceFace
+	@XX精灵
+
+	@---------------结束-------------------------
