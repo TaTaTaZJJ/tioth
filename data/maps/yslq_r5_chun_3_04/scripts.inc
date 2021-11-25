@@ -37,6 +37,7 @@ yslq_r5_chun_3_04_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0:
 	playbgm MUS_B_PYRAMID, 0
 	startblackcentermsg
 	msgbox yslq_r5_chun_3_04_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_6
+	call tioth_weather_system
 	release
 	setvar VAR_TIOTH_MAP, 1
 	endblackcentermsg
