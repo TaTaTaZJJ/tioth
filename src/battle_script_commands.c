@@ -9975,7 +9975,7 @@ static void Cmd_psywavedamageeffect(void)
         randDamage = (Random() % 101);
     else
         randDamage = (Random() % 11) * 10;
-    gBattleMoveDamage = gBattleMons[gBattlerAttacker].level * (randDamage + 50) / 100;
+    gBattleMoveDamage = 50 * (randDamage + 50) / 100;
     gBattlescriptCurrInstr++;
 }
 
