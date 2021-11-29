@@ -9606,11 +9606,9 @@ static void Cmd_tryKO(void)
         {
             lands = TRUE;
         }
-        else
+        else if (Random() % 100 + 1 < gBattleMoves[gCurrentMove].accuracy)
         {
-            u16 odds = gBattleMoves[gCurrentMove].accuracy + (gBattleMons[gBattlerAttacker].level - gBattleMons[gBattlerTarget].level);
-            if (Random() % 100 + 1 < odds && gBattleMons[gBattlerAttacker].level >= gBattleMons[gBattlerTarget].level)
-                lands = TRUE;
+            lands = TRUE;
         }
 
         if (lands)
@@ -9975,7 +9973,7 @@ static void Cmd_psywavedamageeffect(void)
         randDamage = (Random() % 101);
     else
         randDamage = (Random() % 11) * 10;
-    gBattleMoveDamage = gBattleMons[gBattlerAttacker].level * (randDamage + 50) / 100;
+    gBattleMoveDamage = 50 * (randDamage + 50) / 100;
     gBattlescriptCurrInstr++;
 }
 
