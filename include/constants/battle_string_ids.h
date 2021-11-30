@@ -574,7 +574,26 @@
 #define STRINGID_PLAYERGOTITEM2                  570
 #define STRINGID_PLAYERGOTLOOTITEM               571
 
-#define BATTLESTRINGS_COUNT                      572
+//TIOTH
+#define STRINGID_WATERAURAENTERS                 572
+#define STRINGID_STEELAURAENTERS                 573
+#define STRINGID_FIREAURAENTERS                  574
+#define STRINGID_GRASSAURAENTERS                 575
+#define STRINGID_ELECTRICAURAENTERS              576
+#define STRINGID_GHOSTAURAENTERS                 577
+#define STRINGID_POISONAURAENTERS                578
+#define STRINGID_GROUNDAURAENTERS                579
+#define STRINGID_ROCKAURAENTERS                  580
+#define STRINGID_FLYINGAURAENTERS                581
+#define STRINGID_PSYCHICAURAENTERS               582
+#define STRINGID_BUGAURAENTERS                   583
+#define STRINGID_DRAGONAURAENTERS                584
+#define STRINGID_ICEAURAENTERS                   585
+#define STRINGID_FIGHTINGAURAENTERS              586
+
+
+
+#define BATTLESTRINGS_COUNT                      587
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
@@ -809,5 +828,22 @@
 #define B_MSG_SWITCHIN_SCREENCLEANER    12
 #define B_MSG_SWITCHIN_ASONE            13
 #define B_MSG_SWITCHIN_CURIOUS_MEDICINE 14
+
+//TIOTH
+#define B_MSG_SWITCHIN_WATERAURA        15
+#define B_MSG_SWITCHIN_STEELAURA        16
+#define B_MSG_SWITCHIN_FIREAURA         17
+#define B_MSG_SWITCHIN_GRASSAURA        18
+#define B_MSG_SWITCHIN_ELECTRICAURA     19
+#define B_MSG_SWITCHIN_GHOSTAURA        20
+#define B_MSG_SWITCHIN_POISONAURA       21
+#define B_MSG_SWITCHIN_GROUNDAURA       22
+#define B_MSG_SWITCHIN_ROCKAURA         23
+#define B_MSG_SWITCHIN_FLYINGAURA       24
+#define B_MSG_SWITCHIN_PSYCHICAURA      25
+#define B_MSG_SWITCHIN_BUGAURA          26
+#define B_MSG_SWITCHIN_DRAGONAURA       27
+#define B_MSG_SWITCHIN_ICEAURA          28
+#define B_MSG_SWITCHIN_FIGHTINGAURA     29
 
 #endif // GUARD_CONSTANTS_BATTLE_STRING_IDS_H
