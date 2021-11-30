@@ -574,7 +574,11 @@
 #define STRINGID_PLAYERGOTITEM2                  570
 #define STRINGID_PLAYERGOTLOOTITEM               571
 
-#define BATTLESTRINGS_COUNT                      572
+//TIOTH
+#define STRINGID_WATERAURAENTERS                 572
+#define STRINGID_STEELAURAENTERS                 573
+
+#define BATTLESTRINGS_COUNT                      574
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
@@ -809,5 +813,9 @@
 #define B_MSG_SWITCHIN_SCREENCLEANER    12
 #define B_MSG_SWITCHIN_ASONE            13
 #define B_MSG_SWITCHIN_CURIOUS_MEDICINE 14
+
+//TIOTH
+#define B_MSG_SWITCHIN_WATERAURA        15
+#define B_MSG_SWITCHIN_STEELAURA        16
 
 #endif // GUARD_CONSTANTS_BATTLE_STRING_IDS_H
