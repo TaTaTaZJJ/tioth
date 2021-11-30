@@ -19880,8 +19880,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 40,
         .baseSpAttack  = 55,
         .baseSpDefense = 75,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_DRAGON,
+        .type1 = TYPE_POISON,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 60,
         .evYield_SpDefense = 1,
@@ -19895,7 +19895,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_DRAGON,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_REGENERATOR, ABILITY_GOOEY},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -19911,8 +19911,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 83,
         .baseSpDefense = 113,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_DRAGON,
+        .type1 = TYPE_POISON,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 158,
         .evYield_SpDefense = 2,
@@ -19926,7 +19926,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_DRAGON,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_REGENERATOR, ABILITY_GOOEY},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -19942,8 +19942,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 80,
         .baseSpAttack  = 110,
         .baseSpDefense = 150,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_DRAGON,
+        .type1 = TYPE_POISON,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 270,
         .evYield_SpDefense = 3,
@@ -19954,7 +19954,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_DRAGON,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY},
+            .abilities = {ABILITY_SAP_SIPPER, ABILITY_REGENERATOR, ABILITY_GOOEY},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif

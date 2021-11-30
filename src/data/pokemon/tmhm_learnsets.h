@@ -41418,6 +41418,10 @@ static const u16 sCarbinkTMLearnset[] =
 
 static const u16 sGoomyTMLearnset[] =
 {
+    //TIOTH新增
+    TM(TM059_HIDDEN_POWER),
+    TM(TM006_TOXIC),
+    //原版TM
     TM(TM006_TOXIC),
     TM(TM008_BODY_SLAM),
     TM(TM024_THUNDERBOLT),
@@ -41453,6 +41457,11 @@ static const u16 sGoomyTMLearnset[] =
 
 static const u16 sSliggooTMLearnset[] =
 {
+    //TIOTH新增
+    TM(TM059_HIDDEN_POWER),
+    TM(TM006_TOXIC),
+    TM(TM095_TAUNT),
+    //原版TM
     TM(TM006_TOXIC),
     TM(TM008_BODY_SLAM),
     TM(TM013_ICE_BEAM),
@@ -41490,6 +41499,11 @@ static const u16 sSliggooTMLearnset[] =
 
 static const u16 sGoodraTMLearnset[] =
 {
+    //TIOTH新增
+    TM(TM059_HIDDEN_POWER),
+    TM(TM006_TOXIC),
+    TM(TM095_TAUNT),
+    //原版TM
     TM(TM001_MEGA_PUNCH),
     TM(TM005_MEGA_KICK),
     TM(TM006_TOXIC),
