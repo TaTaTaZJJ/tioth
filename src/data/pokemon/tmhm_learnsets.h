@@ -11304,6 +11304,11 @@ static const u16 sTotodileTMLearnset[] =
 
 static const u16 sCroconawTMLearnset[] =
 {
+    //TIOTH新增
+    TM(TM252_CLOSE_COMBAT),
+    TM(TM095_TAUNT),
+    TM(TM273_DARKEST_LARIAT),
+    //原版TM
     TM(TM003_SWORDS_DANCE),
     TM(TM006_TOXIC),
     TM(TM013_ICE_BEAM),

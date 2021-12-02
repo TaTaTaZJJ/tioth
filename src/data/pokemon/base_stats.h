@@ -4473,10 +4473,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_CROCONAW] =
     {
         .baseHP        = 65,
-        .baseAttack    = 80,
+        .baseAttack    = 85,
         .baseDefense   = 80,
         .baseSpeed     = 58,
-        .baseSpAttack  = 59,
+        .baseSpAttack  = 54,
         .baseSpDefense = 63,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
@@ -4491,7 +4491,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_WATER_1,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_SHEER_FORCE},
+            .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_STAKEOUT},
         #else
             .abilities = {ABILITY_TORRENT, ABILITY_NONE},
         #endif
