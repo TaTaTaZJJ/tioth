@@ -1800,7 +1800,8 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
     }
     else if (gStatuses3[battlerAtk] & STATUS3_LASER_FOCUS
              || gBattleMoves[move].effect == EFFECT_ALWAYS_CRIT
-             || (abilityAtk == ABILITY_MERCILESS && gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY))
+             || (abilityAtk == ABILITY_MERCILESS && gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY)
+             || (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE) && (typeEffectivenessModifier <= UQ_4_12(0.5)))    //TIOTH 虫异常发生抵抗时必定暴击
     {
         critChance = -2;
     }

@@ -7995,7 +7995,10 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         MulModifier(&finalModifier, UQ_4_12(0.75));
 
     // take type effectiveness
-    MulModifier(&finalModifier, typeEffectivenessModifier);
+    if (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE && (typeEffectivenessModifier <= UQ_4_12(0.5)))
+        MulModifier(&finalModifier, UQ_4_12(1.0));
+    else 
+        MulModifier(&finalModifier, typeEffectivenessModifier);
 
     // check crit
     if (isCrit)

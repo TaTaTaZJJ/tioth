@@ -442,7 +442,7 @@ static const u8 sText_PkmnIsAlreadyFragile[] = _("{B_DEF_NAME_WITH_PREFIX}\n已�
 static const u8 sText_PkmnHealedFragile[] = _("{B_DEF_NAME_WITH_PREFIX}的身体\n不再虚弱了！");
 static const u8 sText_PkmnHurtByResistanceWhenFragile[] = _("{B_DEF_NAME_WITH_PREFIX}因虚弱\n变得无法抵抗！");
 static const u8 sText_PkmnsItemHealedFragile[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\n治愈了虚弱！");
-static const u8 sText_PkmnPreventsFragile[] = _("{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\n防止了虚弱！");
+static const u8 sText_PkmnPreventsFragile[] = _("{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\n防止了虚弱无力！"); //TODO 待确认这个EEF和DEF什么区别，该用哪个
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
