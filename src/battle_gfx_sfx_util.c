@@ -413,6 +413,8 @@ void InitAndLaunchChosenStatusAnimation(bool8 isStatus2, u32 status)
             LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_SLP);
         else if (status == STATUS1_PARALYSIS)
             LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_PRZ);
+        else if (status == STATUS1_FRAGILE)
+            LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_PRZ);//TODO 虫异常动画
         else // no animation
             gBattleSpritesDataPtr->healthBoxesData[gActiveBattler].statusAnimActive = 0;
     }

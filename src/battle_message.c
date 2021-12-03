@@ -97,7 +97,7 @@ static const u8 sText_PkmnWasntAffected[] = _("{B_DEF_NAME_WITH_PREFIX}\n没有�
 static const u8 sText_PkmnWasPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}\n中毒了！");
 static const u8 sText_PkmnPoisonedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_BUFF1}\n使{B_EFF_NAME_WITH_PREFIX}中毒了！");
 static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX}因中毒\n受到了伤害！");
-static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX}\n中毒了。");
+static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX}\n已经中毒了。");
 static const u8 sText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}\n中了剧毒！");
 static const u8 sText_PkmnEnergyDrained[] = _("{B_DEF_NAME_WITH_PREFIX}\n被吸取了能量！");
 static const u8 sText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX}烧伤了！");
@@ -434,6 +434,15 @@ static const u8 sText_ExclamationMark4[] = _("！");
 static const u8 sText_ExclamationMark5[] = _("！");
 static const u8 sText_Accuracy[] = _("命中率");
 static const u8 sText_Evasiveness[] = _("回避率");
+
+//TIOTH新增虫异常
+static const u8 sText_PkmnWasFragile[] = _("{B_EFF_NAME_WITH_PREFIX}感到\n虚弱无力！");
+static const u8 sText_PkmnFragileBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\n使{B_EFF_NAME_WITH_PREFIX}感到\n虚弱无力！");
+static const u8 sText_PkmnIsAlreadyFragile[] = _("{B_DEF_NAME_WITH_PREFIX}\n已经虚弱了！");
+static const u8 sText_PkmnHealedFragile[] = _("{B_DEF_NAME_WITH_PREFIX}的身体\n不再虚弱了！");
+static const u8 sText_PkmnHurtByResistanceWhenFragile[] = _("{B_DEF_NAME_WITH_PREFIX}因虚弱\n变得无法抵抗！");
+static const u8 sText_PkmnsItemHealedFragile[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\n治愈了虚弱！");
+static const u8 sText_PkmnPreventsFragile[] = _("{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\n防止了虚弱！");
 
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
@@ -796,6 +805,15 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNHURTBYBURN - 12] = sText_PkmnHurtByBurn,
     [STRINGID_PKMNWASFROZEN - 12] = sText_PkmnWasFrozen,
     [STRINGID_PKMNFROZENBY - 12] = sText_PkmnFrozenBy,
+    //TIOTH 虫异常
+    [STRINGID_PKMNWASFRAGILE - 12] = sText_PkmnWasFragile,
+    [STRINGID_PKMNFRAGILEBY - 12] = sText_PkmnFragileBy,
+    [STRINGID_PKMNISALREADYFRAGILE - 12] = sText_PkmnIsAlreadyFragile,
+    [STRINGID_PKMNHEALEDFRAGILE - 12] = sText_PkmnHealedFragile,
+    [STRINGID_PKMNHURTBYRESISTANCEWHENFRAGILE - 12] = sText_PkmnHurtByResistanceWhenFragile,
+    [STRINGID_PKMNSITEMHEALEDFRAGILE - 12] = sText_PkmnsItemHealedFragile
+    [STRINGID_PKMNPREVENTSFRAGILE - 12] = sText_PkmnPreventsFragile
+
     [STRINGID_PKMNISFROZEN - 12] = sText_PkmnIsFrozen,
     [STRINGID_PKMNWASDEFROSTED - 12] = sText_PkmnWasDefrosted,
     [STRINGID_PKMNWASDEFROSTED2 - 12] = sText_PkmnWasDefrosted2,
@@ -1570,6 +1588,13 @@ const u16 gGotFrozenStringIds[] =
     [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNFROZENBY
 };
 
+//TIOTH新增虫异常
+const u16 gGotFragileStringIds[] =
+{
+    [B_MSG_STATUSED]            = STRINGID_PKMNWASFRAGILE,
+    [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNFRAGILEBY
+};
+
 const u16 gGotDefrostedStringIds[] =
 {
     [B_MSG_DEFROSTED]         = STRINGID_PKMNWASDEFROSTED2,
@@ -1674,6 +1699,7 @@ const u16 gTrainerItemCuredStatusStringIds[] =
     [AI_HEAL_BURN]      = STRINGID_PKMNSITEMHEALEDBURN,
     [AI_HEAL_POISON]    = STRINGID_PKMNSITEMCUREDPOISON,
     [AI_HEAL_SLEEP]     = STRINGID_PKMNSITEMWOKEIT
+    //[AI_HEAL_FRAGILE]     = STRINGID_PKMNSITEMHEALEDFRAGILE
 };
 
 const u16 gBerryEffectStringIds[] =
@@ -1685,6 +1711,14 @@ const u16 gBerryEffectStringIds[] =
 const u16 gBRNPreventionStringIds[] =
 {
     [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNSXPREVENTSBURNS,
+    [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
+    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
+};
+
+//TIOTH虫异常
+const u16 gFRGPreventionStringIds[] =
+{
+    [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNPREVENTSFRAGILE,
     [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
     [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
 };

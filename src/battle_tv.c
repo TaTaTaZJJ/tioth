@@ -825,6 +825,8 @@ void BattleTv_SetDataBasedOnString(u16 stringId)
         if (tvPtr->mon[atkSide][gBattlerPartyIndexes[gBattlerAttacker]].frzMonId != 0)
             AddMovePoints(PTS_STATUS, 4, tvPtr->mon[atkSide][gBattlerPartyIndexes[gBattlerAttacker]].frzMonId - 1, tvPtr->mon[atkSide][gBattlerPartyIndexes[gBattlerAttacker]].frzMoveSlot);
         break;
+    case STRINGID_PKMNWASFRAGILE: //TIOTH新增虫异常
+
     case STRINGID_PKMNWASCONFUSED:
         tvPtr->pos[effSide][effFlank].confusionMonId = gBattlerPartyIndexes[gBattlerAttacker] + 1;
         tvPtr->pos[effSide][effFlank].confusionMoveSlot = moveSlot;
