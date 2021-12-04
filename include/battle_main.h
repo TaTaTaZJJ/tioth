@@ -86,7 +86,7 @@ extern const u8 gStatusConditionString_SleepJpn[8];
 extern const u8 gStatusConditionString_ParalysisJpn[8];
 extern const u8 gStatusConditionString_BurnJpn[8];
 extern const u8 gStatusConditionString_IceJpn[8];
-extern const u8 gStatusConditionString_FragileJpn[8];
+extern const u8 gStatusConditionString_FragileJpn[8];//TIOTH虫异常
 extern const u8 gStatusConditionString_ConfusionJpn[8];
 extern const u8 gStatusConditionString_LoveJpn[8];
 

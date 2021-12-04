@@ -879,7 +879,7 @@ static bool8 ShouldUseItem(void)
                 *(gBattleStruct->AI_itemFlags + gActiveBattler / 2) |= (1 << AI_HEAL_PARALYSIS);
                 shouldUse = TRUE;
             }
-            if (itemEffects[3] & ITEM3_FRAGILE && gBattleMons[gActiveBattler].status1 & STATUS1_FRAGILE)
+            if (itemEffects[3] & ITEM3_FRAGILE && gBattleMons[gActiveBattler].status1 & STATUS1_FRAGILE)//TIOTH虫异常
             {
                 *(gBattleStruct->AI_itemFlags + gActiveBattler / 2) |= (1 << AI_HEAL_FRAGILE);
                 shouldUse = TRUE;

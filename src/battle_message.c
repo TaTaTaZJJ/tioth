@@ -1812,6 +1812,7 @@ const u8 gText_Poison[] = _("中毒");
 const u8 gText_Burn[] = _("灼烧");
 const u8 gText_Paralysis[] = _("麻痹");
 const u8 gText_Ice[] = _("冰冻");
+const u8 gText_Fragile[] = _("虚弱"); //TIOTH虫异常
 const u8 gText_Confusion[] = _("混乱");
 const u8 gText_Love[] = _("着迷");
 const u8 gText_SpaceAndSpace[] = _("和");

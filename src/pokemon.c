@@ -5607,6 +5607,8 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
                 retVal = FALSE;
             if ((itemEffect[i] & ITEM3_PARALYSIS) && HealStatusConditions(mon, partyIndex, STATUS1_PARALYSIS, battlerId) == 0)
                 retVal = FALSE;
+            if ((itemEffect[i] & ITEM3_FRAGILE) && HealStatusConditions(mon, partyIndex, STATUS1_FRAGILE, battlerId) == 0) //TIOTH虫异常
+                retVal = FALSE;
             if ((itemEffect[i] & ITEM3_CONFUSION)  // heal confusion
              && gMain.inBattle && battlerId != MAX_BATTLERS_COUNT && (gBattleMons[battlerId].status2 & STATUS2_CONFUSION))
             {

@@ -8049,6 +8049,9 @@ static void Cmd_various(void)
         case STATUS1_TOXIC_POISON:
             gBattleScripting.moveEffect = MOVE_EFFECT_TOXIC;
             break;
+        case STATUS1_FRAGILE: //TIOTH虫异常
+            gBattleScripting.moveEffect = MOVE_EFFECT_FRAGILE;
+            break;
         default:
             gBattleScripting.moveEffect = 0;
             break;

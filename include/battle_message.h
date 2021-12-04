@@ -271,6 +271,7 @@ extern const u8 gText_Poison[];
 extern const u8 gText_Burn[];
 extern const u8 gText_Paralysis[];
 extern const u8 gText_Ice[];
+extern const u8 gText_Fragile[]; //TIOTH虫异常
 extern const u8 gText_Confusion[];
 extern const u8 gText_Love[];
 extern const u8 gText_SpaceAndSpace[];

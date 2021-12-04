@@ -4428,7 +4428,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                         StringCopy(gBattleTextBuff1, gStatusConditionString_BurnJpn);
                     if (gBattleMons[battler].status1 & STATUS1_FREEZE)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
-                    if (gBattleMons[battler].status1 & STATUS1_FRAGILE)
+                    if (gBattleMons[battler].status1 & STATUS1_FRAGILE)//TIOTH虫异常
                         StringCopy(gBattleTextBuff1, gStatusConditionString_FragileJpn);
 
 
@@ -5221,6 +5221,13 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                     effect = 1;
                 }
                 break;
+            case ABILITY_SHELL_ARMOR:
+                if (gBattleMons[battler].status1 & STATUS1_FRAGILE)//TIOTH虫异常
+                {
+                    StringCopy(gBattleTextBuff1, gStatusConditionString_FragileJpn);
+                    effect = 1;
+                }
+                break;
             case ABILITY_OBLIVIOUS:
                 if (gBattleMons[battler].status2 & STATUS2_INFATUATION)
                     effect = 3;
@@ -5868,6 +5875,14 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
+            case HOLD_EFFECT_CURE_FRG: //TIOTH虫异常
+                if (B_BERRIES_INSTANT >= GEN_4 && gBattleMons[battlerId].status1 & STATUS1_FRAGILE && !UnnerveOn(battlerId, gLastUsedItem))
+                {
+                    gBattleMons[battlerId].status1 &= ~(STATUS1_FRAGILE);
+                    BattleScriptExecute(BattleScript_BerryCureFrzEnd2);
+                    effect = ITEM_STATUS_CHANGE;
+                }
+                break;
             case HOLD_EFFECT_CURE_SLP:
                 if (B_BERRIES_INSTANT >= GEN_4 && gBattleMons[battlerId].status1 & STATUS1_SLEEP && !UnnerveOn(battlerId, gLastUsedItem))
                 {
@@ -5905,6 +5920,11 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     if (gBattleMons[battlerId].status1 & STATUS1_FREEZE)
                     {
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
+                        i++;
+                    }
+                    if (gBattleMons[battlerId].status1 & STATUS1_FRAGILE)//TIOTH虫异常
+                    {
+                        StringCopy(gBattleTextBuff1, gStatusConditionString_FragileJpn);
                         i++;
                     }
                     if (gBattleMons[battlerId].status2 & STATUS2_CONFUSION)
@@ -6138,6 +6158,14 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
+            case HOLD_EFFECT_CURE_FRG: //TIOTH虫异常
+                if (gBattleMons[battlerId].status1 & STATUS1_FRAGILE && !UnnerveOn(battlerId, gLastUsedItem))
+                {
+                    gBattleMons[battlerId].status1 &= ~(STATUS1_FRAGILE);
+                    BattleScriptExecute(BattleScript_BerryCureFrzEnd2);
+                    effect = ITEM_STATUS_CHANGE;
+                }
+                break;
             case HOLD_EFFECT_CURE_SLP:
                 if (gBattleMons[battlerId].status1 & STATUS1_SLEEP && !UnnerveOn(battlerId, gLastUsedItem))
                 {
@@ -6183,6 +6211,11 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     if (gBattleMons[battlerId].status1 & STATUS1_FREEZE)
                     {
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
+                        i++;
+                    }
+                    if (gBattleMons[battlerId].status1 & STATUS1_FRAGILE)//TIOTH虫异常
+                    {
+                        StringCopy(gBattleTextBuff1, gStatusConditionString_FragileJpn);
                         i++;
                     }
                     if (gBattleMons[battlerId].status2 & STATUS2_CONFUSION)
@@ -6332,6 +6365,15 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     effect = ITEM_STATUS_CHANGE;
                 }
                 break;
+            case HOLD_EFFECT_CURE_FRG: //TIOTH虫异常
+                if (gBattleMons[battlerId].status1 & STATUS1_FRAGILE && !UnnerveOn(battlerId, gLastUsedItem))
+                {
+                    gBattleMons[battlerId].status1 &= ~(STATUS1_FRAGILE);
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_BerryCureFrzRet;
+                    effect = ITEM_STATUS_CHANGE;
+                }
+                break;
             case HOLD_EFFECT_CURE_SLP:
                 if (gBattleMons[battlerId].status1 & STATUS1_SLEEP && !UnnerveOn(battlerId, gLastUsedItem))
                 {
@@ -6385,6 +6427,10 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                     if (gBattleMons[battlerId].status1 & STATUS1_FREEZE)
                     {
                         StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
+                    }
+                    if (gBattleMons[battlerId].status1 & STATUS1_FRAGILE)//TIOTH虫异常
+                    {
+                        StringCopy(gBattleTextBuff1, gStatusConditionString_FragileJpn);
                     }
                     if (gBattleMons[battlerId].status2 & STATUS2_CONFUSION)
                     {
@@ -6634,6 +6680,19 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                 RecordItemEffectBattle(battlerId, battlerHoldEffect);
             }
             break;
+        //case HOLD_EFFECT_FRAGILE_ORB:
+        //    if (!gBattleMons[battlerId].status1
+        //        && !IS_BATTLER_OF_TYPE(battlerId, TYPE_BUG)
+        //        && GetBattlerAbility(battlerId) != ABILITY_SHELL_ARMOR
+        //        && GetBattlerAbility(battlerId) != ABILITY_COMATOSE
+        //        && IsBattlerAlive)
+        //    {
+        //        effect = ITEM_STATUS_CHANGE;
+        //        gBattleMons[battlerId].status1 = STATUS1_FRAGILE;
+        //        BattleScriptExecute(BattleScript_FragileOrb);
+        //        RecordItemEffectBattle(battlerId, battlerHoldEffect);
+        //    }
+        //    break;
         }
 
         if (effect == ITEM_STATUS_CHANGE)
@@ -7995,8 +8054,10 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         MulModifier(&finalModifier, UQ_4_12(0.75));
 
     // take type effectiveness
-    if (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE && (typeEffectivenessModifier <= UQ_4_12(0.5)))
-        MulModifier(&finalModifier, UQ_4_12(1.0));
+    if (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE 
+        && (typeEffectivenessModifier <= UQ_4_12(0.5))
+        && (typeEffectivenessModifier != UQ_4_12(0.0))
+            MulModifier(&finalModifier, UQ_4_12(1.0));
     else 
         MulModifier(&finalModifier, typeEffectivenessModifier);
 
