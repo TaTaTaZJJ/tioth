@@ -630,6 +630,7 @@ static const u8 sText_TopsyTurvySwitchedStats[] = _("{B_DEF_NAME_WITH_PREFIX}的
 static const u8 sText_TerrainBecomesMisty[] = _("脚下雾气缭绕！");
 static const u8 sText_TerrainBecomesGrassy[] = _("脚下绿草如茵！");
 static const u8 sText_TerrainBecomesElectric[] = _("脚下电光飞闪！");
+static const u8 sText_TerrainBecomesNormal[] = _("脚下传来了\n不一般的感觉！");
 static const u8 sText_TerrainBecomesPsychic[] = _("脚下传来了奇妙的感觉！");
 static const u8 sText_TargetElectrified[] = _("The {B_DEF_NAME_WITH_PREFIX}的招式\n带电了!");
 static const u8 sText_AssaultVestDoesntAllow[] = _("{B_LAST_ITEM} 的效果让这个\n招式无法被使用!\p");
@@ -1245,6 +1246,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_TERRAINBECOMESMISTY - 12] = sText_TerrainBecomesMisty,
     [STRINGID_TERRAINBECOMESGRASSY - 12] = sText_TerrainBecomesGrassy,
     [STRINGID_TERRAINBECOMESELECTRIC - 12] = sText_TerrainBecomesElectric,
+    [STRINGID_TERRAINBECOMESNORMAL - 12] = sText_TerrainBecomesNormal,
     [STRINGID_TERRAINBECOMESPSYCHIC - 12] = sText_TerrainBecomesPsychic,
     [STRINGID_TARGETELECTRIFIED - 12] = sText_TargetElectrified,
     [STRINGID_MEGAEVOREACTING - 12] = sText_MegaEvoReacting,
@@ -1296,7 +1298,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 
 const u16 gTerrainStringIds[] =
 {
-    STRINGID_TERRAINBECOMESMISTY, STRINGID_TERRAINBECOMESGRASSY, STRINGID_TERRAINBECOMESELECTRIC, STRINGID_TERRAINBECOMESPSYCHIC
+    STRINGID_TERRAINBECOMESMISTY, STRINGID_TERRAINBECOMESGRASSY, STRINGID_TERRAINBECOMESELECTRIC, STRINGID_TERRAINBECOMESPSYCHIC, STRINGID_TERRAINBECOMESNORMAL
 };
 
 const u16 gTerrainPreventsStringIds[] =

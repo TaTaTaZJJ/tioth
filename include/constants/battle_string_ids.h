@@ -591,9 +591,11 @@
 #define STRINGID_ICEAURAENTERS                   585
 #define STRINGID_FIGHTINGAURAENTERS              586
 
+//一般场地
+#define	STRINGID_TERRAINBECOMESNORMAL            587
 
 
-#define BATTLESTRINGS_COUNT                      587
+#define BATTLESTRINGS_COUNT                      588
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.

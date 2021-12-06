@@ -2062,6 +2062,7 @@ const struct BattleAnimBackground gBattleAnimBackgroundTable[] =
     [BG_AEROBLAST] = {gBattleAnimBgImage_Aeroblast, gBattleAnimBgPalette_Aeroblast, gBattleAnimBgTilemap_Aeroblast},
     [BG_HIGH_SPEED] = {gBattleAnimBgImage_HighSpeed, gBattleAnimBgPalette_HighSpeed, gBattleAnimBgTilemap_HighSpeed},
     [BG_ELECTRIC_TERRAIN] = {gBattleAnimBgImage_ElectricTerrain, gBattleAnimBgPalette_ElectricTerrain, gBattleAnimBgTilemap_ElectricTerrain},
+    [BG_NORMAL_TERRAIN] = {gBattleAnimBgImage_NormalTerrain, gBattleAnimBgPalette_NormalTerrain, gBattleAnimBgTilemap_NormalTerrain}, //TIOTH 一般场地BG
     [BG_GRASSY_TERRAIN] = {gBattleAnimBgImage_GrassyTerrain, gBattleAnimBgPalette_GrassyTerrain, gBattleAnimBgTilemap_GrassyTerrain},
     [BG_MISTY_TERRAIN] = {gBattleAnimBgImage_MistyTerrain, gBattleAnimBgPalette_MistyTerrain, gBattleAnimBgTilemap_MistyTerrain},
     [BG_PSYCHIC_TERRAIN] = {gBattleAnimBgImage_PsychicTerrain, gBattleAnimBgPalette_PsychicTerrain, gBattleAnimBgTilemap_PsychicTerrain},

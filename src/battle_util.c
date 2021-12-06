@@ -1859,6 +1859,7 @@ enum
     ENDTURN_WONDER_ROOM,
     ENDTURN_MAGIC_ROOM,
     ENDTURN_ELECTRIC_TERRAIN,
+    ENDTURN_NORMAL_TERRAIN, //TIOTH 一般场地
     ENDTURN_MISTY_TERRAIN,
     ENDTURN_GRASSY_TERRAIN,
     ENDTURN_PSYCHIC_TERRAIN,
@@ -2218,6 +2219,17 @@ u8 DoFieldEndTurnEffects(void)
             {
                 gFieldStatuses &= ~(STATUS_FIELD_ELECTRIC_TERRAIN | STATUS_FIELD_TERRAIN_PERMANENT);
                 BattleScriptExecute(BattleScript_ElectricTerrainEnds);
+                effect++;
+            }
+            gBattleStruct->turnCountersTracker++;
+            break;
+        //TIOTH 一般场地
+        case ENDTURN_NORMAL_TERRAIN:
+            if (gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN
+              && ((!gFieldStatuses & STATUS_FIELD_TERRAIN_PERMANENT) && --gFieldTimers.normalTerrainTimer == 0))
+            {
+                gFieldStatuses &= ~(STATUS_FIELD_NORMAL_TERRAIN);
+                BattleScriptExecute(BattleScript_NormalTerrainEnds);
                 effect++;
             }
             gBattleStruct->turnCountersTracker++;
@@ -3674,7 +3686,7 @@ static bool32 TryChangeBattleTerrain(u32 battler, u32 statusFlag, u8 *timer)
 {
     if (!(gFieldStatuses & statusFlag))
     {
-        gFieldStatuses &= ~(STATUS_FIELD_MISTY_TERRAIN | STATUS_FIELD_GRASSY_TERRAIN | EFFECT_ELECTRIC_TERRAIN | EFFECT_PSYCHIC_TERRAIN);
+        gFieldStatuses &= ~(STATUS_FIELD_MISTY_TERRAIN | STATUS_FIELD_GRASSY_TERRAIN | EFFECT_ELECTRIC_TERRAIN | EFFECT_PSYCHIC_TERRAIN | EFFECT_NORMAL_TERRAIN);//TIOTH新增一般场地
         gFieldStatuses |= statusFlag;
 
         if (GetBattlerHoldEffect(battler, TRUE) == HOLD_EFFECT_TERRAIN_EXTENDER)
@@ -3841,6 +3853,10 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                     break;
                 case STATUS_FIELD_PSYCHIC_TERRAIN:
                     gBattleCommunication[MULTISTRING_CHOOSER] = 3;
+                    break;
+                //TIOTH 一般场地
+                case STATUS_FIELD_NORMAL_TERRAIN:
+                    gBattleCommunication[MULTISTRING_CHOOSER] = 4;
                     break;
                 }
 
@@ -4284,6 +4300,14 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
             if (TryChangeBattleTerrain(battler, STATUS_FIELD_ELECTRIC_TERRAIN, &gFieldTimers.electricTerrainTimer))
             {
                 BattleScriptPushCursorAndCallback(BattleScript_ElectricSurgeActivates);
+                effect++;
+            }
+            break;
+        //TIOTH 一般场地特性
+        case ABILITY_NORMAL_SURGE:
+            if (TryChangeBattleTerrain(battler, STATUS_FIELD_NORMAL_TERRAIN, &gFieldTimers.normalTerrainTimer))
+            {
+                BattleScriptPushCursorAndCallback(BattleScript_NormalSurgeActivates);
                 effect++;
             }
             break;

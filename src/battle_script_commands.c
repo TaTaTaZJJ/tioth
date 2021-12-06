@@ -1786,7 +1786,8 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
     u32 abilityDef = GetBattlerAbility(gBattlerTarget);
 
     if (gSideStatuses[battlerDef] & SIDE_STATUS_LUCKY_CHANT
-        || gStatuses3[gBattlerAttacker] & STATUS3_CANT_SCORE_A_CRIT)
+        || gStatuses3[gBattlerAttacker] & STATUS3_CANT_SCORE_A_CRIT
+        || gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN)
     {
         critChance = -1;
     }
@@ -7039,6 +7040,11 @@ static void HandleTerrainMove(u32 moveEffect)
     case EFFECT_PSYCHIC_TERRAIN:
         statusFlag = STATUS_FIELD_PSYCHIC_TERRAIN, timer = &gFieldTimers.psychicTerrainTimer;
         gBattleCommunication[MULTISTRING_CHOOSER] = 3;
+        break;
+    //TIOTH 一般场地
+    case EFFECT_NORMAL_TERRAIN:
+        statusFlag = STATUS_FIELD_NORMAL_TERRAIN, timer = &gFieldTimers.normalTerrainTimer;
+        gBattleCommunication[MULTISTRING_CHOOSER] = 4;
         break;
     }
 
