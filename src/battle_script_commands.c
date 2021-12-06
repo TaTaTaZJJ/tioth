@@ -8989,7 +8989,13 @@ static u32 ChangeStatBuffs(s8 statValue, u32 statId, u32 flags, const u8 *BS_ptr
     PREPARE_STAT_BUFFER(gBattleTextBuff1, statId);
 
     if (statValue <= -1) // Stat decrease.
-    {
+    {   
+        // TODO TIOTH 一般场地不允许降低效果
+        //if (gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN)
+        //{
+        //    return STAT_CHANGE_DIDNT_WORK;
+        //}
+
         if (gSideTimers[GET_BATTLER_SIDE(gActiveBattler)].mistTimer
             && !certain && gCurrentMove != MOVE_CURSE
             && !(gActiveBattler == gBattlerTarget && GetBattlerAbility(gBattlerAttacker) == ABILITY_INFILTRATOR))
