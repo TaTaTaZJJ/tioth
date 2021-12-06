@@ -5607,8 +5607,6 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
                 retVal = FALSE;
             if ((itemEffect[i] & ITEM3_PARALYSIS) && HealStatusConditions(mon, partyIndex, STATUS1_PARALYSIS, battlerId) == 0)
                 retVal = FALSE;
-            if ((itemEffect[i] & ITEM3_FRAGILE) && HealStatusConditions(mon, partyIndex, STATUS1_FRAGILE, battlerId) == 0) //TIOTH虫异常
-                retVal = FALSE;
             if ((itemEffect[i] & ITEM3_CONFUSION)  // heal confusion
              && gMain.inBattle && battlerId != MAX_BATTLERS_COUNT && (gBattleMons[battlerId].status2 & STATUS2_CONFUSION))
             {
@@ -6393,27 +6391,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, u
                     }
                 }
                 break;
-            case EVO_LEVEL_STEEL_TYPE_MON_IN_PARTY:
-                if (gEvolutionTable[species][i].param <= level)
-                {
-                    for (j = 0; j < PARTY_SIZE; j++)
-                    {
-                        u16 currSpecies = GetMonData(&gPlayerParty[j], MON_DATA_SPECIES, NULL);
-                        if (gBaseStats[currSpecies].type1 == TYPE_STEEL
-                         || gBaseStats[currSpecies].type2 == TYPE_STEEL)
-                        {
-                            targetSpecies = gEvolutionTable[species][i].targetSpecies;
-                            break;
-                        }
-                    }
-                }
-                break;
             case EVO_LEVEL_RAIN:
                 j = GetCurrentWeather();
-                if (j == WEATHER_RAIN || j == WEATHER_RAIN_THUNDERSTORM || j == WEATHER_DOWNPOUR)
+                if (j == WEATHER_RAIN || j == WEATHER_RAIN_THUNDERSTORM || j == WEATHER_RAIN_DOWNPOUR || j == WEATHER)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-            case EVO_LEVEL_SANDSTORM:
+        　　 case EVO_LEVEL_SANDSTORM:
                 j = GetCurrentWeather();
                 if (j == WEATHER_SANDSTORM_ANY)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;

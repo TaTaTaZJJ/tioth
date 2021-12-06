@@ -7696,7 +7696,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         break;
     }
 
-    // move effect
+    // move damage effect
     switch (gBattleMoves[move].effect)
     {
     case EFFECT_FACADE:
@@ -8000,6 +8000,7 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     // target's abilities
     switch (GetBattlerAbility(battlerDef))
     {
+    //特性增加物防
     case ABILITY_MARVEL_SCALE:
         if (gBattleMons[battlerDef].status1 & STATUS1_ANY && usesDefStat)
         {
@@ -8024,6 +8025,7 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
                 RecordAbilityBattle(battlerDef, ABILITY_GRASS_PELT);
         }
         break;
+    //特性增加特防
     case ABILITY_FLOWER_GIFT:
         if (gBattleMons[battlerDef].species == SPECIES_CHERRIM && WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.5));
@@ -8045,6 +8047,15 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
             break;
         }
     }
+    //陷入虫异常后,特防提升1.5,且无视虚弱状态
+    case ABILITY_SWARM_NEST:
+        if (gBattleMons[battlerDef].status1 & STATUS1_FRAGILE && !usesDefStat)
+        {
+            MulModifier(&modifier, UQ_4_12(1.5));
+            if (updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_SWARM_NEST);
+        }
+        break;
 
     // target's hold effects
     switch (GetBattlerHoldEffect(battlerDef, TRUE))
@@ -8095,8 +8106,10 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
 
     // take type effectiveness
     if (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE 
-        && (typeEffectivenessModifier <= UQ_4_12(0.5))
-        && (typeEffectivenessModifier != UQ_4_12(0.0))
+        && typeEffectivenessModifier <= UQ_4_12(0.5)
+        && typeEffectivenessModifier != UQ_4_12(0.0)
+        && abilityDef != ABILITY_SWARM_NEST)
+
             MulModifier(&finalModifier, UQ_4_12(1.0));
     else 
         MulModifier(&finalModifier, typeEffectivenessModifier);
@@ -8168,6 +8181,7 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
     switch (abilityDef)
     {
     case ABILITY_MULTISCALE:
+    case ABILITY_SWARM_NEST:
     case ABILITY_SHADOW_SHIELD:
         if (BATTLER_MAX_HP(battlerDef))
             MulModifier(&finalModifier, UQ_4_12(0.5));
