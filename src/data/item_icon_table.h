@@ -32,6 +32,7 @@ const u32 *const gItemIconTable[][2] =
     // Medicine
     [ITEM_POTION] = {gItemIcon_Potion, gItemIconPalette_Potion},
     [ITEM_ANTIDOTE] = {gItemIcon_Antidote, gItemIconPalette_Antidote},
+    [ITEM_FRAGILE_HEAL] = {gItemIcon_FragileHeal, gItemIconPalette_FragileHeal},
     [ITEM_BURN_HEAL] = {gItemIcon_StatusHeal, gItemIconPalette_BurnHeal},
     [ITEM_ICE_HEAL] = {gItemIcon_StatusHeal, gItemIconPalette_IceHeal},
     [ITEM_AWAKENING] = {gItemIcon_StatusHeal, gItemIconPalette_Awakening},

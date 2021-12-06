@@ -7,6 +7,10 @@ const u8 gItemEffect_Antidote[6] = {
     [3] = ITEM3_POISON,
 };
 
+const u8 gItemEffect_FragileHeal[6] = {
+    [3] = ITEM3_FRAGILE,
+};
+
 const u8 gItemEffect_BurnHeal[6] = {
     [3] = ITEM3_BURN,
 };
@@ -490,6 +494,7 @@ const u8 *const gItemEffectTable[] =
 {
     [ITEM_POTION - ITEM_POTION]         = gItemEffect_Potion,
     [ITEM_ANTIDOTE - ITEM_POTION]       = gItemEffect_Antidote,
+    [ITEM_FRAGILE_HEAL - ITEM_POTION]   = gItemEffect_FragileHeal,
     [ITEM_BURN_HEAL - ITEM_POTION]      = gItemEffect_BurnHeal,
     [ITEM_ICE_HEAL - ITEM_POTION]       = gItemEffect_IceHeal,
     [ITEM_AWAKENING - ITEM_POTION]      = gItemEffect_Awakening,

@@ -168,6 +168,11 @@ static const u8 sAntidoteDesc[] = _(
 "愈1只宝可梦的中\n"
 "毒状态。");
 
+static const u8 sFragileHealDesc[] = _(
+"喷雾式药水。能治\n"
+"愈1只宝可梦的虚\n"
+"弱状态。");
+
 static const u8 sBurnHealDesc[] = _(
 "喷雾式药水。能治\n"
 "愈1只宝可梦的灼\n"

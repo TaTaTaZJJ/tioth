@@ -93,6 +93,9 @@ const u32 gItemIconPalette_Potion[] = INCBIN_U32("graphics/items/icon_palettes/p
 const u32 gItemIcon_Antidote[] = INCBIN_U32("graphics/items/icons/antidote.4bpp.lz");
 const u32 gItemIconPalette_Antidote[] = INCBIN_U32("graphics/items/icon_palettes/antidote.gbapal.lz");
 
+const u32 gItemIcon_FragileHeal[] = INCBIN_U32("graphics/items/icons/antidote.4bpp.lz"); //TODO TIOTH虫异常 添加虚弱药相关图片
+const u32 gItemIconPalette_FragileHeal[] = INCBIN_U32("graphics/items/icon_palettes/antidote.gbapal.lz");
+
 const u32 gItemIconPalette_BurnHeal[] = INCBIN_U32("graphics/items/icon_palettes/burn_heal.gbapal.lz");
 const u32 gItemIconPalette_IceHeal[] = INCBIN_U32("graphics/items/icon_palettes/ice_heal.gbapal.lz");
 const u32 gItemIcon_StatusHeal[] = INCBIN_U32("graphics/items/icons/status_heal.4bpp.lz");

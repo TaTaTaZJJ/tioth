@@ -419,6 +419,7 @@ const u8 gText_12PoofForgotMove[] = _("1，{PAUSE 15}2，{PAUSE 15}… {PAUSE 15
 const u8 gText_PkmnAlreadyKnows[] = _("{STR_VAR_1}将新技能\n{STR_VAR_2}记住了！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnHPRestoredByVar2[] = _("{STR_VAR_1}的HP回复了\n{STR_VAR_2}点。{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnCuredOfPoison[] = _("{STR_VAR_1}治愈了\n体内毒素！{PAUSE_UNTIL_PRESS}");
+const u8 gText_PkmnCuredOfFragile[] = _("{STR_VAR_1}治愈了\n虚弱无力！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnCuredOfParalysis[] = _("{STR_VAR_1}治愈了\n麻痹状态！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnWokeUp2[] = _("{STR_VAR_1}醒来了！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnBurnHealed[] = _("{STR_VAR_1}治愈了烧伤状态！{PAUSE_UNTIL_PRESS}");

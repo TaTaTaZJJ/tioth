@@ -395,6 +395,19 @@ const struct Item gItems[] =
         .battleUseFunc = ItemUseInBattle_Medicine,
     },
 
+    [ITEM_FRAGILE_HEAL] =
+    {
+        .name = _("虚弱药"),
+        .itemId = ITEM_FRAGILE_HEAL,
+        .price = 100,
+        .description = sFragileHealDesc,
+        .pocket = POCKET_MEDICINES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = ITEM_B_USE_MEDICINE,
+        .battleUseFunc = ItemUseInBattle_Medicine,
+    },
+
     [ITEM_BURN_HEAL] =
     {
         .name = _("灼伤药"),

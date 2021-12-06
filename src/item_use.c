@@ -1089,6 +1089,7 @@ void ItemUseOutOfBattle_EnigmaBerry(u8 taskId)
     {
     case ITEM_EFFECT_HEAL_HP:
     case ITEM_EFFECT_CURE_POISON:
+    case ITEM_EFFECT_CURE_FRAGILE:
     case ITEM_EFFECT_CURE_SLEEP:
     case ITEM_EFFECT_CURE_BURN:
     case ITEM_EFFECT_CURE_FREEZE:
@@ -1136,6 +1137,7 @@ void ItemUseInBattle_EnigmaBerry(u8 taskId)
         break;
     case ITEM_EFFECT_HEAL_HP:
     case ITEM_EFFECT_CURE_POISON:
+    case ITEM_EFFECT_CURE_FRAGILE:
     case ITEM_EFFECT_CURE_SLEEP:
     case ITEM_EFFECT_CURE_BURN:
     case ITEM_EFFECT_CURE_FREEZE:

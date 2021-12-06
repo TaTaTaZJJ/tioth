@@ -4248,6 +4248,9 @@ static void GetMedicineItemEffectMessage(u16 item)
     case ITEM_EFFECT_CURE_POISON:
         StringExpandPlaceholders(gStringVar4, gText_PkmnCuredOfPoison);
         break;
+    case ITEM_EFFECT_CURE_FRAGILE:
+        StringExpandPlaceholders(gStringVar4, gText_PkmnCuredOfFragile);
+        break;
     case ITEM_EFFECT_CURE_SLEEP:
         StringExpandPlaceholders(gStringVar4, gText_PkmnWokeUp2);
         break;
@@ -5319,6 +5322,8 @@ u8 GetItemEffectType(u16 item)
             return ITEM_EFFECT_CURE_FREEZE;
         else if (statusCure == ITEM3_PARALYSIS)
             return ITEM_EFFECT_CURE_PARALYSIS;
+        else if (statusCure == ITEM3_FRAGILE)
+            return ITEM_EFFECT_CURE_FRAGILE;
         else if (statusCure == ITEM3_CONFUSION)
             return ITEM_EFFECT_CURE_CONFUSION;
         else if (itemEffect[0] >> 7 && !statusCure)
