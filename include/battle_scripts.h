@@ -369,5 +369,7 @@ extern const u8 BattleScript_JabocaRowapBerryActivates[];
 extern const u8 BattleScript_NotAffectedAbilityPopUp[];
 extern const u8 BattleScript_BattlerShookOffTaunt[];
 extern const u8 BattleScript_BattlerGotOverItsInfatuation[];
+//TIOTH新增
+extern const u8 BattleScript_MoveEffectFragile[];
 
 #endif // GUARD_BATTLE_SCRIPTS_H

@@ -369,6 +369,12 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectSleepHit                @ EFFECT_SLEEP_HIT
 	.4byte BattleScript_EffectAttackerDefenseDownHit  @ EFFECT_ATTACKER_DEFENSE_DOWN_HIT
 	.4byte BattleScript_EffectHit                     @ EFFECT_BODY_PRESS
+	.4byte BattleScript_EffectFragile                 @ EFFECT_FRAGILE
+	.4byte BattleScript_EffectFragileHit              @ EFFECT_FRAGILE_HIT
+
+BattleScript_EffectFragileHit:
+	setmoveeffect MOVE_EFFECT_FRAGILE
+	goto BattleScript_EffectHit
 
 BattleScript_EffectAttackerDefenseDownHit:
 	setmoveeffect MOVE_EFFECT_DEF_MINUS_1 | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
@@ -2639,6 +2645,40 @@ BattleScript_AlreadyPoisoned::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_MoveEnd
 
+@TIOTH虫异常
+@TODO 虫异常主效果触发效果完善
+BattleScript_EffectFragile:
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifability BS_TARGET, ABILITY_SHELL_ARMOR, BattleScript_ShellArmorProtected
+	jumpifability BS_TARGET, ABILITY_COMATOSE, BattleScript_LeafGuardProtects
+	jumpiftype BS_TARGET, TYPE_BUG, BattleScript_NotAffected
+	jumpifflowerveil BattleScript_FlowerVeilProtects
+	jumpifleafguard BattleScript_LeafGuardProtects
+	jumpifshieldsdown BS_TARGET, BattleScript_LeafGuardProtects
+	jumpifsubstituteblocks BattleScript_ButItFailed
+	jumpifmovehadnoeffect BattleScript_ButItFailed
+	jumpifstatus BS_TARGET, STATUS1_FRAGILE, BattleScript_AlreadyFragile
+	jumpifstatus BS_TARGET, STATUS1_ANY, BattleScript_ButItFailed
+	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
+	jumpifsafeguard BattleScript_SafeguardProtected
+	attackanimation
+	waitanimation
+	setmoveeffect MOVE_EFFECT_FRAGILE
+	seteffectprimary
+	resultmessage
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
+@TIOTH虫异常，已经虚弱了
+BattleScript_AlreadyFragile::
+	setalreadystatusedmoveattempt BS_ATTACKER
+	pause B_WAIT_TIME_SHORT
+	printstring STRINGID_PKMNISALREADYFRAGILE
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
 BattleScript_ImmunityProtected::
 	copybyte gEffectBattler, gBattlerTarget
 	setbyte cMULTISTRING_CHOOSER, B_MSG_ABILITY_PREVENTS_MOVE_STATUS
@@ -3012,6 +3052,13 @@ BattleScript_LimberProtected::
 	call BattleScript_PRLZPrevention
 	goto BattleScript_MoveEnd
 
+@TIOTH虫异常，硬壳盔甲使异常无效时
+BattleScript_ShellArmorProtected::
+	copybyte gEffectBattler, gBattlerTarget
+	setbyte cMULTISTRING_CHOOSER, B_MSG_ABILITY_PREVENTS_MOVE_STATUS
+	call BattleScript_FRGPrevention
+	goto BattleScript_MoveEnd
+
 BattleScript_EffectAttackDownHit::
 	setmoveeffect MOVE_EFFECT_ATK_MINUS_1
 	goto BattleScript_EffectHit
@@ -3264,7 +3311,7 @@ BattleScript_EffectLevelDamage::
 	ppreduce
 	typecalc
 	bichalfword gMoveResultFlags, MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE
-	dmgtolevel
+	setword gBattleMoveDamage, 50
 	adjustdamage
 	goto BattleScript_HitFromAtkAnimation
 
@@ -6539,6 +6586,13 @@ BattleScript_MoveEffectParalysis::
 	waitmessage B_WAIT_TIME_LONG
 	goto BattleScript_UpdateEffectStatusIconRet
 
+@TIOTH虫异常招式效果
+BattleScript_MoveEffectFragile::
+	statusanimation BS_EFFECT_BATTLER
+	printfromtable gGotFragileStringIds
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_UpdateEffectStatusIconRet
+
 BattleScript_MoveEffectUproar::
 	printstring STRINGID_PKMNCAUSEDUPROAR
 	waitmessage B_WAIT_TIME_LONG
@@ -7020,6 +7074,13 @@ BattleScript_BRNPrevention::
 BattleScript_PRLZPrevention::
 	pause B_WAIT_TIME_SHORT
 	printfromtable gPRLZPreventionStringIds
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+@TIOTH虫异常被特性抵消，文本
+BattleScript_FRGPrevention::
+	pause B_WAIT_TIME_SHORT
+	printfromtable gFRGPreventionStringIds
 	waitmessage B_WAIT_TIME_LONG
 	return
 

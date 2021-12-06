@@ -1843,6 +1843,8 @@ u8 GetAilmentFromStatus(u32 status)
         return AILMENT_FRZ;
     if (status & STATUS1_BURN)
         return AILMENT_BRN;
+    if (status & STATUS1_FRAGILE) //TIOTH虫异常
+        return AILMENT_FRG;
     return AILMENT_NONE;
 }
 

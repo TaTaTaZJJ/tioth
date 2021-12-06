@@ -97,7 +97,7 @@ static const u8 sText_PkmnWasntAffected[] = _("{B_DEF_NAME_WITH_PREFIX}\n没有�
 static const u8 sText_PkmnWasPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}\n中毒了！");
 static const u8 sText_PkmnPoisonedBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_BUFF1}\n使{B_EFF_NAME_WITH_PREFIX}中毒了！");
 static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX}因中毒\n受到了伤害！");
-static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX}\n中毒了。");
+static const u8 sText_PkmnAlreadyPoisoned[] = _("{B_DEF_NAME_WITH_PREFIX}\n已经中毒了。");
 static const u8 sText_PkmnBadlyPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}\n中了剧毒！");
 static const u8 sText_PkmnEnergyDrained[] = _("{B_DEF_NAME_WITH_PREFIX}\n被吸取了能量！");
 static const u8 sText_PkmnWasBurned[] = _("{B_EFF_NAME_WITH_PREFIX}烧伤了！");
@@ -435,6 +435,15 @@ static const u8 sText_ExclamationMark5[] = _("！");
 static const u8 sText_Accuracy[] = _("命中率");
 static const u8 sText_Evasiveness[] = _("回避率");
 
+//TIOTH新增虫异常
+static const u8 sText_PkmnWasFragile[] = _("{B_EFF_NAME_WITH_PREFIX}感到\n虚弱无力！");
+static const u8 sText_PkmnFragileBy[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\n使{B_EFF_NAME_WITH_PREFIX}感到\n虚弱无力！");
+static const u8 sText_PkmnIsAlreadyFragile[] = _("{B_DEF_NAME_WITH_PREFIX}\n已经虚弱了！");
+static const u8 sText_PkmnHealedFragile[] = _("{B_DEF_NAME_WITH_PREFIX}的身体\n不再虚弱了！");
+static const u8 sText_PkmnHurtByResistanceWhenFragile[] = _("{B_DEF_NAME_WITH_PREFIX}因虚弱\n变得无法抵抗！");
+static const u8 sText_PkmnsItemHealedFragile[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_LAST_ITEM}\n治愈了虚弱！");
+static const u8 sText_PkmnPreventsFragile[] = _("{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}\n防止了虚弱无力！"); //TODO 待确认这个EEF和DEF什么区别，该用哪个
+
 const u8 * const gStatNamesTable[NUM_BATTLE_STATS] =
 {
     gText_HP3, gText_Attack, gText_Defense,
@@ -685,6 +694,21 @@ static const u8 sText_AirLockActivates[] = _("天气带来的效果\n消失了�
 static const u8 sText_PressureActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在施加\n压迫感！");
 static const u8 sText_DarkAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n暗黑气场！");
 static const u8 sText_FairyAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n妖精气场！");
+static const u8 sText_WaterAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n水雾气场！");
+static const u8 sText_SteelAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n坚钢气场！");
+static const u8 sText_FireAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n火焰气场！");
+static const u8 sText_GrassAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n青草气场！");
+static const u8 sText_ElectricAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n电流气场！");
+static const u8 sText_GhostAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n幽灵气场！");
+static const u8 sText_PoisonAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n猛毒气场！");
+static const u8 sText_GroundAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n地面气场！");
+static const u8 sText_RockAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n岩石气场！");
+static const u8 sText_FlyingAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n飞行气场！");
+static const u8 sText_PsychicAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n超能气场！");
+static const u8 sText_BugAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n昆虫气场！");
+static const u8 sText_DragonAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n腾龙气场！");
+static const u8 sText_IceAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n冰结气场！");
+static const u8 sText_FightingAuraActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在释放\n格斗气场！");
 static const u8 sText_AuraBreakActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}反转了所有\n其它宝可梦的气场！");
 static const u8 sText_ComatoseActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}正在打瞌睡！");
 static const u8 sText_ScreenCleanerActivates[] = _("所有的墙都被\n清除了！");
@@ -781,6 +805,15 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNHURTBYBURN - 12] = sText_PkmnHurtByBurn,
     [STRINGID_PKMNWASFROZEN - 12] = sText_PkmnWasFrozen,
     [STRINGID_PKMNFROZENBY - 12] = sText_PkmnFrozenBy,
+    //TIOTH 虫异常
+    [STRINGID_PKMNWASFRAGILE - 12] = sText_PkmnWasFragile,
+    [STRINGID_PKMNFRAGILEBY - 12] = sText_PkmnFragileBy,
+    [STRINGID_PKMNISALREADYFRAGILE - 12] = sText_PkmnIsAlreadyFragile,
+    [STRINGID_PKMNHEALEDFRAGILE - 12] = sText_PkmnHealedFragile,
+    [STRINGID_PKMNHURTBYRESISTANCEWHENFRAGILE - 12] = sText_PkmnHurtByResistanceWhenFragile,
+    [STRINGID_PKMNSITEMHEALEDFRAGILE - 12] = sText_PkmnsItemHealedFragile
+    [STRINGID_PKMNPREVENTSFRAGILE - 12] = sText_PkmnPreventsFragile
+
     [STRINGID_PKMNISFROZEN - 12] = sText_PkmnIsFrozen,
     [STRINGID_PKMNWASDEFROSTED - 12] = sText_PkmnWasDefrosted,
     [STRINGID_PKMNWASDEFROSTED2 - 12] = sText_PkmnWasDefrosted2,
@@ -1256,6 +1289,21 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PRESSUREENTERS - 12] = sText_PressureActivates,
     [STRINGID_DARKAURAENTERS - 12] = sText_DarkAuraActivates,
     [STRINGID_FAIRYAURAENTERS - 12] = sText_FairyAuraActivates,
+    [STRINGID_WATERAURAENTERS - 12] = sText_WaterAuraActivates,
+    [STRINGID_STEELAURAENTERS - 12] = sText_SteelAuraActivates,
+    [STRINGID_FIREAURAENTERS - 12] = sText_FireAuraActivates,
+    [STRINGID_GRASSAURAENTERS - 12] = sText_GrassAuraActivates,
+    [STRINGID_ELECTRICAURAENTERS - 12] = sText_ElectricAuraActivates,
+    [STRINGID_GHOSTAURAENTERS - 12] = sText_GhostAuraActivates,
+    [STRINGID_POISONAURAENTERS - 12] = sText_PoisonAuraActivates,
+    [STRINGID_GROUNDAURAENTERS - 12] = sText_GroundAuraActivates,
+    [STRINGID_ROCKAURAENTERS - 12] = sText_RockAuraActivates,
+    [STRINGID_FLYINGAURAENTERS - 12] = sText_FlyingAuraActivates,
+    [STRINGID_PSYCHICAURAENTERS - 12] = sText_PsychicAuraActivates,
+    [STRINGID_BUGAURAENTERS - 12] = sText_BugAuraActivates,
+    [STRINGID_DRAGONAURAENTERS - 12] = sText_DragonAuraActivates,
+    [STRINGID_ICEAURAENTERS - 12] = sText_IceAuraActivates,
+    [STRINGID_FIGHTINGAURAENTERS - 12] = sText_FightingAuraActivates,
     [STRINGID_AURABREAKENTERS - 12] = sText_AuraBreakActivates,
     [STRINGID_COMATOSEENTERS - 12] = sText_ComatoseActivates,
     [STRINGID_SCREENCLEANERENTERS - 12] = sText_ScreenCleanerActivates,
@@ -1301,6 +1349,21 @@ const u16 gSwitchInAbilityStringIds[] =
     [B_MSG_SWITCHIN_PRESSURE] = STRINGID_PRESSUREENTERS,
     [B_MSG_SWITCHIN_DARKAURA] = STRINGID_DARKAURAENTERS,
     [B_MSG_SWITCHIN_FAIRYAURA] = STRINGID_FAIRYAURAENTERS,
+    [B_MSG_SWITCHIN_WATERAURA] = STRINGID_WATERAURAENTERS,
+    [B_MSG_SWITCHIN_STEELAURA] = STRINGID_STEELAURAENTERS,
+    [B_MSG_SWITCHIN_FIREAURA] = STRINGID_FIREAURAENTERS,
+    [B_MSG_SWITCHIN_GRASSAURA] = STRINGID_GRASSAURAENTERS,
+    [B_MSG_SWITCHIN_ELECTRICAURA] = STRINGID_ELECTRICAURAENTERS,
+    [B_MSG_SWITCHIN_GHOSTAURA] = STRINGID_GHOSTAURAENTERS,
+    [B_MSG_SWITCHIN_POISONAURA] = STRINGID_POISONAURAENTERS,
+    [B_MSG_SWITCHIN_GROUNDAURA] = STRINGID_GROUNDAURAENTERS,
+    [B_MSG_SWITCHIN_ROCKAURA] = STRINGID_ROCKAURAENTERS,
+    [B_MSG_SWITCHIN_FLYINGAURA] = STRINGID_FLYINGAURAENTERS,
+    [B_MSG_SWITCHIN_PSYCHICAURA] = STRINGID_PSYCHICAURAENTERS,
+    [B_MSG_SWITCHIN_BUGAURA] = STRINGID_BUGAURAENTERS,
+    [B_MSG_SWITCHIN_DRAGONAURA] = STRINGID_DRAGONAURAENTERS,
+    [B_MSG_SWITCHIN_ICEAURA] = STRINGID_ICEAURAENTERS,
+    [B_MSG_SWITCHIN_FIGHTINGAURA] = STRINGID_FIGHTINGAURAENTERS,
     [B_MSG_SWITCHIN_AURABREAK] = STRINGID_AURABREAKENTERS,
     [B_MSG_SWITCHIN_COMATOSE] = STRINGID_COMATOSEENTERS,
     [B_MSG_SWITCHIN_SCREENCLEANER] = STRINGID_SCREENCLEANERENTERS,
@@ -1525,6 +1588,13 @@ const u16 gGotFrozenStringIds[] =
     [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNFROZENBY
 };
 
+//TIOTH新增虫异常
+const u16 gGotFragileStringIds[] =
+{
+    [B_MSG_STATUSED]            = STRINGID_PKMNWASFRAGILE,
+    [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNFRAGILEBY
+};
+
 const u16 gGotDefrostedStringIds[] =
 {
     [B_MSG_DEFROSTED]         = STRINGID_PKMNWASDEFROSTED2,
@@ -1629,6 +1699,7 @@ const u16 gTrainerItemCuredStatusStringIds[] =
     [AI_HEAL_BURN]      = STRINGID_PKMNSITEMHEALEDBURN,
     [AI_HEAL_POISON]    = STRINGID_PKMNSITEMCUREDPOISON,
     [AI_HEAL_SLEEP]     = STRINGID_PKMNSITEMWOKEIT
+    //[AI_HEAL_FRAGILE]     = STRINGID_PKMNSITEMHEALEDFRAGILE
 };
 
 const u16 gBerryEffectStringIds[] =
@@ -1640,6 +1711,14 @@ const u16 gBerryEffectStringIds[] =
 const u16 gBRNPreventionStringIds[] =
 {
     [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNSXPREVENTSBURNS,
+    [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
+    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
+};
+
+//TIOTH虫异常
+const u16 gFRGPreventionStringIds[] =
+{
+    [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNPREVENTSFRAGILE,
     [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
     [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
 };
@@ -1733,6 +1812,7 @@ const u8 gText_Poison[] = _("中毒");
 const u8 gText_Burn[] = _("灼烧");
 const u8 gText_Paralysis[] = _("麻痹");
 const u8 gText_Ice[] = _("冰冻");
+const u8 gText_Fragile[] = _("虚弱"); //TIOTH虫异常
 const u8 gText_Confusion[] = _("混乱");
 const u8 gText_Love[] = _("着迷");
 const u8 gText_SpaceAndSpace[] = _("和");

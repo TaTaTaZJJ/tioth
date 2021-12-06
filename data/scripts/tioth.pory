@@ -1,0 +1,4 @@
+script  tioth_weather_system {
+    msgbox("test")
+    release
+}

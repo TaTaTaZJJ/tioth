@@ -32,6 +32,7 @@ mapscripts yslq_r5_chun_3_04_MapScripts {
             playbgm(MUS_B_PYRAMID, 0) // 切换音乐，【待改】
             startblackcentermsg 
             msgbox("{COLOR WHITE}{SHADOW TRANSPARENT}每当故事进行到此时\p爷爷总会回避我的追问。")
+            call (tioth_weather_system)           
             release
             setvar(VAR_TIOTH_MAP,1)
             endblackcentermsg 

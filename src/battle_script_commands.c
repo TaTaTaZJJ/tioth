@@ -843,6 +843,7 @@ static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
     [MOVE_EFFECT_FREEZE]         = STATUS1_FREEZE,
     [MOVE_EFFECT_PARALYSIS]      = STATUS1_PARALYSIS,
     [MOVE_EFFECT_TOXIC]          = STATUS1_TOXIC_POISON,
+    [MOVE_EFFECT_FRAGILE]        = STATUS1_FRAGILE, //TIOTH新增虫异常
     [MOVE_EFFECT_CONFUSION]      = STATUS2_CONFUSION,
     [MOVE_EFFECT_FLINCH]         = STATUS2_FLINCHED,
     [MOVE_EFFECT_UPROAR]         = STATUS2_UPROAR,
@@ -862,6 +863,7 @@ static const u8* const sMoveEffectBS_Ptrs[] =
     [MOVE_EFFECT_FREEZE]           = BattleScript_MoveEffectFreeze,
     [MOVE_EFFECT_PARALYSIS]        = BattleScript_MoveEffectParalysis,
     [MOVE_EFFECT_TOXIC]            = BattleScript_MoveEffectToxic,
+    [MOVE_EFFECT_FRAGILE]          = BattleScript_MoveEffectFragile,//TIOTH新增虫异常
     [MOVE_EFFECT_CONFUSION]        = BattleScript_MoveEffectConfusion,
     [MOVE_EFFECT_UPROAR]           = BattleScript_MoveEffectUproar,
     [MOVE_EFFECT_PAYDAY]           = BattleScript_MoveEffectPayDay,
@@ -1790,7 +1792,7 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
     {
         critChance = -1;
     }
-    else if (abilityDef == ABILITY_BATTLE_ARMOR || abilityDef == ABILITY_SHELL_ARMOR)
+    else if (abilityDef == ABILITY_BATTLE_ARMOR)
     {
         if (recordAbility)
             RecordAbilityBattle(battlerDef, abilityDef);
@@ -1798,7 +1800,8 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
     }
     else if (gStatuses3[battlerAtk] & STATUS3_LASER_FOCUS
              || gBattleMoves[move].effect == EFFECT_ALWAYS_CRIT
-             || (abilityAtk == ABILITY_MERCILESS && gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY))
+             || (abilityAtk == ABILITY_MERCILESS && gBattleMons[battlerDef].status1 & STATUS1_PSN_ANY)
+             || (gBattleMons[targetBattler].status1 == STATUS1_FRAGILE) && (typeEffectivenessModifier <= UQ_4_12(0.5)))    //TIOTH 虫异常发生抵抗时必定暴击
     {
         critChance = -2;
     }
@@ -2644,6 +2647,17 @@ void SetMoveEffect(bool32 primary, u32 certain)
             if (GetBattlerAbility(gEffectBattler) == ABILITY_MAGMA_ARMOR
                 || GetBattlerAbility(gEffectBattler) == ABILITY_COMATOSE
                 || IsAbilityStatusProtected(gEffectBattler))
+                break;
+
+            CancelMultiTurnMoves(gEffectBattler);
+            statusChanged = TRUE;
+            break;
+        case STATUS1_FRAGILE: //TIOTH新增虫异常，触发判定
+            if (IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_BUG))
+                break;
+            if (gBattleMons[gEffectBattler].status1)
+                break;
+            if (GetBattlerAbility(gEffectBattler) == ABILITY_SHELL_ARMOR)
                 break;
 
             CancelMultiTurnMoves(gEffectBattler);
@@ -8035,6 +8049,9 @@ static void Cmd_various(void)
         case STATUS1_TOXIC_POISON:
             gBattleScripting.moveEffect = MOVE_EFFECT_TOXIC;
             break;
+        case STATUS1_FRAGILE: //TIOTH虫异常
+            gBattleScripting.moveEffect = MOVE_EFFECT_FRAGILE;
+            break;
         default:
             gBattleScripting.moveEffect = 0;
             break;
@@ -9606,11 +9623,9 @@ static void Cmd_tryKO(void)
         {
             lands = TRUE;
         }
-        else
+        else if (Random() % 100 + 1 < gBattleMoves[gCurrentMove].accuracy)
         {
-            u16 odds = gBattleMoves[gCurrentMove].accuracy + (gBattleMons[gBattlerAttacker].level - gBattleMons[gBattlerTarget].level);
-            if (Random() % 100 + 1 < odds && gBattleMons[gBattlerAttacker].level >= gBattleMons[gBattlerTarget].level)
-                lands = TRUE;
+            lands = TRUE;
         }
 
         if (lands)
@@ -9975,7 +9990,7 @@ static void Cmd_psywavedamageeffect(void)
         randDamage = (Random() % 101);
     else
         randDamage = (Random() % 11) * 10;
-    gBattleMoveDamage = gBattleMons[gBattlerAttacker].level * (randDamage + 50) / 100;
+    gBattleMoveDamage = 50 * (randDamage + 50) / 100;
     gBattlescriptCurrInstr++;
 }
 

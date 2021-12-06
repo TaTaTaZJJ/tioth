@@ -1118,6 +1118,7 @@ static const union AnimCmd *const sSpriteAnimTable_StatusCondition[] = {
     sSpriteAnim_StatusBurn,
     sSpriteAnim_StatusPokerus,
     sSpriteAnim_StatusFaint,
+    sSpriteAnim_StatusFragile,
 };
 static const struct CompressedSpriteSheet sStatusIconsSpriteSheet =
 {

@@ -745,6 +745,9 @@ static void GetRoomInflictedStatus(void)
     case STATUS1_SLEEP:
         gSpecialVar_Result = PIKE_STATUS_SLEEP;
         break;
+    case STATUS1_FRAGILE: //TIOTH虫异常
+        gSpecialVar_Result = PIKE_STATUS_FRAGILE;
+        break;
     }
 }
 
@@ -836,6 +839,10 @@ static bool8 DoesAbilityPreventStatus(struct Pokemon *mon, u32 status)
         if (ability == ABILITY_IMMUNITY)
             ret = TRUE;
         break;
+    case STATUS1_FRAGILE: //TIOTH虫异常
+        if (ability == ABILITY_SHELL_ARMOR)
+            ret = TRUE;
+        break;
     }
     return ret;
 }
@@ -865,6 +872,9 @@ static bool8 DoesTypePreventStatus(u16 species, u32 status)
         if (gBaseStats[species].type1 == TYPE_FIRE || gBaseStats[species].type2 == TYPE_FIRE)
             ret = TRUE;
         break;
+    case STATUS1_FRAGILE: //TIOTH虫异常
+        if (gBaseStats[species].type1 == TYPE_BUG || gBaseStats[species].type2 == TYPE_BUG)
+            ret = TRUE;
     case STATUS1_SLEEP:
         break;
     }

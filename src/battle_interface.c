@@ -149,6 +149,19 @@ enum
     HEALTHBOX_GFX_115,
     HEALTHBOX_GFX_116, //unknown_D12FEC
     HEALTHBOX_GFX_117, //unknown_D1300C
+    HEALTHBOX_GFX_STATUS_FRG_BATTLER0,  //TIOTH虫异常
+    HEALTHBOX_GFX_119,
+    HEALTHBOX_GFX_120,
+    HEALTHBOX_GFX_STATUS_FRG_BATTLER1,  //TIOTH虫异常
+    HEALTHBOX_GFX_122,
+    HEALTHBOX_GFX_123,
+    HEALTHBOX_GFX_STATUS_FRG_BATTLER2,  //TIOTH虫异常
+    HEALTHBOX_GFX_125,
+    HEALTHBOX_GFX_126,
+    HEALTHBOX_GFX_STATUS_FRG_BATTLER3,  //TIOTH虫异常
+    HEALTHBOX_GFX_128,
+    HEALTHBOX_GFX_129,
+
 };
 
 // strings
@@ -581,6 +594,7 @@ enum
     PAL_STATUS_PAR,
     PAL_STATUS_SLP,
     PAL_STATUS_FRZ,
+    PAL_STATUS_FRZ, //TIOTH虫异常
     PAL_STATUS_BRN
 };
 
@@ -590,6 +604,7 @@ static const u16 sStatusIconColors[] =
     [PAL_STATUS_PAR] = RGB(23, 23, 3),
     [PAL_STATUS_SLP] = RGB(20, 20, 17),
     [PAL_STATUS_FRZ] = RGB(17, 22, 28),
+    [PAL_STATUS_FRG] = RGB(17, 22, 28),
     [PAL_STATUS_BRN] = RGB(28, 14, 10),
 };
 
@@ -2150,6 +2165,11 @@ static void UpdateStatusIconInHealthbox(u8 healthboxSpriteId)
         statusGfxPtr = GetHealthboxElementGfxPtr(GetStatusIconForBattlerId(HEALTHBOX_GFX_STATUS_PRZ_BATTLER0, battlerId));
         statusPalId = PAL_STATUS_PAR;
     }
+    else if (status & STATUS1_FRAGILE) //TODO TIOTH虫异常
+    {
+        statusGfxPtr = GetHealthboxElementGfxPtr(GetStatusIconForBattlerId(HEALTHBOX_GFX_STATUS_FRG_BATTLER0, battlerId));
+        statusPalId = PAL_STATUS_FRG;
+    }
     else
     {
         statusGfxPtr = GetHealthboxElementGfxPtr(HEALTHBOX_GFX_39);
@@ -2236,6 +2256,16 @@ static u8 GetStatusIconForBattlerId(u8 statusElementId, u8 battlerId)
             ret = HEALTHBOX_GFX_STATUS_BRN_BATTLER2;
         else
             ret = HEALTHBOX_GFX_STATUS_BRN_BATTLER3;
+        break;
+    case HEALTHBOX_GFX_STATUS_FRG_BATTLER0:
+        if (battlerId == 0)
+            ret = HEALTHBOX_GFX_STATUS_FRG_BATTLER0;
+        else if (battlerId == 1)
+            ret = HEALTHBOX_GFX_STATUS_FRG_BATTLER1;
+        else if (battlerId == 2)
+            ret = HEALTHBOX_GFX_STATUS_FRG_BATTLER2;
+        else
+            ret = HEALTHBOX_GFX_STATUS_FRG_BATTLER3;
         break;
     }
     return ret;

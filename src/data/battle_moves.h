@@ -6421,12 +6421,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_X_SCISSOR] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_FRAGILE_HIT,
         .power = 80,
         .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 15,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
