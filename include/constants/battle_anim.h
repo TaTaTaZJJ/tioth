@@ -492,6 +492,7 @@
 #define BG_HYPER_BEAM                           75
 #define BG_DYNAMAX_CANNON                       76
 #define BG_AURA_SPHERE                          77
+#define BG_NORMAL_TERRAIN                       78 //TIOTH一般场地
 
 // table ids for general animations (gBattleAnims_General)
 #define B_ANIM_CASTFORM_CHANGE          0

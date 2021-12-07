@@ -1788,7 +1788,8 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
     u32 abilityDef = GetBattlerAbility(gBattlerTarget);
 
     if (gSideStatuses[battlerDef] & SIDE_STATUS_LUCKY_CHANT
-        || gStatuses3[gBattlerAttacker] & STATUS3_CANT_SCORE_A_CRIT)
+        || gStatuses3[gBattlerAttacker] & STATUS3_CANT_SCORE_A_CRIT
+        || gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN)
     {
         critChance = -1;
     }
@@ -7054,6 +7055,11 @@ static void HandleTerrainMove(u32 moveEffect)
         statusFlag = STATUS_FIELD_PSYCHIC_TERRAIN, timer = &gFieldTimers.psychicTerrainTimer;
         gBattleCommunication[MULTISTRING_CHOOSER] = 3;
         break;
+    //TIOTH 一般场地
+    case EFFECT_NORMAL_TERRAIN:
+        statusFlag = STATUS_FIELD_NORMAL_TERRAIN, timer = &gFieldTimers.normalTerrainTimer;
+        gBattleCommunication[MULTISTRING_CHOOSER] = 4;
+        break;
     }
 
     if (gFieldStatuses & statusFlag || statusFlag == 0)
@@ -9000,7 +9006,13 @@ static u32 ChangeStatBuffs(s8 statValue, u32 statId, u32 flags, const u8 *BS_ptr
     PREPARE_STAT_BUFFER(gBattleTextBuff1, statId);
 
     if (statValue <= -1) // Stat decrease.
-    {
+    {   
+        // TODO TIOTH 一般场地不允许降低效果
+        //if (gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN)
+        //{
+        //    return STAT_CHANGE_DIDNT_WORK;
+        //}
+
         if (gSideTimers[GET_BATTLER_SIDE(gActiveBattler)].mistTimer
             && !certain && gCurrentMove != MOVE_CURSE
             && !(gActiveBattler == gBattlerTarget && GetBattlerAbility(gBattlerAttacker) == ABILITY_INFILTRATOR))

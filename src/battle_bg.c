@@ -1436,6 +1436,9 @@ void DrawTerrainTypeBattleBackground(void)
     case STATUS_FIELD_PSYCHIC_TERRAIN:
         LoadMoveBg(BG_PSYCHIC_TERRAIN);
         break;
+    case STATUS_FIELD_NORMAL_TERRAIN:
+        LoadMoveBg(BG_NORMAL_TERRAIN); //TIOTH 一般场地
+        break;
     default:
         DrawMainBattleBackground();
         break;
