@@ -1967,6 +1967,9 @@ static const u8 sText_HoldEffectRoomService[] = _("Room Service");
 static const u8 sText_HoldEffectBlunderPolicy[] = _("Blunder Policy");
 static const u8 sText_HoldEffectHeavyDutyBoots[] = _("Heavy Duty Boots");
 static const u8 sText_HoldEffectThroatSpray[] = _("Throat Spray");
+static const u8 sText_HoldEffectTimePower[] = _("时间 Power");
+static const u8 sText_HoldEffectSpacePower[] = _("空间 Power");
+static const u8 sText_HoldEffectDarkmatterPower[] = _("暗物质 Power");
 static const u8 *const sHoldEffectNames[] = 
 {
     [HOLD_EFFECT_NONE] = sText_HoldEffectNone,
@@ -2107,6 +2110,9 @@ static const u8 *const sHoldEffectNames[] =
     [HOLD_EFFECT_BLUNDER_POLICY] = sText_HoldEffectBlunderPolicy,
     [HOLD_EFFECT_HEAVY_DUTY_BOOTS] = sText_HoldEffectHeavyDutyBoots,
     [HOLD_EFFECT_THROAT_SPRAY] = sText_HoldEffectThroatSpray,
+    [HOLD_EFFECT_TIME_POWER] = sText_HoldEffectTimePower,
+    [HOLD_EFFECT_SPACE_POWER] = sText_HoldEffectSpacePower,
+    [HOLD_EFFECT_DARKMATTER_POWER] = sText_HoldEffectDarkmatterPower,
 };
 static const u8 *GetHoldEffectName(u16 holdEffect)
 {

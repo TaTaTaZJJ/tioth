@@ -1817,6 +1817,9 @@ static const u8 sATypeMove_Table[NUMBER_OF_MON_TYPES][17] =
     [TYPE_DRAGON] = _("龙属性招式"),
     [TYPE_DARK] = _("恶属性招式"),
     [TYPE_FAIRY] = _("妖精属性招式"),
+    [TYPE_TIME] = _("时间属性招式"),
+    [TYPE_SPACE] = _("空间属性招式"),
+    [TYPE_DARKMATTER] = _("暗物质属性招式"),
 };
 
 const u8 gText_BattleTourney[] = _("战斗巡回赛");

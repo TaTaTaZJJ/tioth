@@ -1153,7 +1153,7 @@ static const u8 sPickupProbabilities[] =
 static const u8 sTerrainToType[] =
 {
     [BATTLE_TERRAIN_GRASS]      = TYPE_GRASS,
-    [BATTLE_TERRAIN_LONG_GRASS] = TYPE_GRASS,
+    [BATTLE_TERRAIN_LONG_GRASS] = TYPE_BUG,
     [BATTLE_TERRAIN_SAND]       = TYPE_GROUND,
     [BATTLE_TERRAIN_UNDERWATER] = TYPE_WATER,
     [BATTLE_TERRAIN_WATER]      = TYPE_WATER,
