@@ -2064,6 +2064,10 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
             if (PartnerMoveEffectIsTerrain(AI_DATA->battlerAtkPartner, AI_DATA->partnerMove) || gFieldStatuses & STATUS_FIELD_GRASSY_TERRAIN)
                 score -= 10;
             break;
+        case EFFECT_NORMAL_TERRAIN: //TIOTH一般场地
+            if (PartnerMoveEffectIsTerrain(AI_DATA->battlerAtkPartner, AI_DATA->partnerMove) || gFieldStatuses & STATUS_FIELD_NORMAL_TERRAIN)
+                score -= 10;
+            break;
         case EFFECT_ELECTRIC_TERRAIN:
             if (PartnerMoveEffectIsTerrain(AI_DATA->battlerAtkPartner, AI_DATA->partnerMove) || gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)
                 score -= 10;
@@ -4617,6 +4621,7 @@ static s16 AI_SetupFirstTurn(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
     case EFFECT_PSYCHIC_TERRAIN:
     case EFFECT_GRASSY_TERRAIN:
     case EFFECT_ELECTRIC_TERRAIN:
+    case EFFECT_NORMAL_TERRAIN: //TIOTH 一般场地
     case EFFECT_MISTY_TERRAIN:
     case EFFECT_STEALTH_ROCK:
     case EFFECT_TOXIC_SPIKES:

@@ -6934,6 +6934,14 @@ BattleScript_ElectricSurgeActivates::
 	playanimation BS_SCRIPTING, B_ANIM_RESTORE_BG, NULL
 	end3
 
+BattleScript_NormalSurgeActivates::
+	pause B_WAIT_TIME_SHORT
+	call BattleScript_AbilityPopUp
+	printstring STRINGID_TERRAINBECOMESNORMAL
+	waitmessage B_WAIT_TIME_LONG
+	playanimation BS_SCRIPTING, B_ANIM_RESTORE_BG, NULL
+	end3
+
 BattleScript_MistySurgeActivates::
 	pause B_WAIT_TIME_SHORT
 	call BattleScript_AbilityPopUp

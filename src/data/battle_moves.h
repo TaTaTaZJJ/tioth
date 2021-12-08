@@ -9451,6 +9451,21 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
     },
 
+//TIOTH一般场地
+    [MOVE_NORMAL_TERRAIN] = 
+    {
+        .effect = EFFECT_NORMAL_TERRAIN,
+        .power = 0,
+        .type = TYPE_NORMAL,
+        .accuracy = 0,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .flags = 0,
+        .split = SPLIT_STATUS,
+    },
+
     [MOVE_DAZZLING_GLEAM] =
     {
         .effect = EFFECT_HIT,
