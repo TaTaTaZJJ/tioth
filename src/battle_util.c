@@ -7988,6 +7988,8 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
     u32 percentBoost;
     u32 abilityAtk = GetBattlerAbility(battlerAtk);
     u32 abilityDef = GetBattlerAbility(battlerDef);
+    u32 talentAtk = GetBattlerTalent(battlerAtk);
+    u32 talentDef = GetBattlerTalent(battlerDef);
     u32 defSide = GET_BATTLER_SIDE(battlerDef);
     u16 finalModifier = UQ_4_12(1.0);
 
@@ -8060,7 +8062,13 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
             MulModifier(&finalModifier, UQ_4_12(1.25));
         break;
     }
-
+    //TIOTH天赋系统：攻击方天赋
+    switch (talentAtk)
+    {
+    case TALENT_LEGEND:
+        MulModifier(&finalModifier, UQ_4_12(0.75));
+        break;
+    }
     // target's abilities
     switch (abilityDef)
     {
