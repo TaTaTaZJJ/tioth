@@ -575,7 +575,6 @@
 #define STRINGID_PLAYERGOTLOOTITEM               571
 
 //TIOTH
-//气场
 #define STRINGID_WATERAURAENTERS                 572
 #define STRINGID_STEELAURAENTERS                 573
 #define STRINGID_FIREAURAENTERS                  574
@@ -601,6 +600,7 @@
 #define STRINGID_PKMNPREVENTSFRAGILE             593
 
 #define BATTLESTRINGS_COUNT                      594
+
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.

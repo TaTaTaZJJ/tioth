@@ -7557,6 +7557,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (moveType == TYPE_NORMAL && gBattleStruct->ateBoost[battlerAtk])
             MulModifier(&modifier, UQ_4_12(1.2));
         break;
+    case ABILITY_FIRE_SKIN:
+        if (moveType == TYPE_FIRE && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
     case ABILITY_PUNK_ROCK:
         if (gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(1.3));
