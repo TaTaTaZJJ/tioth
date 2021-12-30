@@ -596,7 +596,7 @@ const struct PokedexEntry gPokedexEntries[] =
                 },
         [NATIONAL_DEX_PSYDUCK] =
                 {
-                        .categoryName = _("鸭"),
+                        .categoryName = _("鸭子"),
                         .height = 8,
                         .weight = 196,
                         .description = gPsyduckPokedexText,
