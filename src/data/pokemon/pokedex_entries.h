@@ -8813,7 +8813,7 @@ const struct PokedexEntry gPokedexEntries[] =
                 },
         [NATIONAL_DEX_MAGEARNA] =
                 {
-                        .categoryName = _("人造"),
+                        .categoryName = _("等离子宝可梦"),
                         .height = 10,
                         .weight = 805,
                         .description = gMagearnaPokedexText,

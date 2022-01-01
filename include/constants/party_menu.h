@@ -40,7 +40,17 @@
 #define TUTOR_MOVE_THUNDER_PUNCH   27
 #define TUTOR_MOVE_FIRE_PUNCH      28
 #define TUTOR_MOVE_FURY_CUTTER     29
-#define TUTOR_MOVE_COUNT           30
+#define TUTOR_MOVE_DUAL_WINGBEAT   30
+#define TUTOR_MOVE_TRIPLE_AXEL     31
+#define TUTOR_MOVE_UPROAR          32
+#define TUTOR_MOVE_AQUA_TAIL       33
+#define TUTOR_MOVE_DEFOG           34
+#define TUTOR_MOVE_THUNDERBOLT     35
+#define TUTOR_MOVE_ELECTROWEB      36
+#define TUTOR_MOVE_MAGIC_ROOM      37
+#define TUTOR_MOVE_WONDER_ROOM     38
+#define TUTOR_MOVE_STEEL_ROLLER    39
+#define TUTOR_MOVE_COUNT           40
 
 #define PARTY_LAYOUT_SINGLE          0
 #define PARTY_LAYOUT_DOUBLE          1

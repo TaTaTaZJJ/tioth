@@ -9434,12 +9434,13 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SWORDS_DANCE)
                                             | TUTOR(MOVE_THUNDER_WAVE)),
 
-    [SPECIES_MAGEARNA]      = TUTOR_LEARNSET(TUTOR(MOVE_DEFENSE_CURL)
+    [SPECIES_MAGEARNA]      = TUTOR_LEARNSET(TUTOR(MOVE_THUNDERBOLT)
                                             | TUTOR(MOVE_EXPLOSION)
-                                            | TUTOR(MOVE_SNORE)
-                                            | TUTOR(MOVE_SUBSTITUTE)
-                                            | TUTOR(MOVE_SWAGGER)
-                                            | TUTOR(MOVE_THUNDER_WAVE)),
+                                            | TUTOR(MOVE_THUNDER_WAVE)
+                                            | TUTOR(MOVE_ELECTROWEB)
+                                            | TUTOR(MOVE_MAGIC_ROOM)
+                                            | TUTOR(MOVE_WONDER_ROOM)
+                                            | TUTOR(MOVE_STEEL_ROLLER)),
 
     [SPECIES_MARSHADOW]     = TUTOR_LEARNSET(TUTOR(MOVE_COUNTER)
                                             | TUTOR(MOVE_FIRE_PUNCH)

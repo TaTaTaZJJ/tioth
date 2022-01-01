@@ -22648,17 +22648,19 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MAGEARNA] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 95,
-        .baseDefense   = 115,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 130,
-        .baseSpDefense = 115,
+        .baseHP        = 50,
+        .baseAttack    = 50,
+        .baseDefense   = 77,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 77,
+        .baseSpDefense = 91,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_STEEL,
         .catchRate = 3,
         .expYield = 270,
-        .evYield_SpAttack  = 3,
+        .evYield_HP = 1,
+        .evYield_SpAttack  = 1,
+        .evYield_Speed = 1
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 120,
         .friendship = 0,
@@ -22666,9 +22668,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SOUL_HEART, ABILITY_NONE},
+            .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
+            .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -33286,7 +33288,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpDefense = 115,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_FAIRY,
-        .catchRate = 3,
+        .catchRate = 45,
         .expYield = 270,
         .evYield_SpAttack  = 3,
         .genderRatio = MON_GENDERLESS,
