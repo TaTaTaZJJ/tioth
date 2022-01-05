@@ -7440,6 +7440,54 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (moveType == TYPE_FIRE && gBattleStruct->ateBoost[battlerAtk])
             MulModifier(&modifier, UQ_4_12(1.2));
         break;
+    case ABILITY_WATER_SKIN:
+        if (moveType == TYPE_WATER && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_GRASS_SKIN:
+        if (moveType == TYPE_GRASS && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_PSYCHIC_SKIN:
+        if (moveType == TYPE_PSYCHIC && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_ROCK_SKIN:
+        if (moveType == TYPE_ROCK && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_GHOST_SKIN:
+        if (moveType == TYPE_GHOST && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_FIGHTING_SKIN:
+        if (moveType == TYPE_FIGHTING && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_GROUND_SKIN:
+        if (moveType == TYPE_GROUND && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_STEEL_SKIN:
+        if (moveType == TYPE_STEEL && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_POISON_SKIN:
+        if (moveType == TYPE_POISON && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_DRAGON_SKIN:
+        if (moveType == TYPE_DRAGON && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_BUG_SKIN:
+        if (moveType == TYPE_BUG && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+    case ABILITY_DARK_SKIN:
+        if (moveType == TYPE_DARK && gBattleStruct->ateBoost[battlerAtk])
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
     case ABILITY_PUNK_ROCK:
         if (gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(1.3));
