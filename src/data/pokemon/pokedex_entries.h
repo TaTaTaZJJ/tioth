@@ -1784,7 +1784,7 @@ const struct PokedexEntry gPokedexEntries[] =
                 },
         [NATIONAL_DEX_FURRET] =
                 {
-                        .categoryName = _("长身"),
+                        .categoryName = _("长躯干"),
                         .height = 18,
                         .weight = 325,
                         .description = gFurretPokedexText,
@@ -6153,7 +6153,7 @@ const struct PokedexEntry gPokedexEntries[] =
                 {
                         .categoryName = _("蜕皮"),
                         .height = 6,
-                        .weight = 118,
+                        .weight = 119,
                         .description = gScraggyPokedexText,
                         .pokemonScale = 345,
                         .pokemonOffset = 17,
@@ -6163,8 +6163,8 @@ const struct PokedexEntry gPokedexEntries[] =
         [NATIONAL_DEX_SCRAFTY] =
                 {
                         .categoryName = _("恶党"),
-                        .height = 11,
-                        .weight = 300,
+                        .height = 12,
+                        .weight = 309,
                         .description = gScraftyPokedexText,
                         .pokemonScale = 280,
                         .pokemonOffset = 6,
@@ -9309,8 +9309,8 @@ const struct PokedexEntry gPokedexEntries[] =
         [NATIONAL_DEX_ARROKUDA] =
                 {
                         .categoryName = _("突击"),
-                        .height = 7,
-                        .weight = 69,
+                        .height = 5,
+                        .weight = 10,
                         .description = gArrokudaPokedexText,
                         .pokemonScale = 356,
                         .pokemonOffset = 17,
@@ -9320,8 +9320,8 @@ const struct PokedexEntry gPokedexEntries[] =
         [NATIONAL_DEX_BARRASKEWDA] =
                 {
                         .categoryName = _("穿刺"),
-                        .height = 7,
-                        .weight = 69,
+                        .height = 13,
+                        .weight = 300,
                         .description = gBarraskewdaPokedexText,
                         .pokemonScale = 356,
                         .pokemonOffset = 17,
