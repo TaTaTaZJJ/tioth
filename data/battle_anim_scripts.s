@@ -776,6 +776,7 @@ gBattleAnims_Moves::
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_SWELLHEAD_PUNISHMENT @亢龙有悔
+	.4byte Move_TOXIC_DOOM @毒爆
 	.4byte Move_EERIE_SPELL
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -24505,3 +24506,8 @@ Special_CriticalCaptureBallThrow:
 @亢龙有悔
 Move_SWELLHEAD_PUNISHMENT:
 	end
+
+@毒爆
+Move_TOXIC_DOOM:
+	end
+

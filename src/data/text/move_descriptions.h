@@ -958,7 +958,7 @@ static const u8 sStockpileDescription[] = _(
 
 static const u8 sSpitUpDescription[] = _(
     "Releases stockpiled power\n"
-    "(the more the better).");
+    "(the more the better)."); //TODO 翻译缺漏
 
 static const u8 sSwallowDescription[] = _(
 "吞入积蓄的力量，能回复HP。");
@@ -2855,6 +2855,10 @@ static const u8 sSWELLHEAD_PUNISHMENTDescription[] = _(
 "降龙十八掌第一式。\n"
 "使对手被追加龙属性。");
 
+static const u8 sTOXIC_DOOMDescription[] = _(
+"释放自身所有毒素，\n"
+"但之后会无法战斗。");
+
 static const u8 sNotDoneYetDescription[] = _(
 "技能效果未实装。");
 
@@ -3620,4 +3624,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 
     //TIOTH
     [MOVE_SWELLHEAD_PUNISHMENT - 1] = sSWELLHEAD_PUNISHMENTDescription,
+    [MOVE_TOXIC_DOOM - 1] = sTOXIC_DOOMDescription,
 };

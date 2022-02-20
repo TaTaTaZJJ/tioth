@@ -758,4 +758,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_EERIE_SPELL] = _("诡异咒语"),
     //TIOTH
     [MOVE_SWELLHEAD_PUNISHMENT] = _("亢龙有悔"),
+    [MOVE_TOXIC_DOOM] = _("毒爆"),
 };
