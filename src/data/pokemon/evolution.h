@@ -483,7 +483,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_PONYTA_GALARIAN]       = {{EVO_LEVEL, 40, SPECIES_RAPIDASH_GALARIAN}},
     [SPECIES_SLOWPOKE_GALARIAN]     = {{EVO_ITEM, ITEM_NONE, SPECIES_SLOWBRO_GALARIAN},
                                        {EVO_ITEM, ITEM_NONE, SPECIES_SLOWKING_GALARIAN}},
-    [SPECIES_FARFETCHD_GALARIAN]    = {{EVO_LEVEL, 0, SPECIES_SIRFETCHD}},
     [SPECIES_MR_MIME_GALARIAN]      = {{EVO_LEVEL, 42, SPECIES_MR_RIME}},
     [SPECIES_CORSOLA_GALARIAN]      = {{EVO_LEVEL, 38, SPECIES_CURSOLA}},
     [SPECIES_ZIGZAGOON_GALARIAN]    = {{EVO_LEVEL, 20, SPECIES_LINOONE_GALARIAN}},
@@ -546,9 +545,9 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}},
     //黏美儿（天气进化范例，目前应该仅有这只怪判断天气，如果要新增新的天气进化方式需要改程序）                                   
     [SPECIES_SLIGGOO]               = {{EVO_LEVEL_RAIN, 50, SPECIES_GOODRA}},
-    //土居忍者（特殊进化方式，该系统可以保留并用在原创上）
-    [SPECIES_NINCADA]               = {{EVO_LEVEL_NINJASK, 20, SPECIES_NINJASK},
-                                       {EVO_LEVEL_SHEDINJA, 20, SPECIES_SHEDINJA}},
+    //大葱鸭进化葱游兵，生成葱音未来（土居忍者特殊进化方式，生成鬼蝉）
+    [SPECIES_FARFETCHD]              = {{EVO_LEVEL_NINJASK, 25, SPECIES_SIRFETCHD},
+                                       {EVO_LEVEL_SHEDINJA, 25, SPECIES_SHEDINJA}}, //为了防止语言问题，这里直接替换鬼蝉数据为葱音未来，定义不修改
     //奇鲁莉安（性别+道具进化方式）
     [SPECIES_KIRLIA]                = {{EVO_LEVEL, 30, SPECIES_GARDEVOIR},
                                        {EVO_ITEM_MALE, ITEM_DAWN_STONE, SPECIES_GALLADE}},//雄性道具进化（雌性改成FEMALE，雪童子有雌性进化），道具，进化后形态
