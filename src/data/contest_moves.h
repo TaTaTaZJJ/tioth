@@ -4533,6 +4533,14 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .comboMoves = {0}
     },
 
+    [MOVE_SWELLHEAD_PUNISHMENT] =
+    {
+        .effect = CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS,
+        .contestCategory = CONTEST_CATEGORY_COOL,
+        .comboStarterId = 0,
+        .comboMoves = {0}
+    },
+
     [MOVE_NOBLE_ROAR] =
     {
         .effect = CONTEST_EFFECT_BETTER_IF_LAST,
