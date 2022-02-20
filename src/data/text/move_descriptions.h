@@ -954,14 +954,16 @@ static const u8 sUproarDescription[] = _(
 "双方都无法睡着。");
 
 static const u8 sStockpileDescription[] = _(
+"提高自己防御和特防，\n"
 "最大能蓄力3次。");
 
 static const u8 sSpitUpDescription[] = _(
-    "Releases stockpiled power\n"
-    "(the more the better)."); //TODO 翻译缺漏
+"喷出积蓄的能量\n"
+"积蓄越多威力越大。");
 
 static const u8 sSwallowDescription[] = _(
-"吞入积蓄的力量，能回复HP。");
+"吞入积蓄的力量，\n"
+"能回复HP。");
 
 static const u8 sHeatWaveDescription[] = _(
 "用灼热的气息吹向对方，\n"
