@@ -2851,6 +2851,10 @@ static const u8 sEERIE_SPELLDescription[] = _(
 "用强大的精神力量攻击。\n"
 "对手最后用的招式减少3PP。");
 
+static const u8 sSWELLHEAD_PUNISHMENTDescription[] = _(
+"降龙十八掌第一式。\n"
+"使对手被追加龙属性。");
+
 static const u8 sNotDoneYetDescription[] = _(
 "技能效果未实装。");
 
@@ -3613,4 +3617,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_GLACIAL_LANCE - 1] = sGLACIAL_LANCEDescription,
     [MOVE_ASTRAL_BARRAGE - 1] = sASTRAL_BARRAGEDescription,
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
+
+    //TIOTH
+    [MOVE_SWELLHEAD_PUNISHMENT - 1] = sSWELLHEAD_PUNISHMENTDescription,
 };

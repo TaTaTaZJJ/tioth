@@ -2205,6 +2205,10 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
                 if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS) || PartnerMoveIsSameAsAttacker(AI_DATA->battlerAtkPartner, battlerDef, move, AI_DATA->partnerMove))
                     score -= 10;
                 break;
+            case MOVE_SWELLHEAD_PUNISHMENT:
+                if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_DRAGON) || PartnerMoveIsSameAsAttacker(AI_DATA->battlerAtkPartner, battlerDef, move, AI_DATA->partnerMove))
+                    score -= 10;
+                break;
             }
             break;
         case EFFECT_HIT_ENEMY_HEAL_ALLY:    // pollen puff

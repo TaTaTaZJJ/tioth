@@ -756,4 +756,6 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_GLACIAL_LANCE] = _("雪矛"),
     [MOVE_ASTRAL_BARRAGE] = _("星碎"),
     [MOVE_EERIE_SPELL] = _("诡异咒语"),
+    //TIOTH
+    [MOVE_SWELLHEAD_PUNISHMENT] = _("亢龙有悔"),
 };

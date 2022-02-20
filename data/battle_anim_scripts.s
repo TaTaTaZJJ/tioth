@@ -775,6 +775,7 @@ gBattleAnims_Moves::
 	.4byte Move_THUNDEROUS_KICK
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
+	.4byte Move_SWELLHEAD_PUNISHMENT @亢龙有悔
 	.4byte Move_EERIE_SPELL
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -24500,3 +24501,7 @@ Special_CriticalCaptureBallThrow:
 	createvisualtask AnimTask_IsBallBlockedByTrainer, 2
 	jumpreteq -1, BallThrowTrainerBlock
 	goto BallThrowEnd
+
+@亢龙有悔
+Move_SWELLHEAD_PUNISHMENT:
+	end
