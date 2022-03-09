@@ -1091,3 +1091,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/BLACK_MAP/scripts.inc"
 
 	.include "data/maps/POLISH_OFFICE/scripts.inc"
+
+	.include "data/maps/RockTZT/scripts.inc"
+
+	.include "data/maps/GrassTZT/scripts.inc"

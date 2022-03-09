@@ -2,6 +2,7 @@
   "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_Test",
+    "TiothMapGroup_Rogue",
     "TiothMapGroup_Indoor",
     "TiothMapGroup_IndoorDream",
     "TiothMapGroup_CradleHill",
@@ -44,6 +45,10 @@
     "SpawnPlace",
     "SpawnPlaceMirror",
     "BLACK_MAP"
+  ],
+  "TiothMapGroup_Rogue": [
+    "RockTZT",
+    "GrassTZT"
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",

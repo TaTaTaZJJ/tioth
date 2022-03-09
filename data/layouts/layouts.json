@@ -4540,6 +4540,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/POLISH_OFFICE/border.bin",
       "blockdata_filepath": "data/layouts/POLISH_OFFICE/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT",
+      "name": "RockTZT_Layout",
+      "width": 9,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/RockTZT/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT",
+      "name": "GrassTZT_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/GrassTZT/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT/map.bin"
     }
   ]
 }
