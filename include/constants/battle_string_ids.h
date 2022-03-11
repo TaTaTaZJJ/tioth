@@ -644,6 +644,8 @@
 #define B_MSG_TURN1_PHANTOM_FORCE  8
 #define B_MSG_TURN1_GEOMANCY       9
 #define B_MSG_TURN1_FREEZE_SHOCK   10
+#define B_MSG_TURN1_ELYTRA_ATTACK  11
+#define B_MSG_TURN1_ICE_BURN       12
 
 // gMoveWeatherChangeStringIds
 #define B_MSG_STARTED_RAIN      0

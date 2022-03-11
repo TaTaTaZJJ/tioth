@@ -679,6 +679,8 @@ static const u8 sText_PkmnAbsorbingPower[] = _("{B_ATK_NAME_WITH_PREFIX}正在�
 static const u8 sText_NoOneWillBeAbleToRun[] = _("在下一回合中\n没有宝可梦能够逃跑！");
 static const u8 sText_DestinyKnotActivates[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} 爱上了\n因为 {B_LAST_ITEM}!");
 static const u8 sText_CloakedInAFreezingLight[] = _("{B_ATK_NAME_WITH_PREFIX} 被冷光\n包围了!");
+static const u8 sText_ElytraAttackString[] = _("{B_ATK_NAME_WITH_PREFIX} 蜷起了\n鞘翅！");
+static const u8 sText_IceBurnString[] = _("{B_ATK_NAME_WITH_PREFIX} 被冰冻的\n空气包围了!");
 static const u8 sText_StatWasNotLowered[] = _("{B_DEF_NAME_WITH_PREFIX}的 {B_BUFF1}\n没有被降低!");
 static const u8 sText_AuraFlaredToLife[] = _("{B_DEF_NAME_WITH_PREFIX}灵光焕发!");
 static const u8 sText_AirLockActivates[] = _("天气带来的效果\n消失了。");
@@ -730,6 +732,8 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_FETCHEDPOKEBALL - 12] = sText_FetchedPokeBall,
     [STRINGID_STATWASNOTLOWERED - 12] = sText_StatWasNotLowered,
     [STRINGID_CLOAKEDINAFREEZINGLIGHT - 12] = sText_CloakedInAFreezingLight,
+    [STRINGID_ELYTRAATTACKSTRING - 12] = sText_ElytraAttackString,
+    [STRINGID_ICEBURNSTRING - 12] = sText_IceBurnString,
     [STRINGID_DESTINYKNOTACTIVATES - 12] = sText_DestinyKnotActivates,
     [STRINGID_NOONEWILLBEABLETORUNAWAY - 12] = sText_NoOneWillBeAbleToRun,
     [STRINGID_PKNMABSORBINGPOWER - 12] = sText_PkmnAbsorbingPower,
@@ -1502,6 +1506,8 @@ const u16 gFirstTurnOfTwoStringIds[] =
     [B_MSG_TURN1_PHANTOM_FORCE] = STRINGID_VANISHEDINSTANTLY,
     [B_MSG_TURN1_GEOMANCY]      = STRINGID_PKNMABSORBINGPOWER,
     [B_MSG_TURN1_FREEZE_SHOCK]  = STRINGID_CLOAKEDINAFREEZINGLIGHT,
+    [B_MSG_TURN1_ELYTRA_ATTACK] = STRINGID_ELYTRAATTACKSTRING,
+    [B_MSG_TURN1_ICE_BURN]      = STRINGID_ICEBURNSTRING,
 };
 
 // Index copied from move's index in gTrappingMoves

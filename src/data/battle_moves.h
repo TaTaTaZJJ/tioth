@@ -27,6 +27,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
+    //tioth 锹角一击
+    [MOVE_ONE_SHOT] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 100,
+        .type = TYPE_BUG,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+    },
 
     [MOVE_KARATE_CHOP] =
     {
@@ -194,6 +208,24 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .split = SPLIT_SPECIAL,
+    },
+    //tioth鞘翅猛攻
+    [MOVE_ELYTRA_ATTACK] =
+    {
+        #if B_UPDATED_MOVE_DATA >= GEN_4
+            .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT,
+        #else
+            .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        #endif
+        .effect = EFFECT_TWO_TURNS_ATTACK,
+        .power = 140,
+        .type = TYPE_BUG,
+        .accuracy = 90,
+        .pp = 5,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
@@ -7324,18 +7356,24 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_MAGMA_STORM] =
     {
-        #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 100,
-            .accuracy = 75,
-        #elif B_UPDATED_MOVE_DATA == GEN_5
-            .power = 120,
-            .accuracy = 75,
-        #else
-            .power = 120,
-            .accuracy = 70,
-        #endif
+        .power = 100,
+        .accuracy = 75,
         .effect = EFFECT_TRAP,
         .type = TYPE_FIRE,
+        .pp = 5,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .split = SPLIT_SPECIAL,
+    },
+    //TIOTH超级锹击
+    [MOVE_HYPER_MUTEKI] =
+    {
+        .power = 100,
+        .accuracy = 75,
+        .effect = EFFECT_TRAP,
+        .type = TYPE_BUG,
         .pp = 5,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
@@ -8909,7 +8947,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
         .argument = TYPE_GHOST,
     },
-
+    //TIOTH 亢龙有悔
     [MOVE_SWELLHEAD_PUNISHMENT] =
     {
         .effect = EFFECT_THIRD_TYPE,
@@ -11316,12 +11354,26 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-
+    //TIOTH 毒爆
     [MOVE_TOXIC_DOOM] =
     {
-        .effect = EFFECT_EXPLOSION,
+        .effect = EFFECT_EXPLOSION, 
         .power = 180,
         .type = TYPE_POISON,
+        .accuracy = 100,
+        .pp = 5,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+    },
+    //TIOTH 体腺炸裂
+    [MOVE_GLAND_EXPLOSION] =
+    {
+        .effect = EFFECT_EXPLOSION, 
+        .power = 180,
+        .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 5,
         .secondaryEffectChance = 0,

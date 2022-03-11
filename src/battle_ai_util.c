@@ -442,6 +442,7 @@ static const u16 sInstructBannedMoves[] =
     MOVE_SKY_DROP,
     MOVE_SOLAR_BEAM,
     MOVE_SOLAR_BLADE,
+    MOVE_ELYTRA_ATTACK,
 };
 
 static const u16 sRechargeMoves[] =

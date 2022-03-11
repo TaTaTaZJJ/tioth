@@ -777,6 +777,9 @@ gBattleAnims_Moves::
 	.4byte Move_ASTRAL_BARRAGE
 	.4byte Move_SWELLHEAD_PUNISHMENT @亢龙有悔
 	.4byte Move_TOXIC_DOOM @毒爆
+	.4byte Move_GLAND_EXPLOSION @腺体炸裂
+	.4byte Move_HYPER_MUTEKI @超级锹击
+	.4byte Move_ONE_SHOT @锹角一击
 	.4byte Move_EERIE_SPELL
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -24511,3 +24514,14 @@ Move_SWELLHEAD_PUNISHMENT:
 Move_TOXIC_DOOM:
 	end
 
+@体腺炸裂
+Move_GLAND_EXPLOSION:
+	end
+
+@超级锹击
+Move_HYPER_MUTEKI:
+	end
+
+@锹角一击
+Move_ONE_SHOT:
+	end

@@ -51,6 +51,14 @@ static const u8 sRazorWindDescription[] = _(
 "这一回合制造一个风之刀阵，\n"
 "下一回合攻击。");
 
+static const u8 sElytraAttackDescription[] = _(
+"这一回合蜷缩鞘翅，\n"
+"下一回合攻击。");
+
+static const u8 sOneShotDescription[] = _(
+"使用坚硬的角，\n"
+"叉起对手。");
+
 static const u8 sSwordsDanceDescription[] = _(
 "跳战斗之舞，\n"
 "大幅提升攻击力。");
@@ -1735,6 +1743,10 @@ static const u8 sMAGMA_STORMDescription[] = _(
 "将对手困在燃烧的火焰中，\n"
 "在2~5回合内进行攻击。");
 
+static const u8 sHYPER_MUTEKIDescription[] = _(
+"利用强有力双钳夹住对手，\n"
+"在2~5回合内进行攻击。");
+
 static const u8 sDARK_VOIDDescription[] = _(
 "将对手强制拖入黑暗的世界，\n"
 "从而让对手陷入睡眠状态。");
@@ -2861,6 +2873,10 @@ static const u8 sTOXIC_DOOMDescription[] = _(
 "释放自身所有毒素，\n"
 "但之后会无法战斗。");
 
+static const u8 sGLAND_EXPLOSIONDescription[] = _(
+"引爆体内的爆腺，\n"
+"但之后会无法战斗。");
+
 static const u8 sNotDoneYetDescription[] = _(
 "技能效果未实装。");
 
@@ -2880,6 +2896,8 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_VISE_GRIP - 1] = sViseGripDescription,
     [MOVE_GUILLOTINE - 1] = sGuillotineDescription,
     [MOVE_RAZOR_WIND - 1] = sRazorWindDescription,
+    [MOVE_ELYTRA_ATTACK - 1] = sElytraAttackDescription,
+    [MOVE_ONE_SHOT - 1] = sOneShotDescription,
     [MOVE_SWORDS_DANCE - 1] = sSwordsDanceDescription,
     [MOVE_CUT - 1] = sCutDescription,
     [MOVE_GUST - 1] = sGustDescription,
@@ -3627,4 +3645,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     //TIOTH
     [MOVE_SWELLHEAD_PUNISHMENT - 1] = sSWELLHEAD_PUNISHMENTDescription,
     [MOVE_TOXIC_DOOM - 1] = sTOXIC_DOOMDescription,
+    [MOVE_GLAND_EXPLOSION - 1] = sGLAND_EXPLOSIONDescription,
+    [MOVE_HYPER_MUTEKI - 1] = sHYPER_MUTEKIDescription,
 };

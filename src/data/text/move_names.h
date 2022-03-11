@@ -759,4 +759,8 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     //TIOTH
     [MOVE_SWELLHEAD_PUNISHMENT] = _("亢龙有悔"),
     [MOVE_TOXIC_DOOM] = _("毒爆"),
+    [MOVE_GLAND_EXPLOSION] = _("体腺炸裂"),
+    [MOVE_HYPER_MUTEKI] = _("超级锹击"),
+    [MOVE_ELYTRA_ATTACK] = _("鞘翅猛攻"),
+    [MOVE_ONE_SHOT] = _("锹角一击"),
 };
