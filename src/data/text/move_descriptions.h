@@ -1911,6 +1911,10 @@ static const u8 sSCALDDescription[] = _(
 "喷射煮得翻滚的开水攻击。\n"
 "有时会让对手陷入灼伤状态。");
 
+static const u8 sMOLOTOVDescription[] = _(
+"投掷莫洛托夫鸡尾酒瓶。\n"
+"一定会让对手陷入灼伤状态。");
+
 static const u8 sSHELL_SMASHDescription[] = _(
 "破壳降低自己的防御和特防，\n"
 "大幅提高攻击、特攻和速度。");
@@ -3388,6 +3392,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_QUICK_GUARD - 1] = sQUICK_GUARDDescription,
     [MOVE_ALLY_SWITCH - 1] = sALLY_SWITCHDescription,
     [MOVE_SCALD - 1] = sSCALDDescription,
+    [MOVE_MOLOTOV - 1] = sMOLOTOVDescription,
     [MOVE_SHELL_SMASH - 1] = sSHELL_SMASHDescription,
     [MOVE_HEAL_PULSE - 1] = sHEAL_PULSEDescription,
     [MOVE_HEX - 1] = sHEXDescription,

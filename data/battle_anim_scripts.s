@@ -780,6 +780,7 @@ gBattleAnims_Moves::
 	.4byte Move_GLAND_EXPLOSION @腺体炸裂
 	.4byte Move_HYPER_MUTEKI @超级锹击
 	.4byte Move_ONE_SHOT @锹角一击
+	.4byte Move_MOLOTOV @莫洛托夫
 	.4byte Move_EERIE_SPELL
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -24524,4 +24525,8 @@ Move_HYPER_MUTEKI:
 
 @锹角一击
 Move_ONE_SHOT:
+	end
+
+@莫洛托夫
+Move_MOLOTOV:
 	end

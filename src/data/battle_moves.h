@@ -7984,6 +7984,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_THAW_USER,
         .split = SPLIT_SPECIAL,
     },
+    //tioth莫洛托夫
+    [MOVE_MOLOTOV] =
+    {
+        .effect = EFFECT_SCALD,
+        .power = 100,
+        .type = TYPE_WATER,
+        .accuracy = 70,
+        .pp = 5,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_THAW_USER,
+        .split = SPLIT_SPECIAL,
+    },
 
     [MOVE_SHELL_SMASH] =
     {

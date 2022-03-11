@@ -763,4 +763,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_HYPER_MUTEKI] = _("超级锹击"),
     [MOVE_ELYTRA_ATTACK] = _("鞘翅猛攻"),
     [MOVE_ONE_SHOT] = _("锹角一击"),
+    [MOVE_MOLOTOV] = _("莫洛托夫"),
 };
