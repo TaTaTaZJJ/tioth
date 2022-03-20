@@ -590,10 +590,12 @@
 #define STRINGID_DRAGONAURAENTERS                584
 #define STRINGID_ICEAURAENTERS                   585
 #define STRINGID_FIGHTINGAURAENTERS              586
+#define STRINGID_ELYTRAATTACKSTRING              587
+#define STRINGID_ICEBURNSTRING                   588
 
 
 
-#define BATTLESTRINGS_COUNT                      587
+#define BATTLESTRINGS_COUNT                      589
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
