@@ -48,7 +48,10 @@
   ],
   "TiothMapGroup_Rogue": [
     "RockTZT",
-    "GrassTZT"
+    "GrassTZT",
+    "RockTZT_0",
+    "RockTZT_1",
+    "RockTZT_2"
   ],
   "TiothMapGroup_Indoor": [
     "TiothMap_Indoor0",
@@ -56,7 +59,8 @@
     "POLISH_OFFICE"
   ],
   "TiothMapGroup_IndoorDream": [
-    "TiothMap_IndoorDream0"
+    "TiothMap_IndoorDream0",
+    "death_room"
   ],
   "TiothMapGroup_CradleHill": [
     "ylsq_r1_chun_3_00",

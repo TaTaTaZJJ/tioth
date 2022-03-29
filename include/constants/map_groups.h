@@ -11,8 +11,11 @@
 #define MAP_BLACK_MAP          (2 | (0 << 8))
 
 // TiothMapGroup_Rogue
-#define MAP_ROCK_TZT  (0 | (1 << 8))
-#define MAP_GRASS_TZT (1 | (1 << 8))
+#define MAP_ROCK_TZT   (0 | (1 << 8))
+#define MAP_GRASS_TZT  (1 | (1 << 8))
+#define MAP_ROCK_TZT_0 (2 | (1 << 8))
+#define MAP_ROCK_TZT_1 (3 | (1 << 8))
+#define MAP_ROCK_TZT_2 (4 | (1 << 8))
 
 // TiothMapGroup_Indoor
 #define MAP_TIOTH_MAP_INDOOR0 (0 | (2 << 8))
@@ -21,6 +24,7 @@
 
 // TiothMapGroup_IndoorDream
 #define MAP_TIOTH_MAP_INDOOR_DREAM0 (0 | (3 << 8))
+#define MAP_DEATH_ROOM              (1 | (3 << 8))
 
 // TiothMapGroup_CradleHill
 #define MAP_YLSQ_R1_CHUN_3_00 (0 | (4 << 8))
