@@ -4600,6 +4600,36 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RockTZT_2/border.bin",
       "blockdata_filepath": "data/layouts/RockTZT_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_3",
+      "name": "RockTZT_3_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_3/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_4",
+      "name": "RockTZT_4_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_4/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_5",
+      "name": "RockTZT_5_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_5/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_5/map.bin"
     }
   ]
 }

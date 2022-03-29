@@ -16,6 +16,9 @@
 #define MAP_ROCK_TZT_0 (2 | (1 << 8))
 #define MAP_ROCK_TZT_1 (3 | (1 << 8))
 #define MAP_ROCK_TZT_2 (4 | (1 << 8))
+#define MAP_ROCK_TZT_3 (5 | (1 << 8))
+#define MAP_ROCK_TZT_4 (6 | (1 << 8))
+#define MAP_ROCK_TZT_5 (7 | (1 << 8))
 
 // TiothMapGroup_Indoor
 #define MAP_TIOTH_MAP_INDOOR0 (0 | (2 << 8))
