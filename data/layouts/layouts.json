@@ -4544,10 +4544,10 @@
     {
       "id": "LAYOUT_ROCK_TZT",
       "name": "RockTZT_Layout",
-      "width": 9,
-      "height": 33,
+      "width": 30,
+      "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RockTZT/border.bin",
       "blockdata_filepath": "data/layouts/RockTZT/map.bin"
     },
@@ -4630,6 +4630,46 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RockTZT_5/border.bin",
       "blockdata_filepath": "data/layouts/RockTZT_5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_6",
+      "name": "RockTZT_6_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_6/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_6/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_7",
+      "name": "RockTZT_7_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_7/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_7/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_8",
+      "name": "RockTZT_8_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_8/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_8/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCK_TZT_9",
+      "name": "RockTZT_9_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RockTZT_9/border.bin",
+      "blockdata_filepath": "data/layouts/RockTZT_9/map.bin"
     }
   ]
 }
