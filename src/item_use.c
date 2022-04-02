@@ -955,7 +955,7 @@ void ItemUseInBattle_PokeBall(u8 taskId)
     if (IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT))
         && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT))) // There are two present pokemon.
     {
-        static const u8 textCantThrowPokeBall[] = _("Cannot throw a ball!\nThere are two pokemon out there!\p");
+        static const u8 textCantThrowPokeBall[] = _("不能丢球！\n这里有两只宝可梦！\p");
 
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, 1, textCantThrowPokeBall, CloseItemMessage);
@@ -965,7 +965,7 @@ void ItemUseInBattle_PokeBall(u8 taskId)
     else if (gBattlerInMenuId == GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT)
              && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_PLAYER_LEFT))) // Attempting to throw a ball with the second pokemon while both are alive.
     {
-        static const u8 textCantThrowPokeBall[] = _("Cannot throw a ball!\p");
+        static const u8 textCantThrowPokeBall[] = _("不能丢球！\p");
 
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, 1, textCantThrowPokeBall, CloseItemMessage);
