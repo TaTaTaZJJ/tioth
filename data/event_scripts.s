@@ -1095,3 +1095,17 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/RockTZT/scripts.inc"
 
 	.include "data/maps/GrassTZT/scripts.inc"
+
+	.include "data/maps/death_room/scripts.inc"
+
+	.include "data/maps/RockTZT_0/scripts.inc"
+
+	.include "data/maps/RockTZT_1/scripts.inc"
+
+	.include "data/maps/RockTZT_2/scripts.inc"
+
+	.include "data/maps/RockTZT_3/scripts.inc"
+
+	.include "data/maps/RockTZT_4/scripts.inc"
+
+	.include "data/maps/RockTZT_5/scripts.inc"
