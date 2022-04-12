@@ -1109,3 +1109,11 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/RockTZT_4/scripts.inc"
 
 	.include "data/maps/RockTZT_5/scripts.inc"
+
+	.include "data/maps/RockTZT_6/scripts.inc"
+
+	.include "data/maps/RockTZT_7/scripts.inc"
+
+	.include "data/maps/RockTZT_8/scripts.inc"
+
+	.include "data/maps/RockTZT_9/scripts.inc"
