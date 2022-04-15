@@ -4554,10 +4554,10 @@
     {
       "id": "LAYOUT_GRASS_TZT",
       "name": "GrassTZT_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 30,
+      "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GrassTZT/border.bin",
       "blockdata_filepath": "data/layouts/GrassTZT/map.bin"
     },
@@ -4670,6 +4670,106 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RockTZT_9/border.bin",
       "blockdata_filepath": "data/layouts/RockTZT_9/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_0",
+      "name": "GrassTZT_0_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_0/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_0/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_1",
+      "name": "GrassTZT_1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_1/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_2",
+      "name": "GrassTZT_2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_2/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_3",
+      "name": "GrassTZT_3_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_3/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_4",
+      "name": "GrassTZT_4_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_4/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_5",
+      "name": "GrassTZT_5_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_5/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_5/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_6",
+      "name": "GrassTZT_6_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_6/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_6/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_7",
+      "name": "GrassTZT_7_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_7/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_7/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_8",
+      "name": "GrassTZT_8_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_8/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_8/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRASS_TZT_9",
+      "name": "GrassTZT_9_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/GrassTZT_9/border.bin",
+      "blockdata_filepath": "data/layouts/GrassTZT_9/map.bin"
     }
   ]
 }
