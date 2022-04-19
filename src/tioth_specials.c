@@ -43,12 +43,12 @@ static const struct PokemonLoot sPokemonLoots[NUM_SPECIES] =
 
 #define GENERAL_LOOTS_COUNT 3
 
-// 通用掉落道具
+// TODO 通用掉落道具
 static const u16 sGeneralLoots[GENERAL_LOOTS_COUNT] =
     {
-        ITEM_NUGGET,
-        ITEM_POTION,
-        ITEM_RARE_CANDY,
+        ITEM_NUGGET, //1
+        ITEM_POTION, //2
+        ITEM_RARE_CANDY, //3
 };
 
 // 切换性别
