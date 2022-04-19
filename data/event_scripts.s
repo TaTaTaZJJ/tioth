@@ -1117,3 +1117,23 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/RockTZT_8/scripts.inc"
 
 	.include "data/maps/RockTZT_9/scripts.inc"
+
+	.include "data/maps/GrassTZT_0/scripts.inc"
+
+	.include "data/maps/GrassTZT_1/scripts.inc"
+
+	.include "data/maps/GrassTZT_2/scripts.inc"
+
+	.include "data/maps/GrassTZT_3/scripts.inc"
+
+	.include "data/maps/GrassTZT_4/scripts.inc"
+
+	.include "data/maps/GrassTZT_5/scripts.inc"
+
+	.include "data/maps/GrassTZT_6/scripts.inc"
+
+	.include "data/maps/GrassTZT_7/scripts.inc"
+
+	.include "data/maps/GrassTZT_8/scripts.inc"
+
+	.include "data/maps/GrassTZT_9/scripts.inc"
