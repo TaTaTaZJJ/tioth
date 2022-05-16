@@ -760,7 +760,7 @@ s32 AI_CalcDamage(u16 move, u8 battlerAtk, u8 battlerDef)
     switch (gBattleMoves[move].effect)
     {
     case EFFECT_LEVEL_DAMAGE:
-        dmg = gBattleMons[battlerAtk].level;
+        dmg = 50;
         break;
     case EFFECT_DRAGON_RAGE:
         dmg = 40;
